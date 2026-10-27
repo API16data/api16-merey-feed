@@ -1,0 +1,149 @@
+[
+ {
+  "month": "2025-01",
+  "merey": 66.86,
+  "brent": 79.27,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-02",
+  "merey": 64.96,
+  "brent": 75.44,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-03",
+  "merey": 61.1,
+  "brent": 72.73,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-04",
+  "merey": 56.72,
+  "brent": 68.13,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-05",
+  "merey": 51.73,
+  "brent": 64.45,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-06",
+  "merey": 56.86,
+  "brent": 71.44,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-07",
+  "merey": 58.14,
+  "brent": 71.04,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-08",
+  "merey": 56.22,
+  "brent": 67.87,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-09",
+  "merey": 55.29,
+  "brent": 67.99,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-10",
+  "merey": 48.56,
+  "brent": 64.54,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-11",
+  "merey": 47.51,
+  "brent": 63.8,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-12",
+  "merey": 45.5,
+  "brent": 62.54,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2026-01",
+  "merey": 43.21,
+  "brent": 66.6,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2026-02",
+  "merey": 52.31,
+  "brent": 70.89,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/merey-precio-febrero-2026/"
+ },
+ {
+  "month": "2026-03",
+  "merey": 85.92,
+  "brent": 103.13,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://www.revistaeconomia.com/precio-del-petroleo-venezolano-sube-64-en-marzo-y-produccion-supera-109-millones-de-barriles-diarios/"
+ },
+ {
+  "month": "2026-04",
+  "merey": 90.47,
+  "brent": 117.29,
+  "merey_dato": "derivado",
+  "merey_fuente": "https://www.bancaynegocios.com/produccion-petrolera-se-ralentizo-en-junio-para-ubicarse-1-187-000-barriles-diarios/"
+ },
+ {
+  "month": "2026-05",
+  "merey": 82.77,
+  "brent": 107.14,
+  "merey_dato": "derivado",
+  "merey_fuente": "https://www.bancaynegocios.com/produccion-petrolera-se-ralentizo-en-junio-para-ubicarse-1-187-000-barriles-diarios/"
+ },
+ {
+  "month": "2026-06",
+  "merey": 71.13,
+  "brent": 85.4,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://www.bancaynegocios.com/produccion-petrolera-se-ralentizo-en-junio-para-ubicarse-1-187-000-barriles-diarios/"
+ },
+ {
+  "month": "2026-07",
+  "merey": 66.89,
+  "brent": 83.76,
+  "merey_dato": "derivado",
+  "merey_fuente": "https://www.bancaynegocios.com/opep-venezuela-reporto-una-produccion-petrolera-estable-de-1-201-000-barriles-diarios-en-agosto/"
+ },
+ {
+  "month": "2026-08",
+  "merey": 76.82,
+  "brent": 91.08,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://www.bancaynegocios.com/opep-venezuela-reporto-una-produccion-petrolera-estable-de-1-201-000-barriles-diarios-en-agosto/"
+ },
+ {
+  "month": "2026-09",
+  "merey": 93.75,
+  "brent": 114.16,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://www.bancaynegocios.com/venezuela-reporto-a-la-opep-produccion-petrolera-de-1206000-barriles-diarios-en-septiembre/"
+ }
+]

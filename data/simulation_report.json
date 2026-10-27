@@ -1,0 +1,17 @@
+{
+ "network": "hardhat (local simulation, chainId 31337)",
+ "publisher": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+ "contracts": {
+  "MEREY16/USD": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "BRENT/USD": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "SpreadReader": "0x8f86403A4DE0BB5791fa46B8e795C547942fE4Cf"
+ },
+ "months_published": 21,
+ "latest_merey": 93.75,
+ "gas_used": {
+  "deploy": "2478979",
+  "publish_all_months": "8054309",
+  "publish_per_month_both_feeds": "383538"
+ },
+ "readback_matches_input": true
+}

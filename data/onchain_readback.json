@@ -1,0 +1,191 @@
+[
+ {
+  "month": "2025-01",
+  "round": 1,
+  "merey_onchain": 66.86,
+  "brent_onchain": 79.27,
+  "spread_onchain": 12.41,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-02",
+  "round": 2,
+  "merey_onchain": 64.96,
+  "brent_onchain": 75.44,
+  "spread_onchain": 10.48,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-03",
+  "round": 3,
+  "merey_onchain": 61.1,
+  "brent_onchain": 72.73,
+  "spread_onchain": 11.63,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-04",
+  "round": 4,
+  "merey_onchain": 56.72,
+  "brent_onchain": 68.13,
+  "spread_onchain": 11.41,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-05",
+  "round": 5,
+  "merey_onchain": 51.73,
+  "brent_onchain": 64.45,
+  "spread_onchain": 12.72,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-06",
+  "round": 6,
+  "merey_onchain": 56.86,
+  "brent_onchain": 71.44,
+  "spread_onchain": 14.58,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-07",
+  "round": 7,
+  "merey_onchain": 58.14,
+  "brent_onchain": 71.04,
+  "spread_onchain": 12.9,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-08",
+  "round": 8,
+  "merey_onchain": 56.22,
+  "brent_onchain": 67.87,
+  "spread_onchain": 11.65,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-09",
+  "round": 9,
+  "merey_onchain": 55.29,
+  "brent_onchain": 67.99,
+  "spread_onchain": 12.7,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-10",
+  "round": 10,
+  "merey_onchain": 48.56,
+  "brent_onchain": 64.54,
+  "spread_onchain": 15.98,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-11",
+  "round": 11,
+  "merey_onchain": 47.51,
+  "brent_onchain": 63.8,
+  "spread_onchain": 16.29,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2025-12",
+  "round": 12,
+  "merey_onchain": 45.5,
+  "brent_onchain": 62.54,
+  "spread_onchain": 17.04,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2026-01",
+  "round": 13,
+  "merey_onchain": 43.21,
+  "brent_onchain": 66.6,
+  "spread_onchain": 23.39,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-enero-2026/"
+ },
+ {
+  "month": "2026-02",
+  "round": 14,
+  "merey_onchain": 52.31,
+  "brent_onchain": 70.89,
+  "spread_onchain": 18.58,
+  "merey_type": "reported",
+  "merey_source": "https://finanzasdigital.com/merey-precio-febrero-2026/"
+ },
+ {
+  "month": "2026-03",
+  "round": 15,
+  "merey_onchain": 85.92,
+  "brent_onchain": 103.13,
+  "spread_onchain": 17.21,
+  "merey_type": "reported",
+  "merey_source": "https://www.revistaeconomia.com/precio-del-petroleo-venezolano-sube-64-en-marzo-y-produccion-supera-109-millones-de-barriles-diarios/"
+ },
+ {
+  "month": "2026-04",
+  "round": 16,
+  "merey_onchain": 90.47,
+  "brent_onchain": 117.29,
+  "spread_onchain": 26.82,
+  "merey_type": "derived",
+  "merey_source": "https://www.bancaynegocios.com/produccion-petrolera-se-ralentizo-en-junio-para-ubicarse-1-187-000-barriles-diarios/"
+ },
+ {
+  "month": "2026-05",
+  "round": 17,
+  "merey_onchain": 82.77,
+  "brent_onchain": 107.14,
+  "spread_onchain": 24.37,
+  "merey_type": "derived",
+  "merey_source": "https://www.bancaynegocios.com/produccion-petrolera-se-ralentizo-en-junio-para-ubicarse-1-187-000-barriles-diarios/"
+ },
+ {
+  "month": "2026-06",
+  "round": 18,
+  "merey_onchain": 71.13,
+  "brent_onchain": 85.4,
+  "spread_onchain": 14.27,
+  "merey_type": "reported",
+  "merey_source": "https://www.bancaynegocios.com/produccion-petrolera-se-ralentizo-en-junio-para-ubicarse-1-187-000-barriles-diarios/"
+ },
+ {
+  "month": "2026-07",
+  "round": 19,
+  "merey_onchain": 66.89,
+  "brent_onchain": 83.76,
+  "spread_onchain": 16.87,
+  "merey_type": "derived",
+  "merey_source": "https://www.bancaynegocios.com/opep-venezuela-reporto-una-produccion-petrolera-estable-de-1-201-000-barriles-diarios-en-agosto/"
+ },
+ {
+  "month": "2026-08",
+  "round": 20,
+  "merey_onchain": 76.82,
+  "brent_onchain": 91.08,
+  "spread_onchain": 14.26,
+  "merey_type": "reported",
+  "merey_source": "https://www.bancaynegocios.com/opep-venezuela-reporto-una-produccion-petrolera-estable-de-1-201-000-barriles-diarios-en-agosto/"
+ },
+ {
+  "month": "2026-09",
+  "round": 21,
+  "merey_onchain": 93.75,
+  "brent_onchain": 114.16,
+  "spread_onchain": 20.41,
+  "merey_type": "reported",
+  "merey_source": "https://www.bancaynegocios.com/venezuela-reporto-a-la-opep-produccion-petrolera-de-1206000-barriles-diarios-en-septiembre/"
+ }
+]

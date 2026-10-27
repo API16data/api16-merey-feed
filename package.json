@@ -1,0 +1,20 @@
+{
+  "name": "api16-merey-feed",
+  "version": "0.1.0",
+  "description": "API16 — open, on-chain monthly price feed for Venezuelan Merey 16 crude (draft)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "simulate": "hardhat run scripts/simulate.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "chai": "^4.5.0",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17",
+    "solc": "^0.8.24"
+  },
+  "private": true
+}
