@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>API16 · Venezuelan Oil, Verified</title>
+<meta name="description" content="Open, verifiable data on Venezuelan oil: Merey vs Brent, tankers on AIS, U.S. imports by refinery, sanctions and news. Every number with its source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  /* Layout: one centered column of data blocks; navy + amber from the API16 mark. */
+  :root {
+    --ink: #0F1B2D; --amber: #C8892B; --amber-soft: #F3E3C7;
+    --bg: #F6F7F9; --panel: #FFFFFF; --fg: #0F1B2D; --muted: #5A6577; --line: #E1E5EB;
+    --ok: #1E7F4F; --bad: #B23B2E; --grid: #EEF1F4;
+    --display: "Montserrat", "Segoe UI", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0B1320; --panel: #111C2D; --fg: #E7ECF3; --muted: #9AA6B8; --line: #22324A; --grid: #1A2639; --amber-soft: #3A2C14; --ok: #4CC38A; --bad: #F07A6A; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); }
+  a { color: inherit; text-underline-offset: 2px; }
+  a:hover { color: var(--amber); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  header.top { background: var(--ink); color: #fff; position: sticky; top: 0; z-index: 1000; }
+  header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 10px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand svg { width: 30px; height: 30px; }
+  .brand b { font: 800 22px/1 var(--display); letter-spacing: -.01em; }
+  nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; }
+  nav a { text-decoration: none; color: #C9D2DF; }
+  nav a:hover { color: var(--amber); }
+  .hero { padding-block: 32px 8px; display: grid; gap: 10px; }
+  .hero h1 { font: 800 clamp(26px, 4vw, 40px)/1.1 var(--display); margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+  .hero p { margin: 0; color: var(--muted); max-width: 70ch; }
+  .stamp { font: 12px var(--mono); color: var(--muted); }
+  .live-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--ok); margin-right: 6px; animation: pulse 2s infinite; vertical-align: middle; }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+  @media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 12px; padding-block: 16px; }
+  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .kpi .l { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .kpi .v { font: 500 26px/1.2 var(--mono); }
+  .kpi .s { font-size: 12px; color: var(--muted); }
+  .kpi.accent { border-top: 3px solid var(--amber); }
+  section.block { padding-block: 28px; border-top: 1px solid var(--line); }
+  section.block > h2 { font: 700 22px/1.2 var(--display); margin: 0 0 4px; }
+  .lede { color: var(--muted); margin: 0 0 16px; max-width: 75ch; font-size: 14px; }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; min-width: 0; }
+  .card h3 { margin: 0 0 4px; font-size: 15px; font-weight: 600; }
+  .card .note { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+  #map { height: 460px; border-radius: 10px; border: 1px solid var(--line); }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  .tbox { overflow: auto; max-height: 420px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { position: sticky; top: 0; background: var(--panel); text-align: left; font-weight: 600; font-size: 12px; color: var(--muted); padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  td { padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.n, th.n { text-align: right; font-family: var(--mono); white-space: nowrap; }
+  .pill { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .pill.ve { background: var(--amber-soft); border-color: var(--amber); color: var(--fg); }
+  .chart { width: 100%; min-height: 240px; position: relative; }
+  .chart svg { display: block; overflow: visible; }
+  .tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font: 12px var(--mono); box-shadow: 0 4px 16px rgba(0,0,0,.12); white-space: nowrap; z-index: 5; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .chip { font: inherit; font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .chip:focus-visible, .more:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+  .news { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+  .news li { display: grid; grid-template-columns: 112px 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .news time { font: 12px var(--mono); color: var(--muted); }
+  .news a { text-decoration: none; font-weight: 500; }
+  .news a:hover { text-decoration: underline; }
+  .news .meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  @media (max-width: 560px) { .news li { grid-template-columns: 1fr; gap: 2px; } }
+  .more { margin-top: 12px; font: inherit; font-size: 13px; padding: 6px 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer; }
+  .verify { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; }
+  .verify a { display: block; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); text-decoration: none; }
+  .verify a span { display: block; font-size: 12px; color: var(--muted); }
+  code { font: 12px var(--mono); background: var(--grid); padding: 1px 5px; border-radius: 4px; }
+  footer { padding-block: 28px 40px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); }
+  .err { color: var(--bad); font-size: 13px; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="API16 home">
+      <svg viewBox="0 0 240 240" aria-hidden="true"><defs><mask id="mk" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><polyline points="117,166 168.8,74.1" stroke="#000" stroke-width="29" fill="none"/><circle cx="168.8" cy="74.1" r="21" fill="#000"/></mask></defs><path d="M120,8 L54.05,97.28 A82,82 0 1 0 185.95,97.28 Z" fill="none" stroke="#fff" stroke-width="15" mask="url(#mk)"/><polyline points="56,186 94,134 117,166 168.8,74.1" fill="none" stroke="#C8892B" stroke-width="13"/><circle cx="168.8" cy="74.1" r="12" fill="#C8892B"/></svg>
+      <b>API16</b>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#tankers">Tankers</a><a href="#prices">Prices</a><a href="#flows">Flows</a><a href="#news">News</a><a href="#onchain">On-chain</a><a href="#verify">Verify</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Venezuelan oil, verified.</h1>
+    <p>Open data on the barrels behind Venezuela's recovery: Merey vs Brent, tankers on AIS, U.S. imports by refinery, sanctions and news. Every number links to its source. Data first; tokenized products come later, audited and legal.</p>
+    <div class="stamp"><span class="live-dot" aria-hidden="true"></span><span id="stamp">Loading live data…</span></div>
+  </div>
+
+  <div class="kpis" id="kpis">
+    <div class="kpi accent"><span class="l">Merey 16 · <span id="k-mm">—</span></span><span class="v" id="k-merey">—</span><span class="s">USD/bbl, OPEC monthly avg</span></div>
+    <div class="kpi"><span class="l">Brent · <span id="k-bd">—</span></span><span class="v" id="k-brent">—</span><span class="s">USD/bbl, EIA daily spot</span></div>
+    <div class="kpi"><span class="l">Merey discount</span><span class="v" id="k-spread">—</span><span class="s" id="k-spread-s">Brent − Merey, same month</span></div>
+    <div class="kpi"><span class="l">US imports from VE · <span id="k-im">—</span></span><span class="v" id="k-imp">—</span><span class="s">thousand b/d, EIA</span></div>
+    <div class="kpi"><span class="l">Tankers · last scan</span><span class="v" id="k-tank">—</span><span class="s" id="k-tank-s">AIS, Venezuela + ABC + US Gulf</span></div>
+  </div>
+
+  <section class="block" id="tankers">
+    <h2>Tankers on AIS</h2>
+    <p class="lede">Tankers seen in the latest AIS scan (every hour, 10 minutes of listening). Amber = linked to Venezuela: seen in Venezuelan or ABC-island waters, or declaring a Venezuelan port as destination. Links are probable, not confirmed. Free AIS comes from land receivers, so coverage at Venezuelan terminals is thin; the US Gulf Coast is well covered.</p>
+    <div id="map" role="img" aria-label="Map of tankers seen in the latest AIS scan"></div>
+    <div class="legend"><span><i style="background:#C8892B"></i>Linked to Venezuela</span><span><i style="background:#3B5B8C"></i>Other tanker</span><span id="scan-meta"></span></div>
+    <div class="grid2" style="margin-top:16px">
+      <div class="card">
+        <h3>Tankers linked to Venezuela</h3>
+        <p class="note">Every tanker the tracker has ever linked to Venezuela, and whether it later reached a US Gulf port.</p>
+        <div class="tbox"><table id="t-ve"><thead><tr><th>Tanker</th><th>Why</th><th>Last zone</th><th>Reached US Gulf</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div class="card">
+        <h3>Latest scan</h3>
+        <p class="note">All tankers in the last scan, by zone.</p>
+        <div class="tbox"><table id="t-scan"><thead><tr><th>Tanker</th><th>Zone</th><th>Status</th><th class="n">Draught m</th><th>Destination</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="prices">
+    <h2>Merey vs Brent</h2>
+    <p class="lede">Merey 16 is Venezuela's reference crude: heavy (16° API) and sour. It does not trade on any exchange, so its price is published monthly. The gap to Brent is the "Venezuela discount": quality, freight and risk.</p>
+    <div class="grid2">
+      <div class="card"><h3>Monthly average, USD/bbl</h3><p class="note">Merey: OPEC figures via Venezuelan press (hollow = derived). Brent: EIA.</p><div class="chart" id="c-prices"></div></div>
+      <div class="card"><h3>Brent daily, last 120 trading days</h3><p class="note">EIA Europe Brent spot FOB, updated daily.</p><div class="chart" id="c-brent"></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="flows">
+    <h2>Venezuelan crude into the US</h2>
+    <p class="lede">Official U.S. imports of Venezuelan crude by refinery and port, from EIA company-level data (form EIA-814). Published about two months after the fact.</p>
+    <div class="grid2">
+      <div class="card"><h3>Thousand barrels per day, by month</h3><p class="note">Sum of all receiving refineries.</p><div class="chart" id="c-imports"></div></div>
+      <div class="card"><h3>By refinery · <span id="ref-month">latest month</span></h3><p class="note">Thousand b/d in the latest month, and grades received.</p><div class="tbox"><table id="t-ref"><thead><tr><th>Refinery</th><th class="n">kb/d</th><th>Grade</th></tr></thead><tbody></tbody></table></div></div>
+    </div>
+  </section>
+
+  <section class="block" id="news">
+    <h2>Venezuela oil intel</h2>
+    <p class="lede">Headlines on operators, production, exports, sanctions, debt and pricing, collected every 30 minutes from public feeds (Google News, Banca y Negocios, OilPrice, OFAC) plus API16's curated log. Headline and link only; read the full story at the source.</p>
+    <div class="chips" id="chips" role="group" aria-label="Filter by topic"></div>
+    <ul class="news" id="newslist"></ul>
+    <button class="more" id="more" type="button">Show more</button>
+  </section>
+
+  <section class="block" id="onchain">
+    <h2>On-chain Merey feed</h2>
+    <p class="lede">API16 publishes the monthly Merey and Brent averages to smart contracts with the same read interface as a Chainlink price feed, so any app can read them. Each month stores its period, whether the figure was reported or derived, and the source URL. Status: <b>draft</b>, tested on a local network, Base Sepolia testnet deployment next. Not audited.</p>
+    <div class="verify">
+      <a href="https://github.com/API16data/api16-merey-feed/blob/main/contracts/API16PriceFeed.sol">API16PriceFeed.sol<span>MEREY16/USD and BRENT/USD feeds</span></a>
+      <a href="https://github.com/API16data/api16-merey-feed/blob/main/contracts/API16SpreadReader.sol">API16SpreadReader.sol<span>On-chain Brent − Merey spread</span></a>
+      <a href="https://github.com/API16data/api16-merey-feed/blob/main/data/onchain_readback.json">Simulation readback<span>21 months published and read back</span></a>
+    </div>
+  </section>
+
+  <section class="block" id="verify">
+    <h2>Verify everything</h2>
+    <p class="lede">Every dataset on this page is a file in the public repository, written by scheduled jobs you can inspect. Nothing here asks you to trust us.</p>
+    <div class="verify">
+      <a href="https://github.com/API16data/api16-merey-feed/actions">Scheduled jobs<span>Every run, with logs and timestamps</span></a>
+      <a href="https://github.com/API16data/api16-merey-feed/tree/main/tracker/data">Raw data files<span>AIS scans, news, EIA imports, prices</span></a>
+      <a href="https://github.com/API16data/api16-merey-feed/commits/main">Change history<span>Every data update is a commit</span></a>
+      <a href="https://www.eia.gov/petroleum/imports/companylevel/">EIA company-level imports<span>Official source for US imports</span></a>
+      <a href="https://aisstream.io/">aisstream.io<span>Source of the AIS positions</span></a>
+      <a href="https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions">OFAC Venezuela program<span>Sanctions and general licenses</span></a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">API16 · Open data on Venezuelan oil. Data is provided as is, from the public sources linked; derived and probable values are labelled. Not financial advice. No presale. · <a href="https://github.com/API16data/api16-merey-feed">GitHub</a></div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function () {
+  const D = 'tracker/data/';
+  const MES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const mLabel = (p) => MES[+p.slice(5, 7) - 1] + ' ' + p.slice(0, 4);
+  const f2 = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const f0 = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
+  const f1 = new Intl.NumberFormat('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  const $ = (id) => document.getElementById(id);
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const get = (p) => fetch(p + '?t=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const el = (tag, txt, cls) => { const e = document.createElement(tag); if (txt != null) e.textContent = txt; if (cls) e.className = cls; return e; };
+  const safeUrl = (u) => (/^https:\/\//.test(String(u || '')) ? u : null);
+  const ago = (iso) => { const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + ' min ago' : m < 2880 ? Math.round(m / 60) + ' h ago' : Math.round(m / 1440) + ' days ago'; };
+
+  // ---------- map ----------
+  let map, layer;
+  function initMap() {
+    map = L.map('map', { scrollWheelZoom: false, worldCopyJump: true }).fitBounds([[7.5, -98], [31, -59]]);
+    const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/' + (dark ? 'dark_all' : 'light_all') + '/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO', subdomains: 'abcd', maxZoom: 12 }).addTo(map);
+    layer = L.layerGroup().addTo(map);
+  }
+  function drawMap(latest) {
+    layer.clearLayers();
+    (latest.tankers || []).forEach((t) => {
+      if (typeof t.lat !== 'number') return;
+      const ve = !!t.venezuela_link;
+      const m = L.circleMarker([t.lat, t.lon], { radius: ve ? 7 : 5, color: ve ? '#8A5A12' : '#22406B', weight: 1, fillColor: ve ? '#C8892B' : '#3B5B8C', fillOpacity: .9 });
+      const box = el('div');
+      box.append(el('b', t.name || ('MMSI ' + t.mmsi)), el('br'), document.createTextNode((t.zone || '') + ' · ' + (t.status || '')), el('br'),
+        document.createTextNode('Speed ' + (t.speed_kn ?? '–') + ' kn · draught ' + (t.draught_m ?? '–') + ' m'), el('br'),
+        document.createTextNode('Destination: ' + (t.destination || '–')), el('br'), document.createTextNode('Seen ' + (t.time || '')));
+      m.bindPopup(box);
+      m.addTo(layer);
+    });
+  }
+
+  // ---------- tables ----------
+  function rows(tableId, data, cols) {
+    const tb = document.querySelector('#' + tableId + ' tbody'); tb.replaceChildren();
+    data.forEach((r) => { const tr = el('tr'); cols.forEach((c) => { const td = el('td', null, c.n ? 'n' : ''); const v = c.f(r); if (v instanceof Node) td.append(v); else td.textContent = v ?? ''; tr.append(td); }); tb.append(tr); });
+    if (!data.length) { const tr = el('tr'); const td = el('td', 'Nothing yet. The tracker adds rows as it sees tankers.'); td.colSpan = cols.length; td.style.color = 'var(--muted)'; tr.append(td); tb.append(tr); }
+  }
+
+  // ---------- charts ----------
+  function tipFor(box) { let t = box.querySelector('.tip'); if (!t) { t = el('div', null, 'tip'); t.hidden = true; box.append(t); } return t; }
+  function lineChart(box, series, opts) {
+    box.replaceChildren();
+    const W = Math.max(280, box.clientWidth), H = 240, mt = 12, mb = 26, ml = 44, mr = opts.mr || 70;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const all = series.flatMap((s) => s.points);
+    const x = d3.scaleUtc(d3.extent(all, (p) => p.d), [ml, W - mr]);
+    const y = d3.scaleLinear([opts.y0 ?? d3.min(all, (p) => p.v) * 0.9, d3.max(all, (p) => p.v) * 1.05], [H - mb, mt]).nice();
+    svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y).attr('y2', y).attr('stroke', css('--grid'));
+    svg.append('g').selectAll('text').data(y.ticks(5)).join('text').attr('x', ml - 8).attr('y', (t) => y(t) + 4).attr('text-anchor', 'end').attr('fill', css('--muted')).style('font', '11px IBM Plex Mono, monospace').text((t) => f0.format(t));
+    const xt = x.ticks(W < 500 ? 4 : 6);
+    svg.append('g').selectAll('text').data(xt).join('text').attr('x', x).attr('y', H - 6).attr('text-anchor', 'middle').attr('fill', css('--muted')).style('font', '11px IBM Plex Sans, sans-serif').text(opts.xfmt);
+    series.forEach((s) => {
+      svg.append('path').datum(s.points).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round').attr('d', d3.line().x((p) => x(p.d)).y((p) => y(p.v)));
+      if (s.dots) svg.append('g').selectAll('circle').data(s.points).join('circle').attr('cx', (p) => x(p.d)).attr('cy', (p) => y(p.v)).attr('r', (p) => (p.hollow ? 3.5 : 2.5)).attr('fill', (p) => (p.hollow ? css('--panel') : s.color)).attr('stroke', s.color).attr('stroke-width', (p) => (p.hollow ? 1.5 : 0));
+      const last = s.points[s.points.length - 1];
+      s.endY = y(last.v); s.endLabel = s.name + ' ' + f2.format(last.v);
+    });
+    const ends = series.map((s) => ({ s, y: s.endY })).sort((a, b) => a.y - b.y);
+    for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 14) ends[i].y = ends[i - 1].y + 14;
+    ends.forEach((e) => svg.append('text').attr('x', W - mr + 6).attr('y', e.y + 4).attr('fill', e.s.color).style('font', '12px IBM Plex Mono, monospace').text(e.s.endLabel));
+    const tip = tipFor(box);
+    const rule = svg.append('line').attr('y1', mt).attr('y2', H - mb).attr('stroke', css('--line')).attr('visibility', 'hidden');
+    svg.append('rect').attr('x', ml).attr('y', 0).attr('width', W - mr - ml).attr('height', H - mb).attr('fill', 'transparent')
+      .on('mousemove', (ev) => {
+        const [px] = d3.pointer(ev); const d = x.invert(px);
+        const base = series[0].points; const p0 = base[d3.minIndex(base, (p) => Math.abs(p.d - d))];
+        rule.attr('x1', x(p0.d)).attr('x2', x(p0.d)).attr('visibility', 'visible');
+        tip.replaceChildren(el('div', opts.tipfmt(p0.d)));
+        series.forEach((s) => { const p = s.points.find((q) => +q.d === +p0.d); if (p) tip.append(el('div', s.name + ': ' + f2.format(p.v) + (p.hollow ? ' (derived)' : ''))); });
+        tip.hidden = false; const k = box.clientWidth / W; let left = x(p0.d) * k + 12; if (left + tip.offsetWidth > box.clientWidth) left = x(p0.d) * k - tip.offsetWidth - 12; tip.style.left = Math.max(0, left) + 'px'; tip.style.top = '8px';
+      })
+      .on('mouseleave', () => { tip.hidden = true; rule.attr('visibility', 'hidden'); });
+  }
+  function barChart(box, data) {
+    box.replaceChildren();
+    const W = Math.max(280, box.clientWidth), H = 240, mt = 16, mb = 26, ml = 40;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const x = d3.scaleBand(data.map((r) => r.period), [ml, W - 4]).padding(0.25);
+    const y = d3.scaleLinear([0, d3.max(data, (r) => r.kbd) * 1.15], [H - mb, mt]).nice();
+    svg.append('g').selectAll('line').data(y.ticks(4)).join('line').attr('x1', ml).attr('x2', W - 4).attr('y1', y).attr('y2', y).attr('stroke', css('--grid'));
+    svg.append('g').selectAll('text').data(y.ticks(4)).join('text').attr('x', ml - 8).attr('y', (t) => y(t) + 4).attr('text-anchor', 'end').attr('fill', css('--muted')).style('font', '11px IBM Plex Mono, monospace').text((t) => f0.format(t));
+    const every = W < 520 ? 6 : 3;
+    svg.append('g').selectAll('text').data(data.filter((r, i) => i % every === 0)).join('text').attr('x', (r) => x(r.period) + x.bandwidth() / 2).attr('y', H - 6).attr('text-anchor', 'middle').attr('fill', css('--muted')).style('font', '11px IBM Plex Sans, sans-serif').text((r) => MES[+r.period.slice(5, 7) - 1] + ' ' + r.period.slice(2, 4));
+    const bw = Math.min(30, x.bandwidth()); const lastP = data[data.length - 1].period;
+    svg.append('g').selectAll('rect').data(data).join('rect').attr('x', (r) => x(r.period) + (x.bandwidth() - bw) / 2).attr('width', bw).attr('y', (r) => y(r.kbd)).attr('height', (r) => y(0) - y(r.kbd)).attr('rx', 3).attr('fill', (r) => (r.period === lastP ? '#C8892B' : '#3B5B8C'));
+    const tip = tipFor(box);
+    svg.append('g').selectAll('rect').data(data).join('rect').attr('x', (r) => x(r.period)).attr('width', x.bandwidth()).attr('y', 0).attr('height', H - mb).attr('fill', 'transparent')
+      .on('mousemove', (ev, r) => { tip.replaceChildren(el('div', mLabel(r.period)), el('div', f0.format(r.kbd) + ' thousand b/d')); tip.hidden = false; const k = box.clientWidth / W; let left = (x(r.period) + x.bandwidth()) * k + 6; if (left + tip.offsetWidth > box.clientWidth) left = x(r.period) * k - tip.offsetWidth - 6; tip.style.left = Math.max(0, left) + 'px'; tip.style.top = Math.max(0, y(r.kbd) * k - 8) + 'px'; })
+      .on('mouseleave', () => { tip.hidden = true; });
+  }
+
+  // ---------- news ----------
+  let NEWS = [], pick = 'All', shown = 40;
+  function drawNews() {
+    const cats = ['All', ...[...new Set(NEWS.map((n) => n.category))].sort()];
+    $('chips').replaceChildren(...cats.map((c) => { const b = el('button', c, 'chip'); b.type = 'button'; b.setAttribute('aria-pressed', String(c === pick)); b.onclick = () => { pick = c; shown = 40; drawNews(); }; return b; }));
+    const list = NEWS.filter((n) => pick === 'All' || n.category === pick);
+    $('newslist').replaceChildren(...list.slice(0, shown).map((n) => {
+      const li = el('li'); const t = el('time', n.date.slice(0, 10)); t.dateTime = n.date;
+      const body = el('div'); const u = safeUrl(n.url);
+      if (u) { const a = el('a', n.title); a.href = u; a.target = '_blank'; a.rel = 'noopener'; body.append(a); } else body.append(el('span', n.title));
+      const meta = el('div', null, 'meta'); meta.append(el('span', n.category, 'pill'), document.createTextNode(' ' + (n.source || '') + (n.key_figure ? ' · ' + n.key_figure : '')));
+      body.append(meta); li.append(t, body); return li;
+    }));
+    $('more').hidden = list.length <= shown;
+  }
+  $('more').onclick = () => { shown += 40; drawNews(); };
+
+  // ---------- load everything ----------
+  let cache = {};
+  async function load() {
+    const [latest, ve, news, imp, ref, spot, merey] = await Promise.all([
+      get(D + 'latest.json'), get(D + 'venezuela.json'), get(D + 'news.json'), get(D + 'eia_imports_monthly.json'),
+      get(D + 'eia_imports_refinery.json'), get(D + 'spot_prices_daily.json'), get('data/merey_brent_monthly.json')]);
+    cache = { latest, ve, news, imp, ref, spot, merey };
+    const stamps = [];
+    if (merey && merey.length) {
+      const m = merey[merey.length - 1];
+      $('k-mm').textContent = mLabel(m.month); $('k-merey').textContent = f2.format(m.merey);
+      $('k-spread').textContent = f2.format(m.brent - m.merey); $('k-spread-s').textContent = 'Brent − Merey, ' + mLabel(m.month);
+    }
+    if (spot && spot.rows && spot.rows.length) {
+      const b = [...spot.rows].reverse().find((r) => r.brent != null);
+      if (b) { $('k-bd').textContent = b.date; $('k-brent').textContent = f2.format(b.brent); }
+      stamps.push('prices ' + ago(spot.updated));
+    }
+    if (imp && imp.rows && imp.rows.length) { const l = imp.rows[imp.rows.length - 1]; $('k-im').textContent = mLabel(l.period); $('k-imp').textContent = f0.format(l.kbd); }
+    if (latest) {
+      const n = (latest.tankers || []).length, v = (latest.tankers || []).filter((t) => t.venezuela_link).length;
+      $('k-tank').textContent = f0.format(n); $('k-tank-s').textContent = v + ' linked to Venezuela · ' + ago(latest.run_at);
+      $('scan-meta').textContent = 'Last scan ' + latest.run_at.replace('T', ' ').slice(0, 16) + ' UTC · ' + f0.format(latest.ais_messages) + ' AIS messages';
+      drawMap(latest);
+      rows('t-scan', [...(latest.tankers || [])].sort((a, b) => (b.venezuela_link - a.venezuela_link) || String(a.zone).localeCompare(b.zone)), [
+        { f: (r) => { const s = el('span'); s.append(document.createTextNode(r.name || r.mmsi)); if (r.venezuela_link) s.append(document.createTextNode(' '), el('span', 'VE', 'pill ve')); return s; } },
+        { f: (r) => r.zone }, { f: (r) => r.status }, { n: 1, f: (r) => (r.draught_m == null ? '' : f1.format(r.draught_m)) }, { f: (r) => r.destination }]);
+      stamps.push('AIS scan ' + ago(latest.run_at));
+    }
+    if (ve) rows('t-ve', ve.tankers || [], [
+      { f: (r) => r.name || r.mmsi }, { f: (r) => r.why }, { f: (r) => r.last_zone },
+      { f: (r) => (r.arrived_us_gulf ? el('span', r.us_gulf_port, 'pill ve') : 'not yet') }]);
+    if (news && news.items) { NEWS = news.items; drawNews(); stamps.push('news ' + ago(news.updated)); }
+    if (ref && ref.rows && ref.rows.length) {
+      const last = ref.rows.reduce((m, r) => (r.period > m ? r.period : m), '');
+      $('ref-month').textContent = mLabel(last);
+      rows('t-ref', ref.rows.filter((r) => r.period === last).sort((a, b) => b.kbd - a.kbd), [
+        { f: (r) => r.refinery }, { n: 1, f: (r) => f1.format(r.kbd) }, { f: (r) => r.grades }]);
+    }
+    $('stamp').textContent = stamps.length ? 'Live · updated ' + stamps.join(' · ') : 'Waiting for the first data run…';
+    drawCharts();
+  }
+  function drawCharts() {
+    const { merey, spot, imp } = cache;
+    const pd = (p) => new Date(Date.UTC(+p.slice(0, 4), +p.slice(5, 7) - 1, 1));
+    if (merey && merey.length) lineChart($('c-prices'), [
+      { name: 'Brent', color: '#3B5B8C', points: merey.map((r) => ({ d: pd(r.month), v: r.brent })) },
+      { name: 'Merey', color: '#C8892B', dots: true, points: merey.map((r) => ({ d: pd(r.month), v: r.merey, hollow: r.merey_dato === 'derivado' || r.merey_type === 'derived' })) },
+    ], { xfmt: (d) => MES[d.getUTCMonth()] + ' ' + String(d.getUTCFullYear()).slice(2), tipfmt: (d) => MES[d.getUTCMonth()] + ' ' + d.getUTCFullYear(), y0: 30 });
+    if (spot && spot.rows && spot.rows.length) {
+      const pts = spot.rows.filter((r) => r.brent != null).slice(-120).map((r) => ({ d: new Date(r.date + 'T00:00:00Z'), v: r.brent }));
+      lineChart($('c-brent'), [{ name: 'Brent', color: '#C8892B', points: pts }], { xfmt: (d) => MES[d.getUTCMonth()] + ' ' + d.getUTCDate(), tipfmt: (d) => d.toISOString().slice(0, 10) });
+    }
+    if (imp && imp.rows && imp.rows.length) barChart($('c-imports'), imp.rows);
+  }
+
+  initMap();
+  load().catch((e) => { $('stamp').textContent = 'Could not load data.'; $('stamp').className = 'err'; });
+  setInterval(() => load().catch(() => {}), 5 * 60 * 1000); // refresh every 5 minutes
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawCharts, 200); });
+})();
+</script>
+</body>
+</html>
