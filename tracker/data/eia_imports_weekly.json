@@ -1,0 +1,476 @@
+{
+"updated": "2026-10-27T14:54:40Z",
+"source": "EIA Weekly Petroleum Status Report, preliminary crude imports from Venezuela (W_EPC0_IM0_NUS-NVE_MBBLD), thousand b/d",
+"rows": [
+{
+"week_ending": "2025-01-03",
+"kbd": 253.0,
+"kbd_4wk": null
+},
+{
+"week_ending": "2025-01-10",
+"kbd": 240.0,
+"kbd_4wk": null
+},
+{
+"week_ending": "2025-01-17",
+"kbd": 416.0,
+"kbd_4wk": null
+},
+{
+"week_ending": "2025-01-24",
+"kbd": 319.0,
+"kbd_4wk": 307
+},
+{
+"week_ending": "2025-01-31",
+"kbd": 214.0,
+"kbd_4wk": 297
+},
+{
+"week_ending": "2025-02-07",
+"kbd": 226.0,
+"kbd_4wk": 294
+},
+{
+"week_ending": "2025-02-14",
+"kbd": 198.0,
+"kbd_4wk": 239
+},
+{
+"week_ending": "2025-02-21",
+"kbd": 276.0,
+"kbd_4wk": 228
+},
+{
+"week_ending": "2025-02-28",
+"kbd": 189.0,
+"kbd_4wk": 222
+},
+{
+"week_ending": "2025-03-07",
+"kbd": 148.0,
+"kbd_4wk": 203
+},
+{
+"week_ending": "2025-03-14",
+"kbd": 319.0,
+"kbd_4wk": 233
+},
+{
+"week_ending": "2025-03-21",
+"kbd": 195.0,
+"kbd_4wk": 213
+},
+{
+"week_ending": "2025-03-28",
+"kbd": 205.0,
+"kbd_4wk": 217
+},
+{
+"week_ending": "2025-04-04",
+"kbd": 285.0,
+"kbd_4wk": 251
+},
+{
+"week_ending": "2025-04-11",
+"kbd": 136.0,
+"kbd_4wk": 205
+},
+{
+"week_ending": "2025-04-18",
+"kbd": 146.0,
+"kbd_4wk": 193
+},
+{
+"week_ending": "2025-04-25",
+"kbd": 115.0,
+"kbd_4wk": 170
+},
+{
+"week_ending": "2025-05-02",
+"kbd": 144.0,
+"kbd_4wk": 135
+},
+{
+"week_ending": "2025-05-09",
+"kbd": 139.0,
+"kbd_4wk": 136
+},
+{
+"week_ending": "2025-05-16",
+"kbd": 35.0,
+"kbd_4wk": 108
+},
+{
+"week_ending": "2025-05-23",
+"kbd": 149.0,
+"kbd_4wk": 117
+},
+{
+"week_ending": "2025-05-30",
+"kbd": 107.0,
+"kbd_4wk": 108
+},
+{
+"week_ending": "2025-06-06",
+"kbd": 130.0,
+"kbd_4wk": 105
+},
+{
+"week_ending": "2025-06-13",
+"kbd": 132.0,
+"kbd_4wk": 130
+},
+{
+"week_ending": "2025-06-20",
+"kbd": 70.0,
+"kbd_4wk": 110
+},
+{
+"week_ending": "2025-06-27",
+"kbd": 64.0,
+"kbd_4wk": 99
+},
+{
+"week_ending": "2025-07-04",
+"kbd": 25.0,
+"kbd_4wk": 73
+},
+{
+"week_ending": "2025-07-11",
+"kbd": 0.0,
+"kbd_4wk": 40
+},
+{
+"week_ending": "2025-07-18",
+"kbd": 0.0,
+"kbd_4wk": 22
+},
+{
+"week_ending": "2025-07-25",
+"kbd": 0.0,
+"kbd_4wk": 6
+},
+{
+"week_ending": "2025-08-01",
+"kbd": 0.0,
+"kbd_4wk": 0
+},
+{
+"week_ending": "2025-08-08",
+"kbd": 0.0,
+"kbd_4wk": 0
+},
+{
+"week_ending": "2025-08-15",
+"kbd": 0.0,
+"kbd_4wk": 0
+},
+{
+"week_ending": "2025-08-22",
+"kbd": 74.0,
+"kbd_4wk": 18
+},
+{
+"week_ending": "2025-08-29",
+"kbd": 98.0,
+"kbd_4wk": 43
+},
+{
+"week_ending": "2025-09-05",
+"kbd": 49.0,
+"kbd_4wk": 55
+},
+{
+"week_ending": "2025-09-12",
+"kbd": 99.0,
+"kbd_4wk": 80
+},
+{
+"week_ending": "2025-09-19",
+"kbd": 143.0,
+"kbd_4wk": 97
+},
+{
+"week_ending": "2025-09-26",
+"kbd": 49.0,
+"kbd_4wk": 85
+},
+{
+"week_ending": "2025-10-03",
+"kbd": 194.0,
+"kbd_4wk": 121
+},
+{
+"week_ending": "2025-10-10",
+"kbd": 49.0,
+"kbd_4wk": 109
+},
+{
+"week_ending": "2025-10-17",
+"kbd": 302.0,
+"kbd_4wk": 148
+},
+{
+"week_ending": "2025-10-24",
+"kbd": 121.0,
+"kbd_4wk": 166
+},
+{
+"week_ending": "2025-10-31",
+"kbd": 34.0,
+"kbd_4wk": 126
+},
+{
+"week_ending": "2025-11-07",
+"kbd": 60.0,
+"kbd_4wk": 129
+},
+{
+"week_ending": "2025-11-14",
+"kbd": 173.0,
+"kbd_4wk": 97
+},
+{
+"week_ending": "2025-11-21",
+"kbd": 140.0,
+"kbd_4wk": 102
+},
+{
+"week_ending": "2025-11-28",
+"kbd": 122.0,
+"kbd_4wk": 124
+},
+{
+"week_ending": "2025-12-05",
+"kbd": 193.0,
+"kbd_4wk": 157
+},
+{
+"week_ending": "2025-12-12",
+"kbd": 193.0,
+"kbd_4wk": 162
+},
+{
+"week_ending": "2025-12-19",
+"kbd": 171.0,
+"kbd_4wk": 170
+},
+{
+"week_ending": "2025-12-26",
+"kbd": 96.0,
+"kbd_4wk": 163
+},
+{
+"week_ending": "2026-01-02",
+"kbd": 120.0,
+"kbd_4wk": 145
+},
+{
+"week_ending": "2026-01-09",
+"kbd": 72.0,
+"kbd_4wk": 115
+},
+{
+"week_ending": "2026-01-16",
+"kbd": 101.0,
+"kbd_4wk": 97
+},
+{
+"week_ending": "2026-01-23",
+"kbd": 94.0,
+"kbd_4wk": 97
+},
+{
+"week_ending": "2026-01-30",
+"kbd": 175.0,
+"kbd_4wk": 110
+},
+{
+"week_ending": "2026-02-06",
+"kbd": 153.0,
+"kbd_4wk": 131
+},
+{
+"week_ending": "2026-02-13",
+"kbd": 49.0,
+"kbd_4wk": 118
+},
+{
+"week_ending": "2026-02-20",
+"kbd": 339.0,
+"kbd_4wk": 179
+},
+{
+"week_ending": "2026-02-27",
+"kbd": 143.0,
+"kbd_4wk": 171
+},
+{
+"week_ending": "2026-03-06",
+"kbd": 232.0,
+"kbd_4wk": 191
+},
+{
+"week_ending": "2026-03-13",
+"kbd": 423.0,
+"kbd_4wk": 284
+},
+{
+"week_ending": "2026-03-20",
+"kbd": 549.0,
+"kbd_4wk": 337
+},
+{
+"week_ending": "2026-03-27",
+"kbd": 194.0,
+"kbd_4wk": 350
+},
+{
+"week_ending": "2026-04-03",
+"kbd": 321.0,
+"kbd_4wk": 372
+},
+{
+"week_ending": "2026-04-10",
+"kbd": 412.0,
+"kbd_4wk": 369
+},
+{
+"week_ending": "2026-04-17",
+"kbd": 499.0,
+"kbd_4wk": 356
+},
+{
+"week_ending": "2026-04-24",
+"kbd": 310.0,
+"kbd_4wk": 386
+},
+{
+"week_ending": "2026-05-01",
+"kbd": 400.0,
+"kbd_4wk": 405
+},
+{
+"week_ending": "2026-05-08",
+"kbd": 588.0,
+"kbd_4wk": 449
+},
+{
+"week_ending": "2026-05-15",
+"kbd": 713.0,
+"kbd_4wk": 503
+},
+{
+"week_ending": "2026-05-22",
+"kbd": 414.0,
+"kbd_4wk": 529
+},
+{
+"week_ending": "2026-05-29",
+"kbd": 568.0,
+"kbd_4wk": 571
+},
+{
+"week_ending": "2026-06-05",
+"kbd": 577.0,
+"kbd_4wk": 568
+},
+{
+"week_ending": "2026-06-12",
+"kbd": 535.0,
+"kbd_4wk": 524
+},
+{
+"week_ending": "2026-06-19",
+"kbd": 578.0,
+"kbd_4wk": 564
+},
+{
+"week_ending": "2026-06-26",
+"kbd": 611.0,
+"kbd_4wk": 575
+},
+{
+"week_ending": "2026-07-03",
+"kbd": 483.0,
+"kbd_4wk": 552
+},
+{
+"week_ending": "2026-07-10",
+"kbd": 675.0,
+"kbd_4wk": 587
+},
+{
+"week_ending": "2026-07-17",
+"kbd": 688.0,
+"kbd_4wk": 614
+},
+{
+"week_ending": "2026-07-24",
+"kbd": 673.0,
+"kbd_4wk": 630
+},
+{
+"week_ending": "2026-07-31",
+"kbd": 411.0,
+"kbd_4wk": 612
+},
+{
+"week_ending": "2026-08-07",
+"kbd": 743.0,
+"kbd_4wk": 629
+},
+{
+"week_ending": "2026-08-14",
+"kbd": 730.0,
+"kbd_4wk": 639
+},
+{
+"week_ending": "2026-08-21",
+"kbd": 662.0,
+"kbd_4wk": 636
+},
+{
+"week_ending": "2026-08-28",
+"kbd": 598.0,
+"kbd_4wk": 683
+},
+{
+"week_ending": "2026-09-04",
+"kbd": 599.0,
+"kbd_4wk": 647
+},
+{
+"week_ending": "2026-09-11",
+"kbd": 782.0,
+"kbd_4wk": 660
+},
+{
+"week_ending": "2026-09-18",
+"kbd": 583.0,
+"kbd_4wk": 640
+},
+{
+"week_ending": "2026-09-25",
+"kbd": 553.0,
+"kbd_4wk": 629
+},
+{
+"week_ending": "2026-10-02",
+"kbd": 624.0,
+"kbd_4wk": 636
+},
+{
+"week_ending": "2026-10-09",
+"kbd": 455.0,
+"kbd_4wk": 554
+},
+{
+"week_ending": "2026-10-16",
+"kbd": 571.0,
+"kbd_4wk": 551
+}
+]
+}
