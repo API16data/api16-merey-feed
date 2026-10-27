@@ -1,10 +1,11 @@
 """API16 EIA collector — official U.S. data from the EIA API.
 
 - U.S. crude imports from Venezuela by refinery and by port (EIA-814, monthly)
+- U.S. crude imports from Venezuela, weekly preliminary (Weekly Petroleum Status Report)
 - Brent and WTI spot prices (daily)
 Needs the env var EIA_API_KEY. Never prints the key or request URLs.
 Outputs in tracker/data/: eia_imports_refinery.json, eia_imports_port.json,
-eia_imports_monthly.json, spot_prices_daily.json
+eia_imports_monthly.json, eia_imports_weekly.json, spot_prices_daily.json
 """
 import calendar, json, os, urllib.parse, urllib.request
 from collections import defaultdict
@@ -59,6 +60,17 @@ def spot(series):
     return {r["period"]: float(r["value"]) for r in data if r.get("value") not in (None, "")}
 
 
+def weekly_imports():
+    data = get("petroleum/move/wimpc/data/", [
+        ("frequency", "weekly"), ("data[]", "value"), ("facets[series][]", "W_EPC0_IM0_NUS-NVE_MBBLD"),
+        ("start", START_DAY), ("sort[0][column]", "period"), ("sort[0][direction]", "asc")])
+    rows = [{"week_ending": r["period"], "kbd": float(r["value"])} for r in data if r.get("value") not in (None, "")]
+    for i, r in enumerate(rows):  # 4-week rolling average, as EIA reports it
+        win = rows[max(0, i - 3): i + 1]
+        r["kbd_4wk"] = round(sum(x["kbd"] for x in win) / len(win)) if len(win) == 4 else None
+    return rows
+
+
 def save(name, obj):
     with open(os.path.join(OUT, name), "w") as f:
         json.dump(obj, f, indent=0)
@@ -78,6 +90,7 @@ def main():
     save("eia_imports_port.json", {"updated": now, "source": "EIA API crude-oil-imports (EIA-814), origin Venezuela", "rows": port})
     save("eia_imports_monthly.json", {"updated": now, "source": "Sum of refinery rows", "rows": [
         {"period": p, "kbbl": v, "kbd": round(v / days(p))} for p, v in sorted(monthly.items())]})
+    save("eia_imports_weekly.json", {"updated": now, "source": "EIA Weekly Petroleum Status Report, preliminary crude imports from Venezuela (W_EPC0_IM0_NUS-NVE_MBBLD), thousand b/d", "rows": weekly_imports()})
     brent, wti = spot("RBRTE"), spot("RWTC")
     save("spot_prices_daily.json", {"updated": now, "source": "EIA spot prices: RBRTE (Brent), RWTC (WTI), USD/bbl", "rows": [
         {"date": d, "brent": brent.get(d), "wti": wti.get(d)} for d in sorted(set(brent) | set(wti))]})
