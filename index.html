@@ -87,6 +87,7 @@
   code { font: 12px var(--mono); background: var(--grid); padding: 1px 5px; border-radius: 4px; }
   footer { padding-block: 28px 40px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); }
   .err { color: var(--bad); font-size: 13px; }
+  @media (prefers-color-scheme: dark) { .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9); } }
 </style>
 </head>
 <body>
@@ -211,9 +212,8 @@
   let map, layer;
   function initMap() {
     map = L.map('map', { scrollWheelZoom: false, worldCopyJump: true }).fitBounds([[7.5, -98], [31, -59]]);
-    const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/' + (dark ? 'dark_all' : 'light_all') + '/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap contributors &copy; CARTO', subdomains: 'abcd', maxZoom: 12 }).addTo(map);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors', maxZoom: 12 }).addTo(map);
     layer = L.layerGroup().addTo(map);
   }
   function drawMap(latest) {
