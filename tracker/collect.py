@@ -13,6 +13,7 @@ Outputs (in tracker/data/):
                      reached a US Gulf port
   runs.jsonl         one line per run (counts), for the history chart
   ship_types.json    AIS ship type per MMSI learned so far (to spot tankers sooner)
+  ais_estimate.json  estimated barrels/day of Venezuela-linked crude reaching the US Gulf (lower bound)
 """
 import asyncio, json, os, re, sys, time
 from datetime import datetime, timezone
@@ -29,7 +30,7 @@ LISTEN = [
     [[27.4, -97.6], [30.4, -88.3]],  # US Gulf Coast: Corpus Christi to Pascagoula
 ]
 
-# Named zones, checked in order (first match wins). group: VE = Venezuela, ABC = islands, USG = US Gulf
+# Named zones, checked in order (first match wins). group: VE = Venezuela, ABC = islands, USG = US Gulf, TT = Trinidad (not Venezuela)
 ZONES = [
     ("VE", "Jose / Puerto La Cruz", [[9.90, -65.20], [10.45, -64.45]]),
     ("VE", "Paraguana: Amuay / Cardon", [[11.40, -70.40], [12.10, -69.80]]),
@@ -44,6 +45,7 @@ ZONES = [
     ("USG", "Mississippi River / New Orleans", [[28.90, -90.50], [30.10, -89.30]]),
     ("USG", "Pascagoula", [[30.10, -88.70], [30.40, -88.40]]),
     ("USG", "Gulf of Mexico offshore (lightering)", [[27.40, -95.80], [29.20, -88.30]]),
+    ("TT", "Trinidad & Tobago", [[9.90, -62.05], [11.40, -60.00]]),
     ("VE", "Venezuelan waters (other)", [[9.50, -72.50], [12.30, -60.00]]),
 ]
 
@@ -52,6 +54,20 @@ VE_DEST = re.compile(
     r"GUARAGUAO|BAJO\s*GRANDE|MARACAIBO|LA\s*SALINA|CABIMAS|EL\s*PALITO|PUERTO\s*CABELLO|VE\s*[A-Z]{3})\b"
 )
 NAV = {0: "under way", 1: "at anchor", 2: "not under command", 3: "restricted", 5: "moored", 15: "not defined"}
+
+
+# Rough cargo size by tanker length (thousand barrels of crude), used only for the AIS estimate.
+CARGO_BY_LENGTH = [(200, 300), (240, 500), (265, 700), (300, 1000), (999, 1900)]  # MR, Panamax/LR1, Aframax, Suezmax, VLCC
+WINDOW_DAYS = 30
+
+
+def cargo_kbbl(length_m):
+    if not length_m:
+        return 700  # unknown size: assume Aframax, the usual Venezuela-US Gulf tanker
+    for max_len, kbbl in CARGO_BY_LENGTH:
+        if length_m < max_len:
+            return kbbl
+    return 1900
 
 
 def now_iso():
@@ -180,6 +196,7 @@ def main():
             "last_zone": v.get("last_zone"), "last_seen": v.get("last_seen"), "destination": v.get("destination", ""),
             "arrived_us_gulf": bool(us_after), "us_gulf_port": us_after[-1]["zone"] if us_after else None,
             "us_gulf_first_seen": us_after[-1]["first"] if us_after else None,
+            "est_cargo_kbbl": cargo_kbbl(v.get("length_m")),
         })
     linked.sort(key=lambda x: x["last_seen"] or "", reverse=True)
 
@@ -188,6 +205,21 @@ def main():
     save("vessels.json", vessels)
     save("ship_types.json", types)
     save("venezuela.json", {"updated": run_at, "note": "Probable links from public AIS, not confirmed cargoes.", "tankers": linked})
+
+    # AIS estimate of Venezuelan crude reaching the US Gulf: tankers seen in Venezuelan/ABC waters
+    # that later appear at a US Gulf zone within the last WINDOW_DAYS, times an estimated cargo size.
+    cutoff = datetime.fromtimestamp(time.time() - WINDOW_DAYS * 86400, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    arrivals = [x for x in linked if x["arrived_us_gulf"] and (x["us_gulf_first_seen"] or "") >= cutoff]
+    total = sum(x["est_cargo_kbbl"] for x in arrivals)
+    since = min((v.get("first_seen") for v in vessels.values()), default=run_at)
+    elapsed = (time.time() - datetime.strptime(since, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc).timestamp()) / 86400
+    window = max(1.0, min(WINDOW_DAYS, elapsed))  # until we have 30 days of history, average over what we have
+    save("ais_estimate.json", {
+        "updated": run_at, "window_days": round(window, 1), "arrivals": len(arrivals), "est_kbbl": total,
+        "est_kbd": round(total / window), "tracking_since": since,
+        "method": "Tankers seen in Venezuelan or ABC waters that later reach a US Gulf zone, times a cargo size estimated from "
+                  "vessel length. Free AIS misses many ships near Venezuela, so this is a lower bound.",
+        "list": [{k: x[k] for k in ("name", "imo", "us_gulf_port", "us_gulf_first_seen", "est_cargo_kbbl", "length_m")} for x in arrivals]})
     by_group = {}
     for t in latest:
         by_group[t["group"] or "OTHER"] = by_group.get(t["group"] or "OTHER", 0) + 1
