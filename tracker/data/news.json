@@ -311,6 +311,17 @@
    "origin": "rss"
   },
   {
+   "id": "c-n24",
+   "date": "2026-10-27T12:00Z",
+   "title": "Swiss engineering group Sulzer signs 5-year alliance with PDVSA to develop essential industrial infrastructure in Venezuela",
+   "source": "Banca y Negocios",
+   "url": "https://www.bancaynegocios.com/empresa-suiza-sulzer-firma-acuerdo-por-5-anos-con-pdvsa-desarrollara-infraestructura-industrial-esencial-en-venezuela/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "5-year framework"
+  },
+  {
    "id": "5b67c0817fc9",
    "date": "2026-10-27T11:32Z",
    "title": "Washington’s India Policy Now Runs Through Jamnagar",
@@ -339,6 +350,17 @@
    "category": "Pricing",
    "via": "Google News ES: crudo Merey",
    "origin": "rss"
+  },
+  {
+   "id": "c-n25",
+   "date": "2026-10-27T11:00Z",
+   "title": "Delcy Rodríguez at GECF summit: Venezuela aims to become a gas power for domestic use and export",
+   "source": "Banca y Negocios",
+   "url": "https://www.bancaynegocios.com/delcy-rodriguez-venezuela-quiere-ser-una-potencia-gasifera-productora-para-el-consumo-nacional-y-para-la-exportacion/",
+   "category": "Gas",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "Gas for export"
   },
   {
    "id": "fc919f602673",
