@@ -1,0 +1,39 @@
+name: EIA official data
+
+on:
+  schedule:
+    - cron: "23 11 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eia
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Download EIA imports and spot prices
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: python tracker/eia.py
+
+      - name: Save results to the repository
+        run: |
+          git config user.name "api16-bot"
+          git config user.email "api16-bot@users.noreply.github.com"
+          git add tracker/data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "EIA update $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && exit 0; sleep $((i*5)); done
+          exit 1
