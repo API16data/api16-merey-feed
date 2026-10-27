@@ -1,0 +1,258 @@
+{
+ "items": [
+  {
+   "id": "c-n01",
+   "date": "2026-10-26T12:00Z",
+   "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
+   "source": "Rigzone / Bloomberg",
+   "url": "https://www.rigzone.com/news/wire/pentagons_venezuelan_oil_partner_boosts_output-26-oct-2026-184932-article/",
+   "category": "Production",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "1,252,000 b/d"
+  },
+  {
+   "id": "c-n02",
+   "date": "2026-10-26T12:00Z",
+   "title": "PCEC's US$3.5B Delta and Cabimas project draws Omani (UER) and Swiss (I-Capital) interest; target 150-160k b/d",
+   "source": "Banca y Negocios",
+   "url": "https://www.bancaynegocios.com/proyecto-petrolero-de-pcec-por-us3500-millones-en-venezuela-suma-interes-de-firmas-de-oman-y-suiza/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "US$3.5B"
+  },
+  {
+   "id": "c-n03",
+   "date": "2026-10-25T12:00Z",
+   "title": "White House: Venezuelan oil arriving in the US up more than 400%, highest in almost a decade",
+   "source": "Banca y Negocios",
+   "url": "https://www.bancaynegocios.com/eeuu-importacion-de-petroleo-venezolano-ha-aumentado-en-mas-de-400-porciento-y-ha-alcanzado-su-nivel-mas-alto-en-casi-una-decada/",
+   "category": "Exports",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "+400%"
+  },
+  {
+   "id": "c-n04",
+   "date": "2026-10-24T12:00Z",
+   "title": "PDVSA: 1.252M b/d, highest operating figure since 2019; Petrozamora at 115k b/d, 120k targeted by December",
+   "source": "El Nacional",
+   "url": "https://www.elnacional.com/2026/10/produccion-petrolera-de-venezuela-alcanzo-125-millones-de-barriles-diarios-segun-pdvsa/",
+   "category": "Production",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "1,252,000 b/d"
+  },
+  {
+   "id": "c-n05",
+   "date": "2026-10-23T12:00Z",
+   "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
+   "source": "Banca y Negocios / Reuters",
+   "url": "https://www.bancaynegocios.com/eni-podria-decidir-nueva-inversion-petrolera-en-venezuela-antes-de-finalizar-el-ano/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "200,000 b/d"
+  },
+  {
+   "id": "c-n06",
+   "date": "2026-10-23T12:00Z",
+   "title": "SLB expects Venezuela revenue to more than double in 2026, calls the country a major growth engine",
+   "source": "Banca y Negocios / BNamericas",
+   "url": "https://www.bancaynegocios.com/slb-estima-duplicar-ingresos-en-venezuela-para-2026-y-califica-al-pais-como-un-motor-importante/",
+   "category": "Services",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "2x revenue"
+  },
+  {
+   "id": "c-n07",
+   "date": "2026-10-23T12:00Z",
+   "title": "Venezuela and US review energy agreement at Petrozamora; 17 agreements signed in August, 8 greenfield",
+   "source": "Banca y Negocios",
+   "url": "https://www.bancaynegocios.com/venezuela-y-ee-uu-evaluan-avances-del-acuerdo-petrolero-inspeccionan-operatividad-de-petrozamora/",
+   "category": "Policy",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "17 agreements"
+  },
+  {
+   "id": "c-n08",
+   "date": "2026-10-23T12:00Z",
+   "title": "NABEP adds a sixth drilling rig; 223,509 boe/d as of Oct 19, about 20k more than in August",
+   "source": "Banca y Negocios / Bloomberg",
+   "url": "https://www.bancaynegocios.com/nabep-agrega-una-sexta-plataforma-petrolifera-en-venezuela-para-aumentar-su-produccion-de-crudo/",
+   "category": "Production",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "223,509 boe/d"
+  },
+  {
+   "id": "c-n09",
+   "date": "2026-10-17T12:00Z",
+   "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
+   "source": "US News / Reuters",
+   "url": "https://www.usnews.com/news/top-news/articles/2026-10-17/venezuela-expects-nearly-76-billion-in-oil-investment-over-five-years-acting-president-says",
+   "category": "Investment",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "US$76B"
+  },
+  {
+   "id": "c-n10",
+   "date": "2026-10-09T12:00Z",
+   "title": "Largest Venezuela creditor bloc grows toward 40% of debt as restructuring talks near",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-09/venezuela-creditor-bloc-grows-to-22-billion-as-debt-talks-eyed",
+   "category": "Debt",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "~US$22B"
+  },
+  {
+   "id": "c-n11",
+   "date": "2026-10-07T12:00Z",
+   "title": "Reliance drives India's Venezuelan oil imports to a seven-year high in October (Kpler estimate up to ~465k b/d)",
+   "source": "Business Standard / Bloomberg",
+   "url": "https://www.business-standard.com/amp/economy/news/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high-in-oct-126100700608_1.html",
+   "category": "Exports",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "~465,000 b/d"
+  },
+  {
+   "id": "c-n12",
+   "date": "2026-10-06T12:00Z",
+   "title": "Fire halts Cardon, Venezuela's second-largest refinery",
+   "source": "Vanguardia",
+   "url": "https://www.vanguardia.com/mundo/2026/10/06/alerta-en-venezuela-fuerte-incendio-en-la-segunda-refineria-mas-grande-del-pais/",
+   "category": "Refining",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "Cardon"
+  },
+  {
+   "id": "c-n13",
+   "date": "2026-10-05T12:00Z",
+   "title": "Platts launches daily Merey 16 FOB Jose, Boscan DAP and Hamaca DAP US Gulf Coast assessments",
+   "source": "S&P Global",
+   "url": "https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/100526-platts-launches-additional-assessments-of-venezuelan-crude-oct-5",
+   "category": "Pricing",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "3 new grades"
+  },
+  {
+   "id": "c-n14",
+   "date": "2026-10-03T12:00Z",
+   "title": "Venezuela oil exports fall to 1.08M b/d in September: US 629k, India 253k, Europe 86k",
+   "source": "Hellenic Shipping News",
+   "url": "https://www.hellenicshippingnews.com/venezuela-oil-exports-fall-to-1-08-million-bpd-in-september/",
+   "category": "Exports",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "1,080,000 b/d"
+  },
+  {
+   "id": "c-n15",
+   "date": "2026-10-03T12:00Z",
+   "title": "Eni and Repsol consider selling stakes in offshore Perla gas field",
+   "source": "World Oil / Bloomberg",
+   "url": "https://www.worldoil.com/news/2026/10/3/eni-repsol-consider-selling-stakes-in-venezuela-s-perla-gas-field/",
+   "category": "Gas",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "50/50 venture"
+  },
+  {
+   "id": "c-n16",
+   "date": "2026-10-02T12:00Z",
+   "title": "PIIE: who gets Venezuela's next barrel? >US$20B in ICSID awards, ~US$60B unsecured bonds, China owed at least US$18B",
+   "source": "PIIE",
+   "url": "https://www.piie.com/blogs/realtime-economics/2026/who-gets-venezuelas-next-barrel",
+   "category": "Debt",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "~US$60B bonds"
+  },
+  {
+   "id": "c-n17",
+   "date": "2026-09-09T12:00Z",
+   "title": "Repsol grows Venezuela output funded by oil cargoes, not cash; 71k boe/d in H1 2026",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/repsol-venezuela-production-cargoes-ofac-licence-2026/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "71,000 boe/d"
+  },
+  {
+   "id": "c-n18",
+   "date": "2026-09-02T12:00Z",
+   "title": "Chevron commits US$7B to double Venezuela production",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/chevron-venezuela-operations.html",
+   "category": "Investment",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "US$7B"
+  },
+  {
+   "id": "c-n19",
+   "date": "2026-08-30T12:00Z",
+   "title": "US Defense Department to take 35% of NABEP's parent under long-term energy deal",
+   "source": "Metals Mine / ZeroHedge",
+   "url": "https://www.metalsmine.com/news/1415632-pentagon-grabs-35-equity-stake-in-venezuelan-oil",
+   "category": "Policy",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "35% stake"
+  },
+  {
+   "id": "c-n20",
+   "date": "2026-08-03T12:00Z",
+   "title": "OFAC issues GL 5Y on the PDVSA 2020 8.5% bond",
+   "source": "OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20260803",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "GL 5Y"
+  },
+  {
+   "id": "c-n21",
+   "date": "2026-06-18T12:00Z",
+   "title": "OFAC issues GL 5X, 24A and 59 (Conviasa)",
+   "source": "OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20260618_33",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "3 licenses"
+  },
+  {
+   "id": "c-n22",
+   "date": "2026-05-20T12:00Z",
+   "title": "Tracker of post-Maduro OFAC general licenses: GL 46 to 58 cover oil trade, services, PDVSA dealings and debt advisory",
+   "source": "Blank Rome",
+   "url": "https://www.blankrome.com/news-and-events/venezuela-sanctions-update-tracking-ofac-general-licenses-post-maduro",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "GL 46-58"
+  },
+  {
+   "id": "c-n23",
+   "date": "2026-01-29T12:00Z",
+   "title": "National Assembly approves Hydrocarbons Law reform: productive participation contracts, international arbitration",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/venezuela/2026/01/29/el-parlamento-de-venezuela-aprobo-la-reforma-de-la-ley-de-hidrocarburos-para-incentivar-la-inversion-extranjera/",
+   "category": "Policy",
+   "via": "API16 curated",
+   "origin": "curated",
+   "key_figure": "Law reform"
+  }
+ ],
+ "updated": "2026-10-27T05:00:00Z"
+}
