@@ -1,7 +1,21 @@
 {
- "updated": "2026-10-27T12:50:55Z",
+ "updated": "2026-10-27T14:54:52Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 210144000,
+   "imo": 9923748,
+   "name": "STENA PROMISE",
+   "length_m": 186,
+   "why": "seen in Venezuelan / ABC waters",
+   "last_zone": "Trinidad & Tobago",
+   "last_seen": "2026-10-27T14:54:52Z",
+   "destination": "NLRTM>TTCHA",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 300
+  },
   {
    "mmsi": 636025070,
    "imo": null,
@@ -13,20 +27,8 @@
    "destination": "",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
-   "us_gulf_first_seen": null
-  },
-  {
-   "mmsi": 210144000,
-   "imo": 9923748,
-   "name": "STENA PROMISE",
-   "length_m": 186,
-   "why": "seen in Venezuelan / ABC waters",
-   "last_zone": "Venezuelan waters (other)",
-   "last_seen": "2026-10-27T12:50:55Z",
-   "destination": "NLRTM>TTCHA",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
   },
   {
    "mmsi": 352001337,
@@ -39,7 +41,8 @@
    "destination": "GY GEO",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
-   "us_gulf_first_seen": null
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 300
   }
  ]
 }

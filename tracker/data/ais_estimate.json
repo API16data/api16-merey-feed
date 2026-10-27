@@ -1,0 +1,10 @@
+{
+ "updated": "2026-10-27T14:54:52Z",
+ "window_days": 1.0,
+ "arrivals": 0,
+ "est_kbbl": 0,
+ "est_kbd": 0,
+ "tracking_since": "2026-10-27T04:04:40Z",
+ "method": "Tankers seen in Venezuelan or ABC waters that later reach a US Gulf zone, times a cargo size estimated from vessel length. Free AIS misses many ships near Venezuela, so this is a lower bound.",
+ "list": []
+}
