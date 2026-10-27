@@ -29,7 +29,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T04:04:40Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 9.3
    }
   ],
@@ -39,7 +39,7 @@
   "name": "OLYMPUS LNG",
   "destination": "OPEN SEA FOR ORDERS",
   "draught_m": 9.3,
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -51,7 +51,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T04:04:40Z",
-    "last": "2026-10-27T06:48:55Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 9
    }
   ],
@@ -61,7 +61,7 @@
   "name": "GAS GEMINI",
   "destination": "US NDX",
   "draught_m": 9,
-  "last_seen": "2026-10-27T06:48:55Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -146,7 +146,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T04:04:40Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 11.9
    }
   ],
@@ -156,7 +156,7 @@
   "name": "CORFU GAS",
   "destination": "USNSS",
   "draught_m": 11.9,
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -214,6 +214,13 @@
     "first": "2026-10-27T06:48:55Z",
     "last": "2026-10-27T06:48:55Z",
     "draught_m": 11.6
+   },
+   {
+    "zone": "Open sea / other",
+    "group": null,
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 11.6
    }
   ],
   "imo": 9911513,
@@ -222,9 +229,9 @@
   "name": "GROUSE SUN",
   "destination": "BRARA",
   "draught_m": 11.6,
-  "last_seen": "2026-10-27T06:48:55Z",
-  "last_zone": "Port Arthur / Beaumont / Sabine",
-  "last_group": "USG"
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Open sea / other",
+  "last_group": null
  },
  "338617000": {
   "mmsi": 338617000,
@@ -322,12 +329,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": null
    }
   ],
   "name": "YARA SELA",
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -339,12 +346,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": null
    }
   ],
   "name": "ARCTIC",
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -356,7 +363,7 @@
     "zone": "Open sea / other",
     "group": null,
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-27T06:48:55Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 8.5
    }
   ],
@@ -366,7 +373,7 @@
   "name": "SEA JAGUAR",
   "destination": "USBPT",
   "draught_m": 8.5,
-  "last_seen": "2026-10-27T06:48:55Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Open sea / other",
   "last_group": null
  },
@@ -400,7 +407,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 8.5
    }
   ],
@@ -410,7 +417,7 @@
   "name": "SEA NAVIGATOR",
   "destination": "USCRP",
   "draught_m": 8.5,
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -445,7 +452,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 7.9
    }
   ],
@@ -455,7 +462,7 @@
   "name": "NORDORCHID",
   "destination": "USCRP > USBPT",
   "draught_m": 7.9,
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -486,12 +493,19 @@
     "first": "2026-10-27T09:47:00Z",
     "last": "2026-10-27T09:47:00Z",
     "draught_m": null
+   },
+   {
+    "zone": "Open sea / other",
+    "group": null,
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": null
    }
   ],
   "name": "RABDAN",
-  "last_seen": "2026-10-27T09:47:00Z",
-  "last_zone": "Port Arthur / Beaumont / Sabine",
-  "last_group": "USG"
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Open sea / other",
+  "last_group": null
  },
  "538003910": {
   "mmsi": 538003910,
@@ -501,7 +515,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 10
    }
   ],
@@ -511,7 +525,7 @@
   "name": "GAS GROUPER",
   "destination": "USNDX-EGALY",
   "draught_m": 10,
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -523,7 +537,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": 8.2
    }
   ],
@@ -533,7 +547,7 @@
   "name": "ALBERT III",
   "destination": "US HOU>US BPT",
   "draught_m": 8.2,
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -545,13 +559,198 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-27T09:47:00Z",
+    "last": "2026-10-27T12:50:55Z",
     "draught_m": null
    }
   ],
   "name": "ARDMORE SEALION",
-  "last_seen": "2026-10-27T09:47:00Z",
+  "last_seen": "2026-10-27T12:50:55Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
+ },
+ "249879000": {
+  "mmsi": 249879000,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 7.9
+   }
+  ],
+  "imo": 1031109,
+  "type": 80,
+  "length_m": 183,
+  "name": "LARGO ALPHA",
+  "destination": "PORT ARTHUR",
+  "draught_m": 7.9,
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ },
+ "311000377": {
+  "mmsi": 311000377,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": null
+   }
+  ],
+  "name": "COMMODORE",
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ },
+ "319499000": {
+  "mmsi": 319499000,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Houston / Galveston / Texas City",
+    "group": "USG",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 10.3
+   }
+  ],
+  "imo": 9102083,
+  "type": 81,
+  "length_m": 176,
+  "name": "STOLT INSPIRATION",
+  "destination": "US HOU",
+  "draught_m": 10.3,
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Houston / Galveston / Texas City",
+  "last_group": "USG"
+ },
+ "538006490": {
+  "mmsi": 538006490,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Houston / Galveston / Texas City",
+    "group": "USG",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 8.2
+   }
+  ],
+  "imo": 9692351,
+  "type": 80,
+  "length_m": 183,
+  "name": "SILVER EBALINA",
+  "destination": "USHOU",
+  "draught_m": 8.2,
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Houston / Galveston / Texas City",
+  "last_group": "USG"
+ },
+ "563321200": {
+  "mmsi": 563321200,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Open sea / other",
+    "group": null,
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": null
+   }
+  ],
+  "name": "GAS IRIS",
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Open sea / other",
+  "last_group": null
+ },
+ "636025070": {
+  "mmsi": 636025070,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Venezuelan waters (other)",
+    "group": "VE",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": null
+   }
+  ],
+  "name": "HL EDWARD AUSTIN",
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Venezuelan waters (other)",
+  "last_group": "VE",
+  "seen_near_venezuela": true
+ },
+ "210144000": {
+  "mmsi": 210144000,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Venezuelan waters (other)",
+    "group": "VE",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 8.2
+   }
+  ],
+  "imo": 9923748,
+  "type": 82,
+  "length_m": 186,
+  "name": "STENA PROMISE",
+  "destination": "NLRTM>TTCHA",
+  "draught_m": 8.2,
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Venezuelan waters (other)",
+  "last_group": "VE",
+  "seen_near_venezuela": true
+ },
+ "636021410": {
+  "mmsi": 636021410,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Houston / Galveston / Texas City",
+    "group": "USG",
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 8.2
+   }
+  ],
+  "imo": 9376658,
+  "type": 80,
+  "length_m": 124,
+  "name": "STOLT HALCON",
+  "destination": "US HOU",
+  "draught_m": 8.2,
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Houston / Galveston / Texas City",
+  "last_group": "USG"
+ },
+ "538009827": {
+  "mmsi": 538009827,
+  "first_seen": "2026-10-27T12:50:55Z",
+  "visits": [
+   {
+    "zone": "Open sea / other",
+    "group": null,
+    "first": "2026-10-27T12:50:55Z",
+    "last": "2026-10-27T12:50:55Z",
+    "draught_m": 8.3
+   }
+  ],
+  "imo": 9932608,
+  "type": 80,
+  "length_m": 227,
+  "name": "KOHAKU",
+  "destination": "USNDX",
+  "draught_m": 8.3,
+  "last_seen": "2026-10-27T12:50:55Z",
+  "last_zone": "Open sea / other",
+  "last_group": null
  }
 }
