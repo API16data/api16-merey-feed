@@ -87,6 +87,17 @@
   code { font: 12px var(--mono); background: var(--grid); padding: 1px 5px; border-radius: 4px; }
   footer { padding-block: 28px 40px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); }
   .err { color: var(--bad); font-size: 13px; }
+  .stats4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; margin-bottom: 16px; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .stat .l { font-size: 12px; color: var(--muted); }
+  .stat .v { font: 500 24px/1.2 var(--mono); }
+  .stat .s { font-size: 12px; color: var(--muted); }
+  .stat .tag { align-self: flex-start; font-size: 11px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  .stat .tag.off { border-color: #3B5B8C; color: var(--fg); }
+  .stat .tag.est { border-color: var(--amber); color: var(--fg); }
+  .src { font-size: 12px; color: var(--muted); margin: 12px 0 0; padding-left: 18px; }
+  .src li { margin: 2px 0; }
+  .chart.tall { min-height: 300px; }
   @media (prefers-color-scheme: dark) { .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9); } }
 </style>
 </head>
@@ -98,7 +109,7 @@
       <b>API16</b>
     </a>
     <nav aria-label="Sections">
-      <a href="#tankers">Tankers</a><a href="#prices">Prices</a><a href="#flows">Flows</a><a href="#news">News</a><a href="#onchain">On-chain</a><a href="#verify">Verify</a>
+      <a href="#usimports">US imports</a><a href="#tankers">Tankers</a><a href="#prices">Prices</a><a href="#flows">Flows</a><a href="#news">News</a><a href="#onchain">On-chain</a><a href="#verify">Verify</a>
     </nav>
   </div>
 </header>
@@ -117,6 +128,28 @@
     <div class="kpi"><span class="l">US imports from VE · <span id="k-im">—</span></span><span class="v" id="k-imp">—</span><span class="s">thousand b/d, EIA</span></div>
     <div class="kpi"><span class="l">Tankers · last scan</span><span class="v" id="k-tank">—</span><span class="s" id="k-tank-s">AIS, Venezuela + ABC + US Gulf</span></div>
   </div>
+
+  <section class="block" id="usimports">
+    <h2>How much Venezuelan crude is the US taking?</h2>
+    <p class="lede">Barrels per day of Venezuelan crude arriving in the United States, from four independent sources. Official figures lag; ship tracking is faster but partial. Where they agree, you can trust the number.</p>
+    <div class="stats4">
+      <div class="stat"><span class="tag off">Official · weekly</span><span class="l">EIA, week ending <span id="u-wk">—</span></span><span class="v" id="u-wkv">—</span><span class="s" id="u-wk4">4-week average —</span></div>
+      <div class="stat"><span class="tag off">Official · monthly</span><span class="l">EIA company-level, <span id="u-mo">—</span></span><span class="v" id="u-mov">—</span><span class="s">thousand b/d, by refinery (EIA-814)</span></div>
+      <div class="stat"><span class="tag">Reported</span><span class="l">Ship-tracking reports, <span id="u-rp">—</span></span><span class="v" id="u-rpv">—</span><span class="s" id="u-rps">Exports to the US, press</span></div>
+      <div class="stat"><span class="tag est">API16 estimate</span><span class="l">AIS arrivals, last <span id="u-aw">—</span> days</span><span class="v" id="u-aiv">—</span><span class="s" id="u-ais">Lower bound</span></div>
+    </div>
+    <div class="card">
+      <h3>Thousand barrels per day</h3>
+      <p class="note">Line: EIA weekly. Bars: EIA monthly by refinery. Squares: monthly exports to the US reported from ship tracking. Amber band: API16's AIS estimate.</p>
+      <div class="chart tall" id="c-us"></div>
+      <ul class="src">
+        <li><b>EIA weekly</b>: preliminary imports from the Weekly Petroleum Status Report, about 1 week behind. Revised later.</li>
+        <li><b>EIA monthly</b>: final company-level data (who imported, where), about 2 months behind.</li>
+        <li><b>Reported</b>: monthly exports to the US from ship-tracking data and PDVSA documents, as reported in the press.</li>
+        <li><b>API16 AIS estimate</b>: tankers seen in Venezuelan or ABC waters that later reach a US Gulf port, times a cargo size estimated from the ship's length. Free AIS misses many ships near Venezuela, so this is a minimum.</li>
+      </ul>
+    </div>
+  </section>
 
   <section class="block" id="tankers">
     <h2>Tankers on AIS</h2>
@@ -311,10 +344,12 @@
   // ---------- load everything ----------
   let cache = {};
   async function load() {
-    const [latest, ve, news, imp, ref, spot, merey] = await Promise.all([
+    const [latest, ve, news, imp, ref, spot, merey, wk, ais, rep] = await Promise.all([
       get(D + 'latest.json'), get(D + 'venezuela.json'), get(D + 'news.json'), get(D + 'eia_imports_monthly.json'),
-      get(D + 'eia_imports_refinery.json'), get(D + 'spot_prices_daily.json'), get('data/merey_brent_monthly.json')]);
-    cache = { latest, ve, news, imp, ref, spot, merey };
+      get(D + 'eia_imports_refinery.json'), get(D + 'spot_prices_daily.json'), get('data/merey_brent_monthly.json'),
+      get(D + 'eia_imports_weekly.json'), get(D + 'ais_estimate.json'), get('data/reported_us_flows.json')]);
+    cache = { latest, ve, news, imp, ref, spot, merey, wk, ais, rep };
+    fillUS(cache);
     const stamps = [];
     if (merey && merey.length) {
       const m = merey[merey.length - 1];
@@ -326,7 +361,8 @@
       if (b) { $('k-bd').textContent = b.date; $('k-brent').textContent = f2.format(b.brent); }
       stamps.push('prices ' + ago(spot.updated));
     }
-    if (imp && imp.rows && imp.rows.length) { const l = imp.rows[imp.rows.length - 1]; $('k-im').textContent = mLabel(l.period); $('k-imp').textContent = f0.format(l.kbd); }
+    if (wk && wk.rows && wk.rows.length) { const l = wk.rows[wk.rows.length - 1]; $('k-im').textContent = 'week to ' + l.week_ending.slice(5); $('k-imp').textContent = f0.format(l.kbd); }
+    else if (imp && imp.rows && imp.rows.length) { const l = imp.rows[imp.rows.length - 1]; $('k-im').textContent = mLabel(l.period); $('k-imp').textContent = f0.format(l.kbd); }
     if (latest) {
       const n = (latest.tankers || []).length, v = (latest.tankers || []).filter((t) => t.venezuela_link).length;
       $('k-tank').textContent = f0.format(n); $('k-tank-s').textContent = v + ' linked to Venezuela · ' + ago(latest.run_at);
@@ -350,7 +386,55 @@
     $('stamp').textContent = stamps.length ? 'Live · updated ' + stamps.join(' · ') : 'Waiting for the first data run…';
     drawCharts();
   }
+  function fillUS(c) {
+    const { wk, imp, ais, rep } = c;
+    if (wk && wk.rows && wk.rows.length) { const l = wk.rows[wk.rows.length - 1]; $('u-wk').textContent = l.week_ending; $('u-wkv').textContent = f0.format(l.kbd); $('u-wk4').textContent = '4-week average ' + (l.kbd_4wk != null ? f0.format(l.kbd_4wk) : '—') + ' thousand b/d'; }
+    if (imp && imp.rows && imp.rows.length) { const l = imp.rows[imp.rows.length - 1]; $('u-mo').textContent = mLabel(l.period); $('u-mov').textContent = f0.format(l.kbd); }
+    if (rep && rep.rows && rep.rows.length) { const l = rep.rows[rep.rows.length - 1]; $('u-rp').textContent = mLabel(l.month); $('u-rpv').textContent = f0.format(l.kbd); $('u-rps').textContent = l.source; }
+    if (ais) { $('u-aw').textContent = String(Math.round(ais.window_days)); $('u-aiv').textContent = f0.format(ais.est_kbd); $('u-ais').textContent = ais.arrivals + ' tanker arrivals tracked since ' + String(ais.tracking_since).slice(0, 10) + ' · lower bound'; }
+    else { $('u-aiv').textContent = '—'; $('u-ais').textContent = 'Starts with the next tracker run'; }
+  }
+  function usChart(box, c) {
+    box.replaceChildren();
+    const { wk, imp, ais, rep } = c;
+    if (!(wk && wk.rows && wk.rows.length)) return;
+    const W = Math.max(280, box.clientWidth), H = 300, mt = 14, mb = 26, ml = 44, mr = 12;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const pd = (p) => new Date(Date.UTC(+p.slice(0, 4), +p.slice(5, 7) - 1, 1));
+    const weeks = wk.rows.map((r) => ({ d: new Date(r.week_ending + 'T00:00:00Z'), v: r.kbd }));
+    const months = (imp && imp.rows ? imp.rows : []).map((r) => ({ d0: pd(r.period), d1: d3.utcMonth.offset(pd(r.period), 1), v: r.kbd, p: r.period }));
+    const reps = (rep && rep.rows ? rep.rows : []).map((r) => ({ d: d3.utcDay.offset(pd(r.month), 14), v: r.kbd, m: r.month }));
+    const x0 = d3.min([weeks[0].d, months.length ? months[0].d0 : weeks[0].d]);
+    const x = d3.scaleUtc([x0, d3.utcDay.offset(weeks[weeks.length - 1].d, 7)], [ml, W - mr]);
+    const vmax = d3.max([d3.max(weeks, (p) => p.v), d3.max(months, (p) => p.v) || 0, d3.max(reps, (p) => p.v) || 0, ais ? ais.est_kbd : 0]);
+    const y = d3.scaleLinear([0, vmax * 1.1], [H - mb, mt]).nice();
+    svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y).attr('y2', y).attr('stroke', css('--grid'));
+    svg.append('g').selectAll('text').data(y.ticks(5)).join('text').attr('x', ml - 8).attr('y', (t) => y(t) + 4).attr('text-anchor', 'end').attr('fill', css('--muted')).style('font', '11px IBM Plex Mono, monospace').text((t) => f0.format(t));
+    svg.append('g').selectAll('text').data(x.ticks(W < 500 ? 4 : 8)).join('text').attr('x', x).attr('y', H - 6).attr('text-anchor', 'middle').attr('fill', css('--muted')).style('font', '11px IBM Plex Sans, sans-serif').text((d) => MES[d.getUTCMonth()] + ' ' + String(d.getUTCFullYear()).slice(2));
+    svg.append('g').selectAll('rect').data(months).join('rect').attr('x', (m) => x(m.d0) + 1).attr('width', (m) => Math.max(1, x(m.d1) - x(m.d0) - 2)).attr('y', (m) => y(m.v)).attr('height', (m) => y(0) - y(m.v)).attr('fill', '#3B5B8C').attr('opacity', 0.28);
+    if (ais && ais.est_kbd > 0) {
+      const a1 = new Date(ais.updated), a0 = d3.utcDay.offset(a1, -Math.round(ais.window_days));
+      svg.append('rect').attr('x', x(a0)).attr('width', Math.max(2, x(a1) - x(a0))).attr('y', y(ais.est_kbd) - 2).attr('height', 4).attr('fill', '#C8892B').attr('opacity', .9);
+    }
+    svg.append('path').datum(weeks).attr('fill', 'none').attr('stroke', '#C8892B').attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('d', d3.line().x((p) => x(p.d)).y((p) => y(p.v)));
+    svg.append('g').selectAll('rect').data(reps).join('rect').attr('x', (r) => x(r.d) - 4).attr('y', (r) => y(r.v) - 4).attr('width', 8).attr('height', 8).attr('fill', css('--fg'));
+    const tip = tipFor(box);
+    const rule = svg.append('line').attr('y1', mt).attr('y2', H - mb).attr('stroke', css('--line')).attr('visibility', 'hidden');
+    svg.append('rect').attr('x', ml).attr('y', 0).attr('width', W - mr - ml).attr('height', H - mb).attr('fill', 'transparent')
+      .on('mousemove', (ev) => {
+        const [px] = d3.pointer(ev); const d = x.invert(px);
+        const w = weeks[d3.minIndex(weeks, (p) => Math.abs(p.d - d))];
+        const m = months.find((q) => d >= q.d0 && d < q.d1); const r = reps.find((q) => Math.abs(q.d - d) < 16 * 864e5);
+        rule.attr('x1', x(w.d)).attr('x2', x(w.d)).attr('visibility', 'visible');
+        tip.replaceChildren(el('div', 'Week to ' + w.d.toISOString().slice(0, 10)), el('div', 'EIA weekly: ' + f0.format(w.v)));
+        if (m) tip.append(el('div', 'EIA monthly ' + mLabel(m.p) + ': ' + f0.format(m.v)));
+        if (r) tip.append(el('div', 'Reported ' + mLabel(r.m) + ': ' + f0.format(r.v)));
+        tip.hidden = false; const k = box.clientWidth / W; let left = x(w.d) * k + 12; if (left + tip.offsetWidth > box.clientWidth) left = x(w.d) * k - tip.offsetWidth - 12; tip.style.left = Math.max(0, left) + 'px'; tip.style.top = '8px';
+      })
+      .on('mouseleave', () => { tip.hidden = true; rule.attr('visibility', 'hidden'); });
+  }
   function drawCharts() {
+    usChart($('c-us'), cache);
     const { merey, spot, imp } = cache;
     const pd = (p) => new Date(Date.UTC(+p.slice(0, 4), +p.slice(5, 7) - 1, 1));
     if (merey && merey.length) lineChart($('c-prices'), [
