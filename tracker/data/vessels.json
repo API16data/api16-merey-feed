@@ -1,0 +1,200 @@
+{
+ "563059900": {
+  "mmsi": 563059900,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Houston / Galveston / Texas City",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 7.6
+   }
+  ],
+  "imo": 9791171,
+  "type": 82,
+  "length_m": 159,
+  "name": "HAKONE GALAXY",
+  "destination": "US HOU",
+  "draught_m": 7.6,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Houston / Galveston / Texas City",
+  "last_group": "USG"
+ },
+ "538011550": {
+  "mmsi": 538011550,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 9.3
+   }
+  ],
+  "imo": 9992232,
+  "type": 80,
+  "length_m": 290,
+  "name": "OLYMPUS LNG",
+  "destination": "OPEN SEA FOR ORDERS",
+  "draught_m": 9.3,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ },
+ "636022458": {
+  "mmsi": 636022458,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 9
+   }
+  ],
+  "imo": 9779991,
+  "type": 80,
+  "length_m": 226,
+  "name": "GAS GEMINI",
+  "destination": "US NDX",
+  "draught_m": 9,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ },
+ "477632200": {
+  "mmsi": 477632200,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 8.3
+   }
+  ],
+  "imo": 9880403,
+  "type": 80,
+  "length_m": 183,
+  "name": "FOREVER BRILLIANCY",
+  "destination": "BEAUMONT",
+  "draught_m": 8.3,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ },
+ "636025236": {
+  "mmsi": 636025236,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Open sea / other",
+    "group": null,
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 9.6
+   }
+  ],
+  "imo": 9986087,
+  "type": 80,
+  "length_m": 295,
+  "name": "AL SLAIMI",
+  "destination": "ESALG->USNSS",
+  "draught_m": 9.6,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Open sea / other",
+  "last_group": null
+ },
+ "538007359": {
+  "mmsi": 538007359,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Houston / Galveston / Texas City",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 6.4
+   }
+  ],
+  "imo": 9340350,
+  "type": 80,
+  "length_m": 128,
+  "name": "OWL 6",
+  "destination": "USHOU",
+  "draught_m": 6.4,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Houston / Galveston / Texas City",
+  "last_group": "USG"
+ },
+ "636022843": {
+  "mmsi": 636022843,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 11.9
+   }
+  ],
+  "imo": 9984728,
+  "type": 80,
+  "length_m": 230,
+  "name": "CORFU GAS",
+  "destination": "USNSS",
+  "draught_m": 11.9,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ },
+ "538009902": {
+  "mmsi": 538009902,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Corpus Christi",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 10.2
+   }
+  ],
+  "imo": 9694191,
+  "type": 80,
+  "length_m": 183,
+  "name": "EMMA GRACE",
+  "destination": "USCRP",
+  "draught_m": 10.2,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Corpus Christi",
+  "last_group": "USG"
+ },
+ "538008263": {
+  "mmsi": 538008263,
+  "first_seen": "2026-10-27T04:04:40Z",
+  "visits": [
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-10-27T04:04:40Z",
+    "last": "2026-10-27T04:04:40Z",
+    "draught_m": 7.6
+   }
+  ],
+  "imo": 9804813,
+  "type": 89,
+  "length_m": 145,
+  "name": "PEREGRINE GALAXY",
+  "destination": "PORT ARTHUR",
+  "draught_m": 7.6,
+  "last_seen": "2026-10-27T04:04:40Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
+ }
+}
