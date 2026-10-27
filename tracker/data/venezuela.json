@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:48:44Z",
+ "updated": "2026-10-27T16:50:52Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -9,7 +9,7 @@
    "length_m": 186,
    "why": "seen in Venezuelan / ABC waters",
    "last_zone": "Trinidad & Tobago",
-   "last_seen": "2026-10-27T14:54:52Z",
+   "last_seen": "2026-10-27T16:50:52Z",
    "destination": "NLRTM>TTCHA",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
