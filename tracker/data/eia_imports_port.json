@@ -1,0 +1,937 @@
+{
+"updated": "2026-10-27T14:41:08Z",
+"source": "EIA API crude-oil-imports (EIA-814), origin Venezuela",
+"rows": [
+{
+"period": "2025-01",
+"port": "Corpus Christi, TX",
+"kbbl": 700.0,
+"kbd": 22.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "Gramercy, LA",
+"kbbl": 2580.0,
+"kbd": 83.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "Houston, TX",
+"kbbl": 492.0,
+"kbd": 15.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "New Orleans, LA",
+"kbbl": 612.0,
+"kbd": 19.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "Pascagoula, MS",
+"kbbl": 1701.0,
+"kbd": 54.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "Philadelphia, PA",
+"kbbl": 343.0,
+"kbd": 11.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "Port Arthur, TX",
+"kbbl": 1503.0,
+"kbd": 48.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-01",
+"port": "Wilmington, DE",
+"kbbl": 965.0,
+"kbd": 31.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-02",
+"port": "Corpus Christi, TX",
+"kbbl": 549.0,
+"kbd": 19.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-02",
+"port": "Gramercy, LA",
+"kbbl": 1500.0,
+"kbd": 53.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-02",
+"port": "New Orleans, LA",
+"kbbl": 358.0,
+"kbd": 12.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-02",
+"port": "Pascagoula, MS",
+"kbbl": 2191.0,
+"kbd": 78.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-02",
+"port": "Philadelphia, PA",
+"kbbl": 348.0,
+"kbd": 12.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-02",
+"port": "Port Arthur, TX",
+"kbbl": 911.0,
+"kbd": 32.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Corpus Christi, TX",
+"kbbl": 272.0,
+"kbd": 8.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Freeport, TX",
+"kbbl": 1494.0,
+"kbd": 48.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Gramercy, LA",
+"kbbl": 1484.0,
+"kbd": 47.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Houston, TX",
+"kbbl": 495.0,
+"kbd": 16.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "New Orleans, LA",
+"kbbl": 644.0,
+"kbd": 20.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Pascagoula, MS",
+"kbbl": 1677.0,
+"kbd": 54.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Philadelphia, PA",
+"kbbl": 160.0,
+"kbd": 5.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Port Arthur, TX",
+"kbbl": 1420.0,
+"kbd": 45.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Texas City, TX",
+"kbbl": 25.0,
+"kbd": 0.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-03",
+"port": "Wilmington, DE",
+"kbbl": 178.0,
+"kbd": 5.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "Corpus Christi, TX",
+"kbbl": 488.0,
+"kbd": 16.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "Freeport, TX",
+"kbbl": 1394.0,
+"kbd": 46.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "Gramercy, LA",
+"kbbl": 1009.0,
+"kbd": 33.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "New Orleans, LA",
+"kbbl": 435.0,
+"kbd": 14.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "Pascagoula, MS",
+"kbbl": 680.0,
+"kbd": 22.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "Philadelphia, PA",
+"kbbl": 338.0,
+"kbd": 11.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-04",
+"port": "Port Arthur, TX",
+"kbbl": 741.0,
+"kbd": 24.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-05",
+"port": "Freeport, TX",
+"kbbl": 898.0,
+"kbd": 29.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-05",
+"port": "Gramercy, LA",
+"kbbl": 1040.0,
+"kbd": 33.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-05",
+"port": "Morgan City, LA",
+"kbbl": 467.0,
+"kbd": 15.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-05",
+"port": "Port Arthur, TX",
+"kbbl": 1246.0,
+"kbd": 40.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-06",
+"port": "Freeport, TX",
+"kbbl": 1443.0,
+"kbd": 48.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-06",
+"port": "Gramercy, LA",
+"kbbl": 900.0,
+"kbd": 30.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-06",
+"port": "Port Arthur, TX",
+"kbbl": 251.0,
+"kbd": 8.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-07",
+"port": "New Orleans, LA",
+"kbbl": 50.0,
+"kbd": 1.6,
+"grades": "Light Sweet"
+},
+{
+"period": "2025-07",
+"port": "Wilmington, DE",
+"kbbl": 175.0,
+"kbd": 5.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-08",
+"port": "Corpus Christi, TX",
+"kbbl": 340.0,
+"kbd": 11.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-08",
+"port": "Gramercy, LA",
+"kbbl": 520.0,
+"kbd": 16.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-08",
+"port": "Port Arthur, TX",
+"kbbl": 345.0,
+"kbd": 11.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-09",
+"port": "Corpus Christi, TX",
+"kbbl": 597.0,
+"kbd": 19.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-09",
+"port": "Freeport, TX",
+"kbbl": 475.0,
+"kbd": 15.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-09",
+"port": "Gramercy, LA",
+"kbbl": 519.0,
+"kbd": 17.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-09",
+"port": "New Orleans, LA",
+"kbbl": 341.0,
+"kbd": 11.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-09",
+"port": "Pascagoula, MS",
+"kbbl": 837.0,
+"kbd": 27.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-09",
+"port": "Port Arthur, TX",
+"kbbl": 279.0,
+"kbd": 9.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Corpus Christi, TX",
+"kbbl": 370.0,
+"kbd": 11.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Freeport, TX",
+"kbbl": 461.0,
+"kbd": 14.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Gramercy, LA",
+"kbbl": 519.0,
+"kbd": 16.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "New Orleans, LA",
+"kbbl": 329.0,
+"kbd": 10.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Pascagoula, MS",
+"kbbl": 1024.0,
+"kbd": 33.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Philadelphia, PA",
+"kbbl": 361.0,
+"kbd": 11.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Port Arthur, TX",
+"kbbl": 671.0,
+"kbd": 21.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-10",
+"port": "Wilmington, DE",
+"kbbl": 465.0,
+"kbd": 15.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Corpus Christi, TX",
+"kbbl": 479.0,
+"kbd": 16.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Freeport, TX",
+"kbbl": 515.0,
+"kbd": 17.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Gramercy, LA",
+"kbbl": 1532.0,
+"kbd": 51.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Houston, TX",
+"kbbl": 498.0,
+"kbd": 16.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "New Orleans, LA",
+"kbbl": 5.0,
+"kbd": 0.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Pascagoula, MS",
+"kbbl": 519.0,
+"kbd": 17.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Philadelphia, PA",
+"kbbl": 328.0,
+"kbd": 10.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-11",
+"port": "Port Arthur, TX",
+"kbbl": 290.0,
+"kbd": 9.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-12",
+"port": "Corpus Christi, TX",
+"kbbl": 717.0,
+"kbd": 23.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-12",
+"port": "Freeport, TX",
+"kbbl": 1034.0,
+"kbd": 33.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-12",
+"port": "Gramercy, LA",
+"kbbl": 992.0,
+"kbd": 32.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-12",
+"port": "Pascagoula, MS",
+"kbbl": 859.0,
+"kbd": 27.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-12",
+"port": "Philadelphia, PA",
+"kbbl": 341.0,
+"kbd": 11.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2025-12",
+"port": "Port Arthur, TX",
+"kbbl": 314.0,
+"kbd": 10.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-01",
+"port": "Corpus Christi, TX",
+"kbbl": 974.0,
+"kbd": 31.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-01",
+"port": "Freeport, TX",
+"kbbl": 1556.0,
+"kbd": 50.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-01",
+"port": "Gramercy, LA",
+"kbbl": 1038.0,
+"kbd": 33.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-01",
+"port": "New Orleans, LA",
+"kbbl": 340.0,
+"kbd": 11.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-01",
+"port": "Pascagoula, MS",
+"kbbl": 1187.0,
+"kbd": 38.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-01",
+"port": "Port Arthur, TX",
+"kbbl": 1093.0,
+"kbd": 35.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "Corpus Christi, TX",
+"kbbl": 120.0,
+"kbd": 4.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "Freeport, TX",
+"kbbl": 1036.0,
+"kbd": 37.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "Gramercy, LA",
+"kbbl": 1040.0,
+"kbd": 37.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "Morgan City, LA",
+"kbbl": 2662.0,
+"kbd": 95.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "New Orleans, LA",
+"kbbl": 341.0,
+"kbd": 12.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "Pascagoula, MS",
+"kbbl": 339.0,
+"kbd": 12.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-02",
+"port": "Port Arthur, TX",
+"kbbl": 925.0,
+"kbd": 33.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Corpus Christi, TX",
+"kbbl": 1231.0,
+"kbd": 39.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Freeport, TX",
+"kbbl": 960.0,
+"kbd": 31.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Gramercy, LA",
+"kbbl": 3078.0,
+"kbd": 99.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Houston, TX",
+"kbbl": 302.0,
+"kbd": 9.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Morgan City, LA",
+"kbbl": 786.0,
+"kbd": 25.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Orange, TX",
+"kbbl": 340.0,
+"kbd": 11.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Pascagoula, MS",
+"kbbl": 2045.0,
+"kbd": 66.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Port Arthur, TX",
+"kbbl": 2352.0,
+"kbd": 75.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-03",
+"port": "Wilmington, DE",
+"kbbl": 484.0,
+"kbd": 15.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Corpus Christi, TX",
+"kbbl": 1968.0,
+"kbd": 65.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Freeport, TX",
+"kbbl": 1507.0,
+"kbd": 50.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Gramercy, LA",
+"kbbl": 3512.0,
+"kbd": 117.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Houston, TX",
+"kbbl": 1003.0,
+"kbd": 33.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Lake Charles, LA",
+"kbbl": 503.0,
+"kbd": 16.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Morgan City, LA",
+"kbbl": 498.0,
+"kbd": 16.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "New Orleans, LA",
+"kbbl": 343.0,
+"kbd": 11.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Pascagoula, MS",
+"kbbl": 1712.0,
+"kbd": 57.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Port Arthur, TX",
+"kbbl": 834.0,
+"kbd": 27.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-04",
+"port": "Wilmington, DE",
+"kbbl": 979.0,
+"kbd": 32.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Corpus Christi, TX",
+"kbbl": 1295.0,
+"kbd": 41.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Freeport, TX",
+"kbbl": 1497.0,
+"kbd": 48.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Gramercy, LA",
+"kbbl": 2894.0,
+"kbd": 93.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Houston, TX",
+"kbbl": 513.0,
+"kbd": 16.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Lake Charles, LA",
+"kbbl": 1971.0,
+"kbd": 63.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "New Orleans, LA",
+"kbbl": 672.0,
+"kbd": 21.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Pascagoula, MS",
+"kbbl": 2641.0,
+"kbd": 85.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Philadelphia, PA",
+"kbbl": 243.0,
+"kbd": 7.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Port Arthur, TX",
+"kbbl": 2669.0,
+"kbd": 86.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-05",
+"port": "Wilmington, DE",
+"kbbl": 198.0,
+"kbd": 6.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Corpus Christi, TX",
+"kbbl": 2846.0,
+"kbd": 94.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Freeport, TX",
+"kbbl": 1993.0,
+"kbd": 66.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Gramercy, LA",
+"kbbl": 2133.0,
+"kbd": 71.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Houston, TX",
+"kbbl": 1466.0,
+"kbd": 48.9,
+"grades": "Heavy Sour, Medium"
+},
+{
+"period": "2026-06",
+"port": "Lake Charles, LA",
+"kbbl": 1681.0,
+"kbd": 56.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "New Orleans, LA",
+"kbbl": 680.0,
+"kbd": 22.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Orange, TX",
+"kbbl": 473.0,
+"kbd": 15.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Pascagoula, MS",
+"kbbl": 2469.0,
+"kbd": 82.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Port Arthur, TX",
+"kbbl": 4690.0,
+"kbd": 156.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-06",
+"port": "Wilmington, DE",
+"kbbl": 482.0,
+"kbd": 16.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Corpus Christi, TX",
+"kbbl": 1763.0,
+"kbd": 56.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Freeport, TX",
+"kbbl": 1492.0,
+"kbd": 48.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Gramercy, LA",
+"kbbl": 2507.0,
+"kbd": 80.9,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Houston, TX",
+"kbbl": 1292.0,
+"kbd": 41.7,
+"grades": "Heavy Sour, Medium"
+},
+{
+"period": "2026-07",
+"port": "Lake Charles, LA",
+"kbbl": 3488.0,
+"kbd": 112.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Morgan City, LA",
+"kbbl": 496.0,
+"kbd": 16.0,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "New Orleans, LA",
+"kbbl": 1195.0,
+"kbd": 38.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Pascagoula, MS",
+"kbbl": 1823.0,
+"kbd": 58.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Port Arthur, TX",
+"kbbl": 6250.0,
+"kbd": 201.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-07",
+"port": "Wilmington, DE",
+"kbbl": 1412.0,
+"kbd": 45.5,
+"grades": "Heavy Sour"
+}
+]
+}
