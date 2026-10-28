@@ -1,5 +1,5 @@
 {
- "how_to": "Add one block per story at the top of items: id (unique, e.g. c-n27), date (YYYY-MM-DDTHH:MMZ), title (in English, your own words), source, url, category (Production, Exports, Sanctions, Investment, Gas, Pricing, Refining, Debt, General). key_figure is optional. Saved changes appear on the site after the next news run (every 30 min).",
+ "how_to": "Add one block per story at the top of items: id (unique, e.g. c-n27), date (YYYY-MM-DDTHH:MMZ), title (in English, your own words), source, url, category (Production, Exports, Sanctions, Investment, Gas, Pricing, Refining, Debt, General). key_figure is optional. Add \"context\": true to keep a story in the feed but out of the home-page highlights. Saved changes appear on the site after the next news run (every 30 min).",
  "items": [
   {
    "id": "c-n26",
@@ -19,7 +19,8 @@
    "url": "https://www.bancaynegocios.com/empresa-suiza-sulzer-firma-acuerdo-por-5-anos-con-pdvsa-desarrollara-infraestructura-industrial-esencial-en-venezuela/",
    "category": "Investment",
    "via": "API16 curated",
-   "key_figure": "5-year framework"
+   "key_figure": "5-year framework",
+   "context": true
   },
   {
    "id": "c-n25",
@@ -29,7 +30,8 @@
    "url": "https://www.bancaynegocios.com/delcy-rodriguez-venezuela-quiere-ser-una-potencia-gasifera-productora-para-el-consumo-nacional-y-para-la-exportacion/",
    "category": "Gas",
    "via": "API16 curated",
-   "key_figure": "Gas for export"
+   "key_figure": "Gas for export",
+   "context": true
   },
   {
    "id": "c-n01",
