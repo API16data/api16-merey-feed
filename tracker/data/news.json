@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "c2ebb90ba6fd",
+   "date": "2026-10-28T19:05Z",
+   "title": "Italiana ENI inicia producción en enorme yacimiento de petróleo pesado en Venezuela",
+   "source": "El Economista",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUVhidVNwci1LdGF6bi1iWlhuNVNiUVpydlhZdlRvY2VHaHZSN2lDY2RDVHdHRmc5TVNTUnFoZ2F6S3BuZ2ctci00RlZ5dnJROW5VUXByY21jRk5zejhKVkVDdnRMNGhEdkc4NnBSdHBSelp3Rmw0OGx3Qzg0TUc3ZGV1NVY5Z1lSbmVBRmZGSTdNRmNBWTZfTE9HYzJsZjk3MGUzN2poTkUxeFFZcmQzS29HQkxoVDFvbDB1NGNMbThFQm5SZ1g2N25lTTF2V2RES0HSAdcBQVVfeXFMTnJOMXVZTkJ5NDAycWtQRDJnY0tIeV82R1RXRFZKT29nSWtZVkdib1doLU1rTDdUcFdtZ1dqcmcxamI2a2ZYMkV2REY0OVZFM3UxOHB3RUpUSFc0ZTZjbFFuZG94VVZEMGstRVZGT3Z6N1NIZDlqRk0ySm1nWW8xalR2eFpsQ05CUHVDRjdQWFc0LU1xVU5PZEU1Z1BqODJ6WEJlTDBjRWtZdFFVcFZCN0oxTTJfZ1JVcVhSRjBKRWFKMF9ubnFab3Qza3puYm9CVS04MHhuTkk?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "74e38f1bc38c",
+   "date": "2026-10-28T19:01Z",
+   "title": "Venezuela ya exportó a EEUU en 2026 más petróleo que en los dos años anteriores juntos",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaFU0aXBOSTUxclNZcWd5dFhYdmdZcm5JTF9DZTdUbkVyLVJqSE1rVzBIdUFuYjU3XzhuVWhaa2FvUk54YjlNQWl2cjQ4aXBiSXRrUDFYaG9FTlBwdVJfaXpDcUYtbXVWaWJIckVWQTNFWFNuWFJ1bkVIX1pUcXNDeV9mNWJMeDg2N2ZzRzFPWmFkUUtQR1hrUFRiMkxCMzlhMnlvY1g1cTQ0V2QzbjNWb1dvYTdZc09QRkE?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "1563243b2c32",
    "date": "2026-10-28T17:37Z",
    "title": "Trump Floats Making Venezuela the 51st State During Texas Rally as He Touts 'Historic' Oil Deal",
@@ -18,6 +38,26 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHNrbVNTSENSNE9tbGdxdTN3RjFubVVnUFFMQ3JaM0ZjUy11bG5WMlpySGtsMEhDUjhyWmd1ZkZoVnBQME9fWldaMVQ1STBrVFNBUUlJOHF2MWNaRWNuSnlNVFgtNmdXSmFvOHd2VThySHlVZDM3eTA2a082czA5bWVEcS1aczJhT3FFVmpFOGkxb3RHRUJNYWFwMEd4a1Z0WHNOOWtGdkpLMzhGWFRfR3Q2ZWdxUQ?oc=5",
    "category": "Exports",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "7c1e870f38bd",
+   "date": "2026-10-28T17:12Z",
+   "title": "Eni restarts operations at giant Venezuela oilfield",
+   "source": "Upstream Online",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZEhEUk4zdG5hS3V4X2VKcV8xb3NPVDB0aDZpSmp5MTlXOTRZRTVDYWVFTkZzSm1MRUFZaExQc29ZV1hMRkJmRGhrMU0zMk5CSmsyZGowWG5lVTlsd2lKODRqODZVMW1nMWxpaUxvMnVNLXBLRFd4eWVqblc2NVM2dnZhQTB6cEFldUtJVnJxTU5xZ1Z0MEpqOG1uRElKdHRTRHFzMEhCdkxUTkxTSHNXWWNB?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "aaa59ed89433",
+   "date": "2026-10-28T17:07Z",
+   "title": "Eni Restarts Operations at Junín-5 Oil Field in Venezuela",
+   "source": "www.marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPczVEcmwxaEpteFpmOE50Y01pWUJVa0Rhckt2Yi1WTFFnbmVTLVdfbjFYcUFqSVMwLTZmODZRbDktNG8tVFIyaU5RSTZXVWZ0RmY1V1RyTmdpQ1BTYzhJUzBUUE9DNVRoZC1Nd3JVUGJwQ0NEWm1uQ2I1VmtpVUpLOGExdW83VFhLVi1ibERzTDFKdkJFT3pEVDF3WDQyQUtNNlZ6YWdoQnhFVXItaElj?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -2291,6 +2331,17 @@
    "origin": "rss"
   },
   {
+   "id": "c-n26",
+   "date": "2026-10-27T20:00Z",
+   "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
+   "source": "White House / Reuters",
+   "url": "https://boereport.com/2026/10/27/trump-promotes-oil-production-in-texas-where-democrats-dream-of-breakthrough/",
+   "category": "Exports",
+   "via": "API16 curated",
+   "key_figure": "1M bbl",
+   "origin": "curated"
+  },
+  {
    "id": "3b9f7852afc6",
    "date": "2026-10-27T20:00Z",
    "title": "Trump espera un millón de barriles de petróleo venezolano en Texas",
@@ -3571,6 +3622,16 @@
    "origin": "rss"
   },
   {
+   "id": "b7e97e118b3f",
+   "date": "2026-10-27T12:45Z",
+   "title": "La cesta petrolera de la OPEP se cotizó en 115,09 dólares por barril – Noticias de Barquisimeto",
+   "source": "Promar TV",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNG16MjNpOWJRT004QU53SDhKVFFpNVNzMWV0MzlUQ2NrSzBiSk9zRFphTXlqMDltS0RfbGVmMU9RS0Z5d1BhUnJielZFYUJrbk00Smw5d0NOaE9MRHJobzJIQjRJRDVianlYcGhIVUMtelotaE03Z3RCTjBfOW1LcUpOX1pQLWprRWk0d2NpcnN4OWd4bk1uN2Ric3p5X1hGTEdJ?oc=5",
+   "category": "Pricing",
+   "via": "Google News ES: crudo Merey",
+   "origin": "rss"
+  },
+  {
    "id": "f1b95ce5011c",
    "date": "2026-10-27T12:13Z",
    "title": "Trump y Marco Rubio prevén visitar un petrolero cargado con crudo venezolano en Texas",
@@ -3588,8 +3649,9 @@
    "url": "https://www.bancaynegocios.com/empresa-suiza-sulzer-firma-acuerdo-por-5-anos-con-pdvsa-desarrollara-infraestructura-industrial-esencial-en-venezuela/",
    "category": "Investment",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "5-year framework"
+   "key_figure": "5-year framework",
+   "context": true,
+   "origin": "curated"
   },
   {
    "id": "b38c1d2e2d60",
@@ -3649,8 +3711,9 @@
    "url": "https://www.bancaynegocios.com/delcy-rodriguez-venezuela-quiere-ser-una-potencia-gasifera-productora-para-el-consumo-nacional-y-para-la-exportacion/",
    "category": "Gas",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "Gas for export"
+   "key_figure": "Gas for export",
+   "context": true,
+   "origin": "curated"
   },
   {
    "id": "fc919f602673",
@@ -4600,8 +4663,8 @@
    "url": "https://www.rigzone.com/news/wire/pentagons_venezuelan_oil_partner_boosts_output-26-oct-2026-184932-article/",
    "category": "Production",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "1,252,000 b/d"
+   "key_figure": "1,252,000 b/d",
+   "origin": "curated"
   },
   {
    "id": "c-n02",
@@ -4611,8 +4674,8 @@
    "url": "https://www.bancaynegocios.com/proyecto-petrolero-de-pcec-por-us3500-millones-en-venezuela-suma-interes-de-firmas-de-oman-y-suiza/",
    "category": "Investment",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "US$3.5B"
+   "key_figure": "US$3.5B",
+   "origin": "curated"
   },
   {
    "id": "ff71b0033df8",
@@ -5162,8 +5225,8 @@
    "url": "https://www.bancaynegocios.com/eeuu-importacion-de-petroleo-venezolano-ha-aumentado-en-mas-de-400-porciento-y-ha-alcanzado-su-nivel-mas-alto-en-casi-una-decada/",
    "category": "Exports",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "+400%"
+   "key_figure": "+400%",
+   "origin": "curated"
   },
   {
    "id": "c5928e01e3e5",
@@ -5613,8 +5676,8 @@
    "url": "https://www.elnacional.com/2026/10/produccion-petrolera-de-venezuela-alcanzo-125-millones-de-barriles-diarios-segun-pdvsa/",
    "category": "Production",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "1,252,000 b/d"
+   "key_figure": "1,252,000 b/d",
+   "origin": "curated"
   },
   {
    "id": "cea1348a2411",
@@ -6584,8 +6647,8 @@
    "url": "https://www.bancaynegocios.com/eni-podria-decidir-nueva-inversion-petrolera-en-venezuela-antes-de-finalizar-el-ano/",
    "category": "Investment",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "200,000 b/d"
+   "key_figure": "200,000 b/d",
+   "origin": "curated"
   },
   {
    "id": "c-n06",
@@ -6595,8 +6658,8 @@
    "url": "https://www.bancaynegocios.com/slb-estima-duplicar-ingresos-en-venezuela-para-2026-y-califica-al-pais-como-un-motor-importante/",
    "category": "Services",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "2x revenue"
+   "key_figure": "2x revenue",
+   "origin": "curated"
   },
   {
    "id": "c-n07",
@@ -6606,8 +6669,8 @@
    "url": "https://www.bancaynegocios.com/venezuela-y-ee-uu-evaluan-avances-del-acuerdo-petrolero-inspeccionan-operatividad-de-petrozamora/",
    "category": "Policy",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "17 agreements"
+   "key_figure": "17 agreements",
+   "origin": "curated"
   },
   {
    "id": "c-n08",
@@ -6617,8 +6680,8 @@
    "url": "https://www.bancaynegocios.com/nabep-agrega-una-sexta-plataforma-petrolifera-en-venezuela-para-aumentar-su-produccion-de-crudo/",
    "category": "Production",
    "via": "API16 curated",
-   "origin": "curated",
-   "key_figure": "223,509 boe/d"
+   "key_figure": "223,509 boe/d",
+   "origin": "curated"
   },
   {
    "id": "b942275a73d4",
@@ -6968,6 +7031,16 @@
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3QzU1duM1djcmxFck1zc04xRlJZZUZNTDhWeUltWXhmYmZqUXZIT0VLcjkzeFREREFDTU9RQVd1VDl0RGxMU0s3Qlk5STR4RWJaVk5KWGF3X2RzdkxFN2tkUXYtdWNZckkyVHV0RWIyZGRPUnREQndzM2hpSEoxU3NoVTdoMkt1UlBZNHFuZGpRb3Y3S2R1SzkzaWRld9IBowFBVV95cUxNTWRvR2VweWFXM1BSRnd6a0ttS1dEZ3NhMzh3eDB2dDd4UWEtZk1iXzJ2eHJnUEVQSDFCczFyR1BzenpkVDY3ZU4xdUZybklITENWN0FhZ1RnM050VWg3QjZXYXQwUVhGRXNmSGFubmlDLTZWZ2h1NjV0a0JBcGZUQ3VmZ2wxSmgzLTlSY0tzdzJJTkozbW5iS18tZHo1RkljQU9B?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "1c7e3075a2b7",
+   "date": "2026-10-22T18:44Z",
+   "title": "Noticias Mundo",
+   "source": "lafmnativa.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjd0WjluajBkWFJmNzh0UVFXOEVSTDluWHU2UUh3OGNaUU84TUhvNzBGaUV1emNjOWVTSjBNYmhNXzVxZHdod3c4amVnQng5R3NDNmppanZudWpBRmYydnRfTGZuWFpXbjhUUTROZmdnQnROX2I2aHQyYXRmVl9BaGV2dkt3WmptNmtoUUhSdm5LMi1sOUZKSkwxeVBQSWhicWNGRDdjNmVCV0RCZjcxYTJQV3dlc1k5UTV6VUZpaUE?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7791,227 +7864,172 @@
    "origin": "rss"
   },
   {
-   "id": "fbf1f7e521a1",
-   "date": "2026-10-21T16:33Z",
-   "title": "Rubio visita la refinería india de Jamnagar, capaz de refinar el crudo pesado venezolano",
-   "source": "Efecto Cocuyo",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcExncXF4ZU1oWE1jd3lRUnRNTWlUM2pHaG1ZTWZDd1J1WUZsRnlZN1dNQWwzVmxrOEZrWDJ1SXRISXppc2NIS0swb2hnOVR2YThoQTdsUkg4Y2VycHFWSmNCb2J1dXRWdHlwcVZoa1lFMzJRdlBMU0FnaEppNUd5ODdMMUZiMDUta0dXT2NoZDF2OXNRVTBPeXlObWd5blFkaUp2blZmNTVwallQR1JNalZOUURIc1VJZFZVdGN6LUt2b1Y0Z3d6dQ?oc=5",
-   "category": "Refining",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "d0fc02e9e41c",
-   "date": "2026-10-21T16:24Z",
-   "title": "Gremios petroleros exigen mejoras salariales acordes con las nuevas inversiones en el país",
-   "source": "Descifrado",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcmd6elRJbGhETlphVS1xaGxDVDJoa1FFbXBqR3Q5dFlsMEI1bVVBbjN3c2hRUDRKM0txWkRxVjRwTUViNXVsUF93RjZaRkpNcDlwMjd0bkxjeExuUlMtd0dNTXV6MjhSVDB3Rnlqb3Zqc2t1V1lQTnJJOG14Qms1blhWemhPcHJBYWRUVExxcnQ3LTF1WUJyWDNvQ0ctalVqXzJzOWVwSGxrSmlOOHdGc0ZlZWlYLTU2em5XUFdDaUdFUFJMdTdhWNIByAFBVV95cUxPcmd6elRJbGhETlphVS1xaGxDVDJoa1FFbXBqR3Q5dFlsMEI1bVVBbjN3c2hRUDRKM0txWkRxVjRwTUViNXVsUF93RjZaRkpNcDlwMjd0bkxjeExuUlMtd0dNTXV6MjhSVDB3Rnlqb3Zqc2t1V1lQTnJJOG14Qms1blhWemhPcHJBYWRUVExxcnQ3LTF1WUJyWDNvQ0ctalVqXzJzOWVwSGxrSmlOOHdGc0ZlZWlYLTU2em5XUFdDaUdFUFJMdTdhWA?oc=5",
+   "id": "c-n09",
+   "date": "2026-10-17T12:00Z",
+   "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
+   "source": "US News / Reuters",
+   "url": "https://www.usnews.com/news/top-news/articles/2026-10-17/venezuela-expects-nearly-76-billion-in-oil-investment-over-five-years-acting-president-says",
    "category": "Investment",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
+   "via": "API16 curated",
+   "key_figure": "US$76B",
+   "origin": "curated"
   },
   {
-   "id": "f259a22515eb",
-   "date": "2026-10-21T16:17Z",
-   "title": "Venezuela's PDVSA to appoint new boards to US units PDV Holding and Citgo, counsel says",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZFBBS1REclZkVnZER1NNZm5TZ2VUclhtbGpwN2VUdV9ob1lkV293M1V5V1EzcmlJSnJaNTFGVzVKRnBZS2p2LVZhSDJ4VGc1SjRuX1hxdGlodklmekR5V0htSnhlQ1NtUDdTRTlFbmMwUVlSeUZYVlY0NDg3ZHNCMHpIcWxqQm90Y09lcnNmS2xuOGJWMHRLTzZZOS1PZGJvdHRJaUY0Q1NWVjRHUjd4a0szdzQ3bkhEdGczQnlpWE5TS3k3SkItOUtFREtiR3hQbVZWeV81dDRHbzRJMTlNT0xhRUhMSi0wMVgyUA?oc=5",
-   "category": "General",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
+   "id": "c-n10",
+   "date": "2026-10-09T12:00Z",
+   "title": "Largest Venezuela creditor bloc grows toward 40% of debt as restructuring talks near",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-09/venezuela-creditor-bloc-grows-to-22-billion-as-debt-talks-eyed",
+   "category": "Debt",
+   "via": "API16 curated",
+   "key_figure": "~US$22B",
+   "origin": "curated"
   },
   {
-   "id": "c2d7915987ce",
-   "date": "2026-10-21T16:15Z",
-   "title": "Quién es Orlando Alvarado, el cuarto firmante en el acuerdo petrolero de Donald Trump",
-   "source": "LaPatilla.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPclQ4cUFSeVlDNHBZSVR2d2dEaVJCVjBWZnJsTUtudXJuXzc4WWxYVFJuT0VXYzZzTDVDNE1lTWJOcTMzYWhSVG5aT1NQcTJJZnJXZzZPOXhCNHRDQ2xkck1qaDN4VzdGLVJSenRxTkZVRnpXd3RYYWltaG1yYXJmTnNmQ1pnbVByc0FBaFJtd25jbFNqeTl2YU5jV1FFRFNFU1B5cVRXS2Nub1pTZlljTlBjYjJqWUZKWGc?oc=5",
+   "id": "c-n11",
+   "date": "2026-10-07T12:00Z",
+   "title": "Reliance drives India's Venezuelan oil imports to a seven-year high in October (Kpler estimate up to ~465k b/d)",
+   "source": "Business Standard / Bloomberg",
+   "url": "https://www.business-standard.com/amp/economy/news/reliance-drives-india-s-venezuela-oil-imports-to-seven-year-high-in-oct-126100700608_1.html",
+   "category": "Exports",
+   "via": "API16 curated",
+   "key_figure": "~465,000 b/d",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n12",
+   "date": "2026-10-06T12:00Z",
+   "title": "Fire halts Cardon, Venezuela's second-largest refinery",
+   "source": "Vanguardia",
+   "url": "https://www.vanguardia.com/mundo/2026/10/06/alerta-en-venezuela-fuerte-incendio-en-la-segunda-refineria-mas-grande-del-pais/",
+   "category": "Refining",
+   "via": "API16 curated",
+   "key_figure": "Cardon",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n13",
+   "date": "2026-10-05T12:00Z",
+   "title": "Platts launches daily Merey 16 FOB Jose, Boscan DAP and Hamaca DAP US Gulf Coast assessments",
+   "source": "S&P Global",
+   "url": "https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/100526-platts-launches-additional-assessments-of-venezuelan-crude-oct-5",
+   "category": "Pricing",
+   "via": "API16 curated",
+   "key_figure": "3 new grades",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n14",
+   "date": "2026-10-03T12:00Z",
+   "title": "Venezuela oil exports fall to 1.08M b/d in September: US 629k, India 253k, Europe 86k",
+   "source": "Hellenic Shipping News",
+   "url": "https://www.hellenicshippingnews.com/venezuela-oil-exports-fall-to-1-08-million-bpd-in-september/",
+   "category": "Exports",
+   "via": "API16 curated",
+   "key_figure": "1,080,000 b/d",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n15",
+   "date": "2026-10-03T12:00Z",
+   "title": "Eni and Repsol consider selling stakes in offshore Perla gas field",
+   "source": "World Oil / Bloomberg",
+   "url": "https://www.worldoil.com/news/2026/10/3/eni-repsol-consider-selling-stakes-in-venezuela-s-perla-gas-field/",
+   "category": "Gas",
+   "via": "API16 curated",
+   "key_figure": "50/50 venture",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n16",
+   "date": "2026-10-02T12:00Z",
+   "title": "PIIE: who gets Venezuela's next barrel? >US$20B in ICSID awards, ~US$60B unsecured bonds, China owed at least US$18B",
+   "source": "PIIE",
+   "url": "https://www.piie.com/blogs/realtime-economics/2026/who-gets-venezuelas-next-barrel",
+   "category": "Debt",
+   "via": "API16 curated",
+   "key_figure": "~US$60B bonds",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n17",
+   "date": "2026-09-09T12:00Z",
+   "title": "Repsol grows Venezuela output funded by oil cargoes, not cash; 71k boe/d in H1 2026",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/repsol-venezuela-production-cargoes-ofac-licence-2026/",
    "category": "Investment",
-   "via": "Google News ES: empresas mixtas PDVSA",
-   "origin": "rss"
+   "via": "API16 curated",
+   "key_figure": "71,000 boe/d",
+   "origin": "curated"
   },
   {
-   "id": "df7537c4e1c6",
-   "date": "2026-10-21T16:04Z",
-   "title": "Rubio At Jamnagar: Russian Oil, Venezuelan Crude; Why US Needs India’s Refinery Power",
-   "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRmp2TFNRMlZDZmNDcUM5eUZRai1HRlR0Q21mc0dYTmxPSUFiTlg2ekVsNThXTlFVN3FCaWprVVJVbG51cEFVMHJCa0FlVE1BSk9ydDhNUmdnMFY3MWVBY2dkQjUxdk03RnpuX3FJTy1obkF6SWhVVjRQQ1pZeUhEZlRPdlJkUnR4bHB5VnZMc1NtaUduSjhnN0swNG04ZXVaeXNlMDJXUVJFSE9aWGItdWdnMnRfM2hRUHVkVzhSQVlMekwxTmpBamJXc2t1MnpoaWNKT0hUVmZweUM0Y3hxbU1UQzlhZ3Q0QndodzBVQWfSAfYBQVVfeXFMTjhqQVkzcUxJUjlfR0VZS1dGUl9oM0dnbi1wUXl5cnpIbHV1QnNYdEhFMm50LWhvYTJXeGZzek13b3VNQlJrUWI4OFZtYXFGTDN3LW1LR1ZJVkNjQmZKcFBjUXlHTmtvd0JRWkY0UUo4TjdGVW84VEtuUEw4eVZCdHlNT3dKWnpWZDhIZkJ1YjdySnVGRWk0YWt5SGwyZU41Y3ZlbUdXTk0teG92UGFYQml2NElWTGo1VDMzelh1WEZzMFlWbUVnNW9JUk9hMmRiUGRhVjV3bFEwWHVMQVowLTBCY0pTMjdKOFRWaXlPWWk1ZHJzTVd3?oc=5",
-   "category": "Refining",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "c2b00f23a64d",
-   "date": "2026-10-21T16:01Z",
-   "title": "Exigen a Pdvsa y Nabep un plan integral ante fuerte derrame petrolero en la costa de Bachaquero (Video)",
-   "source": "El Regional del Zulia",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVFVkR0hST29qY1RxZWVXNnh6djlKR1FFbjFEUzMwSVQ4bGNKYWJBWDA4WXlPdjZROW5XZDByUkllYVA4VFRIWl9QY2Vkc3J3OEZHME1zNmVxckpWRjhtelptYm5ETkhaM2YzUnB5ZloyS3p6QUhULTRiMEgtdnpqZXZuUDM1Q2RzMkJyWGtBRzMyYWt6YzM3NWZGNkt5MFBWczNGRGpuNkZ1eHZCanAzTG9hTTlieXBxYnpoc0hKWFRUMDhZSkFOemlxVmtwdw?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "d541da7eb40d",
-   "date": "2026-10-21T14:55Z",
-   "title": "Gulf Oil Exports Climb Above Levels Seen Before the Iran War as Tankers Brave Attacks",
-   "source": "UNITED24 Media",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVngzT3NITTVCV20yLWMxTkdLUjRmbHRDSkc1SFlLZExvR1J5UkhGeEVPNjBfT2FmV0tnUWU4M1hBbGFhU0QwSThLT1VqU1ZVbUpJa3R4MnlnT2dnTkZFclZtU09iZnlfS3dOOGNpWFl5UkdENTluMXVybHVqXzZnaWxLUGN1czZLZUd2ZTYzQ3U3eWtURVp2cldTbUsyQ2lxZUxuRlo5SDZkSmxlYzl6ZjJOd0Q1Q1FVZ1M5VnB1aU0?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "51b8b0e443a0",
-   "date": "2026-10-21T13:50Z",
-   "title": "Rubio talks with refiners in India about buying Venezuelan oil, diversifying global energy trade",
-   "source": "Just The News",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd0phMld0WFhHVXBPRmRFbVM1ejhtRzlGRTI3bUVFNTkzc0EzYzNwajMyY3hLU3dJaDdKek9nMWdmUUtFNG52Z0NremJyLUplaVpJSlVnb1FUWkRncjdtMTBMUVk1bHVGdDBKSEpnY2VwRHJLaVNJdjdtM1dRQ2c2eWNJLWlabFdKZjVMbHN5NFdYM0RGUW40bFBqN1h2bmQ4eDg5LWliRzlLWEhlZnhoU1A3aWl2cjh4aDlTRHh3?oc=5",
-   "category": "Refining",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "7e29e30a7dab",
-   "date": "2026-10-21T13:46Z",
-   "title": "PDVSA nombrará nuevas juntas directivas para sus filiales en EEUU, PDV Holding y Citgo, según Reuters",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaVVxLVlpZEpmWEVPNzk3SUZRNWRsQm1mZHA0bXFJbE9UVnhoVVkzcTZxem5GREN2VzhQWVdCQ3REVXUwY1pwSjlDdWVZOXFZOGlQcmtmeHk0TU0tMExzWlhFRUNHU3BOZ0YwUXVZTTBYRHZVRkRsTHp5WnFOTHpYeFk5d0pZMmJlSXp4dFMyM09QcXZNaUdSYzB6S3gxbE5hVVNzcUNSZWN0YXVsaHZqUkVscktkalY2MnZNbjZjUkVEdTAwSkRzSDB6aw?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "af3a8cdd4f81",
-   "date": "2026-10-21T13:32Z",
-   "title": "Análisis: EEUU pone la mirada en Reliance para refinar mayores volúmenes de petróleo venezolano",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZDlfWFI3Tno4NEk4SXU0UmJGVzBXcjgyMUQ5TktqN1dLYllKYjlXUGpTMmMwYVhRRXk3RHJ3WkdKcU5hLUNIQ05VNTZQZzhFRWEybzdjcXJvZlhtY3hUUW84cUZQWEU2NEdPR3VSbmlycFV1OVdfV2JfX0dCZWREMHFZQXljYzhNRWRqc29pTkZ0WEM4MEZCZm1IUlE5Tm1aYkFvOS1FbnhiQXloYUkzUC1EOUhZZUw1U0hTcllIcy1sakNr?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "84030ebd2ec5",
-   "date": "2026-10-21T12:30Z",
-   "title": "Russia to Send First Diesel Tanker to U.S. on Thursday",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUtHRnJ0dVNucmNYbWRKUURRdUNMMTdIcFlxd0d4YXR4UWk1WG8xWkxiZW9FcWx5b0pMRE9BNlo1cV9jQzRPX1NqLTFJMEUtR2Y5T2pTbVFEeWJTUTBfeUh3RU5TLXdDU1JFR3dSY1ZhemE0MUZnZ3IxVTV6X3BYV25PQk1rQTJFb1JsTHdJQVVCNjVHNkJTUjZnOTVjTnQ5SFh0aHFiMS1mVGhw0gGyAUFVX3lxTE52ZzE3SzN4dldzZE5DVVR0QzBfMWRxN25ob29QMkZLU0tqMWdTMVVWcE1USHNubi13enNhcGdkSWhZY05mOUVzNEY5N09tN21VNU1hdHIwdU5VNGhiY3RIcTRFN0tnQTIxanRsQi1OLVNqSmdCM2JSRUlxbUxQOEt1cDNSYlpoZVJfaGJwOWt3aEgtX0NxQ3FCM2k1dUJVc09zTmVMOGhyanY0RXZiVERoZVE?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "fb8f984b5cfd",
-   "date": "2026-10-21T12:04Z",
-   "title": "Marco Rubio tours Jamnagar as Washington courts Reliance's refining muscle",
-   "source": "The Economic Times",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMUZIZUlib3k2Skprb2VUUjJuWkZLWjFEOGsySmxuV1V4TkZXaHV5UEN6TVRQZmpRbk41V1Iwd1Nvb2pQcjd3My0zdzExMnZpOTdkQUJqY21CU1p6cEFWQnM3SEtXWTY4eHNKeUZ3UVpWWjJmSnNkNG5MM2FHM0labFNiVXFEZ2p4OTBvSDBfc1Mwa3o5VkJyVTI5YlZWMU9Xc05JZk0xdnBpYllUcFJEamRZUU9sOFF5T0VpM0ZMVnNvQnRvQnlXX3FvOWFVY28xM25XNExKVk9lSGJPdDc3RXhqVi1SQdIB6wFBVV95cUxOdTIyeWFsR2F0OGp2TnBQVHR2akpnaHZQTk45c01hNExwRUlYbFhVTUgycmoxYjJZRS1PdnBaaFVtRzJYYk9jQ25GNXVCeXpUdFNsOWdfQXpSUFR1LW5lNklRcUI4R1hDYXI1bXpheUw1Z2VuX1JNdXYwSTRoeGNxMmhkakx6NGl0TnpWdTNiRFZ1QlVmbDI4OTczOTV6MXl6OE9aQi1zS3NxTHlCNGpaQmJNZEdZOUxUX0JodXgtdjZBY3RQOXgzcmoxcHpMc1Z1c20xZmJObGJnSG43a0l3NHdzWks5VXdpenpB?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "2b03ab985dd4",
-   "date": "2026-10-21T11:51Z",
-   "title": "Russia says it will send first diesel cargo to US on Thursday",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcEtvRkhRd0FvaVprWHFsY2E0cUpBNGhvcmktbFdQZldPREgwbURQQjMyc1hSWmNBMG1rUExVNUFKdVpOeXY3Z3dYUFhCc2g3VzBtaUM1M3lBWTdHOGZYLWRLTWJ3TDhvdW93S0ZzMjFqaVhFdFpmVzczQ2lJc3RGNFM0aGc3QjRxa1dWb3N5cmNmUVJ6M213SnN4NUdDSWpxaDRvVUJ4OXFma0E?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "c59b0eaf2129",
-   "date": "2026-10-21T11:39Z",
-   "title": "Citgo’s Profit Outlook Jumps $2 Billion While Diesel Drivers Pay $6.32",
-   "source": "Energy News Beat",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNel95N2xBdFBHa1lBdHZvUWl0eUhzNG5lSThpaVNFay1NaDBHUFdwSE15WEFQTmZ3VWdjSVZSOGJwVzg3c2lxTlpYckZWcVkxV0t0aVVISEd0a2FzZFFjLXFkRTlKb0FvU1ZLZTM4czlYZlM0V0dkdXVSOWhGbUR1d29hQWNUa096ZTl6Z3FZdUhWUEdBSmRsa2JoVV9pVk45YktzRWx3?oc=5",
-   "category": "General",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "38b11b6feb17",
-   "date": "2026-10-21T11:34Z",
-   "title": "Why did Marco Rubio call India a refining superpower?",
-   "source": "Moneycontrol.com",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYXlCa1h1bEp6OTR1eTVDZ2hGcC1vS0xWNGRnUmotcTRyTXppMHFSX3Z5eXpXenBsR3JHVjVOeTZvZ09rY21nU1duV2kzd18wYi1xTlZEUHpyaEtyX19GajlkaklFdWZIbHA4eEh5V0t6bVJhWlNyVVFuaHdzakhfYXdtR2oxNUhpOHhJd0l1ZUlXRTQwckRKZ1VoY1M2TV9BcjVReGhIcTZzNFc0YS1VQnhPazlNSVJQ0gG-AUFVX3lxTE14NjJab0Q1bmdrVWxkRm1YQzdVVEZtZ1VDTWc5MUltTnI1TGVab1FtTmRfQ2h6aDdkNVpSZmZJU3k4elp5MkpyQ0ZvSXpPeDEzN3IzNlNxT0NqZ1ZuZHV5ZUp6Z1FJanBWSzRsZ2JxN2JJcHdacTY2bENKdm9zZVJyN016X01hMVNKYmN1dTQybEZMcWNUNVJ0Yl85Q2lsSkVEclpwSTcybkpSdW9wNXJnY3NqTWJJU3F3VzVJVHc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "055e0333e646",
-   "date": "2026-10-21T11:21Z",
-   "title": "Rubio Tours Reliance’s Jamnagar Refinery to Push Venezuelan Crude",
-   "source": "Discovery Alert",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDJJak9kUUpjbk9qUzFLcjRzRWpaWDBSejA1OE5henpHMVo0WEZmNXBVZ0Y2R1ZCZUNOM212ZWVtNWROR2lmcFJkLUpKdHJGTHVWZHVNMWJhR1g4WE9tSDVfcW5ZMXZoTFF2TXZJWkJaVUlvVjdMaDVGTHBrZXd5dU5nelh5dFpFRkdpRXVqNDBvTUk3TzBKQWdrdw?oc=5",
-   "category": "Refining",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "c33bb88b82fb",
-   "date": "2026-10-21T10:30Z",
-   "title": "Why US Secretary of State Rubio is skipping New Delhi for an Indian oil refinery",
-   "source": "South China Morning Post",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNHpVTUJhQml3cWVyUkxHUFlTLVVabUxoMWY2ZUFXYXJlNC1fQlhKREsySHFJTm1FNHBxb09reEk4N3JXRFhZQThwb3ctc0YxdUhMeWY3MWpiRWNUbW9YbUd6eTB1VVJpU3ktMDNxYWVrbWxrOFJ3T3Y2QmlZVWRrSnQ4NHlYOXdxcFY2ekg4ZmJsSl9wdnp2UWVJbVgxVVRDTXN4SmxjSGtKSl9aa0xoeE1yN2NXSEpINFBv0gG7AUFVX3lxTE9CclY3R2hfZllGdGUyYy1rcmhtYUgtdFVQMkRJU19JTklPVk9MWnpQTGJpMFJRNlhTV3RvRDdnblY3V1BuR2RXR0tYUUktU2I4TWxYY0lxLVo1QXBZN1JEa3FpWGpDQ1RqTmo1TDNMNENWS3hOR1JqQjBDblRiUGJYNy1TWktPa0o5YnkxRmVMUXpNZjdrMWJFRDVkOTNuNVdpaDJYdnZ6a252d25NRXB0c1ZuVkkzNVlWVlU?oc=5",
-   "category": "Refining",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "815ade9cf2ef",
-   "date": "2026-10-21T09:50Z",
-   "title": "Venezuela: World's Largest Oil Reserves and Key Facts",
-   "source": "INSIGHTS IAS",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83MzdBVnBkTXpvQ2Zfb2RBc1hlanJ4NW1JZ0lVZktEN09WT1BOMVZmbjRKOFpLSVVIajhKT0RFdVJyRU5xWlpSWHJITWs5V09URDJfcVYzOHNIN0pfNGlzQThpbTMxZw?oc=5",
-   "category": "General",
-   "via": "Google News: Orinoco Belt",
-   "origin": "rss"
-  },
-  {
-   "id": "e3db798d5016",
-   "date": "2026-10-21T09:30Z",
-   "title": "U.S. presses India's Reliance to refine Venezuelan oil to offset Iran crisis",
-   "source": "The New Voice of Ukraine",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTnBaSGVsMDlMbDgwNTQ2RTh6TDJ5ZVVPZTVnNENISk1ndW1fUk02RnRLUUxqMk5Vb240aUwwSDU2c0xRRk9TeXBobmNVNElfaFFDMUxvOWdZZkQzajRmWi1OQl9ZT3M1c3JsNnhpeEpNTVVMRW5mOXJPX1lMaTR2TmxtUHJ0MTlXWC1sa093cWpqcjFsSmVTbdIBkgFBVV95cUxOR1h6SUxoekdLQ1NvRTBxZjNwbzFPTVE4WjBfYjFBMnlGSUFBTmh0UU9YMnhvOW93V200Z2w1S3F0VktrWFRkWjVsYnVzUlNxR3NObWQ3ankyRmV6RDVFaGZwSDFpTHJRRTJOMUZYZ096cWpUM19FTjhla2RzcFl6X1R5OGxoZFU2RGVoSEJFSHpuUQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "ee0ce7cb5703",
-   "date": "2026-10-21T09:10Z",
-   "title": "Willis Investment Counsel Sells 22,500 Shares of Chevron Corporation $CVX",
-   "source": "MarketBeat",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOG5DNEZUWDhtTEpZMFFXR0toOFJERVhYRnMydG9oNERLVUhqZzNRaEdMQnI0dVJ4YVJhRC1GaTlPeVlqcjN5RXhZaGdCeXd5V2FWWUdTNlVsdHJfTGJObjRiOG1wV2NTZFZiRkVtWFpSbUZkZkVpRzNwODZKeHBDa0kyOGJ3VzFiZTc3STFrSEVkNmdIcmd3RmZIQllOeW9wRmNSSWVrYnZGQW50NGlKQk5LdThaZUpqWkZiR1ZsLXJVSWw1WkpZWmZrcGo?oc=5",
+   "id": "c-n18",
+   "date": "2026-09-02T12:00Z",
+   "title": "Chevron commits US$7B to double Venezuela production",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/02/chevron-venezuela-operations.html",
    "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
+   "via": "API16 curated",
+   "key_figure": "US$7B",
+   "origin": "curated"
   },
   {
-   "id": "47e4a4e88b01",
-   "date": "2026-10-21T08:03Z",
-   "title": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War | World News",
-   "source": "Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSUNYdFNoZUV4U3J5QkVFS3R5VDJlY1gzbFUtd2d0MENIelp3UUtVMTNpODZrb2dKaVFxb2UtR0huaFpKaFVrZ0V5dVk2Y1hfYlFzV2FIVFNCLVFsTVl3LUtlZHBVYnhodU0yaFF3VEkteFJ2T2tFWWp2MnUwMENnOTNKVW1majdmT2NPenZucFA2STk2Y0xjNVZUMW15YXEtd1JNcVNMLTQ3Z2FIVWtXUG40TG5DSlBHVDVxUkpRdElXb0JONl9pNWdiRFZtVXPSAdQBQVVfeXFMTTd1Y2pBNE1BUjBQVjBQT0JrTTVJcW9COUNZQjBFM21NOVlReEhTd203SnRDbExHNnlUUi0xTlhxQTZMR3RqMGFPbEIwVVF1RVhJakVrbHBZY3ppMlFJSUhoSDBvZUJmbGdHSmdFcnVSX21iMzExYXQwQkIwR2tEdEFaV0NZY0NBZzNJY28xSmdpYTVEaHVXTzZVLVpNTjlOR09qcG1MMXJFM2tQUWo3bnpET2VFZHRHYzd0Ulp4OWs2MVJmd3ZRa3gycEwzWFJvVkhma0Y?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
+   "id": "c-n19",
+   "date": "2026-08-30T12:00Z",
+   "title": "US Defense Department to take 35% of NABEP's parent under long-term energy deal",
+   "source": "Metals Mine / ZeroHedge",
+   "url": "https://www.metalsmine.com/news/1415632-pentagon-grabs-35-equity-stake-in-venezuelan-oil",
+   "category": "Policy",
+   "via": "API16 curated",
+   "key_figure": "35% stake",
+   "origin": "curated"
   },
   {
-   "id": "2b3bbabe5d5a",
-   "date": "2026-10-21T07:42Z",
-   "title": "Watch US Wants India’s Reliance to Refine More Venezuelan Oil",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR1JmM0pBNGJoU0FxclRKLVpvbFdDTjdaeEZCMTBUcThNV0M4OTdua2NGUnR2ZUowYktJbjNPR2duRDM3ZlpMU1ByM1VVeTBBVzdta1pac2RRUVJVUDM3YzlON1pHSUo3WFBkZWdiZ3lKamFLdXk5Zzh2WDN1c0tZRl82LXk4eUVoRU5zaHRKUDFHaXhMLWFaSTQ0UnJSSkRERnFjLU85TmF1cW13anM0?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
+   "id": "c-n20",
+   "date": "2026-08-03T12:00Z",
+   "title": "OFAC issues GL 5Y on the PDVSA 2020 8.5% bond",
+   "source": "OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20260803",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "key_figure": "GL 5Y",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n21",
+   "date": "2026-06-18T12:00Z",
+   "title": "OFAC issues GL 5X, 24A and 59 (Conviasa)",
+   "source": "OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20260618_33",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "key_figure": "3 licenses",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n22",
+   "date": "2026-05-20T12:00Z",
+   "title": "Tracker of post-Maduro OFAC general licenses: GL 46 to 58 cover oil trade, services, PDVSA dealings and debt advisory",
+   "source": "Blank Rome",
+   "url": "https://www.blankrome.com/news-and-events/venezuela-sanctions-update-tracking-ofac-general-licenses-post-maduro",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "key_figure": "GL 46-58",
+   "origin": "curated"
+  },
+  {
+   "id": "c-n23",
+   "date": "2026-01-29T12:00Z",
+   "title": "National Assembly approves Hydrocarbons Law reform: productive participation contracts, international arbitration",
+   "source": "Infobae",
+   "url": "https://www.infobae.com/venezuela/2026/01/29/el-parlamento-de-venezuela-aprobo-la-reforma-de-la-ley-de-hidrocarburos-para-incentivar-la-inversion-extranjera/",
+   "category": "Policy",
+   "via": "API16 curated",
+   "key_figure": "Law reform",
+   "origin": "curated"
   }
  ],
- "updated": "2026-10-28T18:32:23Z",
+ "updated": "2026-10-28T19:17:38Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8033,5 +8051,52 @@
  "failed_feeds": [
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
+ ],
+ "highlights": [
+  {
+   "date": "2026-10-27T20:00Z",
+   "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
+   "source": "White House / Reuters",
+   "url": "https://boereport.com/2026/10/27/trump-promotes-oil-production-in-texas-where-democrats-dream-of-breakthrough/",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "key_figure": "1M bbl"
+  },
+  {
+   "date": "2026-10-26T12:00Z",
+   "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
+   "source": "Rigzone / Bloomberg",
+   "url": "https://www.rigzone.com/news/wire/pentagons_venezuelan_oil_partner_boosts_output-26-oct-2026-184932-article/",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": "1,252,000 b/d"
+  },
+  {
+   "date": "2026-10-25T12:00Z",
+   "title": "White House: Venezuelan oil arriving in the US up more than 400%, highest in almost a decade",
+   "source": "Banca y Negocios",
+   "url": "https://www.bancaynegocios.com/eeuu-importacion-de-petroleo-venezolano-ha-aumentado-en-mas-de-400-porciento-y-ha-alcanzado-su-nivel-mas-alto-en-casi-una-decada/",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "key_figure": "+400%"
+  },
+  {
+   "date": "2026-10-28T16:59Z",
+   "title": "Eni Restarts Production at Venezuela’s Junín-5 Oil Field",
+   "source": "Egypt Oil & Gas",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUtlU040VXZxVXFYX2hlOXotNUlJSWdveVo2NTZHNUVDcXEzX21ySnZfZ0lwNFUzNjVyTnlYNGdlUmZObHVyS0I4Zm5pVFA3ZTBCNjJUSkttNG9oLWxEdkJiWVI5ZzFWTUFpb2k0WFlDWEc5T0xUN1NHdGxKSmVJUUtrRkpIRlphMzNOa0xFMA?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": null
+  },
+  {
+   "date": "2026-10-28T13:01Z",
+   "title": "White House announces Venezuela oil deal covering 65 billion barrels as US expands energy control",
+   "source": "Business Upturn",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTlFUeXM1NnVzWGVyaTBKVHlQZjNZcWJ1SWVUNExRM3NhcF9oRC05OFBYM001V09qZERONzNjN0RwWWRoS3ppRkRlNWZMVnFkUmtXRzFXY0MzZWpES1QxYjI2QmtVcm1QVmk2Nm1PS2lwUzloZ2MtTERRNTFlQVJqaHMzVFlRcXVqc0dncENQa3h4N0Q0RWthSEdMaVZiWVRUS0JhcndDNWxOS3dVUVB1cjBOSTFMN0hrOUxrbU9wTk5uRldDbFh0TXBUSUlKYlk?oc=5",
+   "category": "Investment",
+   "angle": "Future barrels in the pipeline",
+   "key_figure": null
+  }
  ]
 }
