@@ -221,6 +221,16 @@
    "origin": "rss"
   },
   {
+   "id": "e083114ee9fc",
+   "date": "2026-10-28T13:54Z",
+   "title": "Nabors Posts Record International Margin as It Returns to Venezuela",
+   "source": "Discovery Alert",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM2ZRYV9Ua0ZtaXAxVDJqS1VKS1E1RmxsWmN5UFkxSDlYc1JmQlZMX1BINDMtaUdTdE1OOHlKc1VhdXJSUjdIRnRWV2RDZTVfS1g2QW5kWEdlQl9STGFTaU00TmhLbFFJS2ozNk1lMVJ3R3JYcU5Fa2FSNFQzdzlzSllEVE94aFE?oc=5",
+   "category": "General",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "630e6cc706fe",
    "date": "2026-10-28T13:52Z",
    "title": "EE.UU. destaca que cargamento de petróleo venezolano que llegó a Texas contribuirá a la reducción de precios de la gasolina",
@@ -6140,6 +6150,16 @@
    "origin": "rss"
   },
   {
+   "id": "c6b28ca32445",
+   "date": "2026-10-23T22:06Z",
+   "title": "The Blockade on Iran is Deepening – But Also Widening",
+   "source": "The Maritime Executive",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc21mcjh3dUVzb2J4SF9lZ0xITG83VTBLSFZIUDM4WkdPc1IzdHpYQmg1Nk9JWlNBUlpSSW02S1RnNHRJTzVLRGxqRmh4YmZ4dkZsVHpzTW1DYmdzNU5VQkRZMmhmQnZ1NkRGelNHclAwdjRvUXBPY3ZXS1RpaWNxS21nbWotSkM2akJURy01OFM0b1BQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "f69b07416ce2",
    "date": "2026-10-23T22:05Z",
    "title": "Nabep, la petrolera de Alejandro Betancourt y el Gobierno americano, instala una nueva plataforma en Venezuela",
@@ -7844,26 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "cc4479e297b6",
-   "date": "2026-10-21T16:46Z",
-   "title": "Venezolana PDVSA designará nuevas juntas directivas para sus filiales en EEUU, PDV Holding y Citgo: abogada",
-   "source": "Yahoo",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZEpSaXJndlE1Y0c2NTkwRFNwS1c0TlRQUENxVkJOMDFYdU1hVW1GNTNLZlBEUTZTVVhacUVPVnowUWVEVUJoUUF1VmVLNGt2V0s0V1ZJOWdLeUFGbGVCSmk1Zjkxb1h3bUtwazZRYjRsdHB2WHMwZ0hTQmZ0ZW5uQVdOM1RKWjd3Z09YYzhmVGJaMHFwTDViRFR3SE15NGFjQXcxdQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "e9ac683b876e",
-   "date": "2026-10-21T16:41Z",
-   "title": "Weatherford Eyes Return to Venezuela Revenue Peak, CEO Says",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSDJ6eWVjdWlLdTdJRnJaTmR6MjdRQ18yc3AxY2M0WnNrdUtxYVltTW12QTNXTHE3blB0OVZpZ3NIZTBGTzY0dGJWNEdMZVZtaElsTkplNlpIWXI5UDktYnEzUjZwb1l3UThmLVNwVFpDbnRxQTFjX0JJNHdpdFhJTlJmeVpJTjhvR0lSVkdoc2dES1pFM0hzTk5mRjlKaEE0ODByYXp4RUJPNnlkYWc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-28T19:17:38Z",
+ "updated": "2026-10-28T19:37:37Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
