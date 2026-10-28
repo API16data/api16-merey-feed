@@ -51,6 +51,16 @@
   .counter small { font-size: .32em; color: #9FB1C9; letter-spacing: 0; margin-left: .3em; }
   .sub { display: flex; flex-wrap: wrap; gap: 8px 22px; font: 500 15px var(--mono); color: #C9D2DF; }
   .sub b { color: var(--amber2); font-weight: 600; }
+  .mix { margin: 14px 0 4px; max-width: 760px; }
+  .mixbar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: rgba(255,255,255,.08); gap: 2px; }
+  .mixbar i { display: block; height: 100%; }
+  .mixbar .c, .mixleg .c { background: #4CC38A; }
+  .mixbar .p, .mixleg .p { background: #E2A548; }
+  .mixbar .e, .mixleg .e { background: repeating-linear-gradient(45deg, #9FB1C9 0 3px, rgba(159,177,201,.35) 3px 6px); }
+  .mixleg { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px; font-size: 13px; color: #9FB1C9; }
+  .mixleg span { display: inline-flex; align-items: center; gap: 6px; }
+  .mixleg i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .mixleg b { color: #E7ECF3; font-weight: 600; font-variant-numeric: tabular-nums; }
   .chips { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 10px; margin-top: 6px; }
   .chip { background: rgba(255,255,255,.04); border: 1px solid #2A3E5C; border-radius: 10px; padding: 10px 12px; text-decoration: none; display: block; }
   .chip:hover { border-color: var(--amber); }
@@ -146,6 +156,14 @@
       <span>≈ <b id="ctr-usd">—</b> at Merey prices</span>
       <span><b id="ctr-rate">—</b> barrels every second</span>
     </div>
+    <div class="mix" role="group" aria-label="How firm is the number">
+      <div class="mixbar" aria-hidden="true"><i class="c" id="mx-c"></i><i class="p" id="mx-p"></i><i class="e" id="mx-e"></i></div>
+      <div class="mixleg">
+        <span><i class="c"></i>Confirmed · EIA monthly <b id="mx-c-v">—</b></span>
+        <span><i class="p"></i>Preliminary · EIA weekly <b id="mx-p-v">—</b></span>
+        <span><i class="e"></i>Estimated · API16, at the latest rate <b id="mx-e-v">—</b></span>
+      </div>
+    </div>
     <div class="chips">
       <a class="chip" href="monitor.html#usimports"><div class="v" id="c-wk">—</div><div class="l" id="c-wk-l">thousand b/d this week · EIA</div></a>
       <a class="chip" href="monitor.html#prices"><div class="v" id="c-merey">—</div><div class="l" id="c-merey-l">Merey 16, USD/bbl</div></a>
@@ -155,7 +173,7 @@
     <div id="map" role="img" aria-label="Map of tankers seen in the latest AIS scan, Venezuela to the US Gulf"></div>
     <div class="maplegend"><span><i style="background:#E2A548"></i>Linked to Venezuela</span><span><i style="background:#6C8CC0"></i>Other tanker</span><span id="scan"></span></div>
     <div class="how"><button type="button" id="how-btn" aria-expanded="false" aria-controls="how-txt">How is this counted?</button>
-      <p id="how-txt" hidden>Official EIA monthly imports from Venezuela for completed months, EIA weekly imports after that, and the latest 4-week EIA rate since the last weekly report. Dollar value uses the OPEC Merey monthly average. Tankers from free AIS, refreshed every hour.</p></div>
+      <p id="how-txt" hidden>Three layers, shown in the bar above. Confirmed: official EIA monthly imports from Venezuela for completed months. Preliminary: EIA weekly estimates after that, which EIA revises later. Estimated: the latest 4-week EIA rate applied to the days since the last weekly report, replaced by official data as it is published. Counts barrels that reached the U.S., not cargoes still at sea. Dollar value uses the OPEC Merey monthly average. Tankers from free AIS, refreshed every hour.</p></div>
   </div>
 </section>
 
@@ -283,7 +301,7 @@
 
   // ---------- live barrel counter ----------
   // base: barrels counted up to `t0` from official data; then grows at `rate` barrels/second.
-  let base = 0, baseUsd = 0, t0 = 0, rate = 0, px = 0;
+  let base = 0, baseUsd = 0, t0 = 0, rate = 0, px = 0, bConf = 0, bPrel = 0;
   function computeCounter(monthly, weekly, merey) {
     const year = '2026';
     const mPrice = new Map((merey || []).map((r) => [r.month, r.merey]));
@@ -292,6 +310,7 @@
     let bbl = 0, val = 0;
     const mrows = (monthly && monthly.rows ? monthly.rows : []).filter((r) => r.period.startsWith(year));
     mrows.forEach((r) => { bbl += r.kbbl * 1000; val += r.kbbl * 1000 * priceOf(r.period); });
+    bConf = bbl;
     const lastM = mrows.length ? mrows[mrows.length - 1].period : year + '-00';
     let cutoff = Date.UTC(+lastM.slice(0, 4), +lastM.slice(5, 7), 1); // first day after last official month
     if (!mrows.length) cutoff = Date.UTC(+year, 0, 1);
@@ -310,13 +329,19 @@
     });
     const lastW = wrows[wrows.length - 1];
     const kbd = lastW ? (lastW.kbd_4wk || lastW.kbd) : (mrows.length ? mrows[mrows.length - 1].kbd : 0);
-    base = bbl; baseUsd = val; t0 = lastWeekEnd; rate = kbd * 1000 / 86400; px = lastPx;
+    base = bbl; baseUsd = val; t0 = lastWeekEnd; rate = kbd * 1000 / 86400; px = lastPx; bPrel = bbl - bConf;
   }
   function tick() {
     const extra = Math.max(0, (Date.now() - t0) / 1000) * rate;
     const v = base + extra;
     $('ctr').firstChild.nodeValue = n0.format(Math.floor(v));
     $('ctr-usd').textContent = usd(baseUsd + extra * px);
+    if (v > 0) {
+      const pct = (x) => (100 * x / v).toFixed(1) + '%';
+      $('mx-c').style.width = pct(bConf); $('mx-p').style.width = pct(bPrel); $('mx-e').style.width = pct(extra);
+      const mb = (x) => n1.format(x / 1e6) + 'M (' + Math.round(100 * x / v) + '%)';
+      $('mx-c-v').textContent = mb(bConf); $('mx-p-v').textContent = mb(bPrel); $('mx-e-v').textContent = mb(extra);
+    }
   }
 
   // ---------- map ----------
@@ -337,7 +362,7 @@
       const b = document.createElement('b'); b.textContent = t.name || ('MMSI ' + t.mmsi); box.append(b, document.createElement('br'));
       box.append(document.createTextNode((t.zone || '') + ' · ' + (t.status || '')), document.createElement('br'));
       box.append(document.createTextNode('Destination: ' + (t.destination || '–')));
-      if (ve) { box.append(document.createElement('br')); const s = document.createElement('b'); s.style.color = '#C8892B'; s.textContent = 'Linked to Venezuela'; box.append(s); }
+      if (ve) { box.append(document.createElement('br')); const s = document.createElement('b'); s.style.color = '#C8892B'; s.textContent = t.watch ? 'Reported Venezuelan cargo (news, unconfirmed)' : 'Linked to Venezuela'; box.append(s); }
       m.bindPopup(box); m.addTo(layer);
     });
   }
