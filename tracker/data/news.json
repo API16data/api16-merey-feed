@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "7e32738f3878",
+   "date": "2026-10-28T22:40Z",
+   "title": "Delisted Shadow Tankers Move to Persian Gulf Crude Exports - News and Statistics",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQmtTZnJibDcwR3hhUzQ0bDN2cHN4R3M5QXhlYXlpY1k2cUFXSHlCcUdLZTZXZHA5WEpUeU9OX2JKcWZveXNKS1YtMERtenNLckNMc2t1QXNSU2ZPbklWc1lsZEIwMHJITTFjUTNfZ0UwWDJaRjdMUW9xSnJ5SlhmM0ludHhmRXcyZWc?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "087a0fa39406",
    "date": "2026-10-28T22:33Z",
    "title": "Eni reactiva producción en Venezuela y apunta a 200.000 barriles diarios en Junín-5 para 2028",
@@ -267,6 +277,16 @@
    "source": "BNamericas",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMk05aG0zNG9tbWw2R3R2WUwzWmFJbmJNeExCZWY2bXVGVWtQU2RJUW5TdnRjTTAwSldpWmlQRkRuaVhPMWdOUFNONmZZaFJvZ1JEN0RSeFFJbmhhWmM5T21GUzRFU3V0RWd5Z1IxT3ZMaXIyWEpvS09yVDhFdC1xaUw0TUZOTkh3WUZHXw?oc=5",
    "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "154995d34f9f",
+   "date": "2026-10-28T16:22Z",
+   "title": "GE Vernova seeking payment from Venezuela before power grid repairs, CEO says (GEV:NYSE)",
+   "source": "Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMy1HdG5CbEYwcEN5WVVpQm1CVmx3N0NsaWpyX2RiUml5MVhmMHBkeDBZTnc4RGR3ZGdNVUR4QUlCSTFxMWNqT2VmN2tzU0VWZlgzWlNvMkFyY0ZmX0U2dS1xVFctb2hoR3hTeW5uNk13djh3YnZRc2dkbjBDNXFMSWd0dVc1M0VLQzRqTGw3ME5IcXJSZVN5VzdRVWFZYmhuR1ktOHZ0dzZLUFRIZGdOb09QeXY?oc=5",
+   "category": "General",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -7844,26 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "8ad6efcfe955",
-   "date": "2026-10-21T21:29Z",
-   "title": "Insider Selling: Chevron (NYSE:CVX) Insider Sells 2,400 Shares of Company Stock",
-   "source": "MarketBeat",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVnRGc1lkRlBrSXpPUDI3WWxoTGtHNm81ZENwLVN3T3hwTWdRUm91TWtVRTF2MnZsVUlXT0lDcDJJSVFndTREdjUtdlFWVGtWMzNmMWVocHlQNEVOSWZvSlBoWGFGalp4SUxQZE4yQ3ZVSUNlWkdmckRQeUlGb1dKcG9hZGttbDByMW1EMUdCZ0pxSWtKOGFfLVZJN3pGUEZsd1dCSnpFZUlaSF80Ykd0LXlMUXBGZDVFeHF1YlJGbEpEUzNZRmZ1cVl2UE5MREdnMk5N?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "b7d369990ef6",
-   "date": "2026-10-21T21:22Z",
-   "title": "Factbox-Long fight over refiner Citgo progresses at US appeals court",
-   "source": "KELO-AM",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcnRHN2FQR0c4eFNzRkIzaTlJTGl5R3R3b1JXLUU4dEdpancyc3ZKSGxudGtEUS1tbWsyTG9xMWswSFFuRlRYSDU2djU0WEZUbURaRmc1MU5qMHNmXzYtWTlIbDk5anJ5bUhrMTh2cG80V3VBUHlzS24wRDcwSHdMRlEwV2xNOGo1T0l4eG02dnJQeU9RakQwWm5KWWpaZw?oc=5",
-   "category": "Refining",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-28T23:03:27Z",
+ "updated": "2026-10-28T23:59:43Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
