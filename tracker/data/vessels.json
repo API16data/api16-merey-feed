@@ -80,7 +80,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T04:04:40Z",
-    "last": "2026-10-27T18:47:07Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 8.3
    }
   ],
@@ -90,7 +90,7 @@
   "name": "FOREVER BRILLIANCY",
   "destination": "BEAUMONT",
   "draught_m": 8.3,
-  "last_seen": "2026-10-27T18:47:07Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -109,7 +109,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9.6
    }
   ],
@@ -119,7 +119,7 @@
   "name": "AL SLAIMI",
   "destination": "ESALG->USNSS",
   "draught_m": 9.6,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -248,7 +248,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9
    }
   ],
@@ -258,7 +258,7 @@
   "name": "PENNSYLVANIA",
   "destination": "PORT ARTHUR",
   "draught_m": 9,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -299,7 +299,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9.4
    }
   ],
@@ -309,7 +309,7 @@
   "name": "BOW FORTUNE",
   "destination": "HOUSTON",
   "draught_m": 9.4,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -374,12 +374,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T06:48:55Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 7.5
    }
   ],
   "name": "ARCTIC",
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9131371,
@@ -440,7 +440,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-28T06:54:58Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 8.5
    }
   ],
@@ -450,7 +450,7 @@
   "name": "SEA NAVIGATOR",
   "destination": "USCRP",
   "draught_m": 8.5,
-  "last_seen": "2026-10-28T06:54:58Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -485,7 +485,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-28T05:45:39Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 7.9
    }
   ],
@@ -495,7 +495,7 @@
   "name": "NORDORCHID",
   "destination": "USCRP > USBPT",
   "draught_m": 7.9,
-  "last_seen": "2026-10-28T05:45:39Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -514,12 +514,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T14:54:52Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 8.6
    }
   ],
   "name": "ALTHEA",
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9930117,
@@ -625,12 +625,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T09:47:00Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 7.8
    }
   ],
   "name": "ARDMORE SEALION",
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9708203,
@@ -675,7 +675,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-28T06:54:58Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 7.9
    }
   ],
@@ -685,7 +685,7 @@
   "name": "LARGO ALPHA",
   "destination": "PORT ARTHUR",
   "draught_m": 7.9,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -805,7 +805,7 @@
     "zone": "Trinidad & Tobago",
     "group": "TT",
     "first": "2026-10-27T14:54:52Z",
-    "last": "2026-10-28T05:45:39Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 8.2
    }
   ],
@@ -815,7 +815,7 @@
   "name": "STENA PROMISE",
   "destination": "NLRTM>TTCHA",
   "draught_m": 8.2,
-  "last_seen": "2026-10-28T05:45:39Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Trinidad & Tobago",
   "last_group": "TT",
   "seen_near_venezuela": true
@@ -937,12 +937,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T14:54:52Z",
-    "last": "2026-10-28T06:54:58Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 10.5
    }
   ],
   "name": "STL HUANGPU",
-  "last_seen": "2026-10-28T06:54:58Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9935480,
@@ -981,7 +981,7 @@
     "zone": "Open sea / other",
     "group": null,
     "first": "2026-10-27T15:48:44Z",
-    "last": "2026-10-28T05:45:39Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 7.6
    }
   ],
@@ -991,7 +991,7 @@
   "name": "GRANDE RIVIERE",
   "destination": "USBPT",
   "draught_m": 7.6,
-  "last_seen": "2026-10-28T05:45:39Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Open sea / other",
   "last_group": null
  },
@@ -1230,12 +1230,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-28T05:45:39Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9.4
    }
   ],
   "name": "AL ZORE",
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9981386,
@@ -1291,7 +1291,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T17:48:15Z",
-    "last": "2026-10-28T06:54:58Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 7.5
    }
   ],
@@ -1301,7 +1301,7 @@
   "name": "NAVIGATOR YAUZA",
   "destination": "USBPT",
   "draught_m": 7.5,
-  "last_seen": "2026-10-28T06:54:58Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -1386,12 +1386,12 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T19:42:49Z",
-    "last": "2026-10-28T04:48:06Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": null
    }
   ],
   "name": "PACIFIC MERAK",
-  "last_seen": "2026-10-28T04:48:06Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -1566,7 +1566,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-10-27T22:40:38Z",
-    "last": "2026-10-28T05:45:39Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 11.9
    }
   ],
@@ -1576,7 +1576,7 @@
   "name": "MENAPII",
   "destination": "GOLA>USCRP",
   "draught_m": 11.9,
-  "last_seen": "2026-10-28T05:45:39Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -1678,7 +1678,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-28T04:48:06Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9.5
    }
   ],
@@ -1688,7 +1688,7 @@
   "name": "FUTURE JAPAN",
   "destination": "US NDX",
   "draught_m": 9.5,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -1722,7 +1722,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-27T23:36:42Z",
-    "last": "2026-10-28T06:54:58Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9.5
    }
   ],
@@ -1732,7 +1732,7 @@
   "name": "UMM GHUWAILINA",
   "destination": "USPOA",
   "draught_m": 9.5,
-  "last_seen": "2026-10-28T06:54:58Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -1880,12 +1880,12 @@
     "zone": "Open sea / other",
     "group": null,
     "first": "2026-10-28T01:58:08Z",
-    "last": "2026-10-28T01:58:08Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": null
    }
   ],
   "name": "SANDPIPER",
-  "last_seen": "2026-10-28T01:58:08Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Open sea / other",
   "last_group": null
  },
@@ -1943,7 +1943,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-10-28T04:48:06Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 8.2
    }
   ],
@@ -1953,7 +1953,7 @@
   "name": "BUNGO CROWN",
   "destination": "USBPT",
   "draught_m": 8.2,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -2031,7 +2031,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-10-28T06:54:58Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 11.2
    }
   ],
@@ -2041,7 +2041,7 @@
   "name": "SILVER MOON",
   "destination": "USHOU",
   "draught_m": 11.2,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -2053,7 +2053,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-10-28T08:00:17Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 8
    }
   ],
@@ -2063,7 +2063,7 @@
   "name": "JAG PRABHU",
   "destination": "USHOU",
   "draught_m": 8,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -2075,7 +2075,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-10-28T08:00:17Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9
    }
   ],
@@ -2085,7 +2085,7 @@
   "name": "KMARIN RIGOUR",
   "destination": "TRBZC>USCRP",
   "draught_m": 9,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -2097,7 +2097,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-10-28T08:00:17Z",
-    "last": "2026-10-28T08:00:17Z",
+    "last": "2026-10-28T08:54:02Z",
     "draught_m": 9
    }
   ],
@@ -2107,7 +2107,7 @@
   "name": "ECO FREEZE",
   "destination": "FIPRV",
   "draught_m": 9,
-  "last_seen": "2026-10-28T08:00:17Z",
+  "last_seen": "2026-10-28T08:54:02Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -2133,5 +2133,27 @@
   "last_zone": "Venezuelan waters (other)",
   "last_group": "VE",
   "seen_near_venezuela": true
+ },
+ "563054200": {
+  "mmsi": 563054200,
+  "first_seen": "2026-10-28T08:54:02Z",
+  "visits": [
+   {
+    "zone": "Houston / Galveston / Texas City",
+    "group": "USG",
+    "first": "2026-10-28T08:54:02Z",
+    "last": "2026-10-28T08:54:02Z",
+    "draught_m": 8.5
+   }
+  ],
+  "imo": 9776456,
+  "type": 82,
+  "length_m": 140,
+  "name": "MTM KOBE",
+  "destination": "USCRP",
+  "draught_m": 8.5,
+  "last_seen": "2026-10-28T08:54:02Z",
+  "last_zone": "Houston / Galveston / Texas City",
+  "last_group": "USG"
  }
 }
