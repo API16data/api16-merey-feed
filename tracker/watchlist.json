@@ -1,0 +1,13 @@
+{
+ "note": "Ships named in news or images as carrying Venezuelan crude. Followed by the AIS tracker and marked as linked to Venezuela (reported, not confirmed). Edit this list to add or remove ships.",
+ "vessels": [
+  {
+   "mmsi": 538012456,
+   "name": "ANGERONA",
+   "reason": "Pictured at a Corpus Christi dock on Oct 27, 2026, when the first cargo of the US-Venezuela (NABEP) deal arrived (2 tankers, 1M bbl). Not confirmed by official sources.",
+   "source": "Directorio Petrolero (Instagram), White House (X)",
+   "added": "2026-10-28",
+   "reported_venezuela": true
+  }
+ ]
+}
