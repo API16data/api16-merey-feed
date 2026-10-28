@@ -1,0 +1,21 @@
+{
+ "updated": "2026-10-28T18:51:44Z",
+ "vessels": [
+  {
+   "mmsi": 538012456,
+   "name": "ANGERONA",
+   "reason": "Pictured at a Corpus Christi dock on Oct 27, 2026, when the first cargo of the US-Venezuela (NABEP) deal arrived (2 tankers, 1M bbl). Not confirmed by official sources.",
+   "source": "Directorio Petrolero (Instagram), White House (X)",
+   "added": "2026-10-28",
+   "reported_venezuela": true,
+   "seen_this_run": false,
+   "last_seen": null,
+   "last_zone": null,
+   "lat": null,
+   "lon": null,
+   "status": null,
+   "draught_m": null,
+   "visits": []
+  }
+ ]
+}
