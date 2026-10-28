@@ -2,12 +2,16 @@
 
 Keeps headline, source, date and link only (no article text). Runs on a schedule
 (GitHub Actions). No keys needed. Output: tracker/data/news.json (newest first).
+
+Hand-picked stories live in tracker/curated.json (small file, easy to edit from the
+GitHub app). They are merged into news.json on every run and are never trimmed.
 """
 import email.utils, hashlib, json, os, re, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "news.json")
+CURATED = os.path.join(os.path.dirname(os.path.abspath(__file__)), "curated.json")
 MAX_ITEMS = 800
 UA = {"User-Agent": "API16-news-collector/0.1 (+https://github.com/API16data/api16-merey-feed)"}
 
@@ -85,6 +89,18 @@ def main():
             store = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         store = {"items": []}
+    # curated.json is the single source of hand-picked items: replace the curated ones in the store
+    try:
+        with open(CURATED) as f:
+            curated = json.load(f).get("items", [])
+    except FileNotFoundError:
+        curated = None
+    if curated is not None:
+        for c in curated:
+            c.setdefault("via", "API16 curated")
+            c["origin"] = "curated"
+        cur_urls = {c["url"] for c in curated}
+        store["items"] = [i for i in store["items"] if i.get("origin") != "curated" and i["url"] not in cur_urls] + curated
     seen = {key(i["title"]) for i in store["items"]} | {i["url"] for i in store["items"]}
     added, failed = 0, []
     for name, url, filt in FEEDS:
@@ -103,7 +119,9 @@ def main():
             store["items"].append(it)
             added += 1
     store["items"].sort(key=lambda i: i["date"], reverse=True)
-    store["items"] = store["items"][:MAX_ITEMS]
+    cur = [i for i in store["items"] if i.get("origin") == "curated"]
+    rss = [i for i in store["items"] if i.get("origin") != "curated"][:max(0, MAX_ITEMS - len(cur))]
+    store["items"] = sorted(cur + rss, key=lambda i: i["date"], reverse=True)
     store["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     store["feeds"] = [n for n, _, _ in FEEDS]
     store["failed_feeds"] = failed
