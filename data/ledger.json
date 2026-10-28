@@ -1,0 +1,51 @@
+{
+ "updated": "2026-10-28",
+ "method": "Each cargo claim is checked step by step against public evidence: the official claim, vessel identity, an AIS record of loading in Venezuela, discharge at an oil terminal, volume vs. vessel capacity, a U.S. customs bill of lading, and the EIA-814 import record. A cargo is 'verified' only when the last three agree.",
+ "statuses": {
+  "confirmed": "Backed by an official source or two independent sources",
+  "partial": "Some evidence, but incomplete or from a single source",
+  "open": "Evidence so far does not support it, or contradicts it",
+  "pending": "Record not public yet; date expected"
+ },
+ "cargoes": [
+  {
+   "id": "VE-2026-001",
+   "title": "First cargo under the US-Venezuela (NABEP) oil deal",
+   "claim": "Two tankers carrying 1 million barrels of Venezuelan crude arrived at Corpus Christi, Texas, for ExxonMobil and Citgo refineries.",
+   "claimed_by": "NABEP press release; White House",
+   "date": "2026-10-27",
+   "port": "Corpus Christi, TX",
+   "volume_bbl": 1000000,
+   "verdict": "Arrival claimed, cargo not yet verified",
+   "verdict_status": "partial",
+   "summary": "The only tanker named in public, ANGERONA, is an Aframax that can carry about 700,000 barrels, so a second ship is needed to reach 1 million barrels. It was moored at a general cargo pier, and the AIS history available to us shows no recent call in Venezuela. The second tanker has not been named. Customs and EIA records will settle it.",
+   "vessels": [
+    {
+     "name": "ANGERONA",
+     "imo": 9403475,
+     "mmsi": 538012456,
+     "flag": "Marshall Islands",
+     "type": "Aframax crude/products tanker, 2008",
+     "dwt": 106246,
+     "est_capacity_bbl": 700000,
+     "manager": "Trafigura Maritime Logistics (commercial)",
+     "named_by": "Maritime Executive; Al Jazeera photo caption",
+     "api16_ais": "Not picked up by API16's free AIS windows (on watchlist since Oct 28)"
+    },
+    {
+     "name": "Second tanker (not named)",
+     "named_by": "NABEP says two tankers; no public name yet"
+    }
+   ],
+   "checks": [
+    {"step": "Official claim", "status": "confirmed", "detail": "NABEP release: two tankers, 1 million barrels, delivered at no cost to the U.S. taxpayer; White House post the same day.", "sources": [["NABEP via PR Newswire", "https://www.prnewswire.com/news-releases/first-nabep-crude-cargo-under-us-agreement-arrives-in-texas-302921312.html"], ["Reuters via BOE Report", "https://boereport.com/2026/10/27/trump-promotes-oil-production-in-texas-where-democrats-dream-of-breakthrough/"]]},
+    {"step": "Vessel identified", "status": "partial", "detail": "ANGERONA (IMO 9403475) named by Maritime Executive and in an Al Jazeera photo caption. The second tanker is unnamed.", "sources": [["Maritime Executive", "https://maritime-executive.com/article/trump-puts-spotlight-on-venezuelan-oil-with-stop-in-corpus-christi"], ["Al Jazeera", "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas"], ["MagicPort vessel record", "https://magicport.ai/vessels/tanker/angerona-mmsi-538012456"]]},
+    {"step": "Loaded in Venezuela (AIS)", "status": "open", "detail": "Maritime Executive cites AIS history showing ANGERONA's last Venezuelan call about four months earlier. Public port history lists Gibraltar in August, with no Venezuelan call since. The cargo may have been transferred at sea from a larger ship; not shown yet.", "sources": [["Maritime Executive", "https://maritime-executive.com/article/trump-puts-spotlight-on-venezuelan-oil-with-stop-in-corpus-christi"], ["MarineLink port history", "https://ports.marinelink.com/vessels/vessel/538012456"]]},
+    {"step": "Discharged at an oil terminal", "status": "open", "detail": "Reported moored at Corpus Christi's general cargo terminal, a breakbulk pier, not a crude dock.", "sources": [["Maritime Executive", "https://maritime-executive.com/article/trump-puts-spotlight-on-venezuelan-oil-with-stop-in-corpus-christi"]]},
+    {"step": "Volume matches the ships", "status": "partial", "detail": "One Aframax holds about 700,000 barrels, so 1 million barrels needs two ships, which fits NABEP's two-tanker claim. Coverage is inconsistent: an Al Jazeera caption says half a million gallons (about 12,000 barrels).", "sources": [["Reuters via gCaptain (Aframax ~700k bbl)", "https://gcaptain.com/traders-push-for-discounts-for-venezuelan-oil-as-shipping-costs-soar/"]]},
+    {"step": "U.S. customs bill of lading", "status": "pending", "detail": "Crude import bills of lading (consignee, origin, weight) appear in commercial customs databases a few days to weeks after arrival. Next check: early November.", "sources": []},
+    {"step": "EIA-814 import record", "status": "pending", "detail": "EIA's company-level imports for October (importer, port of entry, country of origin) are expected around the end of December 2026. This is the official confirmation.", "sources": [["EIA company-level imports", "https://www.eia.gov/petroleum/imports/companylevel/"]]}
+   ]
+  }
+ ]
+}
