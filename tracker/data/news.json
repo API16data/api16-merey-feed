@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "46a73a0bbf3f",
+   "date": "2026-10-28T21:09Z",
+   "title": "President Trump announces first Venezuela oil shipment in Texas",
+   "source": "KVUE",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQXdEemx1REI5ZTZlNXoxXzBnU1VRVVBJNEk1YU5uWUM5THFFc0FUN3NxOUtuazB0ZjNLRTYtMTNBeVNvUzduMnVPdTg3OXNiSVcxNWdtdzBiaDN4Y25fOFQ2NGVxZHVQNmhhdUk0ZGJzdGZVMUlQUVZHY0lva1J2NnFCLXZROFJob1JsYXlRN1ZmN3U2QmY0QlBGVU9lYXhYVU9FRVcwMzFYQVhyWDdYaUQ0dnFiWHNIOXJNU2VVQjVGeXBDSDFmMVVZOWU2SUE?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "d73f3284fc90",
+   "date": "2026-10-28T21:04Z",
+   "title": "EEUU recibe primer cargamento de petróleo venezolano y lo venderá a Exxon Mobil y Citgo",
+   "source": "Tribuna de México",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNmVsSXhOVDNyOTExTUN6aS0zU0NYXzVUZU5hd3RiVl8wczJxWUlralk4M0JWUS12bkpHVEhpajl6NkdKeWRoS3BENXBhMmFwUTZhelB2SGRybFZGRzM5ek54RVpQS1NURXJiR1JGQThFc2UzRkxVZE1JMnp4TjhxN21nWTlaU0RtemhDbXptZ2hLb2dXRVZ4Smc3dDZTZ3IzYnEtM3RsczdCS2dvMEVBd1VNOVZTNVE?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "c660909be235",
+   "date": "2026-10-28T20:38Z",
+   "title": "PDVSA Revenue Jumps 60% as Crude Exports Surge",
+   "source": "Energy Intelligence",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0WEVIbFRTeWNkVkV6VHNhRTlWNVhsSnRRSHlmZHJkYTFCSXJwNFVNWWU4LUhXYVZwNzNRYjVINFUzQ0dtY0FHRUhYa1ZtakdCRURtVXNIYlE0MTA3S21Fb0UyQkl4WXN6MFAyNkRLbGRnZw?oc=5",
+   "category": "Exports",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
    "id": "f92c866ddc54",
    "date": "2026-10-28T20:26Z",
    "title": "Trump Says Venezuela Gave Him 1M Barrels of Oil as “Gift,” as US Seizes Revenues",
@@ -1078,6 +1108,16 @@
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVTNLZVRpbEhfMTdoSGo4c3hCV3J4b2lLeUhJbjhyeU5kUTZDRnpIcktiNU9Kak55MGh0bGdveUxGMVZZT2V1NlpCWXBDUUVBOFdzR1JHS1NYOGdGNUZhX290ZmxOcXJDSzN3dUNkQVlZQ0t3VDNIc0NTM0dfTjF1UkFYdU0wMkhTcUJHTUh3ZXlVeWhGVnRZTkc1MHFsMW5Fd1RjV0J6RjEzUm1FekFpYWZ0MzRBN1M3eDdXLUZJY2hUbXJoQ0NOYUVR?oc=5",
    "category": "Debt",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "f5620916c4c9",
+   "date": "2026-10-28T02:55Z",
+   "title": "Trump propone en Corpus Christi convertir a Venezuela en el estado 51 y elegir gobernador en lugar de presidente",
+   "source": "El Universal Chile",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQUlrRE5vTFZTTmt0NmVmRzRLTTEzTHJGcVhkZUl0ZURWVmd6Y2dNTWsxWV93U09POEdxRUhpcUMybXNZdlJvSFpVckU2aHk3cGp5cjhiWlV0Y0hTelVNeXdMN0JGdkVWQzBTZ3VCaUlmNXE4OGU5UEtSM3VTRHhvdTRzckI5R2RrZTZCS2k2U0dQQ0Qzd1BfSnA5UnNMcTBlQVpKWDJESW94SHRTSXNORW16dGFnMkJUaTRKZ3c2WHBtaVl2eDVibDdkQTc4RTEzUVhxZzlQbTlvQUR6QWhHeQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: crudo Merey",
    "origin": "rss"
   },
   {
@@ -7824,46 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "fbe0dddc8f0b",
-   "date": "2026-10-21T18:51Z",
-   "title": "Rubio visita refinería india de Jamnagar, capaz de procesar crudo pesado venezolano",
-   "source": "TalCual Digital",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQmkwUmI3QVlIQk1OOVJqejB3YTYtRTJreGVvMHVuZDRVM2w5Nlo4Nm1hSG5XeXU3NnU1VVl6QldnZDI3YTZhZWU2d1lHb01FRWEtaVlTR0h2LUNPM1JITFRLUGRBYmNmYk01S0NDbTRLTXlEdnI4UjAxUkgxYnhFNUVVOXRjOVNwUjVteDhUSWNBRWJUMDQ1MHFsejdiSmtUUnM5M19LVFhFRnBqNXlTSHp1YUVKTzY4Ync1ZjZn?oc=5",
-   "category": "Refining",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
-   "id": "0ae448d45789",
-   "date": "2026-10-21T18:38Z",
-   "title": "More Oil is Flowing Through the Persian Gulf Than Before the War. Prices are Still High.",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaWZVZ3gzSEhrREdQZGd1bERjRGVXSVZKX0diMzBGd0w1bjNBZGk0NEhMbWFGRnc5R1dhVng5clBKd3NrRFQ3UU9OSHpEQkhEQmFyU2VoMzUwZEo0NUJFZElqejRaRjFMM3BGamVMOEhlTUlTbjl5TUtrYUxzWW0xQlZuOEE3RXVUUDdZMXFsTQ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "21ee7eb1c681",
-   "date": "2026-10-21T18:30Z",
-   "title": "AMERICAN ENERGY SNAPSHOT: Beyond Hormuz – The Pressures Keeping Fuel Markets Tight",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVlFjYjEweHQ5SUhBM2hWUEpaMWs0QnktcWQ5aGpUMHVQQ2VVLXFJWGwyVzJNWWgzcUF3cEEyY2doV3djeTBxNlVBaGJZWjFQY1JPSDNqQ1RLblBkVmRkeEtPTlhtVTJ0NXdqdlJIMEFxRmc5bEpUTGdEVlRCbDRQZnlQaHkxT2tyVjU0cHlyZzVhYUFEYnNUdXM5N1I2ZFdTbjBuWjFtcUR5dGhCdnk0?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "9d30e8d1d4c4",
-   "date": "2026-10-21T18:22Z",
-   "title": "Many of the United States’ Oil and Gas Giants Aren’t Lobbying on Venezuela",
-   "source": "NOTUS",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaTNPU01QRGI1N3Fxc0E2MEJZdU93X2hvSG1Mcms4QjlPa0ZPejVVOUk5eTN1enhUZVZTZnJ6VTk2T3M0Q18xdlZSalNaSXRBQTNsRnczZ2N6ckg0bTVJTFhOVmtaUmlVVjdBeUM5Wi1pdGN5UFZBamFRZ0Y4ei1WbEJMSjZuTW1KalBkMmVtcE5EY3c?oc=5",
-   "category": "Gas",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-28T20:29:57Z",
+ "updated": "2026-10-28T21:14:07Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
