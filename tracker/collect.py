@@ -13,6 +13,7 @@ Outputs (in tracker/data/):
                      reached a US Gulf port
   runs.jsonl         one line per run (counts), for the history chart
   ship_types.json    AIS ship type per MMSI learned so far (to spot tankers sooner)
+  watch.json         status of the vessels on tracker/watchlist.json (ships named in the news)
   ais_estimate.json  estimated barrels/day of Venezuela-linked crude reaching the US Gulf (lower bound)
 """
 import asyncio, json, os, re, sys, time
@@ -23,6 +24,7 @@ import websockets
 KEY = os.environ.get("AISSTREAM_API_KEY", "").strip()
 SECONDS = int(os.environ.get("LISTEN_SECONDS", sys.argv[1] if len(sys.argv) > 1 else "600"))
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+WATCHLIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), "watchlist.json")
 
 # What we subscribe to: [[lat_min, lon_min], [lat_max, lon_max]]
 LISTEN = [
@@ -141,7 +143,16 @@ def main():
         if s.get("type") is not None:
             types[str(mmsi)] = s["type"]
 
+    # Ships named in the news (e.g. a reported Venezuelan cargo). Followed even before AIS tells us they are tankers.
+    try:
+        with open(WATCHLIST) as f:
+            watch = {str(w["mmsi"]): w for w in json.load(f).get("vessels", [])}
+    except FileNotFoundError:
+        watch = {}
+
     def is_tanker(mmsi):
+        if str(mmsi) in watch:
+            return True
         t = (static.get(mmsi) or {}).get("type")
         if t is None:
             t = types.get(str(mmsi))
@@ -176,15 +187,21 @@ def main():
             v["seen_near_venezuela"] = True
         if VE_DEST.search(v.get("destination", "")):
             v["destination_venezuela"] = True
+        w = watch.get(str(mmsi))
+        if w:
+            v["watch"] = w.get("reason", "")
+            if w.get("reported_venezuela"):
+                v["reported_venezuela"] = True
         latest.append({"mmsi": mmsi, "imo": v.get("imo"), "name": v["name"], "zone": zone, "group": group,
                        "status": p["status"], "speed_kn": p["speed_kn"], "draught_m": v.get("draught_m"),
                        "destination": v.get("destination", ""), "lat": p["lat"], "lon": p["lon"], "time": p["time"],
-                       "venezuela_link": bool(v.get("seen_near_venezuela") or v.get("destination_venezuela"))})
+                       "venezuela_link": bool(v.get("seen_near_venezuela") or v.get("destination_venezuela") or v.get("reported_venezuela")),
+                       "watch": v.get("watch")})
 
     # tankers linked to Venezuela, and which then reached a US Gulf zone
     linked = []
     for v in vessels.values():
-        if not (v.get("seen_near_venezuela") or v.get("destination_venezuela")):
+        if not (v.get("seen_near_venezuela") or v.get("destination_venezuela") or v.get("reported_venezuela")):
             continue
         ve_times = [x["last"] for x in v["visits"] if x["group"] in ("VE", "ABC")]
         us_after = [x for x in v["visits"] if x["group"] == "USG" and ve_times and x["first"] > min(ve_times)]
@@ -192,7 +209,9 @@ def main():
             "mmsi": v["mmsi"], "imo": v.get("imo"), "name": v.get("name"), "length_m": v.get("length_m"),
             "why": ("seen in Venezuelan / ABC waters" if v.get("seen_near_venezuela") else "")
                    + (" + " if v.get("seen_near_venezuela") and v.get("destination_venezuela") else "")
-                   + ("AIS destination is a Venezuelan port" if v.get("destination_venezuela") else ""),
+                   + ("AIS destination is a Venezuelan port" if v.get("destination_venezuela") else "")
+                   + ((" + " if v.get("seen_near_venezuela") or v.get("destination_venezuela") else "")
+                      + "reported in the news, not confirmed" if v.get("reported_venezuela") else ""),
             "last_zone": v.get("last_zone"), "last_seen": v.get("last_seen"), "destination": v.get("destination", ""),
             "arrived_us_gulf": bool(us_after), "us_gulf_port": us_after[-1]["zone"] if us_after else None,
             "us_gulf_first_seen": us_after[-1]["first"] if us_after else None,
@@ -205,6 +224,13 @@ def main():
     save("vessels.json", vessels)
     save("ship_types.json", types)
     save("venezuela.json", {"updated": run_at, "note": "Probable links from public AIS, not confirmed cargoes.", "tankers": linked})
+    seen_now = {str(t["mmsi"]): t for t in latest}
+    save("watch.json", {"updated": run_at, "vessels": [dict(w, **{
+        "seen_this_run": mmsi in seen_now,
+        "last_seen": (vessels.get(mmsi) or {}).get("last_seen"), "last_zone": (vessels.get(mmsi) or {}).get("last_zone"),
+        "lat": (seen_now.get(mmsi) or {}).get("lat"), "lon": (seen_now.get(mmsi) or {}).get("lon"),
+        "status": (seen_now.get(mmsi) or {}).get("status"), "draught_m": (vessels.get(mmsi) or {}).get("draught_m"),
+        "visits": (vessels.get(mmsi) or {}).get("visits", [])[-5:]}) for mmsi, w in watch.items()]})
 
     # AIS estimate of Venezuelan crude reaching the US Gulf: tankers seen in Venezuelan/ABC waters
     # that later appear at a US Gulf zone within the last WINDOW_DAYS, times an estimated cargo size.
