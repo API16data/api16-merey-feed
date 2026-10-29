@@ -15,7 +15,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
 
@@ -26,10 +26,10 @@ jobs:
       - name: Install
         run: pip install websockets==13.1
 
-      - name: Listen to AIS for 10 minutes
+      - name: Listen to AIS for 45 minutes (near-continuous coverage, free on public repos)
         env:
           AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
-          LISTEN_SECONDS: "600"
+          LISTEN_SECONDS: "2700"
         run: python tracker/collect.py
 
       - name: Save results to the repository
