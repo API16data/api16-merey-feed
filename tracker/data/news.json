@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "070560f05f39",
+   "date": "2026-10-29T13:47Z",
+   "title": "Eni arranca operaciones en el bloque Junín 5 de la Faja Petrolífera del Orinoco firma con PDVSA",
+   "source": "Notiprensa Digital",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdXZOdHpYbzBBRTk2YWhBZ1NBR3lyd29waUJEQWJzak44VGFERXBGWUpVaUJkaGJ4LWVTR096QzZVUUF2LVlQNU5ZcFQta2hXV3hxTzIxTHlhSEkySEpkTFhuNm5PZXhCLVEyWEdPSndCSnBSc2Y1X1lsUk10QmEySFVoNl82ZWZjRVI5SVZjSkN6bmk1MnJoRmpKNFlfU3NiaDcwaXU0cUZRYl8yVGVTT2JwNFFvdnNoYVRaOWdqU0VHdTg1?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "0a099728cdfa",
+   "date": "2026-10-29T13:33Z",
+   "title": "Pdvsa proyecta producción de 1 millón de barriles extra en siete años",
+   "source": "Ciudad Valencia",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTDlPRi1sRTlRX2pPNWtaMzh4ME5ILVBxWEtlUjFhNGhwYzExd0JGZWNSM251OEhkMTU1N3BEQWw3Qmc0UjdvOWIyeVNCcnAtUEtydE9SZWJfWE5ZQTZtd20zQWtwejFJWkhOM3BiTC1mb0tHdG5TTHBCYk0wXzZHenE5Z3pnVm1TMmw1ZHdnb3NzNkEtMHM5MktlbGpsQjlnOUdReFhxWQ?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "cc615a181362",
+   "date": "2026-10-29T12:59Z",
+   "title": "Donald Trump, Venezuelan oil, and ‘the 51st state’",
+   "source": "The Week",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYmhQSUcwNFFQRjJfWGEwU0czMjM3dVJ6RHhXVE9GUFQ1cW8xRk1fTEtBbHp6YmROZWRseEE2b1d2aXhPMG9aZy1HSmRvZDMweFR6ajNyQzNWa1BfenFIeVJGMGxwNjVLYmJxWDE2RkFlLTdUeFRESlJUdVRUcHF6eHBWdw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "761649d0751e",
+   "date": "2026-10-29T12:58Z",
+   "title": "Upcoming elections put US-Venezuela oil deal at risk",
+   "source": "Semafor",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdTcyZXFBTWJUckJCblotR2x2WnFPZ18tYi0wQzU2c1lvZm1VMjBZTy1FdE5XR2NJMVNLQXY2anhURGlUYzhOTndKRkh0NGpzT1ZKTDNfQm1fLVZxcWRLblZnTk5HQlZ3bklqWG9veTVldFI2NjZBb2lRTzBlVEJIbXNGYkRmSk5tdWdNQXNheUs4aXlRa0hmN3V1VQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "dd2cd04a905c",
+   "date": "2026-10-29T12:38Z",
+   "title": "Exportaciones de petróleo venezolano a EE UU en 2026 dejan atrás el acumulado de los últimos dos años",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMno0d2Zhai1zbGxkWGJQVTY4dmp6TnVsd1hhd3NpY2tiS0RYdFpvUzM1aDRCa0NvU1RKLUpoYUpkMEpHdUZyUUptejgzVjlXRXdhQnpyRjhGaVJGTjBOLWgzWWhFMXFabjNnamJZWnFVUGVrSmNKUnBiNXdWZDdBRElFaWt2QkEtcnRheGVvelloS09jeHdUeXMwNHBVMDNsYnNXSVExY1RTanVjNGtlZFBUblg5OUhXV2dVemxPOGZHWU96LVFBVUJXM0xmNFZ5dWJz?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "ed4dd35da535",
    "date": "2026-10-29T12:27Z",
    "title": "Esta es la proyección de producción de Pdvsa para los próximos siete años",
@@ -107,6 +157,16 @@
    "source": "Rediff MoneyWiz",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQVhWUmVkdzBrN3BqS1hPVzNqbUd4QWtsZ2RNYkUyUVl5RjBxQkJxMmkySXp5dXVyQmlndU83NUsyY2E3cm1OUU9BZzNYbmgyLV9XX2pMcXlxMG5VUHV6Mzh3Y1NjaGhrRG9vUW9MTEJaUzZVcXppTlRpR05menlaSElCZXNXZjdkb2ZXdDZIamg0enlKNkxtTDVjY0kwbDg1V2FoYTFzQmctMF8teFHSAbMBQVVfeXFMTV9sZ3NsaWtNc0FHNFkxZnAtNVBCM1NCdDdyUlBsRDBDSldJOEZOakYtdkVkVnJTMzV5WEdIV28wdFVMRHlQY19yV2NGLXJFTjBjOVpfdWh0a1NHSGhGQXBkellaelZkbGx2UFdxeEVKaTdsQjJoWlNCUnNELTB4UlI3SnZZcWZVaERIV19Na0hlcnNuNkdHQmpYeVRSRGd2RUR2TFlFc0pZUGNab0hFaC1yOUE?oc=5",
    "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "efed028bcbf4",
+   "date": "2026-10-29T09:43Z",
+   "title": "Eni starts operations at Venezuelan oil field",
+   "source": "Oilfield Technology",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaWtVc1ljNUE5TkhkWVQ1M3l3ODI0T2tjZnBpNmxOaGN3NXBIZkNWMEpmVzkzYkRwMUtoUktNdHRxOXZWNUJrakE5ZmJCeHdnNW1pcWNEYm9GeHVZUjEyQm5uVW5RTVpCN0gtWkMtSkYxZXYwV0ExOWpBenFRVkVDT1FheGN1dHpqcnlGRTNiUVp0QUpWTHFzU3AwYlRPRTJvR2w1bmJQN1FIMHdJY0FYR0xtb0c?oc=5",
+   "category": "Production",
    "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
@@ -468,6 +528,16 @@
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmJNVFdRQzBfblhNSXJEcGFiaDduX3hFWHVHaFVyeTRIcDlIV255cDVsczEyLVpKUU9TQmxOOS1rYzJBZ2ZhSGFVRzVFSnU0OUxNc0Nfal9qRVl5QkZkYTFjc19RMTZKbmtYb2Nsd0pKaHR1NUZvTmRxUURuQ3A5U2owcEtfMnRGN0NaWDg2VEV0eUhad3pKX0JVYmduemZJTm9WMzZB?oc=5",
    "category": "Exports",
    "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "334ae4af5ab2",
+   "date": "2026-10-28T19:18Z",
+   "title": "Oil Executives Rush to Complete Contract Migration in Venezuela, Sources Say",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSUg0UWFGdjBrZXBYUGllNWd5eURBNHM2MGpYajJPY2ducXBlQU5LTERjcmJHbml3dWZFcU9VMGcydUJHZDdhSlMyUlBiQldfSGYtdTFSZmYwVnhhYW9heU9mV1FvTkNUclk3cGh1VGdNSjZsdkk0cm5VWUxfUVpLZkdpVzFYVzdITGpBMi1Oa1IxSWJUSTVrMUNSY1dva1k5Z2ZfeVRBa2txdw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -1288,6 +1358,16 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS1FfVmEwTUFWY0NrRUtnZ3I3aUJrckkxeUhPM2JqamxKVVBLZzk1Vll6TnBOaXdHSTRpd2RkTU1VWjJTS0IwMmkxTmNFWVBSQzE0c2JhdFh1VWl5el83anAydUl5U3Y0bFBLOGd5SV9OYjNtUFBJLVhodmtqV1ZPOUt1Y1c2N0ZzQ0VqVnhRQ0ViUUtya0gzYWVQcTFfM2tzYmdSQkRuRXFSYmRlelg3Y0REekUyZnZh?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "d23b21e7e4f2",
+   "date": "2026-10-28T07:00Z",
+   "title": "Eni activa operaciones en la Faja del Orinoco y proyecta aumentar la producción a 200.000 barriles diarios para 2028",
+   "source": "Globovisión",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNN3dxcm9zTnB4dnZ5QVBTeWZsTVAtWVBBY0U1clVPTXZFMzZhS1RaVzY2VHNrY1JkQnRlNVZBQ1h2N2QzdGxfMkJyUmstd1lmSzBONVc1SHhLSGIxRXhyM1ItTkdLaVBQT1gxZ3I2dm40NGR0SWlvSGJBc3NxSGxfYWRwNTJMMmE4UHBrc2lXN01uWk1YUnhXZ0hldTAwTUFvMXQyazBqQ3dHWnRodGhEZTRUQUUxSk5LcDM5dndrRUZ0RUwxQ2ViZld5NVR4M2psSTJzaVo0WQ?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7784,86 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "50db08b39378",
-   "date": "2026-10-22T16:52Z",
-   "title": "Exportaciones de petróleo a EEUU subió 25%",
-   "source": "El Periodiquito",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5iQWE0VzV1b0VMRmZXQXlYSVA2YldaN082Q1U2d2xwVG12QlNMSkdCeVpPRDRCbEhnS1QzU0hrejRXVW1WRjRScWEycEp5T3BHbnF0bUhyVFRpTERrZnhJMA?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "8c4c23774c06",
-   "date": "2026-10-22T16:40Z",
-   "title": "Experts cast doubt on Venezuela’s longtime claim of 300 billion barrels of reserve oil",
-   "source": "Daily Local",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3bnZxZV9tR090V0I0VWh2TV9DUDRjNEtHajZsd0hjRm55RW1VOWpNamRUT2hHb1dMdUF3eWs0TS12V24wSHMxMG9ILU5zSmVYbG9lVllLVzNzMGpzYzY0cGFXYWF4bjhRdWFPWFkxb2NYdHMtY2c?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "eb30c33ec347",
-   "date": "2026-10-22T16:38Z",
-   "title": "Expertos dudan de que Venezuela posea 300.000 millones de barriles de petróleo",
-   "source": "Finanzas Digital",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMEp3cmkwWkZuS1FlcUQwcUp2dXk4MXFnc1lHcHQtYldQUGlFeXZXLTA1d1VBTUUycTlyRjVfQ2ExS2YxUXI1X3ZwT3NaeGd2bWp4cFR0UXA3WVczaDYzdnVFeHRleTZObzN2aWJyb1RRQWduakNSM2hneTNCTFYxVHpGNUd2dU9BaXc?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "4b29b9caefb6",
-   "date": "2026-10-22T16:30Z",
-   "title": "Exportaciones de petróleo venezolano a EE.UU. subieron 25% y superaron los 570.000 barriles diarios",
-   "source": "AlbertoNews",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY3BwWS12bnZYMkQ2cW9uWUpYRWNWa3BkY3FUcU0zOFVZZV9iSE5LUnN4dERmVGUxS2NGRXZ6cmJ6Q0ZadHpzVHlWMXplQ0VjeUlZcWZOM3JRTmRpTWJHUmZ3amc0cnNvNE9sOG42Y3JwLUMwS1YyRDB2UV9XQ0Y1eTJVMkN6WHFZZmF4ek1ybWItUmJKTnpYZXFlX0ZMbzZKaVA4UkJoaXpXa3lXY2VCWHBFYTRwQU1hWjFSR2NCWUJRbXJ5SEhzTEt1ZG9Ydw?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "6426cc286666",
-   "date": "2026-10-22T16:29Z",
-   "title": "Venezuela eyes Qatar bridge loan to clear IDB arrears, sources say",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbzcxOU92RVJXd2JmQWs2Zk40dmRBdExvaFVkOXp6OGNkVkMwckwwRE94RjAydWtDc050QVVrMmV3WW5hT0QxdjN5b1RCMHZrUGpBZE5nRGRsNV85RHQydTRzS2RsdUR3WVc4SU9oMnE0RU44OThiNTRjdXFnZGk1RFhKTEx3YmxMS0F2RzJLa1o2aVZnQnFiQk9ReVF6YkhXczRKdGxUSHlRV1dWZXhFTmc3aw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela bonds restructuring",
-   "origin": "rss"
-  },
-  {
-   "id": "bd1b6066c034",
-   "date": "2026-10-22T16:12Z",
-   "title": "Petróleo de Texas sube 2,4% ante posible escalada en Oriente Medio",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS2g1N2d5UllyTlZsZnc4SjZYVTF0Q2M1R3ZlMC1YZDdOWFBieXFMTHN6VGE5eG1XQ0xKMVZuaHhvS2xIQ0VuTWJvTm9sZENwaVlsbUdhdlkzR2lpYjlSY2xMTlJLRXAzVWVVamxQMFRLM3Z3SlFGWTYtUzBmRWR6RUhBbkJ0UDlJeGlsSWFIcGlzMWdKUTF4TWxKdEpHdDhSdHRvLU5PeGZaQUJYWnRZVQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "2f181286c110",
-   "date": "2026-10-22T15:56Z",
-   "title": "Oil Firm Pitches Exemption to Canada’s Thorny BC Tanker Ban",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ01Tb0xHWGpRdEU3TFpfbGVibjdWS2MzZzNDWmJQTV85N0VaampxT0ROMVB0ZERGVE53SW5qLWM5aHpuUkRoT1FTUTMzUmtVLW9nc1UxUUNuYTUwZU5uVzBtbE5wSXM0dDdRaXB1OHdoN0ppbzhvNHA0azZDTGtsd0ZOVVYtN09kOWRJTVlLMjV6a2U3QVhSQ1VkNEhkNl9DbHc3R1hXekZtNjQ3WlJNNUlaUEdZZw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "817492893d8e",
-   "date": "2026-10-22T15:51Z",
-   "title": "Rubio abandona India tras impulsar cooperación energética y petróleo venezolano",
-   "source": "Telemundo Miami (51)",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNUtVVEMzTXdDR0ZVb1pwQUtpQ0Z4OTBGRUFxblFoWm1qTHBObng1LS1LSk1fWlp5MVkwT1JFeVZCMEotTlZ4Z2JHSW01RDAtWVdwOUpSSnN1UVhFOWcwRXdkbkhwdUlVS3ZIbmlUYjlsbkRoaUVmOXFCWWpMWlY4ekJBbjA0SllVUnJUZXVWTmJJcjZET1RvZl9HclpHTGpQajBiOHI0cjRyY2Y0clhCUldqcVE2dWhsUVkxUUI4NjB1QU93QjhlR3BFaFNhV2RC0gHYAUFVX3lxTE5LS29oRC1wSkV3Z1NKUFhZYUVvTjVlM0V2NHpwQVo2MGo2U1gwQ2lUREgxN1FMb1I4andudENHYzZ5cjRRcGNXMWZkaTNUcy11ak1URlVNYU5MZWE2V0hpQzM3b2lUZHZrV3dFSTFNOENGUTd3TW1za0hmSnVQOUNtTUNDRUNDV2ZUemNVWDBHTlB5dzdKSlB6VWduRHRNellEcGxDbktENi1YRUJZNU8zNTREYW1HNUNMb2xzZEJ4dk80SFRuWFVBdFFqTFRTb1VIYTBJbjlEXw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T12:34:55Z",
+ "updated": "2026-10-29T13:50:13Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8072,10 +8072,10 @@
    "key_figure": "60%"
   },
   {
-   "date": "2026-10-28T16:59Z",
-   "title": "Eni Restarts Production at Venezuela’s Junín-5 Oil Field",
-   "source": "Egypt Oil & Gas",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUtlU040VXZxVXFYX2hlOXotNUlJSWdveVo2NTZHNUVDcXEzX21ySnZfZ0lwNFUzNjVyTnlYNGdlUmZObHVyS0I4Zm5pVFA3ZTBCNjJUSkttNG9oLWxEdkJiWVI5ZzFWTUFpb2k0WFlDWEc5T0xUN1NHdGxKSmVJUUtrRkpIRlphMzNOa0xFMA?oc=5",
+   "date": "2026-10-29T09:43Z",
+   "title": "Eni starts operations at Venezuelan oil field",
+   "source": "Oilfield Technology",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaWtVc1ljNUE5TkhkWVQ1M3l3ODI0T2tjZnBpNmxOaGN3NXBIZkNWMEpmVzkzYkRwMUtoUktNdHRxOXZWNUJrakE5ZmJCeHdnNW1pcWNEYm9GeHVZUjEyQm5uVW5RTVpCN0gtWkMtSkYxZXYwV0ExOWpBenFRVkVDT1FheGN1dHpqcnlGRTNiUVp0QUpWTHFzU3AwYlRPRTJvR2w1bmJQN1FIMHdJY0FYR0xtb0c?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
    "key_figure": null
