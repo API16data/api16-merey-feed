@@ -38,6 +38,10 @@
   .bar nav { display: flex; gap: 18px; font-size: 14px; }
   .bar nav a { color: #C9D2DF; text-decoration: none; }
   .bar nav a:hover { color: var(--amber2); }
+  .bar nav { align-items: center; }
+  .bar nav a { white-space: nowrap; }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+  .lang:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
   @media (max-width: 560px) { .bar nav a.hide-s { display: none; } }
 
   /* hero */
@@ -125,6 +129,8 @@
   .ticker a:hover span:last-child { text-decoration: underline; }
   .ticker time { font: 12px var(--mono); color: var(--muted); padding-top: 2px; }
   .ticker small { color: var(--muted); }
+  .ticker a.feat { border-left: 3px solid var(--amber); padding-left: 10px; background: rgba(200,137,43,.07); }
+  .ticker .badge { display: inline-block; font: 600 11px var(--mono); letter-spacing: .05em; text-transform: uppercase; color: #0F1B2D; background: #E2A548; border-radius: 4px; padding: 1px 6px; margin-right: 6px; vertical-align: 1px; }
   .ticker .fig { display: block; font: 600 13px var(--mono); color: var(--amber); margin-top: 4px; }
   .tk-h { margin: 26px 0 0; font-size: 15px; font-weight: 700; }
   .ticker .api { display: block; margin-top: 4px; font-size: 12.5px; color: var(--amber); }
@@ -144,6 +150,7 @@
       <a href="monitor.html">Live monitor</a>
       <a href="ledger.html">Cargo Ledger</a>
       <a href="https://github.com/API16data/api16-merey-feed" class="hide-s">Verify</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
     </nav>
   </div>
 </header>
@@ -194,6 +201,7 @@
         <a href="https://www.elnacional.com/2026/10/produccion-petrolera-de-venezuela-alcanzo-125-millones-de-barriles-diarios-segun-pdvsa/"><div class="big">1.25M b/d</div><div class="t">Venezuelan crude output, the highest since 2019</div><div class="s">PDVSA · Oct 24, 2026</div></a>
         <a href="monitor.html#usimports"><div class="big">5×</div><div class="t">U.S. imports of Venezuelan crude, Dec 2025 to Jul 2026: 137k to 701k b/d</div><div class="s">EIA official data</div></a>
         <a href="https://www.usnews.com/news/top-news/articles/2026-10-17/venezuela-expects-nearly-76-billion-in-oil-investment-over-five-years-acting-president-says"><div class="big">US$76B</div><div class="t">Oil and gas investment Venezuela expects over five years</div><div class="s">Reuters via US News · Oct 17, 2026</div></a>
+        <a href="https://publications.opec.org/ASSETS/assetdb/asb-2026.pdf"><div class="big">303.7B bbl</div><div class="t">Proven crude reserves, the largest in the world: 19.3% of the total</div><div class="s">≈ 660 years of output at today's 1.25M b/d</div><div class="s">OPEC Annual Statistical Bulletin 2026 · end of 2025</div></a>
       </div>
       <h3 class="tk-h">What's moving, and what it means for API16</h3>
       <div class="ticker" id="ticker" aria-label="Top headlines and what they mean for API16"></div>
@@ -250,11 +258,35 @@
   const D = 'tracker/data/';
   const $ = (id) => document.getElementById(id);
   const get = (p) => fetch(p + '?t=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const n0 = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
-  const n1 = new Intl.NumberFormat('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-  const n2 = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-  const usd = (v) => (v >= 1e9 ? 'US$' + n2.format(v / 1e9) + ' B' : v >= 1e6 ? 'US$' + n1.format(v / 1e6) + ' M' : 'US$' + n0.format(v));
-  const MES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  // ---------- language (English / Spanish) ----------
+  const ES = {"API16 · Venezuelan Oil, Live": "API16 · Petróleo venezolano, en vivo", "Live monitor": "Monitor", "1.25M b/d": "1,25 M b/d", "US$76B": "US$76 mil M", "303.7B bbl": "303,7 mil M bbl", "Verify": "Verificar", "Live · official U.S. data": "En vivo · datos oficiales de EE. UU.", "Barrels of Venezuelan crude shipped to the United States in 2026": "Barriles de crudo venezolano enviados a Estados Unidos en 2026", "at Merey prices": "a precios Merey", "barrels every second": "barriles por segundo", "Confirmed · EIA monthly": "Confirmado · EIA mensual", "Confirmed · U.S. customs": "Confirmado · aduana de EE. UU.", "Preliminary · EIA weekly": "Preliminar · EIA semanal", "Estimated · API16, at the latest rate": "Estimado · API16, al ritmo reciente", "thousand b/d this week · EIA": "mil b/d esta semana · EIA", "Merey 16, USD/bbl": "Merey 16, US$/bbl", "Venezuela discount to Brent": "Descuento de Venezuela frente al Brent", "tankers on AIS right now": "tanqueros en AIS ahora", "Tanker linked to Venezuela": "Tanquero ligado a Venezuela", "Other tanker": "Otro tanquero", "Venezuelan oil terminal": "Terminal petrolera venezolana", "U.S. port of entry (customs)": "Puerto de entrada en EE. UU. (aduana)", "How is this counted?": "¿Cómo se cuenta?", "Four layers, shown in the bar above. Confirmed: official EIA monthly imports from Venezuela for completed months, then U.S. customs (Census) records for months EIA has not published yet; customs gives weight, converted at 152.5 kg per barrel of Merey 16, and the declared value; it can run below EIA because of entry timing. Preliminary: EIA weekly estimates after that, which EIA revises later. Estimated: the latest 4-week EIA rate applied to the days since the last weekly report, replaced by official data as it is published. Counts barrels that reached the U.S., not cargoes still at sea. Dollar value uses the OPEC Merey monthly average, and the declared customs value where customs data is used. Tankers from free AIS, refreshed every hour.": "Cuatro capas, en la barra de arriba. Confirmado: importaciones oficiales mensuales de la EIA desde Venezuela para los meses cerrados; luego, registros de la aduana de EE. UU. (Census) para los meses que la EIA aún no publica. La aduana da el peso, convertido a 152,5 kg por barril de Merey 16, y el valor declarado; puede quedar por debajo de la EIA por las fechas de entrada. Preliminar: estimados semanales de la EIA, que la EIA revisa después. Estimado: el ritmo de las últimas 4 semanas aplicado a los días desde el último reporte semanal, reemplazado por datos oficiales al publicarse. Cuenta barriles que llegaron a EE. UU., no cargas que siguen en el mar. El valor en dólares usa el promedio mensual Merey de la OPEP y, donde hay datos de aduana, el valor declarado. Tanqueros desde AIS gratuito, actualizados cada hora.", "Why now": "Por qué ahora", "Venezuela's oil sector is reopening fast. Capital is arriving before the data infrastructure.": "El sector petrolero venezolano se está reabriendo rápido. El capital llega antes que la infraestructura de datos.", "Venezuelan crude output, the highest since 2019": "Producción de crudo venezolano, la más alta desde 2019", "PDVSA · Oct 24, 2026": "PDVSA · 24 oct 2026", "U.S. imports of Venezuelan crude, Dec 2025 to Jul 2026: 137k to 701k b/d": "Importaciones de EE. UU. de crudo venezolano, dic 2025 a jul 2026: de 137 mil a 701 mil b/d", "EIA official data": "Datos oficiales de la EIA", "Oil and gas investment Venezuela expects over five years": "Inversión en petróleo y gas que Venezuela espera en cinco años", "Reuters via US News · Oct 17, 2026": "Reuters vía US News · 17 oct 2026", "Proven crude reserves, the largest in the world: 19.3% of the total": "Reservas probadas de crudo, las mayores del mundo: 19,3% del total", "OPEC Annual Statistical Bulletin 2026 · end of 2025": "Boletín Estadístico Anual OPEP 2026 · cierre de 2025", "≈ 660 years of output at today's 1.25M b/d": "≈ 660 años de producción al ritmo actual de 1,25 M b/d", "What's moving, and what it means for API16": "Lo que se mueve, y lo que significa para API16", "Where it lands, and what it is really worth": "Dónde llega, y cuánto vale realmente", "Official U.S. customs records: Venezuelan crude by port of entry, and the price declared for it. Public, monthly, about five weeks after the month ends.": "Registros oficiales de la aduana de EE. UU.: crudo venezolano por puerto de entrada y el precio declarado. Públicos, mensuales, unas cinco semanas después del cierre del mes.", "Loading customs data…": "Cargando datos de aduana…", "Source: U.S. Census Bureau international trade data, HS 2709 crude petroleum from Venezuela, vessel imports by customs port. Barrels estimated from shipping weight at 152.5 kg/bbl.": "Fuente: datos de comercio internacional del U.S. Census Bureau, HS 2709 petróleo crudo de Venezuela, importaciones marítimas por puerto de aduana. Barriles estimados por peso a 152,5 kg/bbl.", "Three layers. One verifiable barrel.": "Tres capas. Un barril verificable.", "Data first, then proof, then finance. Each layer is public and checkable.": "Primero los datos, luego la prueba, después las transacciones. Cada capa es pública y verificable.", "Live": "En vivo", "Merey vs Brent, U.S. imports by refinery, tankers on AIS and every headline on Venezuelan oil.": "Merey vs Brent, importaciones de EE. UU. por refinería, tanqueros en AIS y cada titular sobre el petróleo venezolano.", "Open the monitor →": "Abrir el monitor →", "First case live": "Primer caso publicado", "Every Venezuelan cargo claimed for the U.S., checked step by step: ship, AIS track, terminal, customs and EIA records.": "Cada cargamento venezolano anunciado para EE. UU., revisado paso a paso: buque, ruta AIS, terminal, aduana y registros de la EIA.", "See the first case →": "Ver el primer caso →", "Next": "Próximo", "Verified cargoes recorded on-chain, as the base for transparent crude transactions with U.S. partners. In design.": "Cargamentos verificados registrados on-chain, como base para transacciones de crudo transparentes con socios de EE. UU. En diseño.", "API16 · Open data on Venezuelan oil. Every number links to a public source. Not financial advice.": "API16 · Datos abiertos sobre el petróleo venezolano. Cada cifra enlaza a una fuente pública. No es asesoría financiera.", "Typical route: José → U.S. Gulf Coast, ~6 days": "Ruta típica: José → Golfo de EE. UU., ~6 días", " · click for live data": " · clic para datos en vivo", " · click for details": " · clic para ver detalles", "Live now": "En vivo", " on AIS here": " en AIS aquí", "tanker": "tanquero", "tankers": "tanqueros", " · scan ": " · escaneo ", "draught": "calado", "Cargo Passports from here": "Cargo Passports desde aquí", "Market": "Mercado", " avg (OPEC)": " prom. (OPEP)", "Discount to Brent": "Descuento frente al Brent", "U.S. customs value, ": "Valor en aduana EE. UU., ", "U.S. imports, week to ": "Importaciones EE. UU., semana al ", "Latest news": "Últimas noticias", "Free AIS misses ships near Venezuela; an empty list does not mean no loadings.": "El AIS gratuito no ve muchos buques cerca de Venezuela; una lista vacía no significa que no haya cargas.", "U.S. port of entry for Venezuelan crude": "Puerto de entrada en EE. UU. del crudo venezolano", "U.S. customs, ": "Aduana EE. UU., ", "Venezuelan crude": "Crudo venezolano", "Declared value": "Valor declarado", "Per barrel": "Por barril", "Recent months": "Meses recientes", "Refineries receiving it · EIA, ": "Refinerías que lo reciben · EIA, ", " tankers in the area on AIS": " tanqueros en el área en AIS", " linked to Venezuela": " ligados a Venezuela", "Customs data is published about five weeks after month end. Source: U.S. Census Bureau.": "La aduana publica unas cinco semanas después del cierre del mes. Fuente: U.S. Census Bureau.", "Destination: ": "Destino: ", "Reported Venezuelan cargo (news, unconfirmed)": "Carga venezolana reportada (noticias, sin confirmar)", "Linked to Venezuela": "Ligado a Venezuela", " min ago": " min", " h ago": " h", " · customs": " · aduana", "daily average": "promedio diario", "declared value per barrel": "valor declarado por barril", "ports of entry": "puertos de entrada", "thousand b/d, week to ": "mil b/d, semana al ", "Merey 16, ": "Merey 16, ", " avg · OPEC": " prom. · OPEP", "tankers in last AIS scan · ": "tanqueros en el último escaneo AIS · ", "Last scan ": "Último escaneo: hace ", "Cargo flow: the barrels API16 tracks and verifies": "Flujo de cargas: los barriles que API16 rastrea y verifica", "More supply: more barrels heading to market": "Más oferta: más barriles rumbo al mercado", "Market access: who can buy and finance cargoes": "Acceso al mercado: quién puede comprar y financiar cargas", "Moves the value of every Venezuelan barrel": "Mueve el valor de cada barril venezolano", "Future barrels in the pipeline": "Barriles futuros en camino", "Domestic runs vs. barrels available for export": "Refinación local vs. barriles disponibles para exportar", "A second export stream beyond crude": "Un segundo flujo de exportación además del crudo", "Field activity ramping up: more output ahead": "Más actividad en campo: más producción por venir", "Sets the rules for new barrels": "Define las reglas para los nuevos barriles", "Claims on future oil revenue": "Reclamos sobre el ingreso petrolero futuro", "Featured": "Destacado", "Where the contracts behind the next barrels get signed": "Donde se firman los contratos detrás de los próximos barriles", "under way": "navegando", "at anchor": "fondeado", "moored": "amarrado", "not under command": "sin gobierno", "restricted": "maniobra restringida", "not defined": "sin definir", "other": "otro"};
+  let LANG = (() => {
+    try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'es' || q === 'en') return q; const v = localStorage.getItem('api16-lang'); if (v === 'es' || v === 'en') return v; } catch (e) { /* storage blocked */ }
+    return (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+  })();
+  const tr = (s) => (LANG === 'es' && ES[s]) || s;
+  let n0, n1, n2, MES;
+  function setFmt() {
+    const loc = LANG === 'es' ? 'es-VE' : 'en-US';
+    n0 = new Intl.NumberFormat(loc, { maximumFractionDigits: 0 });
+    n1 = new Intl.NumberFormat(loc, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    n2 = new Intl.NumberFormat(loc, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    MES = LANG === 'es' ? ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'] : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  }
+  setFmt();
+  function applyStatic() {
+    document.documentElement.lang = LANG;
+    const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); let n;
+    while ((n = w.nextNode())) {
+      const pe = n.parentElement; if (!pe || pe.closest('script, #map, #ticker, #ports, #phead, #lang-btn')) continue;
+      if (n.__en === undefined) n.__en = n.nodeValue;
+      const raw = n.__en, k = raw.trim(); if (!k) continue;
+      const v = LANG === 'es' && ES[k]; n.nodeValue = v ? raw.replace(k, v) : raw;
+    }
+    document.title = tr('API16 · Venezuelan Oil, Live');
+    document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+  }
+  const usd = (v) => (v >= 1e9 ? 'US$' + n2.format(v / 1e9) + (LANG === 'es' ? ' mil M' : ' B') : v >= 1e6 ? 'US$' + n1.format(v / 1e6) + ' M' : 'US$' + n0.format(v));
   const DAY = 864e5;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -318,57 +350,58 @@
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors', maxZoom: 12 }).addTo(map);
   // the main route, drawn for orientation: José terminal to the U.S. Gulf Coast
   L.polyline([[10.1, -64.85], [12.3, -68.5], [18.5, -80.0], [23.5, -86.5], [28.8, -93.8]], { color: '#E2A548', weight: 2, opacity: .7, dashArray: '6 8' }).addTo(map)
-    .bindTooltip('Typical route: José → U.S. Gulf Coast, ~6 days', { sticky: true });
+    .bindTooltip(() => tr('Typical route: José → U.S. Gulf Coast, ~6 days'), { sticky: true });
   // ---------- clickable terminals and ports: live information on click ----------
   const LIVE = {};
   const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
   const kv = (pairs) => { const d = el('div', 'kv'); pairs.forEach(([k, v]) => { if (v == null || v === '') return; d.append(el('span', null, k), el('b', null, v)); }); return d; };
   const TERMINALS = [
-    { name: 'José terminal', ll: [10.1, -64.85], zone: 'Jose / Puerto La Cruz', main: true,
+    { name: 'José terminal', name_es: 'Terminal de José', sub_es: 'Principal terminal de exportación del Merey 16, mezclado a partir del crudo extrapesado de la Faja del Orinoco. Punto de partida de la mayoría de las cargas hacia EE. UU.', ll: [10.1, -64.85], zone: 'Jose / Puerto La Cruz', main: true,
       sub: 'Main export terminal for Merey 16, blended from Orinoco Belt extra-heavy crude. Starting point of most cargoes to the U.S.',
       words: /jos[eé]|merey|puerto la cruz|anzo[aá]tegui|orinoco|petropiar|petromonagas|petrosinovensa|junin|jun[ií]n/i },
-    { name: 'Amuay / Cardón (Paraguaná)', ll: [11.75, -70.2], zone: 'Paraguana: Amuay / Cardon',
+    { name: 'Amuay / Cardón (Paraguaná)', sub_es: 'Centro de Refinación Paraguaná, uno de los complejos de refinación más grandes del mundo, y terminal de productos y crudo.', ll: [11.75, -70.2], zone: 'Paraguana: Amuay / Cardon',
       sub: 'Paraguaná Refining Center, one of the largest refining complexes in the world, and a products and crude terminal.',
       words: /amuay|card[oó]n|paraguan/i },
-    { name: 'Lake Maracaibo / Bajo Grande', ll: [10.7, -71.55], zone: 'Lake Maracaibo / Bajo Grande',
+    { name: 'Lake Maracaibo / Bajo Grande', name_es: 'Lago de Maracaibo / Bajo Grande', sub_es: 'Campos del occidente y terminales del lago: Boscán y crudos medianos.', ll: [10.7, -71.55], zone: 'Lake Maracaibo / Bajo Grande',
       sub: 'Western fields and lake terminals: Boscán and medium crudes.', words: /maracaibo|bajo grande|zulia|bosc[aá]n|petrozamora|nabep/i },
-    { name: 'El Palito / Puerto Cabello', ll: [10.48, -68.1], zone: 'El Palito / Puerto Cabello',
+    { name: 'El Palito / Puerto Cabello', sub_es: 'Refinería y terminal de El Palito, costa central.', ll: [10.48, -68.1], zone: 'El Palito / Puerto Cabello',
       sub: 'El Palito refinery and terminal, central coast.', words: /el palito|puerto cabello|carabobo/i },
   ];
   function terminalPopup(T) {
-    const box = el('div', 'pop'); box.append(el('h4', null, T.name), el('p', 'sub', T.sub));
+    const tn = (LANG === 'es' && T.name_es) || T.name;
+    const box = el('div', 'pop'); box.append(el('h4', null, tn), el('p', 'sub', (LANG === 'es' && T.sub_es) || T.sub));
     const lt = LIVE.latest; const here = lt ? (lt.tankers || []).filter((t) => t.zone === T.zone) : [];
-    box.append(el('div', 'lbl', 'Live now'));
-    const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + ' tanker' + (here.length === 1 ? '' : 's') + ' on AIS here' + (lt ? ' · scan ' + ago(lt.run_at) : '')));
+    box.append(el('div', 'lbl', tr('Live now')));
+    const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + ' ' + tr(here.length === 1 ? 'tanker' : 'tankers') + tr(' on AIS here') + (lt ? tr(' · scan ') + ago(lt.run_at) : '')));
     box.append(now);
     if (here.length) {
       const ul = el('ul');
-      here.slice(0, 6).forEach((t) => ul.append(el('li', null, (t.name || 'MMSI ' + t.mmsi) + ' · ' + (t.status || '') + (t.draught_m ? ' · draught ' + t.draught_m + ' m' : '') + (t.destination ? ' · → ' + t.destination : ''))));
+      here.slice(0, 6).forEach((t) => ul.append(el('li', null, (t.name || 'MMSI ' + t.mmsi) + ' · ' + tr(t.status || '') + (t.draught_m ? ' · ' + tr('draught') + ' ' + t.draught_m + ' m' : '') + (t.destination ? ' · → ' + t.destination : ''))));
       box.append(ul);
     }
     const pp = (LIVE.passports || []).filter((p) => p.stages.some((s) => s.stage === 'Venezuelan origin' && String(s.detail).includes(T.zone)));
     if (pp.length) {
-      box.append(el('div', 'lbl', 'Cargo Passports from here'));
+      box.append(el('div', 'lbl', tr('Cargo Passports from here')));
       const ul = el('ul'); pp.slice(0, 5).forEach((p) => ul.append(el('li', null, (p.name || p.mmsi) + ' · ' + p.status + ' · ' + p.stages_done + '/' + p.stages_total))); box.append(ul);
     }
     if (T.main) {
       const m = LIVE.merey && LIVE.merey[LIVE.merey.length - 1]; const w = LIVE.weekly && LIVE.weekly.rows && LIVE.weekly.rows[LIVE.weekly.rows.length - 1];
       const c = LIVE.census && LIVE.census.monthly && LIVE.census.monthly[LIVE.census.monthly.length - 1];
-      box.append(el('div', 'lbl', 'Market'));
+      box.append(el('div', 'lbl', tr('Market')));
       box.append(kv([
-        [m ? 'Merey 16, ' + MES[+m.month.slice(5, 7) - 1] + ' avg (OPEC)' : null, m ? '$' + n2.format(m.merey) : null],
-        [m ? 'Discount to Brent' : null, m ? '−$' + n2.format(m.brent - m.merey) : null],
-        [c ? 'U.S. customs value, ' + MES[+c.month.slice(5, 7) - 1] : null, c ? '$' + n2.format(c.usd_per_bbl) + '/bbl' : null],
-        [w ? 'U.S. imports, week to ' + MES[+w.week_ending.slice(5, 7) - 1] + ' ' + (+w.week_ending.slice(8, 10)) : null, w ? n0.format(w.kbd) + 'k b/d' : null],
+        [m ? 'Merey 16, ' + MES[+m.month.slice(5, 7) - 1] + tr(' avg (OPEC)') : null, m ? '$' + n2.format(m.merey) : null],
+        [m ? tr('Discount to Brent') : null, m ? '−$' + n2.format(m.brent - m.merey) : null],
+        [c ? tr('U.S. customs value, ') + MES[+c.month.slice(5, 7) - 1] : null, c ? '$' + n2.format(c.usd_per_bbl) + '/bbl' : null],
+        [w ? tr('U.S. imports, week to ') + (LANG === 'es' ? (+w.week_ending.slice(8, 10)) + ' ' + MES[+w.week_ending.slice(5, 7) - 1] : MES[+w.week_ending.slice(5, 7) - 1] + ' ' + (+w.week_ending.slice(8, 10))) : null, w ? n0.format(w.kbd) + (LANG === 'es' ? ' mil b/d' : 'k b/d') : null],
       ]));
     }
     const news = ((LIVE.news && LIVE.news.items) || []).filter((n) => T.words.test(n.title) && /^https:\/\//.test(String(n.url))).slice(0, 2);
     if (news.length) {
-      box.append(el('div', 'lbl', 'Latest news'));
+      box.append(el('div', 'lbl', tr('Latest news')));
       const ul = el('ul'); news.forEach((n) => { const li = el('li'); const a = el('a', null, n.title); a.href = n.url; a.target = '_blank'; a.rel = 'noopener'; li.append(a, document.createTextNode(' · ' + MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10)))); ul.append(li); });
       box.append(ul);
     }
-    box.append(el('p', 'foot', 'Free AIS misses ships near Venezuela; an empty list does not mean no loadings.'));
+    box.append(el('p', 'foot', tr('Free AIS misses ships near Venezuela; an empty list does not mean no loadings.')));
     return box;
   }
   TERMINALS.forEach((T) => {
@@ -376,7 +409,7 @@
     const ti = L.divIcon({ className: 'mk-ico', iconSize: [z, z], iconAnchor: [z / 2, z / 2],
       html: '<svg width="' + z + '" height="' + z + '" viewBox="0 0 24 24"><rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="#0F1B2D" stroke="#E2A548" stroke-width="2.5"/><path d="M12 5 C12 5 7 11 7 14 a5 5 0 0 0 10 0 C17 11 12 5 12 5 Z" fill="#E2A548"/></svg>' });
     L.marker(T.ll, { icon: ti, zIndexOffset: 1000, title: T.name }).addTo(map)
-      .bindTooltip(T.name + ' · click for live data').bindPopup(() => terminalPopup(T), { maxWidth: 300 });
+      .bindTooltip(() => ((LANG === 'es' && T.name_es) || T.name) + tr(' · click for live data')).bindPopup(() => terminalPopup(T), { maxWidth: 300 });
   });
   const PORTS = { 'New Orleans': [29.94, -90.06, 'Mississippi River / New Orleans'], 'Port Arthur': [29.87, -93.93, 'Port Arthur / Beaumont / Sabine'],
     'Pascagoula': [30.35, -88.55, 'Pascagoula'], 'Lake Charles': [30.22, -93.22, 'Lake Charles'], 'Corpus Christi': [27.81, -97.40, 'Corpus Christi'],
@@ -401,13 +434,13 @@
       const pi = L.divIcon({ className: 'mk-ico', iconSize: [z, z], iconAnchor: [z / 2, z / 2],
         html: '<svg width="' + z + '" height="' + z + '" viewBox="0 0 24 24"><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="#3B5B8C" stroke="#fff" stroke-width="2.5"/></svg>' });
       const mk = L.marker([la, lo], { icon: pi, zIndexOffset: -200, opacity: .85, title: r.port_name });
-      mk.bindTooltip(r.port_name + ' · ' + n2.format(r.est_bbl / 1e6) + 'M bbl · click for details');
+      mk.bindTooltip(() => r.port_name + ' · ' + n2.format(r.est_bbl / 1e6) + 'M bbl' + tr(' · click for details'));
       mk.bindPopup(() => {
-        const box = el('div', 'pop'); box.append(el('h4', null, r.port_name), el('p', 'sub', 'U.S. port of entry for Venezuelan crude'));
+        const box = el('div', 'pop'); box.append(el('h4', null, r.port_name), el('p', 'sub', tr('U.S. port of entry for Venezuelan crude')));
         const hist = C.rows.filter((x) => x.port_name === r.port_name).slice(-3);
-        box.append(el('div', 'lbl', 'U.S. customs, ' + MES[+lm.slice(5, 7) - 1] + ' ' + lm.slice(0, 4)));
-        box.append(kv([['Venezuelan crude', n2.format(r.est_bbl / 1e6) + 'M bbl'], ['Declared value', '$' + n0.format(r.value_usd / 1e6) + 'M'], ['Per barrel', r.usd_per_bbl ? '$' + n2.format(r.usd_per_bbl) : '—']]));
-        if (hist.length > 1) { box.append(el('div', 'lbl', 'Recent months')); box.append(kv(hist.map((x) => [x.month, n2.format((x.est_bbl || 0) / 1e6) + 'M bbl']))); }
+        box.append(el('div', 'lbl', tr('U.S. customs, ') + MES[+lm.slice(5, 7) - 1] + ' ' + lm.slice(0, 4)));
+        box.append(kv([[tr('Venezuelan crude'), n2.format(r.est_bbl / 1e6) + 'M bbl'], [tr('Declared value'), '$' + n0.format(r.value_usd / 1e6) + 'M'], [tr('Per barrel'), r.usd_per_bbl ? '$' + n2.format(r.usd_per_bbl) : '—']]));
+        if (hist.length > 1) { box.append(el('div', 'lbl', tr('Recent months'))); box.append(kv(hist.map((x) => [x.month, n2.format((x.est_bbl || 0) / 1e6) + 'M bbl']))); }
         const lt = LIVE.latest; const here = lt ? (lt.tankers || []).filter((t) => t.zone === zone) : [];
         const ve = here.filter((t) => t.venezuela_link);
         const RF = LIVE.refinery && LIVE.refinery.rows; const reMap = PORT_REFS[zone];
@@ -415,14 +448,14 @@
           const lr = RF.reduce((a, x) => (x.period > a ? x.period : a), '');
           const refs = RF.filter((x) => x.period === lr && reMap.test(x.refinery)).sort((a, b) => b.kbbl - a.kbbl);
           if (refs.length) {
-            box.append(el('div', 'lbl', 'Refineries receiving it · EIA, ' + MES[+lr.slice(5, 7) - 1] + ' ' + lr.slice(0, 4)));
+            box.append(el('div', 'lbl', tr('Refineries receiving it · EIA, ') + MES[+lr.slice(5, 7) - 1] + ' ' + lr.slice(0, 4)));
             box.append(kv(refs.slice(0, 4).map((x) => [x.refinery.split(' / ').slice(0, 1)[0].toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()), n2.format(x.kbbl / 1000) + 'M bbl'])));
           }
         }
-        box.append(el('div', 'lbl', 'Live now'));
-        const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + ' tankers in the area on AIS' + (ve.length ? ', ' + ve.length + ' linked to Venezuela' : ''))); box.append(now);
-        if (ve.length) { const ul = el('ul'); ve.slice(0, 5).forEach((t) => ul.append(el('li', null, (t.name || t.mmsi) + ' · ' + (t.status || '')))); box.append(ul); }
-        box.append(el('p', 'foot', 'Customs data is published about five weeks after month end. Source: U.S. Census Bureau.'));
+        box.append(el('div', 'lbl', tr('Live now')));
+        const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + tr(' tankers in the area on AIS') + (ve.length ? ', ' + ve.length + tr(' linked to Venezuela') : ''))); box.append(now);
+        if (ve.length) { const ul = el('ul'); ve.slice(0, 5).forEach((t) => ul.append(el('li', null, (t.name || t.mmsi) + ' · ' + tr(t.status || '')))); box.append(ul); }
+        box.append(el('p', 'foot', tr('Customs data is published about five weeks after month end. Source: U.S. Census Bureau.')));
         return box;
       }, { maxWidth: 300 });
       mk.addTo(portLayer);
@@ -440,15 +473,15 @@
       const m = L.marker([t.lat, t.lon], { icon, zIndexOffset: ve ? 500 : 0, keyboard: false });
       const box = document.createElement('div');
       const b = document.createElement('b'); b.textContent = t.name || ('MMSI ' + t.mmsi); box.append(b, document.createElement('br'));
-      box.append(document.createTextNode((t.zone || '') + ' · ' + (t.status || '')), document.createElement('br'));
-      box.append(document.createTextNode('Destination: ' + (t.destination || '–')));
-      if (ve) { box.append(document.createElement('br')); const s = document.createElement('b'); s.style.color = '#C8892B'; s.textContent = t.watch ? 'Reported Venezuelan cargo (news, unconfirmed)' : 'Linked to Venezuela'; box.append(s); }
+      box.append(document.createTextNode((t.zone || '') + ' · ' + tr(t.status || '')), document.createElement('br'));
+      box.append(document.createTextNode(tr('Destination: ') + (t.destination || '–')));
+      if (ve) { box.append(document.createElement('br')); const s = document.createElement('b'); s.style.color = '#C8892B'; s.textContent = tr(t.watch ? 'Reported Venezuelan cargo (news, unconfirmed)' : 'Linked to Venezuela'); box.append(s); }
       m.bindPopup(box); m.addTo(layer);
     });
   }
 
   // ---------- load data ----------
-  const ago = (iso) => { const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + ' min ago' : Math.round(m / 60) + ' h ago'; };
+  const ago = (iso) => { const m = Math.round((Date.now() - new Date(iso)) / 60000); return (LANG === 'es' ? 'hace ' : '') + (m < 60 ? m + tr(' min ago') : Math.round(m / 60) + tr(' h ago')); };
   async function load() {
     const [monthly, weekly, merey, latest, news, census, passports, refinery] = await Promise.all([
       get(D + 'eia_imports_monthly.json'), get(D + 'eia_imports_weekly.json'), get('data/merey_brent_monthly.json'), get(D + 'latest.json'), get(D + 'news.json'), get(D + 'census_ports.json'), get(D + 'passports.json'), get(D + 'eia_imports_refinery.json')]);
@@ -459,8 +492,8 @@
       const dim = new Date(Date.UTC(+lm.month.slice(0, 4), +lm.month.slice(5, 7), 0)).getUTCDate();
       const mname = MES[+lm.month.slice(5, 7) - 1] + ' ' + lm.month.slice(0, 4);
       const ph = $('phead'); ph.replaceChildren();
-      [[n1.format(lm.est_bbl / 1e6) + 'M bbl', mname + ' · customs'], [n0.format(lm.est_bbl / dim / 1000) + 'k b/d', 'daily average'],
-       ['$' + n2.format(lm.usd_per_bbl), 'declared value per barrel'], [String(lm.ports), 'ports of entry']].forEach(([b, t]) => {
+      [[n1.format(lm.est_bbl / 1e6) + 'M bbl', mname + tr(' · customs')], [n0.format(lm.est_bbl / dim / 1000) + (LANG === 'es' ? ' mil b/d' : 'k b/d'), tr('daily average')],
+       ['$' + n2.format(lm.usd_per_bbl), tr('declared value per barrel')], [String(lm.ports), tr('ports of entry')]].forEach(([b, t]) => {
         const d = document.createElement('div'); const bb = document.createElement('b'); bb.textContent = b; const sp = document.createElement('span'); sp.textContent = t; d.append(bb, sp); ph.append(d); });
       const rows = census.rows.filter((r) => r.month === lm.month && r.est_bbl).sort((a, b) => b.est_bbl - a.est_bbl);
       const max = rows.length ? rows[0].est_bbl : 1; const box = $('ports'); box.replaceChildren();
@@ -478,32 +511,40 @@
       top.forEach((n) => {
         if (!/^https:\/\//.test(String(n.url))) return;
         const a = document.createElement('a'); a.href = n.url; a.target = '_blank'; a.rel = 'noopener';
-        const t = document.createElement('time'); t.textContent = MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10));
+        const t = document.createElement('time'); t.textContent = LANG === 'es' ? (+n.date.slice(8, 10)) + ' ' + MES[+n.date.slice(5, 7) - 1] : MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10));
         if (n.key_figure) { const f = document.createElement('span'); f.className = 'fig'; f.textContent = n.key_figure; t.append(f); }
-        const sp = document.createElement('span'); sp.textContent = n.title + ' '; const sm = document.createElement('small'); sm.textContent = '· ' + (n.source || ''); sp.append(sm);
-        if (n.angle) { const w = document.createElement('span'); w.className = 'api'; w.textContent = '→ ' + n.angle; sp.append(w); }
+        if (n.featured) a.className = 'feat';
+        const sp = document.createElement('span'); sp.textContent = n.title + ' ';
+        if (n.featured) { const bd = document.createElement('span'); bd.className = 'badge'; bd.textContent = tr('Featured'); sp.prepend(bd); } const sm = document.createElement('small'); sm.textContent = '· ' + (n.source || ''); sp.append(sm);
+        if (n.angle) { const w = document.createElement('span'); w.className = 'api'; w.textContent = '→ ' + tr(n.angle); sp.append(w); }
         a.append(t, sp); tk.append(a);
       });
     }
     computeCounter(monthly, weekly, merey, census);
     $('ctr-rate').textContent = n1.format(rate);
     const lw = weekly && weekly.rows && weekly.rows[weekly.rows.length - 1];
-    if (lw) { $('c-wk').textContent = n0.format(lw.kbd); $('c-wk-l').textContent = 'thousand b/d, week to ' + MES[+lw.week_ending.slice(5, 7) - 1] + ' ' + (+lw.week_ending.slice(8, 10)) + ' · EIA'; }
+    if (lw) { $('c-wk').textContent = n0.format(lw.kbd); $('c-wk-l').textContent = tr('thousand b/d, week to ') + (LANG === 'es' ? (+lw.week_ending.slice(8, 10)) + ' ' + MES[+lw.week_ending.slice(5, 7) - 1] : MES[+lw.week_ending.slice(5, 7) - 1] + ' ' + (+lw.week_ending.slice(8, 10))) + ' · EIA'; }
     if (merey && merey.length) {
       const m = merey[merey.length - 1];
-      $('c-merey').textContent = '$' + n2.format(m.merey); $('c-merey-l').textContent = 'Merey 16, ' + MES[+m.month.slice(5, 7) - 1] + ' avg · OPEC';
+      $('c-merey').textContent = '$' + n2.format(m.merey); $('c-merey-l').textContent = 'Merey 16, ' + MES[+m.month.slice(5, 7) - 1] + tr(' avg · OPEC');
       $('c-disc').textContent = '−$' + n2.format(m.brent - m.merey);
     }
     if (latest) {
       const all = latest.tankers || [], ve = all.filter((t) => t.venezuela_link).length;
       $('c-tank').textContent = all.length + (ve ? ' · ' + ve + ' VE' : '');
-      $('c-tank-l').textContent = 'tankers in last AIS scan · ' + ago(latest.run_at);
-      $('scan').textContent = 'Last scan ' + ago(latest.run_at);
+      $('c-tank-l').textContent = tr('tankers in last AIS scan · ') + ago(latest.run_at);
+      $('scan').textContent = (LANG === 'es' ? 'Último escaneo: ' : 'Last scan ') + ago(latest.run_at);
       drawShips(latest);
     }
     tick();
   }
 
+  applyStatic();
+  $('lang-btn').addEventListener('click', () => {
+    LANG = LANG === 'es' ? 'en' : 'es';
+    try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
+    setFmt(); applyStatic(); map.closePopup(); load();
+  });
   load();
   setInterval(tick, reduce ? 1000 : 150);
   setInterval(load, 5 * 60 * 1000);
