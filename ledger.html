@@ -87,7 +87,7 @@
   .pp-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
   .pp-top b { font: 700 17px var(--body); }
   .pp-top span { font: 500 12px var(--mono); color: var(--muted); }
-  .stages { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; margin-top: 12px; }
+  .stages { display: grid; grid-template-columns: repeat(auto-fit, minmax(108px, 1fr)); gap: 6px; margin-top: 12px; }
   .stg { border-top: 4px solid var(--line); padding-top: 6px; font-size: 12px; color: var(--muted); min-width: 0; overflow-wrap: anywhere; }
   .stg.done { border-color: var(--ok); color: var(--fg); }
   .stg.part { border-color: var(--part); color: var(--fg); }
@@ -185,8 +185,15 @@
     const ZONE_PORTS = { 'Corpus Christi': ['Corpus Christi'], 'Houston / Galveston / Texas City': ['Houston', 'Galveston', 'Texas City'],
       'Freeport': ['Freeport'], 'Port Arthur / Beaumont / Sabine': ['Port Arthur', 'Beaumont', 'Sabine'], 'Lake Charles': ['Lake Charles'],
       'Mississippi River / New Orleans': ['New Orleans', 'Baton Rouge', 'Gramercy', 'Morgan City'], 'Pascagoula': ['Pascagoula'] };
+    const ZONE_REFS = { 'Corpus Christi': /CORPUS CHRISTI|THREE RIVERS|INGLESIDE/, 'Houston / Galveston / Texas City': /HOUSTON|PASADENA|DEER PARK|BAYTOWN|TEXAS CITY|GALVESTON/,
+      'Freeport': /SWEENY|FREEPORT|OLD OCEAN/, 'Port Arthur / Beaumont / Sabine': /PORT ARTHUR|BEAUMONT|NEDERLAND/, 'Lake Charles': /LAKE CHARLES|WESTLAKE|SULPHUR/,
+      'Mississippi River / New Orleans': /SAINT CHARLES|ST CHARLES|NORCO|CONVENT|GARYVILLE|MERAUX|CHALMETTE|BELLE CHASSE|BATON ROUGE|SAINT JAMES|ST JAMES|ALLIANCE/,
+      'Pascagoula': /PASCAGOULA/ };
+    const short = (r) => r.split(' / ').slice(0, 2).map((x) => x.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase())).join(', ');
     Promise.all([fetch('tracker/data/passports.json', { cache: 'no-store' }).then((r) => r.json()),
-      fetch('tracker/data/census_ports.json', { cache: 'no-store' }).then((r) => r.json()).catch(() => null)]).then(([P, C]) => {
+      fetch('tracker/data/census_ports.json', { cache: 'no-store' }).then((r) => r.json()).catch(() => null),
+      fetch('tracker/data/eia_imports_refinery.json', { cache: 'no-store' }).then((r) => r.json()).catch(() => null)]).then(([P, C, R]) => {
+      const rmonths = new Set(((R && R.rows) || []).map((r) => r.period));
       const ps = (P.passports || []);
       const cmonths = new Set(((C && C.monthly) || []).map((m) => m.month));
       ps.forEach((p) => {
@@ -204,7 +211,20 @@
               : 'no Venezuelan crude recorded at ' + names.join('/') + ' in ' + ym;
           }
         }
-        p.stages.push(st); p.stages_total = p.stages.length; p.stages_done = p.stages.filter((s) => s.done).length;
+        p.stages.push(st);
+        const rs = { stage: 'Refinery receipt (EIA-814)', done: false, detail: 'after arrival' };
+        if (arr && arr.done && arr.time) {
+          const ym = arr.time.slice(0, 7); const re = ZONE_REFS[arr.detail];
+          if (!rmonths.has(ym)) rs.detail = 'pending: EIA publishes ' + ym + ' refinery data about two months after month end';
+          else if (!re) rs.detail = 'no refinery area mapped for ' + arr.detail;
+          else {
+            const rows = R.rows.filter((r) => r.period === ym && re.test(r.refinery)).sort((a, b) => b.kbbl - a.kbbl);
+            rs.done = rows.length > 0; rs.partial = !rows.length;
+            rs.detail = rows.length ? rows.slice(0, 3).map((r) => short(r.refinery) + ' ' + nf.format(r.kbbl * 1000) + ' bbl').join('; ') + ' (Venezuelan crude, ' + ym + ')'
+              : 'no refinery in this area reported Venezuelan crude in ' + ym;
+          }
+        }
+        p.stages.push(rs); p.stages_total = p.stages.length; p.stages_done = p.stages.filter((s) => s.done).length;
       });
       if (!ps.length) { grid.append($('p', 'note', 'No Venezuela-linked tanker in the current window.')); return; }
       ps.slice(0, 30).forEach((p) => {
