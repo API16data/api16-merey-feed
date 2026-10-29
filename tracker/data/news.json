@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "ed4dd35da535",
+   "date": "2026-10-29T12:27Z",
+   "title": "Esta es la proyección de producción de Pdvsa para los próximos siete años",
+   "source": "La iguana TV",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sZDlodnlqR2E3RUdvdXJPMjJGOHJJN0dsVzFUZVJCUVdlZ2R5LXI2UWcxYWhKbFE3c0M4T0FMQzVrM0NBTDBxSGJ1WDdmbGxVTjd2UlBySHIxTk5RUjh5QXRGeE93TnB0OEpNXzBYaEhvWkdVTVhrZ2VB?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "a1332f9c2b9a",
+   "date": "2026-10-29T12:22Z",
+   "title": "Jim Cramer Says Chevron Beats Exxon. Earnings Will Put That to the Test",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVG9vRDg0X3JGOVNWcUNfVlNwdVJycmItUGk2M1Rwb1dGenJlcDB2NVlVbWxwQS1KVHdfcVplZWhiUENxYkstQWtVMjVQSHotQnhTcVk1ek52R0syOURYeENFblFyQ1pQUmtJMUMxenpSX0JkZW81ZTlJNmViTTdPVElHalNmZDhzaEFMX1JUaUNITFRrNkE2cUhxYnFVQjNSejBKT1RjQjJqeTZUTW12NXZxTWw?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "834878841905",
+   "date": "2026-10-29T12:11Z",
+   "title": "Congressman Stutzman Discusses Venezuelan Oil Deal, Refining Capacity and Potential Impact on Gas Prices",
+   "source": "WOWO",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNHMwT0d4ZTZPdEdPTEc3Nm5pWUVGaTRxQmI3ZlN0WFFXc0RjaEFzQ21lYVQ3VVBuSHlVb1I4ZFVDRTExdEhkS0lGSzBlaWdRenI0TFNZY051aHdVcXNVWmNoalNqWVZWNWtfR1ZaVXZ0X05rdTg0cy1aUW1WamY3elliT1ZicWZlSnZsX0lsUTlCV2pDQ00wcWZ5ckdhSkIzeGZuZGw0R3JtcFJiMjFhWjBiSU9WaFZYNGNEYXpseng?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "ab5da48a22c2",
+   "date": "2026-10-29T12:06Z",
+   "title": "Russia's shadow fleet: Can the EU act even if the US eases sanctions on these ships?",
+   "source": "DW.com",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkpSeGgzNjlRbXJsbi02S2R1dTNrSGM5T3RPUVFMV2xKWXB3Uzc3ZUNpWTZkLUI3NlktMVVLOEVsTXBuZHczTlhtajBfUHZqbmozNGQzRTQ0TkdrajhWd1ZNbnZSOGJCRmg4YWZQeUhHb2liZlN3M0JjOTNfc0RwendocGM3VEtFTGVtY2Z1SUJFYzJDN3fSAZYBQVVfeXFMUHdsWk0tM0VqSzlDTXFaQ3BJWGpnWk5mUjZBRW5ocm1UV0lwckVkV3pxQUstZFNqbXJ2dVEwX0txN25WZW0yV0N0TXlDZHd1RkZhU1ZRNzRuMUNuS2IwaFlKUTBXRnRtbzJBZ3Q3bGFSMjZ6RG9UV2FReGRVbWxYNnNmSF85cG9uQVY1NHRzRzNlNFg5bHBB?oc=5",
+   "category": "Sanctions",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "006ba542e5eb",
+   "date": "2026-10-29T12:04Z",
+   "title": "La extraña matemática de Trump para decir que Venezuela le \"regaló\" petróleo a Estados Unidos",
+   "source": "CNN en Español",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYV9zWjJ6UzVaUk9pZUNUZmRTQ1I3YUVfaENpRndkVndzRU1HdEY2TGhpS0xUUzBjTGlUblBiZWV1a244Vl9rNWFKaHVmZ3ZEVmg4V2RhS1ZiWk5ZZWJMX1FTWUk1SVhZeEZEUGpYRHI4ZVljdVY2VUNlYUN6SUFtQkMwT0k4bndJN1owUWJKYkQ1Y2s?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "93d9211ba9ec",
    "date": "2026-10-29T11:26Z",
    "title": "Eni inició operaciones en Junín 5 y prevé elevar la producción a 200.000 barriles diarios en 2028",
@@ -46,6 +96,16 @@
    "title": "Inside India's Energy Dilemma: Why Russian And Venezuelan Oil Are Testing India's Refining Power",
    "source": "The Daily Jagran",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYVkxQjlpc043cGk4THFSTjBWbC12OHFRMG1ZR1U5T2szUDJuMGlQT0xkeTkzb0xMUVhmYUptYnNTMXE0WXYta2dkYmhlQmUyMmxkT2FoNnpkVmJfdExhRlNZTGRaVzNTdVkxbkI5LXpDalk1bXlKOGNCWGRQSUd3WmluT01TOW9JZ2I0M3d6VWhrdmJvOHFrOUR3QlY4bUYzUUtvRVJXT3RCVlBIUWVFMVppVXEwZDNPNlh2Ql9DVlRhckNWNnZidTZ1RWoxX2ZiUGNuTlY0THpicXIxWWM5TNIB5wFBVV95cUxNTkRwakYybmd2UGhxOEFxcGI5YjJLTFNZLVdLMmF5UFJDY1RmSHhNX1puOTdNMDVXM0FGbHZTbU1pOFdBMVNRaWM2NU5GSUF1Zjk2YVBfQ2ViQTlKWFBwVUI2b1N5UkZTdHZibmRNU01mai1TUm5rREdyOU9jSE01clg4Y1N3QnQyRlhyWGtXVGdYTkIxMTBqeWhabjhBSTA3cDl1QjNaMHAxMVFNdHF0aXJhd2VFTHVQSUk4ZjRmRWJoT3J5QVltZnREc0sxWk12YlJHQTRINTlZeS1Wa1JLWDNjM1hxNE0?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "994725572f73",
+   "date": "2026-10-29T09:44Z",
+   "title": "India's Oil Security: Russian Exit & Venezuelan Crude Limits",
+   "source": "Rediff MoneyWiz",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQVhWUmVkdzBrN3BqS1hPVzNqbUd4QWtsZ2RNYkUyUVl5RjBxQkJxMmkySXp5dXVyQmlndU83NUsyY2E3cm1OUU9BZzNYbmgyLV9XX2pMcXlxMG5VUHV6Mzh3Y1NjaGhrRG9vUW9MTEJaUzZVcXppTlRpR05menlaSElCZXNXZjdkb2ZXdDZIamg0enlKNkxtTDVjY0kwbDg1V2FoYTFzQmctMF8teFHSAbMBQVVfeXFMTV9sZ3NsaWtNc0FHNFkxZnAtNVBCM1NCdDdyUlBsRDBDSldJOEZOakYtdkVkVnJTMzV5WEdIV28wdFVMRHlQY19yV2NGLXJFTjBjOVpfdWh0a1NHSGhGQXBkellaelZkbGx2UFdxeEVKaTdsQjJoWlNCUnNELTB4UlI3SnZZcWZVaERIV19Na0hlcnNuNkdHQmpYeVRSRGd2RUR2TFlFc0pZUGNab0hFaC1yOUE?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
    "origin": "rss"
@@ -368,6 +428,16 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tanl1YkJ5Y0Rlc29fTnpxWF94STAyLWlSQUZQcHhTZWFBMTFVbHpNTmhPU3FoWmxYODB1U1k0dTN2WkZORzJKTnhCQmJPVnlJVE1XcDNVYzRqcmttNVdMX3NVYm1yQU05UE9mblVSMVRrMzA?oc=5",
    "category": "Production",
    "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "5921a8ae50aa",
+   "date": "2026-10-28T20:12Z",
+   "title": "BP detects hydrocarbon shows at Brazil pre-salt well",
+   "source": "Upstream Online",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMlQ5VnV3ZHBJM0NIbTQtbkdOdXN1QWxucExYZmxYSXJrTjg5SDlKX3hjSGxPNTNCSENLajI0YUY1N2NSUGhabVVEYjZ4YlJabFpmZHRJOGpzMzNOcW81cUgyZGd5TEFMc2RLNUEyMFN2TlVtV0pJaTBuTDlMdnFpb25qTmRNcERKSXlQdlU5cWVtcXNOVzdIMGtvYnZzUXVuZUVMRzY1TGpUVlk?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -7544,6 +7614,16 @@
    "origin": "rss"
   },
   {
+   "id": "0ddc862e2d81",
+   "date": "2026-10-22T21:15Z",
+   "title": "Valero’s profit surges over 500%, sets records for Venezuelan oil and ethanol",
+   "source": "San Antonio Express-News",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjgtbWNqLW9ZZkE2aXJQd0hiTlhhRnF3QzJlMXZ1U0VtZjBleUtac2MtTU1UWkxkUjEtSWoxdllCZG5wMlRYZ3BncUFnRHV5VldTVHM4bWRTeklXTVh0Q2h1RnQ5azU2Umhza05UWGxiX2Y3T0FER2ZuVUEyMGp2OTdtcXM0eHh6WUpvY0RqZlRWNzF5cmlaclJyWFB4NlA4RDJVU1VWUEZlZw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "40f83f4bb8e5",
    "date": "2026-10-22T21:08Z",
    "title": "Venezuela: reservas de petróleo serían hasta 80% menores",
@@ -7641,6 +7721,16 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFFyZGN3ejhoLUR3dnVDektLN1JLc1ZOY3BfR3hyejNGTVNwZFMxWHJKOTBzbHdySXF0REtYRXBSbGNsOF9IQ3VUaDRCWG1lc1cyVTcycXhaRFhudHJuRl95VDAtbldzeUI1Um9EVjdKN3RjY1VDTnJDdXIyeHJpVHQ5MVFXeW5XREtTcVhjdTlxN094VWhQUHVPVTFCT2hSc1RMRlZ4ejRVS21MLVprTGF5R1o3QQ?oc=5",
    "category": "General",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "13d9449129e1",
+   "date": "2026-10-22T17:20Z",
+   "title": "¿Tiene Venezuela el petróleo que dice tener? Expertos dudan de sus reservas",
+   "source": "The Mirror US en Español",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWp3a0tMUFpJYnlnT1RMOXdGb01DZXJSWGNOemRzOG1MN1VGQTQtejZlWDdPWGVoMTFWSUVKd3h5clhwbmpBVEIzTmE3eFM5VllTMEZJd1NWTkJMV09pbGItMGphSnhnV2xwN3RMTGFoNXQ1MjVaci1JNUdhbTF6ZmR2aHlKOGlka1hEcjBZQ0I?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7771,96 +7861,6 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNUtVVEMzTXdDR0ZVb1pwQUtpQ0Z4OTBGRUFxblFoWm1qTHBObng1LS1LSk1fWlp5MVkwT1JFeVZCMEotTlZ4Z2JHSW01RDAtWVdwOUpSSnN1UVhFOWcwRXdkbkhwdUlVS3ZIbmlUYjlsbkRoaUVmOXFCWWpMWlY4ekJBbjA0SllVUnJUZXVWTmJJcjZET1RvZl9HclpHTGpQajBiOHI0cjRyY2Y0clhCUldqcVE2dWhsUVkxUUI4NjB1QU93QjhlR3BFaFNhV2RC0gHYAUFVX3lxTE5LS29oRC1wSkV3Z1NKUFhZYUVvTjVlM0V2NHpwQVo2MGo2U1gwQ2lUREgxN1FMb1I4andudENHYzZ5cjRRcGNXMWZkaTNUcy11ak1URlVNYU5MZWE2V0hpQzM3b2lUZHZrV3dFSTFNOENGUTd3TW1za0hmSnVQOUNtTUNDRUNDV2ZUemNVWDBHTlB5dzdKSlB6VWduRHRNellEcGxDbktENi1YRUJZNU8zNTREYW1HNUNMb2xzZEJ4dk80SFRuWFVBdFFqTFRTb1VIYTBJbjlEXw?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "428612d34357",
-   "date": "2026-10-22T15:48Z",
-   "title": "PetrÃ³leo venezolano se cotizÃ³ a $93,75 por barril",
-   "source": "Aporrea",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rbkxYems3WDhlTkdOWldMR20xSlEzMHV5bmFsZWNWcjBmYTBrRWRuaVNtWEZjRElveTQxNzBIVkt0YjI1c1FLYlJraks3Z2pCd2I1UnV30gFcQVVfeXFMTjdweHlEWWlsSWkyS2dtS2hsTTZzTTRxcFc2bjZnRnBqNzV0SUhUbFF4a09lWFhXVl9ST2pYZlhNb1VSWHJCZlRIQWphV1d1ZXJYMktmSjdPTk14ZHk?oc=5",
-   "category": "General",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
-   "id": "2bbca818e654",
-   "date": "2026-10-22T15:47Z",
-   "title": "Exportaciones de petróleo venezolano a EEUU subieron 25% la semana pasada",
-   "source": "Contrapunto.com",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPakpRekxxcnBvWUdIMEVVOUJNbjJ1Nl9tSGFpYnJqdUVPNjM3YzNMVHh5WS1mTXpVLVdkSXZSM3F2TnVxMkhseVlCVGlZdFQwRXRhaVRhVVRFZjBhVzk4VlBLZDVRS0RkNTdBR1BJLUdZWE9SVGVKMHNZRzdjdmd4dVBUNXNUbHdjdGFZeG5YaEg3cUxLLWdWSEtSeHF5LXEtWHdzd2xxaXZGa0N6VnpYNzZ6TnBYUQ?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "245f76d0f801",
-   "date": "2026-10-22T14:42Z",
-   "title": "Exportaciones de petróleo venezolano a EE.UU. suben 25% y alcanzan los 571.000 barriles diarios",
-   "source": "Noticias24hrs.com.ve",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkVMVFY3cDMwaUlfdzd1QTQtQmZzTkM5NFpMSVIyUmpsdk1jREhYWG1YQUlDV2xWSU1zdWZMTlZOaEI2WWlTUmwyMFh3NFFiWm1DSFViYkZfcC10bWhKeWlqeTBXNlh5U0dKdnB0bXZGenByTWI3ZElkcEZEbW9jZjZfSnB5QzVqR2FFMWk0bmR2NmZiVDlsSDdwdTJ4dFFpbHMySVlkX0w0cGZRWi1aVkczWGNrWUZCVEdqVWtxdjdqaWVCMUE?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "7142eb407da4",
-   "date": "2026-10-22T14:20Z",
-   "title": "Venezuela afirma tener 300.000 millones de barriles de petróleo en el subsuelo. Pero los expertos señalan que esa cifra es exagerada.",
-   "source": "AP News",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdVo2aG5jZ1pzV3d2TlpsWE9EeG02THF4bDlzRWE5T0ozd21YU2NFTDdVVHhtcmszTC1OYlV2YlR6enBkb1dmcGdIUDdUZ3BPVFZ4emFYcEdNNDN0eEdJc1UtcE9oS0ZmVzVIZlowbEVNNk55cm54YlpnVUpvZ1FRS2NzaUF1MlV4RUd1YjZLSDhpSmd1bVdQUnQ4TEFzTnA3dThwYTY0dGVuclkxSFFxQ1ZlMGhKa0JEbTgteTdTYlZ1UFU4LXhvclRTSHdrVmVqOTFMYzBBVmxoV2RmOVFCRW9YQkJLdEFNOExTOUQ4Vk03eEo0ZmlxRy16cnVUZDlDSjN1bC1oMkdJeWo3My1fRFFpaWlHQkVq?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "9d2c16b311e6",
-   "date": "2026-10-22T14:18Z",
-   "title": "Marco Rubio concluye su visita a la India con una apuesta por el petróleo venezolano y la cooperación energética",
-   "source": "NTN24",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOF9BVjdaNXd1STJfNFZ4R2NXa2pURUIzai1kT2IwcXJwT3RabVpDSkdRSWdhaTNINWpkc2pibVJQTlRWZlZzV2I2SlgtbnVfNm1tNnlhMkt4YWtmZ2daNFVDM1VieXhPRW9Mc3R0RDM3U21yRmVYX01YLXozUmhYMXNDVDNmUXF0OFFMUXM3WEtsTGpZalFaTEo1akpJM1VqaFBVazhkUEhPLTJTQUMwb0U0VG9aUy10MENsd2drdm9Pb0VvSzhfTnZjRFpQUdIBzgFBVV95cUxNY0JWZFJqd3RtMmNtUEExMEV6cFhzcEY5eEItQ1JLUUtDM0l3eWZmeXE0NTRMN3BWaGxYS2ctNzRocTRhSVNjNFhvOGlQU0hLSjRjVGpMRTRKX1lad1R3WG13MXh3ZVJVX2VWZTBXd1RCR21mSkpua2hPNjQ2ZnNndTdiNlFtQ1RlaGgtLXprNzc4TWpPLWlRV2xuQ1N2Vzd5Tlh4b25OdHZYN0VwYjJxU09QVTIta1U2NG9uQVV0UTM2X3dNak1NS3FRLXhXUQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "1f76d064427b",
-   "date": "2026-10-22T14:05Z",
-   "title": "Ventas de petróleo venezolano a EE. UU. suben 25% y afianzan al país como segundo proveedor",
-   "source": "diarioeloriental.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbEc3UjNRWE1nV0xqUXdNcEotRUJfRVhvSFd6Vm1HSlc5ZjBlaG54aUg1eHBJU2p4TG1XZ1FLQmh6WW80YnNQVHhnLUJJQl9Tci1kSXNYX0w2eDZHMnYwcWVfaGFUSXk0QzhhVktrdWo4TkgyRGx4OWl5d09VY2huNnJLbTZVUldTR255Y1Z0QnFkSEZGWlF3bFNoYnVIZWI4dGQ3TlBFLWRjekdlcjJCQ3F3d090RXVMdlE?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "e92276e655d3",
-   "date": "2026-10-22T13:59Z",
-   "title": "La cotización del petróleo venezolano registró un repunte mensual del 22 % en septiembre",
-   "source": "Descifrado",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORldhZ0tBaElmbGpZX3JON1pUaXlZSXM3QlZ0ODlZemd0YkQ5M3VaSTVRMFNvY1NqeDVYalNERjhVMWdwT0hQVlBxU3I4LTJHd0FSblVRZWtGVnhkS0lRek0tcXpmZGtmQ2wtS09WcWpTd1MzSjU0aXpBMXZ1eVdKdnA5MUdEcXpVM3RvUXM0TURCc0lfa3pvNFJpX0hkakdhUXJKdE1PLXgzNHI1SHdwb21rWE1FUFdwVGZsV081RWxiN1nSAcMBQVVfeXFMTkZXYWdLQWhJZmxqWV9yTjdaVGl5WUlzN0JWdDg5WXpndGJEOTN1Wkk1UTBTb2NTang1WGpTREY4VTFncE9IUFZQcVNyOC0yR3dBUm5VUWVrRlZ4ZEtJUXpNLXF6ZmRrZkNsLUtPVnFqU3dTM0o1NGl6QTF2dXlXSnZwOTFHRHF6VTN0b1FzNE1EQnNJX2t6bzRSaV9IZGpHYVFySnRNTy14MzRyNUh3cG9ta1hNRVBXcFRmbFdPNUVsYjdZ?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "fbf1f7e521a1",
-   "date": "2026-10-22T13:47Z",
-   "title": "Rubio visita la refinería india de Jamnagar, capaz de refinar el crudo pesado venezolano",
-   "source": "El Tiempo - Informando al pueblo oriental",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ2NoYWc0ZzNJOXdHTFRBYUtvZUFfWW4xLVc1alRqOThGVnhGNUZaWEgtUlhfSVdqbXdiYlIwaHZTMjNyUFpsRkt1ZWFKNUdVOWhESnhTczF3azJmeG1TZjdBd1hxZUJreU1PNFVKLW83T0Vwc1ctMjdHTGdIV0ZSZ1FYaFV4bmR1YmluNmtkY2hzYU0xUjlUMi1oampoZ2lyWXJ1TDU0SFlTVGNpX085Vg?oc=5",
-   "category": "Refining",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
-   "id": "5aba450eecc3",
-   "date": "2026-10-22T13:34Z",
-   "title": "Petróleo venezolano repunta a $93,75 por barril y marca su mayor precio en más de una década",
-   "source": "Noticias24hrs.com.ve",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUmkyNU4yOWNxMlJ2OGNMeHQxck44SzRTZnNhLU9OUU1jYnZiOGdkR0VlMFhwaXV6bG5tWmVjc2FRRWFhVXpZZGhQd1ljQXlOQWFiQ013RVc5WjJaZDNuU2tyQlJISWtWenp0RXNVeTNGb3dWZUNLZmVOaVZDR1pBTjI4cGQ5WTZ3ZlM3TGIyV2sxRnpSbzJINFF4dkNzV0JzVTNaRm40SUVvTEl0Q2RoZ1dYaExMRlJ0cDZpVFdWaFprQQ?oc=5",
-   "category": "Pricing",
-   "via": "Google News ES: crudo Merey",
    "origin": "rss"
   },
   {
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T11:31:31Z",
+ "updated": "2026-10-29T12:34:55Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
