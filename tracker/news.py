@@ -158,6 +158,17 @@ def highlights(items, now, n=5):
             and (i.get("origin") == "curated" or not POLITICS.search(i["title"]))
             and not i.get("context")
             and str(i.get("url", "")).startswith("https://")]
+    # Featured stories chosen by hand (curated.json "featured": true) go first while they are current:
+    # until their "until" date, or for 14 days if no date is given. At most two.
+    today = now.strftime("%Y-%m-%d")
+    feat = [i for i in items if i.get("origin") == "curated" and i.get("featured")
+            and ((i.get("until") or "") >= today if i.get("until") else age_days(i) <= 14)]
+    feat = sorted(feat, key=lambda i: i["date"], reverse=True)[:2]
+    pinned = [{"date": i["date"], "title": i["title"], "source": i.get("source", ""), "url": i["url"], "category": i["category"],
+               "angle": i.get("angle") or ANGLE.get(i["category"], ""), "key_figure": i.get("key_figure"), "featured": True} for i in feat]
+    pinned_urls = {i["url"] for i in feat}
+    pool = [i for i in pool if i["url"] not in pinned_urls]
+    n = n - len(pinned)
     out = []
     for window in (2, 4, 10, 30):
         cands = sorted((i for i in pool if age_days(i) <= window), key=lambda i: (score(i), i["date"]), reverse=True)
@@ -178,14 +189,14 @@ def highlights(items, now, n=5):
                 continue
             fig = it.get("key_figure") or (FIGURE.search(it["title"]).group(0).strip() if FIGURE.search(it["title"]) else None)
             out.append({"date": it["date"], "title": it["title"], "source": it.get("source", ""), "url": it["url"],
-                        "category": it["category"], "angle": ANGLE[it["category"]], "key_figure": fig, "_ents": ents})
+                        "category": it["category"], "angle": it.get("angle") or ANGLE[it["category"]], "key_figure": fig, "_ents": ents})
             if len(out) == n:
                 break
         if len(out) == n:
             break
     for o in out:
         o.pop("_ents")
-    return out
+    return pinned + out
 
 
 def main():
