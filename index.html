@@ -80,6 +80,9 @@
   .pop .foot { color: #5A6577; font-size: 11px; margin-top: 8px; }
   #map { height: 360px; border-radius: 12px; border: 1px solid #2A3E5C; margin-top: 4px; }
   .maplegend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: #9FB1C9; }
+  .mk-ico { background: none; border: 0; }
+  .mk-ico svg { display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,.45)); }
+  .maplegend svg { vertical-align: middle; margin-right: 6px; }
   .maplegend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
   .how { font-size: 12px; color: #7F8FA6; }
   .how button { font: inherit; color: #C9D2DF; background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
@@ -170,7 +173,13 @@
       <a class="chip" href="monitor.html#tankers"><div class="v" id="c-tank">—</div><div class="l" id="c-tank-l">tankers on AIS right now</div></a>
     </div>
     <div id="map" role="img" aria-label="Map of tankers seen in the latest AIS scan, Venezuela to the US Gulf"></div>
-    <div class="maplegend"><span><i style="background:#E2A548"></i>Linked to Venezuela</span><span><i style="background:#6C8CC0"></i>Other tanker</span><span id="scan"></span></div>
+    <div class="maplegend">
+      <span><svg width="11" height="15" viewBox="0 0 14 20" aria-hidden="true"><path d="M7 1 L13 7 L13 19 L1 19 L1 7 Z" fill="#E2A548" stroke="#fff" stroke-width="1.5"/></svg>Tanker linked to Venezuela</span>
+      <span><svg width="9" height="12" viewBox="0 0 14 20" aria-hidden="true"><path d="M7 1 L13 7 L13 19 L1 19 L1 7 Z" fill="#6C8CC0" stroke="#22406B" stroke-width="1.5"/></svg>Other tanker</span>
+      <span><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="#0F1B2D" stroke="#E2A548" stroke-width="2.5"/><path d="M12 5 C12 5 7 11 7 14 a5 5 0 0 0 10 0 C17 11 12 5 12 5 Z" fill="#E2A548"/></svg>Venezuelan oil terminal</span>
+      <span><svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="#3B5B8C" stroke="#fff" stroke-width="2.5"/></svg>U.S. port of entry (customs)</span>
+      <span id="scan"></span>
+    </div>
     <div class="how"><button type="button" id="how-btn" aria-expanded="false" aria-controls="how-txt">How is this counted?</button>
       <p id="how-txt" hidden>Four layers, shown in the bar above. Confirmed: official EIA monthly imports from Venezuela for completed months, then U.S. customs (Census) records for months EIA has not published yet; customs gives weight, converted at 152.5 kg per barrel of Merey 16, and the declared value; it can run below EIA because of entry timing. Preliminary: EIA weekly estimates after that, which EIA revises later. Estimated: the latest 4-week EIA rate applied to the days since the last weekly report, replaced by official data as it is published. Counts barrels that reached the U.S., not cargoes still at sea. Dollar value uses the OPEC Merey monthly average, and the declared customs value where customs data is used. Tankers from free AIS, refreshed every hour.</p></div>
   </div>
@@ -363,7 +372,10 @@
     return box;
   }
   TERMINALS.forEach((T) => {
-    L.circleMarker(T.ll, { radius: T.main ? 8 : 6, color: '#fff', weight: 2, fillColor: '#E2A548', fillOpacity: 1 }).addTo(map)
+    const z = T.main ? 26 : 20;
+    const ti = L.divIcon({ className: 'mk-ico', iconSize: [z, z], iconAnchor: [z / 2, z / 2],
+      html: '<svg width="' + z + '" height="' + z + '" viewBox="0 0 24 24"><rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="#0F1B2D" stroke="#E2A548" stroke-width="2.5"/><path d="M12 5 C12 5 7 11 7 14 a5 5 0 0 0 10 0 C17 11 12 5 12 5 Z" fill="#E2A548"/></svg>' });
+    L.marker(T.ll, { icon: ti, zIndexOffset: 1000, title: T.name }).addTo(map)
       .bindTooltip(T.name + ' · click for live data').bindPopup(() => terminalPopup(T), { maxWidth: 300 });
   });
   const PORTS = { 'New Orleans': [29.94, -90.06, 'Mississippi River / New Orleans'], 'Port Arthur': [29.87, -93.93, 'Port Arthur / Beaumont / Sabine'],
@@ -381,7 +393,10 @@
     rows.forEach((r) => {
       const key = Object.keys(PORTS).find((k) => r.port_name.startsWith(k)); if (!key) return;
       const [la, lo, zone] = PORTS[key];
-      const mk = L.circleMarker([la, lo], { radius: 5 + 9 * Math.sqrt(r.est_bbl / max), color: '#fff', weight: 1.5, fillColor: '#3B5B8C', fillOpacity: .9 });
+      const z = Math.round(12 + 14 * Math.sqrt(r.est_bbl / max));
+      const pi = L.divIcon({ className: 'mk-ico', iconSize: [z, z], iconAnchor: [z / 2, z / 2],
+        html: '<svg width="' + z + '" height="' + z + '" viewBox="0 0 24 24"><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="#3B5B8C" stroke="#fff" stroke-width="2.5"/></svg>' });
+      const mk = L.marker([la, lo], { icon: pi, zIndexOffset: 800, title: r.port_name });
       mk.bindTooltip(r.port_name + ' · ' + n2.format(r.est_bbl / 1e6) + 'M bbl · click for details');
       mk.bindPopup(() => {
         const box = el('div', 'pop'); box.append(el('h4', null, r.port_name), el('p', 'sub', 'U.S. port of entry for Venezuelan crude'));
@@ -406,7 +421,10 @@
     (latest && latest.tankers || []).forEach((t) => {
       if (typeof t.lat !== 'number') return;
       const ve = !!t.venezuela_link;
-      const m = L.circleMarker([t.lat, t.lon], { radius: ve ? 8 : 5, color: ve ? '#fff' : '#22406B', weight: ve ? 2 : 1, fillColor: ve ? '#E2A548' : '#6C8CC0', fillOpacity: .95 });
+      const w = ve ? 14 : 10, h = ve ? 20 : 14;
+      const icon = L.divIcon({ className: 'mk-ico', iconSize: [w, h], iconAnchor: [w / 2, h / 2],
+        html: '<svg width="' + w + '" height="' + h + '" viewBox="0 0 14 20"><path d="M7 1 L13 7 L13 19 L1 19 L1 7 Z" fill="' + (ve ? '#E2A548' : '#6C8CC0') + '" stroke="' + (ve ? '#fff' : '#22406B') + '" stroke-width="1.5"/></svg>' });
+      const m = L.marker([t.lat, t.lon], { icon, zIndexOffset: ve ? 500 : 0, keyboard: false });
       const box = document.createElement('div');
       const b = document.createElement('b'); b.textContent = t.name || ('MMSI ' + t.mmsi); box.append(b, document.createElement('br'));
       box.append(document.createTextNode((t.zone || '') + ' · ' + (t.status || '')), document.createElement('br'));
