@@ -1,6 +1,19 @@
 {
- "how_to": "Add one block per story at the top of items: id (unique, e.g. c-n27), date (YYYY-MM-DDTHH:MMZ), title (in English, your own words), source, url, category (Production, Exports, Sanctions, Investment, Gas, Pricing, Refining, Debt, General). key_figure is optional. Add \"context\": true to keep a story in the feed but out of the home-page highlights. Saved changes appear on the site after the next news run (every 30 min).",
+ "how_to": "Add one block per story at the top of items: id (unique, e.g. c-n27), date (YYYY-MM-DDTHH:MMZ), title (in English, your own words), source, url, category (Production, Exports, Sanctions, Investment, Gas, Pricing, Refining, Debt, General). key_figure is optional. Add \"context\": true to keep a story in the feed but out of the home-page highlights. Add \"featured\": true (and optionally \"until\": \"YYYY-MM-DD\" and your own \"angle\") to pin a story at the top of the home page. Saved changes appear on the site after the next news run (every 30 min).",
  "items": [
+  {
+   "id": "c-n27",
+   "date": "2026-10-29T12:00Z",
+   "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
+   "source": "Energy Capital & Power / VEW",
+   "url": "https://energycapitalpower.com/venezuela-energy-week-moves-to-february-2027-as-global-investment-engagement-expands/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "key_figure": "Feb 22–25, 2027",
+   "featured": true,
+   "until": "2027-02-25",
+   "angle": "Where the contracts behind the next barrels get signed"
+  },
   {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
