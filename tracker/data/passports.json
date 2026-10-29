@@ -1,0 +1,203 @@
+{
+ "updated": "2026-10-29T04:37:17Z",
+ "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
+ "passports": [
+  {
+   "id": "AIS-538003828-2026-10-28",
+   "mmsi": 538003828,
+   "imo": 9449443,
+   "name": "PORTOLA",
+   "length_m": 120,
+   "status": "at origin",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": 300,
+   "destination_now": "SX PHI TO GD STG",
+   "destinations": [],
+   "last_seen": "2026-10-28T12:56:50Z",
+   "last_zone": "Venezuelan waters (other)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-28T08:00:17Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": "2026-10-28T12:56:50Z",
+     "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-210144000-2026-10-27",
+   "mmsi": 210144000,
+   "imo": 9923748,
+   "name": "STENA PROMISE",
+   "length_m": 186,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "destination_now": "NLRTM>TTCHA",
+   "destinations": [
+    {
+     "dest": "NLRTM>TTCHA",
+     "first": "2026-10-29T04:37:17Z"
+    }
+   ],
+   "last_seen": "2026-10-29T04:37:17Z",
+   "last_zone": "Trinidad & Tobago",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-27T12:50:55Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": "2026-10-27T12:50:55Z",
+     "detail": "draught 8.2 m vs ~9.7 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-636025070-2026-10-27",
+   "mmsi": 636025070,
+   "imo": null,
+   "name": "HL EDWARD AUSTIN",
+   "length_m": null,
+   "status": "at origin",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "destination_now": "",
+   "destinations": [],
+   "last_seen": "2026-10-27T12:50:55Z",
+   "last_zone": "Venezuelan waters (other)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-27T12:50:55Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": "2026-10-27T12:50:55Z",
+     "detail": "no draught reported yet"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-352001337-2026-10-27",
+   "mmsi": 352001337,
+   "imo": 9567764,
+   "name": "SAN MIGUEL",
+   "length_m": 122,
+   "status": "at origin",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "destination_now": "GY GEO",
+   "destinations": [],
+   "last_seen": "2026-10-27T09:47:00Z",
+   "last_zone": "Venezuelan waters (other)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-27T09:47:00Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": "2026-10-27T09:47:00Z",
+     "detail": "draught 4.8 m vs ~6.3 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  }
+ ]
+}
