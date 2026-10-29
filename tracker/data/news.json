@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "4e618b91d68c",
+   "date": "2026-10-29T20:54Z",
+   "title": "Trump's Venezuela Oil Deal Faces Political Risks",
+   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFZ0eURrcHk3MGxhazJNUmlTaTFFNjN1ZXk5aXhEcTkxTkVyNHl1di1lSjBCRldUaFl0dFRwdVVtM2FpX1BVR0U4M1Z5OTA3aGNyWUhQZGZfN0JtaWxMNncyVjBPQ3A2QmFnMk0tRklRc0J5eUFhYWFRUWs4VkZ6VEJ0MVRnQXQxVTVGVjRKX3BMdXBsOFE?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "539498e8637f",
    "date": "2026-10-29T20:43Z",
    "title": "Venezuelan Opposition Leader Thanks Trump but Marks Distance From Him",
@@ -38,6 +48,16 @@
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcnMwVjIwdmRkWVM2dzNmMzJxMXlPWVpGTVRfdVU4UXVOcXk0LW1HVTBkMTNqeTVWeWt0X2FmR0Rlb1lZaHpaV2ZvZTNiQzl4akJwako5cUVHLWVtVkRrSFBjX1FFcGdqQ3NybVpKNG4tbGdiVjRaYllFZFFMV0pVQ0lTZFJCUV9HZmw4MzJjSko1TzFZWlZ0bXdmNll3Sk1tSkl6X1JPUkJtdGZaMHhZM01xazkwU2NRZTB1RnNUVFV2QUs1X25N?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "6024bc549c62",
+   "date": "2026-10-29T18:26Z",
+   "title": "Trump reiterates Iran will be over very soon amid oil developments",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXJHMDM3dHhleUdwc3JQWEJlTTg0Q25VOG5FUTBQYWRmb3QzRkp2RVR6LWxJWE84M1hxRWNBZjNlS0huVjNpTkszT1MzUk55X3NkY0lEWmgxb1ZKVzZTNWg5WmZvNy1JSC1sdndvNTJzN2MtYlNsb3psY2JYd1c0WlNfT2c2Q0lVM3VoZGJYXzlGbmxZX0tJdFhwbkt1enYzaUUzcE83TlZ6LUVUekZfZV9pa2p3Rk93SWN3?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -7848,26 +7868,6 @@
    "origin": "rss"
   },
   {
-   "id": "25f7cc8f40c3",
-   "date": "2026-10-23T10:10Z",
-   "title": "Exclusive-Chevron uses Permian playbook to breathe life into Argentina’s ‘Dead Cow’ oil region",
-   "source": "AOL.com",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMjhaeDFxNy0zdVVtWmpNcFNSTUgtWkVFRmpIOHJWUmlUbEhqbm5PUHZJVEJtb2tvUzE1UXFLVWx3SC0zNjJOSTJMVS0zRDh6Nm1fZXE3a1g4MGFDTVJMSXZzQUFFX1dhdnVlQ1hqWXdFWGtiT2ZyZWtUZ2dQVDlEcEtFUlVnbDJUYXo4?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "64f6d15d2264",
-   "date": "2026-10-23T10:00Z",
-   "title": "The secret terms of Trump’s Venezuelan oil deal",
-   "source": "Salon.com",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObFNoZG1RcGdLV21ZeGxES3ZpRUx6S0ZkU3ZIXzkxdGpyYUM5dWJCV1FuSXRyd3NiZS1WM1prN0VIVHZka0FaTWlHSFRoY05uN0ZDSWlzTlBBRXFvRFM2NXc1LWFfQzJrVGlWZnRUdHM5WGlvUEdvWlRabHNSTDFwQWFzSzh3akdORlp4Q2VhbkhtQQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T21:29:25Z",
+ "updated": "2026-10-29T22:12:49Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8077,15 +8077,6 @@
    "key_figure": "60%"
   },
   {
-   "date": "2026-10-27T21:51Z",
-   "title": "NABEP Delivers First 1 Million-Barrel Venezuelan Crude Cargo to Texas Under U.S. Agreement - News and Statistics",
-   "source": "IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY2JhRnJVYzlBRjk5N2pGME1RSHd1VmdmcmZFZ1lwWTQwZGxrUDVraW10VVk5ei1VXzdwaTMtd1JzZTQxc1B3aGdacThMYjh2RFNTckd4Rng3NkxNOHV1Nk42dnRWUll3R3M1a1lOdXdYMHdHNmR0dWNrMDhod09DcVZqVVk1R2tqMmNXeVNvOHlYdTZrNVp5cjR3MnNqWUU1Zk40anlyUQ?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": null
-  },
-  {
    "date": "2026-10-29T09:43Z",
    "title": "Eni starts operations at Venezuelan oil field",
    "source": "Oilfield Technology",
@@ -8095,10 +8086,19 @@
    "key_figure": null
   },
   {
-   "date": "2026-10-27T21:35Z",
-   "title": "U.S. officials visit NABEP’s Venezuela fields as sixth rig arrives",
-   "source": "World Oil",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbl9kTWdZbUd3OEhFUWYxVzlRcnN4bS1sNlEwcVYzYlVEZ3d2eThYYkhxUEZ3TVhYSGNodEVrYk5rT3dxckFGVEpseHpUR0haM3hCWnlSTnptWkR3amstaW84NDMzVjJ4eWZGZlNvRGMyajFTQkpFQjR3RUNoTTlCd0FacGYtY3hTR3FOVzFsVmNQYnBrTlNDZUpmUzdfcHpyNS1jYV9oRk1GRFU?oc=5",
+   "date": "2026-10-28T12:56Z",
+   "title": "Venezuelan Oil Hits Texas as US Secures 1 Million-Barrel Cargo at Discount",
+   "source": "ChemAnalyst",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMFdTSkpmWm9obkNwend0SHhCc0QxVFloSEdZWFplTWtqV0Rpc1Q0ZzVLUDh2TzRYUE9NRlhJUzJaMHBpVmt2aVpNNm96NVVZS3ktRUVQdGVUeUNFTUVndlgwOEw3eXh3RXNIWWVfdkQyT0gwLTNHSE1iRXJOQzItVDhZZ0JtN3g1Q3RQa2plVkVMQ0NoYi1CRXBNSWFKa3lERXVNbUpyeDFBbnprUndPaUpPWXQ2Zw?oc=5",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "key_figure": null
+  },
+  {
+   "date": "2026-10-29T14:46Z",
+   "title": "Repsol closes in on Venezuelan heavy oil deal with 210,000-b/d potential",
+   "source": "BNamericas",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGExS0lUdk1LTm5weGNRSzQ4b3N6N0NMbDMzYlp1WnRMTmhtS1l6NW5SNi1XNmxGY243QXMzQ0REMnRxYkxtUUVKV1JfRHZJWno3UnBuaEpscjZGVUhaazlTZFFCZ0p0VFJRZmZtYXc3dk9MazRMNHdyczBpR3ZMZVN4RkF3LTlEcDZ4VXRpWklGd3lMb2lTOUVJdDNadXNTai1IQUVmeVM2Z3Z3LUE?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
    "key_figure": null
