@@ -383,6 +383,10 @@
     'Freeport': [28.94, -95.31, 'Freeport'], 'Beaumont': [30.08, -94.09, 'Port Arthur / Beaumont / Sabine'], 'Houston': [29.73, -95.27, 'Houston / Galveston / Texas City'],
     'Texas City': [29.38, -94.90, 'Houston / Galveston / Texas City'], 'Galveston': [29.31, -94.79, 'Houston / Galveston / Texas City'],
     'Baton Rouge': [30.44, -91.19, 'Mississippi River / New Orleans'], 'Morgan City': [29.70, -91.20, 'Mississippi River / New Orleans'] };
+  const PORT_REFS = { 'Corpus Christi': /CORPUS CHRISTI|THREE RIVERS|INGLESIDE/, 'Houston / Galveston / Texas City': /HOUSTON|PASADENA|DEER PARK|BAYTOWN|TEXAS CITY|GALVESTON/,
+    'Freeport': /SWEENY|FREEPORT|OLD OCEAN/, 'Port Arthur / Beaumont / Sabine': /PORT ARTHUR|BEAUMONT|NEDERLAND/, 'Lake Charles': /LAKE CHARLES|WESTLAKE|SULPHUR/,
+    'Mississippi River / New Orleans': /SAINT CHARLES|ST CHARLES|NORCO|CONVENT|GARYVILLE|MERAUX|CHALMETTE|BELLE CHASSE|BATON ROUGE|SAINT JAMES|ST JAMES|ALLIANCE/,
+    'Pascagoula': /PASCAGOULA/ };
   const portLayer = L.layerGroup().addTo(map);
   function drawPorts() {
     portLayer.clearLayers();
@@ -406,6 +410,15 @@
         if (hist.length > 1) { box.append(el('div', 'lbl', 'Recent months')); box.append(kv(hist.map((x) => [x.month, n2.format((x.est_bbl || 0) / 1e6) + 'M bbl']))); }
         const lt = LIVE.latest; const here = lt ? (lt.tankers || []).filter((t) => t.zone === zone) : [];
         const ve = here.filter((t) => t.venezuela_link);
+        const RF = LIVE.refinery && LIVE.refinery.rows; const reMap = PORT_REFS[zone];
+        if (RF && reMap) {
+          const lr = RF.reduce((a, x) => (x.period > a ? x.period : a), '');
+          const refs = RF.filter((x) => x.period === lr && reMap.test(x.refinery)).sort((a, b) => b.kbbl - a.kbbl);
+          if (refs.length) {
+            box.append(el('div', 'lbl', 'Refineries receiving it · EIA, ' + MES[+lr.slice(5, 7) - 1] + ' ' + lr.slice(0, 4)));
+            box.append(kv(refs.slice(0, 4).map((x) => [x.refinery.split(' / ').slice(0, 1)[0].toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()), n2.format(x.kbbl / 1000) + 'M bbl'])));
+          }
+        }
         box.append(el('div', 'lbl', 'Live now'));
         const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + ' tankers in the area on AIS' + (ve.length ? ', ' + ve.length + ' linked to Venezuela' : ''))); box.append(now);
         if (ve.length) { const ul = el('ul'); ve.slice(0, 5).forEach((t) => ul.append(el('li', null, (t.name || t.mmsi) + ' · ' + (t.status || '')))); box.append(ul); }
@@ -437,9 +450,9 @@
   // ---------- load data ----------
   const ago = (iso) => { const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + ' min ago' : Math.round(m / 60) + ' h ago'; };
   async function load() {
-    const [monthly, weekly, merey, latest, news, census, passports] = await Promise.all([
-      get(D + 'eia_imports_monthly.json'), get(D + 'eia_imports_weekly.json'), get('data/merey_brent_monthly.json'), get(D + 'latest.json'), get(D + 'news.json'), get(D + 'census_ports.json'), get(D + 'passports.json')]);
-    Object.assign(LIVE, { weekly, merey, latest, news, census, passports: passports && passports.passports });
+    const [monthly, weekly, merey, latest, news, census, passports, refinery] = await Promise.all([
+      get(D + 'eia_imports_monthly.json'), get(D + 'eia_imports_weekly.json'), get('data/merey_brent_monthly.json'), get(D + 'latest.json'), get(D + 'news.json'), get(D + 'census_ports.json'), get(D + 'passports.json'), get(D + 'eia_imports_refinery.json')]);
+    Object.assign(LIVE, { weekly, merey, latest, news, census, passports: passports && passports.passports, refinery });
     drawPorts();
     if (census && census.monthly && census.monthly.length) {
       const lm = census.monthly[census.monthly.length - 1];
