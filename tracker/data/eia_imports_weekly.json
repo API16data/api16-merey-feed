@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-28T12:01:55Z",
+"updated": "2026-10-29T03:42:43Z",
 "source": "EIA Weekly Petroleum Status Report, preliminary crude imports from Venezuela (W_EPC0_IM0_NUS-NVE_MBBLD), thousand b/d",
 "rows": [
 {
@@ -471,6 +471,11 @@
 "week_ending": "2026-10-16",
 "kbd": 571.0,
 "kbd_4wk": 551
+},
+{
+"week_ending": "2026-10-23",
+"kbd": 618.0,
+"kbd_4wk": 567
 }
 ]
 }
