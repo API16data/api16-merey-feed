@@ -67,6 +67,17 @@
   .chip:hover { border-color: var(--amber); }
   .chip .v { font: 600 20px/1.2 var(--mono); color: #fff; }
   .chip .l { font-size: 12px; color: #9FB1C9; }
+  .pop { font: 13px/1.45 var(--body); color: #0F1B2D; min-width: 220px; max-width: 280px; }
+  .pop h4 { font: 700 15px var(--body); margin: 0; }
+  .pop .sub { color: #5A6577; font-size: 12px; margin: 2px 0 8px; }
+  .pop .kv { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; margin: 6px 0; }
+  .pop .kv b { font: 600 13px var(--mono); text-align: right; }
+  .pop .lbl { font: 600 11px var(--mono); letter-spacing: .05em; text-transform: uppercase; color: #A86A12; margin-top: 8px; }
+  .pop ul { margin: 4px 0 0; padding-left: 16px; }
+  .pop li { margin: 2px 0; }
+  .pop .live { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #1E7F4F; margin-right: 5px; }
+  .pop a { color: #A86A12; }
+  .pop .foot { color: #5A6577; font-size: 11px; margin-top: 8px; }
   #map { height: 360px; border-radius: 12px; border: 1px solid #2A3E5C; margin-top: 4px; }
   .maplegend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: #9FB1C9; }
   .maplegend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
@@ -383,7 +394,96 @@
   // the main route, drawn for orientation: José terminal to the U.S. Gulf Coast
   L.polyline([[10.1, -64.85], [12.3, -68.5], [18.5, -80.0], [23.5, -86.5], [28.8, -93.8]], { color: '#E2A548', weight: 2, opacity: .7, dashArray: '6 8' }).addTo(map)
     .bindTooltip('Typical route: José → U.S. Gulf Coast, ~6 days', { sticky: true });
-  L.circleMarker([10.1, -64.85], { radius: 6, color: '#fff', weight: 2, fillColor: '#E2A548', fillOpacity: 1 }).addTo(map).bindTooltip('José terminal (Merey 16)');
+  // ---------- clickable terminals and ports: live information on click ----------
+  const LIVE = {};
+  const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  const kv = (pairs) => { const d = el('div', 'kv'); pairs.forEach(([k, v]) => { if (v == null || v === '') return; d.append(el('span', null, k), el('b', null, v)); }); return d; };
+  const TERMINALS = [
+    { name: 'José terminal', ll: [10.1, -64.85], zone: 'Jose / Puerto La Cruz', main: true,
+      sub: 'Main export terminal for Merey 16, blended from Orinoco Belt extra-heavy crude. Starting point of most cargoes to the U.S.',
+      words: /jos[eé]|merey|puerto la cruz|anzo[aá]tegui|orinoco|petropiar|petromonagas|petrosinovensa|junin|jun[ií]n/i },
+    { name: 'Amuay / Cardón (Paraguaná)', ll: [11.75, -70.2], zone: 'Paraguana: Amuay / Cardon',
+      sub: 'Paraguaná Refining Center, one of the largest refining complexes in the world, and a products and crude terminal.',
+      words: /amuay|card[oó]n|paraguan/i },
+    { name: 'Lake Maracaibo / Bajo Grande', ll: [10.7, -71.55], zone: 'Lake Maracaibo / Bajo Grande',
+      sub: 'Western fields and lake terminals: Boscán and medium crudes.', words: /maracaibo|bajo grande|zulia|bosc[aá]n|petrozamora|nabep/i },
+    { name: 'El Palito / Puerto Cabello', ll: [10.48, -68.1], zone: 'El Palito / Puerto Cabello',
+      sub: 'El Palito refinery and terminal, central coast.', words: /el palito|puerto cabello|carabobo/i },
+  ];
+  function terminalPopup(T) {
+    const box = el('div', 'pop'); box.append(el('h4', null, T.name), el('p', 'sub', T.sub));
+    const lt = LIVE.latest; const here = lt ? (lt.tankers || []).filter((t) => t.zone === T.zone) : [];
+    box.append(el('div', 'lbl', 'Live now'));
+    const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + ' tanker' + (here.length === 1 ? '' : 's') + ' on AIS here' + (lt ? ' · scan ' + ago(lt.run_at) : '')));
+    box.append(now);
+    if (here.length) {
+      const ul = el('ul');
+      here.slice(0, 6).forEach((t) => ul.append(el('li', null, (t.name || 'MMSI ' + t.mmsi) + ' · ' + (t.status || '') + (t.draught_m ? ' · draught ' + t.draught_m + ' m' : '') + (t.destination ? ' · → ' + t.destination : ''))));
+      box.append(ul);
+    }
+    const pp = (LIVE.passports || []).filter((p) => p.stages.some((s) => s.stage === 'Venezuelan origin' && String(s.detail).includes(T.zone)));
+    if (pp.length) {
+      box.append(el('div', 'lbl', 'Cargo Passports from here'));
+      const ul = el('ul'); pp.slice(0, 5).forEach((p) => ul.append(el('li', null, (p.name || p.mmsi) + ' · ' + p.status + ' · ' + p.stages_done + '/' + p.stages_total))); box.append(ul);
+    }
+    if (T.main) {
+      const m = LIVE.merey && LIVE.merey[LIVE.merey.length - 1]; const w = LIVE.weekly && LIVE.weekly.rows && LIVE.weekly.rows[LIVE.weekly.rows.length - 1];
+      const c = LIVE.census && LIVE.census.monthly && LIVE.census.monthly[LIVE.census.monthly.length - 1];
+      box.append(el('div', 'lbl', 'Market'));
+      box.append(kv([
+        [m ? 'Merey 16, ' + MES[+m.month.slice(5, 7) - 1] + ' avg (OPEC)' : null, m ? '$' + n2.format(m.merey) : null],
+        [m ? 'Discount to Brent' : null, m ? '−$' + n2.format(m.brent - m.merey) : null],
+        [c ? 'U.S. customs value, ' + MES[+c.month.slice(5, 7) - 1] : null, c ? '$' + n2.format(c.usd_per_bbl) + '/bbl' : null],
+        [w ? 'U.S. imports, week to ' + MES[+w.week_ending.slice(5, 7) - 1] + ' ' + (+w.week_ending.slice(8, 10)) : null, w ? n0.format(w.kbd) + 'k b/d' : null],
+      ]));
+    }
+    const news = ((LIVE.news && LIVE.news.items) || []).filter((n) => T.words.test(n.title) && /^https:\/\//.test(String(n.url))).slice(0, 2);
+    if (news.length) {
+      box.append(el('div', 'lbl', 'Latest news'));
+      const ul = el('ul'); news.forEach((n) => { const li = el('li'); const a = el('a', null, n.title); a.href = n.url; a.target = '_blank'; a.rel = 'noopener'; li.append(a, document.createTextNode(' · ' + MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10)))); ul.append(li); });
+      box.append(ul);
+    }
+    box.append(el('p', 'foot', 'Free AIS misses ships near Venezuela; an empty list does not mean no loadings.'));
+    return box;
+  }
+  TERMINALS.forEach((T) => {
+    L.circleMarker(T.ll, { radius: T.main ? 8 : 6, color: '#fff', weight: 2, fillColor: '#E2A548', fillOpacity: 1 }).addTo(map)
+      .bindTooltip(T.name + ' · click for live data').bindPopup(() => terminalPopup(T), { maxWidth: 300 });
+  });
+  const PORTS = { 'New Orleans': [29.94, -90.06, 'Mississippi River / New Orleans'], 'Port Arthur': [29.87, -93.93, 'Port Arthur / Beaumont / Sabine'],
+    'Pascagoula': [30.35, -88.55, 'Pascagoula'], 'Lake Charles': [30.22, -93.22, 'Lake Charles'], 'Corpus Christi': [27.81, -97.40, 'Corpus Christi'],
+    'Freeport': [28.94, -95.31, 'Freeport'], 'Beaumont': [30.08, -94.09, 'Port Arthur / Beaumont / Sabine'], 'Houston': [29.73, -95.27, 'Houston / Galveston / Texas City'],
+    'Texas City': [29.38, -94.90, 'Houston / Galveston / Texas City'], 'Galveston': [29.31, -94.79, 'Houston / Galveston / Texas City'],
+    'Baton Rouge': [30.44, -91.19, 'Mississippi River / New Orleans'], 'Morgan City': [29.70, -91.20, 'Mississippi River / New Orleans'] };
+  const portLayer = L.layerGroup().addTo(map);
+  function drawPorts() {
+    portLayer.clearLayers();
+    const C = LIVE.census; if (!C || !C.monthly || !C.monthly.length) return;
+    const lm = C.monthly[C.monthly.length - 1].month;
+    const rows = C.rows.filter((r) => r.month === lm && r.est_bbl);
+    const max = Math.max(1, ...rows.map((r) => r.est_bbl));
+    rows.forEach((r) => {
+      const key = Object.keys(PORTS).find((k) => r.port_name.startsWith(k)); if (!key) return;
+      const [la, lo, zone] = PORTS[key];
+      const mk = L.circleMarker([la, lo], { radius: 5 + 9 * Math.sqrt(r.est_bbl / max), color: '#fff', weight: 1.5, fillColor: '#3B5B8C', fillOpacity: .9 });
+      mk.bindTooltip(r.port_name + ' · ' + n2.format(r.est_bbl / 1e6) + 'M bbl · click for details');
+      mk.bindPopup(() => {
+        const box = el('div', 'pop'); box.append(el('h4', null, r.port_name), el('p', 'sub', 'U.S. port of entry for Venezuelan crude'));
+        const hist = C.rows.filter((x) => x.port_name === r.port_name).slice(-3);
+        box.append(el('div', 'lbl', 'U.S. customs, ' + MES[+lm.slice(5, 7) - 1] + ' ' + lm.slice(0, 4)));
+        box.append(kv([['Venezuelan crude', n2.format(r.est_bbl / 1e6) + 'M bbl'], ['Declared value', '$' + n0.format(r.value_usd / 1e6) + 'M'], ['Per barrel', r.usd_per_bbl ? '$' + n2.format(r.usd_per_bbl) : '—']]));
+        if (hist.length > 1) { box.append(el('div', 'lbl', 'Recent months')); box.append(kv(hist.map((x) => [x.month, n2.format((x.est_bbl || 0) / 1e6) + 'M bbl']))); }
+        const lt = LIVE.latest; const here = lt ? (lt.tankers || []).filter((t) => t.zone === zone) : [];
+        const ve = here.filter((t) => t.venezuela_link);
+        box.append(el('div', 'lbl', 'Live now'));
+        const now = el('div'); now.append(el('span', 'live'), document.createTextNode(here.length + ' tankers in the area on AIS' + (ve.length ? ', ' + ve.length + ' linked to Venezuela' : ''))); box.append(now);
+        if (ve.length) { const ul = el('ul'); ve.slice(0, 5).forEach((t) => ul.append(el('li', null, (t.name || t.mmsi) + ' · ' + (t.status || '')))); box.append(ul); }
+        box.append(el('p', 'foot', 'Customs data is published about five weeks after month end. Source: U.S. Census Bureau.'));
+        return box;
+      }, { maxWidth: 300 });
+      mk.addTo(portLayer);
+    });
+  }
   const layer = L.layerGroup().addTo(map);
   function drawShips(latest) {
     layer.clearLayers();
@@ -403,8 +503,10 @@
   // ---------- load data ----------
   const ago = (iso) => { const m = Math.round((Date.now() - new Date(iso)) / 60000); return m < 60 ? m + ' min ago' : Math.round(m / 60) + ' h ago'; };
   async function load() {
-    const [monthly, weekly, merey, latest, news, census] = await Promise.all([
-      get(D + 'eia_imports_monthly.json'), get(D + 'eia_imports_weekly.json'), get('data/merey_brent_monthly.json'), get(D + 'latest.json'), get(D + 'news.json'), get(D + 'census_ports.json')]);
+    const [monthly, weekly, merey, latest, news, census, passports] = await Promise.all([
+      get(D + 'eia_imports_monthly.json'), get(D + 'eia_imports_weekly.json'), get('data/merey_brent_monthly.json'), get(D + 'latest.json'), get(D + 'news.json'), get(D + 'census_ports.json'), get(D + 'passports.json')]);
+    Object.assign(LIVE, { weekly, merey, latest, news, census, passports: passports && passports.passports });
+    drawPorts();
     if (census && census.monthly && census.monthly.length) {
       const lm = census.monthly[census.monthly.length - 1];
       const dim = new Date(Date.UTC(+lm.month.slice(0, 4), +lm.month.slice(5, 7), 0)).getUTCDate();
