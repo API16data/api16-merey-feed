@@ -50,6 +50,8 @@ def main():
     raw = fetch()
     rows = []
     for r in raw:
+        if (r.get("PORT_NAME") or "").strip().upper().startswith("TOTAL") or r.get("PORT") in ("-", "TOTAL"):
+            continue  # the API adds an all-ports total row; we sum ports ourselves
         kg, val = num(r.get("VES_WGT_MO")), num(r.get("VES_VAL_MO")) or num(r.get("GEN_VAL_MO"))
         if not kg and not val:
             continue
