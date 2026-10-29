@@ -14,6 +14,7 @@ Outputs (in tracker/data/):
   runs.jsonl         one line per run (counts), for the history chart
   ship_types.json    AIS ship type per MMSI learned so far (to spot tankers sooner)
   watch.json         status of the vessels on tracker/watchlist.json (ships named in the news)
+  passports.json     one "Cargo Passport" per probable Venezuela-to-US cargo: each voyage stage with its evidence
   ais_estimate.json  estimated barrels/day of Venezuela-linked crude reaching the US Gulf (lower bound)
 """
 import asyncio, json, os, re, sys, time
@@ -30,6 +31,9 @@ WATCHLIST = os.path.join(os.path.dirname(os.path.abspath(__file__)), "watchlist.
 LISTEN = [
     [[9.5, -72.5], [13.2, -60.0]],   # Venezuelan coast + Aruba/Curacao/Bonaire + Trinidad
     [[27.4, -97.6], [30.4, -88.3]],  # US Gulf Coast: Corpus Christi to Pascagoula
+    [[20.5, -87.8], [23.0, -84.0]],  # Yucatan Channel: the usual gate from the Caribbean into the Gulf
+    [[19.3, -75.3], [20.6, -73.0]],  # Windward Passage (Cuba-Haiti)
+    [[17.5, -68.6], [19.0, -67.0]],  # Mona Passage (Hispaniola-Puerto Rico)
 ]
 
 # Named zones, checked in order (first match wins). group: VE = Venezuela, ABC = islands, USG = US Gulf, TT = Trinidad (not Venezuela)
@@ -47,6 +51,9 @@ ZONES = [
     ("USG", "Mississippi River / New Orleans", [[28.90, -90.50], [30.10, -89.30]]),
     ("USG", "Pascagoula", [[30.10, -88.70], [30.40, -88.40]]),
     ("USG", "Gulf of Mexico offshore (lightering)", [[27.40, -95.80], [29.20, -88.30]]),
+    ("GATE", "Yucatan Channel", [[20.5, -87.8], [23.0, -84.0]]),
+    ("GATE", "Windward Passage", [[19.3, -75.3], [20.6, -73.0]]),
+    ("GATE", "Mona Passage", [[17.5, -68.6], [19.0, -67.0]]),
     ("TT", "Trinidad & Tobago", [[9.90, -62.05], [11.40, -60.00]]),
     ("VE", "Venezuelan waters (other)", [[9.50, -72.50], [12.30, -60.00]]),
 ]
@@ -70,6 +77,77 @@ def cargo_kbbl(length_m):
         if length_m < max_len:
             return kbbl
     return 1900
+
+
+def laden_threshold(length_m):
+    # A tanker sits deeper when loaded. Rough rule: laden draught is above ~5.2% of its length
+    # (Aframax 245 m -> 12.7 m, Suezmax 274 m -> 14.2 m, MR 183 m -> 9.5 m).
+    return round(0.052 * length_m, 1) if length_m else 11.0
+
+
+def build_passports(vessels, run_at):
+    """One Cargo Passport per Venezuela-linked tanker: the voyage stages AIS can show, each with evidence."""
+    cutoff = datetime.fromtimestamp(time.time() - 45 * 86400, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    out = []
+    for v in vessels.values():
+        if not (v.get("seen_near_venezuela") or v.get("destination_venezuela") or v.get("reported_venezuela")):
+            continue
+        if (v.get("last_seen") or "") < cutoff:
+            continue
+        visits = sorted(v.get("visits", []), key=lambda x: x["first"])
+        thr = laden_threshold(v.get("length_m"))
+        ve = [x for x in visits if x["group"] in ("VE", "ABC")]
+        ve_dest = [d for d in v.get("destinations", []) if VE_DEST.search(d["dest"])]
+        t0 = ve[0]["first"] if ve else (ve_dest[0]["first"] if ve_dest else (visits[0]["first"] if visits else run_at))
+        stages = []
+
+        link = []
+        if ve:
+            link.append("seen at " + ", ".join(sorted({x["zone"] for x in ve})))
+        if ve_dest or v.get("destination_venezuela"):
+            link.append("declared destination " + (ve_dest[0]["dest"] if ve_dest else v.get("destination", "")))
+        if v.get("reported_venezuela"):
+            link.append("named in the news: " + (v.get("watch") or "reported Venezuelan cargo"))
+        stages.append({"stage": "Venezuelan origin", "done": bool(ve or ve_dest or v.get("destination_venezuela")),
+                       "partial": bool(v.get("reported_venezuela")), "time": t0, "detail": "; ".join(link)})
+
+        last_ve = ve[-1] if ve else None
+        dr_after = [x.get("draught_first") or x.get("draught_m") for x in visits if x["first"] >= t0 and x["group"] not in ("VE", "ABC")]
+        dr_after = [d for d in dr_after if d]
+        laden_d = (last_ve or {}).get("draught_m") or (dr_after[0] if dr_after else None)
+        laden = bool(laden_d and laden_d >= thr)
+        stages.append({"stage": "Departed loaded", "done": laden, "time": (last_ve or {}).get("last"),
+                       "detail": (f"draught {laden_d} m vs ~{thr} m laden mark" if laden_d else "no draught reported yet")})
+
+        gate = [x for x in visits if x["group"] == "GATE" and x["first"] >= t0]
+        stages.append({"stage": "Crossed a Caribbean gate", "done": bool(gate), "time": gate[0]["first"] if gate else None,
+                       "detail": gate[0]["zone"] if gate else "not seen yet"})
+
+        usg = [x for x in visits if x["group"] == "USG" and x["first"] >= t0]
+        stages.append({"stage": "Arrived at the U.S. Gulf", "done": bool(usg), "time": usg[0]["first"] if usg else None,
+                       "detail": usg[0]["zone"] if usg else "not seen yet"})
+
+        disch = None
+        for x in usg:
+            a, b = x.get("draught_first"), x.get("draught_m")
+            if a and b and a >= thr and b < a - 2:
+                disch = x
+                break
+        stages.append({"stage": "Discharged", "done": bool(disch), "time": disch["last"] if disch else None,
+                       "detail": (f"draught {disch['draught_first']} m -> {disch['draught_m']} m at {disch['zone']}" if disch
+                                  else "no draught drop seen yet")})
+
+        done = sum(1 for st in stages if st["done"])
+        status = ("discharged" if disch else "arrived" if usg else "in transit" if (gate or (laden and last_ve and v.get("last_group") not in ("VE", "ABC")))
+                  else "at origin" if v.get("last_group") in ("VE", "ABC") else "watching")
+        out.append({
+            "id": f"AIS-{v['mmsi']}-{t0[:10]}", "mmsi": v["mmsi"], "imo": v.get("imo"), "name": v.get("name"),
+            "length_m": v.get("length_m"), "status": status, "stages_done": done, "stages_total": len(stages),
+            "est_cargo_kbbl": cargo_kbbl(v.get("length_m")) if laden else None,
+            "destination_now": v.get("destination", ""), "destinations": v.get("destinations", []),
+            "last_seen": v.get("last_seen"), "last_zone": v.get("last_zone"), "stages": stages})
+    out.sort(key=lambda x: (x["stages_done"], x["last_seen"] or ""), reverse=True)
+    return out
 
 
 def now_iso():
@@ -170,6 +248,10 @@ def main():
         v["name"] = s.get("name") or p["name"] or v.get("name", "")
         if s.get("destination"):
             v["destination"] = s["destination"]
+            hist = v.setdefault("destinations", [])
+            if not hist or hist[-1]["dest"] != s["destination"]:
+                hist.append({"dest": s["destination"], "first": run_at})
+                v["destinations"] = hist[-10:]
         if s.get("draught_m"):
             v["draught_m"] = s["draught_m"]
         group, zone = zone_of(p["lat"], p["lon"])
@@ -180,8 +262,10 @@ def main():
             last["last"] = run_at
             if v.get("draught_m"):
                 last["draught_m"] = v["draught_m"]
+                last.setdefault("draught_first", v["draught_m"])
         else:
-            v["visits"].append({"zone": zone, "group": group, "first": run_at, "last": run_at, "draught_m": v.get("draught_m")})
+            v["visits"].append({"zone": zone, "group": group, "first": run_at, "last": run_at,
+                                "draught_m": v.get("draught_m"), "draught_first": v.get("draught_m")})
             v["visits"] = v["visits"][-30:]
         if group == "VE" or group == "ABC":
             v["seen_near_venezuela"] = True
@@ -224,6 +308,10 @@ def main():
     save("vessels.json", vessels)
     save("ship_types.json", types)
     save("venezuela.json", {"updated": run_at, "note": "Probable links from public AIS, not confirmed cargoes.", "tankers": linked})
+    save("passports.json", {"updated": run_at,
+                            "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, "
+                                      "and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
+                            "passports": build_passports(vessels, run_at)})
     seen_now = {str(t["mmsi"]): t for t in latest}
     save("watch.json", {"updated": run_at, "vessels": [dict(w, **{
         "seen_this_run": mmsi in seen_now,
