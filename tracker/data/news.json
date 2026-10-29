@@ -401,6 +401,16 @@
    "origin": "rss"
   },
   {
+   "id": "00f27b083af1",
+   "date": "2026-10-28T15:47Z",
+   "title": "US goods trade deficit widens 2.1% in September to highest since March 2025",
+   "source": "US Muslims",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFk3d2ZrUHRuTnB6S29rY2ktNjlVcmRnWVFpU0Qtc3NRUUtuZjVianpQbXFSdld3MFVWR0pXd19USXRUai1kOGFabVpFeUlwY0dOLTY4S1BIWGVfM0JzUkFFVmZLT2dxa1NIMkV0ekhGVlBLdmptSnE0RTB0UndUb21tNnE5ZWZQWjl0ZGlUODJidW9HTjdGdkxySWFPZm9sX1l0UUxRblRaWDNxTENhYmpB0gHCAUFVX3lxTE91NUc1Rk85MFltQUtMUjZjNXE5TDJtQS1zcG1wajAyRWtlUlJyMXNkQzZPdWdIVldTbER5dnR5NGk5SkRfY3E0ODhpZ2JEUlU4Sjd4VjA4ZG53VHdpQXRhUmc4RG1oMTAxREVDb3d1bms4aGJlLWRyd01yN0dkZmdXeGwxaE56S2RTLVVmcEZxNm9DeVY1bjNmNEdUYjJXUjhwMVhrYnBjdnNpUTNIc1B2aWU2WWppeG5LX05VU3R0cXp3?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "bb0293b582cd",
    "date": "2026-10-28T15:16Z",
    "title": "First Million Barrels Of Venezuelan Oil Arrive In Texas Under New Deal",
@@ -7854,16 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "4d7a9c326342",
-   "date": "2026-10-22T01:56Z",
-   "title": "#EnVideo📹 | Coordinador del diálogo por el Gobierno Nacional, Jorge Rodríguez, aseveró que Venezuela mantiene el control sobre los recursos financieros obtenidos a través de la comercialización de petróleo hacia distintos países del mundo. #VTVCanal",
-   "source": "Instagram",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KdTZ1c2NoUlJ3R0hDbTc5RXVZTDZhZ0JqYlJLMTk4WExDUy0zQmJJdGNqbXd1MS1jY0NtT2dtT2I2NXl4YnJyRXBpb0tMM2V2X1owVERn?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T03:35:58Z",
+ "updated": "2026-10-29T04:21:40Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8063,28 +8063,28 @@
    "key_figure": "1M bbl"
   },
   {
-   "date": "2026-10-26T12:00Z",
-   "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
-   "source": "Rigzone / Bloomberg",
-   "url": "https://www.rigzone.com/news/wire/pentagons_venezuelan_oil_partner_boosts_output-26-oct-2026-184932-article/",
-   "category": "Production",
-   "angle": "More supply: more barrels heading to market",
-   "key_figure": "1,252,000 b/d"
-  },
-  {
-   "date": "2026-10-25T12:00Z",
-   "title": "White House: Venezuelan oil arriving in the US up more than 400%, highest in almost a decade",
-   "source": "Banca y Negocios",
-   "url": "https://www.bancaynegocios.com/eeuu-importacion-de-petroleo-venezolano-ha-aumentado-en-mas-de-400-porciento-y-ha-alcanzado-su-nivel-mas-alto-en-casi-una-decada/",
+   "date": "2026-10-28T20:38Z",
+   "title": "PDVSA Revenue Jumps 60% as Crude Exports Surge",
+   "source": "Energy Intelligence",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0WEVIbFRTeWNkVkV6VHNhRTlWNVhsSnRRSHlmZHJkYTFCSXJwNFVNWWU4LUhXYVZwNzNRYjVINFUzQ0dtY0FHRUhYa1ZtakdCRURtVXNIYlE0MTA3S21Fb0UyQkl4WXN6MFAyNkRLbGRnZw?oc=5",
    "category": "Exports",
    "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": "+400%"
+   "key_figure": "60%"
   },
   {
    "date": "2026-10-28T16:59Z",
    "title": "Eni Restarts Production at Venezuela’s Junín-5 Oil Field",
    "source": "Egypt Oil & Gas",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUtlU040VXZxVXFYX2hlOXotNUlJSWdveVo2NTZHNUVDcXEzX21ySnZfZ0lwNFUzNjVyTnlYNGdlUmZObHVyS0I4Zm5pVFA3ZTBCNjJUSkttNG9oLWxEdkJiWVI5ZzFWTUFpb2k0WFlDWEc5T0xUN1NHdGxKSmVJUUtrRkpIRlphMzNOa0xFMA?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": null
+  },
+  {
+   "date": "2026-10-27T21:35Z",
+   "title": "U.S. officials visit NABEP’s Venezuela fields as sixth rig arrives",
+   "source": "World Oil",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbl9kTWdZbUd3OEhFUWYxVzlRcnN4bS1sNlEwcVYzYlVEZ3d2eThYYkhxUEZ3TVhYSGNodEVrYk5rT3dxckFGVEpseHpUR0haM3hCWnlSTnptWkR3amstaW84NDMzVjJ4eWZGZlNvRGMyajFTQkpFQjR3RUNoTTlCd0FacGYtY3hTR3FOVzFsVmNQYnBrTlNDZUpmUzdfcHpyNS1jYV9oRk1GRFU?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
    "key_figure": null
