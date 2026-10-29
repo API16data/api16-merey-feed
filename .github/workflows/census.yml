@@ -1,0 +1,39 @@
+name: Census port imports
+
+on:
+  schedule:
+    - cron: "37 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: census
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Fetch U.S. imports of Venezuelan crude by customs port
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        run: python tracker/census.py
+
+      - name: Save results to the repository
+        run: |
+          git config user.name "api16-bot"
+          git config user.email "api16-bot@users.noreply.github.com"
+          git add tracker/data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "Census port imports $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && exit 0; sleep $((i*5)); done
+          exit 1
