@@ -81,6 +81,18 @@
   th { font-weight: 600; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
   .tbl { overflow-x: auto; }
   .note { font-size: 13px; color: var(--muted); }
+  .pp-h { font: 800 clamp(22px, 3vw, 30px)/1.2 var(--display); margin: 18px 0 0; }
+  .pp-grid { display: grid; gap: 14px; }
+  .pp { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; min-width: 0; }
+  .pp-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+  .pp-top b { font: 700 17px var(--body); }
+  .pp-top span { font: 500 12px var(--mono); color: var(--muted); }
+  .stages { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; margin-top: 12px; }
+  .stg { border-top: 4px solid var(--line); padding-top: 6px; font-size: 12px; color: var(--muted); min-width: 0; overflow-wrap: anywhere; }
+  .stg.done { border-color: var(--ok); color: var(--fg); }
+  .stg.part { border-color: var(--part); color: var(--fg); }
+  .stg b { display: block; font-size: 12.5px; }
+  @media (max-width: 560px) { .stages { grid-template-columns: 1fr; } .stg { display: flex; gap: 8px; align-items: baseline; } }
   footer { border-top: 1px solid var(--line); padding-block: 26px 40px; font-size: 12px; color: var(--muted); }
   footer .wrap { display: flex; gap: 12px 24px; flex-wrap: wrap; justify-content: space-between; max-width: 1120px; }
 </style>
@@ -167,6 +179,24 @@
       list.append(card);
     });
     const m = $('p', 'note', L.method + ' Updated ' + L.updated + '.'); list.append(m);
+    const sec = $('section'); sec.append($('h2', 'pp-h', 'Live Cargo Passports'));
+    sec.append($('p', 'note', 'Built automatically every hour from public AIS: every tanker linked to Venezuela, and how far its voyage to the U.S. can be shown. Evidence, not proof.'));
+    const grid = $('div', 'pp-grid'); sec.append(grid); list.append(sec);
+    fetch('tracker/data/passports.json', { cache: 'no-store' }).then((r) => r.json()).then((P) => {
+      const ps = (P.passports || []);
+      if (!ps.length) { grid.append($('p', 'note', 'No Venezuela-linked tanker in the current window.')); return; }
+      ps.slice(0, 30).forEach((p) => {
+        const c = $('div', 'pp'); const top = $('div', 'pp-top');
+        top.append($('b', null, p.name || ('MMSI ' + p.mmsi)), $('span', null, (p.imo ? 'IMO ' + p.imo + ' · ' : '') + 'MMSI ' + p.mmsi),
+          $('span', null, p.status + ' · ' + p.stages_done + '/' + p.stages_total + ' stages' + (p.est_cargo_kbbl ? ' · ≈' + nf.format(p.est_cargo_kbbl * 1000) + ' bbl' : '')),
+          $('span', null, 'last seen ' + (p.last_seen || '').slice(0, 16).replace('T', ' ') + ' UTC · ' + (p.last_zone || '')));
+        c.append(top);
+        const st = $('div', 'stages');
+        p.stages.forEach((s) => { const d = $('div', 'stg' + (s.done ? ' done' : (s.partial ? ' part' : ''))); d.append($('b', null, s.stage), $('span', null, s.detail || '')); st.append(d); });
+        c.append(st); grid.append(c);
+      });
+      sec.append($('p', 'note', P.method + ' Updated ' + (P.updated || '').slice(0, 16).replace('T', ' ') + ' UTC.'));
+    }).catch(() => grid.append($('p', 'note', 'Passports appear after the next AIS run.')));
   }).catch(() => { document.getElementById('list').replaceChildren($('p', 'note', 'Could not load the ledger data.')); });
 })();
 </script>
