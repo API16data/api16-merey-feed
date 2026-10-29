@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "f298d485851a",
+   "date": "2026-10-29T14:51Z",
+   "title": "Venezuela’s 303 Billion Barrels Of Oil",
+   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdS0xMEhKaXdvMWtpQ0IxcUNyUUhIQkgtRzBoMlo1dzN6UzJ1ZDg5YUE0c2xsQWpSOHgzS205RG5zbXIzWktXT01yVGxEeDd5cUV6SVVRNi00YmdqdGM4ZVk0T3dqRlp1UWpiM3MtQW1Ja2ZWM1BQeXZxWEZEbTdiRktiNlNOQ1BESHc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "dd22df732456",
+   "date": "2026-10-29T14:48Z",
+   "title": "Cesta petrolera de Venezuela subió a casi $90 por barril, un precio que no se alcanzaba desde 2014",
+   "source": "EL UNIVERSAL",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc0pnRWNVcnBma0VYb2VOMlpVVVIyRHVLTS10clJJLUUxRzdnU2xuV241cmVBWUg5OFhYX1RDdW96Um5Rc3dXQ2FRcnJ5SUxPY082dlJySjN3Qy1KZks2N09iamc2VXRLTFUzMlpZVEJ5STlGdF9xY08taVZQeEo3ZDRacTloUlhyamVXdERIdFIwLUd6MXc4NUpOQ3k1MEhjanloYWRBaEd1M09Hc1ZNWG55Z1kwT3o3UFpUZXZEOFhFemM2M0Y1SEFoMG1yRU53NVFiLWNB?oc=5",
+   "category": "Pricing",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "1ee14df9285b",
+   "date": "2026-10-29T14:46Z",
+   "title": "Repsol closes in on Venezuelan heavy oil deal with 210,000-b/d potential",
+   "source": "BNamericas",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGExS0lUdk1LTm5weGNRSzQ4b3N6N0NMbDMzYlp1WnRMTmhtS1l6NW5SNi1XNmxGY243QXMzQ0REMnRxYkxtUUVKV1JfRHZJWno3UnBuaEpscjZGVUhaazlTZFFCZ0p0VFJRZmZtYXc3dk9MazRMNHdyczBpR3ZMZVN4RkF3LTlEcDZ4VXRpWklGd3lMb2lTOUVJdDNadXNTai1IQUVmeVM2Z3Z3LUE?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "ad33b89a75d4",
    "date": "2026-10-29T14:43Z",
    "title": "Repsol se acerca a un acuerdo de crudo pesado en Venezuela con un potencial de 210.000b/d",
@@ -8,6 +38,26 @@
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb09rY0tEY1JPYmxJSmhINjV3aC1yZmZlWlYyM2d2YzdwMkdpa3Y5T3Z5eEdCVmhuSGdyTk5QRGJYZmNnN05aakpiNWpfamtMVzNTNVJFSk1BdURDOENaeVk0SlA1YTRIS0UwZlhyNENYVnY5cXdLanV0VEZtaURYSDVEQjZQX0dOa0c3dWdrTlU5YnpkNk5uUmtLVTRFT3liY1g2d0UybGRWd28ybmV5ZGV3UGVlVFliS0xnSURVY3l4Qk1RXy1N?oc=5",
    "category": "Production",
    "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "d11de3f89dec",
+   "date": "2026-10-29T14:14Z",
+   "title": "Eni activa operaciones en la Faja del Orinoco para alcanzar 200.000 barriles en 202",
+   "source": "Ciudad MCY",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUnR5MWFISVFKa0FZbmxMTG9Ka3JHcDVlVlVmODBHOXhQeXp0ZTR5SE4zY0dUZHJEWDBBLXlRcVpkZFh2a3plaEZRUHZYU2JEVEFXWFNobTJ5dXBWUkxuSzNsRXVJZnVscklzVFBYZVg3dkhPMzRzTEFOTVdCV3c1OEJIU3F6enVKZ0pQOG1paG13aVQ4SnU4TXN4b1RUaHhFUXJPd0k3MnNmTVd5NUE?oc=5",
+   "category": "Production",
+   "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "a0f120f2f52d",
+   "date": "2026-10-29T13:51Z",
+   "title": "Repsol cuadruplicó su ganancia neta en 9 meses y proyecta aumentar en 50% su producción de petróleo en Venezuela",
+   "source": "Contrapunto.com",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWmJCUmVJQlppRVBjclhXSG4wbnJ5bGNkR0hJYUF0NkJwSzBIUUc4QmUzR0JzZTdkNkFOaWkzTDVWSjFfMl9WZmdkSzRZNHRQWW44OUVoYm0td25saDdGTGtJSXZqczFZZDhSWTZFT0ZRSktFaHh1WnJvR0djTXBRNUdSSTdiWUlZQUVOd2JMa3lfeDNlbl9aMVdRelplYU1Na3RjOFVPRWg3MW5qUm9QdEgxNUFLUTU5QkgxZzVpbThqOFBqSGRGQ2FURFlSYnFxakJvb0s1eXcwU2s5UzNFcFlXamM?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -332,6 +382,16 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnlla3RsMEhBTl8zdktkZGFyM2lPb2xaWUQ4cHNfVjcya3I1ejdqR1cwNkpfcGJ6YkhDdzE4T3FvVS1yV0VqSXJxOS1IaHNJNW1OYmtjUjM5WFVCVGhZeUhndjIta2FTTmZEcm1ENkhWSENiZE5fbEk4cHo1YUw4Zzd5cXpBMklHVGNZQW5ONlZmZ2pSb1MwMnBpczdFeVJvX3kzX2dxLVQtU050R1NrcQ?oc=5",
    "category": "Production",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "aedde9736766",
+   "date": "2026-10-29T02:17Z",
+   "title": "Venezuelan leader demands Bank of England return gold",
+   "source": "Le Monde.fr",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeTBNZmo2b0pVVThZWWc5N3c5eFFvWkpIV25SZzRPdDAyaUExeTRsb3dhMUxKRHVTUFdsazhsRVVYWTYxZkpjVU5mTEgxQXl4NUN4OXVwcFF3OEZtQ2NYZ0N1VlExTGw5TDZuR0ZTMkFOeHNnTk0zcjh3azhLbDFLeFZLQ2swVXRXUFRBN29YUjdDaHhENHBCUEhtblBid1JRVEE1VFJVaUkzZzR4bFRZSUJVU1NBWERycUxYUmNiTVljUDc0Wnc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7808,66 +7868,6 @@
    "origin": "rss"
   },
   {
-   "id": "334e5147f9a1",
-   "date": "2026-10-22T19:49Z",
-   "title": "AP: Venezuela solo puede extraer un tercio de los 303.000 millones de barriles de petróleo de su reservas",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLUk5N3BkQk10eGthb3dYV0tBUVNiVzBMUnEtRGJfWGp6ZHpMTDIxSTZuYU5oTTJFa2RXdTFBUWlCUE9uUzJuTzlBalowSFJSX0gtNkQxMTM0S0dvRTdPRF9PT19WQXVoZmctYlJrNXZib29rWGJmeUNzOVpsZGF5Y3U2RGJRZ3Ewa3Q3cWlZQVFjUjJRc0kwNmFhYkZBZ29uMmNSQTQxX1NjZFluc0RULVNQRDVMcnM5WTNzUy1TTzdETldpVnlHRXY4S0VmbVFx?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "5020d7f51c39",
-   "date": "2026-10-22T19:46Z",
-   "title": "$80 Million Tanker Bills Are Crushing US Oil Exports to Asia",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUkZCdUE3dy1SVWRRNEhpZy1vcnJIbkpBNFByOUo3Q2Q3TWJ6NmQ1NjJCWEZJVlp5RU5NdGJOVVo1VEUyTm55THcwWldqZHVhdGJxLXVHaFlJNzRhM1FqdXA2Z3VaSndFa0hsa1BLM19ORXlXMTNidE1aX0ZUcTZPdVppUDVNeXVwb3FBUXRaZmtXYW9vNHFrZUpQX3RhWHRQSUFiU1ZBaG1ZWmYtNlgtYmF2dEhZSlgxYThVaE4tbzZNUm84ZHdz?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "1f2a6b203a8a",
-   "date": "2026-10-22T19:45Z",
-   "title": "Venezuela announces $76 billion in expected oil investment over five years under new foreign partnership agreements",
-   "source": "Energies Media",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WZW02ZHNwVWdPalNuaWhsSFVrVlp0SmowNEVyVmpsY2R2YkVLR0U5b1dGVmJJaGYyQnk0dGRGZnRtV0hHMUY2LTJ0UlRkN1hYYmRBUkdvWFhoT3JrZUxvMHRoY0ZfS3d2TjZNSDR6S0E0eTM3?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "8857042eda32",
-   "date": "2026-10-22T19:19Z",
-   "title": "Exportaciones de petróleo venezolano a Estados Unidos aumentaron 25 %",
-   "source": "www.quepasa.com.ve",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcGFtdGkzdGJjYkxTSWdsVE40Tm45R1llcGpnZy00aXJ1QVMwdUlBdlhCaU5sRTV5N0tqZERVX1U2Rk5ZVXl4V1daa0FfMlRienJJQUNMLXEwOXRzU2hIRTBlX21IRjd1a3dlQU43RkNxZzhTX3BJbkxGVjg5SlBoT0JvT19kV1J1YzBXQ2VDcDJFWDk0ZEpSR01NdlFsYmNsRjVxMkNETQ?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "a030f6f68d37",
-   "date": "2026-10-22T19:00Z",
-   "title": "Strathcona Pitches 250,000-Bpd Oil Export Route to Asia",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3QzU1duM1djcmxFck1zc04xRlJZZUZNTDhWeUltWXhmYmZqUXZIT0VLcjkzeFREREFDTU9RQVd1VDl0RGxMU0s3Qlk5STR4RWJaVk5KWGF3X2RzdkxFN2tkUXYtdWNZckkyVHV0RWIyZGRPUnREQndzM2hpSEoxU3NoVTdoMkt1UlBZNHFuZGpRb3Y3S2R1SzkzaWRld9IBowFBVV95cUxNTWRvR2VweWFXM1BSRnd6a0ttS1dEZ3NhMzh3eDB2dDd4UWEtZk1iXzJ2eHJnUEVQSDFCczFyR1BzenpkVDY3ZU4xdUZybklITENWN0FhZ1RnM050VWg3QjZXYXQwUVhGRXNmSGFubmlDLTZWZ2h1NjV0a0JBcGZUQ3VmZ2wxSmgzLTlSY0tzdzJJTkozbW5iS18tZHo1RkljQU9B?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "1c7e3075a2b7",
-   "date": "2026-10-22T18:44Z",
-   "title": "Noticias Mundo",
-   "source": "lafmnativa.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTjd0WjluajBkWFJmNzh0UVFXOEVSTDluWHU2UUh3OGNaUU84TUhvNzBGaUV1emNjOWVTSjBNYmhNXzVxZHdod3c4amVnQng5R3NDNmppanZudWpBRmYydnRfTGZuWFpXbjhUUTROZmdnQnROX2I2aHQyYXRmVl9BaGV2dkt3WmptNmtoUUhSdm5LMi1sOUZKSkwxeVBQSWhicWNGRDdjNmVCV0RCZjcxYTJQV3dlc1k5UTV6VUZpaUE?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T14:44:28Z",
+ "updated": "2026-10-29T15:41:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
