@@ -1,151 +1,142 @@
 {
- "updated": "2026-10-29T04:08:31Z",
+ "updated": "2026-10-29T04:09:53Z",
  "source": "U.S. Census Bureau, international trade API: imports by port, HS 2709 (crude petroleum), country Venezuela (3070). Vessel value and shipping weight; barrels estimated at 152.5 kg/bbl (Merey 16).",
  "monthly": [
   {
    "month": "2025-01",
-   "value_usd": 1143450674,
-   "est_bbl": 17225743,
-   "ports": 9,
+   "value_usd": 571725337,
+   "est_bbl": 8612872,
+   "ports": 8,
    "usd_per_bbl": 66.38
   },
   {
    "month": "2025-02",
-   "value_usd": 834085550,
-   "est_bbl": 12432116,
-   "ports": 7,
+   "value_usd": 417042775,
+   "est_bbl": 6216058,
+   "ports": 6,
    "usd_per_bbl": 67.09
   },
   {
    "month": "2025-03",
-   "value_usd": 950328480,
-   "est_bbl": 14154381,
-   "ports": 9,
+   "value_usd": 475164240,
+   "est_bbl": 7077190,
+   "ports": 8,
    "usd_per_bbl": 67.14
   },
   {
    "month": "2025-04",
-   "value_usd": 642634712,
-   "est_bbl": 9993450,
-   "ports": 7,
+   "value_usd": 321317356,
+   "est_bbl": 4996725,
+   "ports": 6,
    "usd_per_bbl": 64.31
   },
   {
    "month": "2025-05",
-   "value_usd": 467249930,
-   "est_bbl": 7288058,
-   "ports": 5,
+   "value_usd": 233624965,
+   "est_bbl": 3644029,
+   "ports": 4,
    "usd_per_bbl": 64.11
   },
   {
    "month": "2025-06",
-   "value_usd": 384268194,
-   "est_bbl": 5188711,
-   "ports": 4,
+   "value_usd": 192134097,
+   "est_bbl": 2594356,
+   "ports": 3,
    "usd_per_bbl": 74.06
   },
   {
    "month": "2025-08",
-   "value_usd": 131568186,
-   "est_bbl": 2458811,
-   "ports": 4,
+   "value_usd": 65784093,
+   "est_bbl": 1229405,
+   "ports": 3,
    "usd_per_bbl": 53.51
   },
   {
    "month": "2025-09",
-   "value_usd": 270048174,
-   "est_bbl": 4862873,
-   "ports": 5,
+   "value_usd": 135024087,
+   "est_bbl": 2431437,
+   "ports": 4,
    "usd_per_bbl": 55.53
   },
   {
    "month": "2025-10",
-   "value_usd": 528831664,
-   "est_bbl": 8960987,
-   "ports": 8,
+   "value_usd": 264415832,
+   "est_bbl": 4480493,
+   "ports": 7,
    "usd_per_bbl": 59.01
   },
   {
    "month": "2025-11",
-   "value_usd": 546953052,
-   "est_bbl": 9145233,
-   "ports": 8,
+   "value_usd": 273476526,
+   "est_bbl": 4572617,
+   "ports": 7,
    "usd_per_bbl": 59.81
   },
   {
    "month": "2025-12",
-   "value_usd": 537508860,
-   "est_bbl": 8674262,
-   "ports": 7,
+   "value_usd": 268754430,
+   "est_bbl": 4337131,
+   "ports": 6,
    "usd_per_bbl": 61.97
   },
   {
    "month": "2026-01",
-   "value_usd": 772706812,
-   "est_bbl": 12546752,
-   "ports": 6,
+   "value_usd": 386353406,
+   "est_bbl": 6273376,
+   "ports": 5,
    "usd_per_bbl": 61.59
   },
   {
    "month": "2026-02",
-   "value_usd": 577840244,
-   "est_bbl": 9630881,
-   "ports": 7,
+   "value_usd": 288920122,
+   "est_bbl": 4815441,
+   "ports": 6,
    "usd_per_bbl": 60.0
   },
   {
    "month": "2026-03",
-   "value_usd": 1565062502,
-   "est_bbl": 19641738,
-   "ports": 9,
-   "usd_per_bbl": 79.68
+   "value_usd": 857623129,
+   "est_bbl": 9820869,
+   "ports": 8,
+   "usd_per_bbl": 87.33
   },
   {
    "month": "2026-04",
-   "value_usd": 2101952839,
-   "est_bbl": 22913037,
-   "ports": 9,
-   "usd_per_bbl": 91.74
+   "value_usd": 1099324700,
+   "est_bbl": 11456518,
+   "ports": 8,
+   "usd_per_bbl": 95.96
   },
   {
    "month": "2026-05",
-   "value_usd": 2593648270,
-   "est_bbl": 29215688,
-   "ports": 11,
+   "value_usd": 1296824135,
+   "est_bbl": 14607844,
+   "ports": 10,
    "usd_per_bbl": 88.78
   },
   {
    "month": "2026-06",
-   "value_usd": 3069928296,
-   "est_bbl": 37762230,
-   "ports": 11,
-   "usd_per_bbl": 81.3
+   "value_usd": 1579217680,
+   "est_bbl": 18881115,
+   "ports": 10,
+   "usd_per_bbl": 83.64
   },
   {
    "month": "2026-07",
-   "value_usd": 2614694920,
-   "est_bbl": 35221093,
-   "ports": 11,
+   "value_usd": 1307347460,
+   "est_bbl": 17610547,
+   "ports": 10,
    "usd_per_bbl": 74.24
   },
   {
    "month": "2026-08",
-   "value_usd": 3022213057,
-   "est_bbl": 37841499,
-   "ports": 11,
-   "usd_per_bbl": 79.87
+   "value_usd": 1561110046,
+   "est_bbl": 18920749,
+   "ports": 10,
+   "usd_per_bbl": 82.51
   }
  ],
  "rows": [
-  {
-   "month": "2025-01",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 571725337,
-   "weight_kg": 1313462856,
-   "est_bbl": 8612871,
-   "usd_per_bbl": 66.38
-  },
   {
    "month": "2025-01",
    "port": "2002",
@@ -220,15 +211,6 @@
   },
   {
    "month": "2025-02",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 417042775,
-   "weight_kg": 947948852,
-   "est_bbl": 6216058,
-   "usd_per_bbl": 67.09
-  },
-  {
-   "month": "2025-02",
    "port": "1903",
    "port_name": "Pascagoula, Ms",
    "value_usd": 152515159,
@@ -280,15 +262,6 @@
    "weight_kg": 30376068,
    "est_bbl": 199187,
    "usd_per_bbl": 73.45
-  },
-  {
-   "month": "2025-03",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 475164240,
-   "weight_kg": 1079271647,
-   "est_bbl": 7077191,
-   "usd_per_bbl": 67.14
   },
   {
    "month": "2025-03",
@@ -364,15 +337,6 @@
   },
   {
    "month": "2025-04",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 321317356,
-   "weight_kg": 762000592,
-   "est_bbl": 4996725,
-   "usd_per_bbl": 64.31
-  },
-  {
-   "month": "2025-04",
    "port": "5311",
    "port_name": "Freeport, Tx",
    "value_usd": 111611403,
@@ -427,15 +391,6 @@
   },
   {
    "month": "2025-05",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 233624965,
-   "weight_kg": 555714348,
-   "est_bbl": 3644029,
-   "usd_per_bbl": 64.11
-  },
-  {
-   "month": "2025-05",
    "port": "2104",
    "port_name": "Beaumont, Tx",
    "value_usd": 72493251,
@@ -472,15 +427,6 @@
   },
   {
    "month": "2025-06",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 192134097,
-   "weight_kg": 395639176,
-   "est_bbl": 2594355,
-   "usd_per_bbl": 74.06
-  },
-  {
-   "month": "2025-06",
    "port": "5311",
    "port_name": "Freeport, Tx",
    "value_usd": 122650562,
@@ -508,15 +454,6 @@
   },
   {
    "month": "2025-08",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 65784093,
-   "weight_kg": 187484435,
-   "est_bbl": 1229406,
-   "usd_per_bbl": 53.51
-  },
-  {
-   "month": "2025-08",
    "port": "2002",
    "port_name": "New Orleans, La",
    "value_usd": 31872509,
@@ -541,15 +478,6 @@
    "weight_kg": 53685691,
    "est_bbl": 352037,
    "usd_per_bbl": 47.83
-  },
-  {
-   "month": "2025-09",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 135024087,
-   "weight_kg": 370794060,
-   "est_bbl": 2431436,
-   "usd_per_bbl": 55.53
   },
   {
    "month": "2025-09",
@@ -586,15 +514,6 @@
    "weight_kg": 44067894,
    "est_bbl": 288970,
    "usd_per_bbl": 53.19
-  },
-  {
-   "month": "2025-10",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 264415832,
-   "weight_kg": 683275314,
-   "est_bbl": 4480494,
-   "usd_per_bbl": 59.01
   },
   {
    "month": "2025-10",
@@ -661,15 +580,6 @@
   },
   {
    "month": "2025-11",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 273476526,
-   "weight_kg": 697323941,
-   "est_bbl": 4572616,
-   "usd_per_bbl": 59.81
-  },
-  {
-   "month": "2025-11",
    "port": "2002",
    "port_name": "New Orleans, La",
    "value_usd": 110752360,
@@ -733,15 +643,6 @@
   },
   {
    "month": "2025-12",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 268754430,
-   "weight_kg": 661412403,
-   "est_bbl": 4337131,
-   "usd_per_bbl": 61.97
-  },
-  {
-   "month": "2025-12",
    "port": "5311",
    "port_name": "Freeport, Tx",
    "value_usd": 87898896,
@@ -796,15 +697,6 @@
   },
   {
    "month": "2026-01",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 386353406,
-   "weight_kg": 956689820,
-   "est_bbl": 6273376,
-   "usd_per_bbl": 61.59
-  },
-  {
-   "month": "2026-01",
    "port": "5311",
    "port_name": "Freeport, Tx",
    "value_usd": 132205539,
@@ -847,15 +739,6 @@
    "weight_kg": 154104928,
    "est_bbl": 1010524,
    "usd_per_bbl": 49.24
-  },
-  {
-   "month": "2026-02",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 288920122,
-   "weight_kg": 734354654,
-   "est_bbl": 4815440,
-   "usd_per_bbl": 60.0
   },
   {
    "month": "2026-02",
@@ -910,15 +793,6 @@
    "weight_kg": 18972390,
    "est_bbl": 124409,
    "usd_per_bbl": 51.18
-  },
-  {
-   "month": "2026-03",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 707439373,
-   "weight_kg": 1497682574,
-   "est_bbl": 9820869,
-   "usd_per_bbl": 72.03
   },
   {
    "month": "2026-03",
@@ -994,15 +868,6 @@
   },
   {
    "month": "2026-04",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 1002628139,
-   "weight_kg": 1747119074,
-   "est_bbl": 11456519,
-   "usd_per_bbl": 87.52
-  },
-  {
-   "month": "2026-04",
    "port": "2002",
    "port_name": "New Orleans, La",
    "value_usd": 316310477,
@@ -1072,15 +937,6 @@
    "weight_kg": 0,
    "est_bbl": null,
    "usd_per_bbl": null
-  },
-  {
-   "month": "2026-05",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 1296824135,
-   "weight_kg": 2227696166,
-   "est_bbl": 14607844,
-   "usd_per_bbl": 88.78
   },
   {
    "month": "2026-05",
@@ -1174,15 +1030,6 @@
   },
   {
    "month": "2026-06",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 1490710616,
-   "weight_kg": 2879370036,
-   "est_bbl": 18881115,
-   "usd_per_bbl": 78.95
-  },
-  {
-   "month": "2026-06",
    "port": "2104",
    "port_name": "Beaumont, Tx",
    "value_usd": 289161333,
@@ -1273,15 +1120,6 @@
   },
   {
    "month": "2026-07",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 1307347460,
-   "weight_kg": 2685608337,
-   "est_bbl": 17610546,
-   "usd_per_bbl": 74.24
-  },
-  {
-   "month": "2026-07",
    "port": "2017",
    "port_name": "Lake Charles, La",
    "value_usd": 213868407,
@@ -1369,15 +1207,6 @@
    "weight_kg": 76333220,
    "est_bbl": 500546,
    "usd_per_bbl": 60.05
-  },
-  {
-   "month": "2026-08",
-   "port": "-",
-   "port_name": "Total For All Ports",
-   "value_usd": 1461103011,
-   "weight_kg": 2885414430,
-   "est_bbl": 18920750,
-   "usd_per_bbl": 77.22
   },
   {
    "month": "2026-08",
