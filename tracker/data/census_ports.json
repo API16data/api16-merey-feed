@@ -1,0 +1,1473 @@
+{
+ "updated": "2026-10-29T04:08:31Z",
+ "source": "U.S. Census Bureau, international trade API: imports by port, HS 2709 (crude petroleum), country Venezuela (3070). Vessel value and shipping weight; barrels estimated at 152.5 kg/bbl (Merey 16).",
+ "monthly": [
+  {
+   "month": "2025-01",
+   "value_usd": 1143450674,
+   "est_bbl": 17225743,
+   "ports": 9,
+   "usd_per_bbl": 66.38
+  },
+  {
+   "month": "2025-02",
+   "value_usd": 834085550,
+   "est_bbl": 12432116,
+   "ports": 7,
+   "usd_per_bbl": 67.09
+  },
+  {
+   "month": "2025-03",
+   "value_usd": 950328480,
+   "est_bbl": 14154381,
+   "ports": 9,
+   "usd_per_bbl": 67.14
+  },
+  {
+   "month": "2025-04",
+   "value_usd": 642634712,
+   "est_bbl": 9993450,
+   "ports": 7,
+   "usd_per_bbl": 64.31
+  },
+  {
+   "month": "2025-05",
+   "value_usd": 467249930,
+   "est_bbl": 7288058,
+   "ports": 5,
+   "usd_per_bbl": 64.11
+  },
+  {
+   "month": "2025-06",
+   "value_usd": 384268194,
+   "est_bbl": 5188711,
+   "ports": 4,
+   "usd_per_bbl": 74.06
+  },
+  {
+   "month": "2025-08",
+   "value_usd": 131568186,
+   "est_bbl": 2458811,
+   "ports": 4,
+   "usd_per_bbl": 53.51
+  },
+  {
+   "month": "2025-09",
+   "value_usd": 270048174,
+   "est_bbl": 4862873,
+   "ports": 5,
+   "usd_per_bbl": 55.53
+  },
+  {
+   "month": "2025-10",
+   "value_usd": 528831664,
+   "est_bbl": 8960987,
+   "ports": 8,
+   "usd_per_bbl": 59.01
+  },
+  {
+   "month": "2025-11",
+   "value_usd": 546953052,
+   "est_bbl": 9145233,
+   "ports": 8,
+   "usd_per_bbl": 59.81
+  },
+  {
+   "month": "2025-12",
+   "value_usd": 537508860,
+   "est_bbl": 8674262,
+   "ports": 7,
+   "usd_per_bbl": 61.97
+  },
+  {
+   "month": "2026-01",
+   "value_usd": 772706812,
+   "est_bbl": 12546752,
+   "ports": 6,
+   "usd_per_bbl": 61.59
+  },
+  {
+   "month": "2026-02",
+   "value_usd": 577840244,
+   "est_bbl": 9630881,
+   "ports": 7,
+   "usd_per_bbl": 60.0
+  },
+  {
+   "month": "2026-03",
+   "value_usd": 1565062502,
+   "est_bbl": 19641738,
+   "ports": 9,
+   "usd_per_bbl": 79.68
+  },
+  {
+   "month": "2026-04",
+   "value_usd": 2101952839,
+   "est_bbl": 22913037,
+   "ports": 9,
+   "usd_per_bbl": 91.74
+  },
+  {
+   "month": "2026-05",
+   "value_usd": 2593648270,
+   "est_bbl": 29215688,
+   "ports": 11,
+   "usd_per_bbl": 88.78
+  },
+  {
+   "month": "2026-06",
+   "value_usd": 3069928296,
+   "est_bbl": 37762230,
+   "ports": 11,
+   "usd_per_bbl": 81.3
+  },
+  {
+   "month": "2026-07",
+   "value_usd": 2614694920,
+   "est_bbl": 35221093,
+   "ports": 11,
+   "usd_per_bbl": 74.24
+  },
+  {
+   "month": "2026-08",
+   "value_usd": 3022213057,
+   "est_bbl": 37841499,
+   "ports": 11,
+   "usd_per_bbl": 79.87
+  }
+ ],
+ "rows": [
+  {
+   "month": "2025-01",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 571725337,
+   "weight_kg": 1313462856,
+   "est_bbl": 8612871,
+   "usd_per_bbl": 66.38
+  },
+  {
+   "month": "2025-01",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 216864070,
+   "weight_kg": 490528866,
+   "est_bbl": 3216583,
+   "usd_per_bbl": 67.42
+  },
+  {
+   "month": "2025-01",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 117526267,
+   "weight_kg": 248724672,
+   "est_bbl": 1630981,
+   "usd_per_bbl": 72.06
+  },
+  {
+   "month": "2025-01",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 64232550,
+   "weight_kg": 147080614,
+   "est_bbl": 964463,
+   "usd_per_bbl": 66.6
+  },
+  {
+   "month": "2025-01",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 45999788,
+   "weight_kg": 126446855,
+   "est_bbl": 829160,
+   "usd_per_bbl": 55.48
+  },
+  {
+   "month": "2025-01",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 42033966,
+   "weight_kg": 110516556,
+   "est_bbl": 724699,
+   "usd_per_bbl": 58.0
+  },
+  {
+   "month": "2025-01",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 37640637,
+   "weight_kg": 74926554,
+   "est_bbl": 491322,
+   "usd_per_bbl": 76.61
+  },
+  {
+   "month": "2025-01",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 26497065,
+   "weight_kg": 61063036,
+   "est_bbl": 400413,
+   "usd_per_bbl": 66.17
+  },
+  {
+   "month": "2025-01",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 20930994,
+   "weight_kg": 54175703,
+   "est_bbl": 355251,
+   "usd_per_bbl": 58.92
+  },
+  {
+   "month": "2025-02",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 417042775,
+   "weight_kg": 947948852,
+   "est_bbl": 6216058,
+   "usd_per_bbl": 67.09
+  },
+  {
+   "month": "2025-02",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 152515159,
+   "weight_kg": 331609971,
+   "est_bbl": 2174492,
+   "usd_per_bbl": 70.14
+  },
+  {
+   "month": "2025-02",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 130116369,
+   "weight_kg": 285418236,
+   "est_bbl": 1871595,
+   "usd_per_bbl": 69.52
+  },
+  {
+   "month": "2025-02",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 66045062,
+   "weight_kg": 158795390,
+   "est_bbl": 1041281,
+   "usd_per_bbl": 63.43
+  },
+  {
+   "month": "2025-02",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 32308737,
+   "weight_kg": 86828020,
+   "est_bbl": 569364,
+   "usd_per_bbl": 56.75
+  },
+  {
+   "month": "2025-02",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 21426430,
+   "weight_kg": 54921167,
+   "est_bbl": 360139,
+   "usd_per_bbl": 59.49
+  },
+  {
+   "month": "2025-02",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 14631018,
+   "weight_kg": 30376068,
+   "est_bbl": 199187,
+   "usd_per_bbl": 73.45
+  },
+  {
+   "month": "2025-03",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 475164240,
+   "weight_kg": 1079271647,
+   "est_bbl": 7077191,
+   "usd_per_bbl": 67.14
+  },
+  {
+   "month": "2025-03",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 120328886,
+   "weight_kg": 281731159,
+   "est_bbl": 1847417,
+   "usd_per_bbl": 65.13
+  },
+  {
+   "month": "2025-03",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 110821293,
+   "weight_kg": 244954585,
+   "est_bbl": 1606260,
+   "usd_per_bbl": 68.99
+  },
+  {
+   "month": "2025-03",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 126938700,
+   "weight_kg": 227555337,
+   "est_bbl": 1492166,
+   "usd_per_bbl": 85.07
+  },
+  {
+   "month": "2025-03",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 80601579,
+   "weight_kg": 224535786,
+   "est_bbl": 1472366,
+   "usd_per_bbl": 54.74
+  },
+  {
+   "month": "2025-03",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 15482556,
+   "weight_kg": 43101151,
+   "est_bbl": 282630,
+   "usd_per_bbl": 54.78
+  },
+  {
+   "month": "2025-03",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 10482941,
+   "weight_kg": 28191313,
+   "est_bbl": 184861,
+   "usd_per_bbl": 56.71
+  },
+  {
+   "month": "2025-03",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 9162504,
+   "weight_kg": 25299811,
+   "est_bbl": 165900,
+   "usd_per_bbl": 55.23
+  },
+  {
+   "month": "2025-03",
+   "port": "5306",
+   "port_name": "Texas City, Tx",
+   "value_usd": 1345781,
+   "weight_kg": 3902505,
+   "est_bbl": 25590,
+   "usd_per_bbl": 52.59
+  },
+  {
+   "month": "2025-04",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 321317356,
+   "weight_kg": 762000592,
+   "est_bbl": 4996725,
+   "usd_per_bbl": 64.31
+  },
+  {
+   "month": "2025-04",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 111611403,
+   "weight_kg": 212473775,
+   "est_bbl": 1393271,
+   "usd_per_bbl": 80.11
+  },
+  {
+   "month": "2025-04",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 86384255,
+   "weight_kg": 209148441,
+   "est_bbl": 1371465,
+   "usd_per_bbl": 62.99
+  },
+  {
+   "month": "2025-04",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 41270076,
+   "weight_kg": 117167864,
+   "est_bbl": 768314,
+   "usd_per_bbl": 53.72
+  },
+  {
+   "month": "2025-04",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 38476331,
+   "weight_kg": 92579034,
+   "est_bbl": 607076,
+   "usd_per_bbl": 63.38
+  },
+  {
+   "month": "2025-04",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 24918780,
+   "weight_kg": 77245746,
+   "est_bbl": 506529,
+   "usd_per_bbl": 49.2
+  },
+  {
+   "month": "2025-04",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 18656511,
+   "weight_kg": 53385732,
+   "est_bbl": 350070,
+   "usd_per_bbl": 53.29
+  },
+  {
+   "month": "2025-05",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 233624965,
+   "weight_kg": 555714348,
+   "est_bbl": 3644029,
+   "usd_per_bbl": 64.11
+  },
+  {
+   "month": "2025-05",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 72493251,
+   "weight_kg": 187385007,
+   "est_bbl": 1228754,
+   "usd_per_bbl": 59.0
+  },
+  {
+   "month": "2025-05",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 60557044,
+   "weight_kg": 158975772,
+   "est_bbl": 1042464,
+   "usd_per_bbl": 58.09
+  },
+  {
+   "month": "2025-05",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 76364830,
+   "weight_kg": 137156758,
+   "est_bbl": 899389,
+   "usd_per_bbl": 84.91
+  },
+  {
+   "month": "2025-05",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 24209840,
+   "weight_kg": 72196811,
+   "est_bbl": 473422,
+   "usd_per_bbl": 51.14
+  },
+  {
+   "month": "2025-06",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 192134097,
+   "weight_kg": 395639176,
+   "est_bbl": 2594355,
+   "usd_per_bbl": 74.06
+  },
+  {
+   "month": "2025-06",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 122650562,
+   "weight_kg": 220017066,
+   "est_bbl": 1442735,
+   "usd_per_bbl": 85.01
+  },
+  {
+   "month": "2025-06",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 54551753,
+   "weight_kg": 137335203,
+   "est_bbl": 900559,
+   "usd_per_bbl": 60.58
+  },
+  {
+   "month": "2025-06",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 14931782,
+   "weight_kg": 38286907,
+   "est_bbl": 251062,
+   "usd_per_bbl": 59.47
+  },
+  {
+   "month": "2025-08",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 65784093,
+   "weight_kg": 187484435,
+   "est_bbl": 1229406,
+   "usd_per_bbl": 53.51
+  },
+  {
+   "month": "2025-08",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 31872509,
+   "weight_kg": 79462321,
+   "est_bbl": 521064,
+   "usd_per_bbl": 61.17
+  },
+  {
+   "month": "2025-08",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 17074643,
+   "weight_kg": 54336423,
+   "est_bbl": 356304,
+   "usd_per_bbl": 47.92
+  },
+  {
+   "month": "2025-08",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 16836941,
+   "weight_kg": 53685691,
+   "est_bbl": 352037,
+   "usd_per_bbl": 47.83
+  },
+  {
+   "month": "2025-09",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 135024087,
+   "weight_kg": 370794060,
+   "est_bbl": 2431436,
+   "usd_per_bbl": 55.53
+  },
+  {
+   "month": "2025-09",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 49908875,
+   "weight_kg": 133599298,
+   "est_bbl": 876061,
+   "usd_per_bbl": 56.97
+  },
+  {
+   "month": "2025-09",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 47785546,
+   "weight_kg": 130075259,
+   "est_bbl": 852953,
+   "usd_per_bbl": 56.02
+  },
+  {
+   "month": "2025-09",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 21959478,
+   "weight_kg": 63051609,
+   "est_bbl": 413453,
+   "usd_per_bbl": 53.11
+  },
+  {
+   "month": "2025-09",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 15370188,
+   "weight_kg": 44067894,
+   "est_bbl": 288970,
+   "usd_per_bbl": 53.19
+  },
+  {
+   "month": "2025-10",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 264415832,
+   "weight_kg": 683275314,
+   "est_bbl": 4480494,
+   "usd_per_bbl": 59.01
+  },
+  {
+   "month": "2025-10",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 64699530,
+   "weight_kg": 157044833,
+   "est_bbl": 1029802,
+   "usd_per_bbl": 62.83
+  },
+  {
+   "month": "2025-10",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 49008971,
+   "weight_kg": 131732592,
+   "est_bbl": 863820,
+   "usd_per_bbl": 56.74
+  },
+  {
+   "month": "2025-10",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 34109205,
+   "weight_kg": 105927931,
+   "est_bbl": 694609,
+   "usd_per_bbl": 49.11
+  },
+  {
+   "month": "2025-10",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 28698126,
+   "weight_kg": 90075752,
+   "est_bbl": 590661,
+   "usd_per_bbl": 48.59
+  },
+  {
+   "month": "2025-10",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 29393389,
+   "weight_kg": 70835007,
+   "est_bbl": 464492,
+   "usd_per_bbl": 63.28
+  },
+  {
+   "month": "2025-10",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 39151302,
+   "weight_kg": 70632226,
+   "est_bbl": 463162,
+   "usd_per_bbl": 84.53
+  },
+  {
+   "month": "2025-10",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 19355309,
+   "weight_kg": 57026973,
+   "est_bbl": 373947,
+   "usd_per_bbl": 51.76
+  },
+  {
+   "month": "2025-11",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 273476526,
+   "weight_kg": 697323941,
+   "est_bbl": 4572616,
+   "usd_per_bbl": 59.81
+  },
+  {
+   "month": "2025-11",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 110752360,
+   "weight_kg": 289027311,
+   "est_bbl": 1895261,
+   "usd_per_bbl": 58.44
+  },
+  {
+   "month": "2025-11",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 32787778,
+   "weight_kg": 80069444,
+   "est_bbl": 525046,
+   "usd_per_bbl": 62.45
+  },
+  {
+   "month": "2025-11",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 43750314,
+   "weight_kg": 78875287,
+   "est_bbl": 517215,
+   "usd_per_bbl": 84.59
+  },
+  {
+   "month": "2025-11",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 28362199,
+   "weight_kg": 76041212,
+   "est_bbl": 498631,
+   "usd_per_bbl": 56.88
+  },
+  {
+   "month": "2025-11",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 25735918,
+   "weight_kg": 75649282,
+   "est_bbl": 496061,
+   "usd_per_bbl": 51.88
+  },
+  {
+   "month": "2025-11",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 17137398,
+   "weight_kg": 51885499,
+   "est_bbl": 340233,
+   "usd_per_bbl": 50.37
+  },
+  {
+   "month": "2025-11",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 14950559,
+   "weight_kg": 45775906,
+   "est_bbl": 300170,
+   "usd_per_bbl": 49.81
+  },
+  {
+   "month": "2025-12",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 268754430,
+   "weight_kg": 661412403,
+   "est_bbl": 4337131,
+   "usd_per_bbl": 61.97
+  },
+  {
+   "month": "2025-12",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 87898896,
+   "weight_kg": 159179801,
+   "est_bbl": 1043802,
+   "usd_per_bbl": 84.21
+  },
+  {
+   "month": "2025-12",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 57433178,
+   "weight_kg": 151554606,
+   "est_bbl": 993801,
+   "usd_per_bbl": 57.79
+  },
+  {
+   "month": "2025-12",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 50957685,
+   "weight_kg": 134055002,
+   "est_bbl": 879049,
+   "usd_per_bbl": 57.97
+  },
+  {
+   "month": "2025-12",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 38483025,
+   "weight_kg": 113403850,
+   "est_bbl": 743632,
+   "usd_per_bbl": 51.75
+  },
+  {
+   "month": "2025-12",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 17627414,
+   "weight_kg": 53907184,
+   "est_bbl": 353490,
+   "usd_per_bbl": 49.87
+  },
+  {
+   "month": "2025-12",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 16354232,
+   "weight_kg": 49311960,
+   "est_bbl": 323357,
+   "usd_per_bbl": 50.58
+  },
+  {
+   "month": "2026-01",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 386353406,
+   "weight_kg": 956689820,
+   "est_bbl": 6273376,
+   "usd_per_bbl": 61.59
+  },
+  {
+   "month": "2026-01",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 132205539,
+   "weight_kg": 237551558,
+   "est_bbl": 1557715,
+   "usd_per_bbl": 84.87
+  },
+  {
+   "month": "2026-01",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 80853947,
+   "weight_kg": 213775531,
+   "est_bbl": 1401807,
+   "usd_per_bbl": 57.68
+  },
+  {
+   "month": "2026-01",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 66235281,
+   "weight_kg": 178611826,
+   "est_bbl": 1171225,
+   "usd_per_bbl": 56.55
+  },
+  {
+   "month": "2026-01",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 57301270,
+   "weight_kg": 172645977,
+   "est_bbl": 1132105,
+   "usd_per_bbl": 50.61
+  },
+  {
+   "month": "2026-01",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 49757369,
+   "weight_kg": 154104928,
+   "est_bbl": 1010524,
+   "usd_per_bbl": 49.24
+  },
+  {
+   "month": "2026-02",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 288920122,
+   "weight_kg": 734354654,
+   "est_bbl": 4815440,
+   "usd_per_bbl": 60.0
+  },
+  {
+   "month": "2026-02",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 85616537,
+   "weight_kg": 212135882,
+   "est_bbl": 1391055,
+   "usd_per_bbl": 61.55
+  },
+  {
+   "month": "2026-02",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 88095266,
+   "weight_kg": 158497643,
+   "est_bbl": 1039329,
+   "usd_per_bbl": 84.76
+  },
+  {
+   "month": "2026-02",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 53499016,
+   "weight_kg": 152845265,
+   "est_bbl": 1002264,
+   "usd_per_bbl": 53.38
+  },
+  {
+   "month": "2026-02",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 36387994,
+   "weight_kg": 138131092,
+   "est_bbl": 905778,
+   "usd_per_bbl": 40.17
+  },
+  {
+   "month": "2026-02",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 18954109,
+   "weight_kg": 53772382,
+   "est_bbl": 352606,
+   "usd_per_bbl": 53.75
+  },
+  {
+   "month": "2026-02",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 6367200,
+   "weight_kg": 18972390,
+   "est_bbl": 124409,
+   "usd_per_bbl": 51.18
+  },
+  {
+   "month": "2026-03",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 707439373,
+   "weight_kg": 1497682574,
+   "est_bbl": 9820869,
+   "usd_per_bbl": 72.03
+  },
+  {
+   "month": "2026-03",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 259632239,
+   "weight_kg": 526392327,
+   "est_bbl": 3451753,
+   "usd_per_bbl": 75.22
+  },
+  {
+   "month": "2026-03",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 153472208,
+   "weight_kg": 305454341,
+   "est_bbl": 2002979,
+   "usd_per_bbl": 76.62
+  },
+  {
+   "month": "2026-03",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 71382694,
+   "weight_kg": 187705646,
+   "est_bbl": 1230857,
+   "usd_per_bbl": 57.99
+  },
+  {
+   "month": "2026-03",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 73956978,
+   "weight_kg": 168545780,
+   "est_bbl": 1105218,
+   "usd_per_bbl": 66.92
+  },
+  {
+   "month": "2026-03",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 84025440,
+   "weight_kg": 146693447,
+   "est_bbl": 961924,
+   "usd_per_bbl": 87.35
+  },
+  {
+   "month": "2026-03",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 39827249,
+   "weight_kg": 116658490,
+   "est_bbl": 764974,
+   "usd_per_bbl": 52.06
+  },
+  {
+   "month": "2026-03",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 25142565,
+   "weight_kg": 46232543,
+   "est_bbl": 303164,
+   "usd_per_bbl": 82.93
+  },
+  {
+   "month": "2026-03",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 150183756,
+   "weight_kg": 0,
+   "est_bbl": null,
+   "usd_per_bbl": null
+  },
+  {
+   "month": "2026-04",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 1002628139,
+   "weight_kg": 1747119074,
+   "est_bbl": 11456519,
+   "usd_per_bbl": 87.52
+  },
+  {
+   "month": "2026-04",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 316310477,
+   "weight_kg": 535389967,
+   "est_bbl": 3510754,
+   "usd_per_bbl": 90.1
+  },
+  {
+   "month": "2026-04",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 149250464,
+   "weight_kg": 305650824,
+   "est_bbl": 2004268,
+   "usd_per_bbl": 74.47
+  },
+  {
+   "month": "2026-04",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 161187144,
+   "weight_kg": 267758268,
+   "est_bbl": 1755792,
+   "usd_per_bbl": 91.8
+  },
+  {
+   "month": "2026-04",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 130666371,
+   "weight_kg": 229320992,
+   "est_bbl": 1503744,
+   "usd_per_bbl": 86.89
+  },
+  {
+   "month": "2026-04",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 98263742,
+   "weight_kg": 155784722,
+   "est_bbl": 1021539,
+   "usd_per_bbl": 96.19
+  },
+  {
+   "month": "2026-04",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 73594103,
+   "weight_kg": 129755427,
+   "est_bbl": 850855,
+   "usd_per_bbl": 86.49
+  },
+  {
+   "month": "2026-04",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 73355838,
+   "weight_kg": 123458874,
+   "est_bbl": 809566,
+   "usd_per_bbl": 90.61
+  },
+  {
+   "month": "2026-04",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 96696561,
+   "weight_kg": 0,
+   "est_bbl": null,
+   "usd_per_bbl": null
+  },
+  {
+   "month": "2026-05",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 1296824135,
+   "weight_kg": 2227696166,
+   "est_bbl": 14607844,
+   "usd_per_bbl": 88.78
+  },
+  {
+   "month": "2026-05",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 275265974,
+   "weight_kg": 448448289,
+   "est_bbl": 2940645,
+   "usd_per_bbl": 93.61
+  },
+  {
+   "month": "2026-05",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 210991349,
+   "weight_kg": 402284532,
+   "est_bbl": 2637931,
+   "usd_per_bbl": 79.98
+  },
+  {
+   "month": "2026-05",
+   "port": "2017",
+   "port_name": "Lake Charles, La",
+   "value_usd": 151631299,
+   "weight_kg": 293088296,
+   "est_bbl": 1921890,
+   "usd_per_bbl": 78.9
+  },
+  {
+   "month": "2026-05",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 145480693,
+   "weight_kg": 263986345,
+   "est_bbl": 1731058,
+   "usd_per_bbl": 84.04
+  },
+  {
+   "month": "2026-05",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 134724345,
+   "weight_kg": 228714399,
+   "est_bbl": 1499767,
+   "usd_per_bbl": 89.83
+  },
+  {
+   "month": "2026-05",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 94084684,
+   "weight_kg": 199356065,
+   "est_bbl": 1307253,
+   "usd_per_bbl": 71.97
+  },
+  {
+   "month": "2026-05",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 96493474,
+   "weight_kg": 152088579,
+   "est_bbl": 997302,
+   "usd_per_bbl": 96.75
+  },
+  {
+   "month": "2026-05",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 110871601,
+   "weight_kg": 124106284,
+   "est_bbl": 813812,
+   "usd_per_bbl": 136.24
+  },
+  {
+   "month": "2026-05",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 53365237,
+   "weight_kg": 78943099,
+   "est_bbl": 517660,
+   "usd_per_bbl": 103.09
+  },
+  {
+   "month": "2026-05",
+   "port": "1101",
+   "port_name": "Philadelphia, Pa",
+   "value_usd": 23915479,
+   "weight_kg": 36680278,
+   "est_bbl": 240526,
+   "usd_per_bbl": 99.43
+  },
+  {
+   "month": "2026-06",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 1490710616,
+   "weight_kg": 2879370036,
+   "est_bbl": 18881115,
+   "usd_per_bbl": 78.95
+  },
+  {
+   "month": "2026-06",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 289161333,
+   "weight_kg": 543520251,
+   "est_bbl": 3564067,
+   "usd_per_bbl": 81.13
+  },
+  {
+   "month": "2026-06",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 284606317,
+   "weight_kg": 533869270,
+   "est_bbl": 3500782,
+   "usd_per_bbl": 81.3
+  },
+  {
+   "month": "2026-06",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 205715203,
+   "weight_kg": 443259996,
+   "est_bbl": 2906623,
+   "usd_per_bbl": 70.77
+  },
+  {
+   "month": "2026-06",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 185038258,
+   "weight_kg": 375157729,
+   "est_bbl": 2460051,
+   "usd_per_bbl": 75.22
+  },
+  {
+   "month": "2026-06",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 171872695,
+   "weight_kg": 304055933,
+   "est_bbl": 1993809,
+   "usd_per_bbl": 86.2
+  },
+  {
+   "month": "2026-06",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 135564439,
+   "weight_kg": 256961216,
+   "est_bbl": 1684992,
+   "usd_per_bbl": 80.45
+  },
+  {
+   "month": "2026-06",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 109528730,
+   "weight_kg": 224318075,
+   "est_bbl": 1470938,
+   "usd_per_bbl": 74.46
+  },
+  {
+   "month": "2026-06",
+   "port": "2017",
+   "port_name": "Lake Charles, La",
+   "value_usd": 83217241,
+   "weight_kg": 147739493,
+   "est_bbl": 968784,
+   "usd_per_bbl": 85.9
+  },
+  {
+   "month": "2026-06",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 26006400,
+   "weight_kg": 50488073,
+   "est_bbl": 331069,
+   "usd_per_bbl": 78.55
+  },
+  {
+   "month": "2026-06",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 88507064,
+   "weight_kg": 0,
+   "est_bbl": null,
+   "usd_per_bbl": null
+  },
+  {
+   "month": "2026-07",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 1307347460,
+   "weight_kg": 2685608337,
+   "est_bbl": 17610546,
+   "usd_per_bbl": 74.24
+  },
+  {
+   "month": "2026-07",
+   "port": "2017",
+   "port_name": "Lake Charles, La",
+   "value_usd": 213868407,
+   "weight_kg": 459454677,
+   "est_bbl": 3012818,
+   "usd_per_bbl": 70.99
+  },
+  {
+   "month": "2026-07",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 226585659,
+   "weight_kg": 439461374,
+   "est_bbl": 2881714,
+   "usd_per_bbl": 78.63
+  },
+  {
+   "month": "2026-07",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 202816668,
+   "weight_kg": 416517820,
+   "est_bbl": 2731264,
+   "usd_per_bbl": 74.26
+  },
+  {
+   "month": "2026-07",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 173593970,
+   "weight_kg": 319208006,
+   "est_bbl": 2093167,
+   "usd_per_bbl": 82.93
+  },
+  {
+   "month": "2026-07",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 133687045,
+   "weight_kg": 272330889,
+   "est_bbl": 1785776,
+   "usd_per_bbl": 74.86
+  },
+  {
+   "month": "2026-07",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 126752307,
+   "weight_kg": 228048050,
+   "est_bbl": 1495397,
+   "usd_per_bbl": 84.76
+  },
+  {
+   "month": "2026-07",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 83660265,
+   "weight_kg": 206250425,
+   "est_bbl": 1352462,
+   "usd_per_bbl": 61.86
+  },
+  {
+   "month": "2026-07",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 64057234,
+   "weight_kg": 144643295,
+   "est_bbl": 948481,
+   "usd_per_bbl": 67.54
+  },
+  {
+   "month": "2026-07",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 52270557,
+   "weight_kg": 123360581,
+   "est_bbl": 808922,
+   "usd_per_bbl": 64.62
+  },
+  {
+   "month": "2026-07",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 30055348,
+   "weight_kg": 76333220,
+   "est_bbl": 500546,
+   "usd_per_bbl": 60.05
+  },
+  {
+   "month": "2026-08",
+   "port": "-",
+   "port_name": "Total For All Ports",
+   "value_usd": 1461103011,
+   "weight_kg": 2885414430,
+   "est_bbl": 18920750,
+   "usd_per_bbl": 77.22
+  },
+  {
+   "month": "2026-08",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 303455614,
+   "weight_kg": 596294362,
+   "est_bbl": 3910127,
+   "usd_per_bbl": 77.61
+  },
+  {
+   "month": "2026-08",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 258085959,
+   "weight_kg": 478070563,
+   "est_bbl": 3134889,
+   "usd_per_bbl": 82.33
+  },
+  {
+   "month": "2026-08",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 179006997,
+   "weight_kg": 377910020,
+   "est_bbl": 2478098,
+   "usd_per_bbl": 72.24
+  },
+  {
+   "month": "2026-08",
+   "port": "2017",
+   "port_name": "Lake Charles, La",
+   "value_usd": 172970852,
+   "weight_kg": 362357002,
+   "est_bbl": 2376111,
+   "usd_per_bbl": 72.8
+  },
+  {
+   "month": "2026-08",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 159343062,
+   "weight_kg": 333037461,
+   "est_bbl": 2183852,
+   "usd_per_bbl": 72.96
+  },
+  {
+   "month": "2026-08",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 127035770,
+   "weight_kg": 228302443,
+   "est_bbl": 1497065,
+   "usd_per_bbl": 84.86
+  },
+  {
+   "month": "2026-08",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 117541872,
+   "weight_kg": 214369860,
+   "est_bbl": 1405704,
+   "usd_per_bbl": 83.62
+  },
+  {
+   "month": "2026-08",
+   "port": "5301",
+   "port_name": "Houston, Tx",
+   "value_usd": 75096751,
+   "weight_kg": 154991564,
+   "est_bbl": 1016338,
+   "usd_per_bbl": 73.89
+  },
+  {
+   "month": "2026-08",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 68566134,
+   "weight_kg": 140081155,
+   "est_bbl": 918565,
+   "usd_per_bbl": 74.64
+  },
+  {
+   "month": "2026-08",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 100007035,
+   "weight_kg": 0,
+   "est_bbl": null,
+   "usd_per_bbl": null
+  }
+ ]
+}
