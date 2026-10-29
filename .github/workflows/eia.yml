@@ -2,7 +2,8 @@ name: EIA official data
 
 on:
   schedule:
-    - cron: "23 11 * * *"
+    - cron: "23 11 * * *"   # morning: monthly and daily data
+    - cron: "23 16 * * *"   # afternoon: EIA weekly report is out by ~14:30 UTC on Wednesdays
   workflow_dispatch: {}
 
 permissions:
