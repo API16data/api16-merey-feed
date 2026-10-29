@@ -41,7 +41,7 @@ CATEGORIES = [
     ("Debt", r"\bbond|debt|creditor|deuda|bonos|acreedor|restructur|reestructur"),
     ("Refining", r"refiner|refiner[ií]a|cardon|cardón|amuay|el palito|puerto la cruz"),
     ("Exports", r"export|cargo|tanker|shipment|import|exporta|cargament|buque|tanquero|importaci"),
-    ("Production", r"production|output|b/d|bpd|barrels a day|producci[oó]n|barriles|rig\b|taladro"),
+    ("Production", r"production|output|b/d|bpd|barrels a day|producci[oó]n|barriles|rig\b|taladro|redevelop|drilling|oilfield|oil field"),
     ("Investment", r"invest|deal|contract|agreement|inversi[oó]n|contrato|acuerdo|stake|participaci"),
     ("Pricing", r"price|merey|brent|precio|cesta|discount|descuento"),
     ("Gas", r"\bgas\b|lng|gnl"),
@@ -147,19 +147,19 @@ def highlights(items, now, n=5):
         if NUMERIC.search(it["title"]):
             sc += 3
         if it.get("origin") == "curated":
-            sc += 2
+            sc += 1
         if REPUTABLE.search(it.get("source", "")):
             sc += 1
         if MILESTONE.search(it["title"]):
             sc += 2
-        return sc - 0.6 * age_days(it)
+        return sc - 1.5 * age_days(it)  # fresh news first: a day-old story must be clearly more important to stay
 
     pool = [i for i in items if i.get("category") in WEIGHT and is_english(i) and RELEVANT.search(i["title"])
             and (i.get("origin") == "curated" or not POLITICS.search(i["title"]))
             and not i.get("context")
             and str(i.get("url", "")).startswith("https://")]
     out = []
-    for window in (4, 10, 30):
+    for window in (2, 4, 10, 30):
         cands = sorted((i for i in pool if age_days(i) <= window), key=lambda i: (score(i), i["date"]), reverse=True)
         out = []
         for it in cands:
