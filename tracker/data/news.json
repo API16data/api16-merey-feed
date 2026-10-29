@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "d7ce362bd4f6",
+   "date": "2026-10-29T05:00Z",
+   "title": "Venezuela’s oil revival threatened by worker shortage",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92UUVzLUNjdnNHYXAzWWY1aW51MkJGNG9odTRHX1RpVVRKLVJnalpxczQ5UldLQlV2ZE05MGFqd3d2amFha0oxRC15bFR4NzJhWl9XMHY1dzVxMWxfQ1JYMGJPY0lOcUdralZ1eGhSRzI?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "166a46a55ff4",
+   "date": "2026-10-29T04:40Z",
+   "title": "Alejandro Betancourt: “No hay mejor socio que el gobierno de EE.UU.”",
+   "source": "PETROGUIA",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObU5JalkxY1hKdk1SMHRobWZCWERvcXMxRDJwbUtjdkdpdzctTFVmLVJRcW5zMFA0RFRfcU0zZFVGMkgtZEZocFVOTGtZNGZUbWhCUmlPeERUSGgzTXE2bHlaUkQtVHBLNlAyYWI1U1NkampzZWdGTVpBTUYzZTlxT3RuWkxHazNXRi1MWVEtWk9mQUl5S2hYekw3dmhMZG8zS053Z1VwaDVxWDF2aWxIWlZYdktaYlcxOVFmb294QkJHb0N6U1Y3anRIQ3FmZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "1d063c4eab66",
    "date": "2026-10-29T03:19Z",
    "title": "Pdvsa proyecta más de un millón de barriles adicionales en 2027",
@@ -118,6 +138,16 @@
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQXdEemx1REI5ZTZlNXoxXzBnU1VRVVBJNEk1YU5uWUM5THFFc0FUN3NxOUtuazB0ZjNLRTYtMTNBeVNvUzduMnVPdTg3OXNiSVcxNWdtdzBiaDN4Y25fOFQ2NGVxZHVQNmhhdUk0ZGJzdGZVMUlQUVZHY0lva1J2NnFCLXZROFJob1JsYXlRN1ZmN3U2QmY0QlBGVU9lYXhYVU9FRVcwMzFYQVhyWDdYaUQ0dnFiWHNIOXJNU2VVQjVGeXBDSDFmMVVZOWU2SUE?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "b9d380535507",
+   "date": "2026-10-28T21:07Z",
+   "title": "Texas recibe primer cargamento de petróleo del acuerdo entre EE UU y Nabep",
+   "source": "Correo del Caroní",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTkI5bklzaWRPOXFPN09pLVR2a0gxOWF6Y1VmcmxYQ1dwUVhmZUF6eHQ3T0NNT0dkeXZJTkttVXlnZV9TemkwRXc4LWkyd1U4SFZ0MzE4Zk9raHZpZERlOFU1eTl2dllRR01CWGxCSDA1NW53WWdzZDcyUkNGaWU1Z01EcUY5dkxreEJnaEhBZUJMdGYwcG5qbC1MaGQ2NjJvRTNDc3R5MVJtY0hHMjdHNGZ0bmVPMk9vbFhXWQ?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7834,36 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "b0a11d2eb17b",
-   "date": "2026-10-22T07:00Z",
-   "title": "Northeast Heating Oil Forecast Winter 2026-27: NY MA CT NH",
-   "source": "globaloilshock.com",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMDFpOWNFazUwVC1QVEZTMENBR0kzVTRVc283d2pPNWdsaVQ0OGlQdkszdDZMWFQtY1I2MXdSXzIzLWJDTVBYazJ0T2dxZFAwc0VLZl9BcEJiR0dIZjhBcTdCTXZGTGxUZE5ZaEI4R0tzV1FwejlvZTZha3R3YXNLTXBPS3VaeWVPaXd5OTJ3?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "a74e543057ac",
-   "date": "2026-10-22T06:26Z",
-   "title": "ENERGY & POLITICS: Only Democratic Government Can Provide Stability for Oil Investors, Venezuelan Opposition Machado Leader Says",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMUh3bnBFcFBGNFdSVUxiRGdIR00tcFVGUXZyYlNKZU9NRm9MSFNkdjFOeThqS0laR0pWNkNXLUp5c1pYS21MbWhHeVZsWHhDbEk2b0VBUWNVWjZ4QWtYS3YyYjRTS0FTdTh5UGhXemUxUGxoMXZzQVNPbnJmQTV0NjRIZFNIWWgwd1Q1M0hYZ0l4N1drOGFLeFJGS293M0VETV9zSkRabEhDaWdfSjdOY2tmbkZISUpJUHBoMEQ4V2VZVzBnb3FfbmxYMA?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "03018d02dd8a",
-   "date": "2026-10-22T02:22Z",
-   "title": "El petróleo venezolano promedia 93,75 dólares por barril, su máximo en más de una década",
-   "source": "Diario Versión Final",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTmVRMmF0NGk0Umh5XzdjUUd2d0VDQmp1RzY2MTNZMGlSY3JQOEpoTWJGT3hTb3paR2oxLXg5emtYZVRNaXpFZ3djcFBfQ2hVbGFITkFhRlc1cHBrQmg0bmdsajNaSzZxLVF0RmdBQ3FsY0ZNVjJEdk5DX0V2MXdELTlnVC1TdlVEUk9YSWZObDZJc2VrNThqRURhNk1qZG5ISEhGQjVSZlF5LVV3cWxHTkxJdk82TGEyQ24ycU5FdnBEcDdYemViVkhLTkMzWkU?oc=5",
-   "category": "General",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T04:36:50Z",
+ "updated": "2026-10-29T05:34:02Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
