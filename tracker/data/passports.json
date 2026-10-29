@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T15:01:51Z",
+ "updated": "2026-10-29T15:56:49Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -29,6 +29,59 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-352004839-2026-10-29",
+   "mmsi": 352004839,
+   "imo": 9971733,
+   "name": "NAVE NEUTRINO",
+   "length_m": 250,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "destination_now": "VEBJV=>USPOA",
+   "destinations": [
+    {
+     "dest": "VEBJV=>USPOA",
+     "first": "2026-10-29T15:56:49Z"
+    }
+   ],
+   "last_seen": "2026-10-29T15:56:49Z",
+   "last_zone": "Open sea / other",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-29T15:56:49Z",
+     "detail": "declared destination VEBJV=>USPOA"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 9.4 m vs ~13.0 m laden mark"
     },
     {
      "stage": "Crossed a Caribbean gate",

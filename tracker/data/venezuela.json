@@ -1,7 +1,21 @@
 {
- "updated": "2026-10-29T15:01:51Z",
+ "updated": "2026-10-29T15:56:49Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 352004839,
+   "imo": 9971733,
+   "name": "NAVE NEUTRINO",
+   "length_m": 250,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Open sea / other",
+   "last_seen": "2026-10-29T15:56:49Z",
+   "destination": "VEBJV=>USPOA",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
   {
    "mmsi": 210144000,
    "imo": 9923748,
