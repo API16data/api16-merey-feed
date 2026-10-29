@@ -396,7 +396,7 @@
       const z = Math.round(12 + 14 * Math.sqrt(r.est_bbl / max));
       const pi = L.divIcon({ className: 'mk-ico', iconSize: [z, z], iconAnchor: [z / 2, z / 2],
         html: '<svg width="' + z + '" height="' + z + '" viewBox="0 0 24 24"><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="#3B5B8C" stroke="#fff" stroke-width="2.5"/></svg>' });
-      const mk = L.marker([la, lo], { icon: pi, zIndexOffset: 800, title: r.port_name });
+      const mk = L.marker([la, lo], { icon: pi, zIndexOffset: -200, opacity: .85, title: r.port_name });
       mk.bindTooltip(r.port_name + ' · ' + n2.format(r.est_bbl / 1e6) + 'M bbl · click for details');
       mk.bindPopup(() => {
         const box = el('div', 'pop'); box.append(el('h4', null, r.port_name), el('p', 'sub', 'U.S. port of entry for Venezuelan crude'));
