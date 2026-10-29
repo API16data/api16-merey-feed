@@ -32,7 +32,9 @@
   .brand svg { width: 28px; height: 28px; }
   .brand b { font: 800 21px/1 var(--display); }
   .bar nav { display: flex; gap: 18px; font-size: 14px; }
-  .bar nav a { color: #C9D2DF; text-decoration: none; }
+  .bar nav a { color: #C9D2DF; text-decoration: none; white-space: nowrap; }
+  .bar nav { align-items: center; }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
   .bar nav a:hover, .bar nav a[aria-current] { color: var(--amber2); }
   .head { background: var(--ink); color: #fff; }
   .head .wrap { padding-block: 34px 30px; }
@@ -107,6 +109,7 @@
     <nav aria-label="Main">
       <a href="monitor.html">Live monitor</a>
       <a href="ledger.html" aria-current="page">Cargo Ledger</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
     </nav>
   </div>
 </header>
@@ -132,31 +135,53 @@
 <script>
 (() => {
   const $ = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  const ES = {"Live monitor": "Monitor", "Cargo Ledger · proof-of-cargo": "Cargo Ledger · prueba de carga", "Announced is not verified.": "Anunciado no es verificado.", "Every Venezuelan cargo claimed for the U.S., checked step by step against public evidence: the ship, its AIS track, the terminal, U.S. customs and EIA records. Only cargoes that pass all checks can back finance.": "Cada cargamento venezolano anunciado para EE. UU., revisado paso a paso contra evidencia pública: el buque, su ruta AIS, la terminal, la aduana de EE. UU. y los registros de la EIA. Solo los cargamentos que pasan todas las pruebas pueden respaldar transacciones.", "Loading the ledger…": "Cargando el registro…", "API16 · Open data on Venezuelan oil. Every check links to a public source. Not financial advice.": "API16 · Datos abiertos sobre el petróleo venezolano. Cada verificación enlaza a una fuente pública. No es asesoría financiera.", "Home": "Inicio", "Ledger data (JSON)": "Datos del registro (JSON)", "API16 · Cargo Ledger": "API16 · Cargo Ledger", "Confirmed": "Confirmado", "Partial": "Parcial", "Not shown": "No demostrado", "Pending": "Pendiente", "claimed volume": "volumen anunciado", "tankers claimed": "tanqueros anunciados", "checks confirmed": "pasos confirmados", "Checks": "Verificaciones", "Vessels": "Buques", "Vessel": "Buque", "Type": "Tipo", "Est. capacity": "Capacidad est.", "Named by": "Nombrado por", " Updated ": " Actualizado ", "Live Cargo Passports": "Cargo Passports en vivo", "Built automatically every hour from public AIS: every tanker linked to Venezuela, and how far its voyage to the U.S. can be shown. Evidence, not proof.": "Se arman solos cada hora con AIS público: cada tanquero ligado a Venezuela, y hasta dónde se puede mostrar su viaje a EE. UU. Evidencia, no prueba.", "No Venezuela-linked tanker in the current window.": "Ningún tanquero ligado a Venezuela en la ventana actual.", "Passports appear after the next AIS run.": "Los expedientes aparecen tras la próxima corrida AIS.", "Could not load the ledger data.": "No se pudieron cargar los datos del registro.", " stages": " etapas", "last seen ": "visto por última vez ", "Venezuelan origin": "Origen venezolano", "Departed loaded": "Salió cargado", "Crossed a Caribbean gate": "Cruzó una puerta del Caribe", "Arrived at the U.S. Gulf": "Llegó al Golfo de EE. UU.", "Discharged": "Descargó", "U.S. customs record": "Registro de aduana EE. UU.", "Refinery receipt (EIA-814)": "Recibido por refinería (EIA-814)", "at origin": "en origen", "in transit": "en tránsito", "arrived": "llegó", "discharged": "descargó", "watching": "en vigilancia", "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.": "Hecho solo con AIS público. Cada etapa es evidencia, no prueba: el AIS gratuito no ve muchos buques cerca de Venezuela y el calado lo ingresa la tripulación. Las verificaciones oficiales (aduana, EIA) se suman en el Cargo Ledger."};
+  const DET = [["^seen at ", "visto en "], ["; declared destination ", "; destino declarado "], ["^declared destination ", "destino declarado "], ["named in the news: ", "nombrado en noticias: "], ["draught ([\\d.]+) m vs ~([\\d.]+) m laden mark", "calado $1 m vs ~$2 m de carga completa"], ["^no draught reported yet$", "sin calado reportado aún"], ["^not seen yet$", "aún no visto"], ["draught ([\\d.]+) m -> ([\\d.]+) m at (.+)", "calado $1 m → $2 m en $3"], ["^no draught drop seen yet$", "aún sin baja de calado"], ["^after arrival$", "tras la llegada"], ["^pending: customs publishes (\\S+) about five weeks after month end$", "pendiente: la aduana publica $1 unas cinco semanas después del cierre del mes"], ["^arrival zone (.+) has no single customs port$", "la zona $1 no tiene un solo puerto de aduana"], ["bbl of Venezuelan crude entered (.+) in (\\S+) \\(all cargoes\\)", "bbl de crudo venezolano entraron por $1 en $2 (todas las cargas)"], ["^no Venezuelan crude recorded at (.+) in (\\S+)$", "sin crudo venezolano registrado en $1 en $2"], ["^pending: EIA publishes (\\S+) refinery data about two months after month end$", "pendiente: la EIA publica los datos de refinerías de $1 unos dos meses después del cierre"], ["^no refinery area mapped for ", "sin zona de refinerías definida para "], ["\\(Venezuelan crude, (\\S+)\\)", "(crudo venezolano, $1)"], ["^no refinery in this area reported Venezuelan crude in ", "ninguna refinería de esta zona reportó crudo venezolano en "]].map(([a, b]) => [new RegExp(a), b]);
+  let LANG = (() => {
+    try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'es' || q === 'en') return q; const v = localStorage.getItem('api16-lang'); if (v === 'es' || v === 'en') return v; } catch (e) { /* storage blocked */ }
+    return (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+  })();
+  const tt = (x) => (LANG === 'es' && ES[x]) || x;
+  const trd = (x) => { if (LANG !== 'es' || !x) return x || ''; let y = String(x); DET.forEach(([re, to]) => { y = y.replace(re, to); }); return y; };
+  const f = (o, k) => (LANG === 'es' && o[k + '_es']) || o[k];
+  function applyStatic() {
+    document.documentElement.lang = LANG;
+    const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); let n;
+    while ((n = w.nextNode())) {
+      const pe = n.parentElement; if (!pe || pe.closest('script, #list, #legend, #lang-btn')) continue;
+      if (n.__en === undefined) n.__en = n.nodeValue;
+      const raw = n.__en, k = raw.trim(); if (!k) continue;
+      const v = LANG === 'es' && ES[k]; n.nodeValue = v ? raw.replace(k, v) : raw;
+    }
+    document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+  }
   const LABEL = { confirmed: 'Confirmed', partial: 'Partial', open: 'Not shown', pending: 'Pending' };
-  const pill = (s) => $('span', 'pill s-' + s, LABEL[s] || s);
+  const pill = (s) => $('span', 'pill s-' + s, tt(LABEL[s] || s));
   const safe = (u) => /^https:\/\//.test(String(u));
-  const nf = new Intl.NumberFormat('en-US');
+  let nf;
+  function render() {
+  nf = new Intl.NumberFormat(LANG === 'es' ? 'es-VE' : 'en-US');
   fetch('data/ledger.json', { cache: 'no-store' }).then((r) => r.json()).then((L) => {
-    const lg = document.getElementById('legend');
-    Object.entries(L.statuses || {}).forEach(([k, v]) => { const s = $('span'); s.append(pill(k), document.createTextNode(' ' + v)); lg.append(s); });
+    const lg = document.getElementById('legend'); lg.replaceChildren();
+    Object.entries((LANG === 'es' && L.statuses_es) || L.statuses || {}).forEach(([k, v]) => { const s = $('span'); s.append(pill(k), document.createTextNode(' ' + v)); lg.append(s); });
     const list = document.getElementById('list'); list.replaceChildren();
     (L.cargoes || []).forEach((c) => {
       const card = $('article', 'card');
       card.append($('div', 'id', c.id + ' · ' + c.date + ' · ' + c.port));
-      card.append($('h2', null, c.title));
-      const cl = $('p', 'claim', '“' + c.claim + '” '); cl.append($('small', null, '— ' + c.claimed_by)); card.append(cl);
+      card.append($('h2', null, f(c, 'title')));
+      const cl = $('p', 'claim', '“' + f(c, 'claim') + '” '); cl.append($('small', null, '— ' + f(c, 'claimed_by'))); card.append(cl);
       const passed = c.checks.filter((k) => k.status === 'confirmed').length;
       const facts = $('div', 'facts');
-      [[nf.format(c.volume_bbl) + ' bbl', 'claimed volume'], [String((c.vessels || []).length), 'tankers claimed'],
-       [passed + ' / ' + c.checks.length, 'checks confirmed']].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); facts.append(d); });
+      [[nf.format(c.volume_bbl) + ' bbl', tt('claimed volume')], [String((c.vessels || []).length), tt('tankers claimed')],
+       [passed + ' / ' + c.checks.length, tt('checks confirmed')]].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); facts.append(d); });
       card.append(facts);
-      const v = $('div', 'verdict v-' + c.verdict_status); v.append(pill(c.verdict_status), $('b', null, c.verdict), $('p', null, c.summary)); card.append(v);
-      card.append($('h3', null, 'Checks'));
+      const v = $('div', 'verdict v-' + c.verdict_status); v.append(pill(c.verdict_status), $('b', null, f(c, 'verdict')), $('p', null, f(c, 'summary'))); card.append(v);
+      card.append($('h3', null, tt('Checks')));
       const ol = $('ol', 'steps');
       c.checks.forEach((k) => {
         const li = $('li', 'step s-' + k.status);
-        const h = $('div', 'stephead'); h.append($('span', null, k.step), pill(k.status)); li.append(h);
-        li.append($('p', null, k.detail));
+        const h = $('div', 'stephead'); h.append($('span', null, f(k, 'step')), pill(k.status)); li.append(h);
+        li.append($('p', null, f(k, 'detail')));
         if (k.sources && k.sources.length) {
           const s = $('div', 'src');
           k.sources.forEach(([name, url]) => { if (!safe(url)) return; const a = $('a', null, name + ' ↗'); a.href = url; a.target = '_blank'; a.rel = 'noopener'; s.append(a); });
@@ -165,22 +190,22 @@
         ol.append(li);
       });
       card.append(ol);
-      card.append($('h3', null, 'Vessels'));
+      card.append($('h3', null, tt('Vessels')));
       const tw = $('div', 'tbl'); const t = $('table'); const tr = $('tr');
-      ['Vessel', 'IMO / MMSI', 'Type', 'Est. capacity', 'Named by'].forEach((x) => tr.append($('th', null, x)));
+      ['Vessel', 'IMO / MMSI', 'Type', 'Est. capacity', 'Named by'].forEach((x) => tr.append($('th', null, tt(x))));
       const th = $('thead'); th.append(tr); t.append(th); const tb = $('tbody');
       (c.vessels || []).forEach((s) => {
         const r = $('tr');
-        [s.name, s.imo ? s.imo + ' / ' + s.mmsi : '—', s.type ? s.type + (s.manager ? ' · ' + s.manager : '') : '—',
-         s.est_capacity_bbl ? '≈' + nf.format(s.est_capacity_bbl) + ' bbl' : '—', s.named_by + (s.api16_ais ? '. ' + s.api16_ais : '')].forEach((x) => r.append($('td', null, x)));
+        [f(s, 'name'), s.imo ? s.imo + ' / ' + s.mmsi : '—', s.type ? f(s, 'type') + (s.manager ? ' · ' + f(s, 'manager') : '') : '—',
+         s.est_capacity_bbl ? '≈' + nf.format(s.est_capacity_bbl) + ' bbl' : '—', f(s, 'named_by') + (s.api16_ais ? '. ' + f(s, 'api16_ais') : '')].forEach((x) => r.append($('td', null, x)));
         tb.append(r);
       });
       t.append(tb); tw.append(t); card.append(tw);
       list.append(card);
     });
-    const m = $('p', 'note', L.method + ' Updated ' + L.updated + '.'); list.append(m);
-    const sec = $('section'); sec.append($('h2', 'pp-h', 'Live Cargo Passports'));
-    sec.append($('p', 'note', 'Built automatically every hour from public AIS: every tanker linked to Venezuela, and how far its voyage to the U.S. can be shown. Evidence, not proof.'));
+    const m = $('p', 'note', f(L, 'method') + tt(' Updated ') + L.updated + '.'); list.append(m);
+    const sec = $('section'); sec.append($('h2', 'pp-h', tt('Live Cargo Passports')));
+    sec.append($('p', 'note', tt('Built automatically every hour from public AIS: every tanker linked to Venezuela, and how far its voyage to the U.S. can be shown. Evidence, not proof.')));
     const grid = $('div', 'pp-grid'); sec.append(grid); list.append(sec);
     const ZONE_PORTS = { 'Corpus Christi': ['Corpus Christi'], 'Houston / Galveston / Texas City': ['Houston', 'Galveston', 'Texas City'],
       'Freeport': ['Freeport'], 'Port Arthur / Beaumont / Sabine': ['Port Arthur', 'Beaumont', 'Sabine'], 'Lake Charles': ['Lake Charles'],
@@ -226,20 +251,27 @@
         }
         p.stages.push(rs); p.stages_total = p.stages.length; p.stages_done = p.stages.filter((s) => s.done).length;
       });
-      if (!ps.length) { grid.append($('p', 'note', 'No Venezuela-linked tanker in the current window.')); return; }
+      if (!ps.length) { grid.append($('p', 'note', tt('No Venezuela-linked tanker in the current window.'))); return; }
       ps.slice(0, 30).forEach((p) => {
         const c = $('div', 'pp'); const top = $('div', 'pp-top');
         top.append($('b', null, p.name || ('MMSI ' + p.mmsi)), $('span', null, (p.imo ? 'IMO ' + p.imo + ' · ' : '') + 'MMSI ' + p.mmsi),
-          $('span', null, p.status + ' · ' + p.stages_done + '/' + p.stages_total + ' stages' + (p.est_cargo_kbbl ? ' · ≈' + nf.format(p.est_cargo_kbbl * 1000) + ' bbl' : '')),
-          $('span', null, 'last seen ' + (p.last_seen || '').slice(0, 16).replace('T', ' ') + ' UTC · ' + (p.last_zone || '')));
+          $('span', null, tt(p.status) + ' · ' + p.stages_done + '/' + p.stages_total + tt(' stages') + (p.est_cargo_kbbl ? ' · ≈' + nf.format(p.est_cargo_kbbl * 1000) + ' bbl' : '')),
+          $('span', null, tt('last seen ') + (p.last_seen || '').slice(0, 16).replace('T', ' ') + ' UTC · ' + (p.last_zone || '')));
         c.append(top);
         const st = $('div', 'stages');
-        p.stages.forEach((s) => { const d = $('div', 'stg' + (s.done ? ' done' : (s.partial ? ' part' : ''))); d.append($('b', null, s.stage), $('span', null, s.detail || '')); st.append(d); });
+        p.stages.forEach((s) => { const d = $('div', 'stg' + (s.done ? ' done' : (s.partial ? ' part' : ''))); d.append($('b', null, tt(s.stage)), $('span', null, trd(s.detail))); st.append(d); });
         c.append(st); grid.append(c);
       });
-      sec.append($('p', 'note', P.method + ' Updated ' + (P.updated || '').slice(0, 16).replace('T', ' ') + ' UTC.'));
-    }).catch(() => grid.append($('p', 'note', 'Passports appear after the next AIS run.')));
-  }).catch(() => { document.getElementById('list').replaceChildren($('p', 'note', 'Could not load the ledger data.')); });
+      sec.append($('p', 'note', tt(P.method) + tt(' Updated ') + (P.updated || '').slice(0, 16).replace('T', ' ') + ' UTC.'));
+    }).catch(() => grid.append($('p', 'note', tt('Passports appear after the next AIS run.'))));
+  }).catch(() => { document.getElementById('list').replaceChildren($('p', 'note', tt('Could not load the ledger data.'))); });
+  }
+  applyStatic(); render();
+  document.getElementById('lang-btn').addEventListener('click', () => {
+    LANG = LANG === 'es' ? 'en' : 'es';
+    try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
+    applyStatic(); render();
+  });
 })();
 </script>
 </body>
