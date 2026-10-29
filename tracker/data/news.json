@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "c44b4916b36e",
+   "date": "2026-10-29T08:15Z",
+   "title": "Cámara de Comercio conformará una gerencia de proyectos para impulsar el desarrollo regional",
+   "source": "El Diario de Guayana",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMmc3QU4xOXh6RzBnLWYxYjV1dk1nNm5maXNvaXpPbFhRZjNMYkp3SEljUEtiRDktMW1MVXFZSGJKUF96MHEtdXk0WTNtZTUyMm85YXQ5NmtqVzFiekppOEFNbGRYS0R6RXI1bzVnRDJHQ252dTVXMUMybEp1cDU2RnFSWEdoOC1QTmxBVnBpdmoyc2oxcWc3SkhZV0RaRnljM2lzZVY4ckFocWJGQktNVWZvZnNfV1ZkVUFkQVpzdHVoTm9j?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "99edcb28d7e1",
    "date": "2026-10-29T07:05Z",
    "title": "Venezuela's 2016 bond deal put 50.1% of US oil refiner Citgo's parent up as security, now a US appeals court has rejected its bid to void the debt as a separate sale plan earmarks over $2 billion for the bonds",
@@ -7854,16 +7864,6 @@
    "origin": "rss"
   },
   {
-   "id": "4accaa932481",
-   "date": "2026-10-22T09:31Z",
-   "title": "Chevron Corporation $CVX Stock Sold by Robeco Institutional Asset Management B.V.",
-   "source": "MarketBeat",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVFBzWVBsMnhrQzdRWTlORE1yUFM1QnBuVE5xZjRnQVlJQ3p3UkhrRXJGVFUwZ3lJWU1SMlhWdzBlMnlwWXFudUotWmZYT24xbjBQanhIcjVhWXFGeXV5SksxcE9NMENGUV9OcXZfVERmbFZFWXJrclhUZUpFZFpmTnVyZDFQVGcwdUF5bm5LbHRfZ3B0T0VhSnFOZGhVUEphY0ZLOTBPYjdKbV95SHhFWFBlMEttajVTRjZ1V3dQOU45Q1VQdHBVNjZyME8xclpNLTk3VHBn?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n09",
    "date": "2026-10-17T12:00Z",
    "title": "Venezuela expects nearly US$76B in oil and gas investment over five years, acting president says",
@@ -8029,7 +8029,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T07:51:02Z",
+ "updated": "2026-10-29T08:42:55Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
