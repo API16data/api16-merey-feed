@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:42:07Z",
+ "updated": "2026-10-30T22:42:01Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -32,7 +32,7 @@
      "first": "2026-10-29T15:56:49Z"
     }
    ],
-   "last_seen": "2026-10-30T21:42:07Z",
+   "last_seen": "2026-10-30T22:42:01Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -98,7 +98,7 @@
      "first": "2026-10-30T02:50:42Z"
     }
    ],
-   "last_seen": "2026-10-30T21:42:07Z",
+   "last_seen": "2026-10-30T22:42:01Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -185,6 +185,65 @@
    ]
   },
   {
+   "id": "AIS-538006696-2026-10-30",
+   "mmsi": 538006696,
+   "imo": 9779795,
+   "name": "IONIC ANASSA",
+   "length_m": 250,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USPOA>VEBJV",
+   "destinations": [
+    {
+     "dest": "USPOA",
+     "first": "2026-10-29T06:07:45Z"
+    },
+    {
+     "dest": "USPOA>VEBJV",
+     "first": "2026-10-30T09:55:03Z"
+    }
+   ],
+   "last_seen": "2026-10-30T22:42:01Z",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-30T09:55:03Z",
+     "detail": "declared destination USPOA>VEBJV"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "no draught reported yet"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-210144000-2026-10-27",
    "mmsi": 210144000,
    "imo": 9923748,
@@ -226,65 +285,6 @@
      "done": false,
      "time": "2026-10-27T12:50:55Z",
      "detail": "draught 8.2 m vs ~9.7 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538006696-2026-10-30",
-   "mmsi": 538006696,
-   "imo": 9779795,
-   "name": "IONIC ANASSA",
-   "length_m": 250,
-   "status": "watching",
-   "stages_done": 1,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "USPOA>VEBJV",
-   "destinations": [
-    {
-     "dest": "USPOA",
-     "first": "2026-10-29T06:07:45Z"
-    },
-    {
-     "dest": "USPOA>VEBJV",
-     "first": "2026-10-30T09:55:03Z"
-    }
-   ],
-   "last_seen": "2026-10-30T21:42:07Z",
-   "last_zone": "Port Arthur / Beaumont / Sabine",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-10-30T09:55:03Z",
-     "detail": "declared destination USPOA>VEBJV"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
