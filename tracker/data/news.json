@@ -1285,6 +1285,16 @@
    "origin": "rss"
   },
   {
+   "id": "c1f56c27b577",
+   "date": "2026-10-28T15:06Z",
+   "title": "Consorcio privado pide concesión de 15 años para reactivar ocho plantas de tuberías de Pdvsa",
+   "source": "Descifrado",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUVF1em5EVTRMUDhnWXZvczFpcTZDTllyUnZNTGlSM2E4d1Q0Y2dJTlJ2ejVJRU80NGRqWEszNWd0aGRBanpuNk13Q1o5TnVyREp1UU1JZHJVM1pJVXBCdGV6X0Z0ak1TQWRqYmpoS1BKN25RVF9EYXhCOEJUTUFUWGNqVXZWZXU5ZHNIald6SWQtVGdCQ3lzX0d1SGRpTFc0XzR3dTUwLTNsdm5TY3hYcFdnZ1dKSUZ1dmZ4VER3V3FUeWVDVFJ5UkpZa9IBywFBVV95cUxPUVF1em5EVTRMUDhnWXZvczFpcTZDTllyUnZNTGlSM2E4d1Q0Y2dJTlJ2ejVJRU80NGRqWEszNWd0aGRBanpuNk13Q1o5TnVyREp1UU1JZHJVM1pJVXBCdGV6X0Z0ak1TQWRqYmpoS1BKN25RVF9EYXhCOEJUTUFUWGNqVXZWZXU5ZHNIald6SWQtVGdCQ3lzX0d1SGRpTFc0XzR3dTUwLTNsdm5TY3hYcFdnZ1dKSUZ1dmZ4VER3V3FUeWVDVFJ5UkpZaw?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "70c36f9fcec5",
    "date": "2026-10-28T14:58Z",
    "title": "PDVSA 2020 Bonds: Opposition Politics Collided With the Law",
@@ -7814,16 +7824,6 @@
    "origin": "rss"
   },
   {
-   "id": "64a0c5e4c0e9",
-   "date": "2026-10-23T16:04Z",
-   "title": "U.S. Removes Venezuela From List of Countries Subject to Investment Restrictions",
-   "source": "teleSUR English",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOanVWd19yejhpNkJvTktGN3lxMDhWOXl3WE5BdGdDZHkzQ1BoamFfMmwzTno4bVllLVc5c1VJUzNqQlhXZkhtNnRlY2NlLUNwM1pwb1BGQ19hM0JHM3ZHYkdQNDhUbXhraVdZTVhicEV2MW9nWXdVc0xEWlktM3M1NVdYQ1Fjb2pwWHJCbGZ3STh2S21NSHc3WDhnUHB6OVdyc21rRnpCcDRuRHBaNi1BaA?oc=5",
-   "category": "Investment",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n05",
    "date": "2026-10-23T12:00Z",
    "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T05:34:00Z",
+ "updated": "2026-10-30T06:36:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
