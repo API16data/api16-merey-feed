@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T15:54:25Z",
+ "updated": "2026-10-30T16:51:24Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -32,7 +32,7 @@
      "first": "2026-10-30T02:50:42Z"
     }
    ],
-   "last_seen": "2026-10-30T15:54:25Z",
+   "last_seen": "2026-10-30T16:51:24Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -207,7 +207,7 @@
      "first": "2026-10-30T09:55:03Z"
     }
    ],
-   "last_seen": "2026-10-30T15:54:25Z",
+   "last_seen": "2026-10-30T16:51:24Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
