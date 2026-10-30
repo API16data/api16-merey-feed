@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "cd5ce60ef8fd",
+   "date": "2026-10-29T23:59Z",
+   "title": "Port leaders discuss growth after Trump's Corpus Christi visit",
+   "source": "kiiitv.com",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZGpHVmstbVZxVTZOeWdHc3hMSnJvcFBNTVVodHhhTjdsdE1OSEJBVzEzVVVrOVpQODkwYWhxOUt1UnZBNTdXVUlwWGY0anU5a1R5SFBQUEFiX1lsUXk0eTNOVVl2Q2huZHlZN2pUekFzMEN6ZEVTLWVaOUVZSWVFMENTOTBYenBNNnQtV3VLX1JTMUlXLU04cFdveE5SOWppMnRQU1RCUXl0NjM3cVhyMVhGV0dSczFDNFpVNW5UTnRwVkNVS1ZWT0FmNk9tWHUwMWdoOXNJdW1RektYeDNGb0FhOUpKTlNSeVE?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "398eb6e642e6",
    "date": "2026-10-29T22:18Z",
    "title": "ENI, petrolera italiana, inicia operaciones en la Faja del Orinoco",
@@ -28,6 +38,16 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejBZcXN3TENlS092clpBQ0Fzd09Mbmx6TTAtQXdJeXFleUszeFJUQTk5MTFjLUNXQWcwOE4wZFZ0WUFYRTlBUzFzaW5wQXF2NHNGeU96d3gyOVZERml1V2toYTVGa3NOby0xWWlwYVpXMmM4TEFZVUhjRXpoTVo1eHk2T0tNNVE5WlRqX1lXVWl1dm1iVVJCblN5T0ZWTXlaOUpMZTJpQ0lPS0VpSWV0MERiRGVXeUlOcnhHZNIBwgFBVV95cUxPUnJIYnE3bU9Xakx4RGRZQ195bGc2Zl9DNWlod05OUUJFUlVkUGNYUERGczBHdUZSdURieFBMR1Zyemx5NGNyMU5ya0NBN241Y0x4V1RZSm9hWS1BWGtmVl91R043a2JkNWJvNTkyQ3NzNzRvVWhmYTQwemdTRFFTNmpNUVI1SXVjMksyM0dtTjY0NDlNVUJuWEVTVjA0ZlVxbFh3bE4wMXFfd2hOVW1TT25OUU9Fbmc4bWU4eE05a0dfUQ?oc=5",
    "category": "Investment",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "ea8d807b71b2",
+   "date": "2026-10-29T21:37Z",
+   "title": "Oil Price Shocks Now Benefit the US as Venezuelan Crude Flows to Texas",
+   "source": "economy.ac",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02WE5RdU9oQ0pTSngwTWlVcFRIX2NOd3owLXFPVmRuN2hGdDFnanhHdC1zanhFWHd2Vl9YRHhJa0M5amtCd0pmQVgxeDNDR2tNcjhyRGM4VG9BUQ?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -157,6 +177,16 @@
    "source": "Radio America",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN29IRGk5T1FRNy1MYVhSaFZzMTAzVm5HWXRwb0xQSWQ5SEM3VTdEVVVsTUZhN3F2cmx4cmxYa1RuLW9KaHpaWm9YUTA3MmJMcHp4WXZYTTVGMXduQUFlWVNJMGJwNWxJbzVPdmc3WnhKeW5VXzRETG9uLS1VMU9mUDhEMXNyTXBXTnRQSmdFWUFLMDlqeGFpVQ?oc=5",
    "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "706d8ee69106",
+   "date": "2026-10-29T16:10Z",
+   "title": "Falta contexto: Sheinbaum no comparó a México con Venezuela al rechazar derechos petroleros a EEUU",
+   "source": "Cotejo.info",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd2lRQURGSExIMUIwVG53OWVBUXg2SmE3Smp4aWdaNlVGZktLSFE2cWh2Qlh0ckJ0QXBwZTF4UFgxT0JhU1pMOXJGMkw2OVlNN2lZNllQQ2p4Zzc4RzZnT2FGQ3NBclowZEJrbDhfU2hxZEVyQi1XZjBjbVZSa000OTRGSUdqZWRsLUFr?oc=5",
+   "category": "General",
    "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
@@ -7794,26 +7824,6 @@
    "origin": "rss"
   },
   {
-   "id": "659995d4025d",
-   "date": "2026-10-23T13:24Z",
-   "title": "¿Venezuela tiene las mayores reservas de petróleo del mundo?",
-   "source": "Efecto Cocuyo",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ3BmZ2JUaUU3Ny1SOEszTkh1NV8wZkdBNDItNDZnSmtxTHZyRGg0Z2IzM3pHeU4xUVlvY0hQcW1DcjlBU2NlZjNDWlBZTXdRdlRicEpQa0ZKNzhIQ0tPQ2FwaGIyX2RueW1XVHZGZ2JPVThRZnBrUGttVmJRb05jWVBMR2NsTnBHSE1EY1B4TExmLVYyUnlNSEZJLXhsZFBf?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "402e504251f4",
-   "date": "2026-10-23T12:30Z",
-   "title": "U.S. Partner in Venezuela Oil Deal Looks to Hike Crude Production",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdzhLT3BKZlVvOUxvM25BUzREX0Z0MmllUlMyVVpRd09oVEQ5S0k1Z05ldl85OEtpREJBOHc0NWNRenk4QVd2WDRTRzRJWl9iMzZUb3hzaU41RlJiWWg2ckdPYXcyZWVZamlMb1JCLTdMUEhLaU94MEZIeTl5Vk5YWUhMWW5UbnJYYTlsOTNycW9mOTBXQTcxS1d1UlpVOFVoQVM0ZjJiald6R251YTZRdjJKQUp2Ql9ERFE40gHAAUFVX3lxTFBxbGJTdjA1RXFuV3FZSkJhNk5jNDhwVmhESHgzLW0yVjBnTGtRbHF4ZC1tV3M4M2JUVDRzY2llZzFUWElfN0FzelhkdnVoUFdaSldXSTFaaVEzcngzV1ZQN1htenVHZm9SRUYyRkdhaUdHQkFVMVRQUkc5R2ZPYkxtVkNmVjJOc0VNZl8xN25kb1VmQnlMaGNVOEFYZFBlT0V5OVhKelY1VzQwVG45RGlHRVBsRWxvck96QW5xSFRIOA?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n05",
    "date": "2026-10-23T12:00Z",
    "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
@@ -7856,16 +7866,6 @@
    "via": "API16 curated",
    "key_figure": "223,509 boe/d",
    "origin": "curated"
-  },
-  {
-   "id": "b942275a73d4",
-   "date": "2026-10-23T11:59Z",
-   "title": "Russian ESPO oil sellers seek record premiums as Gulf exports uncertain",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFdMeDFRZldDUmNTY1oyRGViTC1HOVdsZEhFdE9ORFk2Mkt1eHN0OGpaY2QzeFpHdThqaW5oRUZOLVRlM1VxOVZHWDQ0WlRvWk85Nzd0Q0lnRDdNbndUWFQ5M0JKb09sc01ha3VzaU9WQktuYU1Qa3BCRHc4a3lnQVI5ZExfTmIwTEVrWExkcUFhY2l1c3BlQXU4aTZfMDBZemVxRWQ5LWM5ekt3ZGd4ZjhqQ1Z5MXZzeFR0Xw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
   },
   {
    "id": "c-n09",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-29T23:59:53Z",
+ "updated": "2026-10-30T00:49:42Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
