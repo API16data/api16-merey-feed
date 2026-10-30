@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "5bde6724b32f",
+   "date": "2026-10-30T16:35Z",
+   "title": "Chevron CEO on joint ventures in Venezuela: Output to reach roughly 600K barrels per day by 2031",
+   "source": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNemxUUzg0bDZRYzdqbTVRbFRNLU9FbXBvcmFVSjQxUEZTSzRZYXFWNktjYkVXemxaVWNCSnJjbWFnNzRvMU9tQS1KS0pfSjdXRjlKSWVOT1BjZG1UNWcxTE5xMzBmeUZidlJnWUhndE90clRnMWpvb0pKVVR4U3o5a3FwN0N5aV9oODNDb2paSElrT1hPWkV6QTlkZWRoRjhxc1ppZXY2MjZDTlV3aU5yVjd5LWE1YVo5UWlxVmxfTVJrVWR0MjB6NnBZTm5raGllczRhdg?oc=5",
+   "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "449f9eb11cfd",
    "date": "2026-10-30T16:06Z",
    "title": "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say",
@@ -78,6 +88,16 @@
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRm91aEwxeWhmY3M4b1Byb0hpX0dfdmY3MWFNUGFaMGJvNDZaTUhFUXQ3TEJLWnZHbWxTc0d6N1hxcjRBRjNtZjQxb0N4amtHWGhhYzZ0QWp1VFQ0MUctTDlLVXpmZERzVWdZQUpVNktkbzNtQ2xYR3ZhOHl2aXVfQzc0RjdJdktWYWs5Y3pId0lLMUxw?oc=5",
    "category": "Production",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "972210cd5431",
+   "date": "2026-10-30T13:45Z",
+   "title": "AP team reveals Trump’s math on U.S. deal for Venezuelan oil doesn’t add up",
+   "source": "www.ap.org",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOX2htczdGaE1LMG9VOF9VMkNZV01MNDdzZG1vYlJoM1p4TUZlV2M3MUdpR0JsSWRkdXFYbWZpSG9iT0hLbzlfdlZNbG1IaDd3VzZ6cUwyaXEwOWJQcFhvaC1nd0tka0dDX0sxdlEyM3dwTVl1Zk9vX0g1SGJtU08wRERrTW9rQXl5ZDN4Mi0xZjMwY1JIdk5wM3AwTjJWOUZrdHRIaTJKLV9ac0RRUVRSaV9DQ2tSWHk5YUxSSTl6dUk1dDY1dTV1em44SExvaXdodFpLZ21mSFRxR0FZ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -178,6 +198,16 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yVTdHUGpVRkxRNS1hTFR0Vm5vMXFQV1JRcTVtWlFNYlFiLWRwdDhCQjVIeFhtOUVnQThtenFwdHY4WnhqQTM2MnBBWDdSdjhEMG1SWjZJNEE0QzJnOE12MDFIVEJUMUhHV1ptSUdseXNJNXRobWkwRXlIT2c?oc=5",
    "category": "Refining",
    "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "11d0973bac9d",
+   "date": "2026-10-30T11:40Z",
+   "title": "Trump promocionó acuerdo petrolero sin precedentes en Venezuela. Ahora, la realidad se impone",
+   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTlpmOHZVSTFobVJMWE9VRHd6V3IzeXl0NWdwZDZJY2tWMDFDMWFoRU9RdUQwZ2ZiSnp4MEdBZFRua3lPcUI2MDZnZVNHYzNoSDB2T1ZXbF9oNnBpWkR6cXhYN2hOdk9lLTdVLTNEajNiYU53T2xIZlJua2hFT1JlcHJqTnFTeFJ2cDVRMGVuTjhSZ0JNUld0S3J3cmtKR1NUejJ6QW5mcw?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7794,36 +7824,6 @@
    "origin": "rss"
   },
   {
-   "id": "cd6da4c848b4",
-   "date": "2026-10-24T02:18Z",
-   "title": "Pdvsa reporta nivel de producción de 382 mil 500 barriles diarios",
-   "source": "Diario Primicia",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeU91bS1VUjdyTTAwSFJCejBzRWRUdzN1YlBJNUtNUk9tNElOaDRBbGZGaFJTbHRwTUxzemt5NWNMVzN2NDRPREdLWnZvOXA2VWZGdXFuY2RzeUVwMERoR0t4aWpNMnRjenFjSFhmMzctUnNIV244azZhYzlKbjdEQl9QRVZrOHNGYnFwLXBKVVI1RklMNzdLc3JSTHFudFJh?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "cd9058772350",
-   "date": "2026-10-24T01:45Z",
-   "title": "T&T has ‘vital role’ in Venezuela’s recovery",
-   "source": "Trinidad Express Newspapers",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeUp1LVhsZVlCenJOZHpfMFB5ZWNsampPeFdPZTBJby05dmVlN0ExQTNUNjhrMW5QOXlDM1EtdHZIZ284MUp2bWoxTnJJakg5aEJwU1FacXN1d3lha21Hb1VfSFA3YVJMZkhkWUFsVHhTdjJGYk5tajI5NEhqZnJzcnM5TkV2QmFNQ25nREdiT3l2OTFOZHhuOFJoUF9VZGQyX0tCMncyQnZHSVJ3N3dsbW1MODRWeEdGSjE1OE91cnNVMHEyQWJCOGhfTVJDaDli0gHWAUFVX3lxTFBpMGFsM29FT21DRlR5LVBheTlEOHBXZFFhanZyVmgxaXJ6ODU1WkdOdXZkajAwQ0VGbWNpeTA2UkxXRkpwRmlWWndzZ042THJVQzdCeThHMXN1X0dOa1E1emhfRTFYVTIyQ1NvN3pyYVZsaDdxSE8wMVhPLXJIOW0zMFZuQmNFMU9EcmpEUmZhdWw3M3Q3T2NONTNkTm9JeER5UmRrNXZOcjNPUmVNT1Vyd3EzczhrQ1VCS1I4NDZKYUZpNVM3UjJWcFJYckh6SDhsS1J0OUE?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "2c6c1e51cd21",
-   "date": "2026-10-24T00:58Z",
-   "title": "Presidenta Delcy Rodríguez inspecciona avances de proyectos petroleros Venezuela-EE.UU. La presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, lideró una jornada de inspección a los proyectos petroleros desarrollados entre Venezu",
-   "source": "Instagram",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XQ3R4NElQeTNDUzkzNlM2dE5FSDF5U2NnRG9yNHo4SGJDT0p5UXFDVjBuMW1QZ1U2LU1tZ2Q0aXJQajhSSWRvZTJ0MUUzNFJXQ2c?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n05",
    "date": "2026-10-23T12:00Z",
    "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T16:15:20Z",
+ "updated": "2026-10-30T17:11:24Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8068,13 +8068,13 @@
    "featured": true
   },
   {
-   "date": "2026-10-30T14:05Z",
-   "title": "Chevron CEO Mike Wirth on Venezuela licenses: Output to reach roughly 600k barrels per day by 2031",
+   "date": "2026-10-30T16:35Z",
+   "title": "Chevron CEO on joint ventures in Venezuela: Output to reach roughly 600K barrels per day by 2031",
    "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQnZHS2VjWlJZdV9FS2FfN00xQTlPWENPb3RqaFNYS0tFTUlMQUJlaWpGR1ptaEtPbGpMUThod2NIMUZoN3ZkXzk0TWxQZmZFQ0dWUV82NlZEcWFJRXJlQURkbV9JZmN5SlFlZ3RIZUZ0OXViNUJhNGFNekZ6cEJrVk1iOUF3b212NTNtZklmVi1BS09WUTBGbE54QktZWTRRQ3Fjb0NkRzZHMG4tcEtacFFwNDY0dWZPZGF2bTNoUTNFZnlVV0xtUlNPS0lQWTBVaXZZaWMxSQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNemxUUzg0bDZRYzdqbTVRbFRNLU9FbXBvcmFVSjQxUEZTSzRZYXFWNktjYkVXemxaVWNCSnJjbWFnNzRvMU9tQS1KS0pfSjdXRjlKSWVOT1BjZG1UNWcxTE5xMzBmeUZidlJnWUhndE90clRnMWpvb0pKVVR4U3o5a3FwN0N5aV9oODNDb2paSElrT1hPWkV6QTlkZWRoRjhxc1ppZXY2MjZDTlV3aU5yVjd5LWE1YVo5UWlxVmxfTVJrVWR0MjB6NnBZTm5raGllczRhdg?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
-   "key_figure": "600k barrels"
+   "key_figure": "600K barrels"
   },
   {
    "date": "2026-10-28T20:38Z",
