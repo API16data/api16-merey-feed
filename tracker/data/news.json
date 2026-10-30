@@ -21,6 +21,16 @@
    "origin": "rss"
   },
   {
+   "id": "da60eca5c04a",
+   "date": "2026-10-30T15:58Z",
+   "title": "Sanctions: the US perspective",
+   "source": "Global Investigations Review",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRjRXLWNPRnF6QWcyTmJnRjN3cjhUOFNHd3hrYXdQVU93SWRvYTY2MU1mWG1Xc3FtYU95YUVxM1JfR3NvYzZzX0hrS2pvSGpJYzVfRW5iZDJlXy1SVEJsdXZ2MEctTkZHaUlINDVCVk9GSk54WGJhNjBLUDlnYTFUc1FWZndZU0VJcHZlRjFMUk9LRE0yZ1oyb1FNSEFwR3B1alNtaExoQ1NpMzMtbVQtd0paalROVE9oVndfMnlNYkJEOHBiNDg1WUtmYzk?oc=5",
+   "category": "Sanctions",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "7714a73d41f0",
    "date": "2026-10-30T14:47Z",
    "title": "Chevron beats profit forecasts, plans Venezuela investment as cash flow cools",
@@ -7814,16 +7824,6 @@
    "origin": "rss"
   },
   {
-   "id": "b8438b52bd2f",
-   "date": "2026-10-24T03:40Z",
-   "title": "Gobierno de Delcy Rodríguez impone una carga fiscal entre 16% y 40% a los 17 bloques de Nabep",
-   "source": "PETROGUIA",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV2wzSEFrcEpMbVB1SFg0NTBtbWNld0p6VVRNc2tMbUpVYWVWS1l5c0twSmdPOTEwbUxhWVlzVGllZlhhNHhSMnRmSDR4S2pZOTcxU0tqZEJjQXNiek1oSDVpazk2ZDQ5VmFLV05EUlRBSlBucGNUelhiWWJ6LXhJOHpwZDF3WlRVX0d2aURGd0dHalFLd1hHQTd0S0hJeHptR3hKdUZLSUdDUEFGZ2lSQS05eTZIZFpOeTNfRnJFNlliVi1qOENZN2tVbm9XeUxJTzBN?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n05",
    "date": "2026-10-23T12:00Z",
    "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T17:11:24Z",
+ "updated": "2026-10-30T18:03:10Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
