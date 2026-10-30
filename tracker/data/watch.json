@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:42:53Z",
+ "updated": "2026-10-30T21:42:07Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -60,7 +60,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-10-30T20:42:53Z",
+   "last_seen": "2026-10-30T21:42:07Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "lat": 29.2467,
    "lon": -93.699,
@@ -80,7 +80,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-10-30T20:42:53Z",
+     "last": "2026-10-30T21:42:07Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -185,6 +185,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-10-30T22:09:16Z",
+     "lat": 29.2467,
+     "lon": -93.699,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -209,9 +219,9 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-10-30T20:42:53Z",
+   "last_seen": "2026-10-30T21:42:07Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.3959,
+   "lat": 29.3958,
    "lon": -93.6393,
    "status": "at anchor",
    "draught_m": 9.4,
@@ -229,7 +239,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-10-30T20:42:53Z",
+     "last": "2026-10-30T21:42:07Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -370,6 +380,16 @@
      "lat": 29.3959,
      "lon": -93.6393,
      "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV<USBPT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-10-30T22:23:17Z",
+     "lat": 29.3958,
+     "lon": -93.6393,
+     "kn": 0,
      "status": "at anchor",
      "draught_m": 9.4,
      "dest": "VEBJV<USBPT",
