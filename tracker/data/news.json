@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "c4333c5acbad",
+   "date": "2026-10-30T18:34Z",
+   "title": "Ministerio de Salud difunde campaña informativa sobre prevención y detección temprana del ACV",
+   "source": "Promar TV",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN0dqdDVKWXpkR0JJekRZVFZQWnV0U0NEdmJHOXZZNFJKVnB4RzJ6QUU1aHZlX0t0emhGVGhsaXNVWGo3ZlAzM0FwbkdpMjdDNnh3RGJCeDQ5Uk5EZFdLN1JLanR5eHBnc0JiT1duZjdTaUY3VlVzZWtPVTJqOXZ5VjlVaWRSc3hmSE5TUERVR0JISlU3UktIcHh6T1VWVG0wU19uVDVTblBKLTRiMWZkR0NpZVNzTjN5YzVzWW1HMFFsR0FGdkE?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "1b7f82dbbc0d",
+   "date": "2026-10-30T18:07Z",
+   "title": "The Reality Check Behind Trump’s Venezuela Oil Deal",
+   "source": "Modern Diplomacy",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTRKSDA0TlBJWFlqN2pZenpIYUpXc0VBWkJnTTJhS2RtcFRYNllnWmxSaXpFcVU4QWVkdzZuU3QtZlBnUC1EY0NkaUZhVUd2VE1FQ0VNbmVlSmFJT0RxR1c4a3QwblhGY0V6ZVZDMEV3eGd0c0lRMWlpMUFfb2JabHBsbDZqbUdKVVVyMzZWU1V1V1E?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "178657b5fef9",
+   "date": "2026-10-30T18:06Z",
+   "title": "Eni reactiva operaciones en la Faja del Orinoco con meta de 200.000 barriles diarios para 2028",
+   "source": "Promar TV",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGZnNW1BQ1BvQ0d1alVycU5lbnpWYUkzbFRhUVNMSjBLcHlSSmRPVHYzZUdyaDFPNFBXZU5TX21RV0ZhNkZ5aHlINC1mdW5BQ1o0djhKOXJPRUhvMC1QeXdkVVczN1VLcmxhd2Y0SFdHZENvQ3VaNEJhMl9YeGZfRzJqZUlOQUM4bGhQTzFsWWhISnItWTNXM1NIYzJQQURqWDlhOW4wT2tacFVXWXlSNFgyYVhYb2FEYXdoNHlYbjRLakZSdmZV?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "d5b71b02f788",
+   "date": "2026-10-30T17:44Z",
+   "title": "Avanzan labores de instalación de autotransformador en la Subestación Portuguesa 400 – Noticias de Barquisimeto",
+   "source": "Promar TV",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWtPY2ZMenl5Q0tKS1ZyTTVXU2p3VHdFRlE3ZmRSdTUtU1NhbjBLejlJaThRM2VVWFlDZ2o5b3hVenA1ZGY5OFF1dnlEcEJHWE9IVnNKRDRSalJXTVpNTjB6bi1YY01nazJmOGpaNVd3Q04xZGxUcUdRd3ZKZVNwRWFIeHNmdXk3ZVROQ1Jic2FyTGRFVDBub3VCM25UWThNcHY5cG1yNl9qVXI4a2VfTXhCRXhtZzF2THc?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "31fe75166323",
+   "date": "2026-10-30T17:36Z",
+   "title": "Chevron proyecta alcanzar 300.000 barriles diarios en Venezuela antes del 2027 y anuncia inversión de 7.000 millones de dólares",
+   "source": "Globovisión",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYTNHanF6U3RXMkJJT1RGUVlQRmFPZnNmWmNXUGc0UkJ4a3EzY1FUeS1ESGJqeFhXa0h2eXhkOG9wZ3RXd25mS2JTRl85REt2TV9jYTVTeW16QUJaRnhoZFdEakttWTQ3bEMxYTA5YzRYalJNQkhXbW5mMjNLOWpnRWxqZXV1Y0dhNVQ2R1pncGdmOUhMVHQzRFVxTXFYYkhISEY2QVJ4VDdCU085SDB5OFJ5eGRiOERmR0pSYTlMR2g0dDM0VUt3Qi1vS0lnZlA3bi1teGVCOA?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "5bde6724b32f",
    "date": "2026-10-30T16:35Z",
    "title": "Chevron CEO on joint ventures in Venezuela: Output to reach roughly 600K barrels per day by 2031",
@@ -28,6 +78,16 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRjRXLWNPRnF6QWcyTmJnRjN3cjhUOFNHd3hrYXdQVU93SWRvYTY2MU1mWG1Xc3FtYU95YUVxM1JfR3NvYzZzX0hrS2pvSGpJYzVfRW5iZDJlXy1SVEJsdXZ2MEctTkZHaUlINDVCVk9GSk54WGJhNjBLUDlnYTFUc1FWZndZU0VJcHZlRjFMUk9LRE0yZ1oyb1FNSEFwR3B1alNtaExoQ1NpMzMtbVQtd0paalROVE9oVndfMnlNYkJEOHBiNDg1WUtmYzk?oc=5",
    "category": "Sanctions",
    "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "63fdd69567bf",
+   "date": "2026-10-30T15:41Z",
+   "title": "Chevron reports profits of $9.9 billion in Q3",
+   "source": "Inspenet",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DTVZZVzRHbm1KQ0prWEdoVnJCWHFydTNTT1lEZE1wS1llUDVudWI2RVBuekV4cU0zcVU5RFpGbFhzc3RFYzRyNm9kMkdnT19tWmZOTUVUci1oODBtbXlNZkZ1akVUaGkzdVFCaUYzcDNMUWZEdEE?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -347,6 +407,16 @@
    "source": "Reuters",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEliUm9zdHRocDhkd3BGMjNFaThOM2hJTjBCQUVWSlFwb2hzd0pvSTNyVTRZeGFaU1NhYW1tVHdYZ3lzTlFHa3dvaURGOTE1SWxNb2plNDdvVGFlTFBEQWdyajNEdm1XYnJ3Ykoxc2FaVGJXSW15NTNXVm9mUEFfSkpXVWdwUWNGM2VYc0pXbDlRTm5XMDZoQkR1NGx2SEhHN0ROSWpSSjg?oc=5",
    "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "efc1c4cb735c",
+   "date": "2026-10-30T10:25Z",
+   "title": "Chevron says Venezuela JVs to invest $7B over next five years",
+   "source": "TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWUFyS19BTFh1UHlwR2ZINTllcWNibjdRTk41Tno3U0MzcUU1WnFRczlEZ21NY3lQTmctNDNIal9NOFRxclQ0ak9MVmdQVXVXM2paNmc1Z0syODVOSDhqTmJZRy1SeHU3QVRGMGJHTzR5WS1YbkxpTGp0TlBFektJdjFBRzUwdkhSRzkyd2UtcjVkRUdPeW1ZSmRTMlZacmVwaC1vQ2Z5c1lDUk1QUVhJ?oc=5",
+   "category": "Investment",
    "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
@@ -7754,76 +7824,6 @@
    "origin": "rss"
   },
   {
-   "id": "5414e8c12495",
-   "date": "2026-10-24T07:46Z",
-   "title": "Importación de petróleo venezolano a EEUU sube más de 400% y logra máximo en casi 10 años",
-   "source": "TalCual Digital",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNG9MUVVTZlFKSTFhS1kzd1FzTE5JQVhpVmk5c0N6RUtyMkEtdGMwVDNBSGZKX1FrYTNYWXlPYjVMZDZ5SDVXaVdodFFIN3FGUmVFdnpPSHJqOE4tUWpPYnVMcDhIWUtyOThCcXpVVVVReG52X3lTM01HR1VZWXhhNkhJVnRJbDZtN013OWY0d1ZWemZjOTVDbFJYUzUwRmZIY2ZId3prcmt6WU9Yc1doR3Jsc2Q0VzlRclRrUmRJa0wySTA?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "585001190232",
-   "date": "2026-10-24T07:29Z",
-   "title": "Venezuela records highest oil output in recent years",
-   "source": "Report.az",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcFlfZXdRTVFDN2FFQ1hSMGxZMU1majhwYjR4V1Y5aDgyTllRb2Jhbmczczl0ZG1vU1BMcUFhWXJ0Q2VwRFhja3hQeDdpUG9MWUp3Mlp3SEU4cTE0a2xSM1BSWWJNa2cxcTBLZDdIOS1xLUp3Z25tbEJRdGtld0hQZTZ3VE15UnlkWU5TSklxZDdoSGc?oc=5",
-   "category": "Production",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "a8743c9f1fc7",
-   "date": "2026-10-24T07:15Z",
-   "title": "Continental Resources Signs Venezuela Oil Block Deal With PDVSA",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeTNKVE1KQ1dOTnMxRXNxdWxZZVlqWm5qaUlyUW9wajMyOUlTR1FlTXoxTDVIYWMydGRuUU1FWWtpYWNMdGUycFBGTUpsOGFlUExYZFdwVUpGblFYWGJ1V0hTZ2xYUlhoajJRa0oxVjVaWjhaNjhuVVhDWG9YdjNZNmpnSGtDbEh4bmt5VQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "4a778a824e25",
-   "date": "2026-10-24T05:29Z",
-   "title": "Venezuela: mayor reserva del mundo, pero el futuro no está solo en la Faja",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdUFxVm5adHRDV0g5WE5raHFOZXBBb21mVGVXVEpiZGJrcVVUenZwckxTaU1oNG5RaWt5WHNabWFCZkVobmZVeXpfM2dqeTlwTzFTMjhKQl9na2NwQTNONU9tYUJUYWljdFVlelYzVS1xUFVnS3JtZ3M0UFZHQlluVWFnckpBcEN5dTQ3aVp4MTAxNHVLV1N6ejIyeFZjT3lCZnJRa1kyNTV0SFdvVDAtcDJkZFQyR2RS?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "f5b2870e6c5a",
-   "date": "2026-10-24T04:53Z",
-   "title": "NABEP Boosts Venezuela Oil Production, Plans Rig Expansion - News and Statistics",
-   "source": "IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQTRMNkszYnpmczA4eWhqR0lnUjZ3U2U4VEJGeGFSb013UXZfMkV1czBKTUZnUFB0czBDMjRwVnp1SUJfeFBGM3VQcFZBOHhoSnFaZ0h4a2FQRGNYVU5KbkwwRGVrckdvWVBsajNoSlo0OVc1VU1aT0hhRlgzbkhFVHlDcEh6SEN6RzAyODdoTU85alFsaGYydA?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d9ba089689c2",
-   "date": "2026-10-24T04:53Z",
-   "title": "NABEP impulsa la producción petrolera de Venezuela y planea ampliar sus taladros - Noticias y Estadísticas",
-   "source": "IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdHVPX3oyNy1LMHdmNl9keU1tekN2TjJzSUI1Qjd6VGdRbGhyb0t3eEM4UmsxclFXRVVWLVhDZjVuVnNRek52ZFZiSVNOY0k4NTFnNU5ldGs5ZjJRaWhqa3hvbjhEMjdfVmJqYVZzQzQteHBwLXlvTlV3NGk3ZmZHQ0J2aE1vQ19STEJSVUptWWdLZWtMeEdjTHAwRHA?oc=5",
-   "category": "Production",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "033b45978820",
-   "date": "2026-10-24T04:00Z",
-   "title": "Refining the crude argument",
-   "source": "Business Standard",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaDk0Y1VDdWM4dTM1anBGb0tRWnZMQzd5bWFZc2ZFa2lWTUVlWlFiLVY1b1Z2N2xTb2NZVExfc1BUM21ScEJzcEZLSkVqbGRPVzBuYjlKV2J3aTVWWjhBR003Q3RLd0JyaTZDQ2dUTUlBTUcwb2VzX0VCU01qOXJHbHVseHNTbWFvWGNlR0w2a3BrZ3NFU3ZiT2IweEU1Z9IBowFBVV95cUxQNHJ3YmQwbUR4REtFdDdHUzBKcWRaNkV2bElDUmdKVGhIWUxHTGZDSzBXTGlNcUZZNGdkdUY5Yy10RFdOTEI3QzBYUjItMHNWNHctcTh2WlBHRDNRNnZ5SU9kVDl4NkRzS2VRc3AwQzlGRVNXVV9uNW4wVEs4OXh4dm1jSmxBbV94TE9tQ2x2Ul96aEdRZDBaLTJnNURRaWkxWE9v?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n05",
    "date": "2026-10-23T12:00Z",
    "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T18:03:10Z",
+ "updated": "2026-10-30T19:17:18Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8095,13 +8095,13 @@
    "key_figure": null
   },
   {
-   "date": "2026-10-30T11:24Z",
-   "title": "Chevron stock nears record as it plans massive Venezuela oil investment",
-   "source": "scanx.trade",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVUg5U0hFQUNtVUVlUG9vc0VnWVJtRzlYWEVYR0ZxTTlLWlJSU1FiS3ppbkNZRlFCU0NoTmQ4YXFFOEtDZWNtQzlYSlEtSjVuNlFtc2J6NVNUUm51b3F1M1cwM05VQ1luT0dnSnZSaE83dHhSVEJHaFNzQjlCcnlJaHpVeWYzTUlCY2ZtRlhsYXFnMkRsdjl6SkdCWkJuQlNrWGxnR0Zxd1hrTFI3OGo2c09UMA?oc=5",
+   "date": "2026-10-30T10:25Z",
+   "title": "Chevron says Venezuela JVs to invest $7B over next five years",
+   "source": "TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWUFyS19BTFh1UHlwR2ZINTllcWNibjdRTk41Tno3U0MzcUU1WnFRczlEZ21NY3lQTmctNDNIal9NOFRxclQ0ak9MVmdQVXVXM2paNmc1Z0syODVOSDhqTmJZRy1SeHU3QVRGMGJHTzR5WS1YbkxpTGp0TlBFektJdjFBRzUwdkhSRzkyd2UtcjVkRUdPeW1ZSmRTMlZacmVwaC1vQ2Z5c1lDUk1QUVhJ?oc=5",
    "category": "Investment",
    "angle": "Future barrels in the pipeline",
-   "key_figure": null
+   "key_figure": "$7B"
   }
  ]
 }
