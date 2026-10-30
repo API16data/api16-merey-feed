@@ -1,6 +1,96 @@
 {
  "items": [
   {
+   "id": "64014846c08d",
+   "date": "2026-10-30T12:45Z",
+   "title": "ExxonMobil and Chevron top Q3 estimates on higher prices and strong output",
+   "source": "WTOP News",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSUlSVndJcDFNcU93eW5sZjVGaWQ5LVNmT0ZlS2tBRTVBNGZLYi1HTXdkeHVuZzl2UHhGSmw2SXMzREpBZkg1dk55cG5Ia0dzbzJta05LdlRHRDZOS0lEVXBZeGpCYkJqcUVVcWZ4dTNqcVI3M3RYb1hleXJ5cFU3bnhaSmpnNmtVYlpiOGZfeW5vSmg5b1c2TjdISlJTZkZLX3U3Rkt3ejlsX1VpRVE?oc=5",
+   "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "490a69c9166d",
+   "date": "2026-10-30T12:41Z",
+   "title": "Eni Reactivates 'Supergiant' Venezuelan Oilfield",
+   "source": "Rigzone",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVGF4YWFzSHEwbEpDdTlYSnNmcjI3dzBNMXdhYzJnZGs3aHh0MTNxN3NFelk2RWFSYTNOSDBfVUhkMlZod0xTV0YxbXpTNXNJd1Q0MjhHMzB4ZnYyWlFKQzZjWDY5QnNEZnlaWFFIX0F4b09TSk9oMlpLd3k4bGo1a0dUdG9wVGFSZnN3QlVoMUF3cENZYmhXVHV4eVpkdTY3YkFMQzBn?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "982f0da152c0",
+   "date": "2026-10-30T12:38Z",
+   "title": "Chevron rises as Q3 profit nearly triples on record refinery throughput",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU3o4bjFPc1U4eGptMGw4YldyRFNsbFVSbGFZWnlMRWtGXzhjUGdPb1A3RTdPVW45dG5UYk5KMExuZkEzWlY1eFh2MHdqbG9iWHg2VkY3VVgzVXFVdHVJUTZtSUU5cTdUOFZDM2pZTzFyNy1aamhCbnpneUJWcWFfNmREdW1ZZkVaRk93Umd4Ump2eUNLbHQ5TE8wZzV6cUtTMklzR0ZDYWo3c3p0dkVxeGpNbXF1UUNpazZYaURKbXBQZGg5bmtBMW5jdWJ2TUE?oc=5",
+   "category": "Refining",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "2124365a6917",
+   "date": "2026-10-30T12:28Z",
+   "title": "Chevron boasts double digit growth in third quarter",
+   "source": "Upstream Online",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTXRfMFVMNDYtYW9yeUZrV1YwRUtoWWw0RUtyNWxkVnFwelRTQkoyTnRuUGdiby03cnZlYldHMUdUTlNKUDJBaUxWQnZiSTZUUkZ2OFBTaUhNWVZDU2RsVlZqSGdqeFdoUzdrODBMLXlDUjVreUx2TGhxU2dST2kyZVJ5SnpMak5SNGdhTFhPSEk2cndsQXhMbEZLSGJ3bktxeUNrbg?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "a3bd519ca7ac",
+   "date": "2026-10-30T12:26Z",
+   "title": "Trump Secures First 1 Million Barrels of Venezuelan Oil Under New Deal",
+   "source": "ChemAnalyst",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNjNJbm5fcjNTUEJTTU84Ul90QWRwc2hQODI1X1FNN0Y1c2NPSjVTZTlOc2NTd2xzYzBRc0dfcW13WDZkbGxscDBoaXRLc2tHcEt6Y1lEUktMZV93NUU1X2pUVGtOWWZhbHpTSjZvcE13aXVwb21hWUswcjdMM09pNUVtckgyVS00eVRrb2l0cmpWOGM0NWlRQkN2NzU2YW1TMmxSbTVPMVF4T0NtcFB6SnVuQXlyUDlqZlFYUQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "0aaa96c2e8b8",
+   "date": "2026-10-30T12:22Z",
+   "title": "Chevron (NYSE:CVX) delivers strong Q3 2026 numbers",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVEFZSHBienExX3FrSUNmQm1pX1pKYVJreXUzV1B5VG95UkFkS1d1a2hDN3F0dldxMHg1aHhKd0RISjVKQ0YtdFZhSGQxcDJ1WnJYUlplLTFxeFB5NllKSWJSNkh3Z0dBRW55UUtNemNVbzIyZ0tOYjdzamZqS2E0aG9wOGFvRGZ0X0VfQkxuVmJJUFcyZmMwUGlkb2twNU0wdmtBRlRPVVBnWm1xcGc?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "a5d0b9e24cb6",
+   "date": "2026-10-30T12:13Z",
+   "title": "Tensiones geopolíticas impulsan los precios del petróleo hacia su cuarta alza mensual",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWkNjNFVoMWY5TVZhWHNxOWdLZS1tUUtvekdia09KSEVMSVc5Q2UzbkZlOWFkM1ByODZkRWtCeHRrdDFDbHJFVjBLc3VWdEpGc2J5VXA5T3JMS25panh6RFdXRlYyamdjUjk0NXkyX1hpbVE3U05OM2xHT1NEV3NSLVFBUQ?oc=5",
+   "category": "Pricing",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "99b69a6a2751",
+   "date": "2026-10-30T12:05Z",
+   "title": "Chevron Q3 2026 earnings almost triple on record refinery output",
+   "source": "Quartz",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yVTdHUGpVRkxRNS1hTFR0Vm5vMXFQV1JRcTVtWlFNYlFiLWRwdDhCQjVIeFhtOUVnQThtenFwdHY4WnhqQTM2MnBBWDdSdjhEMG1SWjZJNEE0QzJnOE12MDFIVEJUMUhHV1ptSUdseXNJNXRobWkwRXlIT2c?oc=5",
+   "category": "Refining",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "d245ab9c4808",
+   "date": "2026-10-30T11:21Z",
+   "title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
+   "source": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYjRxRk9UbzJRV2Jfb3NoYjlDRjcwS2hmUzVEUGktRXg4bUtuRnRlLUZXQ01TOTB2Z3Vib0dlX2ZrOTduYWZuWE5CSUgtUU8xcHpyR3EtRmU1MWoxZ3V5eVc2eGFyVVotZEU1ZnVVd3V1aktwWWpEOG9qdkI3YVVkN1lweHZ2VjE0emthekpNLUU1SmQ3SWswcjllZzRNa3VMNGc2dko4R2pEelRsUk5LLXlIWHhOSVI5NmlJ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "e370e461194c",
    "date": "2026-10-30T11:05Z",
    "title": "Chevron's Net Income Triples as Refining Margins Surge; U.S. Refineries Post Record Throughput",
@@ -21,6 +111,16 @@
    "origin": "rss"
   },
   {
+   "id": "3bce92853375",
+   "date": "2026-10-30T10:45Z",
+   "title": "Trump's Oil Deal With Venezuela, Which He Called the Largest in History, Faces Major Problems",
+   "source": "SFG Media",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WamdsUWRrcG94MVNMRmtqNzFoXzlERmpuVzlpTlhSRGJCb1ZBai1kV2xlV0RLdkhFT05qZl91c0FKRi16ZmJKSTV4a3N0SDhGRGRBRjV0eGdTNE9ZVHBTeVUyVmt3V0d5ZFJIeDAyWTM?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "d263a71cccd0",
    "date": "2026-10-30T10:44Z",
    "title": "FILE PHOTO: FILE PHOTO: First Venezuelan oil from US-NABEP deal arrives in Texas, to be sold to Exxon, Citgo",
@@ -38,6 +138,16 @@
    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQb1ducUU1WGVZcm0tTVgzbVpVZmhYX3M4TG9SbHY3NEtEbkZOb0wyT1BFWW05bl9XcHhnSXhzRlFNTHRXVFMzU2RIVWkyZE9odWwwQ1pWc2JuUXJtQmw4eTZtX05wcnlrXy04Unc5TXRkU2VydWFQdGc0WUZTT1otdlUzSV9GeXcwVVQzRGRadGF4NGh6VFk5alJ3VTBUUHN5LUJRbjRVUlFtNHVnSnNFWENmYWpobE90bEFRZ0pwdDNWTk14T1NaMEtUcGpUSlRFdjVOS080aWd0NjFDVG5pY2o2SzhEZ095TUFSLVc2bnRTRGhmam42NFQxYXZKanljT1IwaUI4MjBidw?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "727756bebc90",
+   "date": "2026-10-30T10:44Z",
+   "title": "FILE PHOTO: In shadow of Venezuela’s oil infrastructure, fishermen struggle to get by",
+   "source": "The Daily News | Texas' Oldest Newspaper",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQlZBSGxqNmVmNXdUTDVMOUtnVUNldnNNZ0luUFFqRVI5aHljNkU4WEZ3c3hUUGhnZUEwQ1F2Yi1IcGVSSm1ubHg1NmRRRFljLW5wY0Zkc2NWRXBjVlFjVWdOOTNudGtNSkJYbExtUTZwd2VsbUdlcy02WHl5Q3lPTXhLYUJxVm5weEdmTmZNOVJZMmlRN3BTT003SnFyejVDTm16UWJNSXN2QlJER2FRVnpBenQ5NEtNdkRXSGtURGpVakVoUmtQLXdwckwtOU85T2toWXBGcEdKVXJab0Y1MU82Wlg0Q0JLUGQteG83amlWdUZmNlNFX09iTlBGMlF5czBZem9oU1Q2UQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -508,6 +618,16 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd2lRQURGSExIMUIwVG53OWVBUXg2SmE3Smp4aWdaNlVGZktLSFE2cWh2Qlh0ckJ0QXBwZTF4UFgxT0JhU1pMOXJGMkw2OVlNN2lZNllQQ2p4Zzc4RzZnT2FGQ3NBclowZEJrbDhfU2hxZEVyQi1XZjBjbVZSa000OTRGSUdqZWRsLUFr?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f2b044792f7d",
+   "date": "2026-10-29T16:10Z",
+   "title": "Trump's Venezuela oil deal: Will 1 million barrels lower gas prices?",
+   "source": "Modern Ghana",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qQ0V5MG1BRDFqTWJYd1VaZlJLMlpPTDNmX1huazNTOEpXRGJlYi1LeXNPenphSk5XSmE0aDZNZjQ5d0o4RGxvX1lJcUNOOHl4SlNYb291YjZTTDdld3ZxVtIBXEFVX3lxTE1wN3FJdVp6QS02OGpwZ1dCVUJXUXRoblIxQkNyNFRfaGJqNVhyVzFhQkpna2dOZWVJM0JuWFl4UGh1eTZJRnBDVU84SmZUaHJad0x0dW8yS3VCemNj?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -1202,6 +1322,16 @@
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeUw5MURNRWJUMGxyOHhiS2VjOVM0c2sybHY4TE9DVVZaQ05ES0VoYzFwUUNBc3VWbjdUU25Mb2ZJOVpUS0ZLanp2WmlKUlk5cE01NnpfQnB0T1lMNTMzbUpnR1dBWVhsMFdoMEFTeTdEazJPOUd0SE9DZGlxeVV0V0x3NmRqWEhDZHVGT2xubFlSR0ZCWFI0VExSUFE3WDlGdEFES2pGRDA5cFczbXo4STBNQXN6cEZsaFJpRHprTmJNQUxLTG4zWEhSRHRWekp1cEphUlA3NzB3a2h0?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "83a9b4e904f9",
+   "date": "2026-10-28T20:55Z",
+   "title": "Maria Corina Machado’s rapturous return to Venezuela loosens US grip on oil fields",
+   "source": "The Observer",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdGhfYWZHeldxZ0lVSjRLa1Q4cWY3eWxPWG0tWGxwa0xwbmZzbTBqMWJ2WWhyYUY0aGJKZG9yU0dhVWpUbF9ZU1UtMTJkQW5zeGZScExqN2I3bE14UW81YklvalFGUk13XzhxZlNpVWFWSTNzVGc0aXZXRHRZTXhrUEZNVG00bUFkUWQtR21iSVAyR2FUZXdBRjBwSkZCVFdEbm1FeEJLTnd3WHpjZkJmZnZHSGZTZ0dWdVh0aFVoWkluN2YwZzl2Sm1SVQ?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7394,6 +7524,16 @@
    "origin": "rss"
   },
   {
+   "id": "6b3b677d1598",
+   "date": "2026-10-24T08:20Z",
+   "title": "Venezuela alcanza 1.252.000 barriles diarios de producción petrolera",
+   "source": "CiudadCCS",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fZUxDY1FZaERqQXBvd1NUaVRGMDIwOGFyRTNXUzltbEJYNEo0dXNPa2xWQUZxMm5rZVkzYmdTQVhTQUw2Y2lfVzFTYXY0UTNVWU5sMU5MOA?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "6f2293beb2b4",
    "date": "2026-10-24T08:05Z",
    "title": "What India’s oil industry can learn from Venezuela’s revival",
@@ -7684,146 +7824,6 @@
    "origin": "rss"
   },
   {
-   "id": "7cd3506e88ab",
-   "date": "2026-10-23T22:34Z",
-   "title": "#EnVideo | El Vicepresidente de Gas de PDVSA, Jannier Viloria, informó que la corporación prevé la incorporación de tres plantas compresoras para el año 2027. Agregó que con este avance operativo se estima un incremento de 150.000 barriles en la prod",
-   "source": "Facebook",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPY0pjc0hjU2FLVGwzX0ZET25PRi1XdmNmWGJGcEpmdmVoVzJlaTVxWC1oUUZVWDNuLTJWdjdXUmNsNVd6SzFmcU41QlBHWnRScXFFOV9rX1JuZnVWV21PcmJISzF2SXlxblhveDVSVUQzRTdIbkdySVJJYW1IUUQyMVF5eGVOTDczRWhTdUZLdjBTMkdXU1FJOWJOcHI5UVg3QVVQNEU3Tm1TcFYwMkhSUEMwSEdUSWpPMFFZWnZEWFhhUU0wT2dZS2RrbFdMbTRpanJLREgwUFFrdDRBalow?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "6e19f7b1a8b8",
-   "date": "2026-10-23T22:30Z",
-   "title": "#EnVideo l El encargado de negocios de Estados Unidos en Venezuela, John Barrett, calificó como impresionante el trabajo que se viene desarrollando en el sector petrolero a raíz del reciente acuerdo bilateral entre ambas naciones. Durante una actividad li",
-   "source": "Facebook",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORDRfa0FVN3MwUjVubzlLaUdCU2FmMzRJcGRrR1NodHgxek1lbm5YZGg1a2ZGc3V6Z296aTJmeUNsS1oyNzI4M2x2NUpJdkVvQmtYbjc4c0VDSEtRcVpmNXctOTdjTFRuUzVsc0ExMjgtWkwzRXJ2MTJsRkdPNTg1Q1VTdWdMOUFEdXZta0VaZDNVaWpSSUlPYjRadGF0MVBBTmZyNTBUWUVnLVVPY0JHcWVnWEFkck1tWGhldmFEMmtiaDBUUmxuUXgyZFV5QWcyUEk5M3ZYNXE?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "871c95c5d5ac",
-   "date": "2026-10-23T22:30Z",
-   "title": "Venezuela alcanza 1.252.000 barriles diarios de producción petrolera, el nivel más alto en los últimos siete u ocho años",
-   "source": "Noticias Barquisimeto",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTTFHTl9KdHd5UWg3czZianJXdTBzVF92RUFCUEE3Uzh6RHBTQ1pHQm5Ec2tkU3lOM1lnRUpXblZwTDZmWjBfOFUxeWNHaGRwd0N6YW1hbXM5djFiMlE1Z0pLS2tSY2lPQUFYRnRLTElISVFDYlhBYXZ3aXlYd2pzZVBQeGIteXRkVG82TU9FQUdLd1owRlJiV3R2WmhOdDVXRXU3V0lCSlBFZ0tOeDNUb3dlcDF5RHl0UXh3QUJvNVh0bmUyYXI5WVdFcFR1dVNwdjBRS1QyVWEyUS1YWmhuVlpPWmRvekVHVHVOOFNn?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "7ce2147bd389",
-   "date": "2026-10-23T22:29Z",
-   "title": "#EnVideo | El Vicepresidente de Exploración y Producción de PDVSA, Eduardo Pinto, ofreció un balance detallado sobre la producción petrolera nacional alcanzada durante la reciente jornada de inspección. ​Algunos de los aspectos destacados son: Vene",
-   "source": "Facebook",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNkpHblNPS2ZVLXRiTnJYTU9kNGM0a09yY2w4OXRUUi10bjZ0SlpQUnFFc2k0N1ZoNDJtOE8yOFdJRTMxd2t0aXI4MUpWbEVSbUtNQWpydnhmaTg1VWlMNTJkVWdRY1Y3cGZrS2V6cWtxQzh6SmFOWU9XMGdFQm1EM09zc2RZZk1EdEp3dTZLRWRaMnZmS1ZfWml2NklJV0pEY3VXVUstT0J2Tnd4V3F2VktkVFpSakE5WkpCYl9tdm5PaWYybkwtYjBGT1NOT2hlRHM1Nk9kVFN6MEtfbzdxbWNjYU0ydw?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "afa43ae72d0d",
-   "date": "2026-10-23T22:28Z",
-   "title": "Pentagon’s Venezuelan Oil Partner Nabep Boosts Output",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYktGU2FvSWpkaFJRZlJBR19jTU1hRGpDa0pFTTJ1YUNTaGxPaU4xTlAwS01SZjNWQUNQNTBPcDJrajhDbHhXU0dkTHdUbm1HMjVpQjEzUlcyc0hCX3BwX3ZDbk9JUjRtd2d0Wi1Ob083R1MxTlIyalpzWjd3SW12RmhZNmpOa2NoTzNwOWNqdE9jRHdaakdscjAtTUZTengzV1BxQk9KbF9jaTR3ZGduM3M1dw?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "f7a1c7c2ad90",
-   "date": "2026-10-23T22:26Z",
-   "title": "Pdvsa impulsa producción de gas en Zulia con miras a exportación",
-   "source": "Diario Versión Final",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzdySjJZYUlHS3ItcVVWSUJUd2FraUNoeWNNc2R6bl9qWkRsMEZ0LWVrel81ajl4SFRqLVhCVGlCQVh3dzFLZWtWWk95WnIwQjBQbXFTdGVidDhNT1ZHb29TR0JMYkVOeVo5ODlUQzYxdEZqWlZGa1F0b0FVb1lPYTBKdlhxZjVaZTlQVUI2SUFiMVpUZUN1WjFTRFpRSzBmMDlKX0xrYzNPNWtiMUpua0l3?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "f99466115955",
-   "date": "2026-10-23T22:26Z",
-   "title": "#EnVideo l La presidenta Delcy Rodríguez lideró una inspección a los proyectos petroleros firmados recientemente en colaboración con los Estados Unidos, resaltando el importante impacto positivo de estos convenios en materia energética. Durante la activ",
-   "source": "Facebook",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZm1Nem1rYzUzakl0YWxRZVFtbTdHSWRYUWdWUDgxdWZsYzRwMGZ5Z0k0NzJrRHozQmh6Qnhwa1ZjSXB0d1NQU1JocDY3d1RkV2JQTVd5TjUwSUF1ekxuRnFKeVdwVVhBR21sc2tHdjY1WlU0LWlybjVuek1MLWZZXzBHenQ2QTVMZi1pcEg4YWF2SkdSdUh1LTdfTjVVaDlOZGlRYUN0RjBiQ0NZWmZZZEZydTVFQS1BQ20xd0p6cGtQLW5OaGkxZ3pDVzlBVlNsMXVFd2NjSzhiMTEyLXZHUTV5RXFRRGZfTDF0Ug?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "a6bdcd9f806b",
-   "date": "2026-10-23T22:20Z",
-   "title": "#EnVideo📹| Presidente de PDVSA, Héctor Obregón, destacó el aprovechamiento del gas asociado en el estado Zulia, cuyo alto contenido de líquidos entre 3,8 y 5 GPM supera al registrado en la cuenca oriental. Informó que la filial gasífera impulsa la reactiv",
-   "source": "Instagram",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtYU4xdTllT1NsaHRoNWJjek50d25semJMMnZRWjVYc21Db3NUckF2Q2ZSZTR6LVBremNMWTg3N1RGX1djcXJfb1ZGLXNJR1lmUTZzbHVn?oc=5",
-   "category": "Gas",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "81a7f3a06983",
-   "date": "2026-10-23T22:07Z",
-   "title": "Pdvsa impulsa la producción de gas asociado en el Zulia para abastecer el mercado nacional y exportar a Colombia",
-   "source": "Últimas Noticias",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZkptYUtVWFZlUklJM25NeUZtWjhVUWh6eThDUjVwUGtwWDItUjVzeEpUeGdILU1ZUmlzVUhHZTBFcnh4V3Eya3hrVDhZd3NrMmp4MV9IdGlHQVFlOWtRd0JmbWRHZWQyeUFfbWQyQzl6ZGxQSGpmLW5lS3llOTdhVFpJeTE0dVVmd3E0U095eVMteDFJVDNfWmxqVkdxQXdTUkJFTFB1MlNycGxtYkFNczlTQkFHd0RiT0IzSllwVXN2NnVuZFFLaEFGVzhpRHUtN3pCSXowYlRaNFhIaGtyelhJVURjR1VGNm9fMWtFdnZlb0pO?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "c6b28ca32445",
-   "date": "2026-10-23T22:06Z",
-   "title": "The Blockade on Iran is Deepening – But Also Widening",
-   "source": "The Maritime Executive",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc21mcjh3dUVzb2J4SF9lZ0xITG83VTBLSFZIUDM4WkdPc1IzdHpYQmg1Nk9JWlNBUlpSSW02S1RnNHRJTzVLRGxqRmh4YmZ4dkZsVHpzTW1DYmdzNU5VQkRZMmhmQnZ1NkRGelNHclAwdjRvUXBPY3ZXS1RpaWNxS21nbWotSkM2akJURy01OFM0b1BQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "f69b07416ce2",
-   "date": "2026-10-23T22:05Z",
-   "title": "Nabep, la petrolera de Alejandro Betancourt y el Gobierno americano, instala una nueva plataforma en Venezuela",
-   "source": "El Periódico de la Energía",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYWdkeTVVT3Q5ZEdaQ3RQOEgzS05mWkY3OVBRMkljc0dRVkN2WnUyU3RCSlVidDRmNXlLLTJCVWszaDY5VFU1YzVDR1VLRFRGcGNqOXBUV1g5SzZONnNuZmJzd1NwYmsxVDVVdzNJeWpqVUllZjBRd2NQUWk1eTVSbmY2QzRWRmdBTUxsSXFNN0tmZ2hld280RTgwOTY1QzNmSmxsc0FsanJoME9kRGcwanVlZS1DM1NNMVk4QlhrQlBDRjJOVFZ6cENHU0hJT0p1UFg1ckZ6VkFKUHU3?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "128b81cf8d06",
-   "date": "2026-10-23T22:03Z",
-   "title": "Presidenta lidera inspección a proyectos petroleros Venezuela- EEUU",
-   "source": "Diario Primicia",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNkpNSUhpWThJaU02cWNfV0J2amNaeXNlTTRNQzU1MHZFOVdRNEVjSVljeEVpOW5HYmtBYnoxZWh6NENsLVBiSDhRM1UyUWF3VUtLdmthMVEzZmcwS1FvMW55U0pMdHdNUWx4RkdTVGFMQUdwUHE3b2hqWWIzck8xYWh1bHFwRGFfMUszU3NZMVAzd0hvUnFYSndhNkdyT21wTlE?oc=5",
-   "category": "General",
-   "via": "Google News ES: empresas mixtas PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "beb7ac1d5a40",
-   "date": "2026-10-23T21:57Z",
-   "title": "Presidenta (E) Delcy Rodríguez inspecciona avances de proyectos petroleros Venezuela-EE.UU.",
-   "source": "teleSUR",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrNDlFYnFQUWtXc2NOeGtWNkdEVGc2YWlqZGJrV3h4QTU0UVdkaXRlaGJPcEtJcWJLTVh3Z0xIdmtBSDdiTm5ITl91dWNBb1FMQzFWNERJYnlCQXBZYjlpQXJZbmlTbWh1bFJHY2hRTWZ4QTlXUUE?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "58dbe9558bc3",
-   "date": "2026-10-23T21:53Z",
-   "title": "Delcy Rodríguez destaca avances del acuerdo petrolero con Estados Unidos: \"Vamos a la acción\"",
-   "source": "RPP Noticias",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1ljWWpaUjdNcWlELW9xZG5mbHlPR0twem1pMFN6WE9aeDVNN2ttVjF2TjRBMzNwWkRjRkJodThiZmRUV1ByUjJOalJIMXZiZzlETE0wVGcwOXVydm1sb3FaNVZaRzAxOXYwa0Nnd2F3T3NzUWIwa29pcEFqdVpDU1l2NzBiWEtNaXNjVDJBWEV1UDJyUWdiUXRNcnVjQ2dISmlfRDJOa1FpcS1rNjhpWkJiR2djeHRyenA4eWptMA?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n05",
    "date": "2026-10-23T12:00Z",
    "title": "Eni may take final investment decision on Junin 5 before year-end: 12k to 200k b/d in 18-24 months, 1M b/d by 2032-33",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T12:11:17Z",
+ "updated": "2026-10-30T13:29:17Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8053,19 +8053,6 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News: Venezuela oil: HTTPError",
-  "Google News: PDVSA: HTTPError",
-  "Google News: Venezuelan crude: HTTPError",
-  "Google News: Chevron Venezuela: HTTPError",
-  "Google News: OFAC Venezuela: HTTPError",
-  "Google News: Orinoco Belt: HTTPError",
-  "Google News: Venezuela oil exports tanker: HTTPError",
-  "Google News: Venezuela bonds restructuring: HTTPError",
-  "Google News ES: PDVSA petróleo: HTTPError",
-  "Google News ES: petróleo venezolano: HTTPError",
-  "Google News ES: crudo Merey: HTTPError",
-  "Google News ES: Faja del Orinoco: HTTPError",
-  "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
@@ -8090,21 +8077,12 @@
    "key_figure": "60%"
   },
   {
-   "date": "2026-10-29T09:43Z",
-   "title": "Eni starts operations at Venezuelan oil field",
-   "source": "Oilfield Technology",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaWtVc1ljNUE5TkhkWVQ1M3l3ODI0T2tjZnBpNmxOaGN3NXBIZkNWMEpmVzkzYkRwMUtoUktNdHRxOXZWNUJrakE5ZmJCeHdnNW1pcWNEYm9GeHVZUjEyQm5uVW5RTVpCN0gtWkMtSkYxZXYwV0ExOWpBenFRVkVDT1FheGN1dHpqcnlGRTNiUVp0QUpWTHFzU3AwYlRPRTJvR2w1bmJQN1FIMHdJY0FYR0xtb0c?oc=5",
+   "date": "2026-10-30T12:41Z",
+   "title": "Eni Reactivates 'Supergiant' Venezuelan Oilfield",
+   "source": "Rigzone",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVGF4YWFzSHEwbEpDdTlYSnNmcjI3dzBNMXdhYzJnZGs3aHh0MTNxN3NFelk2RWFSYTNOSDBfVUhkMlZod0xTV0YxbXpTNXNJd1Q0MjhHMzB4ZnYyWlFKQzZjWDY5QnNEZnlaWFFIX0F4b09TSk9oMlpLd3k4bGo1a0dUdG9wVGFSZnN3QlVoMUF3cENZYmhXVHV4eVpkdTY3YkFMQzBn?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
-   "key_figure": null
-  },
-  {
-   "date": "2026-10-28T12:56Z",
-   "title": "Venezuelan Oil Hits Texas as US Secures 1 Million-Barrel Cargo at Discount",
-   "source": "ChemAnalyst",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMFdTSkpmWm9obkNwend0SHhCc0QxVFloSEdZWFplTWtqV0Rpc1Q0ZzVLUDh2TzRYUE9NRlhJUzJaMHBpVmt2aVpNNm96NVVZS3ktRUVQdGVUeUNFTUVndlgwOEw3eXh3RXNIWWVfdkQyT0gwLTNHSE1iRXJOQzItVDhZZ0JtN3g1Q3RQa2plVkVMQ0NoYi1CRXBNSWFKa3lERXVNbUpyeDFBbnprUndPaUpPWXQ2Zw?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
    "key_figure": null
   },
   {
@@ -8114,6 +8092,15 @@
    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYXhFY0xXZTc1bFd0SGZMMk5uYlUtdDVYLUxDMGxOcTlHX3k5OEFwdFpoVC0zZkZqVWhRMG5XMVRMNVowVUFqV1ZKbUNIZDhfNm9XZDBjQ1NzdUFoWGxGSnh3LXg0NnlTckZwcEpsZEtlWXR5OTh5NXZsYlMybUJsV0hrWHFxWGRxbHRNRG9vVFQya1EtZWQ0UXZDTU5UNUJEeW1qTDBGR1lBbWY0LWpPWkVpa1BHZW1NR2NxSUFvMXEwRDBxcWgta1dvN2JzQ1RDSjdaWTJ3NzI3emFHR0V0TElIT25CeGZ1ZXhBUW92ZlM4TjRybG5zODRkRjlyTUZXLTZIS3JQRQ?oc=5",
    "category": "Investment",
    "angle": "Future barrels in the pipeline",
+   "key_figure": null
+  },
+  {
+   "date": "2026-10-29T14:46Z",
+   "title": "Repsol closes in on Venezuelan heavy oil deal with 210,000-b/d potential",
+   "source": "BNamericas",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGExS0lUdk1LTm5weGNRSzQ4b3N6N0NMbDMzYlp1WnRMTmhtS1l6NW5SNi1XNmxGY243QXMzQ0REMnRxYkxtUUVKV1JfRHZJWno3UnBuaEpscjZGVUhaazlTZFFCZ0p0VFJRZmZtYXc3dk9MazRMNHdyczBpR3ZMZVN4RkF3LTlEcDZ4VXRpWklGd3lMb2lTOUVJdDNadXNTai1IQUVmeVM2Z3Z3LUE?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
    "key_figure": null
   }
  ]
