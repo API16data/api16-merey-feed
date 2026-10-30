@@ -50,6 +50,8 @@ ZONES = [
     ("USG", "Lake Charles", [[29.70, -93.45], [30.30, -93.10]]),
     ("USG", "Mississippi River / New Orleans", [[28.90, -90.50], [30.10, -89.30]]),
     ("USG", "Pascagoula", [[30.10, -88.70], [30.40, -88.40]]),
+    # Offshore anchorage outside Sabine Pass: tankers for Port Arthur/Beaumont wait here for a berth.
+    ("USG", "Sabine Pass anchorage (Port Arthur / Beaumont)", [[29.05, -94.20], [29.55, -93.40]]),
     ("USG", "Gulf of Mexico offshore (lightering)", [[27.40, -95.80], [29.20, -88.30]]),
     ("GATE", "Yucatan Channel", [[20.5, -87.8], [23.0, -84.0]]),
     ("GATE", "Windward Passage", [[19.3, -75.3], [20.6, -73.0]]),
@@ -79,6 +81,13 @@ def cargo_kbbl(length_m):
     return 1900
 
 
+# Lake Maracaibo (Bajo Grande, La Salina, Cabimas) sits behind a shallow bar: big tankers load only
+# part of their capacity there and leave at ~9 m instead of ~13-15 m. For those voyages a lower
+# laden mark is used, and the cargo is reported as partial instead of a full-ship estimate.
+LAKE = re.compile(r"VEBJV|VEMAR|VELSV|BAJO\s*GRANDE|MARACAIBO|LA\s*SALINA|CABIMAS")
+LAKE_LADEN_M = 8.5
+
+
 def laden_threshold(length_m):
     # A tanker sits deeper when loaded. Rough rule: laden draught is above ~5.2% of its length
     # (Aframax 245 m -> 12.7 m, Suezmax 274 m -> 14.2 m, MR 183 m -> 9.5 m).
@@ -98,6 +107,9 @@ def build_passports(vessels, run_at):
         thr = laden_threshold(v.get("length_m"))
         ve = [x for x in visits if x["group"] in ("VE", "ABC")]
         ve_dest = [d for d in v.get("destinations", []) if VE_DEST.search(d["dest"])]
+        lake = any("Maracaibo" in x["zone"] for x in ve) or any(LAKE.search(d["dest"]) for d in ve_dest)
+        if lake:
+            thr = min(thr, LAKE_LADEN_M)
         t0 = ve[0]["first"] if ve else (ve_dest[0]["first"] if ve_dest else (visits[0]["first"] if visits else run_at))
         stages = []
 
@@ -117,7 +129,8 @@ def build_passports(vessels, run_at):
         laden_d = (last_ve or {}).get("draught_m") or (dr_after[0] if dr_after else None)
         laden = bool(laden_d and laden_d >= thr)
         stages.append({"stage": "Departed loaded", "done": laden, "time": (last_ve or {}).get("last"),
-                       "detail": (f"draught {laden_d} m vs ~{thr} m laden mark" if laden_d else "no draught reported yet")})
+                       "detail": ((f"draught {laden_d} m vs ~{thr} m laden mark" + (" (Lake Maracaibo, partial load)" if lake else ""))
+                                  if laden_d else "no draught reported yet")})
 
         gate = [x for x in visits if x["group"] == "GATE" and x["first"] >= t0]
         stages.append({"stage": "Crossed a Caribbean gate", "done": bool(gate), "time": gate[0]["first"] if gate else None,
@@ -143,7 +156,8 @@ def build_passports(vessels, run_at):
         out.append({
             "id": f"AIS-{v['mmsi']}-{t0[:10]}", "mmsi": v["mmsi"], "imo": v.get("imo"), "name": v.get("name"),
             "length_m": v.get("length_m"), "status": status, "stages_done": done, "stages_total": len(stages),
-            "est_cargo_kbbl": cargo_kbbl(v.get("length_m")) if laden else None,
+            "est_cargo_kbbl": (None if lake else cargo_kbbl(v.get("length_m"))) if laden else None,
+            "partial_load": bool(laden and lake), "specs": v.get("specs"),
             "destination_now": v.get("destination", ""), "destinations": v.get("destinations", []),
             "last_seen": v.get("last_seen"), "last_zone": v.get("last_zone"), "stages": stages})
     out.sort(key=lambda x: (x["stages_done"], x["last_seen"] or ""), reverse=True)
@@ -273,6 +287,15 @@ def main():
             v["destination_venezuela"] = True
         w = watch.get(str(mmsi))
         if w:
+            # Watched ships keep every position we hear, not just zone visits.
+            tr = v.setdefault("track", [])
+            pt = {"t": p["time"], "lat": round(p["lat"], 4), "lon": round(p["lon"], 4), "kn": p["speed_kn"],
+                  "status": p["status"], "draught_m": v.get("draught_m"), "dest": v.get("destination", ""), "zone": zone}
+            if not tr or tr[-1]["t"] != pt["t"]:
+                tr.append(pt)
+                v["track"] = tr[-500:]
+            if w.get("specs"):
+                v["specs"] = w["specs"]
             v["watch"] = w.get("reason", "")
             if w.get("reported_venezuela"):
                 v["reported_venezuela"] = True
@@ -318,7 +341,9 @@ def main():
         "last_seen": (vessels.get(mmsi) or {}).get("last_seen"), "last_zone": (vessels.get(mmsi) or {}).get("last_zone"),
         "lat": (seen_now.get(mmsi) or {}).get("lat"), "lon": (seen_now.get(mmsi) or {}).get("lon"),
         "status": (seen_now.get(mmsi) or {}).get("status"), "draught_m": (vessels.get(mmsi) or {}).get("draught_m"),
-        "visits": (vessels.get(mmsi) or {}).get("visits", [])[-5:]}) for mmsi, w in watch.items()]})
+        "destination": (vessels.get(mmsi) or {}).get("destination", ""),
+        "visits": (vessels.get(mmsi) or {}).get("visits", [])[-10:],
+        "track": (vessels.get(mmsi) or {}).get("track", [])}) for mmsi, w in watch.items()]})
 
     # AIS estimate of Venezuelan crude reaching the US Gulf: tankers seen in Venezuelan/ABC waters
     # that later appear at a US Gulf zone within the last WINDOW_DAYS, times an estimated cargo size.
