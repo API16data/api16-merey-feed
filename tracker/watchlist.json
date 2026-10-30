@@ -8,6 +8,48 @@
    "source": "Directorio Petrolero (Instagram), White House (X)",
    "added": "2026-10-28",
    "reported_venezuela": true
+  },
+  {
+   "mmsi": 352004839,
+   "imo": 9971733,
+   "name": "NAVE NEUTRINO",
+   "reason": "Lake Maracaibo shuttle: left Bajo Grande on Oct 16, 2026 for Port Arthur; AIS on Oct 30 shows it anchored off Sabine Pass at 9.4 m draught (Bajo Grande loads are draft-limited). Earlier runs: Puerto Jose -> Pascagoula (Sep), Puerto Jose -> New Orleans (Aug).",
+   "source": "API16 AIS (destination VEBJV=>USPOA); MagicPort public port-call history",
+   "added": "2026-10-30",
+   "reported_venezuela": false,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "built": 2025,
+    "flag": "Panama",
+    "dwt_t": 115807,
+    "gt": 63398,
+    "loa_m": 250,
+    "beam_m": 44,
+    "owner": "Ithaki Shipping Corp",
+    "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
+    "class": "ABS"
+   }
+  },
+  {
+   "mmsi": 538007411,
+   "imo": 9802152,
+   "name": "IONIC ANAX",
+   "reason": "Lake Maracaibo shuttle: at Bajo Grande Oct 20-23, 2026 (after a Curacao call Oct 17-18), then left Bajo Grande on Oct 23; AIS on Oct 30 shows it off Sabine Pass at 9 m draught, destination VEBJV<USBPT (Beaumont). Earlier: Bajo Grande -> Pascagoula (Sep).",
+   "source": "API16 AIS; MagicPort public port-call history",
+   "added": "2026-10-30",
+   "reported_venezuela": false,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "built": 2017,
+    "flag": "Marshall Islands",
+    "dwt_t": 114720,
+    "gt": 63502,
+    "loa_m": 250,
+    "beam_m": 44,
+    "owner": "Ionic Anax Inc",
+    "manager": "Ionic Tankers Mgt Inc (Greece)",
+    "class": "ABS"
+   }
   }
  ]
 }
