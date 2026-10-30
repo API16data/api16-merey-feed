@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T03:50:01Z",
+ "updated": "2026-10-30T04:50:27Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -15,7 +15,127 @@
    "lon": null,
    "status": null,
    "draught_m": null,
-   "visits": []
+   "destination": "",
+   "visits": [],
+   "track": []
+  },
+  {
+   "mmsi": 352004839,
+   "imo": 9971733,
+   "name": "NAVE NEUTRINO",
+   "reason": "Lake Maracaibo shuttle: left Bajo Grande on Oct 16, 2026 for Port Arthur; AIS on Oct 30 shows it anchored off Sabine Pass at 9.4 m draught (Bajo Grande loads are draft-limited). Earlier runs: Puerto Jose -> Pascagoula (Sep), Puerto Jose -> New Orleans (Aug).",
+   "source": "API16 AIS (destination VEBJV=>USPOA); MagicPort public port-call history",
+   "added": "2026-10-30",
+   "reported_venezuela": false,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "built": 2025,
+    "flag": "Panama",
+    "dwt_t": 115807,
+    "gt": 63398,
+    "loa_m": 250,
+    "beam_m": 44,
+    "owner": "Ithaki Shipping Corp",
+    "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
+    "class": "ABS"
+   },
+   "seen_this_run": true,
+   "last_seen": "2026-10-30T04:50:27Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "lat": 29.2464,
+   "lon": -93.6991,
+   "status": "at anchor",
+   "draught_m": 9.4,
+   "destination": "VEBJV=>USPOA",
+   "visits": [
+    {
+     "zone": "Open sea / other",
+     "group": null,
+     "first": "2026-10-29T15:56:49Z",
+     "last": "2026-10-30T03:50:01Z",
+     "draught_m": 9.4,
+     "draught_first": 9.4
+    },
+    {
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+     "group": "USG",
+     "first": "2026-10-30T04:50:27Z",
+     "last": "2026-10-30T04:50:27Z",
+     "draught_m": 9.4,
+     "draught_first": 9.4
+    }
+   ],
+   "track": [
+    {
+     "t": "2026-10-30T05:06:15Z",
+     "lat": 29.2464,
+     "lon": -93.6991,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    }
+   ]
+  },
+  {
+   "mmsi": 538007411,
+   "imo": 9802152,
+   "name": "IONIC ANAX",
+   "reason": "Lake Maracaibo shuttle: at Bajo Grande Oct 20-23, 2026 (after a Curacao call Oct 17-18), then left Bajo Grande on Oct 23; AIS on Oct 30 shows it off Sabine Pass at 9 m draught, destination VEBJV<USBPT (Beaumont). Earlier: Bajo Grande -> Pascagoula (Sep).",
+   "source": "API16 AIS; MagicPort public port-call history",
+   "added": "2026-10-30",
+   "reported_venezuela": false,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "built": 2017,
+    "flag": "Marshall Islands",
+    "dwt_t": 114720,
+    "gt": 63502,
+    "loa_m": 250,
+    "beam_m": 44,
+    "owner": "Ionic Anax Inc",
+    "manager": "Ionic Tankers Mgt Inc (Greece)",
+    "class": "ABS"
+   },
+   "seen_this_run": true,
+   "last_seen": "2026-10-30T04:50:27Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "lat": 29.3962,
+   "lon": -93.639,
+   "status": "at anchor",
+   "draught_m": 9.4,
+   "destination": "VEBJV<USBPT",
+   "visits": [
+    {
+     "zone": "Open sea / other",
+     "group": null,
+     "first": "2026-10-30T02:50:42Z",
+     "last": "2026-10-30T03:50:01Z",
+     "draught_m": 9.4,
+     "draught_first": 9
+    },
+    {
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+     "group": "USG",
+     "first": "2026-10-30T04:50:27Z",
+     "last": "2026-10-30T04:50:27Z",
+     "draught_m": 9.4,
+     "draught_first": 9.4
+    }
+   ],
+   "track": [
+    {
+     "t": "2026-10-30T05:23:17Z",
+     "lat": 29.3962,
+     "lon": -93.639,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV<USBPT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    }
+   ]
   }
  ]
 }
