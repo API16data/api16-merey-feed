@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "c2a05c7eb06d",
+   "date": "2026-10-30T22:35Z",
+   "title": "Trump's 'Biggest Oil Deal in History' Hits Reality: NABEP Faces Debt, Staffing Woes in Venezuela",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhN3NWRm5SZXdSaTlrVFBySk5LZlNVMV92anc4OEp6eHlWS2J0b3lrTGRRWGdidUN3ZHlFVmI5MTh2OUJhTlpXbVFndTh5VlUwcUNTOGJXZkFIOWFOaXhsRXhkT25QSTF4ZjBHbEVoYjZTeDZpNUE?oc=5",
+   "category": "Debt",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "0862f13d45cc",
    "date": "2026-10-30T21:47Z",
    "title": "Estiman que producción petrolera en Zulia alcance los 400.000 bdp para finales de 2026",
@@ -1362,6 +1372,16 @@
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeHNXcUhYQ09tZFFUQzhmR3p2amdEU3BXLXFXU1R6UHpXeVlXY1EzenBTT2JaRnc0SDMtUGFIbW9QOTVoTS1VLU8zSzlGNWF6UnltY1lMTi1MeVc1T25MelBpN2prUmJEXy1hNm56Znhram9Jb0tjclBYTFdyVERabEZ4OV9VUXdlNnJSLXFrRDVmaGdqY0s5akpJT3hDOWZkUkRVcG9nVXo4QW90THFvZ0dTZndseGZzZWNNcjVvWjU?oc=5",
    "category": "Production",
    "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "32946609874f",
+   "date": "2026-10-29T11:04Z",
+   "title": "Chevron CEO says Venezuela investment funded by JV cash",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVTFDMjNxZTk1YzNtc25QU2g5R2pFN29sa1NXdlRKMXRiaWJWTXBveHBhWFpVTDVjMFZSUFN2dk9ydDB3RDh6azdYOGhXZWJMQVBQNTdFQ2M4NXFJTkYwZ3BkV2V1cXFwVTRoWFZfUUxrWlhNdVhLR3JXaGhpd1dTWlB0T1huSmFOUThoakRjOE96RnJzWGVCa0NHTERZUXkzaXBPZQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -7793,26 +7813,6 @@
    "origin": "rss"
   },
   {
-   "id": "7113ece9e66a",
-   "date": "2026-10-24T15:03Z",
-   "title": "Primavera Infinita, la petrolera del cofundador de Coinbase",
-   "source": "El Ecosistema Startup",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkZmUEV1ZUNGUEVBTGlZckEzTmMwU011aDRCcmM5QUFvREFFd3JvQjRLWVNGcE9Rb09hOXpERVA2b25IR3RnVnFMMTMyWkE1TzkyOVg3OTFFN3gxSlpkYXZsMkNYQVFIelN4N2d1NXMxVTQ4VDVULUQ5eFo4cjdka3FUaFFRM1RCaTZTcGhlYVIyZlU?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "2931bbc20007",
-   "date": "2026-10-24T14:56Z",
-   "title": "Bloomberg: Venezolano de 28 años logra adjudicarse un bloque petrolero de Pdvsa",
-   "source": "La Verdad - La Verdad",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNm92NW5FZkhnRXl4Z2toZXVsWVJ4UXRwd1JueDZyQXpUZEU1WGZ1NmR2emFPS2I2MDE5c1dhT2pHUmpMc3pGWFRSYmd5bDlVek9zTk9sTUMzcUxuM09weHdISDNLQ3U0SGhWWlFrOWh2YzVVYk5pVTQyMWQ1cnNEVXItd0lSS2pETWJqWVJTcjdPbHNNajdPemRaRGlwSXJPd2c?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n04",
    "date": "2026-10-24T12:00Z",
    "title": "PDVSA: 1.252M b/d, highest operating figure since 2019; Petrozamora at 115k b/d, 120k targeted by December",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T23:00:33Z",
+ "updated": "2026-10-30T23:59:14Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
