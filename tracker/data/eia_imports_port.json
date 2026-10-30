@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-30T12:01:48Z",
+"updated": "2026-10-30T16:58:57Z",
 "source": "EIA API crude-oil-imports (EIA-814), origin Venezuela",
 "rows": [
 {
@@ -931,6 +931,69 @@
 "port": "Wilmington, DE",
 "kbbl": 1412.0,
 "kbd": 45.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "Corpus Christi, TX",
+"kbbl": 2505.0,
+"kbd": 80.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "Freeport, TX",
+"kbbl": 1993.0,
+"kbd": 64.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "Gramercy, LA",
+"kbbl": 2594.0,
+"kbd": 83.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "Houston, TX",
+"kbbl": 522.0,
+"kbd": 16.8,
+"grades": "Medium"
+},
+{
+"period": "2026-08",
+"port": "Lake Charles, LA",
+"kbbl": 2925.0,
+"kbd": 94.4,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "New Orleans, LA",
+"kbbl": 1309.0,
+"kbd": 42.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "Pascagoula, MS",
+"kbbl": 2526.0,
+"kbd": 81.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"port": "Port Arthur, TX",
+"kbbl": 5007.0,
+"kbd": 161.5,
+"grades": "Heavy Sour, Heavy Sweet"
+},
+{
+"period": "2026-08",
+"port": "Wilmington, DE",
+"kbbl": 925.0,
+"kbd": 29.8,
 "grades": "Heavy Sour"
 }
 ]

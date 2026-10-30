@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-30T12:01:48Z",
+"updated": "2026-10-30T16:58:57Z",
 "source": "Sum of refinery rows",
 "rows": [
 {
@@ -96,6 +96,11 @@
 "period": "2026-07",
 "kbbl": 21718.0,
 "kbd": 701
+},
+{
+"period": "2026-08",
+"kbbl": 20306.0,
+"kbd": 655
 }
 ]
 }

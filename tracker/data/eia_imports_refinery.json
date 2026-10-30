@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-30T12:01:48Z",
+"updated": "2026-10-30T16:58:57Z",
 "source": "EIA API crude-oil-imports (EIA-814), origin Venezuela",
 "rows": [
 {
@@ -1036,6 +1036,83 @@
 "refinery": "VALERO REFINING CO TEXAS LP / CORPUS CHRISTI / TX",
 "kbbl": 810.0,
 "kbd": 26.1,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "CHALMETTE REFINING LLC / CHALMETTE / LA",
+"kbbl": 1309.0,
+"kbd": 42.2,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "CHEVRON USA / PASCAGOULA / MS",
+"kbbl": 2526.0,
+"kbd": 81.5,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "CITGO PETROLEUM CORP / LAKE CHARLES REFINERY / LA",
+"kbbl": 1884.0,
+"kbd": 60.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "CITGO REFINING & CHEMICAL INC / CORPUS CHRISTI / TX",
+"kbbl": 1483.0,
+"kbd": 47.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "DEER PARK REFINING LP / DEER PARK / TX",
+"kbbl": 522.0,
+"kbd": 16.8,
+"grades": "Medium"
+},
+{
+"period": "2026-08",
+"refinery": "DELAWARE CITY REFINING CO LLC / DELAWARE CITY / DE",
+"kbbl": 925.0,
+"kbd": 29.8,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "PHILLIPS 66 / LAKE CHARLES / LA",
+"kbbl": 1041.0,
+"kbd": 33.6,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "PHILLIPS 66 / SWEENY / TX",
+"kbbl": 1993.0,
+"kbd": 64.3,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "PREMCOR REFINING GROUP INC / PORT ARTHUR / TX",
+"kbbl": 5007.0,
+"kbd": 161.5,
+"grades": "Heavy Sour, Heavy Sweet"
+},
+{
+"period": "2026-08",
+"refinery": "VALERO REFG NEW ORLEANS LLC / SAINT CHARLES / LA",
+"kbbl": 2594.0,
+"kbd": 83.7,
+"grades": "Heavy Sour"
+},
+{
+"period": "2026-08",
+"refinery": "VALERO REFINING CO TEXAS LP / CORPUS CHRISTI / TX",
+"kbbl": 1022.0,
+"kbd": 33.0,
 "grades": "Heavy Sour"
 }
 ]
