@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:37:42Z",
+ "updated": "2026-10-31T18:45:30Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -9,20 +9,20 @@
    "added": "2026-10-28",
    "reported_venezuela": true,
    "seen_this_run": true,
-   "last_seen": "2026-10-31T17:37:42Z",
+   "last_seen": "2026-10-31T18:45:30Z",
    "last_zone": "Corpus Christi",
-   "lat": 27.8159,
-   "lon": -97.4204,
+   "lat": 27.8108,
+   "lon": -97.2403,
    "status": "under way",
-   "draught_m": null,
-   "destination": "",
+   "draught_m": 8.1,
+   "destination": "USCRP",
    "visits": [
     {
      "zone": "Corpus Christi",
      "group": "USG",
      "first": "2026-10-30T12:56:46Z",
-     "last": "2026-10-31T17:37:42Z",
-     "draught_m": null,
+     "last": "2026-10-31T18:45:30Z",
+     "draught_m": 8.1,
      "draught_first": null
     }
    ],
@@ -56,6 +56,16 @@
      "draught_m": null,
      "dest": "",
      "zone": "Corpus Christi"
+    },
+    {
+     "t": "2026-10-31T19:17:45Z",
+     "lat": 27.8108,
+     "lon": -97.2403,
+     "kn": 11.2,
+     "status": "under way",
+     "draught_m": 8.1,
+     "dest": "USCRP",
+     "zone": "Corpus Christi"
     }
    ]
   },
@@ -79,12 +89,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": false,
-   "last_seen": "2026-10-31T15:38:37Z",
+   "seen_this_run": true,
+   "last_seen": "2026-10-31T18:45:30Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "lat": 29.2467,
+   "lon": -93.699,
+   "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
@@ -100,7 +110,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-10-31T15:38:37Z",
+     "last": "2026-10-31T18:45:30Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -325,6 +335,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-10-31T19:18:16Z",
+     "lat": 29.2467,
+     "lon": -93.699,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -349,7 +369,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-10-31T17:37:42Z",
+   "last_seen": "2026-10-31T18:45:30Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "lat": 29.3945,
    "lon": -93.6395,
@@ -369,7 +389,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-10-31T17:37:42Z",
+     "last": "2026-10-31T18:45:30Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -687,6 +707,16 @@
     },
     {
      "t": "2026-10-31T17:47:18Z",
+     "lat": 29.3945,
+     "lon": -93.6395,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV<USBPT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-10-31T18:47:17Z",
      "lat": 29.3945,
      "lon": -93.6395,
      "kn": 0.1,
