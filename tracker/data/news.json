@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "fa7040508187",
+   "date": "2026-10-31T18:24Z",
+   "title": "Nabep estimó invertir 100.000 millones de dólares para impulsar producción petrolera en Venezuela",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTkp5b3NVQWpURVdpWWV3bnl4ejhpSVRJNFdlbjc0YjJpOHZvTXEzM2RvQnpJVno3eE5HVGE5b1JPcC1RN1BockNmRm1vYW5iNE5sa29vZ2k1U21JcmhYZmY3SUhCcWhkSmFZOVd6ZzY1ZThDZFl0ZWE3QUp2bkhCZE1mUzRJRDVvQlVQQmEyZU5LNS1BeG9XUV8xVUpDZU1Jem9acTZNdWVzaHdRdHV0T0J5N0xFVk5DWDJ3eVRYRVFFQQ?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "3ecf85d1fffc",
+   "date": "2026-10-31T18:16Z",
+   "title": "Empresa italiana ENI comienza a explotar yacimiento Junín 5 en la Faja Petrolífera del Orinoco",
+   "source": "Globovisión",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVy1sRzNmNURDaVg2REpNZzg5VFlHRTBBbHdlXzhFU2FIV0RuZWhUdUdqX2FVV1dVN09fYlNiVjluRjBJWm9mdWppMi1qQ1lCcmRHckI4eDNuZDRIZ1llaEI2em9rekJNNmppN2s2dlVZMWM3UFNsSDc5aHZHZDQ5bDAzMmZmRkI5TVV3dU40YnRjdkhlQUpwcXBlVkIyLWF4ZVJnaFVhX0dZOW92UXBqQmY5djI0TDNPeTUxRkZuZWJCQTZJWU4zNHdBZC1WVVpKNVhj?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "865b3a037433",
    "date": "2026-10-31T17:48Z",
    "title": "Nabep anuncia expansión de su flota a 41 plataformas tras superar los 223.000 bpd",
@@ -7782,26 +7802,6 @@
    "origin": "rss"
   },
   {
-   "id": "7711a9070a58",
-   "date": "2026-10-26T04:58Z",
-   "title": "Maria Corina Machado's return energizes Venezuela's opposition",
-   "source": "Le Monde.fr",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSVg0WGVDUWZoZUpHNTRXRDd3UDJqU1hqODlFSlJHM3BnZG8tR2tPQm1HTE1vdDM0dGFwT1NSM2xQUTIzRlFyT2F2dldLbWRFbGdYbGJtMzBidmtkZjc0WTJ3dHVfa3ByRGZNcTVlNktDVGZtd0c0eVljYlZQT3BLcmJBdnhuelpoUmdjcUhYbWx5d19mUnpqQ0tXbkVuRDBhQ1FQckJ3d01vbGw1akJfanBQN2NZVG5wRkJvWHVuUTduZE80QkhmOUdOUDQ0VkxaVXc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "e29fb3c1e2e2",
-   "date": "2026-10-26T04:00Z",
-   "title": "India is a ‘refining superpower’, says US state secretary Rubio, as the world faces a potential energy crisis",
-   "source": "Asia News Network",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdVFYek5pOWxRVkp2bFNhLU1zaGtnck5UUWtIT0pKcnNRZS1pbUk3ZmxoeFlhZXlzemRsc1FWSUhTbl9NUDZlSlZNdzI3ZUVsNmdzMU1INUFMWi1relM1UVdSV3lxRXJLNEZSdjdPX292aTZxZGhsVjFNYzktVkFESDNuc0dxUlVOMC1RRGkwRFkxaGRJdjdlUEMxamVkXzhLUzZDMjJyZHoxcGdzMHg1ekZlbjk4enVuNTJmcUNPSS1DYWRKazl6NjB0WQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n03",
    "date": "2026-10-25T12:00Z",
    "title": "White House: Venezuelan oil arriving in the US up more than 400%, highest in almost a decade",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-31T17:57:00Z",
+ "updated": "2026-10-31T18:30:53Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
