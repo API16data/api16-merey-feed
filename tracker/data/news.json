@@ -1141,6 +1141,16 @@
    "origin": "rss"
   },
   {
+   "id": "be3afcbc4951",
+   "date": "2026-10-29T16:47Z",
+   "title": "KEY PLAYER IN THE DEAL – The Venezuelan Billionaire the US Investigated for Money Laundering Now Has a Pentagon Oil Deal",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY1VtQW9rZ2owR05rWDhLd0czUDV0WlRFb0JwUGg2Y2kxc05IcVROd1NjVjJWQ0xnbnVKNEZEczhwQzJhTTEtZUx5LVczbW5xTnFPZWg4ckk0SURBLXlBV2xsZkxoaHdBdU0xdnVmd1Fkd3VUV0NQMzhrczNBWVNCMy14ZGN0MEk3eEpqb1NLMHlIcktQZW9uYkR4Mm5KYURvMnBjODVCUzc0Yl9lTU0tbTFxSm1USlJReDgycDV3WVJ6MG1J?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "e84ffb4578d8",
    "date": "2026-10-29T16:30Z",
    "title": "Advierten que Venezuela deja de percibir unos 50 dólares por barril de petróleo en acuerdos con la firma Nabep",
@@ -7803,16 +7813,6 @@
    "origin": "rss"
   },
   {
-   "id": "2a90ce22782d",
-   "date": "2026-10-24T20:46Z",
-   "title": "Venezuela. El país caribeño alcanza producción de 1,25 millones de barriles de petróleo diarios / Así lo confirmaron representantes locales y, por parte de los EE.UU, el encargado de negocios, John Barrett.",
-   "source": "Resumen Latinoamericano -",
-   "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQaVBvYUdkOUpkaFJDNUZtb1B2cTlBZGdLcU5HeXRMR1NFTVhTcG1LcVVWLXlseWxGQXYzX0EwSG52bjhiWkp5ekF6YnpQdE1wUDRKUS13TnlaemFBeF9rUDRJQ3lxWEZVc2xoeExFLVd5WlJkdnRoVUUxbTh6cFpJQ05GeUdPQjVOWGM3X1dHNHlzMHNkYUVSV0JpSDRLWUJKYk9LNHBCZ3p3VU5vQnUxdHk5UzhhczZDQzJIYThGYmlXRVUyVEhZenRlNzk0YzI4WF9KS3Nla2NPTDEzOEhmMmQyMlpPUGdPd1FCdVB2MFUzZ1R6ZUZOSDhBQ2hFbmQ1ejBLOUZnTGFSdXVSNGF5QVNKaVBQWkxXaEsxcmJSay1UdkdJOEJFcms3blpvWjRoVVZhaF9fUUFzaThVdHc1MWhhNW9KV3J6T3phRGRwUDg3X0ZrSzZCN2o1V3h6bVc4eFE?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n04",
    "date": "2026-10-24T12:00Z",
    "title": "PDVSA: 1.252M b/d, highest operating figure since 2019; Petrozamora at 115k b/d, 120k targeted by December",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-31T01:47:12Z",
+ "updated": "2026-10-31T02:37:48Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8053,7 +8053,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Banca y Negocios: URLError",
+  "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
  "highlights": [
