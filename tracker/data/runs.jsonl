@@ -90,3 +90,4 @@
 {"run_at": "2026-10-31T03:46:14Z", "listen_seconds": 2700, "ais_messages": 4207, "tankers_seen": 46, "by_group": {"TT": 1, "USG": 45}, "venezuela_linked_total": 8, "venezuela_linked_in_us_gulf": 0}
 {"run_at": "2026-10-31T04:47:05Z", "listen_seconds": 2700, "ais_messages": 4004, "tankers_seen": 43, "by_group": {"TT": 1, "USG": 42}, "venezuela_linked_total": 8, "venezuela_linked_in_us_gulf": 0}
 {"run_at": "2026-10-31T05:42:46Z", "listen_seconds": 2700, "ais_messages": 4074, "tankers_seen": 47, "by_group": {"TT": 1, "USG": 45, "OTHER": 1}, "venezuela_linked_total": 8, "venezuela_linked_in_us_gulf": 0}
+{"run_at": "2026-10-31T06:52:45Z", "listen_seconds": 2700, "ais_messages": 4046, "tankers_seen": 45, "by_group": {"TT": 1, "USG": 44}, "venezuela_linked_total": 8, "venezuela_linked_in_us_gulf": 0}
