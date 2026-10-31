@@ -1,73 +1,7 @@
 {
- "updated": "2026-10-31T03:46:14Z",
+ "updated": "2026-10-31T04:47:05Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
-  {
-   "id": "AIS-538007411-2026-10-30",
-   "mmsi": 538007411,
-   "imo": 9802152,
-   "name": "IONIC ANAX",
-   "length_m": 250,
-   "status": "arrived",
-   "stages_done": 3,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "partial_load": true,
-   "specs": {
-    "type": "Crude/oil products tanker (LR2/Aframax size)",
-    "built": 2017,
-    "flag": "Marshall Islands",
-    "dwt_t": 114720,
-    "gt": 63502,
-    "loa_m": 250,
-    "beam_m": 44,
-    "owner": "Ionic Anax Inc",
-    "manager": "Ionic Tankers Mgt Inc (Greece)",
-    "class": "ABS"
-   },
-   "destination_now": "VEBJV<USBPT",
-   "destinations": [
-    {
-     "dest": "VEBJV<USBPT",
-     "first": "2026-10-30T02:50:42Z"
-    }
-   ],
-   "last_seen": "2026-10-31T03:46:14Z",
-   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-10-30T02:50:42Z",
-     "detail": "declared destination VEBJV<USBPT"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": true,
-     "time": null,
-     "detail": "draught 9 m vs ~8.5 m laden mark (Lake Maracaibo, partial load)"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-10-30T04:50:27Z",
-     "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
   {
    "id": "AIS-352004839-2026-10-29",
    "mmsi": 352004839,
@@ -98,7 +32,7 @@
      "first": "2026-10-29T15:56:49Z"
     }
    ],
-   "last_seen": "2026-10-31T02:49:46Z",
+   "last_seen": "2026-10-31T04:47:05Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -113,6 +47,72 @@
      "done": true,
      "time": null,
      "detail": "draught 9.4 m vs ~8.5 m laden mark (Lake Maracaibo, partial load)"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-10-30T04:50:27Z",
+     "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-538007411-2026-10-30",
+   "mmsi": 538007411,
+   "imo": 9802152,
+   "name": "IONIC ANAX",
+   "length_m": 250,
+   "status": "arrived",
+   "stages_done": 3,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "partial_load": true,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "built": 2017,
+    "flag": "Marshall Islands",
+    "dwt_t": 114720,
+    "gt": 63502,
+    "loa_m": 250,
+    "beam_m": 44,
+    "owner": "Ionic Anax Inc",
+    "manager": "Ionic Tankers Mgt Inc (Greece)",
+    "class": "ABS"
+   },
+   "destination_now": "VEBJV<USBPT",
+   "destinations": [
+    {
+     "dest": "VEBJV<USBPT",
+     "first": "2026-10-30T02:50:42Z"
+    }
+   ],
+   "last_seen": "2026-10-31T04:47:05Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-30T02:50:42Z",
+     "detail": "declared destination VEBJV<USBPT"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": null,
+     "detail": "draught 9 m vs ~8.5 m laden mark (Lake Maracaibo, partial load)"
     },
     {
      "stage": "Crossed a Caribbean gate",
