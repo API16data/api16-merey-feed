@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:42:01Z",
+ "updated": "2026-10-30T23:40:25Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -60,9 +60,9 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-10-30T22:42:01Z",
+   "last_seen": "2026-10-30T23:40:25Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.2467,
+   "lat": 29.2466,
    "lon": -93.699,
    "status": "at anchor",
    "draught_m": 9.4,
@@ -80,7 +80,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-10-30T22:42:01Z",
+     "last": "2026-10-30T23:40:25Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -205,6 +205,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-10-31T00:00:16Z",
+     "lat": 29.2466,
+     "lon": -93.699,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -229,9 +239,9 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-10-30T22:42:01Z",
+   "last_seen": "2026-10-30T23:40:25Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.3957,
+   "lat": 29.3956,
    "lon": -93.6394,
    "status": "at anchor",
    "draught_m": 9.4,
@@ -249,7 +259,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-10-30T22:42:01Z",
+     "last": "2026-10-30T23:40:25Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -410,6 +420,16 @@
      "lat": 29.3957,
      "lon": -93.6394,
      "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV<USBPT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-10-31T00:23:18Z",
+     "lat": 29.3956,
+     "lon": -93.6394,
+     "kn": 0,
      "status": "at anchor",
      "draught_m": 9.4,
      "dest": "VEBJV<USBPT",
