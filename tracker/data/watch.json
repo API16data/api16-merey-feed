@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:38:37Z",
+ "updated": "2026-10-31T16:40:12Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -8,12 +8,12 @@
    "source": "Directorio Petrolero (Instagram), White House (X)",
    "added": "2026-10-28",
    "reported_venezuela": true,
-   "seen_this_run": false,
-   "last_seen": "2026-10-30T12:56:46Z",
+   "seen_this_run": true,
+   "last_seen": "2026-10-31T16:40:12Z",
    "last_zone": "Corpus Christi",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "lat": 27.8271,
+   "lon": -97.4926,
+   "status": "under way",
    "draught_m": null,
    "destination": "",
    "visits": [
@@ -21,7 +21,7 @@
      "zone": "Corpus Christi",
      "group": "USG",
      "first": "2026-10-30T12:56:46Z",
-     "last": "2026-10-30T12:56:46Z",
+     "last": "2026-10-31T16:40:12Z",
      "draught_m": null,
      "draught_first": null
     }
@@ -33,6 +33,16 @@
      "lon": -97.4912,
      "kn": 0,
      "status": "moored",
+     "draught_m": null,
+     "dest": "",
+     "zone": "Corpus Christi"
+    },
+    {
+     "t": "2026-10-31T17:24:06Z",
+     "lat": 27.8271,
+     "lon": -97.4926,
+     "kn": 1,
+     "status": "under way",
      "draught_m": null,
      "dest": "",
      "zone": "Corpus Christi"
@@ -59,12 +69,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-10-31T15:38:37Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.2466,
-   "lon": -93.6991,
-   "status": "at anchor",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
@@ -328,12 +338,12 @@
     "manager": "Ionic Tankers Mgt Inc (Greece)",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-10-31T15:38:37Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.3951,
-   "lon": -93.6395,
-   "status": "at anchor",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 9.4,
    "destination": "VEBJV<USBPT",
    "visits": [
