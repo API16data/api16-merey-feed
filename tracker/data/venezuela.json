@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:49:54Z",
+ "updated": "2026-10-31T13:47:19Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -9,7 +9,7 @@
    "length_m": 250,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "last_seen": "2026-10-31T12:49:54Z",
+   "last_seen": "2026-10-31T13:47:19Z",
    "destination": "VEBJV<USBPT",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
