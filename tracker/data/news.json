@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "15187b04ffbb",
+   "date": "2026-10-31T08:58Z",
+   "title": "NABEP plans to produce 1 million barrels per day in Venezuela — The Japan Times",
+   "source": "UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc0hSQXFWc2JPREhNZzJLbHNKLU9tV0NGSXktWkJwQnpvVTJsb0JESGptOHBiRVpSXzhabE1NRUR4RTVIejBDTk5iaU43TmRmMVBkUmdZM1N0SFp6ZDg2cUxJYmdGMXVtbW1uRlYyaVFlN1FCc09sSDhsNXJINnBZei1ZaGdmVUg2VENtQUFwQzlpcXVhWDdwZmR3cEhlV1ZGcUdETUVfOA?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "2d55364c44d2",
    "date": "2026-10-31T07:21Z",
    "title": "Chevron to invest $7 billion to double oil production in Venezuela — Fortune",
@@ -7803,16 +7813,6 @@
    "origin": "rss"
   },
   {
-   "id": "fc170aad7b94",
-   "date": "2026-10-25T09:32Z",
-   "title": "AM Edition - Infrastructure",
-   "source": "EnterpriseAM",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02d3Vla2JRYXlOZjVwSWFpZC0yUjQyRU4yQnZ5Q1NOSm9wRmZSbUJiQzhESi1xaTh4SEhQTVJtT2pYUll5WVFsQk5xWHpveU9ENXozQVRBV1ByN2d2WmhwVg?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n04",
    "date": "2026-10-24T12:00Z",
    "title": "PDVSA: 1.252M b/d, highest operating figure since 2019; Petrozamora at 115k b/d, 120k targeted by December",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-31T08:14:51Z",
+ "updated": "2026-10-31T09:07:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
