@@ -1011,6 +1011,16 @@
    "origin": "rss"
   },
   {
+   "id": "b11d1913cb54",
+   "date": "2026-10-29T20:42Z",
+   "title": "Opinion | New Energy for the U.S. Virgin Islands",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zaHlXd2l0czBjeWZ5eW4wZ3FENjNkZFVOVnpLLU42YllRbkFCWGpLMXNObzhfVGc0MEZaalg1NFVYeWx6QTJiN0VoV1I1UHZ0MGE2aFBUc1VpNE1zWFBoTzc0bkFQWDJmU1E2OEpzYjE5cW1YbjRKRkhIaVNYMFE?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "ae21cd1d18a0",
    "date": "2026-10-29T20:41Z",
    "title": "Venezuela to offer state assets to private sector, Rodriguez says",
@@ -7803,16 +7813,6 @@
    "origin": "rss"
   },
   {
-   "id": "71f02fd6f80a",
-   "date": "2026-10-24T20:50Z",
-   "title": "Western Media Accept Trump’s Plundering of Venezuelan Oil as Business as Usual",
-   "source": "Venezuelanalysis",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQTZCUTNSZ1NObmtfZTVyekQ1UVNDLXdselpfZGQ0Qnd1UTdEYjd2SDdzdktNTW5hRHo4QzRxbFd2Q3VZYk1kZXRxZGFxN2RYdXk5WERybkE3Q2VYTEJSVlE1U3VNWU5Xb2UyNDZOckRmSXlvaGtUWHh4TEthZng4WVJUdmRtWlctSTV2QllsWGNoQklpVzdadzk1WUZaLTAyVmljSm9Xalc3Q0xiQVVRRXlvU0FDUQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n04",
    "date": "2026-10-24T12:00Z",
    "title": "PDVSA: 1.252M b/d, highest operating figure since 2019; Petrozamora at 115k b/d, 120k targeted by December",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-31T02:37:48Z",
+ "updated": "2026-10-31T03:34:13Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
