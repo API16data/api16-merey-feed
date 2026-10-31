@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "e3cbdafab596",
+   "date": "2026-10-31T00:18Z",
+   "title": "Donald Trump asegura que EE. UU. ha recuperado en Venezuela \"10 veces\" lo gastado en la guerra contra el régimen de Irán",
+   "source": "NTN24",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNFNQUnBrLVo1cEMweDVGNDduV29fXzZPY2lPWVEyYkFWei05Z0pxa013MWhtUXNGZUNIMzNSclV3djFMcjBrWGwwRHkyXy1kMm54THdJbWhDQUo0S0YxLVVyajZEX09OWE9MQ0o4cnBDcGZvSldQRW1wLVVKdzFQYTFHcGNOZ21aeW8wT2FQazVnSHcyN2E3a3JvaXhueEtnVlB2OW9EVFNmcEFvekFxdkstSkxmUGhKOE8zOTFlNGFYcjZiclBURGZNNFZwYlVWeDVtektBMFZndHdNQzVxemg4TlpxbTV2dnpjbHU2bXlkYWF4dldhWNIB-AFBVV95cUxNeVFLTHBfc2NWVmFtR3pQMV9YcGd2bG0tZE9NN08tRTQ3OFNuSGttRGExSlNiVEgwR3RjdlZBdm1lUUh4RW1TVmF4Wm9mVHlVcHp2NTRtRHJGX1A3WkZQdmY4dlJxUnFPVkxrVWxzQmI0OEt4WHRHVHVYZzhzRVNCSkd5WERoOS1xckp1X0kwNjEtWFZUQW1HRVB2ck85LUkwY3c4anFpMElsZVVLbmxXdlJ5Vlp6N0UyVElDbzNmM0FsazF6SFZwQk9EVHdjeFpWN1VEQkpSUVRpM19sSEFlYzhXcXRxVFdlUW50RDl5S2FiaXJTNXozYw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "85c02d994504",
+   "date": "2026-10-30T23:28Z",
+   "title": "¿Quién compró Tío Rico? Los negocios de Jaime Gilinski en Venezuela, de los helados al petróleo",
+   "source": "Howl.Link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE8teE5SQkR5WWVRQUtxNVZjNFlYcVRsRkZTVjBUSGRfS29zbUlrekNFRG54cE9HbUFUY20w?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "c2a05c7eb06d",
    "date": "2026-10-30T22:35Z",
    "title": "Trump's 'Biggest Oil Deal in History' Hits Reality: NABEP Faces Debt, Staffing Woes in Venezuela",
@@ -111,6 +131,16 @@
    "origin": "rss"
   },
   {
+   "id": "64480870fe35",
+   "date": "2026-10-30T18:32Z",
+   "title": "Ricardo Penfold: Venezuela recibe reinversiones petroleras, pero no logra atraer capital fresco",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeHEwOE81TUJCckd5QWtzOWN1dkdiTzR1NEdQazRmR09adW1hUTViYml4S1dta1pQY21CLVdXZFVEMWptZTAxam5MakNWVUVCcEVvbFRjTmVhU0xPbnlxaUVTc01UblhrSkNIOXFkaGZoR01hVHFCdnlSemthNUVPMXNIN0draE85cklheQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "a8743c9f1fc7",
    "date": "2026-10-30T18:31Z",
    "title": "Continental Resources Signs Venezuela Oil Block Deal With PDVSA",
@@ -207,6 +237,16 @@
    "source": "CNBC",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNemxUUzg0bDZRYzdqbTVRbFRNLU9FbXBvcmFVSjQxUEZTSzRZYXFWNktjYkVXemxaVWNCSnJjbWFnNzRvMU9tQS1KS0pfSjdXRjlKSWVOT1BjZG1UNWcxTE5xMzBmeUZidlJnWUhndE90clRnMWpvb0pKVVR4U3o5a3FwN0N5aV9oODNDb2paSElrT1hPWkV6QTlkZWRoRjhxc1ppZXY2MjZDTlV3aU5yVjd5LWE1YVo5UWlxVmxfTVJrVWR0MjB6NnBZTm5raGllczRhdg?oc=5",
    "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "879cee08684b",
+   "date": "2026-10-30T16:28Z",
+   "title": "Chevron: Advancing Long-Term Growth in Venezuela >CVX",
+   "source": "Moomoo",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTjJQZFJnVURuZF95bmhjbWxWNFlNUENtZG1qV2FFT3NFTzBnNDZhTk1vQkV5bDdHWVQ3a094MF9CcVN5QjhtdEZ5c0tQcHA5MTdoNDNzUDhXSm1Mc3FyaXBnQnBkZXNOMHAtNHdpazZwbUV6bEpKQjBQS1J6NlpZaTdvdFZ5SU5pV240Qkl5Z25YZ0pQSGtJQUI5TQ?oc=5",
+   "category": "General",
    "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
@@ -877,6 +917,16 @@
    "source": "economy.ac",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02WE5RdU9oQ0pTSngwTWlVcFRIX2NOd3owLXFPVmRuN2hGdDFnanhHdC1zanhFWHd2Vl9YRHhJa0M5amtCd0pmQVgxeDNDR2tNcjhyRGM4VG9BUQ?oc=5",
    "category": "Pricing",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "93d57d9f47bd",
+   "date": "2026-10-29T21:17Z",
+   "title": "Repsol sees 11% growth in gas output at Venezuela JV, progress on oil operations",
+   "source": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU1RaMmRKMm8wQW85bVhYYUZQSmhwWUotY3dqMjl0dnBtVmI5ZUg1OWJndEl2M24tTXhtcGdnV3prYUpJbk9nSmVyVWxIWnI1R2hza2Q3MllTbmpXT3VENE5yNGlsdjhpZzc3cTREbllhUDNnamtrXzdXaGVvaF9uVU5JdVVPTi1IejdFYXh6SGIyNV9McWJLbG9qc0RsbDlmeGJUMkdMM0lyWkt1QU83QVdpYThDaDN2NDJmcGhpZWxSTjVyUWQ5UU1RNA?oc=5",
+   "category": "Production",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -6860,6 +6910,16 @@
    "origin": "rss"
   },
   {
+   "id": "ff0bd3c5c322",
+   "date": "2026-10-26T13:30Z",
+   "title": "Trump’s Venezuela oil deal offers U.S. steep discounts, with little for Caracas: Report",
+   "source": "Final Call News",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcy1aQWdyS3dkdWMyQ1NmVWNhU19kUDQ4bVlmOEp6aXZET2J6NFlkbm9zTkYtVmUwcDJ2WlppSnpXNTF3VmJxVDRyYjl2U2VfcmlhQWUwY2cwLTBwQmNaYW9LQ0N6RXNWTGdNaVNLR3Vnb3lfakthYjNUYWFjeXhOa0RBanRNanEzYjNtc2lodXpNLWpLSGl4M3FqejFXb29rZ1pNUjFDRlotNXk0NG01c0RvQ1RGbUR3Rlc2b05R?oc=5",
+   "category": "Investment",
+   "via": "Google News: Orinoco Belt",
+   "origin": "rss"
+  },
+  {
    "id": "285a68ea811a",
    "date": "2026-10-26T13:00Z",
    "title": "Russia's Arctic Oil Shortcut Runs Into a Wall of Ice",
@@ -7753,66 +7813,6 @@
    "origin": "rss"
   },
   {
-   "id": "5d9edd3a2d4a",
-   "date": "2026-10-24T16:33Z",
-   "title": "Venezuela Oil Production Hits 1.25 Million Barrels Daily in Major Recovery",
-   "source": "teleSUR English",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxZDQxdHQwa2hPeXFTTGxNT3FLYXNHaGVOb2RBX2FDV2tIY21tMUNnVmxvUTNNVkJhakxnbmNRcXY0UGxMZnRKd3VvS0w1N1VBMGxKSVpWOTlZRExPWUltRFFvaDNNdzA?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "12f5bbff5a1f",
-   "date": "2026-10-24T16:31Z",
-   "title": "Analysts Challenge Venezuela's 303 Billion Barrel Oil Reserve Claim",
-   "source": "PravdaReport",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY0ZDQldYM1FuUHY2WGJHbjZZNm43bXlVTjVsVjJ0ZUFsYkRyTUNvOTlsVDNweFZubFNLdFJReHFVYzB3R0VKQjl3cVRQR3Z2MGhHeTJJaXFXRXQ5QVV4X05TaFFRQUZIeEtGNDJ5QXVDWGx5S2NlanNTOUhjRF9tU0RMYUpidzV2SjV2M2RCYXRQa3hTY2hxcQ?oc=5",
-   "category": "General",
-   "via": "Google News: Orinoco Belt",
-   "origin": "rss"
-  },
-  {
-   "id": "397c23838b3b",
-   "date": "2026-10-24T16:26Z",
-   "title": "PDVSA impulsa su producción en el estado Zulia y alcanza",
-   "source": "Diario La Calle",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNkFVa2JzcWlnblhTUmU3YUpSbmY1a3FGemptUUFvVnBGbjFoWjV3b2g4UFdQNjNpc1pVQ2ZQdVF1RnRnNzc3ZUIyYngzYTc0dnhCcE9kMmdVUDNqRUhEVzhkUHUyeHR0WG5yTVNaSHRTLUpMLS1JUk9CMVNxWDd3cWx5M2VWd2FRczhWYnZVdHI1NHZpZFFHX0pBbWNtRmZBUFU1TWRmOG0yYTh2SWc?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "799587cc3ee4",
-   "date": "2026-10-24T15:49Z",
-   "title": "Bloomberg: Empresa china ayudará a reactivar una central eléctrica clave en Venezuela",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTXNpeHB6bmdBdnJHOE1KcXhzU1d0cGxnZXRXY0FqcTZzYkFldDBhZ3pSY0JfMFdBMDBnTXk0c2ZJVFdwTm5wWnZDeFNrNG5lT1RMbDBaNmhVem9IdDNzU3AwR211REFUS1hwa081TWJpeU9RcmFRc3F0VGhpOXFOTlkyRW9xRDBvc09rNUxTT3FiSDRnU0xCaHFILWpwa1k3OWxyLVpkdWdVRGlvVldUbzBMZzVEZXc?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "0764b27b4b7b",
-   "date": "2026-10-24T15:21Z",
-   "title": "Venezuela’s oil production reaches highest level in recent years",
-   "source": "AzerNews",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vZk1CTDU3eTVQYXVGazNfUVVYd2tGaHExOV83MU5semdLVjFqVEwzYnVKNjNWMTZkUERtYzdJcHM5eS11RlpINW9fcWpaeTJBS1hQbg?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d201476da734",
-   "date": "2026-10-24T15:19Z",
-   "title": "Dato: Venezuela está exportando gas licuado de petróleo a EEUU y a República Dominicana",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdVpGQVB4UWN0Y2FEV0VHTzJhZHNGc3JJVjUtTnVyQXFmdDRHX1I1T04tYUNQLXhsaTBfbDRVU2xyeEM3RzA0NjNIa0hJVk96ZDRzdUtSSUdVd3Q4UmFDWDVBWWoyQV80ZkxYdFpaX1dqUlFMUWJqanNoaE5PUFNaalFhTDF4Q3lZMURXOUtmSlF2d3hVTEJfTWJxSlhDVm10eW5yNXdibTFXempkOHFUYmVFLS1tNVp6OVE?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n04",
    "date": "2026-10-24T12:00Z",
    "title": "PDVSA: 1.252M b/d, highest operating figure since 2019; Petrozamora at 115k b/d, 120k targeted by December",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-30T23:59:14Z",
+ "updated": "2026-10-31T00:52:02Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8077,13 +8077,13 @@
    "key_figure": "600K barrels"
   },
   {
-   "date": "2026-10-30T12:41Z",
-   "title": "Eni Reactivates 'Supergiant' Venezuelan Oilfield",
-   "source": "Rigzone",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVGF4YWFzSHEwbEpDdTlYSnNmcjI3dzBNMXdhYzJnZGs3aHh0MTNxN3NFelk2RWFSYTNOSDBfVUhkMlZod0xTV0YxbXpTNXNJd1Q0MjhHMzB4ZnYyWlFKQzZjWDY5QnNEZnlaWFFIX0F4b09TSk9oMlpLd3k4bGo1a0dUdG9wVGFSZnN3QlVoMUF3cENZYmhXVHV4eVpkdTY3YkFMQzBn?oc=5",
+   "date": "2026-10-29T21:17Z",
+   "title": "Repsol sees 11% growth in gas output at Venezuela JV, progress on oil operations",
+   "source": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU1RaMmRKMm8wQW85bVhYYUZQSmhwWUotY3dqMjl0dnBtVmI5ZUg1OWJndEl2M24tTXhtcGdnV3prYUpJbk9nSmVyVWxIWnI1R2hza2Q3MllTbmpXT3VENE5yNGlsdjhpZzc3cTREbllhUDNnamtrXzdXaGVvaF9uVU5JdVVPTi1IejdFYXh6SGIyNV9McWJLbG9qc0RsbDlmeGJUMkdMM0lyWkt1QU83QVdpYThDaDN2NDJmcGhpZWxSTjVyUWQ5UU1RNA?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
-   "key_figure": null
+   "key_figure": "11%"
   },
   {
    "date": "2026-10-30T10:25Z",
