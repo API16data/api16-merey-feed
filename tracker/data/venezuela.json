@@ -1,21 +1,7 @@
 {
- "updated": "2026-10-31T08:46:28Z",
+ "updated": "2026-10-31T09:42:11Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
-  {
-   "mmsi": 538007411,
-   "imo": 9802152,
-   "name": "IONIC ANAX",
-   "length_m": 250,
-   "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "last_seen": "2026-10-31T08:46:28Z",
-   "destination": "VEBJV<USBPT",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
-  },
   {
    "mmsi": 352004839,
    "imo": 9971733,
@@ -23,8 +9,22 @@
    "length_m": 250,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "last_seen": "2026-10-31T07:54:28Z",
+   "last_seen": "2026-10-31T09:42:11Z",
    "destination": "VEBJV=>USPOA",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
+  {
+   "mmsi": 538007411,
+   "imo": 9802152,
+   "name": "IONIC ANAX",
+   "length_m": 250,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "last_seen": "2026-10-31T09:42:11Z",
+   "destination": "VEBJV<USBPT",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
