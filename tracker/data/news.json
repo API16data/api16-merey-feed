@@ -21,6 +21,26 @@
    "origin": "rss"
   },
   {
+   "id": "b7049ca01130",
+   "date": "2026-10-31T15:21Z",
+   "title": "NABEP Rig Fleet Grows to 41 as Production Passes 223,000 Barrels of Oil Equivalent a Day",
+   "source": "Morningstar",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUGxrd0ZuVUFSVUViNTBSdUUtbXUzUjBmci0xbW5PN1YzVFJNSFVLdnZRc1JaUDJOOUtld0pmN0JqMWMwZUFBMUZNbkdqRHVwVWNtY2tTXzJsaGtxWlY0RmgxZjJhcjQ4NXVtVVlURXJkdGFhQzNNb2RERmhYb294NFFIc1lvdlJxNVctZVJFTnlfTVlTdGpSVzU2eEdMZjdKTGh3UlB1MndXZ3ZsZEhwZHZWclBUTmxFdk1TZjg5YzBrQlVGVU9sQlF5RjQyN2dCcUR1cVZNblR2cmtJak14QlpB?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "71a47eb69a51",
+   "date": "2026-10-31T15:17Z",
+   "title": "Nabep eleva su flota a 41 equipos en Venezuela y reporta producción superior a 223.000 barriles diarios",
+   "source": "AlbertoNews",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQlQzQzFTODMxR3pOT0FKc1pudHZNaUhGYTJqU09XV3d6TzNHbGdSd1VHS2oxdDVIQU8zdlJoMVN4aU1EbTFqdi02ZjlyRkxIeFRUei1DS29XRmYyUUZteDdtQjB5M19iLTkzOHFadHVvMGhSeG1fb2Z4Yl9zTmdOODhpN19GQzVSVEg5cnJrajktUjhJbEtmZzRGbXM1MDRIZEpXVTdZWUlDM1NCNUVrZDNLVnBGajQ4NWFDY2pFbDl3TmVjR1M4dExIV1QycEVxYm9Yb3NNWQ?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "d3016c4bc3c0",
    "date": "2026-10-31T14:27Z",
    "title": "Chevron proyecta elevar su producción petrolera en Venezuela un 20%",
@@ -447,6 +467,16 @@
    "source": "BigGo Finance",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50c0dBX3RIS2t0SFYtX0dwUnEwOUtmZ2wwZWxVdTlRYlo0d1NGMGZaUHRqcEludVJCcWtKVC1SYW5pOWZ3ZGhBTlBNU3U3RkVBeC1LWnYtbGlTOWk1?oc=5",
    "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "b9ad7edd34d7",
+   "date": "2026-10-30T19:14Z",
+   "title": "Chevron Q3 Earnings Call Highlights",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1RBVDRpd3BpUEVIdTNwbks3UHJYR0NpM1A1MC1vZkYxMzFKQWpOMm5EdS1aUFNueVA2LVBkS3laeXdPUWQ3RDVNd0dpZmZpNVJTMUljbG9KV3hZVXBrMFJ0YVRBaEdMa0xnd2JNYmp3RTJzWTFNbmcyRGJSVGJja1RLalFOc3hzdFAzaFpRTXNUOTFtS1Q5LWNuVHU?oc=5",
+   "category": "General",
    "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
@@ -7772,36 +7802,6 @@
    "origin": "rss"
   },
   {
-   "id": "1caa06d2bf05",
-   "date": "2026-10-25T21:47Z",
-   "title": "Opposition leader Machado returns to Venezuela",
-   "source": "Free Malaysia Today",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTHFWUUZubFJYNVdwb29mbkloYW9pT1NNSkJXUXJlZWN4R1ByM0RMbkxuQmlqaVJCamNZSVlzQlBwVHRaa1VBZU9obHVvMENZUDJreEhveVFBNkpNTXV1VGt2Qk82Ym0tTm9Dbm95bHdnVS12aW5qanJ0cUktMUlhZzdtVXYyLUFZa05NQmVSN3FOSEVCNVMyaDFhNnpZcU4yMko2R0NWLXRveDB2WDI4?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "70fc3bafe349",
-   "date": "2026-10-25T19:33Z",
-   "title": "Oil politics reeks of hypocrisy",
-   "source": "The Tribune",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RdWNISHNXWDZhVThINnlHcVFOZlVDcVg1T2tCUjg4a0s3N2prRGxhZm95dDViQnZZX3FGYTg1RFptaFNhS3drRGRPVVJKcVZTY19EaGxFcGNmNTJtOGZ3emNVYzFvckJWSDI2YnpUNklkUDctbjlfS1BoLXZYSVHSAYMBQVVfeXFMTUEyQ1lOVUhCaE42VzhrRXdpY2pUc081MWczMXRENjFqQkdnSmQwajlzNnBneS1BRGUxMUx0SldkNUtIQ3hoY0pZQ1lKOXU0cElTSnE5LXI5X1A5Zk5QU1V2NVgzMFVxaUFJNXFVUmdjZ19lRjU2dEl3M1B1cElFZDlfM2c?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "c64f810a94c0",
-   "date": "2026-10-25T19:10Z",
-   "title": "Venezuela opposition leader Maria Corina Machado returns to Venezuela",
-   "source": "The Standard (HK)",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3U4eXZwcTJtRjZncE1YRVBoY3JwaFFXTGpyTXVmWDR6SlJNRXR0eG9CbTRpbjBXUFhvTUhpeDBva2dxNkdIR3kxbjVpME8zR3lkVGpzOUxnUmMxekxTUFVhaDAxMHkwUFZSX1BWMGpLYTZkakVPc21BYmNZT24yTURIRHJJdS1wVm9obmNWMmlhWkVTd1MwN0VrbGZpZ1U3Q2VpZ3dyc0Qwa3VpeUFZYk9BV1VEZF9MTlJlMGhn?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n03",
    "date": "2026-10-25T12:00Z",
    "title": "White House: Venezuelan oil arriving in the US up more than 400%, highest in almost a decade",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-10-31T15:58:43Z",
+ "updated": "2026-10-31T16:30:54Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
