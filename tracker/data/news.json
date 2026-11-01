@@ -1961,6 +1961,16 @@
    "origin": "rss"
   },
   {
+   "id": "395529e651ce",
+   "date": "2026-10-30T09:35Z",
+   "title": "Venezuela’s Machado praises Trump for ‘Freedom’; urges 2027 elections",
+   "source": "The News International",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTmNja0lpOGpPQVJXOE5Fd2tkbmJnZzE1cEw1S0F1Zlp4N2tWbDVsZS1mOFQ5dXlCTndyTXkyZFJBWWdtbDF6ajBhUVdPWk1sclhpT09kakd4QS02dUtHUHBrWWhZcUZoSTRhX1dGTXRuWXJYTF9DTWdObnBCenlVOFl5MjFYT2FxX3ZQOEtVcjBQcWxEemhTVGNmMmwybjVKc3BPZVdjbWZ5YUHSAacBQVVfeXFMUEpvMnZmendCOGZQd1hjVElkMjcxakxfX0tWNWUzek5QbWNRQ1I4cDNRLVlZYk9SOGdqVURUOHhXVzRsZDQycm1tdHJheTZDZnMwUTFlQXZFblQ0Nm45cG05dEtnUlkxd3hiQjg5YmJCX2E0cGwwYXFqTzUtOGxqLVpPN3Eyb1M2OTN2MUpNN2tMMWVYam5WMHNEZTdmZUxsZTBMaUJTdDQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "aa40d5f08561",
    "date": "2026-10-30T09:30Z",
    "title": "Trump’s Venezuela Strategy Needs More Than Oil Deals",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "2830854e5216",
-   "date": "2026-10-27T05:59Z",
-   "title": "Sulzer And PDVSA Sign Long-Term Strategic Alliance Agreement",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWnJiMi1WSzlNbEpVLWtlZUxTWVRfQjRvcVlEZmF3RG4wSGNXeWpFbi1DYVg5SlVjOEw5Q3lzdldsSGlhRkNCNkMtOEh3ajlWUmF2d3RPWDl3bXktamE3RVBjLXpDNXF2SHU3aWJDa3VWbEZaQV9rTHA2QWRSSnlweHNRa3Qxdi1wWGVDZW50bUVrU0V4blhGVTlGWGlNckhFVjg0WHozWHhBXzRsRnd6UUczdVdMTTN2Z2kyUjY2eUY2RzdyTm96Tkt3?oc=5",
-   "category": "Investment",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T23:25:35Z",
+ "updated": "2026-11-01T23:57:29Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
