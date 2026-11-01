@@ -61,6 +61,16 @@
    "origin": "rss"
   },
   {
+   "id": "e640c06ea0a2",
+   "date": "2026-10-31T22:22Z",
+   "title": "Iranian Oil Flows Through Strait of Hormuz Even as Gulf Neighbors’ Exports Shut",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVXRfbXZ1NlNBbHZhWXFvQmRjbDUxaHh2V21jN2JGSlZqQmo1NnBTSWRXUWEzSEVTWDN3S3lIRE5ObkRKbEZWdUxwLTQ1Umg5SnlMLWtXVUh0UldNZWJxRDU4bVRiUi1CZXBqRUhsaDVpMWhlN3Z5T2FEel83cmdMa3VvRXN0NHNsWGlXX2pCemZRQWVaZ3JrQ2xLZUQyb24wdUlQUUZIWWZackhieUE?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "32cbfb4ade13",
    "date": "2026-10-31T22:00Z",
    "title": "Nabep, del controvertido petrolero venezolano Alejandro Betancourt (fallido salvador de Pacific Rubiales), consiguió equipo de perforación en Colombia",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "2ea25e14929d",
-   "date": "2026-10-26T16:13Z",
-   "title": "Trump asegura que EE. UU. ejerce \"control total\" sobre Venezuela",
-   "source": "Diario Versión Final",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTk5oTzVzOURDdjdMOEpEVUJtb2hUSEF6X21MS0lZdTlENUY1STUxVWJzbjZadnYwWWV4S25ydU55UG15U0JqeTd6ZU13VmN6UzBrdFdISTl3dVlob2NmbW53aHhqZG5ERnJWbEV4OFgxU3BDWlYwMDUwcDV4SzJ0OVg0ZDVBNGtpVHVPMTF4RXd3UndxMkJnZ0x0dmhnYnc?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T07:48:05Z",
+ "updated": "2026-11-01T08:38:01Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
