@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "a4e68dcb1555",
+   "date": "2026-11-01T20:32Z",
+   "title": "NABEP’s Venezuela rig fleet grows to 41 as output tops 223,000 boed",
+   "source": "World Oil",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOUZNQTdBdGVENnZXdV94TzNmbTl1Z2h5eGwxcVBFZTZzWWZuT0Q3dmFJRzA2OERaSTdIRkxtRDNsX2ZPdHdxNkpmUHR1OW1FZ0k0Rk9HMlhmZmhzMjNzNG90WFNha3RiYmJrUGZ5NW5hTEFGNHNMVWhPcGxyWHhQbVdJb1BtR1A4Z1YwbGFBd2tXX2hMdEs5OGJLU2ZRc3JpUzBlQUgyQnNGcENp?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "06dac2065041",
    "date": "2026-11-01T19:14Z",
    "title": "Venezuela lidera aumento de exportaciones petroleras hacia Estados Unidos en 2026",
@@ -78,6 +88,16 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUEl5ZzdWdzVTWklPeGxtWGdLd2V2MWRkUjlJV0l0MmkwZ2Z6a1ZkS1I1Z28wLVdhS1RFeEg2MEgzTlpzS29TbDlNUTJGZG04QlBtd0drb2NfZlhhRXQwZnJUanJBWF9IbUZRTFEwMjlQeGEtY3RHVmhLaTNtQl9KUGZ2UVFSQQ?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "cb346f42f87e",
+   "date": "2026-11-01T14:24Z",
+   "title": "Opep+ decide mantener congelada su oferta de petróleo en diciembre",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWE1NTjAyUnA0eVcxb184Yk5nMFFuV19jNXNtY3VTRE1RUl9GVXBxeXpWN3V4Rkk2UzctYUhtcDZHa2J3eUZ6cXh5LUY0NG5HakFveFFia0hZT0psaDhZY2VabXh2M1c3THFlUlZ4TThzZUNNODZXR25ibzR4eU96S0VoNUlrZDFyT1NrS2RBRFFEazhadFlkNWhKZ3RkTWRZ?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
    "origin": "rss"
   },
   {
@@ -1598,6 +1618,16 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9yVTdHUGpVRkxRNS1hTFR0Vm5vMXFQV1JRcTVtWlFNYlFiLWRwdDhCQjVIeFhtOUVnQThtenFwdHY4WnhqQTM2MnBBWDdSdjhEMG1SWjZJNEE0QzJnOE12MDFIVEJUMUhHV1ptSUdseXNJNXRobWkwRXlIT2c?oc=5",
    "category": "Refining",
    "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "6e81c3b324d6",
+   "date": "2026-10-30T12:00Z",
+   "title": "Venezuela: Machado cuestiona transparencia del acuerdo petrolero con EE UU",
+   "source": "14ymedio",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0xVZjhZYWpvZHJzcERCeEZKOWxjbFpoSnl4THQzODhUeWZfckJUTUh2U19FY21xVzFFcXNIdXdVMjNGYVFvWmJTcE00RmdKcmJtWXFjdHN0UFVZRFNVdldFZjl1b1I0VUI1dFVNSUtpRGJ1N0tYaDJHVjZGTnVNRHNrZUJHZDk0VWVfWjB2NElBN21Zd3F5RkphQzhXcVg5MnVDXzlVbzdFaGvSAasBQVVfeXFMT3NMVWY4WWFqb2Ryc3BEQnhGSjlsY2xaaEp5eEx0Mzg4VHlmX3JCVE1IdlNfRWNtcVcxRXFzSHV3VTIzRmFRb1piU3BNNEZnSnJibVlxY3RzdFBVWURTVXZXRWY5dW9SNFVCNXRVTUlLaURidTdLWGgyR1Y2Rk51TURza2VCR2Q5NFVlX1owdjRJQTdtWXdxeUZKYUM4V3FYOTJ1Q185VW83RWhr?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7750,36 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "705f2916323d",
-   "date": "2026-10-26T23:47Z",
-   "title": "Al Grano :María Corina Machado: El regreso que pone en jaque al poder y el pacto petrolero",
-   "source": "Diario La Calle",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV3lodkxKLTN3eU9rSUw4SG1adGVsazJZbGMxU1ZfV0g5VGFwZXRUb0hNNGxpXzVwSWEwVWhhaDNaUGpEVnpSY3p0aFJudDhLZWhHODBIM0prMUlFVTlHNWpsdTJMajNVbW85cFlkTTZTYUJSQkc4RE5obk1tNHRBZFI2aDd6cEZSbkdHdmVJanJ0aGNUWnFfbzUyZXllNXo3UGxNcjJsdmt5R0loM2hTZ2dn?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "9ab7ffc94980",
-   "date": "2026-10-26T23:43Z",
-   "title": "Empresa omaní explora oportunidades en Venezuela tras acuerdos petroleros por 3.500 millones de dólares",
-   "source": "El Cooperante",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc2VIdEoyMk5CZjZKd2RzOEtlaDEtZWxGNEZlanQtaUV0aTVQckVkVlpYMFphSzUzN1dkb2h6OWZrb3hmOThXUFZBWE9XTWJlcVUtR3JtejFVajZ2ZDA2QTlrX214NzZUdHVNcHBmZ2YwZ1BlOHdlWkU2Q1dNMFoydDhKM3NDMUE4THAyVXZwYk9DZ1ZlaWlIbE9SbUNrZFRJT2tZTEIwUS1NUE52WC10bVpJTkxwWVpIazJNdVQxQURJUE00SFhtSQ?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "2742f4c72342",
-   "date": "2026-10-26T23:42Z",
-   "title": "US Law – Lawyer Who Brought Prosecution Against Venezuela’s Nicolas Maduro Joins Bracewell",
-   "source": "LawFuel.com",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTHM1MjV0YlJ5OExBSEp1OWZUbXFLWDRvcjc3b2M5Rko1RTVqV212Y3FBN1h4a0J4LWdMSmNEVDRQeUY5NnhNUkxZY0h5ZjViN3BWbkF2Q1YxeWxUdFRVZk1kdE5nbDFjbG5xLWxmdXJvM0Z5SFNFWkllVlJxbWpabWd3Zy1MYUZHQ3hwRGZrQXI2NHU5RVRHbENfd2VZN3RLbEdNRTJDQzhRbzBQN3BFMGJ3?oc=5",
-   "category": "General",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T20:04:24Z",
+ "updated": "2026-11-01T21:00:34Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8068,13 +8068,13 @@
    "featured": true
   },
   {
-   "date": "2026-10-31T15:30Z",
-   "title": "NABEP Expands Venezuela Rig Fleet to 41 Units as Output Tops 223,000 Boe/d - News and Statistics",
-   "source": "IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcG1TaUpQMHpuOVZKUmFNcHdYaF9LWXR6Q3ltTUJwV1F3bFMxb2hIaFRMS05ibm5MekVPRXZZbDBjWjlXS0dnS01lS0NHUXI0OEg1djBPMjlFdUZQbFJkLVdnMFJOLXF2Ukg0Tk84clktLXU1Q3EwZGV2X1hnUlB1bndydGJZdlppMVRwdDhEd3p3M19sMFVmTm15R3lFSmI3T0FtU3BnR00?oc=5",
+   "date": "2026-11-01T20:32Z",
+   "title": "NABEP’s Venezuela rig fleet grows to 41 as output tops 223,000 boed",
+   "source": "World Oil",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOUZNQTdBdGVENnZXdV94TzNmbTl1Z2h5eGwxcVBFZTZzWWZuT0Q3dmFJRzA2OERaSTdIRkxtRDNsX2ZPdHdxNkpmUHR1OW1FZ0k0Rk9HMlhmZmhzMjNzNG90WFNha3RiYmJrUGZ5NW5hTEFGNHNMVWhPcGxyWHhQbVdJb1BtR1A4Z1YwbGFBd2tXX2hMdEs5OGJLU2ZRc3JpUzBlQUgyQnNGcENp?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
-   "key_figure": "223,000 Boe/d"
+   "key_figure": "223,000 boe"
   },
   {
    "date": "2026-10-31T07:21Z",
