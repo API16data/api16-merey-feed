@@ -681,6 +681,16 @@
    "origin": "rss"
   },
   {
+   "id": "66e88698e324",
+   "date": "2026-10-31T08:11Z",
+   "title": "Refiners Elbow Traders to Take a Larger Slice of Venezuela’s Oil",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTHRUbkFrUVRGamxCSWJsTWlQckRVOTYyd0RURTR2X2lJSkotWWRobXFIT1Z1Yy1qdnVsbUxUZUE2bVRocU5wQUx4U0d3WUZGeHQ3Y1Z2Nktrb1loSkt0Q2tGa3lZdUVKa1Nic1NBY00wMXFKTkR1dVhCYXFnOURzT0RfQ08tcnhkTGNONVRIdHVYNVQ0LWk1N0Rn?oc=5",
+   "category": "Refining",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "be4df8a2d4c3",
    "date": "2026-10-31T08:00Z",
    "title": "Venezuela-US Oil Deals Remain Clouded in Secrecy",
@@ -907,6 +917,16 @@
    "source": "BigGo Finance",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhN3NWRm5SZXdSaTlrVFBySk5LZlNVMV92anc4OEp6eHlWS2J0b3lrTGRRWGdidUN3ZHlFVmI5MTh2OUJhTlpXbVFndTh5VlUwcUNTOGJXZkFIOWFOaXhsRXhkT25QSTF4ZjBHbEVoYjZTeDZpNUE?oc=5",
    "category": "Debt",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "82e2c8717040",
+   "date": "2026-10-30T22:30Z",
+   "title": "Chevron, Shell Closing in on First Big Oil Production Deals in Venezuela Since US Captured Maduro",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdVJYLTVsYzNudVh6UzN2TUNKcTNrWlpDSHZCanMxLXFXTTY3aHQ5enBwZVF4WGk0WFFOLVc2bUd4eGk3ZEVBWHlndC16WUhmLVVpeHRwTTNjdTE1cUFkMlp4a0RjcTVPM2dUYW8xTlJnVHZKMWNNU05qTzA1R0EtTzBCY2JlS2pzSHEzdUxIVEJ6VXc3aVdwd1NlMS1VNUVJUTRaTTA3ZGxuTGM5ZEJHNklJVnhuLWNTSjhzanFBTkVubmhfRlZuSVdvaEc0WHJ0aFBmUmRR?oc=5",
+   "category": "Production",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "586ff6b71bce",
-   "date": "2026-10-26T21:18Z",
-   "title": "Iran War Raises Demand for US Fuel, Boosting Gulf Coast Refining Margins",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaFBFeE9aMXltVV9yS0xqMEFpaVJGaG10NkVOa09mNTEwM1JyT1p6eEdKYkxvYnJQTWtaaUItS1hZbC1xandMZHpaV3N3Yzh4MmwzUVZPZnZyOGtjcVNlcFAxSFZSanVRcXhwOXpxR1R5M0U3NjRkV2NKODRmaUM2R05jY2RfTk15bkpKMFdTMVlQSFo3b3l5MVFIVUtPTFdZSFJtcQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "4f02b749506c",
-   "date": "2026-10-26T21:00Z",
-   "title": "Pentagon's Venezuelan Oil Partner Boosts Output",
-   "source": "Rigzone",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNajdCNDhwOWFvWWRUTGI2MGNUYTBnMFUwVFNSNzVId1NWaVVYRFVndF9MLTYyakh3alB2QVNZcnFzTnE4OV92WjJTbTFZd3BXakxRTklXMmU2STUtOUZOU3FVTkVvTTAwVzFFTEp5QTZvb28zVFdDNkIzMWcxUmpmU0xDODF3U1ZrRGJFcDdaSEdlMmxSYmhFTGw0RWtRYnJUblVZTVhVY0M1bExk?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T15:04:28Z",
+ "updated": "2026-11-01T15:58:48Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
