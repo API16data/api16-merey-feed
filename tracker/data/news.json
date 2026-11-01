@@ -11,6 +11,16 @@
    "origin": "rss"
   },
   {
+   "id": "ba286065624c",
+   "date": "2026-11-01T12:04Z",
+   "title": "Trump Just Got Handed a Venezuela Problem: The Company Running His Oil Deal Is Short on Workers and Equipment, a Reuters Probe Finds",
+   "source": "National Security Journal",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZ1VnM0ZOU0ctS054MVJqNzMyenQzWHlhQTVTSVlxZ3BWWDQxbWNmTHRHYnN2R1BQaEdKUzRONm9rOW9wTzVOUjJaWENJMDVRdzM5YXdCenNQNlFTS1RwMG4zWTNyWU8wZ0lEaENoa3JKUXJMM1FEd1JZcWhGWWg5UkZhdjgxZm1DVUk3ajBtOHh2YTRSdGpZTzhtREpZU0tRSGI5Q3hETk9DUlNGOElFeDh5ejF3aXRuek5VdVpuS1pzVnZvWmE1X3RvRDFhd09VdVJWbWFLTjBtOWI0OHlfWGd3TlRkd05temRrRWw4OUpJQlduWDJ2UmZoYw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "ef0c6062e678",
    "date": "2026-11-01T11:04Z",
    "title": "FILE PHOTO: First Venezuelan oil from US-NABEP deal arrives in Texas, to be sold to Exxon, Citgo",
@@ -7360,6 +7370,16 @@
    "origin": "rss"
   },
   {
+   "id": "daa9df45aad0",
+   "date": "2026-10-27T07:00Z",
+   "title": "¿Acaso Trump quiere convertir a Venezuela en el estado número 51 de los Estados Unidos?",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY2NNY1JjOUw2VGlscmpKYnljRVRNb1h4VjF2Tko0Nk4tV1FYU1E3SVpCQmRJaEsyQWtsQVBUaXNXT2R4T2dtUlNlTmw3bTVWSVp2em5TZkQtLUVJaWlDbTd1UDFkWlFwTFB3OWhBX0hnOUhZcTZwZEJkT2JYdlo4bEZWUENwclU?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "6ea1a9974b02",
    "date": "2026-10-27T06:54Z",
    "title": "Recibirán petróleo venezolano: Rubio se suma a la campaña de Trump en Texas",
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "d36caf96ed48",
-   "date": "2026-10-26T20:38Z",
-   "title": "SUPPLY REALITY: Americas Have Glut of Heavy Oil Due to Freight Squeeze; Asia, Europe Scramble for Barrels",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmZNamtwdlY4UG90SU9na2tYLTNGVE1XbmZPYlJJVGpMNF85eXR3NUdJTjZuNUFIMml6aktNajBVemZPLWt2dkxfdE5jUHMxOVpMS3BvUXJLNFBGUmZUdGRtMFFFa3NQZk5xa28yMmNtS09Xd09HM2NFbGJXY0NMQksyRFNNaGIzTFJEZ2RKSmdyRGtZeWZmNWZaQmFEMU95UTR5SXdsUU1Wc0kwRUdRS05JTUx6TmlTY2c?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "2e28d7d8fc90",
-   "date": "2026-10-26T20:37Z",
-   "title": "US Energy Secretary Set to arrive in Venezuela with Herculean Task of Oil Recovery",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTk1kaVlzSjN5aWtIaXZFdjY3LUVoSnd1ZkYyVGFTUmMycDZGbW5yMi1xN2Y5a25mSmxkeHhXWnZqT0VOSG9fUm84ZmZIczlnSzhJNkoyNjVRVWo0aEwwVmZzTFREcXZtajFMQmNhTEVQMHVzOHo0ZmFyMzc0dFE0TkFlcFZveFdpa1JXSGQ1R1F4aXp4ZllLQmFnMm1LeERSZkxWQkxzTnMwR2Jyd3piTjdsYw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T12:41:51Z",
+ "updated": "2026-11-01T13:39:33Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
