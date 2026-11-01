@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:41:02Z",
+ "updated": "2026-11-01T15:39:02Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -118,10 +118,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-01T14:41:02Z",
+   "last_seen": "2026-11-01T15:39:02Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.2448,
-   "lon": -93.6986,
+   "lat": 29.2447,
+   "lon": -93.6985,
    "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-01T14:41:02Z",
+     "last": "2026-11-01T15:39:02Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -553,6 +553,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-01T16:00:15Z",
+     "lat": 29.2447,
+     "lon": -93.6985,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -577,10 +587,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-01T14:41:02Z",
+   "last_seen": "2026-11-01T15:39:02Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.3936,
-   "lon": -93.6391,
+   "lat": 29.3938,
+   "lon": -93.6368,
    "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV<USBPT",
@@ -597,7 +607,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-01T14:41:02Z",
+     "last": "2026-11-01T15:39:02Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -1068,6 +1078,16 @@
      "lat": 29.3936,
      "lon": -93.6391,
      "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV<USBPT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-01T16:20:17Z",
+     "lat": 29.3938,
+     "lon": -93.6368,
+     "kn": 0.8,
      "status": "at anchor",
      "draught_m": 9.4,
      "dest": "VEBJV<USBPT",
