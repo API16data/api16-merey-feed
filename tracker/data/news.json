@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "06dac2065041",
+   "date": "2026-11-01T19:14Z",
+   "title": "Venezuela lidera aumento de exportaciones petroleras hacia Estados Unidos en 2026",
+   "source": "EL UNIVERSAL",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWtJQ0dNRW1ncnl2UGdjZ0ZtbnlVbXJsa0dMOWR4MS0tR1AyS1JfX2hDU2c2dlRSZTVWSExXUDJlTFo1ZE1mLVNQU0xvZEhpOGVFREF2Z3RBTXRSVkRpWDFCYUFSS0VuNGhpUjBKeUFtdm9rZXdNQ0I3TzZWSmptQ1Fmb0VnNHo1N21WWmpCWWdyeFEyWUdOWDQxckhuQzhGeGZjQzZzaGhHamF3THFMSU5pS1VXMW1NSkxoQmZTNmJ1UQ?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "a07d0aec2118",
    "date": "2026-11-01T17:15Z",
    "title": "OPEP+ mantendrá congelada su oferta de petróleo por tercer mes consecutivo",
@@ -798,6 +808,16 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QMkR0ZGRQaU05UTZCOGhRSHFvcmh1Vm1tOElNREwwSl9GdmhMalIzYV84MHl6VVB3c2pxMmcwWmpyTVdLb0s3NGNCVEdsMWdsSXpraXlUeFo?oc=5",
    "category": "General",
    "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "d36caf96ed48",
+   "date": "2026-10-31T07:00Z",
+   "title": "SUPPLY REALITY: Americas Have Glut of Heavy Oil Due to Freight Squeeze; Asia, Europe Scramble for Barrels",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQWg0ODVnTnRTOUc4SERyblkyS2VhX0JRTXdzWjM2cGJKclhtUWliQTd5VTNhb3pfeDBoalRMdnNTemlYOFNjRTdMSWtzY3ZNblpMVDhGNTVfY3JOMHZfaGFoNU5XQ1ZVeGFxNWdjelNQVWJOZzNlbjN5THI2R29wcy1TM3FzdzJkbXNHS1J0VXUyT0MyTElnRl9MUzZmZ3l2eVpXemx5TE03OWFvT3JvZUdRWWJ5SE5ocE1wYlZoMXo4MFk?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "ed0b0fe2a442",
-   "date": "2026-10-26T22:23Z",
-   "title": "CIA-backed opposition leader María Corina Machado sent back to Venezuela to contain social protests",
-   "source": "World Socialist Web Site",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42VWJpUDdTTjZubl9La09mZnltd1Q4ajdMZlFHUzdkWjdwdEZzTmdwVHVKWmRUMTFsSjNGMmstWDd6aVRJakp0T3VjRkVKVFdfcjlIZ3RzTXJXOTd6Ul9aQ2loQVpzYUp3?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "3fe76a4a0c63",
-   "date": "2026-10-26T21:33Z",
-   "title": "US Issues License Authorizing Oil and Gas Exploration and Production in Venezuela, Treasury Says",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb2l5eGRYS0tOWUZjZElpeklpVnlxM0E4OEM0UjJJRGh5V2FXX3hOUEwtMGJhY2xHb0F2eWVaMWtsWGVnWE80cjNKbUV0OXdpRWZPdmtpYnBBUWZLMVBoYWhzN3p6djl1ZWVPLW51cm93RVdwcjJsa2pJSEkzN0RxcUZqQ3RBc1NYYm1HM3Rod2hZNF91SWtpRHBnWURWQWpVVm1EVzUwVWkxdnFSMzVUeVR4dkJfVUktRTlnVDhweFlBcHd6?oc=5",
-   "category": "Production",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T18:32:02Z",
+ "updated": "2026-11-01T19:29:12Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
