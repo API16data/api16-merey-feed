@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "1e00e538e32e",
+   "date": "2026-11-01T21:53Z",
+   "title": "Empresa ENI comenzó a explotar yacimiento en faja del Orinoco",
+   "source": "Últimas Noticias",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcExTYXRnWmwyOUJIR1dpY1owTjNqaDhYbWJhTFJlTWdvdlk5VHVKanhjaGM1SzhKa2VBVnZwR3V3bnVwdHUyUnVGVU5lZnZHWVVpNmtZeUkwMV9RcTA2cTZGYXFJZXJnNERfLXlwcGwtd1V0eWlJT0VuTEJCa1NQV2t6UjNqNVpsakxQVGhtWW83bFJKREEwRTB2M1VFajBpbnR2M0JLN0Y2S3hYVGlCag?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "9670bc4207bd",
+   "date": "2026-11-01T21:46Z",
+   "title": "Trump exhibe el petróleo venezolano como botín de guerra",
+   "source": "Exilio.mx",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc2tKNXRfdnBsR0pZdksxLXlYUmNsbHpqc3BQT1FTSEdnMDB3QlN2V0o0R21lblczYVRoMGJjVG9xRkRyWHJyRnZ2S2w5MTEyRG1RTVQ4RnJ0NmRCR0ZfN0dianhLUTNxd3B4UGh2aVFJNHhZV3UxU0l3RzFQRFR0YVFlUjBFTXBzYlB4X1BUeVEtWGpCTWJMMl8zTXI?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "31f17f6119ff",
    "date": "2026-11-01T21:16Z",
    "title": "Venezuela. Las cláusulas secretas del acuerdo petrolero con Trump",
@@ -378,6 +398,16 @@
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fVXdyMXhlSTB2SDFiZjkwcDk4dHgtM2tKbEJsZVczT2tVWThtckZYR1o5Y0d3eklXRGJTRzdSNUJHTHVXQ2NCY1hWRVFPekMtby16X2R3?oc=5",
    "category": "Investment",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "308161020c5f",
+   "date": "2026-10-31T20:09Z",
+   "title": "META_TITLE_QUOTE",
+   "source": "Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15Tll0NjVsUDR2Rlp0UUNoczRDZzVLNDZfa2lkSUtFdV96WUJWTDZ2cUM0Wm95Qm13TjNDbUxzU095LXdOYTg4VVBHRHk?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -1508,6 +1538,16 @@
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOX2htczdGaE1LMG9VOF9VMkNZV01MNDdzZG1vYlJoM1p4TUZlV2M3MUdpR0JsSWRkdXFYbWZpSG9iT0hLbzlfdlZNbG1IaDd3VzZ6cUwyaXEwOWJQcFhvaC1nd0tka0dDX0sxdlEyM3dwTVl1Zk9vX0g1SGJtU08wRERrTW9rQXl5ZDN4Mi0xZjMwY1JIdk5wM3AwTjJWOUZrdHRIaTJKLV9ac0RRUVRSaV9DQ2tSWHk5YUxSSTl6dUk1dDY1dTV1em44SExvaXdodFpLZ21mSFRxR0FZ?oc=5",
    "category": "Investment",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "d6cd178f3a46",
+   "date": "2026-10-30T13:40Z",
+   "title": "Chevron Corporation",
+   "source": "Britannica",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtV3huek5XemZZeDZXTUw0ODZHOEwtbHpMejVrTmNYRFBlT2lUc1FhaDJNcUFJM1U2c2ZxZWpNZUlfSTZqc1I5U183MnMzeGtPaXZpc3NVcG9hUThjdXBDb3N3?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -2772,6 +2812,16 @@
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYVkxQjlpc043cGk4THFSTjBWbC12OHFRMG1ZR1U5T2szUDJuMGlQT0xkeTkzb0xMUVhmYUptYnNTMXE0WXYta2dkYmhlQmUyMmxkT2FoNnpkVmJfdExhRlNZTGRaVzNTdVkxbkI5LXpDalk1bXlKOGNCWGRQSUd3WmluT01TOW9JZ2I0M3d6VWhrdmJvOHFrOUR3QlY4bUYzUUtvRVJXT3RCVlBIUWVFMVppVXEwZDNPNlh2Ql9DVlRhckNWNnZidTZ1RWoxX2ZiUGNuTlY0THpicXIxWWM5TNIB5wFBVV95cUxNTkRwakYybmd2UGhxOEFxcGI5YjJLTFNZLVdLMmF5UFJDY1RmSHhNX1puOTdNMDVXM0FGbHZTbU1pOFdBMVNRaWM2NU5GSUF1Zjk2YVBfQ2ViQTlKWFBwVUI2b1N5UkZTdHZibmRNU01mai1TUm5rREdyOU9jSE01clg4Y1N3QnQyRlhyWGtXVGdYTkIxMTBqeWhabjhBSTA3cDl1QjNaMHAxMVFNdHF0aXJhd2VFTHVQSUk4ZjRmRWJoT3J5QVltZnREc0sxWk12YlJHQTRINTlZeS1Wa1JLWDNjM1hxNE0?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "3fd7a8add2a5",
+   "date": "2026-10-29T10:00Z",
+   "title": "CNN: La extraña matemática de Trump para decir que Venezuela le \"regaló\" petróleo a EEUU",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOVY4dlgzdXpyU29VSDdaODFLY0ZmY0UtcTNrWXVVVkkxRlV5eWp1MXRlWi0yazA0clRKUTlBNTlLR0JyX2FUSlVWeFRfVHMxeGs2V2dONU5CNmVaU3pVRFI2VFpFRlVQOGg0dFpZNUJZNEo2a1l2YkZvZEd5cTZXZzV4VGEtRTNucTVyQmdXaUZRY0J2VDNUWjBFNnlRanhEMVZWelc4S3pldWxyN3ZuRV9rc0VCalBzcEhj?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7730,56 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "8aa95c537e63",
-   "date": "2026-10-27T02:52Z",
-   "title": "Oil’s New Problem Isn’t Supply. It’s Logistics: Bousso",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMXQ2YTBfVVVFbFYyWlIwaEZ1VlA0WHg0R1RKX2dfNWpRZndtQi02eE9wd2VIRWE5aVpZSW9qVnpraWdZMzY4c2NqZmtNT3JRdVVXc3U4VTBOUTNFRDNRdGdwVHlPSU9JdE5iYW1ub3pEZnd5MWo5NU1rdDUxSW5pZGlSZTQwaVE?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "15d926ce43fb",
-   "date": "2026-10-27T02:00Z",
-   "title": "T&T, Venezuela energy chambers sign agreement",
-   "source": "Trinidad Express Newspapers",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVVZZVEFSSFJVdGNwWDJKcE9YdUd0THctam1MS25GWWRsLXdNNS1rX3BNT2R5bUZocWZNS3pOdlRvelU0R1YxZkh4a2JPV0MzWl9TazFKVXN1dGJhUEhOWXVHX24tbTlEb3pFa3pjSDFheVIxVnJGcVpCdTVtUmZ6VmF4ZFRfbVJJaVd0cFRQRnhFU3BDeUZTZktzQzc0N1huT2VFMTY3QmpNcGZKeVRQa2p4RFhuZXpobXQ1b1o3anF3TWhaak5aY3ZpVmt1UTJ3WW5r0gHYAUFVX3lxTE00endNMDd1ajVINTlqdGpSRmJDaDhwNm9ZajFpX3BqNTh0alFfTFNpMHJtLWZpSFNya3RtaGlTUlNGTDYxNzU4djJROVZKdndXY3U3bFZqbWpUeklxb0dvRXhESWFsYkpsN2lYSjlwRGVpUkE0TEZfeXQyeGpyaGZvTjB2S0tlY3ZMbHVZOUZHQXpHVlZ4R0lCYlhIc3ZmZXpIWnJXSWNNa01Xb09xa1pMbno2VThTbTVEZU1CRjVsX1RpblR6YTFfR2NpMUU3Rm54VTRVMTJXRA?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "7b7ca6928ee4",
-   "date": "2026-10-27T01:59Z",
-   "title": "Workers Struggles: The Americas",
-   "source": "World Socialist Web Site",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81VHJnWmVjWjVwazhpTzU3RUp0S0E1S1VESV9BTFpsaDBoTWprU01ZbC1STEw4NVZ0RTQ2Ykh3Vk5MaTRrcG8wWVRyajRrN1FMQ0d5akE4RnF1SGtBaHRkVThHaGJRZDd2?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "838866ddd5fb",
-   "date": "2026-10-27T01:01Z",
-   "title": "India and the US oil nexus",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVFFGRDBObUVENjdKbDdWLWJSa3ZpMDB1aDBXUUNSSXo5U2hBbllMbjJ0bkoySXEtR3lDMHRKbTRoVFJRaHFmbDZkWGRHNWl5bXlCMFp2VEZCUGw1WWpfWWg2NGVnT3VVYkFXRWZJSzU5Ymd3a2FUMFdjR1FVRVBvNjV2U3F3bHBVWVRR?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "72e66063d993",
-   "date": "2026-10-27T00:49Z",
-   "title": "Gremios petroleros de Venezuela y Trinidad firman alianza para impulsar negocios y fortalecer empresas energéticas",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYmw1TldGSGVHLUxzNUx5VVFjbV9WUmtPb05LWTVuSmRrVWJhRnZtbnJFZk40M3pfTVoxLUJ1N1V0NWoxN3RyYklvZFlJRVVEOS1reFNoenBKcl93VFJMUXU4bmxXa3VlajNFNGtSTVN3cUVDb3ZYalItUkxGckt0SWNoTzg3WDFxd0Z1YnBoa1pLT0toeS1JLUt5X3lEYjNTdUVSUjZHd2hKbURPZWhmdEd4alJnNFNSTGluZTl0TWNTTTFqblpEWlRZcWZWY214cXo1TTNEOW5ncGl2SlMw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T21:59:45Z",
+ "updated": "2026-11-01T22:33:38Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
