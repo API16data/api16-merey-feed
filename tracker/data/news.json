@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "bd29fd41d04e",
+   "date": "2026-11-01T09:29Z",
+   "title": "Chevron Q3 2026 slides: strong cash flow, Venezuela growth story By Investing.com",
+   "source": "Investing.com Nigeria",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXY1eWpFZkN6NFF1VVlTbFRDUXlSbldpdE9LdENESXdFNV9PRmtsUS1qWC1fYW9WSHIxODZBaFcxbjVUN1ZEUURyUWZEOHRiQ1dSQURHNzAxcU1VZFNFbmlCZkRHclgxbG5leC1BY3U5V3JCZW9PdmRLdHV2M1pEdm5uNVFWd0F1cXJzMENVNXptd0lyZGZpQTRLUC10NzVBdjQxM1UyQ3pOczI2RElpbWhUMWtldG9ZcW5JR0VoNDc?oc=5",
+   "category": "Investment",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "8f4035efe720",
    "date": "2026-11-01T05:45Z",
    "title": "Venezuela oil producer to expand drilling fleet to 41 rigs in November",
@@ -298,6 +308,16 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcG1TaUpQMHpuOVZKUmFNcHdYaF9LWXR6Q3ltTUJwV1F3bFMxb2hIaFRMS05ibm5MekVPRXZZbDBjWjlXS0dnS01lS0NHUXI0OEg1djBPMjlFdUZQbFJkLVdnMFJOLXF2Ukg0Tk84clktLXU1Q3EwZGV2X1hnUlB1bndydGJZdlppMVRwdDhEd3p3M19sMFVmTm15R3lFSmI3T0FtU3BnR00?oc=5",
    "category": "Production",
    "via": "Google News: Orinoco Belt",
+   "origin": "rss"
+  },
+  {
+   "id": "b8665d9ab1d1",
+   "date": "2026-10-31T15:30Z",
+   "title": "La flota de taladros de NABEP se amplía hacia las 41 unidades con una producción superior a 223.000 barriles por día",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmV4dkQxbi05WEYwZHBDYTJFa014VHBMaXNBQ0tlaTk1RFR1anBzUVlIZnBBZHpBTk0xRU5jMUtjaEpEVTVrN3I0SXpQVkpkeTEyaUZIS2ZPSzN2amdPUVNGZnpodmxNZFBkSGh1N0VndW8zRlJDQnh4cHpfLWN2dlc2bTU0ZGs4dENkMHZpLTlKZXYyd0VDdnZ6c0Q3Z1YyNU53YV9sQ3had3pB?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "251629764e83",
-   "date": "2026-10-26T16:19Z",
-   "title": "Colombia’s Richest Man Takes Over Oil Producer in Venezuela Rush",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV2tDTVJmSnNoajZQYzM0YVM1QmcwUkx0NkE2YnhFam9CRWc0Zk5oRlNXSVdKYUo3a192bnRoc2IwWEllb1NxZTBjaERTM3U2dU1CeDJxWEtwQWR6WDZ5VlpyVXFRYXFLeXpadFJUbENuSDVCRkFuTlNRQ1poc2dlNWg2d0drajc0QTFsTnluNGhiWGh3VDlhbEFB?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "be4df8a2d4c3",
-   "date": "2026-10-26T16:17Z",
-   "title": "Venezuela-US Oil Deals Remain Clouded in Secrecy",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSmJfeUJZQ3M0MEQxNndlZ2NnUkRZZ01pY3dsNHFwY2Nyb1ZfN2RoTUhpSGpUbGo4OUdkc1E4REd2N2x4aFo3MnRpaUR6a1RueXZKd0FJd3VDX0RwVXRyTXkyNGtLSlUyOE9NUkU1VHhmdmNadktHZ1F0WllUNkduc0p0RG9zdw?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T08:38:01Z",
+ "updated": "2026-11-01T09:32:59Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
