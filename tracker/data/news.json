@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "31f17f6119ff",
+   "date": "2026-11-01T21:16Z",
+   "title": "Venezuela. Las cláusulas secretas del acuerdo petrolero con Trump",
+   "source": "Resumen Latinoamericano -",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObXhxT3Z5NHE3UkZtNnFFTS1NR1BlemRNYVVTcmI5YjVhajlxYTFGalVtUjV3aXpPUEdYREE3bEwtZF9yMGlub2V4aEY2SWZqSHNLWC1PZDhvSUVVa1NTeGNwbG81RVhuRGpMSVNYNjFER3Z0U2hTMzdqU0lCZXJuZ1lVUWtEU0pSWjRGRlg1d1U3bG4teHAwRHRYcW5GRjRoYnhDVVg0ZkVrX2Z6STlEZU5DdFMxUQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "a4e68dcb1555",
    "date": "2026-11-01T20:32Z",
    "title": "NABEP’s Venezuela rig fleet grows to 41 as output tops 223,000 boed",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "cff9baa979fd",
-   "date": "2026-10-27T00:31Z",
-   "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
-   "source": "BBC",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RZktWd3B4ZUxkOWMwaXRTaFhENFp5N0VhRnhsNy1UVTZGdGJfdnBheXVpOUpucldLZk9TSzN4SndOMHpjT21xR292SkVsNFR1RHAwRExGVVp1N1U?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T21:00:34Z",
+ "updated": "2026-11-01T21:59:45Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
