@@ -431,6 +431,16 @@
    "origin": "rss"
   },
   {
+   "id": "b525cb2dd5bf",
+   "date": "2026-10-31T08:19Z",
+   "title": "Trump reverses course on Cuban oil blockade, allows Russian tanker to pass",
+   "source": "DD News",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVBZ1ZkRkpYUFhYVHUwUGtvdGRFWkx2dUVMYUVNemRFbVFLYVUySjEwTVpCSVQ1VzdZTjBrRGlyN0VQSW9xV1BjMWdrSWlaTXhFY3pkT2NQTk02V0Q1b296MzNiamhRaTByUlNGNXBEZHM2ejQzczFBTWhHUmpic0FHTDJSamktZmpOTm0yWkRPOEhPQ1UxQmdqR3VpZkpu?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "319bd8ed9c68",
    "date": "2026-10-31T07:29Z",
    "title": "¿Tiene Venezuela las mayores reservas de petróleo del mundo?",
@@ -2682,6 +2692,16 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdGhfYWZHeldxZ0lVSjRLa1Q4cWY3eWxPWG0tWGxwa0xwbmZzbTBqMWJ2WWhyYUY0aGJKZG9yU0dhVWpUbF9ZU1UtMTJkQW5zeGZScExqN2I3bE14UW81YklvalFGUk13XzhxZlNpVWFWSTNzVGc0aXZXRHRZTXhrUEZNVG00bUFkUWQtR21iSVAyR2FUZXdBRjBwSkZCVFdEbm1FeEJLTnd3WHpjZkJmZnZHSGZTZ0dWdVh0aFVoWkluN2YwZzl2Sm1SVQ?oc=5",
    "category": "Production",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "bd50b9c61164",
+   "date": "2026-10-28T20:41Z",
+   "title": "Primer cargamento de petróleo venezolano llega Texas tras acuerdo con EE. UU.",
+   "source": "Buzos de la noticia",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQekdXeV9yUFpGUThXemZydE1LZlpBUzhaZm5Dc2tyZmY1TDJ0Y1Ixb3lLZElKbDFoNTUyR3ZjOU84OGZRUC1idlNodXJjQmdLQWRrNk5OcUE1TW5meUlRMHRwRXpSbHRnMm13ZGFEZXBjaTU3emgxUEc5clhYQTg3S2FRVTZkSnpzS3AtUEJlbjVVaEFLOFp2cEtZYkp4TXowTU5WZDVzNA?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "5ff9af9387c1",
-   "date": "2026-10-26T15:02Z",
-   "title": "Inician planes para proteger ecosistemas por reactivación petrolera",
-   "source": "Radio America",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPamRkNzhUNHctYjRMdnp6OWI2alhESVh3TWhuTnlrRTZ1TjhfenVNOE9Hbl9ZMXh4UnZwMTRVZDFLNmxqVHQ2Wmg2SHlxYVQ3TTdUQWFWQ2tzVmZQdUh5bmNMOUxYUlltZ3RielpkY3U1SXNiQU9ZQTNuNkNkZkpYQlRsNXBGbENnSTIzdXd4aUlJbmhyOFg3eFhUWW4?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "a0ca4ece91f8",
-   "date": "2026-10-26T14:49Z",
-   "title": "Corporación China Machinery Engineering asumirá la reactivación parcial de Planta Centro en Carabobo",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUlBhTFNVTy1pbmRvVC1DVTNqbjJob1l4S2lwY2JBM3NrN3poRGMyYVdoSVlCeklxbXhyUGxxVjFHaTZPOXIwWW00X1JzMVExNkNnUkFPeHoxci01NnZUV212MzZ2X0UxeFV5b3o0U3loWTJFTmZmRVZWZ2d4VlVXNy1RRC1xNHpnSWxBZWtKX0pTMXAwbmNnM19fZi1qT0hSR082NjZ4WmI4WGRwZi1jUUZPTEY1ZVFhMF9OQ3I0c09RMG1fOURIT1QzcXNYRUtja0E?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T00:00:32Z",
+ "updated": "2026-11-01T01:38:55Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
