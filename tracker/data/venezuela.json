@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-01T19:41:52Z",
+ "updated": "2026-11-01T20:39:26Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 352001337,
+   "imo": 9567764,
+   "name": "SAN MIGUEL",
+   "length_m": 122,
+   "why": "seen in Venezuelan / ABC waters",
+   "last_zone": "Trinidad & Tobago",
+   "last_seen": "2026-11-01T20:39:26Z",
+   "destination": "GY GEO",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 300
+  },
   {
    "mmsi": 352004839,
    "imo": 9971733,
@@ -9,7 +23,7 @@
    "length_m": 250,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "last_seen": "2026-11-01T19:41:52Z",
+   "last_seen": "2026-11-01T20:39:26Z",
    "destination": "VEBJV=>USPOA",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -23,7 +37,7 @@
    "length_m": 250,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-01T19:41:52Z",
+   "last_seen": "2026-11-01T20:39:26Z",
    "destination": "VEBJV<USBPT",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -99,20 +113,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 700
-  },
-  {
-   "mmsi": 352001337,
-   "imo": 9567764,
-   "name": "SAN MIGUEL",
-   "length_m": 122,
-   "why": "seen in Venezuelan / ABC waters",
-   "last_zone": "Venezuelan waters (other)",
-   "last_seen": "2026-10-27T09:47:00Z",
-   "destination": "GY GEO",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 300
   }
  ]
 }
