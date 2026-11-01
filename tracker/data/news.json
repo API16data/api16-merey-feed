@@ -31,6 +31,16 @@
    "origin": "rss"
   },
   {
+   "id": "32cbfb4ade13",
+   "date": "2026-10-31T22:00Z",
+   "title": "Nabep, del controvertido petrolero venezolano Alejandro Betancourt (fallido salvador de Pacific Rubiales), consiguió equipo de perforación en Colombia",
+   "source": "Halcones y Palomas",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQYWkzbDJRWE1tRUh4TGthdDdtMHVKc2l4WmNEbVZfTmxoaFktT1NGNDM3WlBKU3huemZEMGJ2RE93ZjRvbFU3TTk0MnV5MVF2OUpZc1E5YXlGV05jQ0RwLUwtY1dSYWNSTlgzSi1kbFF0N1l2S1VTNDBlNFNUNC1pNmVESU1jd09YR0VxZXVtWnBCdlAxMm9sdDJMejlFWDFVcW1sb19WVmpXTThxVHFubzA1Wm03QXdPcTFWLWlpcVg3dmNYZTZCWG9pckg1aktvMDJnSURvM2Z4Rm54UDAtRHIzUlVLYjhnRDZYLS1FbjZsazV2UWxlaDNnc3kxTUtXUGtfdGFvbFFJMXpLMlVtSm9vTnNNdw?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "3ca745a61eb9",
    "date": "2026-10-31T21:41Z",
    "title": "NABEP reinvierte ingresos para ampliar su flota a 41 equipos e impulsar la producción petrolera en Venezuela",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "456aeb81b8b7",
-   "date": "2026-10-26T15:34Z",
-   "title": "Sanctioned Tanker Bound for US Passes Through UK Waters",
-   "source": "The Maritime Executive",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ0RYM0NRRUJULU1uam1qRWRhcG0tUU41alVkV2F5X2lvM0VVdFFVbjdhSU52R0dMOEdnYkVDeVhTWFJoZWg4N1ZMaTg2dUNCRFpiSGJJUjN3d0ZHRXdkYlB4WFRaVDU3YUZvNzBXSFdwWk1ueld4TDhpMWwtY3NXRkRsTWxncVNCVTBqVHIxSVJXVGtVdU9Cb1VR?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T02:38:36Z",
+ "updated": "2026-11-01T03:40:22Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
