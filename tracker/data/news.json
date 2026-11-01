@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "a242552c223c",
+   "date": "2026-11-01T10:21Z",
+   "title": "Eni Begins Junin-5 Heavy Oil Operations in Venezuela's Orinoco Belt - News and Statistics",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQWc4YzloMmdpSDQzRTVDQkt0bHBUVmZVUzExM1FUVkdxRjFYbmdYR0o5NU5SMV9OMzBoVS1BeGVFejdFQmRNR3ZoOVZlal9odHZEQU5QN2tQNEdBdXQ2cEpQSXlxSlFLTnVmdWw0X3NKdk9jWnNlQ0hKV0dyMS1kNEg0X0tMZEpjdWxQSVRBOEJBTDJ1QThYX1ZmM0xnY0hHRlBvOWhucV8?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "bd29fd41d04e",
    "date": "2026-11-01T09:29Z",
    "title": "Chevron Q3 2026 slides: strong cash flow, Venezuela growth story By Investing.com",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "bf848c17969b",
-   "date": "2026-10-26T16:38Z",
-   "title": "Trump Demands Lower Gas Prices From Oil Companies, Chides Chevron CEO",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFJ6YmgybVVRNmhHYmszYmhFVkw0T1JFQVFNUWk0SlRVMk12T3dZQzl5UmcxX1U0TGVqajI2WUJfRnhJOVhzdWt1XzBoQ3BXQXNuREhoZTg0eExLQjNLenYzd3pJeXZiZkExbG92UGFEbEU3Z2FmbWRTdGRYVURfVVl2NC1EYkIwaDl4V3JaQmRtb3ZHX05yYmRYZklwUEpy?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T10:28:26Z",
+ "updated": "2026-11-01T11:08:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
