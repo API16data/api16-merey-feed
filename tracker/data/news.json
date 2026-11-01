@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "c12eaa19cc07",
+   "date": "2026-11-01T04:40Z",
+   "title": "El futuro del petróleo venezolano está más cerca de los modelos de Kuwait, Emiratos y Noruega",
+   "source": "EL UNIVERSAL",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcEU3a2hHdHRUVzRQRURZVzdqSEJVbUpYWkJiNV9ZbWN5S2xTQTRTbFhGeTZiaGU2cDI0Tnk0RnY1ZS11aUgwY2ZINVl2SHd6ZXVsTWVyMUZ0RTdsQ1pqamFkdDFITG5jUjNGazRSbDd4OFB3d0dTeTVPR0h2b1lFd3poY1hpQVhSQ09NT3BBck9JbDl4N3JMaEVOaU11YjFyVXV2UUdRU0FDUzRsS005ZWtsMVY0c0xieXB5bzN3NWJIRmRSTl9saVhrNW15SWNWZGNsUHVB?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "d97a57ca35dc",
    "date": "2026-11-01T01:52Z",
    "title": "Chevron (CVX) Q3 Results Spotlight Cash Flow Strength And Production Dip",
@@ -4015,6 +4025,16 @@
    "origin": "rss"
   },
   {
+   "id": "b63fea5c4de3",
+   "date": "2026-10-28T03:53Z",
+   "title": "PUTTING THE CART BEFORE THE HORSE - A Canadian Oil Export Pipeline in Search of a Port - PART 1 - Ron Wallace - Canadian Energy News, Top Headlines, Commentaries, Features & Events",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeGdxYUFiREVxVnREZDltZzVzLXBpOTNneTNTdVU2a0Z4MGxsMklhVmdmUHpZamdVdkRLcWtrMm1JX0FBX1RkTnppSzEtVkk2a0ZrdXE3bzIwNDU2QWJWeVl4aldnOXp4bk5fV3BRb3VNTXpUY3JrX215NlRsc0J1cTBrU2JwbFZwUUxnb3JkdndPS0VmcEpsZ3prdWs1clI3ZFBVdlhHUE1ZNVVwdlNyVFJPYzFTbmY5MUxpdWRfMkYwcEplYXdidQ?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "ff2f1a4dc09b",
    "date": "2026-10-28T03:51Z",
    "title": "UAE, Qatari Firms Debut in Venezuela Through BP-Led Gas Deal",
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "950cf4bcb701",
-   "date": "2026-10-26T15:36Z",
-   "title": "Ranked: The World’s Oil Reserves by Region",
-   "source": "Visual Capitalist",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95Ykx6cjlvQmhEYVpFR2RXbzRDZzd0cU5zMWFhamdjU3lUbmpQN0xWWTRLM3RWcjUtSzFIYk5qc3dxYUhXdURHaDJEczBkNEE1WGFiMW5lZm8yWXc4UC1zakhONTMyMnA5LUJFTDNYMnhsOUttVHR3bVVuYzNhLW8?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "86138e5c446d",
-   "date": "2026-10-26T15:35Z",
-   "title": "Machado Returns to Venezuela, Challenging Washington’s Oil Bargain",
-   "source": "LatinAmerican Post",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMkExOF9fX3FyWjRidEhtZ1FQZXUxM2ZucnNUTWtLd3FpcnZhcEJubzdxeFJjMk50Y0U1VG94cWZKNjE3b2xGSEtIelppQ01BT0prMTNJMGdXcVZ0emZGaXNEWnBsMVZXTEprR2xXd2RSWXVxckF1YnhHSVBlQVI5ZjJwdVJ5eDR1NlBJTjItOUs4NFdFS3Z6THBnMmV0T1BiSUp4OERPWQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-01T04:40:40Z",
+ "updated": "2026-11-01T05:36:18Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
