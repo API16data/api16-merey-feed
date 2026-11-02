@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "de3d79051b17",
+   "date": "2026-11-02T15:18Z",
+   "title": "Ingresos facturados de PDVSA alcanzan $18.700 millones entre enero y septiembre de 2026",
+   "source": "AlbertoNews",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEt2SVhEdkcxdDNUVXZUajZTWTR3UHRHMnFOZmVyZWF0R2YwQ0ZRdlIzVmNHeExSUk1VV1BaRjd0MHdfNmJpVG43ckNWa0NvbmM0ZnRFdDlMQmNjM2xiM0psSmJGd1QyZEpaalp3aEQxeDh1Z3RYaW5FekVBWUQtTlJjbm9oQ2xQYTF2NDhoN2xGMThVYjVQMmMzWDdrSjJSRllTTG1fRGRodm5xbVAxbTNON0o1Y0pLcXFzQg?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "4f070f97bd82",
+   "date": "2026-11-02T15:01Z",
+   "title": "GeoPark anuncia operación en yacimiento petrolero de Anzoátegui",
+   "source": "El Aragueño",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2pxSi10c0lzbGcxdEc4WDhDOEJTZ19XSHlQNE5fZGRkYkNnekFqODN6aWJrLWs5aTBnS2c3OFlMR3B0RVdyb2R5QVdjTER0MUNMR0wxa19QejZDd3ZrVEpNZWdYQm9vWFBpOWY5dG5MZkVRT2xGT19uclFHQ2VRVGpha2gzNG5QakN2UlN5S3FiWlZP?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "6ce02fb84cbb",
    "date": "2026-11-02T14:11Z",
    "title": "Venezuela: GeoPark se adelanta a los plazos y ya opera el bloque Bare en la Faja del Orinoco",
@@ -7736,26 +7756,6 @@
    "origin": "rss"
   },
   {
-   "id": "24df9d15ecd0",
-   "date": "2026-10-27T14:42Z",
-   "title": "Empresa suiza Sulzer alianza de cinco años con Pdvsa para impulsar infraestructura petrolera",
-   "source": "Diario Versión Final",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWl9NS0JGVDJFZlZ5cWxVTFZXNlUxMHRSSHhFd0pCa25oek5QY3Q5cXg3X1dFS0M3cFFpamhSV3dpdk9SWlh6MkRwSzZKOWtLWE00a3VXYlVBYkR4RHhYTWNDaGxIaW9hTi16R2xwTlVIdmV5bzNpdnBQR2VEcGhOampKa0stMkJVTTNiMFk1SHlpRWtpdUstWEdMQjc5bDJaTlZoT3JITlRNcGRzOWYzcFZlaXd2SC1iOVZBTUxwZ25vVEpYTmZVTlYtX0swRnBITzV3Z2JJRQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "2248bd623d88",
-   "date": "2026-10-27T14:39Z",
-   "title": "Empresa suiza Sulzer firma alianza de cinco años con PDVSA para modernizar infraestructura petrolera",
-   "source": "Alnavío",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUkxUXZldktpSVpjYmJRUERKLUF1bmFaeERCUGVVWXlocjNEZnl5ajM0QnZuUm9DWjBKZEI2WG1FenZFc1YyOHdiOS1abmpacHpUZUhLSVlQVXJadjJwZHBYUDN0ZnhJelBZaDBibEQwb0dTclVXbzFfLWZyM2VBTWEwZjZUbWw5ZXJmVDZBejZSTWx5T1hWd2ZIaWs3Q1pNd0ZzZzBYMnZKMnRyVzFRc1JEdXZMSTFlLVhMZA?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n24",
    "date": "2026-10-27T12:00Z",
    "title": "Swiss engineering group Sulzer signs 5-year alliance with PDVSA to develop essential industrial infrastructure in Venezuela",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-02T14:56:55Z",
+ "updated": "2026-11-02T15:52:05Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
