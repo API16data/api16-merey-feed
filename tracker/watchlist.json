@@ -50,6 +50,20 @@
     "manager": "Ionic Tankers Mgt Inc (Greece)",
     "class": "ABS"
    }
+  },
+  {
+   "mmsi": 538006696,
+   "imo": 9779795,
+   "name": "IONIC ANASSA",
+   "reason": "Sister ship of IONIC ANAX (same manager). On Oct 30, 2026 declared Port Arthur > Bajo Grande at 8.3 m draught: heading to Lake Maracaibo, probably in ballast, to load.",
+   "source": "API16 AIS",
+   "added": "2026-11-02",
+   "reported_venezuela": false,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "loa_m": 250,
+    "manager": "Ionic Tankers Mgt Inc (Greece)"
+   }
   }
  ]
 }
