@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:00:40Z",
+ "updated": "2026-11-02T18:57:30Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -118,7 +118,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-02T18:00:40Z",
+   "last_seen": "2026-11-02T18:57:30Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "lat": 29.2466,
    "lon": -93.699,
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-02T18:00:40Z",
+     "last": "2026-11-02T18:57:30Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -703,6 +703,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-02T19:03:16Z",
+     "lat": 29.2466,
+     "lon": -93.699,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -727,7 +737,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-02T18:00:40Z",
+   "last_seen": "2026-11-02T18:57:30Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "lat": 30.0112,
    "lon": -93.9953,
@@ -755,7 +765,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-01T18:45:07Z",
-     "last": "2026-11-02T18:00:40Z",
+     "last": "2026-11-02T18:57:30Z",
      "draught_m": 9.7,
      "draught_first": 9.7
     }
@@ -1450,8 +1460,59 @@
      "draught_m": 9.7,
      "dest": "VEBJV<USBPT",
      "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-02T19:36:36Z",
+     "lat": 30.0112,
+     "lon": -93.9953,
+     "kn": 0,
+     "status": "moored",
+     "draught_m": 9.7,
+     "dest": "VEBJV<USBPT",
+     "zone": "Port Arthur / Beaumont / Sabine"
     }
    ]
+  },
+  {
+   "mmsi": 538006696,
+   "imo": 9779795,
+   "name": "IONIC ANASSA",
+   "reason": "Sister ship of IONIC ANAX (same manager). On Oct 30, 2026 declared Port Arthur > Bajo Grande at 8.3 m draught: heading to Lake Maracaibo, probably in ballast, to load.",
+   "source": "API16 AIS",
+   "added": "2026-11-02",
+   "reported_venezuela": false,
+   "specs": {
+    "type": "Crude/oil products tanker (LR2/Aframax size)",
+    "loa_m": 250,
+    "manager": "Ionic Tankers Mgt Inc (Greece)"
+   },
+   "seen_this_run": false,
+   "last_seen": "2026-10-31T01:57:58Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "lat": null,
+   "lon": null,
+   "status": null,
+   "draught_m": 8.3,
+   "destination": "USPOA>VEBJV",
+   "visits": [
+    {
+     "zone": "Port Arthur / Beaumont / Sabine",
+     "group": "USG",
+     "first": "2026-10-27T16:50:52Z",
+     "last": "2026-10-30T23:40:25Z",
+     "draught_m": 8.3,
+     "draught_first": 9.5
+    },
+    {
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+     "group": "USG",
+     "first": "2026-10-31T00:58:54Z",
+     "last": "2026-10-31T01:57:58Z",
+     "draught_m": 8.3,
+     "draught_first": 8.3
+    }
+   ],
+   "track": []
   }
  ]
 }
