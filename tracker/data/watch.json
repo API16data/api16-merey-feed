@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:39:35Z",
+ "updated": "2026-11-01T23:38:13Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -118,10 +118,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-01T22:39:35Z",
+   "last_seen": "2026-11-01T23:38:13Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.2472,
-   "lon": -93.6986,
+   "lat": 29.2474,
+   "lon": -93.6983,
    "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-01T22:39:35Z",
+     "last": "2026-11-01T23:38:13Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -633,6 +633,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-01T23:51:16Z",
+     "lat": 29.2474,
+     "lon": -93.6983,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -657,10 +667,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-01T22:39:35Z",
+   "last_seen": "2026-11-01T23:38:13Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 29.9853,
-   "lon": -93.9023,
+   "lat": 30.0093,
+   "lon": -93.9831,
    "status": "under way",
    "draught_m": 9.7,
    "destination": "VEBJV<USBPT",
@@ -685,7 +695,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-01T18:45:07Z",
-     "last": "2026-11-01T22:39:35Z",
+     "last": "2026-11-01T23:38:13Z",
      "draught_m": 9.7,
      "draught_first": 9.7
     }
@@ -1236,6 +1246,16 @@
      "lat": 29.9853,
      "lon": -93.9023,
      "kn": 7.4,
+     "status": "under way",
+     "draught_m": 9.7,
+     "dest": "VEBJV<USBPT",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-02T00:17:51Z",
+     "lat": 30.0093,
+     "lon": -93.9831,
+     "kn": 4.3,
      "status": "under way",
      "draught_m": 9.7,
      "dest": "VEBJV<USBPT",
