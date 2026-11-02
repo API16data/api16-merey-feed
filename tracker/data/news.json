@@ -1,6 +1,46 @@
 {
  "items": [
   {
+   "id": "3bb8e2214de6",
+   "date": "2026-11-02T11:03Z",
+   "title": "Six financial crime key updates you missed this month",
+   "source": "Lexology",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPemdzTnRmbXc4OUFsa1BuUFdXc1hEdUpDUG5YSjhRd091OElTVUg1eUF1QklTWnZDMENMTENMcGtibktZeXo0VEVJN19UTWkxOGxVYm5oYzFEcVA3Wk1nNmpzMUJVOHJGcDlxWGEtdmtMRUw4U3ZMVWpWazlYbE9ZTzRxaGRFaDBWZGhCN0JB?oc=5",
+   "category": "General",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "a2baf07805f9",
+   "date": "2026-11-02T11:02Z",
+   "title": "Chevron acelera en Venezuela mientras ExxonMobil pide cautela",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVzB5RGVCcXlESWJKTFBWdzZQS0FKM2tieDFQNHVCYlY0aG1kS0RsazJBd2I1dVYzcEdlTjNndmRnVnpwdXFOS0NJSVAzUlp1RFZ2ZlFaLUR6S1FoT1BHdHAta3VISEE4UUsxOHozZHQzbl9yZ1hHN2dDakF0N2VQMWRRTEd3d3RqRkNXc2VydVRocTBETm5pTw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "db8117ee2554",
+   "date": "2026-11-02T10:53Z",
+   "title": "Goldman Sachs proyecta que el crudo Brent alcance hasta 140 dólares en 2027",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdjhMZEw2emlSYUpCVXc4NDRLVEFfbzdWYmctakFhamJtMnFybE1XaXE2cnNyQnc2NUJGYm0tT0FDQkxodFV2YmFjbmU5VmQwZ3FoU2NnclROWmNFX2FDSzJyamplTzFkY1RwTEx2NnRaaUhCb1daTjhEZE5ZMXVIN0JRSlpoWVZWMk9yZnBB?oc=5",
+   "category": "Pricing",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "4e32942a875d",
+   "date": "2026-11-02T10:44Z",
+   "title": "Venezuela’s Present and Future Energy Landscape: From collapse to recovery.",
+   "source": "EnergiesNet",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVkZfdjRjRUhQblhMNGExSDBLM0piNlN6YkQyQVVxYS1xT29aeTVITk81NzBpOVRYMkgwRnRiR01US3pQV2YxZDFGQ3laY09ib2NBaGJwTG1PRzd3NkM0T2pHWXcyQl9fUDJvNmxqWVMycEVkMEdWbUcwbEtSYWxhSEpxdmtiRWhIcUJsZFkzVGJ3SU1zb2lLNEFqdGozMnllYlZ1SVRHWERDMXNZMlptV19qcGxVNXVGU1JoTjhLM2prSjdnMmhMdDY0c2gwTVNQdDFsRmxrdHplTTNhcm81M2RSdG8zcW9FSHRhOWNHVVBkU1F1SFRZV3pFLWpMbm8?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "fa5a2dec83ec",
    "date": "2026-11-02T10:31Z",
    "title": "La estrategia de Trump para Venezuela necesita algo más que acuerdos petroleros",
@@ -458,6 +498,16 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZDAxRTk1SnU0T2hQcXU4WXEweUVWbXJNbG1JTlZYUGwteWotWEJPbjhhUmI1MG5lZjF2d3NpUTZvUG1QMXBzR2Y3eDQ5T1NEY1ZLd1NUcFpMNmxBaEFCaUtkRFBxa0o1Wk8zNGFra3VnMVZHS3VrSU1DSVpzOUhOT2xEQ0hXbUxlbFh0S3MwWGtrdmNham9wWmRNUENBaXlDU3U3VmRQZ01DWkhSWUlGYVdsZjV2eS1oRzdfektPMA?oc=5",
    "category": "General",
    "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "18e15e5f4fc4",
+   "date": "2026-11-01T05:03Z",
+   "title": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3JoMW41OTJndjZkRnhkeWxxUmhDRE5LU3VkdTBrQXZGLXVKQXVSTkQ1d2F1SEcxT1BBczJPTlRBWk40QW81VEh2LUxHVjQ5OEpDX0d5YkVxZ3RaQklCZGlyZGRoRk02dW41LXNpQmZiMFpWQUFnc1JUMjJmZ2ZUTWF3TDM0LVBPeGZWbTk3czRVVGFSdWFBZjlETjFIcWtSbGVuWEt3ZzBjVUww?oc=5",
+   "category": "Debt",
+   "via": "Google News: PDVSA",
    "origin": "rss"
   },
   {
@@ -1628,6 +1678,16 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWEl5OGtJZVRRSElwcG8tYkFyeXp5anQxY1hONzIxTU1ZRzlsM29fcUZqX002VnZkWWM3M3Nxb1FYWDdkczdHLWNFZlRhc0wtM2dnYldMTFcxWTJjdFVhMlg0Ny1BMEc4QTczSUpnSjBIOEQ1NG1YZHhrY0lzNDJNQ0MtbDRlQUxMeTFhWTltdWhuazBtSDZzNmdmNWtDUWlMQS16dkZjQ0ZMZ0RmOHc?oc=5",
    "category": "Production",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "26923e8960b8",
+   "date": "2026-10-30T17:00Z",
+   "title": "Venezuela: Rodríguez Pledges to Return Nationalized Assets to Former Owners",
+   "source": "Venezuelanalysis",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTJrblJYNjRocWUyaHZVUmk0QjZReWNsOUd4czNoTWdtMGhVUm41S3hvZlZxX0JxRE5KMlpISHQyMWJIbkNVcW5lTkg1WGZpVWZBLVhxMkpRa0JES0IxNmVxcl9rTmdFQTZZSnk0c1R2ZGlSY3lwUmN3d2QzdktVVEpvU2JfTFlMcGNMLTVRV010QXNVYUNLSk42WnNlVGltVGVGdFFBVDFBS1ZKdXc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7696,66 +7756,6 @@
    "origin": "rss"
   },
   {
-   "id": "8603898ca3b8",
-   "date": "2026-10-27T13:15Z",
-   "title": "EE. UU. reporta un aumento de más del 400 % en las importaciones de petróleo venezolano",
-   "source": "ElOriente.com",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNWtIVWFfcGpZZExTTHVZcVRzZVdndmItYVJ2VGUtQnJ0MzZtaXlRSWJVSEIyRE1zVVFLbHdYM0FtTm04VmVsYUtNWjRiVVMtZW0yYVNuV1MtOUg2WHBiLTVOd3V0MEk4bUpycE54WnJ2SFZUNmdWaHVUSmQ3M0o3N01WOGw0SV9RZUVOTXJLVHBpX3kyN3JTTUd3ZTN1S1FNQzQtMDFVQ25iZUZPOFNVWkY4SXFsaUhnd0duME9QY2R1UQ?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "30384d727ba1",
-   "date": "2026-10-27T13:05Z",
-   "title": "First Iranian oil, then Venezuelan, now Russian: Ex-foreign secretary recalls Biden-era pressure on India",
-   "source": "Moneycontrol.com",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcTFpNkNQUGk2bURwOXlaM1NvbUFtSVk3bVplMUlTMm1DcF96Y1hiSGx0WHl3bTRkZ3pVYUNGbGNuQTluTUkwMUlfRDlVVjlQQVpxZ3pFbFpwcU9JTVphTXpuaG91TGJUOEhWR0VXM0ROVUdrX2pQb0M2cS1ObzZ6ZjFUR2tXWWUxVy1hUjFubzU4WnpoTmxGVTFTVEM0LThwRWpPc1dsMEpRYkl5WndHaW1nZ0lKaWxXTTJIQnFSSVJyTWEzQUxiQUNqb2ROR1RIcjlrVEJ2YlRCLXM0RjlIYnZ6cURGNlNGQzAyY0pSbHlyUdIB8gFBVV95cUxPcTFpNkNQUGk2bURwOXlaM1NvbUFtSVk3bVplMUlTMm1DcF96Y1hiSGx0WHl3bTRkZ3pVYUNGbGNuQTluTUkwMUlfRDlVVjlQQVpxZ3pFbFpwcU9JTVphTXpuaG91TGJUOEhWR0VXM0ROVUdrX2pQb0M2cS1ObzZ6ZjFUR2tXWWUxVy1hUjFubzU4WnpoTmxGVTFTVEM0LThwRWpPc1dsMEpRYkl5WndHaW1nZ0lKaWxXTTJIQnFSSVJyTWEzQUxiQUNqb2ROR1RIcjlrVEJ2YlRCLXM0RjlIYnZ6cURGNlNGQzAyY0pSbHlyUQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "a2a7498879f9",
-   "date": "2026-10-27T13:04Z",
-   "title": "Trump and Rubio will visit a tanker with Venezuelan oil in Texas while Cuba suffers from a fuel shortage",
-   "source": "CiberCuba",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS0tDRTdUUWxhQkUtLWtxYkkyUDhkS1o1NXJubGV0SjlHOWRMN3ZzdHdkSlNjeEx6M1hvR0tOYldBMFlSTld6LUNRdWIwaW1PY3JsYnVKck1lQzAyTUZwX3BrUm80RkVNU2FQbk8wTl91aXRhUlpPaVNjSVN0VTh2N1JPWmpCdDBIdzFya3RzZVpLcTg5eGRTWGxETjV3M2xQenJySklpLTRrSXY2aF93QjhZUGFlaTg1OUZnenJ3?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "15e378cbe04e",
-   "date": "2026-10-27T13:04Z",
-   "title": "Trump y Rubio visitarán un petrolero con crudo venezolano en Texas mientras Cuba sufre la falta de...",
-   "source": "CiberCuba",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbDRYcjBPUFJENkk4VlNhaGExUjFjNUhfdTlVM0FmWDJfb1VKNXMxSUF2TmJGblJkZm5PaWp4akpsZnQ3aGM3UnRNVEgxd0x0SGxGYVlETjV6eUxkV0pheTVhRm5ndFFvbm93VHRPVE1icFR1Q0t5cDFqeWU4a3VSUDBVY0pXWnhaWHRUUzlmRVhpNVBqNE9kM1JubW51RnJQcEJlVXd6ODRJeS1fR3ByUG1ib25reXZxWmxncW5FWdIBvwFBVV95cUxNbDRYcjBPUFJENkk4VlNhaGExUjFjNUhfdTlVM0FmWDJfb1VKNXMxSUF2TmJGblJkZm5PaWp4akpsZnQ3aGM3UnRNVEgxd0x0SGxGYVlETjV6eUxkV0pheTVhRm5ndFFvbm93VHRPVE1icFR1Q0t5cDFqeWU4a3VSUDBVY0pXWnhaWHRUUzlmRVhpNVBqNE9kM1JubW51RnJQcEJlVXd6ODRJeS1fR3ByUG1ib25reXZxWmxncW5FWQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "a32d4cf80fe4",
-   "date": "2026-10-27T13:00Z",
-   "title": "Venezuela: en el camino a la prosperidad y la soberanía energética",
-   "source": "Qué Pasa",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOblZEVzBXRFlhVmdQSmctVzUwUTdQMlJLdTBycTVHVkktV3VERC1uNUVvTmdybWJnZnk5WEJGbkVLZ2dCS21NRzVza00xbXc4ZEhWb0FLbHRTdnhpb09sNDBpSFp5ejhCTVlvUk83aUFSejFmX3ExU1JQa1NUUkpMV0FEV2hVajkyczZWTi1DVTN0Y2ljYTJuMVpjUlhfLVczLVZmTVFpSUlSdw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "b1e3baf7aaa7",
-   "date": "2026-10-27T12:57Z",
-   "title": "Venezuela to Join G20 Energy Summit as US Aims to Tap More Deals",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXVRcV9CdmtxTlBRSWRpVkFjUGJaZGIzUTkwZlBEY3NBeHViTzBfQWloanhhSkk4OWVLYTEyX002cVg2ZTVqMWxaT3RFOVBXRC1BS2drb0JiZXJCVWxzZzQ2RkdvczFRby1GbE5YNFRYeGxNWkc3MndpMnZPTnoyajBLOGFXSGVHSFFidnIxWlRLbjdBWldPdmlVTQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n24",
    "date": "2026-10-27T12:00Z",
    "title": "Swiss engineering group Sulzer signs 5-year alliance with PDVSA to develop essential industrial infrastructure in Venezuela",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-02T10:49:28Z",
+ "updated": "2026-11-02T11:42:27Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8077,6 +8077,15 @@
    "key_figure": "223,000 boe"
   },
   {
+   "date": "2026-11-01T05:03Z",
+   "title": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ3JoMW41OTJndjZkRnhkeWxxUmhDRE5LU3VkdTBrQXZGLXVKQXVSTkQ1d2F1SEcxT1BBczJPTlRBWk40QW81VEh2LUxHVjQ5OEpDX0d5YkVxZ3RaQklCZGlyZGRoRk02dW41LXNpQmZiMFpWQUFnc1JUMjJmZ2ZUTWF3TDM0LVBPeGZWbTk3czRVVGFSdWFBZjlETjFIcWtSbGVuWEt3ZzBjVUww?oc=5",
+   "category": "Debt",
+   "angle": "Claims on future oil revenue",
+   "key_figure": "$150 b"
+  },
+  {
    "date": "2026-11-01T11:04Z",
    "title": "FILE PHOTO: First Venezuelan oil from US-NABEP deal arrives in Texas, to be sold to Exxon, Citgo",
    "source": "The Lufkin Daily News",
@@ -8092,15 +8101,6 @@
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb2l5eGRYS0tOWUZjZElpeklpVnlxM0E4OEM0UjJJRGh5V2FXX3hOUEwtMGJhY2xHb0F2eWVaMWtsWGVnWE80cjNKbUV0OXdpRWZPdmtpYnBBUWZLMVBoYWhzN3p6djl1ZWVPLW51cm93RVdwcjJsa2pJSEkzN0RxcUZqQ3RBc1NYYm1HM3Rod2hZNF91SWtpRHBnWURWQWpVVm1EVzUwVWkxdnFSMzVUeVR4dkJfVUktRTlnVDhweFlBcHd6?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
-   "key_figure": null
-  },
-  {
-   "date": "2026-11-01T09:29Z",
-   "title": "Chevron Q3 2026 slides: strong cash flow, Venezuela growth story By Investing.com",
-   "source": "Investing.com Nigeria",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXY1eWpFZkN6NFF1VVlTbFRDUXlSbldpdE9LdENESXdFNV9PRmtsUS1qWC1fYW9WSHIxODZBaFcxbjVUN1ZEUURyUWZEOHRiQ1dSQURHNzAxcU1VZFNFbmlCZkRHclgxbG5leC1BY3U5V3JCZW9PdmRLdHV2M1pEdm5uNVFWd0F1cXJzMENVNXptd0lyZGZpQTRLUC10NzVBdjQxM1UyQ3pOczI2RElpbWhUMWtldG9ZcW5JR0VoNDc?oc=5",
-   "category": "Investment",
-   "angle": "Future barrels in the pipeline",
    "key_figure": null
   }
  ]
