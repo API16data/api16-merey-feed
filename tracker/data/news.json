@@ -121,6 +121,16 @@
    "origin": "rss"
   },
   {
+   "id": "b0ea2056a2ef",
+   "date": "2026-11-01T18:11Z",
+   "title": "Tareck El Aissami y Diosdado Cabello, entre los \"entregables\" de Venezuela a EEUU",
+   "source": "Diario Las Américas",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVFN4VjZRT0N6V1ZUa1VfRGJENlduX0YxSnUzNEhuQTNDZGx3aUROMVN6THJWUTA5T1VWYUotcnliXzQwZDB0b21Ga2xIaXhKVFV1cU02WkZaRThESXY0X1R6ejE1WDhkLUtJZG1XcExYa0ZJa1VGVmZsVjRrTTRvbmF6ZHRRcERvWEQtNlppVlJ5T19EMFZZQmVfVjVvd2NodGlVWTdwb2lXZzlHcXJ4OXBBcnVwSkNhMllyazFJdnNPMVnSAcgBQVVfeXFMT3RCbGpFakstRDFMczNHTTlUdzJjLVhSVk9NNFNqb0hZT0FkckhPaXFua1B3dGltTDI0RW85bHFZdFpfbG5qZEplb09Sc3g4RzZsUjE1THFad25BeGczaHdfcklobTR4ZU1IZWQ1Y1I4MEpqYU9PeTVuakdHWEI2TXlvY3NudkR0c0ZVWFFNeVhvLTFqOHlvLVQ2YUtiZ0ZndFhFOVI4NmJwaVh1Uld4WWdvSkNHSk4tWllCVGgwV1NCT1djcXU3OWo?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "86d884e78d76",
    "date": "2026-11-01T17:58Z",
    "title": "Empresa italiana ENI inicia operaciones en la Faja Petrolífera del Orinoco",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "daa9df45aad0",
-   "date": "2026-10-27T07:00Z",
-   "title": "¿Acaso Trump quiere convertir a Venezuela en el estado número 51 de los Estados Unidos?",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY2NNY1JjOUw2VGlscmpKYnljRVRNb1h4VjF2Tko0Nk4tV1FYU1E3SVpCQmRJaEsyQWtsQVBUaXNXT2R4T2dtUlNlTmw3bTVWSVp2em5TZkQtLUVJaWlDbTd1UDFkWlFwTFB3OWhBX0hnOUhZcTZwZEJkT2JYdlo4bEZWUENwclU?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-02T01:53:09Z",
+ "updated": "2026-11-02T02:42:21Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
