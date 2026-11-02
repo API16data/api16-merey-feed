@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0545be2c1efc",
+   "date": "2026-11-02T02:35Z",
+   "title": "Oil: the US-Venezuela agreement rests on NABEP",
+   "source": "energynews.pro",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91WHBFbnNEeWw4QlB5SzlFLW9zWXhiU0hBdWh6REw5azVUQUEwT0RTM2M1Yy1BTUpocHI2d1JwMnJwYVk1Wm4zcjNFa0lXd0lRUzhwc2tBYTZudDlQTGx2MXJBSy1CLXRXYjY5WkV5Z19zdGtPdUtjLTZkSQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "ce3ff32f577a",
    "date": "2026-11-02T00:49Z",
    "title": "Petrolera italiana ENI inicia operaciones en el supergigante yacimiento Junín 5 de la Faja Petrolífera del Orinoco",
@@ -28,6 +38,16 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTZhYkxnR3VzeVM3THlzbkRLLXFYeXU1cTdZSXloc2NxcVBkSUtKUkt1cEZvTFJNbUtRN0lpckpEQVpiSXBZc190el9YcHRZRzhTOWhIUUFuNzlsZElvV1o2N3JrdjBaWGVSVS16Mjc3Z0pCNDJWNk9UaGJGZWtESS1IT1d4YjNXcV9fUjBldEJ5T3dhaFplZlFKZw?oc=5",
    "category": "Production",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "6e22efae5650",
+   "date": "2026-11-02T00:00Z",
+   "title": "NABEP, propiedad de Alejandro Betancourt, apunta a un aumento del 300% en el petróleo venezolano",
+   "source": "IDNFinancials",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObWs1dlZaTjRGc3ROMmdfUWJQZWw2OHVTMkVTZGtFa1JYMjFfMVBSekdOX0lpQ1dUUEpLMDNPZ2hXX2hIdkRDRC1tWmdydjhBalBueU56am5FQUw5VVZaVk1ZQWxoM0FhMENWZlRNUGRhM1dwd05MSFY1U3ZpOXNndDQwRnhvNmJWTG1uaWdIZm5NTGdlUmU1cnVubzBQakJvUnJhNExIcDkydEc2c0Z5VGcxVWVsX2h4ZjNvQ0ZWUGotNzdlNmVGMnNpX0ZpaThmX3RyUUZsZFNSdw?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
    "origin": "rss"
   },
   {
@@ -7760,26 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "e4584be81149",
-   "date": "2026-10-27T07:10Z",
-   "title": "“From the Middle East to South America as Crude Supplies Are Blocked”: Capital Flows In as U.S. Eases Sanctions, Reviving Venezuela’s Oil Industry",
-   "source": "https://economy.ac/",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZZWxGMF9TcjFhY2U2YXQwVzlwNmhLRVhJMVlReHlBUEdHNGdSYUZ6YW83UXFQek5KVW1UeER3VHJhY005c3JqRmFGZHM3Y2RKcXpCNTBUNA?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "1e440458eecb",
-   "date": "2026-10-27T07:00Z",
-   "title": "PDVSA Bondholders Win Second Circuit Affirmance of Validity of Notes Issued by Venezuela’s State-Owned Oil Company",
-   "source": "Paul, Weiss",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMEl2Y3FaWGMwN054cEpHdWhwUldDSFZHcms5NEZqbHJpT3ZVX2FGOTRLWmhrdVp0YzJ3Vmo4VjlwTGE2bVVfNkI1YlpYV3VXRU5saVlPcEFvWTB4OFFvdnlpczdGWlNHem10V1ltT21nUjFLUXBZbWFOZzZtb3d2YjR1WUxoVW0wRkVIZUtraWZUUUtfcmxPV2ZxY0lJeXl0R3RlU1U0TDJMcnBJWDM3ZEZEN1duUFVKX3k4Z3VDVG5sUWZEZE1NdXZKc1BaRmY5SmhMMWZNcjFpZk5OWGFNeXdFd3RoYVlCcVJhX2xDZVZBV28?oc=5",
-   "category": "Debt",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-02T02:42:21Z",
+ "updated": "2026-11-02T03:43:35Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
