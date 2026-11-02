@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T02:08:37Z",
+ "updated": "2026-11-02T03:57:48Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -117,12 +117,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": false,
-   "last_seen": "2026-11-01T23:38:13Z",
+   "seen_this_run": true,
+   "last_seen": "2026-11-02T03:57:48Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "lat": 29.2475,
+   "lon": -93.6983,
+   "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-01T23:38:13Z",
+     "last": "2026-11-02T03:57:48Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -643,6 +643,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-02T04:00:15Z",
+     "lat": 29.2475,
+     "lon": -93.6983,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -666,12 +676,12 @@
     "manager": "Ionic Tankers Mgt Inc (Greece)",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-11-02T02:08:37Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 30.0112,
-   "lon": -93.9953,
-   "status": "moored",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 9.7,
    "destination": "VEBJV<USBPT",
    "visits": [
