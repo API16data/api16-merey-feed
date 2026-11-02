@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>API16 · Cargo Passport</title>
+<meta name="description" content="Live Cargo Passport: one tanker linked to Venezuela, its voyage to the U.S. step by step, built from public AIS and official records.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --ink: #0F1B2D; --amber: #C8892B; --amber2: #E2A548; --steel: #3B5B8C;
+    --bg: #F6F7F9; --panel: #FFFFFF; --fg: #0F1B2D; --muted: #5A6577; --line: #E1E5EB;
+    --ok: #1E7F4F; --part: #A86A12; --pend: #3B5B8C;
+    --display: "Montserrat", "Segoe UI", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0B1320; --panel: #111C2D; --fg: #E7ECF3; --muted: #9AA6B8; --line: #22324A;
+      --ok: #4CC38A; --part: #E2A548; --pend: #8FB0E0; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+  a { color: inherit; }
+  .wrap { max-width: 980px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .bar { position: sticky; top: 0; z-index: 1000; background: var(--ink); color: #fff; border-bottom: 1px solid #22324A; }
+  .bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px; max-width: 1120px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand svg { width: 28px; height: 28px; }
+  .brand b { font: 800 21px/1 var(--display); }
+  .bar nav { display: flex; gap: 18px; font-size: 14px; align-items: center; }
+  .bar nav a { color: #C9D2DF; text-decoration: none; white-space: nowrap; }
+  .bar nav a:hover { color: var(--amber2); }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+  .head { background: var(--ink); color: #fff; }
+  .head .wrap { padding-block: 28px 26px; }
+  .kick { font: 500 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: #9FB1C9; margin: 0 0 8px; }
+  h1 { font: 800 clamp(28px, 5vw, 44px)/1.1 var(--display); margin: 0 0 8px; }
+  .ids { font: 500 13px var(--mono); color: #C9D2DF; }
+  .status { display: inline-block; margin-top: 12px; font: 600 12px var(--mono); letter-spacing: .05em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; background: rgba(226,165,72,.16); color: #E2A548; }
+  main .wrap { padding-block: 24px 40px; display: grid; gap: 20px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 20px; min-width: 0; }
+  .card h2 { font: 800 20px/1.2 var(--display); margin: 0 0 12px; }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 10px; }
+  .facts div { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; min-width: 0; }
+  .facts b { display: block; font: 600 16px var(--mono); overflow-wrap: anywhere; }
+  .facts span { font-size: 12px; color: var(--muted); }
+  #map { height: 380px; border-radius: 12px; border: 1px solid var(--line); }
+  ol.steps { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); margin-left: 6px; }
+  ol.steps li { position: relative; padding: 0 0 16px 20px; }
+  ol.steps li::before { content: ""; position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--panel); border: 2px dashed var(--pend); }
+  ol.steps li.done::before { border: 2px solid var(--ok); background: var(--ok); }
+  ol.steps li.part::before { border: 2px solid var(--part); }
+  ol.steps b { display: block; }
+  ol.steps span { font-size: 14px; color: var(--muted); }
+  ol.steps small { font: 500 12px var(--mono); color: var(--muted); }
+  .tbl { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  td.m { font-family: var(--mono); white-space: nowrap; }
+  .note { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+  .reason { margin: 0 0 12px; }
+  .back { font: 600 13px var(--mono); color: var(--amber); text-decoration: none; }
+  footer { border-top: 1px solid var(--line); padding-block: 26px 40px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="API16 home">
+      <svg viewBox="0 0 240 240" aria-hidden="true"><defs><mask id="mk" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><polyline points="117,166 168.8,74.1" stroke="#000" stroke-width="29" fill="none"/><circle cx="168.8" cy="74.1" r="21" fill="#000"/></mask></defs><path d="M120,8 L54.05,97.28 A82,82 0 1 0 185.95,97.28 Z" fill="none" stroke="#fff" stroke-width="15" mask="url(#mk)"/><polyline points="56,186 94,134 117,166 168.8,74.1" fill="none" stroke="#C8892B" stroke-width="13"/><circle cx="168.8" cy="74.1" r="12" fill="#C8892B"/></svg>
+      <b>API16</b>
+    </a>
+    <nav aria-label="Main">
+      <a href="monitor.html">Live monitor</a>
+      <a href="ledger.html">Cargo Ledger</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
+    </nav>
+  </div>
+</header>
+
+<section class="head">
+  <div class="wrap">
+    <p class="kick">Cargo Passport · live</p>
+    <h1 id="name">Loading…</h1>
+    <div class="ids" id="ids"></div>
+    <div class="status" id="status"></div>
+  </div>
+</section>
+
+<main><div class="wrap" id="main">
+  <a class="back" href="ledger.html">← Cargo Ledger</a>
+</div></main>
+
+<footer><div class="wrap">API16 · Built from public AIS, public port-call history and official U.S. records. Evidence, not proof. Not financial advice.</div></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(() => {
+  const $ = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  const ES = {
+    'Live monitor': 'Monitor', 'Cargo Passport · live': 'Cargo Passport · en vivo', 'Loading…': 'Cargando…',
+    '← Cargo Ledger': '← Cargo Ledger',
+    'API16 · Built from public AIS, public port-call history and official U.S. records. Evidence, not proof. Not financial advice.':
+      'API16 · Hecho con AIS público, historial público de escalas y registros oficiales de EE. UU. Evidencia, no prueba. No es asesoría financiera.',
+    'Voyage': 'Viaje', 'Route seen by API16': 'Ruta vista por API16', 'The vessel': 'El buque', 'Why it is followed': 'Por qué se sigue',
+    'Type': 'Tipo', 'Built': 'Construido', 'Flag': 'Bandera', 'Deadweight': 'Peso muerto', 'Size': 'Tamaño', 'Owner': 'Dueño', 'Manager': 'Gestor',
+    'Every position logged': 'Cada posición registrada', 'Time (UTC)': 'Hora (UTC)', 'Zone': 'Zona', 'Speed': 'Velocidad', 'Draught': 'Calado', 'Destination': 'Destino', 'Status': 'Estado',
+    'Zones visited': 'Zonas visitadas', 'From': 'Desde', 'To': 'Hasta', 'Declared destinations': 'Destinos declarados', 'Since': 'Desde',
+    'Positions are logged once per hourly AIS window, only while the ship is within reach of free AIS receivers. Gaps are normal at sea.':
+      'Las posiciones se registran una vez por cada ventana AIS horaria, solo cuando el buque está al alcance de receptores AIS gratuitos. Los huecos son normales en alta mar.',
+    'Venezuelan origin': 'Origen venezolano', 'Departed loaded': 'Salió cargado', 'Crossed a Caribbean gate': 'Cruzó una puerta del Caribe',
+    'Arrived at the U.S. Gulf': 'Llegó al Golfo de EE. UU.', 'Discharged': 'Descargó', 'U.S. customs record': 'Registro de aduana EE. UU.', 'Refinery receipt (EIA-814)': 'Recibido por refinería (EIA-814)',
+    'pending: customs publishes port data about five weeks after month end': 'pendiente: la aduana publica los datos por puerto unas cinco semanas después del cierre del mes',
+    'pending: EIA publishes refinery data about two months after month end': 'pendiente: la EIA publica los datos de refinerías unos dos meses después del cierre',
+    'at origin': 'en origen', 'in transit': 'en tránsito', 'arrived': 'llegó', 'discharged': 'descargó', 'watching': 'en vigilancia',
+    'partial load (Lake Maracaibo)': 'carga parcial (Lago de Maracaibo)', 'last seen': 'visto por última vez',
+    'No Cargo Passport for this vessel yet.': 'Aún no hay Cargo Passport para este buque.',
+    'under way': 'navegando', 'at anchor': 'fondeado', 'moored': 'amarrado', 'not defined': 'sin definir',
+    'Official check': 'Verificación oficial', 'stages': 'etapas'
+  };
+  const DET = [[/^seen at /, 'visto en '], [/declared destination /, 'destino declarado '], [/draught ([\d.]+) m vs ~([\d.]+) m laden mark/, 'calado $1 m vs ~$2 m de carga completa'],
+    [/ \(Lake Maracaibo, partial load\)/, ' (Lago de Maracaibo, carga parcial)'], [/^no draught reported yet$/, 'sin calado reportado aún'], [/^not seen yet$/, 'aún no visto'],
+    [/draught ([\d.]+) m -> ([\d.]+) m at (.+)/, 'calado $1 m → $2 m en $3'], [/^no draught drop seen yet$/, 'aún sin baja de calado']];
+  let LANG = (() => {
+    try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'es' || q === 'en') return q; const v = localStorage.getItem('api16-lang'); if (v === 'es' || v === 'en') return v; } catch (e) { /* storage blocked */ }
+    return (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+  })();
+  const tt = (x) => (LANG === 'es' && ES[x]) || x;
+  const trd = (x) => { if (LANG !== 'es' || !x) return x || ''; let y = String(x); DET.forEach(([re, to]) => { y = y.replace(re, to); }); return y; };
+  const nf = () => new Intl.NumberFormat(LANG === 'es' ? 'es-VE' : 'en-US');
+  const when = (iso) => iso ? String(iso).slice(0, 16).replace('T', ' ') : '—';
+  function applyStatic() {
+    document.documentElement.lang = LANG;
+    const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); let n;
+    while ((n = w.nextNode())) {
+      const pe = n.parentElement; if (!pe || pe.closest('script, #main > :not(.back), #name, #ids, #status, #lang-btn')) continue;
+      if (n.__en === undefined) n.__en = n.nodeValue;
+      const raw = n.__en, k = raw.trim(); if (!k) continue;
+      const v = LANG === 'es' && ES[k]; n.nodeValue = v ? raw.replace(k, v) : raw;
+    }
+    document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+  }
+
+  const mmsi = String(new URLSearchParams(location.search).get('mmsi') || '').replace(/\D/g, '');
+  const get = (p) => fetch(p + '?t=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  let DATA = null, map = null;
+
+  function render() {
+    const main = document.getElementById('main');
+    main.querySelectorAll(':scope > :not(.back)').forEach((e) => e.remove());
+    if (map) { map.remove(); map = null; }
+    const { P, W } = DATA;
+    const pp = ((P && P.passports) || []).find((x) => String(x.mmsi) === mmsi);
+    const w = ((W && W.vessels) || []).find((x) => String(x.mmsi) === mmsi);
+    const name = (pp && pp.name) || (w && w.name) || ('MMSI ' + mmsi);
+    document.getElementById('name').textContent = name;
+    document.title = 'API16 · ' + name;
+    const imo = (pp && pp.imo) || (w && w.imo);
+    document.getElementById('ids').textContent = (imo ? 'IMO ' + imo + ' · ' : '') + 'MMSI ' + mmsi;
+    const st = document.getElementById('status');
+    if (pp) st.textContent = tt(pp.status) + ' · ' + pp.stages_done + '/' + pp.stages_total + ' ' + tt('stages') + (pp.partial_load ? ' · ' + tt('partial load (Lake Maracaibo)') : '');
+    else st.textContent = tt('watching');
+
+    // voyage stages
+    const vc = $('section', 'card'); vc.append($('h2', null, tt('Voyage')));
+    if (pp) {
+      const ol = $('ol', 'steps');
+      pp.stages.forEach((s) => {
+        const li = $('li', s.done ? 'done' : (s.partial ? 'part' : ''));
+        li.append($('b', null, tt(s.stage)), $('span', null, trd(s.detail)));
+        if (s.time) li.append($('br'), $('small', null, when(s.time) + ' UTC'));
+        ol.append(li);
+      });
+      [['U.S. customs record', 'pending: customs publishes port data about five weeks after month end'],
+       ['Refinery receipt (EIA-814)', 'pending: EIA publishes refinery data about two months after month end']].forEach(([a, b]) => {
+        const li = $('li'); li.append($('b', null, tt(a)), $('span', null, tt(b))); ol.append(li);
+      });
+      vc.append(ol);
+    } else vc.append($('p', 'note', tt('No Cargo Passport for this vessel yet.')));
+    main.append(vc);
+
+    // map
+    const track = ((w && w.track) || []).filter((t) => Number.isFinite(t.lat) && Number.isFinite(t.lon));
+    const mc = $('section', 'card'); mc.append($('h2', null, tt('Route seen by API16')));
+    const md = $('div'); md.id = 'map'; mc.append(md);
+    mc.append($('p', 'note', tt('Positions are logged once per hourly AIS window, only while the ship is within reach of free AIS receivers. Gaps are normal at sea.')));
+    main.append(mc);
+    if (window.L) {
+      map = L.map(md, { scrollWheelZoom: false }).setView([20, -80], 4);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 12 }).addTo(map);
+      const ll = track.map((t) => [t.lat, t.lon]);
+      if (!ll.length && w && Number.isFinite(w.lat)) ll.push([w.lat, w.lon]);
+      if (ll.length > 1) L.polyline(ll, { color: '#C8892B', weight: 3 }).addTo(map);
+      track.forEach((t, i) => L.circleMarker([t.lat, t.lon], { radius: i === track.length - 1 ? 7 : 4, color: '#0F1B2D', weight: 1, fillColor: i === track.length - 1 ? '#C8892B' : '#3B5B8C', fillOpacity: .9 })
+        .addTo(map).bindTooltip(when(t.t) + ' UTC · ' + (t.kn != null ? t.kn + ' kn · ' : '') + (t.draught_m ? t.draught_m + ' m' : '')));
+      [['Bajo Grande', 10.6, -71.6], ['José', 10.1, -64.85], ['Sabine Pass', 29.7, -93.85]].forEach(([n, a, b]) => L.circleMarker([a, b], { radius: 3, color: '#5A6577' }).addTo(map).bindTooltip(n));
+      if (ll.length === 1) map.setView(ll[0], 7); else if (ll.length) map.fitBounds(ll, { padding: [30, 30], maxZoom: 8 });
+    }
+
+    // vessel facts
+    const sp = (w && w.specs) || (pp && pp.specs) || null;
+    const fc = $('section', 'card'); fc.append($('h2', null, tt('The vessel')));
+    const facts = $('div', 'facts');
+    const add = (k, v) => { if (v == null || v === '') return; const d = $('div'); d.append($('b', null, String(v)), $('span', null, tt(k))); facts.append(d); };
+    if (sp) {
+      add('Type', sp.type); add('Built', sp.built); add('Flag', sp.flag);
+      add('Deadweight', sp.dwt_t ? nf().format(sp.dwt_t) + ' t' : null); add('Size', sp.loa_m ? sp.loa_m + ' × ' + sp.beam_m + ' m' : null);
+      add('Owner', sp.owner); add('Manager', sp.manager);
+    } else add('Size', pp && pp.length_m ? pp.length_m + ' m' : null);
+    add('Draught', w && w.draught_m ? w.draught_m + ' m' : null);
+    add('Destination', (w && w.destination) || (pp && pp.destination_now));
+    add('last seen', when((w && w.last_seen) || (pp && pp.last_seen)) + ' UTC');
+    fc.append(facts);
+    if (w && w.reason) { fc.append($('h3', null, tt('Why it is followed'))); fc.append($('p', 'reason', w.reason)); }
+    main.append(fc);
+
+    // logs
+    const lc = $('section', 'card'); lc.append($('h2', null, tt('Every position logged')));
+    const mk = (heads, rows) => { const d = $('div', 'tbl'); const t = $('table'); const tr = $('tr'); heads.forEach((h) => tr.append($('th', null, tt(h)))); t.append(tr);
+      rows.forEach((r) => { const x = $('tr'); r.forEach((c, i) => x.append($('td', i === 0 ? 'm' : null, c == null ? '—' : String(c)))); t.append(x); }); d.append(t); return d; };
+    lc.append(mk(['Time (UTC)', 'Zone', 'Speed', 'Draught', 'Status', 'Destination'],
+      track.slice().reverse().map((t) => [when(t.t), t.zone, t.kn != null ? t.kn + ' kn' : null, t.draught_m ? t.draught_m + ' m' : null, tt(t.status || ''), t.dest])));
+    const visits = ((w && w.visits) || []).slice().reverse();
+    if (visits.length) { lc.append($('h3', null, tt('Zones visited'))); lc.append(mk(['Zone', 'From', 'To', 'Draught'], visits.map((v) => [v.zone, when(v.first), when(v.last), v.draught_m ? v.draught_m + ' m' : null]))); }
+    const dests = ((pp && pp.destinations) || []).slice().reverse();
+    if (dests.length) { lc.append($('h3', null, tt('Declared destinations'))); lc.append(mk(['Destination', 'Since'], dests.map((d) => [d.dest, when(d.first)]))); }
+    main.append(lc);
+  }
+
+  Promise.all([get('tracker/data/passports.json'), get('tracker/data/watch.json')]).then(([P, W]) => { DATA = { P, W }; applyStatic(); render(); });
+  applyStatic();
+  document.getElementById('lang-btn').addEventListener('click', () => {
+    LANG = LANG === 'es' ? 'en' : 'es';
+    try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
+    applyStatic(); if (DATA) render();
+  });
+})();
+</script>
+</body>
+</html>
