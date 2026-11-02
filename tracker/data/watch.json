@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:43:38Z",
+ "updated": "2026-11-02T22:44:58Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -117,12 +117,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": false,
-   "last_seen": "2026-11-02T19:55:29Z",
+   "seen_this_run": true,
+   "last_seen": "2026-11-02T22:44:58Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "lat": 29.2472,
+   "lon": -93.6987,
+   "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-02T19:55:29Z",
+     "last": "2026-11-02T22:44:58Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -723,6 +723,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-02T23:18:16Z",
+     "lat": 29.2472,
+     "lon": -93.6987,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -747,7 +757,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-02T21:43:38Z",
+   "last_seen": "2026-11-02T22:44:58Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "lat": 30.0112,
    "lon": -93.9953,
@@ -775,7 +785,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-01T18:45:07Z",
-     "last": "2026-11-02T21:43:38Z",
+     "last": "2026-11-02T22:44:58Z",
      "draught_m": 9.7,
      "draught_first": 9.7
     }
@@ -1506,6 +1516,16 @@
      "lat": 30.0112,
      "lon": -93.9953,
      "kn": 0,
+     "status": "moored",
+     "draught_m": 9.7,
+     "dest": "VEBJV<USBPT",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-02T23:15:36Z",
+     "lat": 30.0112,
+     "lon": -93.9953,
+     "kn": 0.1,
      "status": "moored",
      "draught_m": 9.7,
      "dest": "VEBJV<USBPT",
