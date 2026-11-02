@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-02",
  "method": "Each cargo claim is checked step by step against public evidence: the official claim, vessel identity, an AIS record of loading in Venezuela, discharge at an oil terminal, volume vs. vessel capacity, a U.S. customs bill of lading, and the EIA-814 import record. A cargo is 'verified' only when the last three agree.",
  "statuses": {
   "confirmed": "Backed by an official source or two independent sources",
@@ -8,6 +8,252 @@
   "pending": "Record not public yet; date expected"
  },
  "cargoes": [
+  {
+   "id": "VE-2026-003",
+   "mmsi": 538007411,
+   "title": "IONIC ANAX: Lake Maracaibo cargo detected by API16",
+   "title_es": "IONIC ANAX: carga del Lago de Maracaibo detectada por API16",
+   "claim": "IONIC ANAX left Bajo Grande (Lake Maracaibo) on Oct 23, 2026 for Beaumont, Texas, and berthed on the Neches River on Nov 2.",
+   "claim_es": "El IONIC ANAX salió de Bajo Grande (Lago de Maracaibo) el 23 oct 2026 rumbo a Beaumont, Texas, y atracó en el río Neches el 2 nov.",
+   "claimed_by": "API16 detection: public AIS + public port-call history",
+   "claimed_by_es": "Detección de API16: AIS público + historial público de escalas",
+   "date": "2026-10-23",
+   "port": "Beaumont, TX",
+   "volume_bbl": null,
+   "verdict": "Berthed in Texas, cargo not yet verified",
+   "verdict_es": "Atracado en Texas, carga aún no verificada",
+   "verdict_status": "partial",
+   "summary": "A 114,720-tonne tanker that shuttles between Venezuela and the U.S. Gulf. It left Bajo Grande at about 9 m draught, which fits a partial load: the Lake Maracaibo bar limits how deep big tankers can leave. Discharge, customs and EIA records will confirm the cargo and its size.",
+   "summary_es": "Tanquero de 114.720 t que va y viene entre Venezuela y el Golfo de EE. UU. Salió de Bajo Grande con unos 9 m de calado, lo que cuadra con una carga parcial: la barra del Lago de Maracaibo limita el calado de los tanqueros grandes. La descarga, la aduana y la EIA confirmarán la carga y su volumen.",
+   "vessels": [
+    {
+     "name": "IONIC ANAX",
+     "imo": 9802152,
+     "mmsi": 538007411,
+     "flag": "Marshall Islands",
+     "type": "Crude/oil products tanker (LR2/Aframax size), 2017",
+     "type_es": "Tanquero de crudo/productos (tamaño LR2/Aframax), 2017",
+     "dwt": 114720,
+     "manager": "Ionic Tankers Mgt Inc (Greece)",
+     "manager_es": "Ionic Tankers Mgt Inc (Grecia)",
+     "named_by": "API16 AIS tracker",
+     "named_by_es": "Rastreador AIS de API16",
+     "api16_ais": "On the API16 watchlist since Oct 30, 2026: every position is logged",
+     "api16_ais_es": "En la lista de vigilancia de API16 desde el 30 oct 2026: se guarda cada posición"
+    }
+   ],
+   "checks": [
+    {
+     "step": "Loaded in Venezuela",
+     "step_es": "Cargó en Venezuela",
+     "status": "partial",
+     "detail": "Public port-call history shows a Curaçao call on Oct 17-18, then Bajo Grande from Oct 20 to Oct 23, 2026 (departure 15:10 UTC); the ship's own AIS destination reads VEBJV<USBPT (Beaumont). Earlier voyage: Bajo Grande to Pascagoula (Sep).",
+     "detail_es": "El historial público de escalas muestra una escala en Curazao el 17 y 18 oct, luego Bajo Grande del 20 al 23 oct 2026 (salida 15:10 UTC); el destino AIS del propio buque dice VEBJV<USBPT (Beaumont). Viaje anterior: Bajo Grande a Pascagoula (sep).",
+     "sources": [
+      [
+       "MagicPort port-call history",
+       "https://magicport.ai/vessels/tanker/ionic-anax-mmsi-538007411"
+      ]
+     ]
+    },
+    {
+     "step": "Vessel identified",
+     "step_es": "Buque identificado",
+     "status": "confirmed",
+     "detail": "IMO 9802152, MMSI 538007411: crude/oil products tanker, 114,720 dwt, 250 x 44 m, built 2017, Marshall Islands flag.",
+     "detail_es": "IMO 9802152, MMSI 538007411: tanquero de crudo/productos, 114.720 TPM, 250 × 44 m, construido en 2017, bandera de Islas Marshall.",
+     "sources": [
+      [
+       "MagicPort vessel record",
+       "https://magicport.ai/vessels/tanker/ionic-anax-mmsi-538007411"
+      ]
+     ]
+    },
+    {
+     "step": "Departed loaded (draught)",
+     "step_es": "Salió cargado (calado)",
+     "status": "partial",
+     "detail": "About 9 m draught reported by the crew, above an empty Aframax and typical of Lake Maracaibo loads, which are draft-limited. Volume not yet estimated.",
+     "detail_es": "Unos 9 m de calado reportados por la tripulación: más que un Aframax vacío y típico de las cargas del Lago de Maracaibo, limitadas por calado. Volumen aún sin estimar.",
+     "sources": [
+      [
+       "API16 Cargo Passport",
+       "https://api16data.github.io/api16-merey-feed/passport.html?mmsi=538007411"
+      ]
+     ]
+    },
+    {
+     "step": "Arrived at the U.S. Gulf",
+     "step_es": "Llegó al Golfo de EE. UU.",
+     "status": "confirmed",
+     "detail": "API16 AIS: anchored off Sabine Pass from Oct 30, entered the Sabine channel on Nov 1 (~18:00 UTC) and moored on the Neches River, in the Nederland terminal area between Port Arthur and Beaumont, on Nov 2 at 01:48 UTC.",
+     "detail_es": "AIS de API16: fondeado frente a Sabine Pass desde el 30 oct, entró por el canal de Sabine el 1 nov (~18:00 UTC) y amarró en el río Neches, zona de terminales de Nederland entre Port Arthur y Beaumont, el 2 nov a las 01:48 UTC.",
+     "sources": [
+      [
+       "API16 Cargo Passport",
+       "https://api16data.github.io/api16-merey-feed/passport.html?mmsi=538007411"
+      ]
+     ]
+    },
+    {
+     "step": "Discharged at an oil terminal",
+     "step_es": "Descargó en terminal petrolera",
+     "status": "partial",
+     "detail": "Moored at a terminal berth since Nov 2. Discharge is confirmed when the reported draught drops by more than 2 m (crews often update it only on departure).",
+     "detail_es": "Amarrado en muelle de terminal desde el 2 nov. La descarga se confirma cuando el calado reportado baje más de 2 m (las tripulaciones a veces lo actualizan solo al zarpar).",
+     "sources": []
+    },
+    {
+     "step": "U.S. customs record",
+     "step_es": "Registro de aduana EE. UU.",
+     "status": "pending",
+     "detail": "Census port data for October (Port Arthur and Beaumont) is due in early December 2026.",
+     "detail_es": "Los datos de aduana por puerto de octubre (Port Arthur y Beaumont) salen a inicios de diciembre de 2026.",
+     "sources": [
+      [
+       "U.S. Census imports by port",
+       "https://api.census.gov/data/timeseries/intltrade/imports/porths.html"
+      ]
+     ]
+    },
+    {
+     "step": "EIA-814 import record",
+     "step_es": "Registro EIA-814",
+     "status": "pending",
+     "detail": "EIA company-level imports for October (importer, port, origin) are expected around the end of December 2026.",
+     "detail_es": "Las importaciones por empresa de la EIA de octubre (importador, puerto, origen) se esperan hacia fines de diciembre de 2026.",
+     "sources": [
+      [
+       "EIA company-level imports",
+       "https://www.eia.gov/petroleum/imports/companylevel/"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VE-2026-002",
+   "mmsi": 352004839,
+   "title": "NAVE NEUTRINO: Lake Maracaibo cargo detected by API16",
+   "title_es": "NAVE NEUTRINO: carga del Lago de Maracaibo detectada por API16",
+   "claim": "NAVE NEUTRINO left Bajo Grande (Lake Maracaibo) on Oct 16, 2026 for Port Arthur, Texas, and is now waiting off Sabine Pass.",
+   "claim_es": "El NAVE NEUTRINO salió de Bajo Grande (Lago de Maracaibo) el 16 oct 2026 rumbo a Port Arthur, Texas, y espera frente a Sabine Pass.",
+   "claimed_by": "API16 detection: public AIS + public port-call history",
+   "claimed_by_es": "Detección de API16: AIS público + historial público de escalas",
+   "date": "2026-10-16",
+   "port": "Port Arthur, TX",
+   "volume_bbl": null,
+   "verdict": "Arrival seen, cargo not yet verified",
+   "verdict_es": "Llegada vista, carga aún no verificada",
+   "verdict_status": "partial",
+   "summary": "A 115,807-tonne tanker that shuttles between Venezuela and the U.S. Gulf. It left Bajo Grande at about 9.4 m draught, which fits a partial load: the Lake Maracaibo bar limits how deep big tankers can leave. Discharge, customs and EIA records will confirm the cargo and its size.",
+   "summary_es": "Tanquero de 115.807 t que va y viene entre Venezuela y el Golfo de EE. UU. Salió de Bajo Grande con unos 9,4 m de calado, lo que cuadra con una carga parcial: la barra del Lago de Maracaibo limita el calado de los tanqueros grandes. La descarga, la aduana y la EIA confirmarán la carga y su volumen.",
+   "vessels": [
+    {
+     "name": "NAVE NEUTRINO",
+     "imo": 9971733,
+     "mmsi": 352004839,
+     "flag": "Panama",
+     "type": "Crude/oil products tanker (LR2/Aframax size), 2025",
+     "type_es": "Tanquero de crudo/productos (tamaño LR2/Aframax), 2025",
+     "dwt": 115807,
+     "manager": "Geden Lines (Genel Denizcilik Nakliyati AS), Istanbul",
+     "manager_es": "Geden Lines (Genel Denizcilik Nakliyati AS), Estambul",
+     "named_by": "API16 AIS tracker",
+     "named_by_es": "Rastreador AIS de API16",
+     "api16_ais": "On the API16 watchlist since Oct 30, 2026: every position is logged",
+     "api16_ais_es": "En la lista de vigilancia de API16 desde el 30 oct 2026: se guarda cada posición"
+    }
+   ],
+   "checks": [
+    {
+     "step": "Loaded in Venezuela",
+     "step_es": "Cargó en Venezuela",
+     "status": "partial",
+     "detail": "Public port-call history shows departure from Bajo Grande on Oct 16, 2026, 10:40 UTC, bound for Port Arthur; the ship's own AIS destination reads VEBJV=>USPOA. Earlier voyages: Puerto José to Pascagoula (Sep) and to New Orleans (Aug).",
+     "detail_es": "El historial público de escalas muestra la salida de Bajo Grande el 16 oct 2026, 10:40 UTC, rumbo a Port Arthur; el destino AIS del propio buque dice VEBJV=>USPOA. Viajes anteriores: Puerto José a Pascagoula (sep) y a New Orleans (ago).",
+     "sources": [
+      [
+       "MagicPort port-call history",
+       "https://magicport.ai/vessels/tanker/nave-neutrino-mmsi-352004839"
+      ]
+     ]
+    },
+    {
+     "step": "Vessel identified",
+     "step_es": "Buque identificado",
+     "status": "confirmed",
+     "detail": "IMO 9971733, MMSI 352004839: crude/oil products tanker, 115,807 dwt, 250 x 44 m, built 2025, Panama flag.",
+     "detail_es": "IMO 9971733, MMSI 352004839: tanquero de crudo/productos, 115.807 TPM, 250 × 44 m, construido en 2025, bandera de Panamá.",
+     "sources": [
+      [
+       "MagicPort vessel record",
+       "https://magicport.ai/vessels/tanker/nave-neutrino-mmsi-352004839"
+      ]
+     ]
+    },
+    {
+     "step": "Departed loaded (draught)",
+     "step_es": "Salió cargado (calado)",
+     "status": "partial",
+     "detail": "About 9.4 m draught reported by the crew, above an empty Aframax and typical of Lake Maracaibo loads, which are draft-limited. Volume not yet estimated.",
+     "detail_es": "Unos 9,4 m de calado reportados por la tripulación: más que un Aframax vacío y típico de las cargas del Lago de Maracaibo, limitadas por calado. Volumen aún sin estimar.",
+     "sources": [
+      [
+       "API16 Cargo Passport",
+       "https://api16data.github.io/api16-merey-feed/passport.html?mmsi=352004839"
+      ]
+     ]
+    },
+    {
+     "step": "Arrived at the U.S. Gulf",
+     "step_es": "Llegó al Golfo de EE. UU.",
+     "status": "confirmed",
+     "detail": "Seen by API16 AIS at anchor off Sabine Pass, the waiting area for Port Arthur and Beaumont, from Oct 29, 2026; still waiting for a berth on Nov 2.",
+     "detail_es": "Visto por el AIS de API16 fondeado frente a Sabine Pass, la zona de espera de Port Arthur y Beaumont, desde el 29 oct 2026; el 2 nov seguía esperando muelle.",
+     "sources": [
+      [
+       "API16 Cargo Passport",
+       "https://api16data.github.io/api16-merey-feed/passport.html?mmsi=352004839"
+      ]
+     ]
+    },
+    {
+     "step": "Discharged at an oil terminal",
+     "step_es": "Descargó en terminal petrolera",
+     "status": "pending",
+     "detail": "Watching for a berth at Port Arthur or Beaumont and a draught drop of more than 2 m.",
+     "detail_es": "Atentos al atraque en Port Arthur o Beaumont y a una baja de calado de más de 2 m.",
+     "sources": []
+    },
+    {
+     "step": "U.S. customs record",
+     "step_es": "Registro de aduana EE. UU.",
+     "status": "pending",
+     "detail": "Census port data for October (Port Arthur and Beaumont) is due in early December 2026.",
+     "detail_es": "Los datos de aduana por puerto de octubre (Port Arthur y Beaumont) salen a inicios de diciembre de 2026.",
+     "sources": [
+      [
+       "U.S. Census imports by port",
+       "https://api.census.gov/data/timeseries/intltrade/imports/porths.html"
+      ]
+     ]
+    },
+    {
+     "step": "EIA-814 import record",
+     "step_es": "Registro EIA-814",
+     "status": "pending",
+     "detail": "EIA company-level imports for October (importer, port, origin) are expected around the end of December 2026.",
+     "detail_es": "Las importaciones por empresa de la EIA de octubre (importador, puerto, origen) se esperan hacia fines de diciembre de 2026.",
+     "sources": [
+      [
+       "EIA company-level imports",
+       "https://www.eia.gov/petroleum/imports/companylevel/"
+      ]
+     ]
+    }
+   ]
+  },
   {
    "id": "VE-2026-001",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal",
