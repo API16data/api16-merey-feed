@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "ce3ff32f577a",
+   "date": "2026-11-02T00:49Z",
+   "title": "Petrolera italiana ENI inicia operaciones en el supergigante yacimiento Junín 5 de la Faja Petrolífera del Orinoco",
+   "source": "Noticias24hrs.com.ve",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVjhiVWpWaDByRmo2bFMybkVuVzBCYlJkNk9zOUwxTm1MQWJCaWRQMGpWa09fWXFiSU0xUlIzU3lOamFVekc0NGNHQmxIVWdRNmI0OTVDQnFjTFJhX2RuelJrZk5pM1RTTTRMb3IxQ0pnQVRJZ3NZTUFYcF9wMlh1bW92UHlacmhVQTVCUUR2Z3BIRnhYS0QwbGI2bEIwQmR3RTFKQ0lqamxqaEJjMW9OS2pVTkcwaHJ3N3dKdTBXRzI4NXFPaTFHXzU4am9iZ1dHYk9LSmxqaWxYU2h5Z0Z6bXl3?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "f02cdcdd4845",
    "date": "2026-11-02T00:06Z",
    "title": "La OPEP+ decide mantener congelada su oferta de petróleo en diciembre",
@@ -7770,16 +7780,6 @@
    "origin": "rss"
   },
   {
-   "id": "6ea1a9974b02",
-   "date": "2026-10-27T06:54Z",
-   "title": "Recibirán petróleo venezolano: Rubio se suma a la campaña de Trump en Texas",
-   "source": "Telemundo",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNXlrU0szZWpwbHNkSEZOWnpRM3hKZVBsU2Y4ejdsUDRuLW5zMm94XzAxMGtHZFRGb2R6UzR4MmY1WlQ0Qy1YRmZScENzaHE5blJrT3BBcGpHM3hkRnN1Q042YUNFQTlXRFRWUVFxallaYjFWeFZJek51OWllRV9LRWhKNF9mcFpGWnJsTDB4Z2pRVEVXNFJpTV9ILS1iTEppNUxob0Z3VktRYkR6aDRlVWRUUkZCSU9vMDRPRmsyYkFPSWdjX0twa2w2Y1g5YmI3VjVTbVMtYWR5dUMzM2s1dU53LW9jdEpPVWdhSTlkdHRaRk9UdE45ZQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n01",
    "date": "2026-10-26T12:00Z",
    "title": "Venezuela output reaches 1.252M b/d; Pentagon-backed Nabep hits record 115k b/d in western fields",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-02T00:46:52Z",
+ "updated": "2026-11-02T01:53:09Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
