@@ -1,6 +1,46 @@
 {
  "items": [
   {
+   "id": "a376c3abda92",
+   "date": "2026-11-03T02:30Z",
+   "title": "Coningas considera que el GLP y gas directo pueden reemplazar el consumo de electricidad en Venezuela",
+   "source": "PETROGUIA",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjJibUptYjRuSDEyLXdGbTFyQUZXaUdhNTc4dGFsMFItODByR2tKOThDTGxKV3FlQ0xNeW0xOFdDeU1QaTJVNy0yR1hmRGlxVWExVENXY1VSOGVXbHlmeGhIUk5hR0gwRUVaeGZsOW53dFR3V29OOS1WU0k0Q0Y4X3NRV2R2V0k1b1h3Zm9sZDBiajNHbUg3SFNHYXQ3Q2dhd28wdW5tb2NncDBHY0szdmM2aEZ0UjB4?oc=5",
+   "category": "Gas",
+   "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "0480203431e1",
+   "date": "2026-11-03T02:28Z",
+   "title": "US urges Venezuela to follow phased plan for democratic transition",
+   "source": "Al Jazeera",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTlVzSEtTVjZQX1NYcGJSQWw5ZFNrUGc1ejlsYk9wblVpOUxRaHlTdDdnNW1LUGd0U2lTZ1pFX2NubzBGdmRQdmhhS2dKYlVyQk8tMmJWWjRtYW1iaWhycTVuT0tBeWRJVENJSW9NbWZpTU1KWnpJWGtxbnpJemdxUTBSbW5KMUp1d0t0MG9XcWI2NzRVZTVMTHZVdV9namk2Q0ROb2MzVG1SUk3SAbABQVVfeXFMTUlIWDhPRkNGbGtMN1JtTzZsZUVpWXVHYjhka24tbURoUF95NmJnaDd0TlhXY3VBZklFMi1RRkJjZ3lDZzh1a0RwUHBtcE90bHJ0eXY1UV9OMUhpa0tFdng1SGQ4eG9HdzE5YllfRmtRcnZ0Skgtb3NudzF4c2NGNHNqeldWQ1g0UkxPcjVfU214djE5aGVpSXdqcUVjVk5XRDgtU2hsVHRSZE1kUGNwcDI?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "bf3fdaaf959f",
+   "date": "2026-11-03T01:49Z",
+   "title": "Rubio aborda con el nuevo canciller de Venezuela las reformas para lograr unas elecciones \"creíbles\"",
+   "source": "France 24",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbDRWUGpUdXd1VlBxcjk0VEY3MHFNOGthWjNjYU0zQU5yRXZWZnpLV0JWaFJla2dzS01HTF9ISUVObEd0dmEzY2xCd3pweTNERjdrcE1nZTdJN3VSNGRZUE9hNm5aTHltbEhaVFo0dW9kOFhVekF4TnAzVkNBTndpNTRKWmNNOE13OGZVS1RBZGZxSzg5bVpUSjlscG1xVDItWXA1Ymt1eXNwWlRKQWl4SU9DOTJFNWJ3R2JoY2VHVUtNNU1fSkE1bkFNQUJfR3FvcGl6OG5TRGk1bHh4Ti01bmlDQUhSWlhKeEsyR0pYdUpVdw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "48cb2ac9efa5",
+   "date": "2026-11-03T01:45Z",
+   "title": "Rubio meets with Venezuela's Foreign Minister, urges release of more political prisoners",
+   "source": "Le Monde.fr",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMVU0RXVSUU15SUFnT09KQk5ZeDROLWVYSTAwRGlSX3BGRTBISzJuTzFDeldoRUhEY3dzajRzdEcyVkp3UW5LTlg3UjhxeXdvakNldEZBZHFHcGVLall4aTdiVWV2OC1USEotbVU1cnhDTWE4M0I1Q3RyZFdjck1EVHc1UW9feExkaVF1em5iSmVBUnA2TzZ4WmM0NVY3Y0xZOTdOai1fNVRpYlZxY0FsODNKODlrUGcyaEcyQjB1R1hwMkR2blB1bUI3OUhmMjBFRnp5NFhZSDkzdl9UbTVrbjhxWDM3Z0p5ZlBRdWpsUGVLbTg?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "669ae262299b",
    "date": "2026-11-03T01:00Z",
    "title": "Questions Mount Over Venezuela’s Biggest Oil Deal",
@@ -8,6 +48,16 @@
    "url": "https://oilprice.com/Energy/Crude-Oil/Questions-Mount-Over-Venezuelas-Biggest-Oil-Deal.html",
    "category": "Investment",
    "via": "OilPrice.com",
+   "origin": "rss"
+  },
+  {
+   "id": "0be17d9dcd30",
+   "date": "2026-11-03T01:00Z",
+   "title": "India’s Oil Security Faces Two-Front Challenge",
+   "source": "StratNews Global",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWXdDNzJjb1ZYTm5FMnVJS0ptTUI5NUNsbGpUY2pDVUpPcXlOUktzaml5TUE2aUx1QzZJUXV0V19iWTJwQUxiV0I5czZMQ19KaU9ZX1Byb0ZQRTV6ZXRqZ0VpdHlBUW5QQkhGWGl2ems1b19jbnZ1TkJhd3RjTEp6SURhNHVOZzhu?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -61,6 +111,16 @@
    "origin": "rss"
   },
   {
+   "id": "54457ee92dff",
+   "date": "2026-11-03T00:16Z",
+   "title": "Chevron Earnings Call Highlights Cash, Growth and Resilience",
+   "source": "The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb2gwLUN5ZFFwaGtkaUVZWHctaTFaUnlJYU43Z2NueV9UM1FDbzE0Y0VuNmIzZDNleFNfVVZyblJJWUFFMVJ4UWpzNDY0bG50Yl9VSXdDcEpEbjB4S3RkSkFKa3FCcVhYdnJHN0Yyd09xNk1tclNzV3V3d0NOSVEySjd0ajEwYWVYNEtIV0ZuQ0J5WkExa0thMWhUMVRoLU9Lb3ZGLXhuMzNIZUYwLWo2azF3cmNCUUZCX0N4aDdhOEVmWF9RUHdkbzlsbm9oZDROc1liYlpNcw?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "69b793a5d463",
    "date": "2026-11-03T00:05Z",
    "title": "Exportaciones de petróleo venezolano caen 25% en octubre",
@@ -78,6 +138,16 @@
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd3B3YU9tdWlIbGpaNDJHTXZJVjlQS01Ic2U2WWMxdkJIeFZHc3pNbzRTV1MtdTBYakNmRFM0X3ZfMzNJZ2xFcTdvdW5hVFBNcWpxQzhUd0lzakw2eFZ4U0ZUOEF2YUlFdzhjZk1IMnZFcmJnVER3dDE2ekRSU2w2UE14eThHMWZvR1BfeERuWTkxTEVoMWR0Y3ZJdFJlbTJudEthMnVZa2QyN0lnQWp1RWhEX215MTFFaUhOTFBnWlBOdFdXVnBwTmxYM0JBWjREdFc3ODNpd1NyWVE?oc=5",
    "category": "Production",
    "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "6db713b62e1b",
+   "date": "2026-11-03T00:00Z",
+   "title": "US Now World's Largest Oil Supplier, More Than Saudi, Russia Combined With Venezuela, Trump In Final Midterm Pitch Claims",
+   "source": "Republic World",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQWmN5T0pDUWwyQmNEV2VkTlFodmlEd19uVENvaWxsQ1FKNGR0YTd2NTB6a2tBdU5RM1JSaDV1T0pKUUU5TldNZ0Fha0hxSWtCbGwyOHlSRHpBMnp6aTViU2EzYkFoNXJnRGY1VFhURVlvWjBnLXRPTVhwc2dwYVl1MFVXS1BxSWdKUk8zTW1xMC1YOGE4clpxSHlYZkh4ejhtaUJRemp1TFRubVFvYm9QX0NPRGwxZU84S0YwWUdfSVlCNGw0MjdPNUZjcHVRc0FyUmFLc1pneXlocjMwb21lYmpRV0ZFczBtZDVZbmxEa0llODR6MHg1R0UwTnlPakxWdklrRmJ0QmtBUdIBjwJBVV95cUxPcTlScmZiTUdNVE9tMGlOMV9lSlNMWWw2NlNEZlFsYzRnNFlBc2RQZjQ4eU94aklmZlR6dVd6MnVoalVUaWRRME5Ja1NtTnVWOEkyaHpVNV84aE9mT2RLNk5Jd3Vrb2JfZkF3UmZWc0JwRURHVFF0WHZtbjN2c2dSZ1IzeUdKQXNQRXd3ejhHSkNZbkwySU1JZlNKZHZBWVJCYXcwd3BYWEdwdjVXcFhReElSWTUxd19xclVIWng0ZFByc2tOWThNX2dweF85Y2NkdTJBbE1YbGgtSnJwVVB3UTdWVFN5QUhSOVhyZUxMR0VtV0ZuUmNlMEhxNno5S1VKWTZZR0lMNU04V2FlbVFj?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -108,6 +178,16 @@
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMkN4NlF6LW5seW1lRHNWMkRuYUFtNXVfNENCWEEzX3BiRVpCaTdKaVJHVDlJUjNWU0NDOXJwOXhZcmZWQUdnUGFaVEJFU2UtY2RWM0hhWkc4Q3F6ZVhGdmtNelIzTXNTTjdoN3gyQmw1ZzdKYk1QazlTMEJ3XzJ3Y1MwUGVmQ0FDUk5tal8yNDMzajRpRVBWdGtraHJRZGNIcFNUNG1PekdSZEo1T1dwU3dvcTlKRFVQMS1LdDVYNmFveVhVTjAtb2w3ZFpVX05PNjA4?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "8ab3f5de0e50",
+   "date": "2026-11-02T23:28Z",
+   "title": "Apuesta de alto calibre: Nabep proyecta elevar producción nacional por encima del millón de bd",
+   "source": "El Regional del Zulia",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON19zMXNKVFMwSFZSSTVwdEJMS3Jobk9Yc2xpZVlvdWhfWGlPSnFhaHQ4VnBCTHpnNXk3Rjl0Z0djRFlVZWZQa0JxXzF5UmxEdTFHTW9jaVJBdjhIQmNuaURLWmpTMUtFd3lGaEo4U2NsWGFkY3JqZF9Fd0psbVBTTkRncW1WRklJdWhKemV5dGdZbncxQnNWNFZrajNQWFFTUnhNdFh6T2Z3RmNKNm5MWG9LS3hBYXQzUk02ZUNoZUFGcHBDczdpOGRQYw?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -231,6 +311,16 @@
    "origin": "rss"
   },
   {
+   "id": "681d296a3310",
+   "date": "2026-11-02T21:05Z",
+   "title": "Q3 2026 Earnings Calls: Chevron Says Venezuela Production Could Double by 2031",
+   "source": "RBN Energy",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzFhWWQ4SGdMSTB5VkVWYkZYbUktR2lJR181YWF4MVk3UXJzTEN0cFBqUDk5TWU5TjcxV3ZYUWc5QzJlNFo4YUdDRE1jaWdpM1pTUFhac1FzQW5fRDdaWUwxWXYxNjc2Y0tKWnBDUlk5c2lybmoxUzhMNXh6YnptTHVhY1B5ZmdnOWFOYXQ5QkVZd0hFMHhrb1VvZUtpV191Z0UweXM0eWxTVFk0NUJZbGxvLTFaTnhGT1NZ?oc=5",
+   "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "6376587c76cb",
    "date": "2026-11-02T21:00Z",
    "title": "Trump's Trillion-Dollar Oil Play A Trap For Big Oil",
@@ -268,6 +358,16 @@
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcm9TYU0xVXdtR1I5bDFJb25kNlQzV2FSSFFGRFVQdG1CV2lqYVNpaE9oQ0E3YzI4WkdqbHhuTHhkenAydTZ5bEZQQmZOYnVweU9HOHRuX2p0ZUlfLVppTW50Vk5SMUhmWnNVS3ZXRzNEN01VVXZKa1JhdjJ4S21Da1JtMVg2TWtyNDl5aXZJcXdvVzNDSmNHN2plWEFNV2g0X3RCa1h2SWtsLWNaZXpjNmRrWU4xcEluY3I2WnVaMnZyUnhUTDdsRVFiTkRRUXIwMlRTMFVnN01HZ2Rob3pwN1dlb010X3VWemfSAe8BQVVfeXFMT0Y5cmJSRzJDWmZrLVpCZ200ZnZrZ1FYZWJkM1gtX2pTOTBoN1ExWko3ZHlPSXpmbXZwZVFIMFJNdTRDRHh6aGFCYXVkeVFPYmUtUHFjVVlGRWo2ZUdqYi12N0U5WWp2bnNHbFZTQVpZRWYwWGs3TzdXMXV3S3JPeGV6anU2YnhlZlRmcjdSc3FnczczbEVjQ1d2Z3Vxal9kSkE2SGxlSm9IRHNHd3lxTS0ybjU5cDJWZVE3ZTRkZ19EaUhTS1ZzUWJNenFyTV93WGV3VFVJMURCQVMwNkJYR1hwVkZlVXJQQWxnT1c4QUk?oc=5",
    "category": "General",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "d72014caf9d6",
+   "date": "2026-11-02T20:28Z",
+   "title": "Ingresos facturados de PDVSA por exportaciones alcanzan $18.700 millones en últimos nueve meses",
+   "source": "El Regional del Zulia",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRGt0T2IyOGU5VjA5VXhnd2t1b1RJMXRJOFZlUXBzNGRZRjUyN1JvWFhEQkkwWGRRMVNyRnVLd2J0QkE5YVRBOVlPZWdRekpua1NmaVdaX3JiZzhKd0stZmRiMDZyT21BT1NYSzFwRDNiRHhUeUlRbmdXVkN6ZFI2SVJSMmVYTGY0TnN5eTY3cmhzOHp5RjdVM3RsZGNoQXRqbWJGVHpHM2FLbVJxWnc?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: crudo Merey",
    "origin": "rss"
   },
   {
@@ -358,6 +458,16 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53LXQ2dVRzWGI0U1hmUG5hV2ZDOVNYdWd0cHFxekM5Q2poMEFEWjh4ZjJuaWVobWJhR2hUSjUwZExXbUZ1TUVTNHQ1U2dXTkRFaHdibGl0SjBseWFNcnJZc1lLc0trWVc5NFdJWnNzY0F0QkdtdV80M1Uwaw?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "7b3f52932470",
+   "date": "2026-11-02T18:47Z",
+   "title": "NABEP en Venezuela amplía su flota a 41 plataformas",
+   "source": "Inspenet",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb0VvTjF5SzVXaG0zZFYzZmlGdEtqRXhwT0EwVXRFMUNlSkI1Nk9tTUQycm4yOFl0UWNCX2FhbVB5Wk1hNzVKNXNyUjhIYmJfOWViamZQcWt2YjBWNW5qeDBaaWFSUUdOX3plUmFqaWU3cjN3X0N0TFIybVFZREVfMQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -6285,6 +6395,16 @@
    "origin": "rss"
   },
   {
+   "id": "3a97d26a0ab5",
+   "date": "2026-10-28T01:46Z",
+   "title": "U.S. Officials Tour NABEP's Venezuelan Oil Fields: \"Both of our countries are winning\"",
+   "source": "Japan Wire by Kyodo News",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10dlAxR0MwMUd3bVRRRXpQTGpJTG9XTzVkUm91Smx1SnBwOWlXRzZ6RFBJVVB4R1cwRWZEd3dTM09pZFcyZ1kta2ZBMmo2bVpPb0pKR1M1N0s5dw?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "a626e319067d",
    "date": "2026-10-28T01:42Z",
    "title": "Trump Floats Venezuela as ‘51st State’, Sets Condition for Accepting Midterm Results",
@@ -7636,126 +7756,6 @@
    "origin": "rss"
   },
   {
-   "id": "91c62ce2ecb0",
-   "date": "2026-10-27T19:52Z",
-   "title": "Trump: Venezuela could become the 51st state",
-   "source": "Breakingthenews.net",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVW5fNy1jUVhDdDUwbEpidEhzaTZ4N19CRDFfVDlrWTdwVl9wYzMyVVhwc2dmSzZBd2FxSWxNNnppakMyWFRLdGt5VnVpcUVaTTNQQTkwN2RQSVphRTVyZU9oZlYxMFlqYU85Y0NIaC1aQ1ZRNGVRMTNzeDhDMTNQMzlpVV8td3ZseWE3Y1dzSjBEaTQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "708ec1176fbe",
-   "date": "2026-10-27T19:44Z",
-   "title": "El presidente de Estados Unidos, Donald Trump, afirmó este martes 27 de octubre que su país ha recibido un millón de barriles de petróleo de Venezuela desde que las fuerzas estadounidenses capturaron a Nicolás Maduro el pasado 3 de enero. “Tomamos",
-   "source": "Instagram",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iLTZkOHdYSy1JMHJ0bTV6d3ZFVlVRT2VtODF0cm5DNTJ3R1NQTjFRTWEzdkFJSGVlRFFUUzVzUWxvMmlQZVVyRkxZWmRDa1BqNU1TQjZB?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "45008559fe7e",
-   "date": "2026-10-27T19:29Z",
-   "title": "Trump insiste: ‘Venezuela debería ser el estado 51 de Estados Unidos y tener un gobernador’",
-   "source": "La Estrella de Panamá",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObVhOWWRsd3NrdVpQLUtfSk9ZazJBU2NTZFgxTEM4RHFkSlYwVENzQy12R0t6SmRxemNkSVI2QTBkOEQtdU5Hb0QxZW85MkFUYlI4SE54cGp2TWZqRXV1d1YxUTA3b2lIVjA2UjF5M2hxVXA5UkJOc2hYTmJkX0ZiVXFXS1o3d015bjdWNU50R19YRnNOUDJreTY3MjJENF93ZkQtZmhaNGVwai1yQXRuVEExMzQ5WWZJd3Q4RXotS01ZU0hfZkQtWWo2NXBOVmVLNHFoR3Z2UFhlSW_SAeABQVVfeXFMTjY0MTRwQlpNREhvSFlzZS0wSDdCclA3dFZsYTBoVjdQWWZDY004ZmZvNVo2SGVhR19ZVloxaXJ2cm1VSHUyaWdxOVh5SFYwNzdnQ1NTQ0VpUXNaSElnOWJuQUVxLWFyMDVMNmNqenlFRV96dUVsZU40NERvQU91NDNfUnJ5NGlUMHNQY0hHR3pnSnFGeFZMQy16aDZQcXFib0lNTG0wdWwzTHhUd1lrZnVBOUIzTWV2R2IyWnAxakdwZXQ5N3JycDJRWHJfWXo4dnhXYXhuYjA0VkR2WWtxZFA?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "2be54f3ebd3a",
-   "date": "2026-10-27T19:26Z",
-   "title": "Trump afirmó que EE UU recibirá “como regalo” un millón de barriles de petróleo de Venezuela",
-   "source": "El Diario Venezuela",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HZ3YtZ05BSVpyeThENlNLbFpibWhWTS1wQWJHc3VMNDZoMHNuOWc5WGpXcUx2aGE3c21pMFBWQTduaDRDbF9MbGdYdDRQWG1CY21WZXBZQzFhdWxFb19vVUpB?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "5b7a7f7749e5",
-   "date": "2026-10-27T19:25Z",
-   "title": "Trump anuncia que Estados Unidos recibirá un millón de barriles de petróleo venezolano",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLXVuY1VBaEJxNkxvRXhuYjNzTzNPNEJrVlhYQkVlUkxDQkVtLUtYc1VkaTgxck5wOU1pQTY5UjBRWl8tbks5U2QtcmNuYjItSks0bFEybUJhak1mYjJteEVPTG9GaV9hUlRmUXhocHNWM1BrbFpIRm0zOGhZdzlpSmxnQ1Yta0tMb0xjVGRvTEtTWnpOTV9ycUpKcGF0dDRvMENLN0xDZ1BkM0hPdG51QTlrVTAyYXFCczBvQk41QQ?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "d5262ea8deb9",
-   "date": "2026-10-27T19:22Z",
-   "title": "EE. UU. recibe su primer cargamento de un millón de barriles de petróleo venezolano bajo un esquema sin costo fiscal",
-   "source": "El Informador Venezuela",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQREhXcVVaLWNYanRGWmtWRmRXbWxjdGU3eGd6Wnc1SU9JNFBZeDBfYWdDR1hhY240SjRWWGtLQzI2eC11d3F2THoxb1BpVmVpSVVvcDZLcDMwR2tLR3hsbk5FUHl1aVRLZl93U1czb3Z6YW5FWGNNbXNNaEZpd19wQnlXLXFob2QzZXk4TDJVSDJBX2IzT1FyS3hDTmtpUThJOVBodHl1NG9vZlpvR3VOak4xMnFYbExveFBWWldtQU9Qa0lhWlJLclBQNG5INjFRTHlCWXNoYlVVRF9QajBacVFweWVTZkR6aUpITF82RjVXWDRMNWhv?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "abe8b4b0689a",
-   "date": "2026-10-27T19:20Z",
-   "title": "Trump dice que le regalaron un millón de barriles de petróleo en el marco «de la renovada relación con Venezuela»",
-   "source": "Primera Edición Col",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPalhLU1hJcm5PaENybGRjeGppdElyVlQ2U2ZDY2lMZHZab3hsZDRMUFNhMzB6RjJndW5NSU0wb3NxUFBWLTIzQjQ2bms0QnRQMjA2MjBkRDdDdGNmZVF4ZTlYd3VvRm00TTNwSXJfUkRNVzFHeEtQcDlDMW1LQXZ5THVkd25POC1LZU9jQVVVLWh0QUNtVjcyaTNrVVRFTnhpVUVjWUlJSEZXWnllT3o0TWJ1b0NNdjE4cXd1ZjR2NEM0M2N5VDhMdU5jLTV4Uzd2b0FvUFNQdnhtdw?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "6969813baad9",
-   "date": "2026-10-27T19:16Z",
-   "title": "Trump informó que Venezuela ha enviado un millón de barriles",
-   "source": "Noticias de Aquí",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdndkMWRkZ3VKZXVPdXVONXR2NHBSWTFFS1daWkpHSGRINm1ycHl1aGsxUGpjRWt3OXB2MFZ4aldlenUwZzF4bm1sTFZJaE5IN1djOGlCZFpvUU5SbG5ETkxpaWxqbG9iQ2d2Y2NTdVQwSzdFZkYzUjR2QXpkXzVLVHgzbllzQnB2eUFoS1o0ekZPdG10NnFpSnF5UEEtUWM?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "116e60590c14",
-   "date": "2026-10-27T19:10Z",
-   "title": "US court of appeals affirms validity of Venezuela's PDVSA 2020 bonds",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdlZoSHBxdTFzWThkc01PYkF1eXpJWEUwLXljM215RllRU2V1RVdvSlVYXzhLUGFhQWtyWkJxUlVOdU1JY3hFNmFfTHptUVRYLVJpY3JYMkM1LWpnbnJpeTRTdlYtREdHelYyUzRaNklrb2dGcDRvYmdNQ1FVV2NwQldadGZoMG82cUhCQ01qSW91RklVRDVzZ09XQkRSWnQ4QnBBSC1nbDNjYmZlQXFoVngzeUQ?oc=5",
-   "category": "Debt",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "2cac151e2859",
-   "date": "2026-10-27T19:09Z",
-   "title": "Trump anuncia que recibirá en Texas un millón de barriles de petróleo venezolano tras acuerdo estratégico",
-   "source": "EL UNIVERSAL",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWTVVbGZPYmpaYmROZ2wzT1loei14MUo3N3NyVTlndl8xR002Y0RkY1VMd19jcUxkUDRUU0RLaElGUjZoeWRnYUdmUVZtNWhmem5DZ1daSnNTOEt5bU04SG5PMkVfbzNTUDlRS0pRbHQtZ25nT2UzTXNIdm9kekV5MHJJb3cwNmpqcHJITDdtSzRpOFhtSnlWRkRZZVBWTF9xMFpac3RQRHBmMEpjRnRJWEFiTTdoak10NUx1TjFiQ2EzSk5XRDYyQmxZTlZTVGRDNzBqNTAzanJKQmNz?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "ef1a327f682e",
-   "date": "2026-10-27T19:06Z",
-   "title": "Estados Unidos recibirá un millón de barriles de petróleo de Venezuela, afirma Trump; cargamento llegará a Texas",
-   "source": "El Universal",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUENBalU5T3dMN2txLUZleHBUTjdIOGt2SUc2MTAzM2Z5cnl4VXZ6QUpxS1J3bWtEWUxrNE5rUkdtbDRNQXB2R0hodWdZSWM2TFNZMWR5b0xySkl4aWQ0dEhQcEFlejRwclMxRmNRSDVFaUJPRV9ITzdIVFlaQmVfYmhjdWVVVTRxbWhFYV9zUWxGbGtKalZfNjd0NkZabmpxTHRnQ2kxcEl3bGJfY0F6ZEFIQkVsQlNkeEJURWNLWTZnTVFRZG9HVDkwU3I3aVpCcFJXX2NCSVJWYmdHZjZKNE1R0gH2AUFVX3lxTE5Lam5jRGoxY1hsYWxjWGUzNWMzdG40WFBuM3dYeUgwX0pxSFVfU1BpdUZ0azJzSDd0LXlMZURQMDFrNHF5bmxDZVMxcWs4SXY1U0dfZjc0TWRZa1V3anoyRm5ZdGFuQnlVQlBSc1R5QTNVaUkwMnBwR3VTUHZEY2JTUVZaN3pRaTd0QU94ak9xc1hDQy15M2pzbGNxSXNxV2Yzalg4WDI3M0NpT3B1VTI2cGEtNkU3NVpoekllQjJLdnR4QWtLcnloVUdOOF9ON055eWJzOVdLUjVHTTBkR0p6akNTUFhYVVgwX01vU2Q1d3pJQkhjZw?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "b33ba417096e",
-   "date": "2026-10-27T19:01Z",
-   "title": "Trump y Rubio visitarán este martes un buque con crudo venezolano en Texas",
-   "source": "Noticiascol.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRDE1cGdfX3BpWGdPTzFrSUN4Q3FHWGU4NUs4SVkzeVp6RG5TZG9zS2hfdUpsaklHWDJZVEJ5ZGNFbk1rU1FtOWFRNmExRDFOZkF2bmN4WThPUlprWEo4bzNmMlpBY1hIX2ZSY0JmTXUwZHFCV0Z6b2pwc3VITWszbEQzMy1PamRjOXhOWF9zWlV2QmZMdzNaSjFUWTlXdFVWQjhuMHVDUHhrdlQ4NDdvcjcwWHQ?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n24",
    "date": "2026-10-27T12:00Z",
    "title": "Swiss engineering group Sulzer signs 5-year alliance with PDVSA to develop essential industrial infrastructure in Venezuela",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-03T01:34:49Z",
+ "updated": "2026-11-03T02:39:56Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8086,6 +8086,15 @@
    "key_figure": null
   },
   {
+   "date": "2026-11-02T21:05Z",
+   "title": "Q3 2026 Earnings Calls: Chevron Says Venezuela Production Could Double by 2031",
+   "source": "RBN Energy",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzFhWWQ4SGdMSTB5VkVWYkZYbUktR2lJR181YWF4MVk3UXJzTEN0cFBqUDk5TWU5TjcxV3ZYUWc5QzJlNFo4YUdDRE1jaWdpM1pTUFhac1FzQW5fRDdaWUwxWXYxNjc2Y0tKWnBDUlk5c2lybmoxUzhMNXh6YnptTHVhY1B5ZmdnOWFOYXQ5QkVZd0hFMHhrb1VvZUtpV191Z0UweXM0eWxTVFk0NUJZbGxvLTFaTnhGT1NZ?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": null
+  },
+  {
    "date": "2026-11-01T05:03Z",
    "title": "Venezuela Starts Sovereign, PDVSA Debt Overhaul; Liabilities Seen Above $150 bln",
    "source": "EnergyNow.com",
@@ -8093,15 +8102,6 @@
    "category": "Debt",
    "angle": "Claims on future oil revenue",
    "key_figure": "$150 b"
-  },
-  {
-   "date": "2026-11-03T01:00Z",
-   "title": "Questions Mount Over Venezuela’s Biggest Oil Deal",
-   "source": "OilPrice.com",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Questions-Mount-Over-Venezuelas-Biggest-Oil-Deal.html",
-   "category": "Investment",
-   "angle": "Future barrels in the pipeline",
-   "key_figure": null
   }
  ]
 }
