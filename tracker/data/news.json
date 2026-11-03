@@ -31,6 +31,16 @@
    "origin": "rss"
   },
   {
+   "id": "116d3eaa7ee2",
+   "date": "2026-11-03T04:08Z",
+   "title": "Desplome de grúa en campo petrolero generó interrogantes sobre las condiciones de operación (VIDEO)",
+   "source": "Revista Gerente - Colombia",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFVIMWUzdTJ4WnJvbkp0UjNCcjZRTTdQS01QWTF2QkhQZnE4b0x5R1g5dXR5bFNNbXhsQzhPQzhDakJBWnJIYVd5OTllMmNYZVZVUmFTVVFxYmhNcW1wYXY5c2lsTVFjeHQ1QVdjRGF4M0RCN1o5dEFRTWxuSGJjc0xoN1ZNTjlpa2pMN3VLT0Z2TmNCZDRrNElGdFhUZjlVbzNqQ184OGlkYy0wM1I4NUxJaVFRWUF4bm8yREM2ZjRTZWJ1OTNGTg?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "245791b0c6bf",
    "date": "2026-11-03T04:07Z",
    "title": "Strategic Procrastination: How the Cuban Regime Uses Calculated Delay to Ensure Its Survival",
@@ -177,6 +187,16 @@
    "source": "El Pitazo",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZEtLcFZ6U1ZxdjhtTnNuUXNNYXR5aWRPdldyTHNmbmZsaTJEMmhNdGFSaDJCQnp6Y1RWOTlfaG92aFFZaDloSHUwbmRObnl2R0NHencxd2gwdTlaN1dteGY1R2lXcDJqVkxsT1V3aV9tekVzNVN5el9wT2hDMm8wMU4wallFZ3dzTGxvdldjQXltT3Z0TGlVa18xSTBQU05IQV9IVmxCeFBzQ1AzOFZGWEw5MnRkUQ?oc=5",
    "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "140e39a86e9d",
+   "date": "2026-11-03T00:25Z",
+   "title": "Trump incluye la captura de Maduro y el acuerdo petrolero en su lista de logros",
+   "source": "TalCual Digital",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObklITFpQaVFSemFnd2xocmxiMnNxcE95Ykd1TTAtNjQ2YTFoeDZkdFI3Q0IzWnJoZlFIbDlfSzVfM3JCMVZsd1NSTDYzUk5ubHdsWTJNU1NWdVljUklVMEJCWGJHZmgwMC1QSEM1eXd5TWoyNm1Nb3RhTTlxV2k5MXBNSWkzc254aktJcU85OFVmRWtsY2IzNHlXYUdWV3QwMkgzQVdQdkRlZVpJbnNvUFdxLVc2cFE?oc=5",
+   "category": "Investment",
    "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "9b676b47b6b0",
-   "date": "2026-10-27T20:40Z",
-   "title": "A Path to Partnership With Venezuela: How the United States Can Help Turn a Dictatorship Into a Democracy",
-   "source": "Council on Foreign Relations",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRFZJU0I0V2lIaDZETVJsVFNaRUJubU8zNFBRMlVtN2VMRC1yRUMzMFZyMGdqWWJ2RE5UeHU2RDhMejQweDIxZWpxRnE5NHNoc0Q2TWg2NXFqMUxuSXZ6amdKUHh2S0RHTWNuTEVkcWhHM0ZVOWNhczgzc3ZGemlBNlliNmJ3X0FEVUc2VEJVZFFEbGRCTGdsb0FjSjcwZ0xoX3hSNXo4djdOZG8tQnY2U2hYMHZEdTJmaUh3amppclU3VC1vLW9TY3E0bVlLUQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "654e5bcd8ece",
-   "date": "2026-10-27T20:37Z",
-   "title": "Tribunal de EE UU confirmó la validez de los bonos PDVSA 2020",
-   "source": "El Diario Venezuela",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16Y1hjZXUtZ2RWZkdlWjBxTkNfc1hrUEVCS0ZOSVVTU0RVM19MTkZESUxzcFprSm1ndXhlLVEtV1FSbHBSS0xROWd6REFQWmtib3VnVm00REQwSjA4Smc?oc=5",
-   "category": "Debt",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-03T05:42:45Z",
+ "updated": "2026-11-03T06:50:07Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
