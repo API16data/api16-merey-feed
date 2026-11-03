@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:44:58Z",
+ "updated": "2026-11-02T23:40:49Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -118,10 +118,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-02T22:44:58Z",
+   "last_seen": "2026-11-02T23:40:49Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.2472,
-   "lon": -93.6987,
+   "lat": 29.2474,
+   "lon": -93.6986,
    "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-02T22:44:58Z",
+     "last": "2026-11-02T23:40:49Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -733,6 +733,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-03T00:21:16Z",
+     "lat": 29.2474,
+     "lon": -93.6986,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -757,7 +767,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-02T22:44:58Z",
+   "last_seen": "2026-11-02T23:40:49Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "lat": 30.0112,
    "lon": -93.9953,
@@ -785,7 +795,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-01T18:45:07Z",
-     "last": "2026-11-02T22:44:58Z",
+     "last": "2026-11-02T23:40:49Z",
      "draught_m": 9.7,
      "draught_first": 9.7
     }
@@ -1523,6 +1533,16 @@
     },
     {
      "t": "2026-11-02T23:15:36Z",
+     "lat": 30.0112,
+     "lon": -93.9953,
+     "kn": 0.1,
+     "status": "moored",
+     "draught_m": 9.7,
+     "dest": "VEBJV<USBPT",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-03T00:18:37Z",
      "lat": 30.0112,
      "lon": -93.9953,
      "kn": 0.1,
