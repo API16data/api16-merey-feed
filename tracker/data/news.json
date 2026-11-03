@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "0821fdd919cb",
+   "date": "2026-11-03T20:40Z",
+   "title": "Canadian crude discount with U.S. at widest level since 2018",
+   "source": "StreetInsider",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOEdXYmI0ajVNcnVVRDk1VGVnazV4NUdoT3p1WlFUWGFxRGljZVRqNGx3VmxtanlOdTVoVklSdUhOSDlkb01feUgwUWtOZkFEX2xGYUpuNHNudlVvLWsxeW5uVzl4RVNHaUc4Z1htUmZPM1RWMjJrNll1MW5LdF9CcXVVenp0bklKSVVqWWd6c2pQcmkzZVJRVy1UQkctN0hlOTZ6Z20tUmp5MWF2S1puSHdVNEw?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "1a05c4e4ac93",
+   "date": "2026-11-03T20:15Z",
+   "title": "Venezuela mantiene exportaciones de petróleo en 1,08 millones bpd en octubre del 2026",
+   "source": "Rumbo Minero",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2VXQ004eEVLTGxhZ3RyRDNjSVUxZkYxazhZcGNlZ3hfVzRGZktQTFRuS0prYnVETHQzNXM1Y2ZLVHVIdEg4TWJyaVNCTjVvWVFldGRsSmVnZmtreVQ2TUJUMUZ3WU5CaVdqMEs3X3JCMkN4eGxldld5aDk0QTdTZHN2OE5YeE9FNlVEdkNCa0V5bDFpYTFlcW1fVGl5ZGFtZktSakJIOW5LQTNKT3phdw?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "95dc293830c8",
    "date": "2026-11-03T19:38Z",
    "title": "Canadian heavy crude discounts hit widest levels since 2018 as shipping costs surge",
@@ -8,6 +28,26 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQnFVMHRacmdpaW9LalNKb243RDZPbTJ2RFE1SFJoRWJvaWxpaWdOTzltVmxzbG4yQnpLdk45dXNKbENtVC1KUFdDY0RPUVlBdGxFTUt3Y0Y1SEg2WTRkOWg0VWRiMDNtdDliQldEcHNQcnJLN2hORkIweG5zTEoya2Y4UWc2c2Q1LTdIM1I3dFc3Yl9QekRyTDlpMWphYlVaUWYtV2ROYzJSaTRWbW1EMmZ3OA?oc=5",
    "category": "Pricing",
    "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "9400fe51682c",
+   "date": "2026-11-03T19:22Z",
+   "title": "Venezuela: Exportaciones de petróleo caen 25% en octubre ante alza de fletes marítimos",
+   "source": "Mundo Marítimo",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR2VkVHBmeVNrbk5xdEVRYkI1MmNfaGJZOGphVHI2TUdINm45Z3BLQUw0V0dycUZoZzJuVTdKc1BLOFZBVnhiaV83VERYWklYcURDaF9mdkEyenQ3V2YteWdFMThXb1F4YmpJSFJTTWZOT3VzWENqaWpUSThOblg4Tm15RkgtTVIyc1hnaDZhaXNtOFFjemdTT1Y5OVoweXVrOFktTXktbkdrV1ZqaGdKN3A5ZGJycjJlN0JTZS1KZw?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "629264e5022a",
+   "date": "2026-11-03T19:17Z",
+   "title": "Venezuela necesita garantías e infraestructuras para atraer inversión petrolera",
+   "source": "Economía 3",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV0ZYV2U4S1VQSWlkNzFuTUhSQlNoSEdCUTJQNEQwMm5IUC1sNVlaUjR2TVQzSHpMb05lZDVicHNiLS1wNFVLS0kyQldIdlBIZnpJUWY3VkpmQnROOEpFTm5pNE5wZjd1c3c5M1FiVHZwWnI3OFBOYzZiYUN1RU5ybllrOUQ0T3ItTTQ2UkVkdlczMzBoV21VNDZfNm1Ed245N01Fa1B6OEM4WDlaNnpLQzEzSDRXb2pqRjJVZQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7705,46 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "f7dd9c387b48",
-   "date": "2026-10-28T00:43Z",
-   "title": "Dark Fleet Tankers Move From Venezuela to Lucrative Hormuz Trade",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT2xUbGZHNlpJSm1xTjJvM1NGN3BuaGFweUdPNllhelR3R0hpYjdZeFZpc016VDN0RDhsYTN3OG80LVg4UzJIYUNNX2JaVFVUaVVpeWdHVjRTWlh5Si1fUEg5RHVyaGJ6MzZDLTNBT3NKbUMtS3lyYm9rc29sUzFfVWVQWjY3eWVfYjlZRHVRaTdLMDB0bk9kZ2JibEE4MVBBX0RYS05xQWxCVVBMdkNnVm84T3pMZw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "41493c587d19",
-   "date": "2026-10-28T00:41Z",
-   "title": "Is India to be world’s oil refiner?",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRlZwcUYxbUliTktrUV8zMlVnN0I2UVQ1dlV0a2ZsLVMwTC1ISERqeG1IM05BYjBkcWxGMTQxTVZmN0RDeFNpZndYcGs0WWd0ZURrZXJhOXp0cGNtQy01Yjh1cEY4NHhsamdJMnc5bzZTNV9qM1J5VngxUnFDcHAxbndwYjZEMlNVTjFvVDYtZUlQSkxFOVE?oc=5",
-   "category": "Refining",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "57f05acaac48",
-   "date": "2026-10-28T00:39Z",
-   "title": "Tribunal de Apelaciones de EEUU confirma validez de Bonos PDVSA 2020",
-   "source": "Globovisión",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjhqZ2FTdFdRcXI5YjFGN0pOVkVnUDZ4c05KX0paQ0xCYlVVWGt4dXQ5MjN2bHF4dUx2QUt2QjBaNzhUWFNBUVA2LWhreHJseHh5MUI3MFRZMVNyTk9LTkdvbzhzOEx5WENaeDYta2xyVnFvLVlSTWNzNXlXcURsRGR1Z0liMnMxcVBHNlVwaFEyTWNTeDVCRUU4Ukh5ci1qWUVTNDZRMFV6bWVVSHlYYQ?oc=5",
-   "category": "Debt",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "c2b5e539d2e6",
-   "date": "2026-10-28T00:39Z",
-   "title": "First NABEP Crude Cargo Under U.S. Agreement Arrives in Texas",
-   "source": "The Malaysian Reserve",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3JKbjR6SGhhTXpMaERqWlJnTzNaZ2tmWGJwWjNpdWFBZks1dlNTTHF6RnBYZ21ucU9qaG5hNVFRaVBCLVVmUzJ4dTAzRjktd2F5ZHRYQ2lQb3otcHNtcnU5Y3dTeXBzbW1qTTQ3bzBDNENnbXpQWWZYZFdqWkJnamJvT2tUOGxIRGs1U2RyTjUyMUxjQjQ4WVNiMXJhX2FRZ2laVmxEMA?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-03T20:37:17Z",
+ "updated": "2026-11-03T21:32:17Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
