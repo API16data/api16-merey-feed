@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:50:49Z",
+ "updated": "2026-11-03T21:48:18Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -117,12 +117,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": false,
-   "last_seen": "2026-11-03T19:55:32Z",
+   "seen_this_run": true,
+   "last_seen": "2026-11-03T21:48:18Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "lat": 29.2479,
+   "lon": -93.6974,
+   "status": "at anchor",
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
@@ -138,7 +138,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-10-30T04:50:27Z",
-     "last": "2026-11-03T19:55:32Z",
+     "last": "2026-11-03T21:48:18Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -863,6 +863,16 @@
      "draught_m": 9.4,
      "dest": "VEBJV=>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-03T22:06:17Z",
+     "lat": 29.2479,
+     "lon": -93.6974,
+     "kn": 0,
+     "status": "at anchor",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
   },
@@ -887,10 +897,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-03T20:50:49Z",
+   "last_seen": "2026-11-03T21:48:18Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 29.8569,
-   "lon": -93.9412,
+   "lat": 29.7555,
+   "lon": -93.8898,
    "status": "under way",
    "draught_m": 9.8,
    "destination": "USBPT<VEBJV",
@@ -915,7 +925,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-01T18:45:07Z",
-     "last": "2026-11-03T20:50:49Z",
+     "last": "2026-11-03T21:48:18Z",
      "draught_m": 9.8,
      "draught_first": 9.7
     }
@@ -1846,6 +1856,16 @@
      "lat": 29.8569,
      "lon": -93.9412,
      "kn": 5,
+     "status": "under way",
+     "draught_m": 9.8,
+     "dest": "USBPT<VEBJV",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-03T22:33:00Z",
+     "lat": 29.7555,
+     "lon": -93.8898,
+     "kn": 9,
      "status": "under way",
      "draught_m": 9.8,
      "dest": "USBPT<VEBJV",
