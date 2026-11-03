@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:55:32Z",
+ "updated": "2026-11-03T20:50:49Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -117,12 +117,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-11-03T19:55:32Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.2477,
-   "lon": -93.698,
-   "status": "at anchor",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
@@ -887,10 +887,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-03T19:55:32Z",
+   "last_seen": "2026-11-03T20:50:49Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 29.9308,
-   "lon": -93.874,
+   "lat": 29.8569,
+   "lon": -93.9412,
    "status": "under way",
    "draught_m": 9.8,
    "destination": "USBPT<VEBJV",
@@ -915,7 +915,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-01T18:45:07Z",
-     "last": "2026-11-03T19:55:32Z",
+     "last": "2026-11-03T20:50:49Z",
      "draught_m": 9.8,
      "draught_first": 9.7
     }
@@ -1836,6 +1836,16 @@
      "lat": 29.9308,
      "lon": -93.874,
      "kn": 3.6,
+     "status": "under way",
+     "draught_m": 9.8,
+     "dest": "USBPT<VEBJV",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-03T21:33:30Z",
+     "lat": 29.8569,
+     "lon": -93.9412,
+     "kn": 5,
      "status": "under way",
      "draught_m": 9.8,
      "dest": "USBPT<VEBJV",
