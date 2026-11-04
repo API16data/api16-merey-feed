@@ -8,7 +8,7 @@ Barrels are estimated from weight with Merey 16 density (~152.5 kg per barrel).
 Needs the secret CENSUS_API_KEY. Never prints the key or the request URL.
 Output: tracker/data/census_ports.json
 """
-import json, os, sys, urllib.parse, urllib.request
+import json, os, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 KEY = os.environ.get("CENSUS_API_KEY", "").strip()
@@ -23,11 +23,25 @@ def fetch():
               ("COMM_LVL", "HS4"), ("CTY_CODE", "3070"), ("time", "from " + START), ("key", KEY)]
     url = BASE + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": "API16-census/0.1"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            status, body = r.status, r.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as e:
-        status, body = e.code, ""
+    # The Census API is sometimes slow or briefly down. Try three times; if it never answers,
+    # keep the data already published instead of failing the job (and never overwrite it with nothing).
+    status, body = None, ""
+    for attempt in range(1, 4):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                status, body = r.status, r.read().decode("utf-8", "replace")
+            break
+        except urllib.error.HTTPError as e:
+            status, body = e.code, ""
+            if e.code < 500:
+                break
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            print(f"census: attempt {attempt} got no answer ({type(e).__name__})")
+        if attempt < 3:
+            time.sleep(30 * attempt)
+    if status is None or (status >= 500 and not body):
+        print("::warning::Census API did not answer after 3 tries; the previous data is kept.")
+        raise SystemExit(0)
     if status == 204 or not body.strip():
         return []
     if status != 200 or not body.lstrip().startswith("["):
@@ -48,6 +62,9 @@ def main():
     if not KEY:
         raise SystemExit("Set CENSUS_API_KEY")
     raw = fetch()
+    if not raw:
+        print("census: no rows returned; the previous data is kept.")
+        return
     rows = []
     for r in raw:
         if (r.get("PORT_NAME") or "").strip().upper().startswith("TOTAL") or r.get("PORT") in ("-", "TOTAL"):
