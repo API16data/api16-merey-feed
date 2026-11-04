@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "b42c92b58cf1",
+   "date": "2026-11-04T22:17Z",
+   "title": "Trabajadores de PDVSA exigen auditorías, pagos pendientes y el fin de la persecución",
+   "source": "Infobae",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZnpYbVp0UnNFd012Y0dfU3Y2aV83TnR4SHo2TzFXQUJjaWkwajhrcjlOSXA0WlpnbEY3NVltX1M4MmxTRzVnUlN3a2lyU3EzRGJWeW5pMGVNYjRKSWlNcWRSMDZyNy12dHFsdkNweWRUOFllclJ0a0xWQ19qSzZJdkp3NlppaWpNSGdVUGdteFozYTdXYTZJVEFxelV0SWx3QWMyVGlCcnctUXRtQ19pQVVFZWw0NjIyQ0p4REI4LUJZU0xnVXJ3Z9IB4wFBVV95cUxPNWtKaVZQMVJNOXo3Wk9iUTlDc2l6eWJfSWlsMnpDSDVKQVRNVExpbS1ybnR2OEExNW1QcHJxb1d5d0RoMEFhZXFzWm04TEU2eDZpbWw3cDVqVDVtNFk0U2t4cV8xcnc4dC14RThmZE1jRkZBc1JxOEttWXU3Z09hSl9JZksxN2E0Yy1oQ2d6RG9Hb29nY1kwTDZ3TWkycVI2Y3BnNWFwUEFZcW1oVl9xVzRxclBoWDFQWXRxVS1aaXlBeERybjFMdkZCaUNUY2M2VGVvVDdZcElrelpfcHdubHdMVQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "50eb7bff7757",
    "date": "2026-11-04T19:35Z",
    "title": "Opinion: Trump's Venezuela oil deal proves Alberta must diversify its energy markets",
@@ -5891,6 +5901,16 @@
    "origin": "rss"
   },
   {
+   "id": "7a7473871fbb",
+   "date": "2026-10-29T15:59Z",
+   "title": "Exportaciones de crudo venezolano a EE UU superan todo lo enviado en 2024 y 2025",
+   "source": "Correo del Caroní",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObE1yQ1lZbnhYcG4zWjBQUHdaT3BWdlVGMGs3LVM0Ymx1dkVyejlRamRidm96Ql9mUmZhcmRVYkxzX0U1ZzFsRzloTVAzejRMTWNUSTRqOVFYbGJHMzBkc1d6YnpLUFhwTVBfWTlBMWNhU1hHRDB3LUJrMEw3MmdWWGh2OW8teldDd3JSN25FMml3V1RSLWtzTzFkOW1id01xR2xEMGdIUkdEbF8xd0NxVV9CQ0cxT1E5cWN6WHlEZEZmeTEw?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "f298d485851a",
    "date": "2026-10-29T14:51Z",
    "title": "Venezuela’s 303 Billion Barrels Of Oil",
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "5f92b2a61ace",
-   "date": "2026-10-28T09:41Z",
-   "title": "El presidente de Estados Unidos, Donald Trump, y el secretario de Estado",
-   "source": "La Prensa.mx",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9adDh2U1l5b09TMzJkaTktdGxOS1VPUlVXak9YaDNMeDc5MFlmRDNBUG9XV01GTkRMSVNUam5nVTlRTm41UlZzVTRiQnpYRmwzM2hZa2JB?oc=5",
-   "category": "General",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
-   "id": "2d062a07d403",
-   "date": "2026-10-28T09:36Z",
-   "title": "Exxon Mobil, Citgo Petroleum Acquires Shipload of Venezuelan Crude Oil to Refine",
-   "source": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOalBfUjN6cGNkRS13SFRXNG15LXV6bmhGc3d3eG9QbG50bTJLUTBNdVRCNFpKUVJPekZzNW9tWGJVUW5ONWdPM2pCc3VXY2FoZ1JPMGF3V2hGaXpPRkhjb1I1RHA4V2hXcEkwcG5MaTJyN0VvbFhUWi1CMEx1NWM4V04wXzNRNUFKZWtBcUQzVjBPNHRCckY1a3VJd3NsdzZoNkZsU1EtR2gxN2l4dDlaTXJUN0pCWVZBZF9GNHlEZFF5UWxmM21oLW1FWXc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T21:40:37Z",
+ "updated": "2026-11-04T22:39:52Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
