@@ -211,6 +211,16 @@
    "origin": "rss"
   },
   {
+   "id": "96266dcd9cbe",
+   "date": "2026-11-03T21:56Z",
+   "title": "Trump asegura que Washington tiene el control de Venezuela y 50% del petróleo mundial",
+   "source": "Maya Comunicación",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVkludVl0MTIwYm03Y19QY0ZaSEdNR1RlaVJ6R0lZMzFrdXJWbXJiOThoakQxODZ1dUxFeEVnU0NYYUM1VGNaVG5KNWpXZXBtWlVVT3VKS0Qyc1FfMm4wc3FRSTNvZWIxOTNmWTFSVXk3eHQ4VkFRZ0V1VDVYRl9QNnR1NzdwazV6cjBsYi1QY2t0SjNDNFJOUW9jRWdWSk9TZVAzMV92bS1wREhObGJjMUY2NzlvZV9H?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "940e3fdc2d37",
    "date": "2026-11-03T21:36Z",
    "title": "Economista José Guerra exige cuentas al Ejecutivo: “Que informe dónde están los reales del petróleo”",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "a46046009648",
-   "date": "2026-10-28T04:38Z",
-   "title": "Trump promotes oil production in Texas, where Democrats dream of breakthrough",
-   "source": "The Mighty 790 KFGO",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQW05Z3B4M2VBaGowX0s2bTdiN05OOEJ0WDZPYnd1LUdWWUxjOG1VazVWQ3NINkh3YWZxbWFDOElrOWtTTnNYUTV4WjAzcHhKaFJUNUJNb0l3YXNDeHl1MEN6aFJFemtiTlA4aHZzVzRyNnZocGVESUtpaUllQnJuMDU4dEVwTUY2UlpQRzUwbDRKUDVsa0E?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T09:23:55Z",
+ "updated": "2026-11-04T10:33:11Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
