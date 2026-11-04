@@ -167,6 +167,24 @@ def main():
     tanker_legs = sorted((l for l in best.values() if l["type"] == "other_non_fishing"),
                          key=lambda x: x["arrived"] or "", reverse=True)
 
+    # 5. identity of the likely tankers: size, tonnage and ship type from registries + AIS
+    ident, sample = {}, None
+    for vid in sorted({l["vessel_id"] for l in tanker_legs if l["vessel_id"]}):
+        res = call("GET", f"/vessels/{vid}", {"dataset": DS_ID})
+        if not res:
+            continue
+        sample = sample or {k: (list(v[0].keys()) if isinstance(v, list) and v and isinstance(v[0], dict) else type(v).__name__)
+                            for k, v in res.items()}
+        reg = (res.get("registryInfo") or [{}])[0] if res.get("registryInfo") else {}
+        sr = (res.get("selfReportedInfo") or [{}])[0] if res.get("selfReportedInfo") else {}
+        cs = (res.get("combinedSourcesInfo") or [{}])[0] if res.get("combinedSourcesInfo") else {}
+        ident[vid] = {"imo": reg.get("imo") or sr.get("imo"), "length_m": reg.get("lengthM"), "gt": reg.get("tonnageGt"),
+                      "registry_shiptypes": reg.get("shiptypes"), "built": reg.get("builtYear"),
+                      "shiptypes": [t.get("name") for t in (cs.get("shiptypes") or []) if isinstance(t, dict)],
+                      "geartypes": [t.get("name") for t in (cs.get("geartypes") or []) if isinstance(t, dict)]}
+    for l in tanker_legs:
+        l["identity"] = ident.get(l["vessel_id"])
+
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump({"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                "attribution": "Powered by Global Fishing Watch (globalfishingwatch.org). CC BY-NC 4.0.",
@@ -177,7 +195,7 @@ def main():
                "tanker_legs_to_us": tanker_legs,
                "legs_to_us": sorted(best.values(), key=lambda x: x["arrived"] or "", reverse=True),
                "legs_all": sorted(legs, key=lambda x: x["arrived"] or "", reverse=True)[:200],
-               "vessels_followed": len(ids), "log": log[-30:]}, open(OUT, "w"), indent=1, ensure_ascii=False)
+               "vessels_followed": len(ids), "identity_fields": sample, "log": log[-30:]}, open(OUT, "w"), indent=1, ensure_ascii=False)
     print(f"gfw: {len(ve_visits)} visits in VE/ABC areas, {len(ids)} vessels followed, {len(best)} legs to the U.S., "
           f"{len(tanker_legs)} by likely tankers")
     for line in log[-10:]:
