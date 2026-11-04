@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-04",
  "method": "Each cargo claim is checked step by step against public evidence: the official claim, vessel identity, an AIS record of loading in Venezuela, discharge at an oil terminal, volume vs. vessel capacity, a U.S. customs bill of lading, and the EIA-814 import record. A cargo is 'verified' only when the last three agree.",
  "statuses": {
   "confirmed": "Backed by an official source or two independent sources",
@@ -20,8 +20,8 @@
    "date": "2026-10-23",
    "port": "Beaumont, TX",
    "volume_bbl": null,
-   "verdict": "Berthed in Texas, cargo not yet verified",
-   "verdict_es": "Atracado en Texas, carga aún no verificada",
+   "verdict": "Probably discharged in Texas, cargo not yet verified",
+   "verdict_es": "Probablemente descargó en Texas, carga aún no verificada",
    "verdict_status": "partial",
    "summary": "A 114,720-tonne tanker that shuttles between Venezuela and the U.S. Gulf. It left Bajo Grande at about 9 m draught, which fits a partial load: the Lake Maracaibo bar limits how deep big tankers can leave. Discharge, customs and EIA records will confirm the cargo and its size.",
    "summary_es": "Tanquero de 114.720 t que va y viene entre Venezuela y el Golfo de EE. UU. Salió de Bajo Grande con unos 9 m de calado, lo que cuadra con una carga parcial: la barra del Lago de Maracaibo limita el calado de los tanqueros grandes. La descarga, la aduana y la EIA confirmarán la carga y su volumen.",
@@ -73,8 +73,8 @@
      "step": "Departed loaded (draught)",
      "step_es": "Salió cargado (calado)",
      "status": "partial",
-     "detail": "About 9 m draught reported by the crew, above an empty Aframax and typical of Lake Maracaibo loads, which are draft-limited. Volume not yet estimated.",
-     "detail_es": "Unos 9 m de calado reportados por la tripulación: más que un Aframax vacío y típico de las cargas del Lago de Maracaibo, limitadas por calado. Volumen aún sin estimar.",
+     "detail": "Highest draught reported on the voyage: 9.8 m. At that draught the ship weighs about 63,200 tonnes more than empty (net of fuel and stores): roughly 430,000 barrels (362,000–503,000). Lake Maracaibo loads are draft-limited, so a partial cargo is expected. Estimate, to be checked against customs and EIA.",
+     "detail_es": "Calado más alto reportado en el viaje: 9,8 m. A ese calado el buque pesa unas 63.200 toneladas más que vacío (descontando combustible y provisiones): unos 430.000 barriles (362.000–503.000). Las cargas del Lago de Maracaibo están limitadas por calado, así que se espera carga parcial. Estimación, a cotejar con la aduana y la EIA.",
      "sources": [
       [
        "API16 Cargo Passport",
@@ -99,8 +99,8 @@
      "step": "Discharged at an oil terminal",
      "step_es": "Descargó en terminal petrolera",
      "status": "partial",
-     "detail": "Moored at a terminal berth since Nov 2. Discharge is confirmed when the reported draught drops by more than 2 m (crews often update it only on departure).",
-     "detail_es": "Amarrado en muelle de terminal desde el 2 nov. La descarga se confirma cuando el calado reportado baje más de 2 m (las tripulaciones a veces lo actualizan solo al zarpar).",
+     "detail": "About 40 hours at a Neches River terminal berth (Nov 2, 01:48 to Nov 3, ~18:30 UTC), then back out to Sabine Pass with its AIS destination set to Bajo Grande: typical of a discharge. The crew did not update the draught, so it is not confirmed yet.",
+     "detail_es": "Unas 40 horas en muelle de terminal en el río Neches (2 nov 01:48 a 3 nov ~18:30 UTC); luego volvió a Sabine Pass con destino AIS Bajo Grande: típico de una descarga. La tripulación no actualizó el calado, así que aún no está confirmada.",
      "sources": []
     },
     {
@@ -129,15 +129,20 @@
       ]
      ]
     }
-   ]
+   ],
+   "volume_est": {
+    "kbbl": 430,
+    "range": "362,000–503,000",
+    "method": "draught"
+   }
   },
   {
    "id": "VE-2026-002",
    "mmsi": 352004839,
    "title": "NAVE NEUTRINO: Lake Maracaibo cargo detected by API16",
    "title_es": "NAVE NEUTRINO: carga del Lago de Maracaibo detectada por API16",
-   "claim": "NAVE NEUTRINO left Bajo Grande (Lake Maracaibo) on Oct 16, 2026 for Port Arthur, Texas, and is now waiting off Sabine Pass.",
-   "claim_es": "El NAVE NEUTRINO salió de Bajo Grande (Lago de Maracaibo) el 16 oct 2026 rumbo a Port Arthur, Texas, y espera frente a Sabine Pass.",
+   "claim": "NAVE NEUTRINO left Bajo Grande (Lake Maracaibo) on Oct 16, 2026 for Port Arthur, Texas, and berthed there on Nov 4 after six days at anchor.",
+   "claim_es": "El NAVE NEUTRINO salió de Bajo Grande (Lago de Maracaibo) el 16 oct 2026 rumbo a Port Arthur, Texas, y atracó allí el 4 nov tras seis días fondeado.",
    "claimed_by": "API16 detection: public AIS + public port-call history",
    "claimed_by_es": "Detección de API16: AIS público + historial público de escalas",
    "date": "2026-10-16",
@@ -196,8 +201,8 @@
      "step": "Departed loaded (draught)",
      "step_es": "Salió cargado (calado)",
      "status": "partial",
-     "detail": "About 9.4 m draught reported by the crew, above an empty Aframax and typical of Lake Maracaibo loads, which are draft-limited. Volume not yet estimated.",
-     "detail_es": "Unos 9,4 m de calado reportados por la tripulación: más que un Aframax vacío y típico de las cargas del Lago de Maracaibo, limitadas por calado. Volumen aún sin estimar.",
+     "detail": "Highest draught reported on the voyage: 9.4 m. At that draught the ship weighs about 59,700 tonnes more than empty (net of fuel and stores): roughly 406,000 barrels (342,000–475,000). Lake Maracaibo loads are draft-limited, so a partial cargo is expected. Estimate, to be checked against customs and EIA.",
+     "detail_es": "Calado más alto reportado en el viaje: 9,4 m. A ese calado el buque pesa unas 59.700 toneladas más que vacío (descontando combustible y provisiones): unos 406.000 barriles (342.000–475.000). Las cargas del Lago de Maracaibo están limitadas por calado, así que se espera carga parcial. Estimación, a cotejar con la aduana y la EIA.",
      "sources": [
       [
        "API16 Cargo Passport",
@@ -209,8 +214,8 @@
      "step": "Arrived at the U.S. Gulf",
      "step_es": "Llegó al Golfo de EE. UU.",
      "status": "confirmed",
-     "detail": "Seen by API16 AIS at anchor off Sabine Pass, the waiting area for Port Arthur and Beaumont, from Oct 29, 2026; still waiting for a berth on Nov 2.",
-     "detail_es": "Visto por el AIS de API16 fondeado frente a Sabine Pass, la zona de espera de Port Arthur y Beaumont, desde el 29 oct 2026; el 2 nov seguía esperando muelle.",
+     "detail": "API16 AIS: at anchor off Sabine Pass from Oct 29, 2026; entered the channel on Nov 4 and moored at Port Arthur at 05:35 UTC.",
+     "detail_es": "AIS de API16: fondeado frente a Sabine Pass desde el 29 oct 2026; entró por el canal el 4 nov y amarró en Port Arthur a las 05:35 UTC.",
      "sources": [
       [
        "API16 Cargo Passport",
@@ -221,9 +226,9 @@
     {
      "step": "Discharged at an oil terminal",
      "step_es": "Descargó en terminal petrolera",
-     "status": "pending",
-     "detail": "Watching for a berth at Port Arthur or Beaumont and a draught drop of more than 2 m.",
-     "detail_es": "Atentos al atraque en Port Arthur o Beaumont y a una baja de calado de más de 2 m.",
+     "status": "partial",
+     "detail": "Moored at Port Arthur since Nov 4. Discharge is confirmed when the reported draught drops by more than 2 m, or inferred from time at berth and departure.",
+     "detail_es": "Amarrado en Port Arthur desde el 4 nov. La descarga se confirma cuando el calado reportado baje más de 2 m, o se infiere por el tiempo en muelle y la salida.",
      "sources": []
     },
     {
@@ -252,7 +257,12 @@
       ]
      ]
     }
-   ]
+   ],
+   "volume_est": {
+    "kbbl": 406,
+    "range": "342,000–475,000",
+    "method": "draught"
+   }
   },
   {
    "id": "VE-2026-001",
