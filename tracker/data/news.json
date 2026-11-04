@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "3d42dd548313",
+   "date": "2026-11-04T14:07Z",
+   "title": "Resumen: Presidenta Delcy Rodríguez sostiene encuentro con empresariado en el marco del Congreso de Conindustria.",
+   "source": "Instagram",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yd3hjUElFMExGT2xWVWdxWmxOYk5PNk1zZkp3OG9Ia3pnekNYZ0kzcDVUN3VkZFJUbldsb0YxRzkxcHBpNWFCWTZqd0U3S001R0tPSXhR?oc=5",
+   "category": "General",
+   "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "92d16fde1400",
+   "date": "2026-11-04T14:06Z",
+   "title": "Exportaciones de crudo venezolano no variaron en octubre debido a la producción estancada",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaXN1WDExY3RqZl80ejFsZVBENGk0VVZDdm5ycWV4RWNfU3RUVE41MndKZm1FbGpUMTZCMVhYeTBLOVpqa1NrS0pKSW9kczRQbEZCRlNHbVBYSExYbzlkNjV3ems5SVQwS2R0RWxBdlFnTm9ib3dDclNYbm1SVGtGYzhEZFo4VWluUXpUVTdZcGFzMzE1YVktWG9DZnJzc2tPVXVnbFVfZmF0NHptWFBlR1lhOUMxcnhLeV9iWEhPczk?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "4f0692ae1078",
    "date": "2026-11-04T13:30Z",
    "title": "Exportaciones de petróleo de Venezuela se mantienen estables ante altas tarifas de flete",
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "d23b21e7e4f2",
-   "date": "2026-10-28T07:00Z",
-   "title": "Eni activa operaciones en la Faja del Orinoco y proyecta aumentar la producción a 200.000 barriles diarios para 2028",
-   "source": "Globovisión",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNN3dxcm9zTnB4dnZ5QVBTeWZsTVAtWVBBY0U1clVPTXZFMzZhS1RaVzY2VHNrY1JkQnRlNVZBQ1h2N2QzdGxfMkJyUmstd1lmSzBONVc1SHhLSGIxRXhyM1ItTkdLaVBQT1gxZ3I2dm40NGR0SWlvSGJBc3NxSGxfYWRwNTJMMmE4UHBrc2lXN01uWk1YUnhXZ0hldTAwTUFvMXQyazBqQ3dHWnRodGhEZTRUQUUxSk5LcDM5dndrRUZ0RUwxQ2ViZld5NVR4M2psSTJzaVo0WQ?oc=5",
-   "category": "Production",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "519e06313bea",
-   "date": "2026-10-28T07:00Z",
-   "title": "Trump and Rubio plan to visit oil tanker carrying Venezuelan crude in Texas",
-   "source": "KTEN",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNlNxdDg4MklQSEdUT2dxMWZuOVNiYkNWVXNPcXBXMjJ1bXpSOXE2YTdmcVlDdVJpQUE0YktraWpVLWd6UUs2V3YtRUpvbEVRbFJJYUkzZzhNYUZWZzd5cjlndkQwNjA5ME0xSWhCbGFqNVhvaEJyN0VjMnljd0s0eEZGR1FFRWpKZVFDSloxMWdnTXNCaXZPOGRPbGhNMzNjMDk1X3V3T2lVZURrRGUwTlpEYlUxQzljejc2eDVCZ1BzRVZvUWQ0TUM3MUlHN01yQi1wT3dGQUE5bDg4bmhv?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T13:59:13Z",
+ "updated": "2026-11-04T14:55:26Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
