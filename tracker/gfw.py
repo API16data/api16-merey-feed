@@ -55,6 +55,15 @@ def call(method, path, params=None, body=None, tries=3):
     return None
 
 
+def num(x):
+    """GFW numbers come plain or wrapped ({"value": ...} or a list of those)."""
+    if isinstance(x, list):
+        x = x[0] if x else None
+    if isinstance(x, dict):
+        x = x.get("value")
+    return x if isinstance(x, (int, float)) and x > 0 else None
+
+
 def poly(box):
     (a, b), (c, d) = box
     return {"type": "Polygon", "coordinates": [[[b, a], [d, a], [d, c], [b, c], [b, a]]]}
@@ -178,7 +187,8 @@ def main():
         reg = (res.get("registryInfo") or [{}])[0] if res.get("registryInfo") else {}
         sr = (res.get("selfReportedInfo") or [{}])[0] if res.get("selfReportedInfo") else {}
         cs = (res.get("combinedSourcesInfo") or [{}])[0] if res.get("combinedSourcesInfo") else {}
-        ident[vid] = {"imo": reg.get("imo") or sr.get("imo"), "length_m": reg.get("lengthM"), "gt": reg.get("tonnageGt"),
+        ident[vid] = {"imo": reg.get("imo") or sr.get("imo"), "length_m": num(reg.get("lengthM")) or num(cs.get("bestLengthM")),
+                      "gt": num(reg.get("tonnageGt")) or num(cs.get("bestTonnageGt")),
                       "registry_shiptypes": reg.get("shiptypes"), "built": reg.get("builtYear"),
                       "shiptypes": [t.get("name") for t in (cs.get("shiptypes") or []) if isinstance(t, dict)],
                       "geartypes": [t.get("name") for t in (cs.get("geartypes") or []) if isinstance(t, dict)]}
