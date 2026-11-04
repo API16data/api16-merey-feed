@@ -3,7 +3,7 @@
 Free terrestrial AIS barely reaches Venezuelan terminals. Global Fishing Watch (GFW) combines
 satellite and terrestrial AIS and publishes port-visit events for all vessel types, about four
 days behind real time. This script asks GFW for:
-  1. port visits inside the Venezuelan terminal areas (and the ABC islands) in the last 45 days;
+  1. port visits inside the Venezuelan terminal areas (and the ABC islands) in the last 90 days;
   2. for every non-fishing vessel found there, and for every ship on the watchlist, its port
      visits in the last 90 days, so a Venezuela -> U.S. voyage can be followed port to port.
 
@@ -99,7 +99,7 @@ def main():
     # 1. port visits inside the Venezuelan terminal areas
     ve_visits = []
     for area, box in AREAS.items():
-        body = {"datasets": [DS_PORT], "startDate": d(45), "endDate": today, "geometry": poly(box)}
+        body = {"datasets": [DS_PORT], "startDate": d(90), "endDate": today, "geometry": poly(box)}
         got = page("POST", "/events", body=body)
         print(f"gfw: {area}: {len(got)} port visits")
         for e in got:
@@ -131,7 +131,7 @@ def main():
     voyages = {}
     id_list = list(ids)
     for i in range(0, len(id_list), 20):
-        params = {"datasets[0]": DS_PORT, "start-date": d(90), "end-date": today}
+        params = {"datasets[0]": DS_PORT, "start-date": d(120), "end-date": today}
         for j, vid in enumerate(id_list[i:i + 20]):
             params[f"vessels[{j}]"] = vid
         for e in page("GET", "/events", params):
@@ -189,7 +189,7 @@ def main():
     json.dump({"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                "attribution": "Powered by Global Fishing Watch (globalfishingwatch.org). CC BY-NC 4.0.",
                "method": "GFW port-visit events (satellite + terrestrial AIS, about 4 days behind real time). "
-                         "Visits inside Venezuelan terminal areas in the last 45 days; full port history (90 days) "
+                         "Visits inside Venezuelan terminal areas in the last 90 days; full port history (90 days) "
                          "for those vessels and for API16's watchlist.",
                "ve_visits": sorted(ve_visits, key=lambda x: x["start"] or "", reverse=True),
                "tanker_legs_to_us": tanker_legs,
