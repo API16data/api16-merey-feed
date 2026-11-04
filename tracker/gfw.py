@@ -11,7 +11,7 @@ Needs the secret GFW_API_TOKEN (personal, non-commercial; never printed).
 Data: Global Fishing Watch, CC BY-NC 4.0. Attribution: "Powered by Global Fishing Watch."
 Output: tracker/data/gfw_port_visits.json
 """
-import json, os, time, urllib.error, urllib.parse, urllib.request
+import http.client, json, os, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 
 TOKEN = os.environ.get("GFW_API_TOKEN", "").strip()
@@ -48,7 +48,8 @@ def call(method, path, params=None, body=None, tries=3):
             log.append(f"{method} {path}: HTTP {e.code} {msg}")
             if e.code in (400, 401, 403, 404, 422):
                 return None
-        except (urllib.error.URLError, TimeoutError, OSError) as e:
+        except (urllib.error.URLError, TimeoutError, OSError, http.client.HTTPException, ValueError) as e:
+            # GFW sometimes cuts a long response mid-stream (IncompleteRead): retry the same page
             log.append(f"{method} {path}: {type(e).__name__}")
         time.sleep(10 * (i + 1))
     return None
@@ -66,7 +67,7 @@ def entries_of(res):
 def page(method, path, params=None, body=None, cap=2000):
     out, offset = [], 0
     while True:
-        p = dict(params or {}, limit=200, offset=offset)
+        p = dict(params or {}, limit=50, offset=offset)
         res = call(method, path, p, body)
         ents = entries_of(res)
         out += ents
@@ -99,7 +100,9 @@ def main():
     ve_visits = []
     for area, box in AREAS.items():
         body = {"datasets": [DS_PORT], "startDate": d(45), "endDate": today, "geometry": poly(box)}
-        for e in page("POST", "/events", body=body):
+        got = page("POST", "/events", body=body)
+        print(f"gfw: {area}: {len(got)} port visits")
+        for e in got:
             s = simplify(e, area)
             if (s["type"] or "").lower() not in SKIP_TYPES:
                 ve_visits.append(s)
