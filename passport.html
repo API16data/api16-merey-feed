@@ -122,6 +122,9 @@
     'partial load (Lake Maracaibo)': 'carga parcial (Lago de Maracaibo)', 'last seen': 'visto por última vez',
     'No Cargo Passport for this vessel yet.': 'Aún no hay Cargo Passport para este buque.',
     'under way': 'navegando', 'at anchor': 'fondeado', 'moored': 'amarrado', 'not defined': 'sin definir',
+    'Estimated cargo (from draught)': 'Carga estimada (por calado)',
+    'Cargo estimate: the ship\u2019s weight in the water at the draught the crew reported, minus the empty ship, fuel and stores, converted at 6.5\u20137.1 barrels per tonne. Draught is typed by the crew, so this stays an estimate until U.S. customs and EIA records confirm it.':
+      'Estimación de carga: el peso del buque en el agua al calado que reportó la tripulación, menos el buque vacío, el combustible y las provisiones, convertido a 6,5–7,1 barriles por tonelada. El calado lo escribe la tripulación, así que sigue siendo una estimación hasta que la aduana de EE. UU. y la EIA lo confirmen.',
     'Official check': 'Verificación oficial', 'stages': 'etapas'
   };
   const DET = [[/^seen at /, 'visto en '], [/declared destination /, 'destino declarado '], [/draught ([\d.]+) m vs ~([\d.]+) m laden mark/, 'calado $1 m vs ~$2 m de carga completa'],
@@ -213,10 +216,13 @@
       add('Deadweight', sp.dwt_t ? nf().format(sp.dwt_t) + ' t' : null); add('Size', sp.loa_m ? sp.loa_m + ' × ' + sp.beam_m + ' m' : null);
       add('Owner', sp.owner); add('Manager', sp.manager);
     } else add('Size', pp && pp.length_m ? pp.length_m + ' m' : null);
+    const ec = pp && pp.est_cargo;
+    if (ec) add('Estimated cargo (from draught)', '≈ ' + nf().format(ec.kbbl * 1000) + ' bbl (' + nf().format(ec.kbbl_low * 1000) + '–' + nf().format(ec.kbbl_high * 1000) + ')');
     add('Draught', w && w.draught_m ? w.draught_m + ' m' : null);
     add('Destination', (w && w.destination) || (pp && pp.destination_now));
     add('last seen', when((w && w.last_seen) || (pp && pp.last_seen)) + ' UTC');
     fc.append(facts);
+    if (ec) fc.append($('p', 'note', tt('Cargo estimate: the ship\u2019s weight in the water at the draught the crew reported, minus the empty ship, fuel and stores, converted at 6.5\u20137.1 barrels per tonne. Draught is typed by the crew, so this stays an estimate until U.S. customs and EIA records confirm it.')));
     if (w && w.reason) { fc.append($('h3', null, tt('Why it is followed'))); fc.append($('p', 'reason', w.reason)); }
     main.append(fc);
 
