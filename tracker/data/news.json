@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "50eb7bff7757",
+   "date": "2026-11-04T19:35Z",
+   "title": "Opinion: Trump's Venezuela oil deal proves Alberta must diversify its energy markets",
+   "source": "Edmonton Journal",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQUIwXzlnbW91dWtlaXJlRklkNHBnYXZFMURWYk84SGc5bl9CQjc3OUpxX0FqTV9xRkVkVzhIMllLNFZxaUZpQTJsZWczVnVYeDZoenFDQlpMaWJTQVFjeXVhYm91bS1VS3VmOW43dkFOSU5oRXJuSDVPeWE4MGZmdzdfcGpqXzJw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "ebdd23eeaa7f",
+   "date": "2026-11-04T18:54Z",
+   "title": "Venezuela eleva producción petrolera a 1,24 millones de barriles diarios y reporta crecimiento de 8,5",
+   "source": "Rumbo Minero",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRmo4eTJPaFdoNUs4Y3MyT2tWdUo1WWRicDktVW00T21HOEVpNm0wWENCZER5V05MMjhabTROQXZJWVNZOWpJTE1HZ1hLTE5VckQzZmMzVnNBYkNEakI0bkVZSkJGbENjU0Vnb2w4dUU4ZFowNDhMZ29fNnZVNUpKR3I3V3dNNnhzdXhjOXg5enZJQXZ4UHhoZGcyUGxYRXliVHZ5WXhndmt0dGZ6MEFMMXVZSUtvc3ZMNzRubFBOSG13M0xNcV9lS2hubmF4RDhsTkFkZFJYN0I?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "48c192efbda9",
    "date": "2026-11-04T18:21Z",
    "title": "OFAC updates Iran sanctions guidance and amends Venezuela bond license",
@@ -738,6 +758,16 @@
    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNbXZxVlV6OGRVMnNrZjhKbm0xQzdYWjBCQzRPazQ2enlWLVpYbEZWNklwMllWMnpjM3B0LURWUUV5LTZIOGwxdXhoZERUdDdQQWxvblM0R0hEeFNuRmNMbUQxREVMY3lwUURfUElKTVhiR2JGY3Z2aGJ0Y18zOWhORlp5VnlGQUJod1J2bUxwb2FBbVJFQ2JGbHE2TkdxX3Y3NF8yM0JNVDJhaU1WT0Y3ZjBSX1I1c2Z0MWJFTGliLXN0eVBhM18xQlFWS3BBTV8tT3lkQkNqZnFBbEFPelJPaHQyZm40QmtUWXNySHgtOXd2NVhCeTk0T01KZmRkVEpfdmpsd3A2RC0?oc=5",
    "category": "Debt",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "d768b2ef3465",
+   "date": "2026-11-03T16:56Z",
+   "title": "El crudo rebota sobre los 106 dólares tras tensión en Ormuz",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbEVPX0hSMlo0NWNqa1dzd2tqdTB0RUV4TWFPZDlmRDYzUnByMnppM0dHTWhsOG5UVWRKem5jVlY0eV80M1pkQlpobnhRWFA1MlB2NEFqb0VVWnZDN2NGMjFabFdINzV5WFFRemh4WUE3N3FiZThwNGQxU0RtWGlyZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7715,36 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "c8f67797578a",
-   "date": "2026-10-28T08:35Z",
-   "title": "TotalEnergies and Chevron boost offshore exploration collaboration in the US",
-   "source": "Upstream Online",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWEFoOFFZZUQ4NmdvSnQ4NEUzbmxzZVp4WS1BdTh6M3p5SlFWODhYX3h1TzNIZ09RVGk5dmdfRnprVFozNGE2SmYyRXJycURPYWxrN19LQUk2MkxnRzVhR1FicndFMUdDSTM1UVNTUVQzR1V4LVhKWFdvdWMxOFAyUDBlaGtwdFJlWkhUbmlldG9sRUhQZ1cxc1psYlJUUUw3ODRlLTN5RmcyVWVsY3d1N2UzTDhwdw?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "668f11519201",
-   "date": "2026-10-28T08:27Z",
-   "title": "Trump floats Venezuela’s statehood as 51st US state after hailing oil deal",
-   "source": "İlke Haber Ajansı",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd0EyMWlfSHFGaGR3STRSVTI1eUZfQ1hhcm1wZDhtZFdnai1lQS1PMDRCLWtoZlgwcjE3anNWNGJhT1VsN25mU3MxSHVMMzMxLUhYbG9wMzlybUJQQS1tZk8zR2M5SmloZGk2RjctMjJYNlktbk5pRjZ4MVFfTDYwa2FoeXZjOHphWFZ3WGUtM0FnUFdIRDVtQjY5cFNHU2t3V1RvaEtKaVNncEcySjktRGI2OA?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "52ed020fde28",
-   "date": "2026-10-28T08:22Z",
-   "title": "NABEP prevé duplicar su producción de crudo en Venezuela en 2027 y alcanzar 500.000 barriles diarios en 2028",
-   "source": "El Mundo Financiero",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbmUxY1dLMDZ0TzlucnQxdVAzcEZMTjRnWTBKdlZOTWxrcnJ2V1B1MC1oaUE3dFZjYUJJRXhLOWt4X0NVeEplbWxxbjJvTlZRWWpFakNaZnRHeU9VdWFJLThXYWZMa1hqX1Zlall4ajZzZXkxN1BVUkZDSndoR0tQeVBXT2haYXViSnpRdVQxVmFycHE5YXhGVG1pVVk4eVhXQXdzT0lHX29rZUxXb2piRnRCd2p3a2RCTzFHVGZPNjFrNm9fYVdpcWJOTDdzbnVRT3V1aERmaTJmQ2dMWE5wNFZGUWpXM0E4X244OFFpWGwxN2o1YkxTYjQtQ1V1aDRR?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T18:45:22Z",
+ "updated": "2026-11-04T19:48:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
