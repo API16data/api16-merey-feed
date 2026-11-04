@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:15:59Z",
+ "updated": "2026-11-04T16:38:40Z",
  "attribution": "Powered by Global Fishing Watch (globalfishingwatch.org). CC BY-NC 4.0.",
  "method": "GFW port-visit events (satellite + terrestrial AIS, about 4 days behind real time). Visits inside Venezuelan terminal areas in the last 90 days; full port history (90 days) for those vessels and for API16's watchlist.",
  "ve_visits": [
