@@ -85,8 +85,12 @@ def main():
         v = V.get(str(l.get("mmsi")), {})
         length = idt.get("length_m") or v.get("length_m")
         gt = idt.get("gt")
-        big = bool((length and length >= 225) or (gt and gt >= 40000))
-        mid = bool(length and 170 <= length < 225)
+        gear = [g.upper() for g in (idt.get("geartypes") or [])]
+        if gear and "TANKER" not in gear:
+            continue  # GFW identity says it is not a tanker
+        # Aframax/LR2 and larger: >= 225 m or >= 50,000 GT. LR1/MR: 170-225 m or 20,000-50,000 GT.
+        big = bool((length and length >= 225) or (gt and gt >= 50000))
+        mid = not big and bool((length and 170 <= length < 225) or (gt and 20000 <= gt < 50000))
         lake, east = bool(LAKE.search(src)), bool(EAST.search(src))
         hub, vref = bool(HUB.search(src)), bool(REFINERY_VE.search(src))
         us_ref = bool(US_REFINING.search(dst))
@@ -105,7 +109,7 @@ def main():
         if est and (est.get("draught_m") or 0) > 0 and conf == "high":
             kbbl, method = est["kbbl"], f"draught {est['draught_m']} m (API16 AIS)"
         else:
-            kbbl = typical_kbbl(length, lake)
+            kbbl = typical_kbbl(length or (250 if big else 200 if mid else None), lake)
             method = ("typical Lake Maracaibo load (~9.4 m)" if lake else "typical full load for the ship size")
         voyages.append({
             "name": l.get("name"), "mmsi": l.get("mmsi"), "imo": idt.get("imo"), "length_m": length, "gt": gt,
@@ -140,6 +144,8 @@ def main():
         official = r["eia_monthly_kbd"] or r["customs_kbd"] or r["eia_weekly_kbd"]
         r["official_kbd"] = official
         r["coverage"] = round(r["high_kbd"] / official, 2) if official else None
+        r["coverage_with_possible"] = round(r["with_possible_kbd"] / official, 2) if official else None
+        r["complete"] = m < datetime.now(timezone.utc).strftime("%Y-%m")
         price = (merey.get(m) or {}).get("merey") or (c and c.get("usd_per_bbl"))
         r["usd_per_bbl"] = price
         r["high_value_usd"] = round(r["high_kbbl"] * 1000 * price) if price else None
