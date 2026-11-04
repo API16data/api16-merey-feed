@@ -152,6 +152,20 @@ def main():
                              "from_flag": x["port_flag"], "left": x["end"], "to_port": nxt["port"],
                              "to_flag": nxt["port_flag"], "arrived": nxt["start"], "to_end": nxt["end"]})
     to_us = [l for l in legs if l["to_flag"] == "USA"]
+    # One leg per U.S. arrival (the last Venezuelan/ABC departure before it). GFW labels tankers
+    # "other_non_fishing" and container, cruise and general-cargo ships "cargo", so the first
+    # group is kept as the likely-tanker list.
+    vtype = {}
+    for x in ve_visits + [y for lst in voyages.values() for y in lst]:
+        if x["vessel_id"] and x["type"]:
+            vtype.setdefault(x["vessel_id"], x["type"])
+    best = {}
+    for l in to_us:
+        k = (l["vessel_id"], l["arrived"])
+        if k not in best or (l["left"] or "") > (best[k]["left"] or ""):
+            best[k] = dict(l, type=vtype.get(l["vessel_id"]))
+    tanker_legs = sorted((l for l in best.values() if l["type"] == "other_non_fishing"),
+                         key=lambda x: x["arrived"] or "", reverse=True)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump({"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -160,10 +174,12 @@ def main():
                          "Visits inside Venezuelan terminal areas in the last 45 days; full port history (90 days) "
                          "for those vessels and for API16's watchlist.",
                "ve_visits": sorted(ve_visits, key=lambda x: x["start"] or "", reverse=True),
-               "legs_to_us": sorted(to_us, key=lambda x: x["arrived"] or "", reverse=True),
+               "tanker_legs_to_us": tanker_legs,
+               "legs_to_us": sorted(best.values(), key=lambda x: x["arrived"] or "", reverse=True),
                "legs_all": sorted(legs, key=lambda x: x["arrived"] or "", reverse=True)[:200],
                "vessels_followed": len(ids), "log": log[-30:]}, open(OUT, "w"), indent=1, ensure_ascii=False)
-    print(f"gfw: {len(ve_visits)} visits in VE/ABC areas, {len(ids)} vessels followed, {len(to_us)} legs to the U.S.")
+    print(f"gfw: {len(ve_visits)} visits in VE/ABC areas, {len(ids)} vessels followed, {len(best)} legs to the U.S., "
+          f"{len(tanker_legs)} by likely tankers")
     for line in log[-10:]:
         print("gfw note:", line)
 
