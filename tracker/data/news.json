@@ -6845,6 +6845,16 @@
    "origin": "rss"
   },
   {
+   "id": "c87b3e89ccd6",
+   "date": "2026-10-28T14:58Z",
+   "title": "First Venezuelan oil from US-NABEP deal arrives in Texas, to be sold to Exxon, Citgo",
+   "source": "Brazil Energy Insight",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd2NLN0Ffc2VIV1pFa1l5Nm5YejFXczFJaVNSQW9EUHlnWE1uLTRpTVdNbWhKQnNPSDF4eGtGbEN4WWdwbkxVaU05N0JOV2JJRXlXSTZjcWhCUGQ2VDZEUkR1VnRsbzVIRVNFeFZUNGpwOWdSU3BmWlIza1FvSkJsR0RoZ1cxWG9EdzZGTnFVTU4xVTBCM3dnS0ktTzBvSTBDWldmcjNyRW9EWVJSMk41bkp5NTNWR19FUkRpREhDMVhIbXNC?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "b51100d8bb8b",
    "date": "2026-10-28T14:57Z",
    "title": "Venezuela Grid Repairs Stalled by Payment Delay, GE Vernova Says",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "c1277a02526a",
-   "date": "2026-10-28T04:38Z",
-   "title": "Rubio Says Chevron, Exxon And Reliance Eye Additional Venezuelan Oil Fields",
-   "source": "BW Businessworld",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdWIxV0MyY2tlQW9HZUJQS0szWWF3ek85UFVxci1QWE1vOGUwa0NMb19Hd3ZjWWJ0UE9fQTZ1VWdnQ2VGdEFlbnNSYWVaQWlLNUdYb0l2YnlCMmg2NTYwOW5PQ255NnN0WEhDYzdKTjhjaW5WMTJ4T3VPS0s3ZTVRdmhyUG1rSjhhZXFycHlVMFBxRGVPSmFkWXRxSnlaRDdWTlM0RkdXaUljV2xteHBzeTd4TDNtR2hMWXc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T10:33:11Z",
+ "updated": "2026-11-04T11:47:43Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
