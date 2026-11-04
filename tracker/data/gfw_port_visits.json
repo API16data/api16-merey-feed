@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:38:57Z",
+ "updated": "2026-11-04T16:10:27Z",
  "attribution": "Powered by Global Fishing Watch (globalfishingwatch.org). CC BY-NC 4.0.",
  "method": "GFW port-visit events (satellite + terrestrial AIS, about 4 days behind real time). Visits inside Venezuelan terminal areas in the last 45 days; full port history (90 days) for those vessels and for API16's watchlist.",
  "ve_visits": [
@@ -35279,7 +35279,7 @@
    "area": "Lake Maracaibo / Bajo Grande"
   }
  ],
- "legs_to_us": [
+ "tanker_legs_to_us": [
   {
    "vessel_id": "93ff72a32-232a-43b5-38e4-a560f65e0f13",
    "name": "PRIMEWAY",
@@ -35290,19 +35290,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-30T17:09:42.000Z",
-   "to_end": "2026-10-30T22:31:20.000Z"
-  },
-  {
-   "vessel_id": "b1a493041-10a4-46e6-0037-d6e749575ac5",
-   "name": "SOCRATES",
-   "mmsi": "636013615",
-   "from_port": "AMUAY",
-   "from_flag": "VEN",
-   "left": "2026-10-24T16:05:18.000Z",
-   "to_port": "PORT EVERGLADES",
-   "to_flag": "USA",
-   "arrived": "2026-10-30T12:32:12.000Z",
-   "to_end": "2026-10-30T13:33:33.000Z"
+   "to_end": "2026-10-30T22:31:20.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9817626",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "b1a493041-10a4-46e6-0037-d6e749575ac5",
@@ -35314,31 +35316,21 @@
    "to_port": "PORT EVERGLADES",
    "to_flag": "USA",
    "arrived": "2026-10-30T12:32:12.000Z",
-   "to_end": "2026-10-30T13:33:33.000Z"
-  },
-  {
-   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
-   "name": "IONIC ANAX",
-   "mmsi": "538007411",
-   "from_port": "PUERTO MIRANDA",
-   "from_flag": "VEN",
-   "left": "2026-10-16T12:42:55.000Z",
-   "to_port": "PORT NECHES",
-   "to_flag": "USA",
-   "arrived": "2026-10-30T03:41:23.000Z",
-   "to_end": "2026-10-30T04:33:57.000Z"
-  },
-  {
-   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
-   "name": "IONIC ANAX",
-   "mmsi": "538007411",
-   "from_port": "BULLENBAY",
-   "from_flag": "CUW",
-   "left": "2026-10-18T21:28:10.000Z",
-   "to_port": "PORT NECHES",
-   "to_flag": "USA",
-   "arrived": "2026-10-30T03:41:23.000Z",
-   "to_end": "2026-10-30T04:33:57.000Z"
+   "to_end": "2026-10-30T13:33:33.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9390692",
+    "length_m": null,
+    "gt": 41676,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
@@ -35350,7 +35342,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-10-30T03:41:23.000Z",
-   "to_end": "2026-10-30T04:33:57.000Z"
+   "to_end": "2026-10-30T04:33:57.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9802152",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "5ea5625ec-cdab-a325-0854-28ff3d552799",
@@ -35362,7 +35368,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-29T22:07:01.000Z",
-   "to_end": "2026-10-30T00:50:53.000Z"
+   "to_end": "2026-10-30T00:50:53.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9733569",
+    "length_m": null,
+    "gt": 8319,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "79c8b8453-3579-98f4-6c2c-3b13f76de3e1",
@@ -35374,31 +35394,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-10-28T05:05:06.000Z",
-   "to_end": "2026-10-28T21:30:04.000Z"
-  },
-  {
-   "vessel_id": "e30c50759-9521-327d-656b-44588d4c3466",
-   "name": "ANNELIESE",
-   "mmsi": "636023897",
-   "from_port": "PUERTO CABELLO",
-   "from_flag": "VEN",
-   "left": "2026-10-08T20:55:34.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-27T08:46:08.000Z",
-   "to_end": "2026-10-27T09:47:58.000Z"
-  },
-  {
-   "vessel_id": "e30c50759-9521-327d-656b-44588d4c3466",
-   "name": "ANNELIESE",
-   "mmsi": "636023897",
-   "from_port": "VE JOT",
-   "from_flag": "VEN",
-   "left": "2026-10-20T00:53:28.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-27T08:46:08.000Z",
-   "to_end": "2026-10-27T09:47:58.000Z"
+   "to_end": "2026-10-28T21:30:04.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971721",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "ce2b93c6a-ab62-062a-7c27-58a5494791b9",
@@ -35410,7 +35420,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-10-26T17:31:39.000Z",
-   "to_end": "2026-10-30T12:51:32.000Z"
+   "to_end": "2026-10-30T12:51:32.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897846",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "29d4f33d1-1a07-b3d1-596b-1c5449549fc5",
@@ -35422,31 +35446,21 @@
    "to_port": "GRAVESEND ANCHORAGE",
    "to_flag": "USA",
    "arrived": "2026-10-26T14:04:51.000Z",
-   "to_end": "2026-10-30T17:23:10.000Z"
-  },
-  {
-   "vessel_id": "3afbd4544-4788-da33-e9d2-56f9c23ffa51",
-   "name": "ONEGO DEUSTO",
-   "mmsi": "244638000",
-   "from_port": "PUERTO CABELLO",
-   "from_flag": "VEN",
-   "left": "2026-10-16T05:11:30.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-25T19:51:09.000Z",
-   "to_end": "2026-10-30T09:49:22.000Z"
-  },
-  {
-   "vessel_id": "3afbd4544-4788-da33-e9d2-56f9c23ffa51",
-   "name": "ONEGO DEUSTO",
-   "mmsi": "244638000",
-   "from_port": "PUERTO MIRANDA",
-   "from_flag": "VEN",
-   "left": "2026-10-18T14:36:47.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-25T19:51:09.000Z",
-   "to_end": "2026-10-30T09:49:22.000Z"
+   "to_end": "2026-10-30T17:23:10.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9390173",
+    "length_m": null,
+    "gt": 62201,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
@@ -35458,7 +35472,21 @@
    "to_port": "USA-1152",
    "to_flag": "USA",
    "arrived": "2026-10-25T09:08:40.000Z",
-   "to_end": "2026-10-27T16:34:35.000Z"
+   "to_end": "2026-10-27T16:34:35.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798002",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "b5252a2f6-61ee-16ae-227a-de5d36e5bb7d",
@@ -35470,7 +35498,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-10-24T12:56:06.000Z",
-   "to_end": "2026-10-25T12:44:15.000Z"
+   "to_end": "2026-10-25T12:44:15.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9978690",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "cad6da712-2b85-0a89-4a43-36bf5f5a0710",
@@ -35482,7 +35524,21 @@
    "to_port": "MARCUS HOOK",
    "to_flag": "USA",
    "arrived": "2026-10-24T05:57:08.000Z",
-   "to_end": "2026-10-26T17:26:08.000Z"
+   "to_end": "2026-10-26T17:26:08.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798428",
+    "length_m": null,
+    "gt": 14485,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
@@ -35494,19 +35550,21 @@
    "to_port": "PORT ARTHUR",
    "to_flag": "USA",
    "arrived": "2026-10-22T10:52:50.000Z",
-   "to_end": "2026-10-29T19:48:17.000Z"
-  },
-  {
-   "vessel_id": "4f4f83043-3efc-3a96-b89e-a43e2ae224d5",
-   "name": "PETREL",
-   "mmsi": "353411000",
-   "from_port": "PUERTO CABELLO",
-   "from_flag": "VEN",
-   "left": "2026-10-16T06:25:20.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-22T07:43:38.000Z",
-   "to_end": "2026-10-25T07:33:50.000Z"
+   "to_end": "2026-10-29T19:48:17.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971733",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
@@ -35518,7 +35576,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-21T23:56:28.000Z",
-   "to_end": "2026-10-23T09:08:22.000Z"
+   "to_end": "2026-10-23T09:08:22.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9729221",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "02b99559f-f474-f49b-4069-00ce49cf2511",
@@ -35530,19 +35602,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-21T07:28:00.000Z",
-   "to_end": "2026-10-25T21:36:14.000Z"
-  },
-  {
-   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
-   "name": "SEAROVER",
-   "mmsi": "249984000",
-   "from_port": "ARUBA",
-   "from_flag": "ABW",
-   "left": "2026-10-05T08:11:30.000Z",
-   "to_port": "STEUTSPASS",
-   "to_flag": "USA",
-   "arrived": "2026-10-21T05:21:33.000Z",
-   "to_end": "2026-10-29T03:43:09.000Z"
+   "to_end": "2026-10-25T21:36:14.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9414034",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
@@ -35554,7 +35628,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-21T05:21:33.000Z",
-   "to_end": "2026-10-29T03:43:09.000Z"
+   "to_end": "2026-10-29T03:43:09.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9765017",
+    "length_m": null,
+    "gt": 63758,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
@@ -35566,7 +35654,21 @@
    "to_port": "GOLA",
    "to_flag": "USA",
    "arrived": "2026-10-20T00:56:06.000Z",
-   "to_end": "2026-10-21T16:50:29.000Z"
+   "to_end": "2026-10-21T16:50:29.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779795",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
@@ -35578,7 +35680,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-10-19T17:55:21.000Z",
-   "to_end": "2026-10-24T14:36:54.000Z"
+   "to_end": "2026-10-24T14:36:54.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9794850",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "70667b3c4-4ac9-27f1-6e59-97757684cfd1",
@@ -35590,31 +35706,23 @@
    "to_port": "LOOP",
    "to_flag": "USA",
    "arrived": "2026-10-19T13:18:28.000Z",
-   "to_end": "2026-10-21T03:10:58.000Z"
-  },
-  {
-   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
-   "name": "NAVE COSMOS",
-   "mmsi": "352003298",
-   "from_port": "PUERTO MIRANDA",
-   "from_flag": "VEN",
-   "left": "2026-09-28T19:37:42.000Z",
-   "to_port": "STEUTSPASS",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T23:37:21.000Z",
-   "to_end": "2026-10-21T20:23:13.000Z"
-  },
-  {
-   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
-   "name": "NAVE COSMOS",
-   "mmsi": "352003298",
-   "from_port": "BULLENBAY",
-   "from_flag": "CUW",
-   "left": "2026-10-03T21:07:55.000Z",
-   "to_port": "STEUTSPASS",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T23:37:21.000Z",
-   "to_end": "2026-10-21T20:23:13.000Z"
+   "to_end": "2026-10-21T03:10:58.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9753545",
+    "length_m": null,
+    "gt": 81287,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING",
+     "INACTIVE"
+    ],
+    "geartypes": [
+     "TANKER",
+     "INACTIVE"
+    ]
+   }
   },
   {
    "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
@@ -35626,91 +35734,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-18T23:37:21.000Z",
-   "to_end": "2026-10-21T20:23:13.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "LA SALINA",
-   "from_flag": "VEN",
-   "left": "2026-09-16T12:34:28.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "BAJO GRANDE",
-   "from_flag": "VEN",
-   "left": "2026-09-19T14:42:49.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "BULLENBAY",
-   "from_flag": "CUW",
-   "left": "2026-09-21T23:17:40.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "AMUAY",
-   "from_flag": "VEN",
-   "left": "2026-09-26T19:31:33.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "PUERTO MIRANDA",
-   "from_flag": "VEN",
-   "left": "2026-10-05T11:46:41.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "LA SALINA",
-   "from_flag": "VEN",
-   "left": "2026-10-07T15:57:17.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
-   "name": "NISSOS CHRISTIANA",
-   "mmsi": "241359000",
-   "from_port": "BAJO GRANDE",
-   "from_flag": "VEN",
-   "left": "2026-10-10T17:50:07.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
+   "to_end": "2026-10-21T20:23:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971707",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
@@ -35722,43 +35760,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-10-18T14:08:05.000Z",
-   "to_end": "2026-10-18T15:45:36.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "ORANJESTAD",
-   "from_flag": "ABW",
-   "left": "2026-10-14T02:25:37.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T07:59:49.000Z",
-   "to_end": "2026-10-18T20:49:45.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "KRALENDIJK",
-   "from_flag": "BES",
-   "left": "2026-10-15T00:08:41.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T07:59:49.000Z",
-   "to_end": "2026-10-18T20:49:45.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "WILLEMSTAD",
-   "from_flag": "CUW",
-   "left": "2026-10-15T20:18:48.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-18T07:59:49.000Z",
-   "to_end": "2026-10-18T20:49:45.000Z"
+   "to_end": "2026-10-18T15:45:36.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9694658",
+    "length_m": null,
+    "gt": 62832,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "0da01f13f-f96a-bba1-32d6-f086655313f2",
@@ -35770,19 +35786,21 @@
    "to_port": "PORT ARTHUR",
    "to_flag": "USA",
    "arrived": "2026-10-17T22:27:18.000Z",
-   "to_end": "2026-10-18T15:27:11.000Z"
-  },
-  {
-   "vessel_id": "1b142292c-cdec-7bb0-be3f-39ebdf95810a",
-   "name": "BBC WASHINGTON",
-   "mmsi": "255806288",
-   "from_port": "GUANTA",
-   "from_flag": "VEN",
-   "left": "2026-10-08T01:05:12.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-16T21:45:34.000Z",
-   "to_end": "2026-10-20T00:40:27.000Z"
+   "to_end": "2026-10-18T15:27:11.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9934644",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "67c6b7588-8451-3612-5ec8-854554847438",
@@ -35794,7 +35812,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-10-16T04:09:01.000Z",
-   "to_end": "2026-10-16T07:42:04.000Z"
+   "to_end": "2026-10-16T07:42:04.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779587",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "3460a8855-56fe-238f-3195-279bf6a4ff18",
@@ -35806,7 +35838,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-16T02:41:51.000Z",
-   "to_end": "2026-10-17T12:52:29.000Z"
+   "to_end": "2026-10-17T12:52:29.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9998248",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "69ba38a73-3e0d-a35f-15dd-0b881e72e86a",
@@ -35818,7 +35864,21 @@
    "to_port": "BREWER COVE HAVEN",
    "to_flag": "USA",
    "arrived": "2026-10-16T01:46:58.000Z",
-   "to_end": "2026-10-17T19:44:33.000Z"
+   "to_end": "2026-10-17T19:44:33.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9794771",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "04d2e80be-eebf-f856-b4ba-6f277c0feec2",
@@ -35830,7 +35890,21 @@
    "to_port": "LOOP",
    "to_flag": "USA",
    "arrived": "2026-10-16T00:57:28.000Z",
-   "to_end": "2026-10-17T01:21:52.000Z"
+   "to_end": "2026-10-17T01:21:52.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9835848",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "62186dd7b-b135-0dcc-4f4c-d723221048e9",
@@ -35842,7 +35916,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-10-15T13:03:12.000Z",
-   "to_end": "2026-10-23T01:16:42.000Z"
+   "to_end": "2026-10-23T01:16:42.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9402495",
+    "length_m": null,
+    "gt": 63294,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "de87d5f0f-fc28-bcf0-eb44-5c224df8fdbf",
@@ -35854,19 +35942,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-14T22:21:52.000Z",
-   "to_end": "2026-10-16T01:24:40.000Z"
-  },
-  {
-   "vessel_id": "f4be97707-73f8-69db-090c-208a8f5c4208",
-   "name": "MONTE TAMARO",
-   "mmsi": "636026194",
-   "from_port": "JOSE",
-   "from_flag": "VEN",
-   "left": "2026-09-24T01:10:02.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-10-14T12:29:15.000Z",
-   "to_end": "2026-10-16T10:47:28.000Z"
+   "to_end": "2026-10-16T01:24:40.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9960291",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "f4be97707-73f8-69db-090c-208a8f5c4208",
@@ -35878,7 +35968,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-14T12:29:15.000Z",
-   "to_end": "2026-10-16T10:47:28.000Z"
+   "to_end": "2026-10-16T10:47:28.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9393096",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "8e15dedaf-f1e8-0026-7e9a-281ea8a32afd",
@@ -35890,7 +35994,21 @@
    "to_port": "NEW ORLEANS",
    "to_flag": "USA",
    "arrived": "2026-10-14T10:09:12.000Z",
-   "to_end": "2026-10-14T23:42:20.000Z"
+   "to_end": "2026-10-14T23:42:20.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9572276",
+    "length_m": null,
+    "gt": 60193,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "bfa70eee5-5b7e-63a4-d185-54abb9edf322",
@@ -35902,7 +36020,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-10-12T19:46:13.000Z",
-   "to_end": "2026-10-21T19:05:07.000Z"
+   "to_end": "2026-10-21T19:05:07.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "1028530",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
@@ -35914,7 +36046,21 @@
    "to_port": "FREEPORT",
    "to_flag": "USA",
    "arrived": "2026-10-12T13:03:18.000Z",
-   "to_end": "2026-10-14T05:16:33.000Z"
+   "to_end": "2026-10-14T05:16:33.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857860",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
@@ -35926,7 +36072,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-10-11T04:19:29.000Z",
-   "to_end": "2026-10-22T10:07:43.000Z"
+   "to_end": "2026-10-22T10:07:43.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9943061",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
@@ -35938,7 +36098,21 @@
    "to_port": "BEAUMONT",
    "to_flag": "USA",
    "arrived": "2026-10-09T12:17:19.000Z",
-   "to_end": "2026-10-18T23:39:04.000Z"
+   "to_end": "2026-10-18T23:39:04.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857858",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "2b2bf7b90-0ab3-3475-a209-1ebcc78b60ac",
@@ -35950,7 +36124,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-09T04:54:55.000Z",
-   "to_end": "2026-10-12T18:58:42.000Z"
+   "to_end": "2026-10-12T18:58:42.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9575565",
+    "length_m": null,
+    "gt": 83753,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "760681300-010e-eefe-2752-896adf7dcace",
@@ -35962,7 +36150,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-08T23:37:25.000Z",
-   "to_end": "2026-10-14T08:49:45.000Z"
+   "to_end": "2026-10-14T08:49:45.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9692325",
+    "length_m": 183.1,
+    "gt": 29327,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "e801d61e5-533e-749c-66d4-a5f4163cb649",
@@ -35974,7 +36176,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-07T11:49:01.000Z",
-   "to_end": "2026-10-12T23:51:19.000Z"
+   "to_end": "2026-10-12T23:51:19.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9488413",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "ce2b93c6a-ab62-062a-7c27-58a5494791b9",
@@ -35986,7 +36202,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-10-06T23:45:20.000Z",
-   "to_end": "2026-10-07T10:48:48.000Z"
+   "to_end": "2026-10-07T10:48:48.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897846",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "ebd74cf2a-afc4-410d-d679-438cb4f709f2",
@@ -35998,19 +36228,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-05T22:31:45.000Z",
-   "to_end": "2026-10-08T15:01:09.000Z"
-  },
-  {
-   "vessel_id": "0b5e8649c-c420-2dd8-21a7-e6d919e2f729",
-   "name": "STARLIGHT II",
-   "mmsi": "538009012",
-   "from_port": "PUNTA GUARANAO",
-   "from_flag": "VEN",
-   "left": "2026-09-20T10:22:04.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-05T00:35:41.000Z",
-   "to_end": "2026-10-06T13:33:21.000Z"
+   "to_end": "2026-10-08T15:01:09.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9428982",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "0b5e8649c-c420-2dd8-21a7-e6d919e2f729",
@@ -36022,43 +36254,21 @@
    "to_port": "MIAMI",
    "to_flag": "USA",
    "arrived": "2026-10-05T00:35:41.000Z",
-   "to_end": "2026-10-06T13:33:21.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "ORANJESTAD",
-   "from_flag": "ABW",
-   "left": "2026-09-30T02:29:58.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-04T08:00:44.000Z",
-   "to_end": "2026-10-04T20:42:52.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "KRALENDIJK",
-   "from_flag": "BES",
-   "left": "2026-10-01T00:10:40.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-04T08:00:44.000Z",
-   "to_end": "2026-10-04T20:42:52.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "WILLEMSTAD",
-   "from_flag": "CUW",
-   "left": "2026-10-01T20:13:04.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-10-04T08:00:44.000Z",
-   "to_end": "2026-10-04T20:42:52.000Z"
+   "to_end": "2026-10-06T13:33:21.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9377652",
+    "length_m": null,
+    "gt": 23248,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "4731d30b7-783f-04e4-10df-cf311ebd4c9e",
@@ -36070,19 +36280,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-04T04:49:23.000Z",
-   "to_end": "2026-10-12T07:22:24.000Z"
-  },
-  {
-   "vessel_id": "a7bca2e48-8c7a-278f-a6e5-297eafb15bf7",
-   "name": "KAREELA SPIRIT",
-   "mmsi": "538012815",
-   "from_port": "VE JOT",
-   "from_flag": "VEN",
-   "left": "2026-09-25T23:00:24.000Z",
-   "to_port": "BEAUMONT",
-   "to_flag": "USA",
-   "arrived": "2026-10-03T15:47:17.000Z",
-   "to_end": "2026-10-04T15:08:21.000Z"
+   "to_end": "2026-10-12T07:22:24.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9795103",
+    "length_m": null,
+    "gt": 62742,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "a7bca2e48-8c7a-278f-a6e5-297eafb15bf7",
@@ -36094,7 +36306,21 @@
    "to_port": "BEAUMONT",
    "to_flag": "USA",
    "arrived": "2026-10-03T15:47:17.000Z",
-   "to_end": "2026-10-04T15:08:21.000Z"
+   "to_end": "2026-10-04T15:08:21.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9683013",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "034273099-9693-6d5c-0bc6-52712815b2b7",
@@ -36106,7 +36332,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-10-03T13:56:21.000Z",
-   "to_end": "2026-10-05T19:39:43.000Z"
+   "to_end": "2026-10-05T19:39:43.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9568500",
+    "length_m": null,
+    "gt": 19349,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "79c8b8453-3579-98f4-6c2c-3b13f76de3e1",
@@ -36118,7 +36358,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-10-03T05:38:11.000Z",
-   "to_end": "2026-10-07T18:03:30.000Z"
+   "to_end": "2026-10-07T18:03:30.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971721",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "4805135bc-ca44-c23b-ea6a-5ac60bab22fa",
@@ -36130,7 +36384,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-09-30T15:19:10.000Z",
-   "to_end": "2026-10-06T23:55:58.000Z"
+   "to_end": "2026-10-06T23:55:58.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9372858",
+    "length_m": null,
+    "gt": 42010,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
@@ -36142,7 +36410,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-09-30T00:28:20.000Z",
-   "to_end": "2026-10-07T16:06:22.000Z"
+   "to_end": "2026-10-07T16:06:22.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897834",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "8c27188ac-c12a-6021-2fdc-516b402760f0",
@@ -36154,7 +36436,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-09-29T20:07:18.000Z",
-   "to_end": "2026-10-10T17:09:28.000Z"
+   "to_end": "2026-10-10T17:09:28.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9901867",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
@@ -36166,7 +36462,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-09-27T03:59:42.000Z",
-   "to_end": "2026-09-30T11:43:03.000Z"
+   "to_end": "2026-09-30T11:43:03.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9802152",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
@@ -36178,19 +36488,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-09-26T17:19:29.000Z",
-   "to_end": "2026-10-05T11:55:40.000Z"
-  },
-  {
-   "vessel_id": "02b99559f-f474-f49b-4069-00ce49cf2511",
-   "name": "P.SOPHIA",
-   "mmsi": "538010103",
-   "from_port": "PUERTO LA CRUZ",
-   "from_flag": "VEN",
-   "left": "2026-09-17T18:21:18.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-09-26T02:43:44.000Z",
-   "to_end": "2026-09-30T11:47:41.000Z"
+   "to_end": "2026-10-05T11:55:40.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971733",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "02b99559f-f474-f49b-4069-00ce49cf2511",
@@ -36202,7 +36514,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-09-26T02:43:44.000Z",
-   "to_end": "2026-09-30T11:47:41.000Z"
+   "to_end": "2026-09-30T11:47:41.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9414034",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
@@ -36214,7 +36540,21 @@
    "to_port": "GOLA",
    "to_flag": "USA",
    "arrived": "2026-09-24T17:15:02.000Z",
-   "to_end": "2026-09-25T03:14:16.000Z"
+   "to_end": "2026-09-25T03:14:16.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9729221",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
@@ -36226,43 +36566,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-09-23T16:54:36.000Z",
-   "to_end": "2026-09-28T06:17:16.000Z"
-  },
-  {
-   "vessel_id": "78adaf3e5-5471-b012-3b35-7dd21cb2f141",
-   "name": "NEW AMSTERDAM",
-   "mmsi": "244534000",
-   "from_port": "WILLEMSTAD",
-   "from_flag": "CUW",
-   "left": "2026-09-15T13:53:26.000Z",
-   "to_port": "IA",
-   "to_flag": "USA",
-   "arrived": "2026-09-23T09:38:55.000Z",
-   "to_end": "2026-09-23T18:14:02.000Z"
-  },
-  {
-   "vessel_id": "78adaf3e5-5471-b012-3b35-7dd21cb2f141",
-   "name": "NEW AMSTERDAM",
-   "mmsi": "244534000",
-   "from_port": "ARUBA",
-   "from_flag": "ABW",
-   "left": "2026-09-18T10:09:26.000Z",
-   "to_port": "IA",
-   "to_flag": "USA",
-   "arrived": "2026-09-23T09:38:55.000Z",
-   "to_end": "2026-09-23T18:14:02.000Z"
-  },
-  {
-   "vessel_id": "78adaf3e5-5471-b012-3b35-7dd21cb2f141",
-   "name": "NEW AMSTERDAM",
-   "mmsi": "244534000",
-   "from_port": "ORANJESTAD",
-   "from_flag": "ABW",
-   "left": "2026-09-19T11:15:29.000Z",
-   "to_port": "IA",
-   "to_flag": "USA",
-   "arrived": "2026-09-23T09:38:55.000Z",
-   "to_end": "2026-09-23T18:14:02.000Z"
+   "to_end": "2026-09-28T06:17:16.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779795",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
@@ -36274,43 +36592,21 @@
    "to_port": "FREEPORT",
    "to_flag": "USA",
    "arrived": "2026-09-22T18:42:14.000Z",
-   "to_end": "2026-09-26T23:40:44.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "ORANJESTAD",
-   "from_flag": "ABW",
-   "left": "2026-09-16T02:35:28.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-09-20T08:05:04.000Z",
-   "to_end": "2026-09-20T21:35:08.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "KRALENDIJK",
-   "from_flag": "BES",
-   "left": "2026-09-17T00:08:33.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-09-20T08:05:04.000Z",
-   "to_end": "2026-09-20T21:35:08.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "WILLEMSTAD",
-   "from_flag": "CUW",
-   "left": "2026-09-17T20:17:05.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-09-20T08:05:04.000Z",
-   "to_end": "2026-09-20T21:35:08.000Z"
+   "to_end": "2026-09-26T23:40:44.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9765017",
+    "length_m": null,
+    "gt": 63758,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
@@ -36322,7 +36618,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-09-17T20:09:33.000Z",
-   "to_end": "2026-09-21T17:17:03.000Z"
+   "to_end": "2026-09-21T17:17:03.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9794850",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "62186dd7b-b135-0dcc-4f4c-d723221048e9",
@@ -36334,7 +36644,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-09-16T22:33:15.000Z",
-   "to_end": "2026-09-25T00:36:00.000Z"
+   "to_end": "2026-09-25T00:36:00.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9402495",
+    "length_m": null,
+    "gt": 63294,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "042a47b94-485b-9b6d-500b-5be6585733d5",
@@ -36346,7 +36670,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-09-16T06:38:40.000Z",
-   "to_end": "2026-09-18T16:56:46.000Z"
+   "to_end": "2026-09-18T16:56:46.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9441166",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
@@ -36358,7 +36696,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-09-15T21:59:48.000Z",
-   "to_end": "2026-09-18T14:04:42.000Z"
+   "to_end": "2026-09-18T14:04:42.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857860",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
@@ -36370,7 +36722,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-09-14T20:14:24.000Z",
-   "to_end": "2026-09-27T22:41:50.000Z"
+   "to_end": "2026-09-27T22:41:50.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798002",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
@@ -36382,7 +36748,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-09-14T04:28:09.000Z",
-   "to_end": "2026-09-15T08:34:01.000Z"
+   "to_end": "2026-09-15T08:34:01.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857858",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "93ff72a32-232a-43b5-38e4-a560f65e0f13",
@@ -36394,7 +36774,21 @@
    "to_port": "LAKE CHARLES",
    "to_flag": "USA",
    "arrived": "2026-09-11T12:35:06.000Z",
-   "to_end": "2026-09-18T04:27:44.000Z"
+   "to_end": "2026-09-18T04:27:44.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9817626",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "034273099-9693-6d5c-0bc6-52712815b2b7",
@@ -36406,7 +36800,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-09-10T13:23:21.000Z",
-   "to_end": "2026-09-13T00:16:47.000Z"
+   "to_end": "2026-09-13T00:16:47.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9568500",
+    "length_m": null,
+    "gt": 19349,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
@@ -36418,43 +36826,21 @@
    "to_port": "FREEPORT",
    "to_flag": "USA",
    "arrived": "2026-09-10T00:48:01.000Z",
-   "to_end": "2026-09-10T08:55:40.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "ORANJESTAD",
-   "from_flag": "ABW",
-   "left": "2026-09-02T02:10:34.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-09-06T08:03:26.000Z",
-   "to_end": "2026-09-06T21:54:23.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "KRALENDIJK",
-   "from_flag": "BES",
-   "left": "2026-09-03T00:06:34.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-09-06T08:03:26.000Z",
-   "to_end": "2026-09-06T21:54:23.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "WILLEMSTAD",
-   "from_flag": "CUW",
-   "left": "2026-09-03T20:18:22.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-09-06T08:03:26.000Z",
-   "to_end": "2026-09-06T21:54:23.000Z"
+   "to_end": "2026-09-10T08:55:40.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897834",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "ce2b93c6a-ab62-062a-7c27-58a5494791b9",
@@ -36466,19 +36852,21 @@
    "to_port": "USA-1152",
    "to_flag": "USA",
    "arrived": "2026-09-04T15:52:58.000Z",
-   "to_end": "2026-09-06T12:39:22.000Z"
-  },
-  {
-   "vessel_id": "1d8a94ace-e39e-87fc-b560-ff76933de116",
-   "name": "HEIDRUN",
-   "mmsi": "304918000",
-   "from_port": "GUANTA",
-   "from_flag": "VEN",
-   "left": "2026-08-24T19:18:34.000Z",
-   "to_port": "HOUSTON",
-   "to_flag": "USA",
-   "arrived": "2026-09-01T12:38:34.000Z",
-   "to_end": "2026-09-03T20:06:43.000Z"
+   "to_end": "2026-09-06T12:39:22.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897846",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "79c8b8453-3579-98f4-6c2c-3b13f76de3e1",
@@ -36490,7 +36878,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-09-01T04:09:16.000Z",
-   "to_end": "2026-09-11T17:44:18.000Z"
+   "to_end": "2026-09-11T17:44:18.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971721",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
@@ -36502,7 +36904,21 @@
    "to_port": "FREEPORT",
    "to_flag": "USA",
    "arrived": "2026-08-30T16:44:16.000Z",
-   "to_end": "2026-08-31T12:56:48.000Z"
+   "to_end": "2026-08-31T12:56:48.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779795",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "62186dd7b-b135-0dcc-4f4c-d723221048e9",
@@ -36514,19 +36930,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-08-28T13:23:18.000Z",
-   "to_end": "2026-08-31T14:51:38.000Z"
-  },
-  {
-   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
-   "name": "ANDROMEDA",
-   "mmsi": "311001308",
-   "from_port": "ARUBA",
-   "from_flag": "ABW",
-   "left": "2026-08-13T17:31:41.000Z",
-   "to_port": "PASCAGOULA",
-   "to_flag": "USA",
-   "arrived": "2026-08-28T12:35:31.000Z",
-   "to_end": "2026-09-04T22:22:23.000Z"
+   "to_end": "2026-08-31T14:51:38.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9402495",
+    "length_m": null,
+    "gt": 63294,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
@@ -36538,7 +36956,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-08-28T12:35:31.000Z",
-   "to_end": "2026-09-04T22:22:23.000Z"
+   "to_end": "2026-09-04T22:22:23.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9943061",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
@@ -36550,7 +36982,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-08-26T06:35:27.000Z",
-   "to_end": "2026-09-02T19:09:55.000Z"
+   "to_end": "2026-09-02T19:09:55.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971733",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
@@ -36562,19 +37008,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-08-25T07:31:21.000Z",
-   "to_end": "2026-08-31T12:08:55.000Z"
-  },
-  {
-   "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
-   "name": "MARLIN HERA",
-   "mmsi": "538009473",
-   "from_port": "PUERTO LA CRUZ",
-   "from_flag": "VEN",
-   "left": "2026-08-11T02:23:32.000Z",
-   "to_port": "CORPUS CHRISTI",
-   "to_flag": "USA",
-   "arrived": "2026-08-25T02:32:44.000Z",
-   "to_end": "2026-08-26T23:40:15.000Z"
+   "to_end": "2026-08-31T12:08:55.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9765017",
+    "length_m": null,
+    "gt": 63758,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
@@ -36586,43 +37034,21 @@
    "to_port": "CORPUS CHRISTI",
    "to_flag": "USA",
    "arrived": "2026-08-25T02:32:44.000Z",
-   "to_end": "2026-08-26T23:40:15.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "ORANJESTAD",
-   "from_flag": "ABW",
-   "left": "2026-08-19T02:35:07.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-08-23T08:06:44.000Z",
-   "to_end": "2026-08-23T21:48:19.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "KRALENDIJK",
-   "from_flag": "BES",
-   "left": "2026-08-20T00:09:10.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-08-23T08:06:44.000Z",
-   "to_end": "2026-08-23T21:48:19.000Z"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "from_port": "WILLEMSTAD",
-   "from_flag": "CUW",
-   "left": "2026-08-20T20:19:21.000Z",
-   "to_port": "MIAMI",
-   "to_flag": "USA",
-   "arrived": "2026-08-23T08:06:44.000Z",
-   "to_end": "2026-08-23T21:48:19.000Z"
+   "to_end": "2026-08-26T23:40:15.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9729221",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "22ef454b7-79cc-848e-ce00-651e5ed399d3",
@@ -36634,7 +37060,21 @@
    "to_port": "PORT NECHES",
    "to_flag": "USA",
    "arrived": "2026-08-22T09:05:20.000Z",
-   "to_end": "2026-08-26T15:38:25.000Z"
+   "to_end": "2026-08-26T15:38:25.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "1028528",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
@@ -36646,7 +37086,21 @@
    "to_port": "FREEPORT",
    "to_flag": "USA",
    "arrived": "2026-08-21T12:32:47.000Z",
-   "to_end": "2026-08-23T13:52:49.000Z"
+   "to_end": "2026-08-23T13:52:49.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857858",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
@@ -36658,7 +37112,21 @@
    "to_port": "STEUTSPASS",
    "to_flag": "USA",
    "arrived": "2026-08-20T19:30:24.000Z",
-   "to_end": "2026-08-23T02:35:13.000Z"
+   "to_end": "2026-08-23T02:35:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9802152",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
@@ -36670,7 +37138,21 @@
    "to_port": "HOUSTON",
    "to_flag": "USA",
    "arrived": "2026-08-18T02:17:14.000Z",
-   "to_end": "2026-08-19T02:13:13.000Z"
+   "to_end": "2026-08-19T02:13:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798002",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
@@ -36682,7 +37164,21 @@
    "to_port": "PASCAGOULA",
    "to_flag": "USA",
    "arrived": "2026-08-14T03:26:59.000Z",
-   "to_end": "2026-08-17T12:15:02.000Z"
+   "to_end": "2026-08-17T12:15:02.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857860",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "4731d30b7-783f-04e4-10df-cf311ebd4c9e",
@@ -36694,19 +37190,2092 @@
    "to_port": "FREEPORT",
    "to_flag": "USA",
    "arrived": "2026-08-13T11:54:52.000Z",
-   "to_end": "2026-08-14T12:17:13.000Z"
+   "to_end": "2026-08-14T12:17:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9795103",
+    "length_m": null,
+    "gt": 62742,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  }
+ ],
+ "legs_to_us": [
+  {
+   "vessel_id": "93ff72a32-232a-43b5-38e4-a560f65e0f13",
+   "name": "PRIMEWAY",
+   "mmsi": "636019117",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-19T20:44:52.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-30T17:09:42.000Z",
+   "to_end": "2026-10-30T22:31:20.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9817626",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "b1a493041-10a4-46e6-0037-d6e749575ac5",
+   "name": "SOCRATES",
+   "mmsi": "636013615",
+   "from_port": "PUNTA GUARANAO",
+   "from_flag": "VEN",
+   "left": "2026-10-26T04:49:48.000Z",
+   "to_port": "PORT EVERGLADES",
+   "to_flag": "USA",
+   "arrived": "2026-10-30T12:32:12.000Z",
+   "to_end": "2026-10-30T13:33:33.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9390692",
+    "length_m": null,
+    "gt": 41676,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "name": "IONIC ANAX",
+   "mmsi": "538007411",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-23T16:42:54.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-10-30T03:41:23.000Z",
+   "to_end": "2026-10-30T04:33:57.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9802152",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "5ea5625ec-cdab-a325-0854-28ff3d552799",
+   "name": "EPIC SALINA",
+   "mmsi": "563014600",
+   "from_port": "ORANJESTAD",
+   "from_flag": "ABW",
+   "left": "2026-10-24T14:43:14.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-29T22:07:01.000Z",
+   "to_end": "2026-10-30T00:50:53.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9733569",
+    "length_m": null,
+    "gt": 8319,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "79c8b8453-3579-98f4-6c2c-3b13f76de3e1",
+   "name": "NAVE PHOTON",
+   "mmsi": "352004479",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-21T15:20:36.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-10-28T05:05:06.000Z",
+   "to_end": "2026-10-28T21:30:04.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971721",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "e30c50759-9521-327d-656b-44588d4c3466",
+   "name": "ANNELIESE",
+   "mmsi": "636023897",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-10-20T00:53:28.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-27T08:46:08.000Z",
+   "to_end": "2026-10-27T09:47:58.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "ce2b93c6a-ab62-062a-7c27-58a5494791b9",
+   "name": "CANOPUS VOYAGER",
+   "mmsi": "311000954",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-20T00:41:33.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-10-26T17:31:39.000Z",
+   "to_end": "2026-10-30T12:51:32.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897846",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "29d4f33d1-1a07-b3d1-596b-1c5449549fc5",
+   "name": "ELLIE LADY",
+   "mmsi": "636014423",
+   "from_port": "PUERTO LA CRUZ",
+   "from_flag": "VEN",
+   "left": "2026-10-20T01:25:39.000Z",
+   "to_port": "GRAVESEND ANCHORAGE",
+   "to_flag": "USA",
+   "arrived": "2026-10-26T14:04:51.000Z",
+   "to_end": "2026-10-30T17:23:10.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9390173",
+    "length_m": null,
+    "gt": 62201,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "3afbd4544-4788-da33-e9d2-56f9c23ffa51",
+   "name": "ONEGO DEUSTO",
+   "mmsi": "244638000",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-18T14:36:47.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-25T19:51:09.000Z",
+   "to_end": "2026-10-30T09:49:22.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
+   "name": "TORM HELLERUP",
+   "mmsi": "219029327",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-16T23:55:12.000Z",
+   "to_port": "USA-1152",
+   "to_flag": "USA",
+   "arrived": "2026-10-25T09:08:40.000Z",
+   "to_end": "2026-10-27T16:34:35.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798002",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "b5252a2f6-61ee-16ae-227a-de5d36e5bb7d",
+   "name": "ARCTIC STAR",
+   "mmsi": "241952000",
+   "from_port": "BULLENBAY",
+   "from_flag": "CUW",
+   "left": "2026-10-18T23:42:41.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-10-24T12:56:06.000Z",
+   "to_end": "2026-10-25T12:44:15.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9978690",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "cad6da712-2b85-0a89-4a43-36bf5f5a0710",
+   "name": "ATLANTIC ASPHALT",
+   "mmsi": "538007471",
+   "from_port": "AMUAY",
+   "from_flag": "VEN",
+   "left": "2026-10-16T21:59:37.000Z",
+   "to_port": "MARCUS HOOK",
+   "to_flag": "USA",
+   "arrived": "2026-10-24T05:57:08.000Z",
+   "to_end": "2026-10-26T17:26:08.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798428",
+    "length_m": null,
+    "gt": 14485,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "name": "NAVE NEUTRINO",
+   "mmsi": "352004839",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-16T12:07:43.000Z",
+   "to_port": "PORT ARTHUR",
+   "to_flag": "USA",
+   "arrived": "2026-10-22T10:52:50.000Z",
+   "to_end": "2026-10-29T19:48:17.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971733",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "4f4f83043-3efc-3a96-b89e-a43e2ae224d5",
+   "name": "PETREL",
+   "mmsi": "353411000",
+   "from_port": "PUERTO CABELLO",
+   "from_flag": "VEN",
+   "left": "2026-10-16T06:25:20.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-22T07:43:38.000Z",
+   "to_end": "2026-10-25T07:33:50.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
+   "name": "MARLIN HERA",
+   "mmsi": "538009473",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-15T18:10:15.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-21T23:56:28.000Z",
+   "to_end": "2026-10-23T09:08:22.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9729221",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "02b99559f-f474-f49b-4069-00ce49cf2511",
+   "name": "P.SOPHIA",
+   "mmsi": "538010103",
+   "from_port": "AMUAY",
+   "from_flag": "VEN",
+   "left": "2026-10-14T07:26:12.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-21T07:28:00.000Z",
+   "to_end": "2026-10-25T21:36:14.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9414034",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "name": "SEAROVER",
+   "mmsi": "249984000",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-14T18:16:33.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-21T05:21:33.000Z",
+   "to_end": "2026-10-29T03:43:09.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9765017",
+    "length_m": null,
+    "gt": 63758,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "name": "IONIC ANASSA",
+   "mmsi": "538006696",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-13T20:52:56.000Z",
+   "to_port": "GOLA",
+   "to_flag": "USA",
+   "arrived": "2026-10-20T00:56:06.000Z",
+   "to_end": "2026-10-21T16:50:29.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779795",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
+   "name": "ADVANTAGE PORTOCERVO",
+   "mmsi": "538010650",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-10-12T22:29:08.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-10-19T17:55:21.000Z",
+   "to_end": "2026-10-24T14:36:54.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9794850",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "70667b3c4-4ac9-27f1-6e59-97757684cfd1",
+   "name": "PRUDENT WARRIOR",
+   "mmsi": "241485000",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-10-10T20:39:07.000Z",
+   "to_port": "LOOP",
+   "to_flag": "USA",
+   "arrived": "2026-10-19T13:18:28.000Z",
+   "to_end": "2026-10-21T03:10:58.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9753545",
+    "length_m": null,
+    "gt": 81287,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING",
+     "INACTIVE"
+    ],
+    "geartypes": [
+     "TANKER",
+     "INACTIVE"
+    ]
+   }
+  },
+  {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "name": "NAVE COSMOS",
+   "mmsi": "352003298",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-11T18:48:06.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-18T23:37:21.000Z",
+   "to_end": "2026-10-21T20:23:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971707",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "c113a93d8-8071-91a9-7b7f-a45b07aa7ed0",
+   "name": "NISSOS CHRISTIANA",
+   "mmsi": "241359000",
+   "from_port": "BULLENBAY",
+   "from_flag": "CUW",
+   "left": "2026-10-12T20:33:58.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-10-18T14:08:05.000Z",
+   "to_end": "2026-10-18T15:45:36.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9694658",
+    "length_m": null,
+    "gt": 62832,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
    "name": "CARNIVAL HORIZON",
    "mmsi": "370039000",
-   "from_port": "KRALENDIJK",
-   "from_flag": "BES",
-   "left": "2026-08-06T00:05:44.000Z",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-10-15T20:18:48.000Z",
    "to_port": "MIAMI",
    "to_flag": "USA",
-   "arrived": "2026-08-09T08:11:31.000Z",
-   "to_end": "2026-08-09T21:02:19.000Z"
+   "arrived": "2026-10-18T07:59:49.000Z",
+   "to_end": "2026-10-18T20:49:45.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "0da01f13f-f96a-bba1-32d6-f086655313f2",
+   "name": "GREEN AZURE",
+   "mmsi": "255915741",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-11T02:26:36.000Z",
+   "to_port": "PORT ARTHUR",
+   "to_flag": "USA",
+   "arrived": "2026-10-17T22:27:18.000Z",
+   "to_end": "2026-10-18T15:27:11.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9934644",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "1b142292c-cdec-7bb0-be3f-39ebdf95810a",
+   "name": "BBC WASHINGTON",
+   "mmsi": "255806288",
+   "from_port": "GUANTA",
+   "from_flag": "VEN",
+   "left": "2026-10-08T01:05:12.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-16T21:45:34.000Z",
+   "to_end": "2026-10-20T00:40:27.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "67c6b7588-8451-3612-5ec8-854554847438",
+   "name": "AMAZON FALCON",
+   "mmsi": "241764000",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-09T00:26:21.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-10-16T04:09:01.000Z",
+   "to_end": "2026-10-16T07:42:04.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779587",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "3460a8855-56fe-238f-3195-279bf6a4ff18",
+   "name": "PACIFIC MONTANA",
+   "mmsi": "636023957",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-10-10T18:13:41.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-16T02:41:51.000Z",
+   "to_end": "2026-10-17T12:52:29.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9998248",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "69ba38a73-3e0d-a35f-15dd-0b881e72e86a",
+   "name": "LILSTELLA",
+   "mmsi": "477809900",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-10-08T23:02:25.000Z",
+   "to_port": "BREWER COVE HAVEN",
+   "to_flag": "USA",
+   "arrived": "2026-10-16T01:46:58.000Z",
+   "to_end": "2026-10-17T19:44:33.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9794771",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "04d2e80be-eebf-f856-b4ba-6f277c0feec2",
+   "name": "MARLIN SICILY",
+   "mmsi": "538009744",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-30T23:34:07.000Z",
+   "to_port": "LOOP",
+   "to_flag": "USA",
+   "arrived": "2026-10-16T00:57:28.000Z",
+   "to_end": "2026-10-17T01:21:52.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9835848",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "62186dd7b-b135-0dcc-4f4c-d723221048e9",
+   "name": "DUBAI CHARM",
+   "mmsi": "538003617",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-08T16:42:23.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-10-15T13:03:12.000Z",
+   "to_end": "2026-10-23T01:16:42.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9402495",
+    "length_m": null,
+    "gt": 63294,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "de87d5f0f-fc28-bcf0-eb44-5c224df8fdbf",
+   "name": "PARTRIDGE PACIFIC",
+   "mmsi": "563179600",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-10-08T18:08:46.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-14T22:21:52.000Z",
+   "to_end": "2026-10-16T01:24:40.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9960291",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "f4be97707-73f8-69db-090c-208a8f5c4208",
+   "name": "MONTE TAMARO",
+   "mmsi": "636026194",
+   "from_port": "PUNTA CARDON",
+   "from_flag": "VEN",
+   "left": "2026-10-03T19:23:48.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-14T12:29:15.000Z",
+   "to_end": "2026-10-16T10:47:28.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9393096",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "8e15dedaf-f1e8-0026-7e9a-281ea8a32afd",
+   "name": "LUZON SPIRIT",
+   "mmsi": "311000467",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-08T01:42:55.000Z",
+   "to_port": "NEW ORLEANS",
+   "to_flag": "USA",
+   "arrived": "2026-10-14T10:09:12.000Z",
+   "to_end": "2026-10-14T23:42:20.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9572276",
+    "length_m": null,
+    "gt": 60193,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "bfa70eee5-5b7e-63a4-d185-54abb9edf322",
+   "name": "LAUSANNE STAR",
+   "mmsi": "255917263",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-28T00:27:30.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-10-12T19:46:13.000Z",
+   "to_end": "2026-10-21T19:05:07.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "1028530",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "name": "CARIBBEAN VOYAGER",
+   "mmsi": "311000864",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-10-01T18:27:03.000Z",
+   "to_port": "FREEPORT",
+   "to_flag": "USA",
+   "arrived": "2026-10-12T13:03:18.000Z",
+   "to_end": "2026-10-14T05:16:33.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857860",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
+   "name": "ANDROMEDA",
+   "mmsi": "311001308",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-03T12:49:02.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-10-11T04:19:29.000Z",
+   "to_end": "2026-10-22T10:07:43.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9943061",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "name": "MEDITERRANEANVOYAGER",
+   "mmsi": "311000863",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-10-03T12:19:34.000Z",
+   "to_port": "BEAUMONT",
+   "to_flag": "USA",
+   "arrived": "2026-10-09T12:17:19.000Z",
+   "to_end": "2026-10-18T23:39:04.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857858",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "2b2bf7b90-0ab3-3475-a209-1ebcc78b60ac",
+   "name": "SONANGOL HUILA",
+   "mmsi": "311066400",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-26T21:35:23.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-09T04:54:55.000Z",
+   "to_end": "2026-10-12T18:58:42.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9575565",
+    "length_m": null,
+    "gt": 83753,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "760681300-010e-eefe-2752-896adf7dcace",
+   "name": "SILVER ZOE",
+   "mmsi": "538006366",
+   "from_port": "AMUAY",
+   "from_flag": "VEN",
+   "left": "2026-10-03T04:47:24.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-08T23:37:25.000Z",
+   "to_end": "2026-10-14T08:49:45.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9692325",
+    "length_m": 183.1,
+    "gt": 29327,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "e801d61e5-533e-749c-66d4-a5f4163cb649",
+   "name": "VOULA",
+   "mmsi": "538011039",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-30T16:07:38.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-07T11:49:01.000Z",
+   "to_end": "2026-10-12T23:51:19.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9488413",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "ce2b93c6a-ab62-062a-7c27-58a5494791b9",
+   "name": "CANOPUS VOYAGER",
+   "mmsi": "311000954",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-29T20:20:43.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-10-06T23:45:20.000Z",
+   "to_end": "2026-10-07T10:48:48.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897846",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "ebd74cf2a-afc4-410d-d679-438cb4f709f2",
+   "name": "TORM GWENDOLYN",
+   "mmsi": "563216100",
+   "from_port": "JOSE",
+   "from_flag": "VEN",
+   "left": "2026-09-29T20:33:06.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-05T22:31:45.000Z",
+   "to_end": "2026-10-08T15:01:09.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9428982",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "0b5e8649c-c420-2dd8-21a7-e6d919e2f729",
+   "name": "STARLIGHT II",
+   "mmsi": "538009012",
+   "from_port": "SINT EUSTATIUS",
+   "from_flag": "BES",
+   "left": "2026-10-01T12:33:49.000Z",
+   "to_port": "MIAMI",
+   "to_flag": "USA",
+   "arrived": "2026-10-05T00:35:41.000Z",
+   "to_end": "2026-10-06T13:33:21.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9377652",
+    "length_m": null,
+    "gt": 23248,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
+   "name": "CARNIVAL HORIZON",
+   "mmsi": "370039000",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-10-01T20:13:04.000Z",
+   "to_port": "MIAMI",
+   "to_flag": "USA",
+   "arrived": "2026-10-04T08:00:44.000Z",
+   "to_end": "2026-10-04T20:42:52.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "4731d30b7-783f-04e4-10df-cf311ebd4c9e",
+   "name": "EAGLE LE HAVRE",
+   "mmsi": "228091700",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-09-27T23:14:49.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-04T04:49:23.000Z",
+   "to_end": "2026-10-12T07:22:24.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9795103",
+    "length_m": null,
+    "gt": 62742,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a7bca2e48-8c7a-278f-a6e5-297eafb15bf7",
+   "name": "KAREELA SPIRIT",
+   "mmsi": "538012815",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-09-26T19:45:49.000Z",
+   "to_port": "BEAUMONT",
+   "to_flag": "USA",
+   "arrived": "2026-10-03T15:47:17.000Z",
+   "to_end": "2026-10-04T15:08:21.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9683013",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "034273099-9693-6d5c-0bc6-52712815b2b7",
+   "name": "SAKURA BELLE",
+   "mmsi": "356186000",
+   "from_port": "JOSE",
+   "from_flag": "VEN",
+   "left": "2026-09-26T21:31:56.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-10-03T13:56:21.000Z",
+   "to_end": "2026-10-05T19:39:43.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9568500",
+    "length_m": null,
+    "gt": 19349,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "79c8b8453-3579-98f4-6c2c-3b13f76de3e1",
+   "name": "NAVE PHOTON",
+   "mmsi": "352004479",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-09-26T17:24:37.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-10-03T05:38:11.000Z",
+   "to_end": "2026-10-07T18:03:30.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971721",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "4805135bc-ca44-c23b-ea6a-5ac60bab22fa",
+   "name": "LADY CHRISTINA",
+   "mmsi": "636014739",
+   "from_port": "SINT EUSTATIUS",
+   "from_flag": "BES",
+   "left": "2026-09-16T18:02:32.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-09-30T15:19:10.000Z",
+   "to_end": "2026-10-06T23:55:58.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9372858",
+    "length_m": null,
+    "gt": 42010,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
+   "name": "CARINA VOYAGER",
+   "mmsi": "311000953",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-09-23T14:57:11.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-09-30T00:28:20.000Z",
+   "to_end": "2026-10-07T16:06:22.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897834",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "8c27188ac-c12a-6021-2fdc-516b402760f0",
+   "name": "ORCHID SPIRIT",
+   "mmsi": "311001568",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-22T18:14:57.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-09-29T20:07:18.000Z",
+   "to_end": "2026-10-10T17:09:28.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9901867",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "name": "IONIC ANAX",
+   "mmsi": "538007411",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-09-03T11:17:42.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-09-27T03:59:42.000Z",
+   "to_end": "2026-09-30T11:43:03.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9802152",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "name": "NAVE NEUTRINO",
+   "mmsi": "352004839",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-20T21:31:50.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-09-26T17:19:29.000Z",
+   "to_end": "2026-10-05T11:55:40.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971733",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "02b99559f-f474-f49b-4069-00ce49cf2511",
+   "name": "P.SOPHIA",
+   "mmsi": "538010103",
+   "from_port": "JOSE",
+   "from_flag": "VEN",
+   "left": "2026-09-19T15:01:43.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-09-26T02:43:44.000Z",
+   "to_end": "2026-09-30T11:47:41.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9414034",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
+   "name": "MARLIN HERA",
+   "mmsi": "538009473",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-12T22:50:08.000Z",
+   "to_port": "GOLA",
+   "to_flag": "USA",
+   "arrived": "2026-09-24T17:15:02.000Z",
+   "to_end": "2026-09-25T03:14:16.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9729221",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "name": "IONIC ANASSA",
+   "mmsi": "538006696",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-09-17T12:35:35.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-09-23T16:54:36.000Z",
+   "to_end": "2026-09-28T06:17:16.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779795",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "78adaf3e5-5471-b012-3b35-7dd21cb2f141",
+   "name": "NEW AMSTERDAM",
+   "mmsi": "244534000",
+   "from_port": "ORANJESTAD",
+   "from_flag": "ABW",
+   "left": "2026-09-19T11:15:29.000Z",
+   "to_port": "IA",
+   "to_flag": "USA",
+   "arrived": "2026-09-23T09:38:55.000Z",
+   "to_end": "2026-09-23T18:14:02.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "name": "SEAROVER",
+   "mmsi": "249984000",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-15T18:01:18.000Z",
+   "to_port": "FREEPORT",
+   "to_flag": "USA",
+   "arrived": "2026-09-22T18:42:14.000Z",
+   "to_end": "2026-09-26T23:40:44.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9765017",
+    "length_m": null,
+    "gt": 63758,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
+   "name": "CARNIVAL HORIZON",
+   "mmsi": "370039000",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-09-17T20:17:05.000Z",
+   "to_port": "MIAMI",
+   "to_flag": "USA",
+   "arrived": "2026-09-20T08:05:04.000Z",
+   "to_end": "2026-09-20T21:35:08.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
+   "name": "ADVANTAGE PORTOCERVO",
+   "mmsi": "538010650",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-04T20:18:18.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-09-17T20:09:33.000Z",
+   "to_end": "2026-09-21T17:17:03.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9794850",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "62186dd7b-b135-0dcc-4f4c-d723221048e9",
+   "name": "DUBAI CHARM",
+   "mmsi": "538003617",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-09-09T17:16:16.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-09-16T22:33:15.000Z",
+   "to_end": "2026-09-25T00:36:00.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9402495",
+    "length_m": null,
+    "gt": 63294,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "042a47b94-485b-9b6d-500b-5be6585733d5",
+   "name": "DAIQUIRI",
+   "mmsi": "538012522",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-09-08T16:45:04.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-09-16T06:38:40.000Z",
+   "to_end": "2026-09-18T16:56:46.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9441166",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "name": "CARIBBEAN VOYAGER",
+   "mmsi": "311000864",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-08-31T03:30:37.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-09-15T21:59:48.000Z",
+   "to_end": "2026-09-18T14:04:42.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857860",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
+   "name": "TORM HELLERUP",
+   "mmsi": "219029327",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-08T01:49:05.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-09-14T20:14:24.000Z",
+   "to_end": "2026-09-27T22:41:50.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798002",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "name": "MEDITERRANEANVOYAGER",
+   "mmsi": "311000863",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-09-08T17:29:55.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-09-14T04:28:09.000Z",
+   "to_end": "2026-09-15T08:34:01.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857858",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "93ff72a32-232a-43b5-38e4-a560f65e0f13",
+   "name": "PRIMEWAY",
+   "mmsi": "636019117",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-02T04:32:11.000Z",
+   "to_port": "LAKE CHARLES",
+   "to_flag": "USA",
+   "arrived": "2026-09-11T12:35:06.000Z",
+   "to_end": "2026-09-18T04:27:44.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9817626",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "034273099-9693-6d5c-0bc6-52712815b2b7",
+   "name": "SAKURA BELLE",
+   "mmsi": "356186000",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-09-03T19:08:53.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-09-10T13:23:21.000Z",
+   "to_end": "2026-09-13T00:16:47.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9568500",
+    "length_m": null,
+    "gt": 19349,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
+   "name": "CARINA VOYAGER",
+   "mmsi": "311000953",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-09-02T20:30:35.000Z",
+   "to_port": "FREEPORT",
+   "to_flag": "USA",
+   "arrived": "2026-09-10T00:48:01.000Z",
+   "to_end": "2026-09-10T08:55:40.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897834",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
+   "name": "CARNIVAL HORIZON",
+   "mmsi": "370039000",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-09-03T20:18:22.000Z",
+   "to_port": "MIAMI",
+   "to_flag": "USA",
+   "arrived": "2026-09-06T08:03:26.000Z",
+   "to_end": "2026-09-06T21:54:23.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "ce2b93c6a-ab62-062a-7c27-58a5494791b9",
+   "name": "CANOPUS VOYAGER",
+   "mmsi": "311000954",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-08-25T16:51:22.000Z",
+   "to_port": "USA-1152",
+   "to_flag": "USA",
+   "arrived": "2026-09-04T15:52:58.000Z",
+   "to_end": "2026-09-06T12:39:22.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9897846",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "1d8a94ace-e39e-87fc-b560-ff76933de116",
+   "name": "HEIDRUN",
+   "mmsi": "304918000",
+   "from_port": "GUANTA",
+   "from_flag": "VEN",
+   "left": "2026-08-24T19:18:34.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-09-01T12:38:34.000Z",
+   "to_end": "2026-09-03T20:06:43.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "79c8b8453-3579-98f4-6c2c-3b13f76de3e1",
+   "name": "NAVE PHOTON",
+   "mmsi": "352004479",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-08-24T15:57:49.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-09-01T04:09:16.000Z",
+   "to_end": "2026-09-11T17:44:18.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971721",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "name": "IONIC ANASSA",
+   "mmsi": "538006696",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-08-23T14:21:09.000Z",
+   "to_port": "FREEPORT",
+   "to_flag": "USA",
+   "arrived": "2026-08-30T16:44:16.000Z",
+   "to_end": "2026-08-31T12:56:48.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9779795",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "62186dd7b-b135-0dcc-4f4c-d723221048e9",
+   "name": "DUBAI CHARM",
+   "mmsi": "538003617",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-08-21T15:15:29.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-08-28T13:23:18.000Z",
+   "to_end": "2026-08-31T14:51:38.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9402495",
+    "length_m": null,
+    "gt": 63294,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
+   "name": "ANDROMEDA",
+   "mmsi": "311001308",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-08-22T16:17:02.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-08-28T12:35:31.000Z",
+   "to_end": "2026-09-04T22:22:23.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9943061",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "name": "NAVE NEUTRINO",
+   "mmsi": "352004839",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-08-20T00:57:45.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-08-26T06:35:27.000Z",
+   "to_end": "2026-09-02T19:09:55.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9971733",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "name": "SEAROVER",
+   "mmsi": "249984000",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-08-18T19:54:07.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-08-25T07:31:21.000Z",
+   "to_end": "2026-08-31T12:08:55.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9765017",
+    "length_m": null,
+    "gt": 63758,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
+   "name": "MARLIN HERA",
+   "mmsi": "538009473",
+   "from_port": "AMUAY",
+   "from_flag": "VEN",
+   "left": "2026-08-16T03:41:05.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "to_flag": "USA",
+   "arrived": "2026-08-25T02:32:44.000Z",
+   "to_end": "2026-08-26T23:40:15.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9729221",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
+   "name": "CARNIVAL HORIZON",
+   "mmsi": "370039000",
+   "from_port": "WILLEMSTAD",
+   "from_flag": "CUW",
+   "left": "2026-08-20T20:19:21.000Z",
+   "to_port": "MIAMI",
+   "to_flag": "USA",
+   "arrived": "2026-08-23T08:06:44.000Z",
+   "to_end": "2026-08-23T21:48:19.000Z",
+   "type": "cargo"
+  },
+  {
+   "vessel_id": "22ef454b7-79cc-848e-ce00-651e5ed399d3",
+   "name": "GENEVA STAR",
+   "mmsi": "538011663",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-08-12T23:35:24.000Z",
+   "to_port": "PORT NECHES",
+   "to_flag": "USA",
+   "arrived": "2026-08-22T09:05:20.000Z",
+   "to_end": "2026-08-26T15:38:25.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "1028528",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "name": "MEDITERRANEANVOYAGER",
+   "mmsi": "311000863",
+   "from_port": "VE JOT",
+   "from_flag": "VEN",
+   "left": "2026-08-12T02:42:48.000Z",
+   "to_port": "FREEPORT",
+   "to_flag": "USA",
+   "arrived": "2026-08-21T12:32:47.000Z",
+   "to_end": "2026-08-23T13:52:49.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857858",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "name": "IONIC ANAX",
+   "mmsi": "538007411",
+   "from_port": "PUERTO MIRANDA",
+   "from_flag": "VEN",
+   "left": "2026-08-14T21:12:44.000Z",
+   "to_port": "STEUTSPASS",
+   "to_flag": "USA",
+   "arrived": "2026-08-20T19:30:24.000Z",
+   "to_end": "2026-08-23T02:35:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9802152",
+    "length_m": null,
+    "gt": 63502,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
+   "name": "TORM HELLERUP",
+   "mmsi": "219029327",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-08-10T22:08:44.000Z",
+   "to_port": "HOUSTON",
+   "to_flag": "USA",
+   "arrived": "2026-08-18T02:17:14.000Z",
+   "to_end": "2026-08-19T02:13:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9798002",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "name": "CARIBBEAN VOYAGER",
+   "mmsi": "311000864",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-08-06T10:47:12.000Z",
+   "to_port": "PASCAGOULA",
+   "to_flag": "USA",
+   "arrived": "2026-08-14T03:26:59.000Z",
+   "to_end": "2026-08-17T12:15:02.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9857860",
+    "length_m": null,
+    "gt": null,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "4731d30b7-783f-04e4-10df-cf311ebd4c9e",
+   "name": "EAGLE LE HAVRE",
+   "mmsi": "228091700",
+   "from_port": "JOSE VENEZUELA",
+   "from_flag": "VEN",
+   "left": "2026-08-06T17:08:45.000Z",
+   "to_port": "FREEPORT",
+   "to_flag": "USA",
+   "arrived": "2026-08-13T11:54:52.000Z",
+   "to_end": "2026-08-14T12:17:13.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9795103",
+    "length_m": null,
+    "gt": 62742,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
   },
   {
    "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
@@ -36718,7 +39287,8 @@
    "to_port": "MIAMI",
    "to_flag": "USA",
    "arrived": "2026-08-09T08:11:31.000Z",
-   "to_end": "2026-08-09T21:02:19.000Z"
+   "to_end": "2026-08-09T21:02:19.000Z",
+   "type": "cargo"
   }
  ],
  "legs_all": [
@@ -39124,5 +41694,39 @@
   }
  ],
  "vessels_followed": 649,
+ "identity_fields": {
+  "registryInfoTotalRecords": "int",
+  "registryInfo": "list",
+  "registryOwners": "list",
+  "registryPublicAuthorizations": "list",
+  "combinedSourcesInfo": [
+   "vesselId",
+   "geartypes",
+   "shiptypes",
+   "vesselClassSc",
+   "atomicClassSc",
+   "atomicClassScoreSc",
+   "bestLengthM",
+   "bestTonnageGt",
+   "bestEnginePowerKw",
+   "maxSpeedKn"
+  ],
+  "selfReportedInfo": [
+   "id",
+   "ssvid",
+   "shipname",
+   "nShipname",
+   "flag",
+   "callsign",
+   "imo",
+   "messagesCounter",
+   "positionsCounter",
+   "sourceCode",
+   "matchFields",
+   "transmissionDateFrom",
+   "transmissionDateTo"
+  ],
+  "dataset": "str"
+ },
  "log": []
 }
