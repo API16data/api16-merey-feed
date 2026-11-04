@@ -1,6 +1,46 @@
 {
  "items": [
   {
+   "id": "d080592ea7ae",
+   "date": "2026-11-04T17:10Z",
+   "title": "Reuters: Petróleo venezolano registra estancamiento en producción y altos precios de flete",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdThWcG5EaXA4ZTNCeF9jMFh5dlNqOWhHd1RWMGlULV9aSFh1VVBBc1drM3l1akNPWHM4OGlGcURQQkVoSUlQb2lMZDZSM01KanFVQ3ZiRWNVWDhtcHFCRzByYVhYdlhTbUZwbkJfRWhRNzdzR1V3dkpPbW9nYmp2U2FRMHJlZk5WZ19yc3hUQjVKaHlFUElhaFk4UnczY2llczd0ZjREdFA0czMweEM2bmlXZTlldzBHaEpEQ3phckV3aGs?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "db3cebb5bab6",
+   "date": "2026-11-04T17:03Z",
+   "title": "Venezuela aumenta su producción petrolera un 8,5 % y alcanza 1,25 millones de barriles diarios",
+   "source": "ElOriente.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeFFGaHJDZUJMRHNVeU5NNkNUdTRoaFZDXzFueURJT3lTd3R1bFBnNkdjWEVBR0lnZVFFMWtBX3JGV19fS2FPR2RvaHc1ZDBaaHdQYVY1OXZIR2NjcDQzU21ERVRNd2RVaVc1dUNQWEswVGI3QVVBNXlFbS1zbmFqOTdNZnRzQlo5Ti1uSFdfWWQwQWYzUGxCUzBVRmpBaUk1d2tVOGs0RWR1Q1E3blllV2ZzQUk2YmNyOUR0bFg3OUc3YllLTjBEZmdHNA?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "6b78f5e15e3e",
+   "date": "2026-11-04T16:57Z",
+   "title": "GeoPark readies Venezuela operations as it adds acreage in Argentina’s Vaca Muerta",
+   "source": "BNamericas",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVZFRkRpSGktSlF5TTlNWnNBaTFDa1oySktrc0Nzb3J3WV8tZ2ttQnp3YkJrTjBQYWVJcDJqZ2hIZFVmcFFhdVVRcEZPcTliMFEzRU93dVhvUXVOWndiekRaelhUcTcza1B6NFYxeDdWZ1VoV0tDZ0hfbEtSM21YQ0FyT0MyR1JGWnZTaGtySWloY05rS00xejhQdk45LVJvZkVFZmFmWWNSd2RUT0lpS1oxWXdXQmc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "b30c6ee299b1",
+   "date": "2026-11-04T16:45Z",
+   "title": "PDVSA fortalece capacidad industrial para el desarrollo nacional con bienestar social",
+   "source": "teleSUR",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UdFU3THNMRi1mSnlKZnJRMkVBc0hvOGk2akxWM0RKUGdPOTZabDVnazlNeDY2QVJUb2hXSVk1RjF6Q1psUUMwcHBuQzdVSmlxRUY0SjZIbWRBT29rWE4ybDNjWlR1ZmZlLXQwSGh0NEtHZDlRbW1JWQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "d9413835e04c",
    "date": "2026-11-04T15:39Z",
    "title": "El Tigre busca rugir con el renacer petrolero venezolano",
@@ -348,6 +388,16 @@
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUjNQMHBTTFZoUG53dFloZGFLTHhad0tmT3JQV2RzeGdGb2x4RlNyT0JZTC1lc19RTHJ6TEtVUDFxWF82OU0ySGR6eW5GU1NwVVE4eWM1SmVJU2t2Y1dKLWNkaDNGM09LaHBQcEpVMDlMUDAwT0dMeENqdFo3eUU3TDBCM1ViRGFoREVPWjhQVFU4WDJ3?oc=5",
    "category": "Investment",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "9863ba4420af",
+   "date": "2026-11-03T22:20Z",
+   "title": "Iran Continues Crude Exports Despite US Blockade, Vortexa Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NBRlNzMTlGVzhjOF81RjZHS0p4d1RvSUxOMEVkREJxblVJaGlvRlpqZ3U3TEZ6NWNNbVRRZGM4dnNOaWVCWFQ1ck9XZXB5ekpJNFhMTFpGRjNXUmc5ODBOdjhjOE5VaEVJM3BLZW80bk1ITjlDVFFGaHpJd2Jwek14SmxBLTNHLVFqYkRlTWlsVFRqVG5V?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7695,56 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "242bcdc1b99a",
-   "date": "2026-10-28T08:05Z",
-   "title": "Venezuela’s Revised Hydrocarbons Law Ties Investor Terms to Asset Type",
-   "source": "Africa.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdW82TmFIVkdBSjdVZmQwUmt2RUxGQWkyTngxUVlsXy1FLVZpU0ZzclNWaDNHZWhyTW1LTFdsVks0OF9DX0NUUWhad3cyTTdsQl9jbldxeGNnTTlWTHZaYXZmcW9RQ3pJVDExOVVnSjhBbmRIWjhXRGdySUhMUkQ3M25CTF95WGZRaExxU0EtMVlSVjA2bVZr?oc=5",
-   "category": "Investment",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "ec7c1a40500d",
-   "date": "2026-10-28T08:01Z",
-   "title": "#WATCH 🎥 | US President Donald Trump has floated the idea of Venezuela becoming the United States’ 51st state, saying the oil-rich country could become prosperous under closer US ties. “Who knows, maybe someday soon it will become a prosperous 51s",
-   "source": "LinkedIn",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLXlXU0VRSGU0TFE4bFdPUjNOS09DUlE3MGRGbGQzU2pCcGZEUmlzSUlHT2djRlA5VGVwT2NIV1RKTmNhenE3TXQ2OTJiRVFsM29TeVd2Yi1PN29XVThTOTdpRnMzdmg5UklZMHh2ZDVOYS1CMVkzdFRLRUdJXzNVOTYtMEdEVmNuNmlB?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "aaf153e93315",
-   "date": "2026-10-28T07:48Z",
-   "title": "Sanctioned Oil Tankers Begin Trading in Persian Gulf",
-   "source": "NewzTodays",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYTBuUi0xTkFEZVRiQ2hQd3l0WE9nNURZd3h0czJSNXl5S1ZFS2E2TEFvQkgyOG1Jb2cyODVDNW9uZ3Zzd1VVcHY1TVpfRTJoTm1jczFRSnNlMGNGSm9XbnR6MVZjWUZJbVU3TGptTE5VdlpMOG02ekYwZHF0M0FaNmxB?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "1e0d16a0ccc4",
-   "date": "2026-10-28T07:45Z",
-   "title": "Llega a Texas un millón de barriles de crudo venezolano de Nabep",
-   "source": "América Económica",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUWhlT08tdVNfd0R2VDY0S1J4c3NoTjE1am9jcE5aMlh0SkJ3YWF1RVFiUk4yaDRTMlVpOERMYmdKYjU3eERvaW5scHJuN2xTampEOGhrdjVjdXlPLUZFZG5UY2NBb3ByNHJVdzBic250T0pOYjlPOHU3YXZHa3hlRU11Z21Tc1JCZGwybFZsNWE2MGFxbkJodm05eXFCNDJUQWNIWFdVanpwRDl3VjNETE1NSkzSAboBQVVfeXFMTm1teHY1cDRVVjBQNDRmTDZfSzROeVhVNGpvbnU5XzdqU1JYSlF5R2ZTMUJ4dmhjeC1BUnc3QjZwNkNQd0J2NHNlcXlPNFYzLXBWVV9LTzBQTEdiSHVTVmFkdkd5U0ZiVjJNM2N6R0dkX01BR3VJdWpHdkxCMFhXQXJiaW5vRWpTRXZmcnpZei1lS0xTaUhZQjRCY19XOEFITWI3UWVtUVBuUzB6TzdoZ25RcTdUTTFvel9B?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "99d45cdf7c5b",
-   "date": "2026-10-28T07:41Z",
-   "title": "NABEP Delivers First 1 Million Barrels of Venezuelan Crude to Corpus Christi",
-   "source": "energynews.pro",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb0ZvQkJjTXQ2ZXBXX2lRc0YyekV0U09pYzFuV1lJdlM2ZklSbng4Ymd3SUtoVWJxMkhWUlNBWkdidlZxY2NKZWc3QlFNWUFIdjBZT1hpTjZZREFYUjJsb0JEZ0gzWUZQT3ZKYWs5N2NEaEczaEZVNWJ5Z0U2TEpkQ3pFek9kd0lMbjFFV0JqY1owWXA3MGRHbWtzamUteTdySUI2Ng?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T16:45:56Z",
+ "updated": "2026-11-04T17:43:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
