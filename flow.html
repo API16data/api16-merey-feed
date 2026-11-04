@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>API16 · Crude Flow</title>
+<meta name="description" content="Venezuelan crude reaching the U.S., counted ship by ship and checked against EIA and U.S. customs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0F1B2D; --amber: #C8892B; --amber2: #E2A548; --steel: #3B5B8C;
+    --bg: #F6F7F9; --panel: #FFFFFF; --fg: #0F1B2D; --muted: #5A6577; --line: #E1E5EB;
+    --ok: #1E7F4F; --part: #A86A12;
+    --display: "Montserrat", "Segoe UI", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0B1320; --panel: #111C2D; --fg: #E7ECF3; --muted: #9AA6B8; --line: #22324A; --ok: #4CC38A; --part: #E2A548; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+  a { color: inherit; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .bar { position: sticky; top: 0; z-index: 10; background: var(--ink); color: #fff; border-bottom: 1px solid #22324A; }
+  .bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px; max-width: 1120px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand svg { width: 28px; height: 28px; }
+  .brand b { font: 800 21px/1 var(--display); }
+  .bar nav { display: flex; gap: 18px; font-size: 14px; align-items: center; }
+  .bar nav a { color: #C9D2DF; text-decoration: none; white-space: nowrap; }
+  .bar nav a:hover, .bar nav a[aria-current] { color: var(--amber2); }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+  .head { background: var(--ink); color: #fff; }
+  .head .wrap { padding-block: 32px 28px; }
+  .kick { font: 500 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: #9FB1C9; margin: 0 0 8px; }
+  h1 { font: 800 clamp(28px, 5vw, 44px)/1.1 var(--display); margin: 0 0 10px; }
+  .head p { margin: 0; color: #C9D2DF; max-width: 700px; }
+  .big { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 12px; margin-top: 22px; }
+  .big div { background: rgba(255,255,255,.06); border: 1px solid #22324A; border-radius: 12px; padding: 12px 14px; }
+  .big b { display: block; font: 700 26px var(--mono); color: #fff; }
+  .big span { font-size: 12.5px; color: #C9D2DF; }
+  main .wrap { padding-block: 24px 40px; display: grid; gap: 20px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 20px; min-width: 0; }
+  .card h2 { font: 800 20px/1.2 var(--display); margin: 0 0 6px; }
+  .card > p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+  .tbl { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  td.n, th.n { text-align: right; font-family: var(--mono); white-space: nowrap; }
+  .pill { display: inline-block; font: 600 11px var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+  .p-high { color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); }
+  .p-possible { color: var(--part); background: color-mix(in srgb, var(--part) 16%, transparent); }
+  .note { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+  .partial td { color: var(--muted); }
+  details summary { cursor: pointer; font-weight: 600; margin: 10px 0; }
+  .econ { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 10px; }
+  .econ div { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  .econ b { display: block; font: 600 18px var(--mono); }
+  .econ span { font-size: 12px; color: var(--muted); }
+  footer { border-top: 1px solid var(--line); padding-block: 26px 40px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="API16 home">
+      <svg viewBox="0 0 240 240" aria-hidden="true"><defs><mask id="mk" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><polyline points="117,166 168.8,74.1" stroke="#000" stroke-width="29" fill="none"/><circle cx="168.8" cy="74.1" r="21" fill="#000"/></mask></defs><path d="M120,8 L54.05,97.28 A82,82 0 1 0 185.95,97.28 Z" fill="none" stroke="#fff" stroke-width="15" mask="url(#mk)"/><polyline points="56,186 94,134 117,166 168.8,74.1" fill="none" stroke="#C8892B" stroke-width="13"/><circle cx="168.8" cy="74.1" r="12" fill="#C8892B"/></svg>
+      <b>API16</b>
+    </a>
+    <nav aria-label="Main">
+      <a href="flow.html" aria-current="page">Crude flow</a>
+      <a href="ledger.html">Cargo Ledger</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
+    </nav>
+  </div>
+</header>
+
+<section class="head">
+  <div class="wrap">
+    <p class="kick">Crude flow · Venezuela → U.S.</p>
+    <h1>Counted ship by ship.</h1>
+    <p>Every large tanker that left a Venezuelan crude terminal and reached a U.S. refining port, with an estimate of its cargo, checked each month against official EIA and U.S. customs figures. Products, gas, asphalt and other ships are left out.</p>
+    <div class="big" id="big"></div>
+  </div>
+</section>
+
+<main><div class="wrap" id="main"></div></main>
+
+<footer><div class="wrap">API16 · Port visits: Powered by Global Fishing Watch (globalfishingwatch.org), non-commercial use. Volumes are estimates, not customs records. Not financial advice.</div></footer>
+
+<script>
+(() => {
+  const $ = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  const ES = {
+    'Crude flow': 'Flujo de crudo', 'Crude flow · Venezuela → U.S.': 'Flujo de crudo · Venezuela → EE. UU.', 'Counted ship by ship.': 'Contado barco por barco.',
+    'Every large tanker that left a Venezuelan crude terminal and reached a U.S. refining port, with an estimate of its cargo, checked each month against official EIA and U.S. customs figures. Products, gas, asphalt and other ships are left out.':
+      'Cada tanquero grande que salió de una terminal de crudo venezolana y llegó a un puerto con refinerías en EE. UU., con una estimación de su carga, cotejada cada mes con las cifras oficiales de la EIA y la aduana de EE. UU. Productos, gas, asfalto y otros buques quedan fuera.',
+    'API16 · Port visits: Powered by Global Fishing Watch (globalfishingwatch.org), non-commercial use. Volumes are estimates, not customs records. Not financial advice.':
+      'API16 · Escalas en puerto: Powered by Global Fishing Watch (globalfishingwatch.org), uso no comercial. Los volúmenes son estimaciones, no registros de aduana. No es asesoría financiera.',
+    'Month by month': 'Mes a mes', 'API16 count against the official figures. A month is complete once it has ended and the 4-day satellite delay has passed.':
+      'Conteo de API16 frente a las cifras oficiales. Un mes está completo cuando terminó y pasaron los 4 días de retraso del satélite.',
+    'Month': 'Mes', 'Safe cargoes': 'Cargas seguras', 'Safe + possible': 'Seguras + posibles', 'Official': 'Oficial', 'Coverage': 'Cobertura', 'Value (safe)': 'Valor (seguras)',
+    'k b/d': 'mil b/d', 'in progress': 'en curso',
+    'Official = EIA monthly where published, else U.S. customs, else the EIA weekly average.': 'Oficial = EIA mensual donde ya se publicó; si no, aduana de EE. UU.; si no, promedio semanal de la EIA.',
+    'Per barrel': 'Por barril', 'What a barrel of Venezuelan crude is worth on its way to the U.S.': 'Lo que vale un barril de crudo venezolano en su camino a EE. UU.',
+    'Brent': 'Brent', 'Merey 16 (OPEC, FOB Venezuela)': 'Merey 16 (OPEP, FOB Venezuela)', 'Discount to Brent': 'Descuento frente al Brent',
+    'Freight José → U.S. Gulf (Aframax)': 'Flete José → Golfo de EE. UU. (Aframax)', 'Delivered in the U.S. (Merey + freight)': 'Puesto en EE. UU. (Merey + flete)',
+    'U.S. customs declared value': 'Valor declarado en la aduana de EE. UU.',
+    'Freight: about US$5/bbl in September 2026, from US$1.90 at the start of the year (Signal Maritime via Reuters). Insurance and port costs are not included.':
+      'Flete: unos US$5/bbl en septiembre de 2026, desde US$1,90 a inicios de año (Signal Maritime vía Reuters). No incluye seguro ni costos portuarios.',
+    'The voyages': 'Los viajes', 'Safe: large tanker, crude terminal, U.S. refining port.': 'Seguras: tanquero grande, terminal de crudo, puerto con refinerías en EE. UU.',
+    'Arrived': 'Llegó', 'Vessel': 'Buque', 'From': 'Desde', 'To': 'Hasta', 'Est. cargo': 'Carga est.', 'Range': 'Rango', 'Basis': 'Base',
+    'Possible cargoes (not in the headline)': 'Cargas posibles (fuera de la cifra principal)',
+    'Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub or a refinery port.':
+      'Posibles: terminal de crudo pero tamaño desconocido o mediano, o tanquero grande que viene de un hub del Caribe o de un puerto de refinería.',
+    'high': 'segura', 'possible': 'posible', 'Lake Maracaibo': 'Lago de Maracaibo', 'Jose / Puerto La Cruz': 'José / Puerto La Cruz',
+    'Paraguana refineries': 'Refinerías de Paraguaná', 'Caribbean hub': 'Hub del Caribe',
+    'typical Lake Maracaibo load (~9.4 m)': 'carga típica del Lago (~9,4 m)', 'typical full load for the ship size': 'carga completa típica para su tamaño',
+    'counted ship by ship': 'contados barco por barco', 'official figure': 'cifra oficial', 'of the official flow, counted': 'del flujo oficial, contado',
+    'value at Merey price': 'valor a precio Merey', 'Loading…': 'Cargando…', 'How it is built': 'Cómo se arma',
+    'Global Fishing Watch port visits (satellite + terrestrial AIS, about 4 days behind) give where and when each tanker called. API16 keeps only large tankers that left a Venezuelan crude terminal (Lake Maracaibo, José / Puerto La Cruz) and arrived at a U.S. refining port. Cargo comes from the draught the crew reported (API16 AIS) or a typical load for the ship and terminal, ±20%. Each month the total is compared with EIA and U.S. customs; the gap shows what the count still misses.':
+      'Las escalas de Global Fishing Watch (AIS satelital + terrestre, unos 4 días de retraso) dicen dónde y cuándo estuvo cada tanquero. API16 deja solo los tanqueros grandes que salieron de una terminal de crudo venezolana (Lago de Maracaibo, José / Puerto La Cruz) y llegaron a un puerto con refinerías en EE. UU. La carga sale del calado que reportó la tripulación (AIS de API16) o de una carga típica para el buque y la terminal, ±20%. Cada mes el total se compara con la EIA y la aduana; la diferencia muestra lo que el conteo aún no ve.'
+  };
+  let LANG = (() => {
+    try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'es' || q === 'en') return q; const v = localStorage.getItem('api16-lang'); if (v === 'es' || v === 'en') return v; } catch (e) { /* storage blocked */ }
+    return (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+  })();
+  const tt = (x) => (LANG === 'es' && ES[x]) || x;
+  const nf = (d) => new Intl.NumberFormat(LANG === 'es' ? 'es-VE' : 'en-US', { maximumFractionDigits: d || 0, minimumFractionDigits: d || 0 });
+  const MES = () => LANG === 'es' ? ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'] : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const mname = (m) => MES()[+m.slice(5, 7) - 1] + ' ' + m.slice(0, 4);
+  const day = (iso) => iso ? (LANG === 'es' ? (+iso.slice(8, 10)) + ' ' + MES()[+iso.slice(5, 7) - 1] : MES()[+iso.slice(5, 7) - 1] + ' ' + (+iso.slice(8, 10))) : '—';
+  const usd = (v) => v >= 1e9 ? 'US$' + nf(2).format(v / 1e9) + (LANG === 'es' ? ' mil M' : ' B') : 'US$' + nf(0).format(v / 1e6) + ' M';
+  const get = (p) => fetch(p + '?t=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  function applyStatic() {
+    document.documentElement.lang = LANG;
+    const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); let n;
+    while ((n = w.nextNode())) {
+      const pe = n.parentElement; if (!pe || pe.closest('script, #main, #big, #lang-btn')) continue;
+      if (n.__en === undefined) n.__en = n.nodeValue;
+      const raw = n.__en, k = raw.trim(); if (!k) continue;
+      const v = LANG === 'es' && ES[k]; n.nodeValue = v ? raw.replace(k, v) : raw;
+    }
+    document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+  }
+  let F = null, M = null, C = null;
+
+  function render() {
+    const main = document.getElementById('main'); main.replaceChildren();
+    const big = document.getElementById('big'); big.replaceChildren();
+    if (!F) { main.append($('p', 'note', tt('Loading…'))); return; }
+    const months = F.months || [];
+    const done = months.filter((m) => m.complete && m.official_kbd);
+    const last = done[done.length - 1] || months[months.length - 1];
+    if (last) {
+      [[nf().format(last.high_kbd) + ' ' + tt('k b/d'), mname(last.month) + ' · ' + tt('counted ship by ship')],
+       [last.official_kbd ? nf().format(last.official_kbd) + ' ' + tt('k b/d') : '—', tt('official figure')],
+       [last.coverage_with_possible != null ? Math.round(last.coverage * 100) + '–' + Math.round(last.coverage_with_possible * 100) + '%' : '—', tt('of the official flow, counted')],
+       [last.high_value_usd ? usd(last.high_value_usd) : '—', tt('value at Merey price')]].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); big.append(d); });
+    }
+
+    // month by month
+    const mc = $('section', 'card'); mc.append($('h2', null, tt('Month by month')), $('p', null, tt('API16 count against the official figures. A month is complete once it has ended and the 4-day satellite delay has passed.')));
+    const tw = $('div', 'tbl'); const t = $('table'); const hr = $('tr');
+    [['Month'], ['Safe cargoes', 'n'], ['Safe + possible', 'n'], ['Official', 'n'], ['Coverage', 'n'], ['Value (safe)', 'n']].forEach(([h, c]) => hr.append($('th', c, tt(h)))); t.append(hr);
+    months.slice().reverse().forEach((m) => {
+      const r = $('tr', m.complete ? null : 'partial');
+      [[mname(m.month) + (m.complete ? '' : ' · ' + tt('in progress'))],
+       [m.high_n + ' · ' + nf().format(m.high_kbd), 'n'], [(m.high_n + m.possible_n) + ' · ' + nf().format(m.with_possible_kbd), 'n'],
+       [m.official_kbd ? nf().format(m.official_kbd) : '—', 'n'],
+       [m.coverage != null ? Math.round(m.coverage * 100) + '–' + Math.round((m.coverage_with_possible || m.coverage) * 100) + '%' : '—', 'n'],
+       [m.high_value_usd ? usd(m.high_value_usd) : '—', 'n']].forEach(([v, c]) => r.append($('td', c, v)));
+      t.append(r);
+    });
+    tw.append(t); mc.append(tw);
+    mc.append($('p', 'note', tt('k b/d') + ' · ' + tt('Official = EIA monthly where published, else U.S. customs, else the EIA weekly average.')));
+    main.append(mc);
+
+    // per barrel
+    const pm = (M || []).filter((x) => x.merey && x.brent); const p = pm[pm.length - 1];
+    const cm = ((C && C.monthly) || []).filter((x) => x.usd_per_bbl); const c = cm[cm.length - 1];
+    if (p) {
+      const ec = $('section', 'card'); ec.append($('h2', null, tt('Per barrel')), $('p', null, tt('What a barrel of Venezuelan crude is worth on its way to the U.S.')));
+      const g = $('div', 'econ'); const FREIGHT = 5;
+      [['US$' + nf(2).format(p.brent), tt('Brent') + ' · ' + mname(p.month)], ['US$' + nf(2).format(p.merey), tt('Merey 16 (OPEC, FOB Venezuela)')],
+       ['−US$' + nf(2).format(p.brent - p.merey), tt('Discount to Brent')], ['≈ US$' + nf(0).format(FREIGHT), tt('Freight José → U.S. Gulf (Aframax)')],
+       ['≈ US$' + nf(2).format(p.merey + FREIGHT), tt('Delivered in the U.S. (Merey + freight)')],
+       [c ? 'US$' + nf(2).format(c.usd_per_bbl) : '—', tt('U.S. customs declared value') + (c ? ' · ' + mname(c.month) : '')]].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); g.append(d); });
+      ec.append(g, $('p', 'note', tt('Freight: about US$5/bbl in September 2026, from US$1.90 at the start of the year (Signal Maritime via Reuters). Insurance and port costs are not included.')));
+      main.append(ec);
+    }
+
+    // voyages
+    const vt = (list) => { const w = $('div', 'tbl'); const t = $('table'); const h = $('tr');
+      [['Arrived'], ['Vessel'], ['From'], ['To'], ['Est. cargo', 'n'], ['Range', 'n'], ['Basis']].forEach(([x, c]) => h.append($('th', c, tt(x)))); t.append(h);
+      list.forEach((v) => { const r = $('tr');
+        const nm = $('td'); const a = $('a', null, v.name || ('MMSI ' + v.mmsi)); a.href = 'passport.html?mmsi=' + encodeURIComponent(v.mmsi); nm.append(a);
+        r.append($('td', 'n', day(v.arrived)), nm, $('td', null, tt(v.terminal) + ' · ' + (v.from_port || '')), $('td', null, v.to_port || ''),
+          $('td', 'n', nf().format(v.est_kbbl * 1000) + ' bbl'), $('td', 'n', nf().format(v.est_low * 1000) + '–' + nf().format(v.est_high * 1000)), $('td', null, tt(v.method)));
+        t.append(r); });
+      w.append(t); return w; };
+    const vs = F.voyages || [];
+    const vc = $('section', 'card'); vc.append($('h2', null, tt('The voyages')), $('p', null, tt('Safe: large tanker, crude terminal, U.S. refining port.')));
+    vc.append(vt(vs.filter((v) => v.confidence === 'high')));
+    const det = $('details'); det.append($('summary', null, tt('Possible cargoes (not in the headline)') + ' · ' + vs.filter((v) => v.confidence === 'possible').length));
+    det.append($('p', 'note', tt('Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub or a refinery port.')));
+    det.append(vt(vs.filter((v) => v.confidence === 'possible'))); vc.append(det);
+    main.append(vc);
+
+    const hc = $('section', 'card'); hc.append($('h2', null, tt('How it is built')));
+    hc.append($('p', null, tt('Global Fishing Watch port visits (satellite + terrestrial AIS, about 4 days behind) give where and when each tanker called. API16 keeps only large tankers that left a Venezuelan crude terminal (Lake Maracaibo, José / Puerto La Cruz) and arrived at a U.S. refining port. Cargo comes from the draught the crew reported (API16 AIS) or a typical load for the ship and terminal, ±20%. Each month the total is compared with EIA and U.S. customs; the gap shows what the count still misses.')));
+    main.append(hc);
+  }
+
+  Promise.all([get('tracker/data/flows.json'), get('data/merey_brent_monthly.json'), get('tracker/data/census_ports.json')]).then(([f, m, c]) => { F = f; M = m; C = c; render(); });
+  applyStatic(); render();
+  document.getElementById('lang-btn').addEventListener('click', () => {
+    LANG = LANG === 'es' ? 'en' : 'es';
+    try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
+    applyStatic(); render();
+  });
+})();
+</script>
+</body>
+</html>
