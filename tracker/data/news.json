@@ -161,6 +161,16 @@
    "origin": "rss"
   },
   {
+   "id": "31c750924302",
+   "date": "2026-11-04T00:46Z",
+   "title": "Venezuela oil-law changes spur expansion in El Tigre gateway",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQVlsaWhWVHJLM3lwSVEyMktNdG1RVFc4WGxHSWJyM2hLSGkwYnZESFdUMnNqaVYzT1FEZVBmTU13cXdhVzR5SnZab2psREpwZUxfY0VqNlM0OEVEUWtrVld2ZUdWLWJLXzhFdjJQbmN5dUdRMlZ3a3VubHJyd3hveWVfcU9NT2VqbHNfc0hTeEVlTEl6TURZUmFMWWtqNm9rd1lPb09YRFowRTF2cjIyQQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "448700f472b2",
    "date": "2026-11-04T00:27Z",
    "title": "Pdvsa destaca que el potencial energético debe traducirse en desarrollo económico y social",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "c4f626b02ed5",
-   "date": "2026-10-28T07:37Z",
-   "title": "Trump Says Iran Wants a Deal as 1 Million Barrels of Venezuelan Oil Arrive in Texas Ahead of Midterms: 'I",
-   "source": "Benzinga",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOQlV0OWdVSzlMQ2E0WDNOZERvYXVvUzlTTmpweC1ueFItaUJScEhFdlhTajdkMXJqR2xUNkhlcXhXUUFzZy03YXA2RGFxV3IyVVBqQ3ZFRkNiSHY4bUJzdVEwYUlPdjdJdlpwZnIxUGlubjFCangzWjRuVzk0SGI4d0ttam43bERoSWN0ajNvYUFNVTBGNjVnRERoT3JrWFBacXRRY0xOUE00b2d6d1dMVFowNUtUMk54UDlGNkY4aV9pa3ZJbGRQSVBBNTJ3UXdpbC10b3hrTXBsVldnUU9tem15VEllNUtlNHRtck1BbTA1LWFWWUtPOHBCX054RWh6YTNrdHVJa09XcnpHM3FwNkc3Z0ExVUZ3RjJmd1U4YzBsTVk5?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-04T15:46:46Z",
+ "updated": "2026-11-04T16:45:56Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
