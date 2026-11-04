@@ -88,6 +88,30 @@ LAKE = re.compile(r"VEBJV|VEMAR|VELSV|BAJO\s*GRANDE|MARACAIBO|LA\s*SALINA|CABIMA
 LAKE_LADEN_M = 8.5
 
 
+# Cargo from draught: a ship sinks deeper the heavier it is. From its size and the draught the
+# crew reports we get its displacement (total weight in the water); minus the empty ship and a
+# little fuel and stores, what is left is cargo. Rough rules, checked on Aframax and MR tankers:
+#   displacement = Cb x Lpp x beam x draught x 1.025 (sea water), Cb ~0.80, Lpp ~0.96 x LOA
+#   empty ship ~1.8 t and fuel/stores ~0.25 t per m2 of Lpp x beam
+# Crude runs 6.5 (heavy, Merey 16) to 7.1 (medium) barrels per tonne. The range adds +-12% for the
+# model itself. Draught is typed by the crew, so this is an estimate until customs and EIA confirm it.
+BBL_PER_T = (6.5, 6.8, 7.1)
+
+
+def cargo_from_draught(loa_m, beam_m, draught_m):
+    if not (loa_m and draught_m) or loa_m < 100:
+        return None
+    lpp = 0.96 * loa_m
+    beam = beam_m or loa_m / 5.7
+    area = lpp * beam
+    tonnes = 0.80 * area * draught_m * 1.025 - 1.8 * area - 0.25 * area
+    if tonnes <= 0:
+        return None
+    lo, mid, hi = (round(tonnes * f * b / 1000) for f, b in ((0.88, BBL_PER_T[0]), (1, BBL_PER_T[1]), (1.12, BBL_PER_T[2])))
+    return {"kbbl": mid, "kbbl_low": lo, "kbbl_high": hi, "tonnes": round(tonnes, -2), "draught_m": draught_m,
+            "loa_m": loa_m, "beam_m": round(beam, 1), "beam_estimated": not beam_m}
+
+
 def laden_threshold(length_m):
     # A tanker sits deeper when loaded. Rough rule: laden draught is above ~5.2% of its length
     # (Aframax 245 m -> 12.7 m, Suezmax 274 m -> 14.2 m, MR 183 m -> 9.5 m).
@@ -126,7 +150,7 @@ def build_passports(vessels, run_at):
         last_ve = ve[-1] if ve else None
         dr_after = [x.get("draught_first") or x.get("draught_m") for x in visits if x["first"] >= t0 and x["group"] not in ("VE", "ABC")]
         dr_after = [d for d in dr_after if d]
-        laden_d = (last_ve or {}).get("draught_m") or (dr_after[0] if dr_after else None)
+        laden_d = (last_ve or {}).get("draught_m") or (max(dr_after) if dr_after else None)
         laden = bool(laden_d and laden_d >= thr)
         stages.append({"stage": "Departed loaded", "done": laden, "time": (last_ve or {}).get("last"),
                        "detail": ((f"draught {laden_d} m vs ~{thr} m laden mark" + (" (Lake Maracaibo, partial load)" if lake else ""))
@@ -150,13 +174,16 @@ def build_passports(vessels, run_at):
                        "detail": (f"draught {disch['draught_first']} m -> {disch['draught_m']} m at {disch['zone']}" if disch
                                   else "no draught drop seen yet")})
 
+        sp = v.get("specs") or {}
+        est = cargo_from_draught(sp.get("loa_m") or v.get("length_m"), sp.get("beam_m") or v.get("beam_m"), laden_d) if laden else None
         done = sum(1 for st in stages if st["done"])
         status = ("discharged" if disch else "arrived" if usg else "in transit" if (gate or (laden and last_ve and v.get("last_group") not in ("VE", "ABC")))
                   else "at origin" if v.get("last_group") in ("VE", "ABC") else "watching")
         out.append({
             "id": f"AIS-{v['mmsi']}-{t0[:10]}", "mmsi": v["mmsi"], "imo": v.get("imo"), "name": v.get("name"),
             "length_m": v.get("length_m"), "status": status, "stages_done": done, "stages_total": len(stages),
-            "est_cargo_kbbl": (None if lake else cargo_kbbl(v.get("length_m"))) if laden else None,
+            "est_cargo_kbbl": (est["kbbl"] if est else (None if lake else cargo_kbbl(v.get("length_m")))) if laden else None,
+            "est_cargo": est if laden else None,
             "partial_load": bool(laden and lake), "specs": v.get("specs"),
             "destination_now": v.get("destination", ""), "destinations": v.get("destinations", []),
             "last_seen": v.get("last_seen"), "last_zone": v.get("last_zone"), "stages": stages})
@@ -216,6 +243,7 @@ async def listen():
                                           destination=(d.get("Destination") or "").strip().upper(),
                                           draught_m=d.get("MaximumStaticDraught"),
                                           length_m=(dim.get("A") or 0) + (dim.get("B") or 0),
+                                          beam_m=(dim.get("C") or 0) + (dim.get("D") or 0),
                                           name=(d.get("Name") or "").strip())
                 msgs += 1
     return pos, static, msgs
@@ -256,7 +284,7 @@ def main():
             continue
         s = static.get(mmsi, {})
         v = vessels.setdefault(str(mmsi), {"mmsi": mmsi, "first_seen": run_at, "visits": []})
-        for k in ("imo", "type", "length_m"):
+        for k in ("imo", "type", "length_m", "beam_m"):
             if s.get(k):
                 v[k] = s[k]
         v["name"] = s.get("name") or p["name"] or v.get("name", "")
