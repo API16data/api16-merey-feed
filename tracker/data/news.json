@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "9e0acd5c2462",
+   "date": "2026-11-05T11:17Z",
+   "title": "Escudo para Citgo: EE. UU. posterga la subasta y abre vía de negociación",
+   "source": "Curadas",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSkFYcEoyUFJPUVJjSFdkbFBzSnJoUlhWRHFLZDdkY3ZSbXNfekJwSXdyQ19IbmNaQXNVaHZiUGR6Q3VPWEo1RDdVRW1VNlktb016NGpHSnUycTU0MVpwWjNJQUlKOGtIbzR6MU5LSmZGSThabEFnU1VVOEJweUtUdlJ4TUNiMk1mVDM0VUxGMlNrZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "a46efd30824c",
    "date": "2026-11-05T06:04Z",
    "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "0ed566932c6f",
-   "date": "2026-10-28T12:36Z",
-   "title": "Oil Holds Decline as Traders Track Result of Israeli Election",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWozMmJ3RFc4TndManlWbTRGeDhET1NHdGJDeFpnZVIySnk4OUZheXBfUjJaNWVmUHZId05VZFQ4bkVkZWc0NWxETW50QjhzbTUwTlJYelZMTEk4RUsybjNkel9yMXl4T1l0M0VMdl9OOU1xZmw4Z3dBWUpXZFNKVG5ZT0t5SXhnNzVKRWVvR2VEOHR5WjJQTVE5TURXZw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T10:30:11Z",
+ "updated": "2026-11-05T11:27:42Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
