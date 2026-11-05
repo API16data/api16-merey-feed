@@ -6515,6 +6515,16 @@
    "origin": "rss"
   },
   {
+   "id": "ead17681f28a",
+   "date": "2026-10-29T02:18Z",
+   "title": "Venezuela ha exportado a Estados Unidos 136.7 millones de barriles de crudo desde enero",
+   "source": "Noticias Barquisimeto",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVjBLMGNPRnE2aUdvMlhXZkdzMHJiWjB6TGFWeUVPOWR5ZTRONTlhclBabDlCMGxzeC1hUTdiUGp5UXlMVW1SMXNudjd0dkhEU2VaeGdXdjk0cTg3VW1RTHFya2hiWkxScGU5M0hVNDJGc2hPSjMweUVpby12Z1JhTDI4eXIyZGdEcUZHMTRlWkppVTRHU29rTTlFeWhFVnd0SGdsUkZuTThRVzZQRUlwbDFOQ096OHk1U2R4OUJJTU5VeFE?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "aedde9736766",
    "date": "2026-10-29T02:17Z",
    "title": "Venezuelan leader demands Bank of England return gold",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "466120fe8297",
-   "date": "2026-10-28T10:26Z",
-   "title": "\"51st State?\" Trump Floats Venezuela Idea As Massive Oil Shipment Reaches Texas",
-   "source": "NDTV",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcDktcE5tR2pkc3p5anhlTjcxb1NzQmdSMDE3MWYxWXAzLWIwS0U5V0lSUEhSVzNORVhmTjBaODd6cHRzYzNJdGEtdk42Q0JfOFZnWUNyMWNTbWdvX1JzWk9xbXd2alpyYmFpSGxtbHNzSjJNSW1fTC1ra3FFMWtucWxmTXpVZjFiLXRkS1d6eUNHSkwzMVR3MzRBMm1pdWdVOUJPVTJuSFJ0Q3VZZ3cyVjV3?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T00:42:30Z",
+ "updated": "2026-11-05T01:58:18Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
