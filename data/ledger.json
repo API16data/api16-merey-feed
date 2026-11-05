@@ -134,7 +134,9 @@
     "kbbl": 430,
     "range": "362,000–503,000",
     "method": "draught"
-   }
+   },
+   "route": "Bajo Grande (Lake Maracaibo) → Beaumont, TX",
+   "route_es": "Bajo Grande (Lago de Maracaibo) → Beaumont, Texas"
   },
   {
    "id": "VE-2026-002",
@@ -262,7 +264,9 @@
     "kbbl": 406,
     "range": "342,000–475,000",
     "method": "draught"
-   }
+   },
+   "route": "Bajo Grande (Lake Maracaibo) → Port Arthur, TX",
+   "route_es": "Bajo Grande (Lago de Maracaibo) → Port Arthur, Texas"
   },
   {
    "id": "VE-2026-001",
@@ -407,7 +411,9 @@
    "claim_es": "Dos tanqueros con 1 millón de barriles de crudo venezolano llegaron a Corpus Christi, Texas, para refinerías de ExxonMobil y Citgo.",
    "claimed_by_es": "Comunicado de NABEP; Casa Blanca",
    "verdict_es": "Llegada anunciada, cargamento aún no verificado",
-   "summary_es": "El único tanquero nombrado públicamente, ANGERONA, es un Aframax que lleva unos 700.000 barriles, así que hace falta un segundo buque para llegar a 1 millón. Estaba amarrado en un muelle de carga general, y el historial AIS disponible no muestra una escala reciente en Venezuela. El segundo tanquero no ha sido nombrado. Los registros de aduana y de la EIA lo resolverán."
+   "summary_es": "El único tanquero nombrado públicamente, ANGERONA, es un Aframax que lleva unos 700.000 barriles, así que hace falta un segundo buque para llegar a 1 millón. Estaba amarrado en un muelle de carga general, y el historial AIS disponible no muestra una escala reciente en Venezuela. El segundo tanquero no ha sido nombrado. Los registros de aduana y de la EIA lo resolverán.",
+   "route": "Origin not shown → Corpus Christi, TX",
+   "route_es": "Origen no demostrado → Corpus Christi, Texas"
   }
  ],
  "method_es": "Cada cargamento anunciado se revisa paso a paso contra evidencia pública: el anuncio oficial, la identidad del buque, un registro AIS de carga en Venezuela, la descarga en una terminal petrolera, el volumen frente a la capacidad del buque, un conocimiento de embarque (B/L) de la aduana de EE. UU. y el registro EIA-814. Un cargamento queda 'verificado' solo cuando los tres últimos coinciden.",
