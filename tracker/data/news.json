@@ -5811,6 +5811,16 @@
    "origin": "rss"
   },
   {
+   "id": "1ee33a7492a0",
+   "date": "2026-10-29T20:27Z",
+   "title": "Repsol mantiene como prioridad aumentar la producción de hidrocarburos en Venezuela",
+   "source": "El Cooperante",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbUx5ODJGajIzS3FXYl94dzlwVVB3TzgxT3k5RFJGUDNoWEpDdE9EaWhaNXUxQVpjYjFQOHdDWXduTUtUdlVPV2Vjal9UTmt3Zm5DcTNJcGNfNkQ3SzM0SU4xT2txa2FzanVDOTlQMzVjM1A5N3VvV25qbFV1Z3FKdlg4SzVqRXhqTEFpa0JpS0R2cXhUd1d3WWxhZ2YzVDlHNTNzWVFsSHdxeWZWbWdvUF9qeUNQbjZSYzl6UUpGd25tWjA?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "76f6406d4ebe",
    "date": "2026-10-29T20:24Z",
    "title": "La paradoja petrolera de EE.UU.: produce crudo, pero recurre a Rusia",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "f38db4a9ef83",
-   "date": "2026-10-28T11:14Z",
-   "title": "Former Foreign Secretary Admits India Halted Iranian and Venezuelan Oil Imports Under US Pressure",
-   "source": "TheWire.in",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNGxZS3R0cV8tM1VoQlRieVJsWHVCX1lhRmFtNUVnV3N4UDhHang0eUNkZXUtcGZSdUdReEZOMWFwRjRtb21vSHlNSjYxQkM0V25TZ3hMM3pMZWlnQW5YWWQ2MHdUeEtOSkY1TjFpbGJISGlPeklhVjJ4MWM4OWZyNm5xd1lmRVhTMk9NekpUbWwyQVF4NlpOREoyLXhPZVFkX3JkbHNsUlFKaHMxYUZUVDI5eF9MaVZ4QTVmcHFFMUNnOUhFRmZ3dVdHSzdZUdIB0wFBVV95cUxQcHN5NHMzUXlvckE4Q2ZsWTBtMzh2cUJMN2JjOGR2bER1WWxRejZfaWJRSFVoV2t1Qml1VW54WlFxOGFfcmoxMkdRbVpWNFh2cFc1Tm5fR3JmQUl6UmRzQTVUNDVIdXNsdW1wSGdOTi05Z0FaUllxaVlYMml4cTVqMGZQekthSC1zOEZmMU9EUmxSZzkwV014cnJrcW8xQ2FkTHhHRjBvSWx0eWRYUHZYX28wQmxJekJUYzJnc3NlSjFGMmsxRzZUYnowTXRBWC0yUEpF?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T02:50:54Z",
+ "updated": "2026-11-05T03:44:17Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
