@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "885eed7d8a17",
+   "date": "2026-11-05T18:47Z",
+   "title": "Colombia seeks to revive Venezuela gas pipeline amid shortages",
+   "source": "upi",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2Y3M0JFRWhHVlR5eUhjY1Q2NnN4RnVrRW5RNEJMR3VFbGt5SlM0Wml5SzUwXzhNelNLRHhDTmhjdE02VU1oV3hsYmNXYUd4WDFIT0xxSkJMLTVxQzc4WDhzck5pZkhtbXhYbTJHWS0zTVU3Y0N0bmYtaThjdENwR2oyOHdVa2NMWkZWSUxTUzNjUGtkclVtV0VvNm5IeG1wMWk2ZHp0QzMycmtI0gGyAUFVX3lxTE5yUEEySmdMNGRERVduNVBHa2dLUnlJSlRpSmVGVVpMOUR5a2tXS21QR2FFajR5dUxXbmNFMXZ3YlFGREZQYkxXYVRTUGhfRWtOWDdmcThmZXJRZVFWVXllVmtzeXJaSXhRN1dWUEVSaVozNTVhVU12WnR3aVBHLWdheFV2U2Y2eXFraGt1TF9HNFZ1cU5kQlQ3UU1BNEFQOVlqLURqSWl3S2dZMkdtcXhSMlE?oc=5",
+   "category": "Gas",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "a6729e15d677",
    "date": "2026-11-05T18:17Z",
    "title": "Oil Companies ‘Kick the Tires’ in Venezuela. Here’s What They Are Finding.",
@@ -4751,6 +4761,16 @@
    "origin": "rss"
   },
   {
+   "id": "b12349bbba9a",
+   "date": "2026-10-30T22:47Z",
+   "title": "Machado’s Return and What It Means for Venezuelan Oil",
+   "source": "Baker Institute",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSU9kTk5VNnZVbWxkSVI0YlRJUndZbURHbWxrUjFlRU1tLWVDempYTGozblh5LS1HNzlNQUJia2lTOWotMXl2T2ZQYnprZ1QtVjE0ck0xbDBGcXR5WG5fblR6TXZqNWNxTmxTMlM0SUJsNUJtYS05a2FKY2lsOEJzYnJ3RTc2SnNQQzhPT285LWoxdw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "e5d9014d46c9",
    "date": "2026-10-30T22:42Z",
    "title": "SLB Gains Access to Venezuela’s Coveted Oilfield Data Through Contract, Sources Say",
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "1d8e84c22c65",
-   "date": "2026-10-28T14:23Z",
-   "title": "\"Let's make it the 51st state\": Trump floats idea of making Venezuela a US state as first oil shipment under deal arrives in Texas",
-   "source": "primetimer.com",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdjFaUFBsczdoY25DWjlOWGM4YUZ3SGVXYXlxUThIelZIVU5kN1NqTGxoWGF5djhVNUNCNnZPbE8xRlBib3I0RGtuYmU2SU5yZ0pFWDN2VkI4c2VGNGtWekZZODljZUV0T0tzaTZTSVk3dWhxOUcwZ1VMTEdxWG41V21FejF4M3E5NEtSNDNMTlg2aTNBbWJKS3dVcXV2RnBzUTk3SU5PdW1ZZVZNY2lGS0FuNm5IeE5ieDNrNXE3dzhQcFBWTzRoQU1SX0xSTGk4WnR6SjBxYXl1cVZOdVFfZktpaTBQcHBRT0J0UEFydw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "c87d99882b12",
-   "date": "2026-10-28T14:15Z",
-   "title": "Trump Visits Tanker Angerona, Announces Crude Oil Deal with Venezuela",
-   "source": "Data Portuaria",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeGZqLW1kR0RBS3F6TzFLenZvT09mRkdHSDNPOURqNWlzdnlBUEVCMW42Q2hxV0w3Nk1HQTZFcXBYSElZSjc3WW9QcER4TWl3WUpzbVpvSW15ZTY4RF95RW9vZi1fYzhUQnEwd1JTVVZldWYtbTZLMlA4b0pZOWR0NDdlNGx2cjdDSnV4Rnl6WDhEV2wtSEtpMGRnVjBQd3RlZXlBYWpacDJBX0NUMnk4RWR3OWJDQQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T18:41:23Z",
+ "updated": "2026-11-05T19:44:30Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
