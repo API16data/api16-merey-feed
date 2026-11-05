@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:11:22Z",
+ "updated": "2026-11-05T13:11:54Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -42,7 +42,7 @@
      "first": "2026-10-29T15:56:49Z"
     }
    ],
-   "last_seen": "2026-11-05T11:11:22Z",
+   "last_seen": "2026-11-05T13:11:54Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
@@ -149,6 +149,71 @@
      "done": true,
      "time": "2026-10-30T04:50:27Z",
      "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-636025667-2026-11-05",
+   "mmsi": 636025667,
+   "imo": 9426283,
+   "name": "ULYSSES I",
+   "length_m": 186,
+   "status": "at origin",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": 306,
+   "est_cargo": {
+    "kbbl": 306,
+    "kbbl_low": 257,
+    "kbbl_high": 358,
+    "tonnes": 45000.0,
+    "draught_m": 12.1,
+    "loa_m": 186,
+    "beam_m": 32,
+    "beam_estimated": false
+   },
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "BRITQ",
+   "destinations": [
+    {
+     "dest": "BRITQ",
+     "first": "2026-11-05T13:11:54Z"
+    }
+   ],
+   "last_seen": "2026-11-05T13:11:54Z",
+   "last_zone": "Venezuelan waters (other)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-05T13:11:54Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": "2026-11-05T13:11:54Z",
+     "detail": "draught 12.1 m vs ~9.7 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
     },
     {
      "stage": "Discharged",
