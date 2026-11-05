@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "a46efd30824c",
+   "date": "2026-11-05T06:04Z",
+   "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
+   "source": "The Express Tribune",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnFxRF8ybWZkZjRvbVRWSTg0M25JVU5yM2I1cmhCdzJ2OWgxSjlpa185Yk9lYklwR3RXOUk1SlFYT2lPcXNfUmtXT1BsOXowZ1NRSzRKcHhEaFFhc2h3NnVoTlB1NVVjaG41Ry11OWFHMHA4ektyNlBOcVFYT2tOZFYzc3dhN0ZIbVFTMUJtaGZHQUhVVm1nMUxuRm1aaC1EM3Jud0JGTmZsRVFWZHpEZVkzeGJmQnNJ0gHAAUFVX3lxTE9oTXpJWjNuQnFhcHZYMTJseHVTcThJS0ZsTXdHZ3E5aHBMVXVWMkhkR0hhSzZYaGtyRU0tNFFSWFBZLU5NdmxfSEZuNkZEWWRiMVJHTjItZUF1d294RFhhOUVaQ0F6TXJHT0ZmX2ZOVlJlcEhDd1dKZUprU1c0dnpOSTNuM2RyWU5rN2VsTVZ4cnVlZDZhOW9EWmxxaUJzcndXaVJkWXNjaXpkam9pU0lNMWVHRUJ5N1lsRzl0TlYzTA?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "bbd7abec185e",
    "date": "2026-11-05T04:29Z",
    "title": "⚠️🛩️ #Anzoategui El Tigre se reanima: Llegan jets privados con altos ejecutivos tras reactivación petrolera La reactivación del sector energético ha dinamizado la economía en El Tigre, estado Anzoátegui. Según reportes de Bloomberg publicados por Eseq",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "9fafc6d2a2cc",
-   "date": "2026-10-28T12:08Z",
-   "title": "EN VIVO | La verdad del petróleo y gas sobre el acuerdo Venezuela-EEUU: Exclusiva vicepresidente ejecutivo de PDVSA, Jovanny Martínez",
-   "source": "La iguana TV",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNamkwbWllS1llbTNxcXVKVG5wRjJnYXZzWFB6SEl4R1RWU1BCS2Q1NEpwdU9hTHFyLXZZRVNDWkN5bjhrVDh2dFFXQWdNS0dlV3l0N2I5YV9FRGJITURxa1FHb0ZrcTdZbW5BWThBd1czOHUtVnk1TUJSMjlSc2Jnck42YlFycExoNHpQSWtmVGg5ODJ5Nzc5bQ?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T06:56:28Z",
+ "updated": "2026-11-05T08:14:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
