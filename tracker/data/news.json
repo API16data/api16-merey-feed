@@ -51,6 +51,16 @@
    "origin": "rss"
   },
   {
+   "id": "681fe21cd33f",
+   "date": "2026-11-04T20:45Z",
+   "title": "Trump Administration Discusses Taking Stake in Venezuela Oil",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUEFna0JRelltV2lsTTZOUkhrdi11aVdVejdiYll2MElhYi1lSHVsWDNBb0VTVVh3UkZocTBiYnJKdm12cDFZSW8tT3k0Y0Z0ZXBxWGd0NWVaUHZud2lsaDd6RVhQLWZULVdyQ0pabk9YNFVxTEp1T29jQlB3c01KeDRXTnZ0OFlYTW5KbHY2Mm9mSjM2bW42RHRxRUN2RDFicmdxbzBpbWg?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "50eb7bff7757",
    "date": "2026-11-04T19:35Z",
    "title": "Opinion: Trump's Venezuela oil deal proves Alberta must diversify its energy markets",
@@ -1748,6 +1758,16 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlk3bmtVSnloNjFlOGJwV1RqeTFrQ1FpYzlBclBhNGtrUXFYeVVuX0hSbFZ6RnZlOVBKdzJBT1R2VjZMeXJNQW1OZk0yeDcyY0o1cXp2amdXdXplaWJiNXIwYzU2OEszNzlWRDAxWXE1Nmo4aTVJa1F5Q29fU21WUGJPcGJjUFRQTVBQSEJMZkZWVE84ME9yVnRxbnZUY2xTZWc?oc=5",
    "category": "Production",
    "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "66b26db705a1",
+   "date": "2026-11-03T00:39Z",
+   "title": "Trump habló sobre la \"conquista de Venezuela\" y los millones de barriles de petróleo que van a EEUU",
+   "source": "Alnavío",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTk92d0s5OHlBMmJ4djE5bGU3bUgzME1fZUdCSDJKcHVoZTNBY1pucDViMnhyeTBTbFhUcmFCVTlyYUZBcHdLXzY5UEstUkI2Mm5UWG8xS2FaSGd2WU53MUozZUZJenFpRXpPNHV5azlObGpQdmxfUkFUdHM3MVVIMzU5RlRNRWxYT05GaGdLQmY3YUZCWW9kSHFTS1ZxbVlRSzFkaG1NNnFXUGxQdmRWT3NRdlY5ZXZm?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "3043d0e084cc",
-   "date": "2026-10-28T11:52Z",
-   "title": "Trump claims Venezuela oil deal will bring down fuel prices",
-   "source": "Female First",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZmZJdmp1YURyZ3dEOVM3SzdpT3JlN1g5bXI3X2x2Y192WndoYWNoaVY2ZFp1VkZRU0pxOVMwdGJCS0F1NzVoSzZIcTJGeGotY3ZXOFVFdUx5VjhOSk5yYnFKaHZfclVIcU5LQ3l5a2o4ZTZ4cWZZa0k0emdKM2xaMGYxMlA4YzdSc3hCZ1RvS2JvaFlGcHVGbHQ5QjRtRDh3VzBnQndjaWtzdw?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "c23913748508",
-   "date": "2026-10-28T11:40Z",
-   "title": "The United States receives the first Venezuelan crude cargo under the NABEP agreement",
-   "source": "energynews.pro",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWRpaURLTXFmOTBKTTJEOVZQaUdRbXozUXd6Y3lTb1haYWExVEFlX2RVcG1wRFMxbnhCaXEtS2syQ3hycGkwWWtZMXE5czZ6MmZmSUI3Z3lvT0Fvc2dNaTBBQTBNYXlTV1ZUVXF4bzFxa3R4TXpCVjlrbk5fWDBSX1RTd3RPWmx0cVZSaURKNE5vb1JBT09Ybjc0d1MyUThsTjlGbGRXaEhVSndEV1d4Zw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T04:49:14Z",
+ "updated": "2026-11-05T05:50:19Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
