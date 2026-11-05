@@ -52,6 +52,7 @@
   th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
   td.n, th.n { text-align: right; font-family: var(--mono); white-space: nowrap; }
+  td b { font-weight: 600; } td small { display: block; font: 12px var(--body); color: var(--muted); }
   .pill { display: inline-block; font: 600 11px var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
   .p-high { color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); }
   .p-possible { color: var(--part); background: color-mix(in srgb, var(--part) 16%, transparent); }
@@ -122,7 +123,10 @@
     'Paraguana refineries': 'Refinerías de Paraguaná', 'Caribbean hub': 'Hub del Caribe',
     'typical Lake Maracaibo load (~9.4 m)': 'carga típica del Lago (~9,4 m)', 'typical full load for the ship size': 'carga completa típica para su tamaño',
     'counted ship by ship': 'contados barco por barco', 'official figure': 'cifra oficial', 'of the official flow, counted': 'del flujo oficial, contado',
-    'value at Merey price': 'valor a precio Merey', 'Loading…': 'Cargando…', 'How it is built': 'Cómo se arma',
+    'value at Merey price': 'valor a precio Merey', 'voyages': 'viajes', 'with possible': 'con posibles', 'U.S. customs': 'Aduana EE. UU.', 'EIA weekly': 'EIA semanal',
+    'Merey 16 today (estimated)': 'Merey 16 hoy (estimado)', '(estimated)': '(estimado)',
+    'Brent and WTI: EIA spot prices, updated twice a day (EIA publishes them with a few days of delay). Merey today = Brent today minus the discount of the latest OPEC month. Freight: about US$5/bbl in September 2026, from US$1.90 at the start of the year (Signal Maritime via Reuters). Insurance and port costs are not included.':
+      'Brent y WTI: precios spot de la EIA, actualizados dos veces al día (la EIA los publica con unos días de retraso). Merey hoy = Brent de hoy menos el descuento del último mes de la OPEP. Flete: unos US$5/bbl en septiembre de 2026, desde US$1,90 a inicios de año (Signal Maritime vía Reuters). No incluye seguro ni costos portuarios.', 'Loading…': 'Cargando…', 'How it is built': 'Cómo se arma',
     'Global Fishing Watch port visits (satellite + terrestrial AIS, about 4 days behind) give where and when each tanker called. API16 keeps only large tankers that left a Venezuelan crude terminal (Lake Maracaibo, José / Puerto La Cruz) and arrived at a U.S. refining port. Cargo comes from the draught the crew reported (API16 AIS) or a typical load for the ship and terminal, ±20%. Each month the total is compared with EIA and U.S. customs; the gap shows what the count still misses.':
       'Las escalas de Global Fishing Watch (AIS satelital + terrestre, unos 4 días de retraso) dicen dónde y cuándo estuvo cada tanquero. API16 deja solo los tanqueros grandes que salieron de una terminal de crudo venezolana (Lago de Maracaibo, José / Puerto La Cruz) y llegaron a un puerto con refinerías en EE. UU. La carga sale del calado que reportó la tripulación (AIS de API16) o de una carga típica para el buque y la terminal, ±20%. Cada mes el total se compara con la EIA y la aduana; la diferencia muestra lo que el conteo aún no ve.'
   };
@@ -135,7 +139,10 @@
   const MES = () => LANG === 'es' ? ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'] : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const mname = (m) => MES()[+m.slice(5, 7) - 1] + ' ' + m.slice(0, 4);
   const day = (iso) => iso ? (LANG === 'es' ? (+iso.slice(8, 10)) + ' ' + MES()[+iso.slice(5, 7) - 1] : MES()[+iso.slice(5, 7) - 1] + ' ' + (+iso.slice(8, 10))) : '—';
-  const usd = (v) => v >= 1e9 ? 'US$' + nf(2).format(v / 1e9) + (LANG === 'es' ? ' mil M' : ' B') : 'US$' + nf(0).format(v / 1e6) + ' M';
+  const usd = (v) => v >= 1e9 ? 'US$' + nf(2).format(v / 1e9) + (LANG === 'es' ? ' mil millones' : ' billion') : 'US$' + nf(0).format(v / 1e6) + (LANG === 'es' ? ' millones' : ' million');
+  // flows in thousand b/d -> "199 mil b/d" / "199k b/d", or "1,25 M b/d" / "1.25M b/d" from a million up
+  const flow = (k) => k == null ? '—' : k >= 1000 ? nf(2).format(k / 1000) + (LANG === 'es' ? ' M b/d' : 'M b/d') : nf().format(k) + (LANG === 'es' ? ' mil b/d' : 'k b/d');
+  const pct = (x) => Math.round(x * 100) + '%';
   const get = (p) => fetch(p + '?t=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   function applyStatic() {
     document.documentElement.lang = LANG;
@@ -148,50 +155,67 @@
     }
     document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
   }
-  let F = null, M = null, C = null;
+  let F = null, M = null, C = null, S = null;
 
   function render() {
     const main = document.getElementById('main'); main.replaceChildren();
     const big = document.getElementById('big'); big.replaceChildren();
     if (!F) { main.append($('p', 'note', tt('Loading…'))); return; }
     const months = F.months || [];
-    const done = months.filter((m) => m.complete && m.official_kbd);
+    // value for months without an OPEC Merey price yet: monthly average Brent (EIA daily) minus the latest OPEC discount
+    const pm0 = (M || []).filter((x) => x.merey && x.brent); const disc0 = pm0.length ? pm0[pm0.length - 1].brent - pm0[pm0.length - 1].merey : null;
+    const estVal = (m) => { if (m.high_value_usd) return [m.high_value_usd, m.usd_per_bbl, false];
+      const ds = ((S && S.rows) || []).filter((x) => x.brent && x.date.slice(0, 7) === m.month); if (!ds.length || disc0 == null) return [null, null, false];
+      const px = ds.reduce((a, x) => a + x.brent, 0) / ds.length - disc0; return [m.high_kbbl * 1000 * px, px, true]; };
+    const thisMonth = new Date().toISOString().slice(0, 7);
+    const isDone = (m) => m.month < thisMonth;
+    const done = months.filter((m) => isDone(m) && m.official_kbd);
     const last = done[done.length - 1] || months[months.length - 1];
     if (last) {
-      [[nf().format(last.high_kbd) + ' ' + tt('k b/d'), mname(last.month) + ' · ' + tt('counted ship by ship')],
-       [last.official_kbd ? nf().format(last.official_kbd) + ' ' + tt('k b/d') : '—', tt('official figure')],
-       [last.coverage_with_possible != null ? Math.round(last.coverage * 100) + '–' + Math.round(last.coverage_with_possible * 100) + '%' : '—', tt('of the official flow, counted')],
-       [last.high_value_usd ? usd(last.high_value_usd) : '—', tt('value at Merey price')]].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); big.append(d); });
+      [[flow(last.high_kbd), mname(last.month) + ' · ' + tt('counted ship by ship') + ' (' + last.high_n + ' ' + tt('voyages') + ')'],
+       [last.official_kbd ? flow(last.official_kbd) : '—', tt('official figure') + ' · ' + mname(last.month)],
+       [last.coverage != null ? pct(last.coverage) : '—', tt('of the official flow, counted') + (last.coverage_with_possible ? ' · ' + pct(last.coverage_with_possible) + ' ' + tt('with possible') : '')],
+       ...[estVal(last)].map(([v, px, e]) => [v ? (e ? '≈ ' : '') + usd(v) : '—', tt('value at Merey price') + (px ? ' · US$' + nf(2).format(px) + '/bbl' + (e ? ' ' + tt('(estimated)') : '') : '')])].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); big.append(d); });
     }
 
     // month by month
     const mc = $('section', 'card'); mc.append($('h2', null, tt('Month by month')), $('p', null, tt('API16 count against the official figures. A month is complete once it has ended and the 4-day satellite delay has passed.')));
     const tw = $('div', 'tbl'); const t = $('table'); const hr = $('tr');
     [['Month'], ['Safe cargoes', 'n'], ['Safe + possible', 'n'], ['Official', 'n'], ['Coverage', 'n'], ['Value (safe)', 'n']].forEach(([h, c]) => hr.append($('th', c, tt(h)))); t.append(hr);
+    const two = (main, sub) => { const td = $('td', 'n'); td.append($('b', null, main)); if (sub) td.append($('small', null, sub)); return td; };
     months.slice().reverse().forEach((m) => {
-      const r = $('tr', m.complete ? null : 'partial');
-      [[mname(m.month) + (m.complete ? '' : ' · ' + tt('in progress'))],
-       [m.high_n + ' · ' + nf().format(m.high_kbd), 'n'], [(m.high_n + m.possible_n) + ' · ' + nf().format(m.with_possible_kbd), 'n'],
-       [m.official_kbd ? nf().format(m.official_kbd) : '—', 'n'],
-       [m.coverage != null ? Math.round(m.coverage * 100) + '–' + Math.round((m.coverage_with_possible || m.coverage) * 100) + '%' : '—', 'n'],
-       [m.high_value_usd ? usd(m.high_value_usd) : '—', 'n']].forEach(([v, c]) => r.append($('td', c, v)));
+      const r = $('tr', isDone(m) ? null : 'partial');
+      const mt = $('td'); mt.append($('b', null, mname(m.month))); if (!isDone(m)) mt.append($('small', null, tt('in progress')));
+      r.append(mt,
+        two(flow(m.high_kbd), m.high_n + ' ' + tt('voyages')),
+        two(flow(m.with_possible_kbd), (m.high_n + m.possible_n) + ' ' + tt('voyages')),
+        two(m.official_kbd ? flow(m.official_kbd) : '—', m.eia_monthly_kbd ? 'EIA' : (m.customs_kbd ? tt('U.S. customs') : tt('EIA weekly'))),
+        two(m.coverage != null ? pct(m.coverage) : '—', m.coverage_with_possible != null ? pct(m.coverage_with_possible) + ' ' + tt('with possible') : ''),
+        ...[estVal(m)].map(([v, px, e]) => two(v ? (e ? '≈ ' : '') + usd(v) : '—', px ? 'US$' + nf(2).format(px) + '/bbl' + (e ? ' ' + tt('(estimated)') : '') : '')));
       t.append(r);
     });
     tw.append(t); mc.append(tw);
-    mc.append($('p', 'note', tt('k b/d') + ' · ' + tt('Official = EIA monthly where published, else U.S. customs, else the EIA weekly average.')));
+    mc.append($('p', 'note', tt('Official = EIA monthly where published, else U.S. customs, else the EIA weekly average.')));
     main.append(mc);
 
-    // per barrel
+    // per barrel: Brent and WTI every trading day (EIA), Merey estimated from the latest OPEC discount
     const pm = (M || []).filter((x) => x.merey && x.brent); const p = pm[pm.length - 1];
     const cm = ((C && C.monthly) || []).filter((x) => x.usd_per_bbl); const c = cm[cm.length - 1];
-    if (p) {
+    const sd = ((S && S.rows) || []).filter((x) => x.brent); const s = sd[sd.length - 1];
+    if (p || s) {
       const ec = $('section', 'card'); ec.append($('h2', null, tt('Per barrel')), $('p', null, tt('What a barrel of Venezuelan crude is worth on its way to the U.S.')));
       const g = $('div', 'econ'); const FREIGHT = 5;
-      [['US$' + nf(2).format(p.brent), tt('Brent') + ' · ' + mname(p.month)], ['US$' + nf(2).format(p.merey), tt('Merey 16 (OPEC, FOB Venezuela)')],
-       ['−US$' + nf(2).format(p.brent - p.merey), tt('Discount to Brent')], ['≈ US$' + nf(0).format(FREIGHT), tt('Freight José → U.S. Gulf (Aframax)')],
-       ['≈ US$' + nf(2).format(p.merey + FREIGHT), tt('Delivered in the U.S. (Merey + freight)')],
-       [c ? 'US$' + nf(2).format(c.usd_per_bbl) : '—', tt('U.S. customs declared value') + (c ? ' · ' + mname(c.month) : '')]].forEach(([b, s]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s)); g.append(d); });
-      ec.append(g, $('p', 'note', tt('Freight: about US$5/bbl in September 2026, from US$1.90 at the start of the year (Signal Maritime via Reuters). Insurance and port costs are not included.')));
+      const disc = p ? p.brent - p.merey : null;
+      const mereyToday = s && disc != null ? s.brent - disc : null;
+      [[s ? 'US$' + nf(2).format(s.brent) : '—', tt('Brent') + (s ? ' · ' + day(s.date) : '')],
+       [s && s.wti ? 'US$' + nf(2).format(s.wti) : '—', 'WTI' + (s ? ' · ' + day(s.date) : '')],
+       [mereyToday ? '≈ US$' + nf(2).format(mereyToday) : '—', tt('Merey 16 today (estimated)')],
+       [disc != null ? '−US$' + nf(2).format(disc) : '—', tt('Discount to Brent') + (p ? ' · OPEC ' + mname(p.month) : '')],
+       ['≈ US$' + nf(0).format(FREIGHT), tt('Freight José → U.S. Gulf (Aframax)')],
+       [mereyToday ? '≈ US$' + nf(2).format(mereyToday + FREIGHT) : '—', tt('Delivered in the U.S. (Merey + freight)')],
+       [p ? 'US$' + nf(2).format(p.merey) : '—', tt('Merey 16 (OPEC, FOB Venezuela)') + (p ? ' · ' + mname(p.month) : '')],
+       [c ? 'US$' + nf(2).format(c.usd_per_bbl) : '—', tt('U.S. customs declared value') + (c ? ' · ' + mname(c.month) : '')]].forEach(([b, s2]) => { const d = $('div'); d.append($('b', null, b), $('span', null, s2)); g.append(d); });
+      ec.append(g, $('p', 'note', tt('Brent and WTI: EIA spot prices, updated twice a day (EIA publishes them with a few days of delay). Merey today = Brent today minus the discount of the latest OPEC month. Freight: about US$5/bbl in September 2026, from US$1.90 at the start of the year (Signal Maritime via Reuters). Insurance and port costs are not included.')));
       main.append(ec);
     }
 
@@ -217,7 +241,7 @@
     main.append(hc);
   }
 
-  Promise.all([get('tracker/data/flows.json'), get('data/merey_brent_monthly.json'), get('tracker/data/census_ports.json')]).then(([f, m, c]) => { F = f; M = m; C = c; render(); });
+  Promise.all([get('tracker/data/flows.json'), get('data/merey_brent_monthly.json'), get('tracker/data/census_ports.json'), get('tracker/data/spot_prices_daily.json')]).then(([f, m, c, sp]) => { F = f; M = m; C = c; S = sp; render(); });
   applyStatic(); render();
   document.getElementById('lang-btn').addEventListener('click', () => {
     LANG = LANG === 'es' ? 'en' : 'es';
