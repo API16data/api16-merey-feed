@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T03:57:19Z",
+ "updated": "2026-11-05T05:00:40Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -117,12 +117,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-11-05T03:57:19Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 29.8226,
-   "lon": -93.9559,
-   "status": "moored",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 9.4,
    "destination": "VEBJV=>USPOA",
    "visits": [
