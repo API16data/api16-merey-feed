@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T16:38:40Z",
+ "updated": "2026-11-05T16:49:43Z",
  "attribution": "Powered by Global Fishing Watch (globalfishingwatch.org). CC BY-NC 4.0.",
  "method": "GFW port-visit events (satellite + terrestrial AIS, about 4 days behind real time). Visits inside Venezuelan terminal areas in the last 90 days; full port history (90 days) for those vessels and for API16's watchlist.",
  "ve_visits": [
@@ -5852,6 +5852,23 @@
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
+   "vessel_id": "db014a8e6-6c56-89e9-3e89-1c837b188639",
+   "name": "GRAN TEPUY I",
+   "mmsi": "775991166",
+   "flag": "VEN",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T14:55:53.000Z",
+   "end": "2026-10-14T22:36:55.000Z",
+   "hours": 55.68388888888889,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1088,
+   "lon": -68.9222,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
    "vessel_id": "8750b8267-7c2c-08a1-b54a-b4580660dd37",
    "name": "SEA SOLUTION",
    "mmsi": "775144000",
@@ -5867,6 +5884,40 @@
    "lat": 10.5077,
    "lon": -71.6091,
    "area": "Lake Maracaibo / Bajo Grande"
+  },
+  {
+   "vessel_id": "709aaee0c-c05b-5a42-80d7-bc32495f1c8d",
+   "name": "KTK BARAKUDA",
+   "mmsi": "306061000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T14:42:53.000Z",
+   "end": "2026-10-30T11:06:29.000Z",
+   "hours": 428.3933333333333,
+   "confidence": "4",
+   "port": "ARUBA",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.479,
+   "lon": -69.9963,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "82ff9de37-7a03-ee34-4c1d-cc8e5e51793d",
+   "name": "COLORADO",
+   "mmsi": "306024000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T14:27:59.000Z",
+   "end": "2026-10-20T19:58:19.000Z",
+   "hours": 197.50555555555556,
+   "confidence": "4",
+   "port": "ARUBA",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.479,
+   "lon": -69.9963,
+   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "ccc69dd76-6eb3-4440-f805-40b0d36cc610",
@@ -5937,6 +5988,40 @@
    "area": "El Palito / Puerto Cabello"
   },
   {
+   "vessel_id": "709aaee0c-c05b-5a42-80d7-bc32495f1c8d",
+   "name": "KTK BARAKUDA",
+   "mmsi": "306061000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T13:04:42.000Z",
+   "end": "2026-10-12T14:38:13.000Z",
+   "hours": 1.5586111111111112,
+   "confidence": "4",
+   "port": "SAN NICOLAS",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.4365,
+   "lon": -69.933,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "82ff9de37-7a03-ee34-4c1d-cc8e5e51793d",
+   "name": "COLORADO",
+   "mmsi": "306024000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T12:59:19.000Z",
+   "end": "2026-10-12T14:22:57.000Z",
+   "hours": 1.393888888888889,
+   "confidence": "4",
+   "port": "SAN NICOLAS",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.4365,
+   "lon": -69.933,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
    "vessel_id": "b8d9e0e67-7ebd-a58b-2905-f4ae97ee4cc9",
    "name": "BALSA",
    "mmsi": "374430000",
@@ -5952,6 +6037,57 @@
    "lat": 11.8053,
    "lon": -70.315,
    "area": "Paraguana: Amuay / Cardon"
+  },
+  {
+   "vessel_id": "43f583c3b-be82-1d18-ec80-15c6075ab967",
+   "name": "MARIA DE LA PAZ",
+   "mmsi": "775991169",
+   "flag": "VEN",
+   "type": "cargo",
+   "start": "2026-10-12T12:38:13.000Z",
+   "end": "2026-10-14T22:32:46.000Z",
+   "hours": 57.909166666666664,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1088,
+   "lon": -68.9222,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "662f37a16-6082-b847-4166-6dc194f0e5ed",
+   "name": "DONA MONICA I",
+   "mmsi": "775990978",
+   "flag": "VEN",
+   "type": "cargo",
+   "start": "2026-10-12T12:27:01.000Z",
+   "end": "2026-10-13T22:23:16.000Z",
+   "hours": 33.9375,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1039,
+   "lon": -68.9408,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "6b927cc8b-bf41-1334-3d53-8646a5db81c1",
+   "name": "CRYSTAL A",
+   "mmsi": "563166700",
+   "flag": "SGP",
+   "type": "cargo",
+   "start": "2026-10-12T12:03:16.000Z",
+   "end": "2026-10-13T04:43:43.000Z",
+   "hours": 16.674166666666668,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1047,
+   "lon": -68.9434,
+   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "f4ef2d9de-ec4c-7396-6f12-2ffdbc9a1dc1",
@@ -5971,6 +6107,40 @@
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
+   "vessel_id": "a2a4bd328-8a57-abf3-299e-4bd51e3eb5b7",
+   "name": "WHITE TIP II",
+   "mmsi": "306099000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T11:18:31.000Z",
+   "end": "2026-10-12T23:24:11.000Z",
+   "hours": 12.094444444444445,
+   "confidence": "4",
+   "port": "CARACAS BAY",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.0708,
+   "lon": -68.8623,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "34356d650-0c92-5639-9666-b12f68bc10ae",
+   "name": "EL MARACUCHO",
+   "mmsi": "775991096",
+   "flag": "VEN",
+   "type": "cargo",
+   "start": "2026-10-12T11:07:55.000Z",
+   "end": "2026-10-13T21:45:06.000Z",
+   "hours": 34.61972222222222,
+   "confidence": "4",
+   "port": "ARUBA",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.4805,
+   "lon": -69.999,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
    "vessel_id": "8750b8267-7c2c-08a1-b54a-b4580660dd37",
    "name": "SEA SOLUTION",
    "mmsi": "775144000",
@@ -5986,6 +6156,57 @@
    "lat": 10.3715,
    "lon": -71.522,
    "area": "Lake Maracaibo / Bajo Grande"
+  },
+  {
+   "vessel_id": "2e537f72e-ef64-d485-f205-6f1bd8bc7cdf",
+   "name": "CARMEN D",
+   "mmsi": "775991133",
+   "flag": "VEN",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T10:09:33.000Z",
+   "end": "2026-10-12T22:14:27.000Z",
+   "hours": 12.081666666666667,
+   "confidence": "3",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1039,
+   "lon": -68.9408,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "f340914c8-863b-60d8-9f07-d57b6c968486",
+   "name": "EMIR MANSA MUSA",
+   "mmsi": "775991111",
+   "flag": "VEN",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T10:02:24.000Z",
+   "end": "2026-10-13T21:03:58.000Z",
+   "hours": 35.02611111111111,
+   "confidence": "4",
+   "port": "ARUBA",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.479,
+   "lon": -69.9963,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "f15614cf2-202b-91ec-e29a-f547c1c31e66",
+   "name": "NOAH",
+   "mmsi": "305904000",
+   "flag": "ATG",
+   "type": "cargo",
+   "start": "2026-10-12T09:03:55.000Z",
+   "end": "2026-10-13T01:26:18.000Z",
+   "hours": 16.373055555555556,
+   "confidence": "4",
+   "port": "ORANJESTAD",
+   "port_flag": "ABW",
+   "at_dock": true,
+   "lat": 12.498,
+   "lon": -70.0173,
+   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "d667ecf58-81e8-6818-e751-f7ead4534b9a",
@@ -6005,6 +6226,23 @@
    "area": "El Palito / Puerto Cabello"
   },
   {
+   "vessel_id": "a2a4bd328-8a57-abf3-299e-4bd51e3eb5b7",
+   "name": "WHITE TIP II",
+   "mmsi": "306099000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T05:08:20.000Z",
+   "end": "2026-10-12T11:11:34.000Z",
+   "hours": 6.053888888888889,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1047,
+   "lon": -68.9434,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
    "vessel_id": "4e815573c-c813-b561-bc48-229229e7134f",
    "name": "MARIA H",
    "mmsi": "356312000",
@@ -6022,6 +6260,23 @@
    "area": "El Palito / Puerto Cabello"
   },
   {
+   "vessel_id": "3a2acfa5d-d2f2-7e54-4783-94d08d6f6b5b",
+   "name": "SEATRADER",
+   "mmsi": "306069000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-12T03:56:59.000Z",
+   "end": "2026-10-29T21:32:26.000Z",
+   "hours": 425.5908333333333,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1047,
+   "lon": -68.9434,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
    "vessel_id": "36d383238-827a-5c80-4239-b6cf7910dffb",
    "name": "EVEREST",
    "mmsi": "374867000",
@@ -6037,6 +6292,57 @@
    "lat": 11.7387,
    "lon": -70.2973,
    "area": "Paraguana: Amuay / Cardon"
+  },
+  {
+   "vessel_id": "92a2bfb3c-c02a-36d5-4ed3-c44947d3f588",
+   "name": "ICE ENERGY",
+   "mmsi": "636012628",
+   "flag": "LBR",
+   "type": "other_non_fishing",
+   "start": "2026-10-11T23:39:45.000Z",
+   "end": "2026-10-15T17:45:47.000Z",
+   "hours": 90.10055555555556,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1047,
+   "lon": -68.9434,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "cf596d20d-d93b-53ea-ccd1-32c28a370ffa",
+   "name": "WHITE TIP 1",
+   "mmsi": "306071000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-11T23:39:37.000Z",
+   "end": "2026-10-12T22:57:39.000Z",
+   "hours": 23.300555555555555,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1088,
+   "lon": -68.9222,
+   "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "bc6707a52-2083-56de-12de-606881cfb6ad",
+   "name": "OLA",
+   "mmsi": "306090000",
+   "flag": "BES",
+   "type": "other_non_fishing",
+   "start": "2026-10-11T21:47:23.000Z",
+   "end": "2026-10-12T18:23:48.000Z",
+   "hours": 20.606944444444444,
+   "confidence": "4",
+   "port": "WILLEMSTAD",
+   "port_flag": "CUW",
+   "at_dock": true,
+   "lat": 12.1088,
+   "lon": -68.9222,
+   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "b0cf4f26d-dd5d-77f6-5a18-4af942a4d5a4",
@@ -13485,6 +13791,23 @@
    "area": "Paraguana: Amuay / Cardon"
   },
   {
+   "vessel_id": "469849e17-7dd0-8fcc-e0c3-6960bbb3c8fb",
+   "name": "EL VICTORIOSO",
+   "mmsi": "357763000",
+   "flag": "PAN",
+   "type": "cargo",
+   "start": "2026-09-28T23:12:17.000Z",
+   "end": "2026-09-29T03:33:12.000Z",
+   "hours": 4.348611111111111,
+   "confidence": "4",
+   "port": "GUANTA",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2754,
+   "lon": -64.5709,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
    "vessel_id": "7a10d72fe-e5f1-ea99-4f50-03b4fd30d5fe",
    "name": "HERMANO MIRLO",
    "mmsi": "373038000",
@@ -13587,6 +13910,23 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
+   "vessel_id": "0b7088b80-0f79-31e4-3bce-ddf9e057f03c",
+   "name": "FE EN DIOS",
+   "mmsi": "775991471",
+   "flag": "VEN",
+   "type": "insufficient_data",
+   "start": "2026-09-28T20:19:27.000Z",
+   "end": "2026-10-20T22:57:10.000Z",
+   "hours": 530.6286111111111,
+   "confidence": "4",
+   "port": "GUANTA",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2754,
+   "lon": -64.5709,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
    "vessel_id": "7a9f9ae85-537a-5c5c-5a61-268d4fb2d98b",
    "name": "NEGRA HIPOLITA",
    "mmsi": "775048000",
@@ -13602,6 +13942,23 @@
    "lat": 11.7444,
    "lon": -70.3031,
    "area": "Paraguana: Amuay / Cardon"
+  },
+  {
+   "vessel_id": "962045cf8-8067-d2ec-962e-b03dc70351e8",
+   "name": "IVI",
+   "mmsi": "372228000",
+   "flag": "PAN",
+   "type": "bunker",
+   "start": "2026-09-28T19:48:23.000Z",
+   "end": "2026-10-03T02:48:36.000Z",
+   "hours": 103.00361111111111,
+   "confidence": "4",
+   "port": "JOSE",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2358,
+   "lon": -64.7531,
+   "area": "Jose / Puerto La Cruz"
   },
   {
    "vessel_id": "e552a0156-6082-0aab-1e83-512b6c59f392",
@@ -13670,6 +14027,23 @@
    "lat": 12.5092,
    "lon": -70.0337,
    "area": "Aruba / Curacao / Bonaire"
+  },
+  {
+   "vessel_id": "d580ec2ae-e3d4-9bbc-73f0-b6a97b208e43",
+   "name": "ECO OCEANO CA",
+   "mmsi": "538009427",
+   "flag": "MHL",
+   "type": "other_non_fishing",
+   "start": "2026-09-28T15:21:45.000Z",
+   "end": "2026-10-08T17:20:52.000Z",
+   "hours": 241.98527777777778,
+   "confidence": "4",
+   "port": "JOSE VENEZUELA",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2044,
+   "lon": -64.826,
+   "area": "Jose / Puerto La Cruz"
   },
   {
    "vessel_id": "78adaf3e5-5471-b012-3b35-7dd21cb2f141",
@@ -13995,6 +14369,23 @@
    "area": "El Palito / Puerto Cabello"
   },
   {
+   "vessel_id": "57df44c67-7622-bc32-104d-aef138431378",
+   "name": "CAQUETIO I",
+   "mmsi": "775136000",
+   "flag": "VEN",
+   "type": "cargo",
+   "start": "2026-09-28T10:47:34.000Z",
+   "end": "2026-09-28T21:36:42.000Z",
+   "hours": 10.818888888888889,
+   "confidence": "4",
+   "port": "GUANTA",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2754,
+   "lon": -64.5709,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
    "vessel_id": "f15614cf2-202b-91ec-e29a-f547c1c31e66",
    "name": "NOAH",
    "mmsi": "305904000",
@@ -14131,6 +14522,23 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
+   "vessel_id": "7ba541d94-4012-5811-6b5f-66b5a44c8d3e",
+   "name": "YAGUAREY",
+   "mmsi": "775991020",
+   "flag": "VEN",
+   "type": "cargo",
+   "start": "2026-09-28T07:24:26.000Z",
+   "end": "2026-09-29T01:20:02.000Z",
+   "hours": 17.926666666666666,
+   "confidence": "4",
+   "port": "GUANTA",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2754,
+   "lon": -64.5709,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
    "vessel_id": "24930b8f1-1db2-7f76-275a-d8d48df68ef5",
    "name": "FILIPPA",
    "mmsi": "775088000",
@@ -14233,6 +14641,57 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
+   "vessel_id": "29d4f33d1-1a07-b3d1-596b-1c5449549fc5",
+   "name": "ELLIE LADY",
+   "mmsi": "636014423",
+   "flag": "LBR",
+   "type": "other_non_fishing",
+   "start": "2026-09-28T00:08:50.000Z",
+   "end": "2026-10-20T01:25:39.000Z",
+   "hours": 529.2802777777778,
+   "confidence": "4",
+   "port": "PUERTO LA CRUZ",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2924,
+   "lon": -64.7117,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
+   "vessel_id": "db48d3862-2518-857d-5287-4e3e2b974350",
+   "name": "FABIANA",
+   "mmsi": "775998412",
+   "flag": "VEN",
+   "type": "insufficient_data",
+   "start": "2026-09-27T22:52:55.000Z",
+   "end": "2026-10-20T16:12:23.000Z",
+   "hours": 545.3244444444445,
+   "confidence": "4",
+   "port": "PUERTO LA CRUZ",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2813,
+   "lon": -64.7023,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
+   "vessel_id": "2a213a1a9-9212-6d19-85f2-bb2b3d2d1c9a",
+   "name": "TREMENDURA",
+   "mmsi": "775991722",
+   "flag": "VEN",
+   "type": "insufficient_data",
+   "start": "2026-09-27T22:29:06.000Z",
+   "end": "2026-10-18T20:07:45.000Z",
+   "hours": 501.64416666666665,
+   "confidence": "4",
+   "port": "PUERTO LA CRUZ",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2702,
+   "lon": -64.6956,
+   "area": "Jose / Puerto La Cruz"
+  },
+  {
    "vessel_id": "e67fa6ac2-2e38-802b-5f5d-df371e29a899",
    "name": "MSC KEY F",
    "mmsi": "209739000",
@@ -14248,6 +14707,23 @@
    "lat": 10.5471,
    "lon": -68.0387,
    "area": "El Palito / Puerto Cabello"
+  },
+  {
+   "vessel_id": "6369a73bb-b771-3972-c02d-e25722c03b21",
+   "name": "CARIBEAN PEARL",
+   "mmsi": "775992281",
+   "flag": "VEN",
+   "type": "insufficient_data",
+   "start": "2026-09-27T22:19:24.000Z",
+   "end": "2026-10-28T23:53:40.000Z",
+   "hours": 745.5711111111111,
+   "confidence": "3",
+   "port": "GUANTA",
+   "port_flag": "VEN",
+   "at_dock": false,
+   "lat": 10.2624,
+   "lon": -64.5774,
+   "area": "Jose / Puerto La Cruz"
   },
   {
    "vessel_id": "cf596d20d-d93b-53ea-ccd1-32c28a370ffa",
@@ -48913,23 +49389,6 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
-   "vessel_id": "1ead7bb7a-a8ff-ceec-7164-50843e622eac",
-   "name": "WHITE TIP III",
-   "mmsi": "306006000",
-   "flag": "BES",
-   "type": "other_non_fishing",
-   "start": "2026-08-06T14:02:05.000Z",
-   "end": "2026-08-06T17:11:04.000Z",
-   "hours": 3.149722222222222,
-   "confidence": "4",
-   "port": "ARUBA",
-   "port_flag": "ABW",
-   "at_dock": false,
-   "lat": 12.4431,
-   "lon": -70.1071,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
    "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
    "name": "MARLIN HERA",
    "mmsi": "538009473",
@@ -48955,57 +49414,6 @@
    "start": "2026-08-06T12:42:39.000Z",
    "end": "2026-08-07T01:50:32.000Z",
    "hours": 13.131388888888889,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1047,
-   "lon": -68.9434,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "afab80c33-326b-e86e-c10f-8ea440891a77",
-   "name": "EL ORIENTAL",
-   "mmsi": "775146000",
-   "flag": "VEN",
-   "type": "other_non_fishing",
-   "start": "2026-08-06T11:54:23.000Z",
-   "end": "2026-08-06T15:50:33.000Z",
-   "hours": 3.936111111111111,
-   "confidence": "4",
-   "port": "EL PALITO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.4939,
-   "lon": -68.1219,
-   "area": "El Palito / Puerto Cabello"
-  },
-  {
-   "vessel_id": "d7fc3ceb2-2179-7e5b-f83b-3b3b669d4573",
-   "name": "MACUTO",
-   "mmsi": "775994660",
-   "flag": "VEN",
-   "type": "other_non_fishing",
-   "start": "2026-08-06T11:51:22.000Z",
-   "end": "2026-08-06T15:48:09.000Z",
-   "hours": 3.946388888888889,
-   "confidence": "4",
-   "port": "EL PALITO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.4939,
-   "lon": -68.1219,
-   "area": "El Palito / Puerto Cabello"
-  },
-  {
-   "vessel_id": "6c93960a8-8a79-f71a-92ef-c09215cb1b92",
-   "name": "MIDNIGHT PEARL",
-   "mmsi": "577060000",
-   "flag": "VUT",
-   "type": "cargo",
-   "start": "2026-08-06T11:42:05.000Z",
-   "end": "2026-08-06T12:34:12.000Z",
-   "hours": 0.8686111111111111,
    "confidence": "4",
    "port": "WILLEMSTAD",
    "port_flag": "CUW",
@@ -49083,23 +49491,6 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
-   "vessel_id": "20d863cf9-9d27-ec9e-57e1-9e3ba20d2491",
-   "name": "DON ANDRES I",
-   "mmsi": "353252000",
-   "flag": "PAN",
-   "type": "cargo",
-   "start": "2026-08-06T10:11:35.000Z",
-   "end": "2026-08-06T19:07:23.000Z",
-   "hours": 8.93,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1088,
-   "lon": -68.9222,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
    "vessel_id": "d6e1c05b6-6a7b-8c2a-30e9-233be22f71dc",
    "name": "TORM HELLERUP",
    "mmsi": "219029327",
@@ -49114,40 +49505,6 @@
    "at_dock": false,
    "lat": 10.2044,
    "lon": -64.826,
-   "area": "Jose / Puerto La Cruz"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "flag": "PAN",
-   "type": "cargo",
-   "start": "2026-08-06T09:57:45.000Z",
-   "end": "2026-08-06T20:24:18.000Z",
-   "hours": 10.4425,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1047,
-   "lon": -68.9434,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "57df44c67-7622-bc32-104d-aef138431378",
-   "name": "CAQUETIO I",
-   "mmsi": "775136000",
-   "flag": "VEN",
-   "type": "cargo",
-   "start": "2026-08-06T09:56:54.000Z",
-   "end": "2026-08-06T22:18:47.000Z",
-   "hours": 12.364722222222222,
-   "confidence": "4",
-   "port": "GUANTA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.2754,
-   "lon": -64.5709,
    "area": "Jose / Puerto La Cruz"
   },
   {
@@ -49217,57 +49574,6 @@
    "lat": 10.2064,
    "lon": -64.6647,
    "area": "Jose / Puerto La Cruz"
-  },
-  {
-   "vessel_id": "e3f4dd49b-be5a-3b64-78af-6c6f006c9f24",
-   "name": "ATAYAL STAR",
-   "mmsi": "373293000",
-   "flag": "PAN",
-   "type": "cargo",
-   "start": "2026-08-05T21:52:05.000Z",
-   "end": "2026-08-06T07:03:29.000Z",
-   "hours": 9.19,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1047,
-   "lon": -68.9434,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "20d863cf9-9d27-ec9e-57e1-9e3ba20d2491",
-   "name": "DON ANDRES I",
-   "mmsi": "353252000",
-   "flag": "PAN",
-   "type": "cargo",
-   "start": "2026-08-05T21:14:10.000Z",
-   "end": "2026-08-06T06:14:34.000Z",
-   "hours": 9.006666666666666,
-   "confidence": "4",
-   "port": "KRALENDIJK",
-   "port_flag": "BES",
-   "at_dock": true,
-   "lat": 12.1476,
-   "lon": -68.2776,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "165a19c3f-f89a-165c-ced3-77968ceb19cb",
-   "name": "LIMA II",
-   "mmsi": "306147000",
-   "flag": "BES",
-   "type": "other_non_fishing",
-   "start": "2026-08-05T21:02:02.000Z",
-   "end": "2026-08-06T12:59:10.000Z",
-   "hours": 15.952222222222222,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1047,
-   "lon": -68.9434,
-   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "bc6707a52-2083-56de-12de-606881cfb6ad",
@@ -49406,23 +49712,6 @@
    "area": "El Palito / Puerto Cabello"
   },
   {
-   "vessel_id": "8750b8267-7c2c-08a1-b54a-b4580660dd37",
-   "name": "SEA SOLUTION",
-   "mmsi": "775144000",
-   "flag": "VEN",
-   "type": "other_non_fishing",
-   "start": "2026-08-05T17:39:09.000Z",
-   "end": "2026-08-06T11:15:37.000Z",
-   "hours": 17.607777777777777,
-   "confidence": "4",
-   "port": "PUERTO MIRANDA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.7677,
-   "lon": -71.5818,
-   "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
    "vessel_id": "ce0a39c5e-e443-b2e0-a396-7e6f8d44220c",
    "name": "CAPITAN KRUGER",
    "mmsi": "775990022",
@@ -49438,23 +49727,6 @@
    "lat": 10.3715,
    "lon": -71.522,
    "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
-   "vessel_id": "26ce7490c-c218-f7b3-0930-71a7aaaeb3ce",
-   "name": "CYMBIDIUM",
-   "mmsi": "311000720",
-   "flag": "BHS",
-   "type": "cargo",
-   "start": "2026-08-05T16:52:02.000Z",
-   "end": "2026-08-06T14:21:14.000Z",
-   "hours": 21.486666666666668,
-   "confidence": "4",
-   "port": "FUIK BAAI",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.0513,
-   "lon": -68.8319,
-   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "ffa44466c-cb31-1fd4-d6a2-d9b1cccfd9b3",
@@ -49508,23 +49780,6 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
-   "vessel_id": "12a5b544b-b380-07bd-73ae-ffd0b3fb8178",
-   "name": "NAIGUATA",
-   "mmsi": "375338000",
-   "flag": "VCT",
-   "type": "other_non_fishing",
-   "start": "2026-08-05T16:02:35.000Z",
-   "end": "2026-08-06T11:30:39.000Z",
-   "hours": 19.467777777777776,
-   "confidence": "4",
-   "port": "BAJO GRANDE",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.4936,
-   "lon": -71.6052,
-   "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
    "vessel_id": "473c07c47-7d09-4ce6-9bb3-905b5211b7b5",
    "name": "EGIL",
    "mmsi": "375195000",
@@ -49559,23 +49814,6 @@
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
-   "vessel_id": "f15614cf2-202b-91ec-e29a-f547c1c31e66",
-   "name": "NOAH",
-   "mmsi": "305904000",
-   "flag": "ATG",
-   "type": "cargo",
-   "start": "2026-08-05T13:13:26.000Z",
-   "end": "2026-08-06T04:59:57.000Z",
-   "hours": 15.775277777777777,
-   "confidence": "4",
-   "port": "AMUAY",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 11.7717,
-   "lon": -70.315,
-   "area": "Paraguana: Amuay / Cardon"
-  },
-  {
    "vessel_id": "db2c5c549-963d-f064-554f-66693c79fb2b",
    "name": "MANTA",
    "mmsi": "306768000",
@@ -49590,40 +49828,6 @@
    "at_dock": true,
    "lat": 12.163,
    "lon": -68.2848,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "a549f1940-0eb3-3c29-ac91-3bc37aa78732",
-   "name": "CARNIVAL HORIZON",
-   "mmsi": "370039000",
-   "flag": "PAN",
-   "type": "cargo",
-   "start": "2026-08-05T10:48:26.000Z",
-   "end": "2026-08-06T00:05:44.000Z",
-   "hours": 13.288333333333334,
-   "confidence": "4",
-   "port": "KRALENDIJK",
-   "port_flag": "BES",
-   "at_dock": true,
-   "lat": 12.1476,
-   "lon": -68.2776,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "2fc13bbc1-1a04-3e96-ae8c-e108f8fd03e1",
-   "name": "CARIBBEAN STAR",
-   "mmsi": "212850000",
-   "flag": "CYP",
-   "type": "cargo",
-   "start": "2026-08-05T10:12:14.000Z",
-   "end": "2026-08-06T20:14:46.000Z",
-   "hours": 34.04222222222222,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1047,
-   "lon": -68.9434,
    "area": "Aruba / Curacao / Bonaire"
   },
   {
@@ -49831,23 +50035,6 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
-   "vessel_id": "6c93960a8-8a79-f71a-92ef-c09215cb1b92",
-   "name": "MIDNIGHT PEARL",
-   "mmsi": "577060000",
-   "flag": "VUT",
-   "type": "cargo",
-   "start": "2026-08-04T19:23:09.000Z",
-   "end": "2026-08-06T04:15:12.000Z",
-   "hours": 32.8675,
-   "confidence": "4",
-   "port": "ARUBA",
-   "port_flag": "ABW",
-   "at_dock": true,
-   "lat": 12.479,
-   "lon": -69.9963,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
    "vessel_id": "493f9d42e-e995-315f-9327-8e542a257106",
    "name": "NEVER MONDAY",
    "mmsi": "338430758",
@@ -49916,40 +50103,6 @@
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
-   "vessel_id": "d7fc3ceb2-2179-7e5b-f83b-3b3b669d4573",
-   "name": "MACUTO",
-   "mmsi": "775994660",
-   "flag": "VEN",
-   "type": "other_non_fishing",
-   "start": "2026-08-04T13:04:23.000Z",
-   "end": "2026-08-06T11:46:43.000Z",
-   "hours": 46.705555555555556,
-   "confidence": "4",
-   "port": "PUERTO CABELLO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.5162,
-   "lon": -68.0503,
-   "area": "El Palito / Puerto Cabello"
-  },
-  {
-   "vessel_id": "4e99bc6b0-0b0f-b7d9-5a0b-d4c628f533c9",
-   "name": "MARFRET GUYANE",
-   "mmsi": "253000165",
-   "flag": "LUX",
-   "type": "cargo",
-   "start": "2026-08-04T11:59:37.000Z",
-   "end": "2026-08-06T01:53:08.000Z",
-   "hours": 37.89194444444445,
-   "confidence": "4",
-   "port": "AMUAY",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 11.7717,
-   "lon": -70.315,
-   "area": "Paraguana: Amuay / Cardon"
-  },
-  {
    "vessel_id": "4835c9f74-4120-6652-be6b-bc6989cd98ba",
    "name": "AUYAN TEPUY",
    "mmsi": "775991165",
@@ -50015,40 +50168,6 @@
    "at_dock": false,
    "lat": 11.6403,
    "lon": -70.2794,
-   "area": "Paraguana: Amuay / Cardon"
-  },
-  {
-   "vessel_id": "7a10d72fe-e5f1-ea99-4f50-03b4fd30d5fe",
-   "name": "HERMANO MIRLO",
-   "mmsi": "373038000",
-   "flag": "PAN",
-   "type": "cargo",
-   "start": "2026-08-04T06:43:53.000Z",
-   "end": "2026-08-06T16:02:42.000Z",
-   "hours": 57.31361111111111,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1039,
-   "lon": -68.9408,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "10b689bde-eefc-99b8-5a9d-059dc038d8b7",
-   "name": "XANTHOS EOS",
-   "mmsi": "306761000",
-   "flag": "BES",
-   "type": "other_non_fishing",
-   "start": "2026-08-04T00:00:59.000Z",
-   "end": "2026-08-06T18:44:36.000Z",
-   "hours": 66.72694444444444,
-   "confidence": "4",
-   "port": "PUNTA GUARANAO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 11.6704,
-   "lon": -70.2613,
    "area": "Paraguana: Amuay / Cardon"
   },
   {
@@ -50120,23 +50239,6 @@
    "area": "Aruba / Curacao / Bonaire"
   },
   {
-   "vessel_id": "68663882e-e822-4f5a-06b7-1b2c358aebb9",
-   "name": "SKY LIGHT",
-   "mmsi": "577753000",
-   "flag": "VUT",
-   "type": "cargo",
-   "start": "2026-08-03T22:13:41.000Z",
-   "end": "2026-08-06T05:27:28.000Z",
-   "hours": 55.22972222222222,
-   "confidence": "4",
-   "port": "PUERTO CABELLO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.5323,
-   "lon": -67.9849,
-   "area": "El Palito / Puerto Cabello"
-  },
-  {
    "vessel_id": "fd636656b-b541-a27d-2f3a-0d45c52dff8e",
    "name": "CAPITAN JACK",
    "mmsi": "775992621",
@@ -50186,40 +50288,6 @@
    "lat": 10.6421,
    "lon": -71.5984,
    "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
-   "vessel_id": "fae468e51-1676-53aa-3020-0ca2f4dfd21e",
-   "name": "YERUPAJA",
-   "mmsi": "563587000",
-   "flag": "SGP",
-   "type": "cargo",
-   "start": "2026-08-03T16:09:44.000Z",
-   "end": "2026-08-06T11:59:49.000Z",
-   "hours": 67.83472222222223,
-   "confidence": "4",
-   "port": "PUERTO MIRANDA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.7677,
-   "lon": -71.5818,
-   "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
-   "vessel_id": "2756a64bc-c88b-ee36-bd5e-55764fcf5a2c",
-   "name": "SEAWAYS GUAYAQUIL",
-   "mmsi": "538008861",
-   "flag": "MHL",
-   "type": "other_non_fishing",
-   "start": "2026-08-03T14:45:52.000Z",
-   "end": "2026-08-06T15:16:01.000Z",
-   "hours": 72.5025,
-   "confidence": "4",
-   "port": "JOSE VENEZUELA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.1454,
-   "lon": -64.8752,
-   "area": "Jose / Puerto La Cruz"
   },
   {
    "vessel_id": "db014a8e6-6c56-89e9-3e89-1c837b188639",
@@ -50290,23 +50358,6 @@
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
-   "vessel_id": "881ac74dd-d477-04a8-c39f-37ae5419161d",
-   "name": "DON ANDRES",
-   "mmsi": "775991167",
-   "flag": "VEN",
-   "type": "other_non_fishing",
-   "start": "2026-08-03T12:27:58.000Z",
-   "end": "2026-08-06T16:24:01.000Z",
-   "hours": 75.93416666666667,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1088,
-   "lon": -68.9222,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
    "vessel_id": "a07f909f3-3d63-4676-f665-528209358dc4",
    "name": "RIVERTEC",
    "mmsi": "477661400",
@@ -50341,23 +50392,6 @@
    "area": "El Palito / Puerto Cabello"
   },
   {
-   "vessel_id": "9d590d8ae-e9dc-59fe-7ce0-1f6935c21efe",
-   "name": "ARC 24 DE JULIO",
-   "mmsi": "730003111",
-   "flag": "COL",
-   "type": "other_non_fishing",
-   "start": "2026-08-03T11:00:03.000Z",
-   "end": "2026-08-06T12:49:41.000Z",
-   "hours": 73.82722222222222,
-   "confidence": "4",
-   "port": "WILLEMSTAD",
-   "port_flag": "CUW",
-   "at_dock": true,
-   "lat": 12.1047,
-   "lon": -68.9434,
-   "area": "Aruba / Curacao / Bonaire"
-  },
-  {
    "vessel_id": "fb404b9a9-9ffd-4ac5-d89e-c4bd8fa864f9",
    "name": "SAN GIUSEPPE",
    "mmsi": "775993241",
@@ -50390,23 +50424,6 @@
    "lat": 12.498,
    "lon": -70.0173,
    "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "7ba541d94-4012-5811-6b5f-66b5a44c8d3e",
-   "name": "YAGUAREY",
-   "mmsi": "775991020",
-   "flag": "VEN",
-   "type": "cargo",
-   "start": "2026-08-03T07:46:33.000Z",
-   "end": "2026-08-06T01:50:02.000Z",
-   "hours": 66.05805555555555,
-   "confidence": "4",
-   "port": "GUANTA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.2754,
-   "lon": -64.5709,
-   "area": "Jose / Puerto La Cruz"
   },
   {
    "vessel_id": "cc57f7dd4-4bc0-46c5-66d6-8f484a3b2125",
@@ -50509,23 +50526,6 @@
    "lat": 11.6188,
    "lon": -70.2308,
    "area": "Paraguana: Amuay / Cardon"
-  },
-  {
-   "vessel_id": "1ead7bb7a-a8ff-ceec-7164-50843e622eac",
-   "name": "WHITE TIP III",
-   "mmsi": "306006000",
-   "flag": "BES",
-   "type": "other_non_fishing",
-   "start": "2026-08-02T17:00:36.000Z",
-   "end": "2026-08-06T13:44:53.000Z",
-   "hours": 92.73805555555556,
-   "confidence": "4",
-   "port": "ARUBA",
-   "port_flag": "ABW",
-   "at_dock": true,
-   "lat": 12.4805,
-   "lon": -69.999,
-   "area": "Aruba / Curacao / Bonaire"
   },
   {
    "vessel_id": "da21c0b46-68c2-34ca-c7da-fe0c2fb11b86",
@@ -50681,40 +50681,6 @@
    "area": "Jose / Puerto La Cruz"
   },
   {
-   "vessel_id": "175b2e12f-f372-35bf-f2e6-f7d716bc2ffb",
-   "name": "ALPES",
-   "mmsi": "636023942",
-   "flag": "LBR",
-   "type": "other_non_fishing",
-   "start": "2026-08-01T16:48:11.000Z",
-   "end": "2026-08-06T03:00:41.000Z",
-   "hours": 106.20833333333333,
-   "confidence": "4",
-   "port": "AMUAY",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 11.7717,
-   "lon": -70.315,
-   "area": "Paraguana: Amuay / Cardon"
-  },
-  {
-   "vessel_id": "b6accd240-0db6-2177-242c-6ecbc47f7871",
-   "name": "CHAVIN",
-   "mmsi": "760000740",
-   "flag": "PER",
-   "type": "cargo",
-   "start": "2026-08-01T15:24:20.000Z",
-   "end": "2026-08-06T03:02:13.000Z",
-   "hours": 107.63138888888889,
-   "confidence": "4",
-   "port": "PUNTA GUARANAO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 11.6704,
-   "lon": -70.2613,
-   "area": "Paraguana: Amuay / Cardon"
-  },
-  {
    "vessel_id": "dce08ec24-4ee9-99ad-7cce-3756f2d3ee3f",
    "name": "SANS FRONTIERS",
    "mmsi": "775998763",
@@ -50798,23 +50764,6 @@
    "lat": 12.1047,
    "lon": -68.9434,
    "area": "Aruba / Curacao / Bonaire"
-  },
-  {
-   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
-   "name": "CARIBBEAN VOYAGER",
-   "mmsi": "311000864",
-   "flag": "BHS",
-   "type": "other_non_fishing",
-   "start": "2026-08-01T09:36:13.000Z",
-   "end": "2026-08-06T10:47:12.000Z",
-   "hours": 121.18305555555555,
-   "confidence": "4",
-   "port": "JOSE VENEZUELA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.2072,
-   "lon": -64.8081,
-   "area": "Jose / Puerto La Cruz"
   },
   {
    "vessel_id": "87f8aed0e-e167-4ef7-d170-b7387f6ae671",
@@ -51038,23 +50987,6 @@
    "area": "Jose / Puerto La Cruz"
   },
   {
-   "vessel_id": "afab80c33-326b-e86e-c10f-8ea440891a77",
-   "name": "EL ORIENTAL",
-   "mmsi": "775146000",
-   "flag": "VEN",
-   "type": "other_non_fishing",
-   "start": "2026-07-30T17:22:06.000Z",
-   "end": "2026-08-06T11:48:31.000Z",
-   "hours": 162.44027777777777,
-   "confidence": "4",
-   "port": "PUERTO CABELLO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.5162,
-   "lon": -68.0503,
-   "area": "El Palito / Puerto Cabello"
-  },
-  {
    "vessel_id": "84177b014-48f4-c70f-17b1-fafb1969901d",
    "name": "OPHELIA",
    "mmsi": "355236000",
@@ -51087,23 +51019,6 @@
    "lat": 10.2754,
    "lon": -64.5709,
    "area": "Jose / Puerto La Cruz"
-  },
-  {
-   "vessel_id": "a857891af-f53a-e81a-2632-d9d178a88192",
-   "name": "CENTURION JUKTAS",
-   "mmsi": "314692000",
-   "flag": "BRB",
-   "type": "cargo",
-   "start": "2026-07-30T13:25:26.000Z",
-   "end": "2026-08-06T02:52:44.000Z",
-   "hours": 157.455,
-   "confidence": "4",
-   "port": "PUERTO CABELLO",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.5323,
-   "lon": -67.9849,
-   "area": "El Palito / Puerto Cabello"
   },
   {
    "vessel_id": "e04025276-6034-49ca-355c-b186a48a3fdb",
@@ -51174,23 +51089,6 @@
    "area": "Jose / Puerto La Cruz"
   },
   {
-   "vessel_id": "4731d30b7-783f-04e4-10df-cf311ebd4c9e",
-   "name": "EAGLE LE HAVRE",
-   "mmsi": "228091700",
-   "flag": "FRA",
-   "type": "other_non_fishing",
-   "start": "2026-07-29T18:15:33.000Z",
-   "end": "2026-08-06T17:08:45.000Z",
-   "hours": 190.88666666666666,
-   "confidence": "4",
-   "port": "JOSE VENEZUELA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.2072,
-   "lon": -64.8081,
-   "area": "Jose / Puerto La Cruz"
-  },
-  {
    "vessel_id": "c7426871b-b183-f42f-ffb9-1b99e358ccbb",
    "name": "SIRACUSA",
    "mmsi": "775990811",
@@ -51240,23 +51138,6 @@
    "lat": 10.3715,
    "lon": -71.522,
    "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
-   "vessel_id": "14ad8f578-86d5-273b-b4d0-5c5c89c56c07",
-   "name": "OLINA",
-   "mmsi": "550167011",
-   "flag": null,
-   "type": "other_non_fishing",
-   "start": "2026-07-29T13:45:42.000Z",
-   "end": "2026-08-06T02:51:44.000Z",
-   "hours": 181.10055555555556,
-   "confidence": "4",
-   "port": "AMUAY",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 11.7387,
-   "lon": -70.2973,
-   "area": "Paraguana: Amuay / Cardon"
   },
   {
    "vessel_id": "88f9ef4f5-571e-1734-a992-e93b55d94615",
@@ -51409,23 +51290,6 @@
    "at_dock": false,
    "lat": 10.4936,
    "lon": -71.6052,
-   "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
-   "vessel_id": "b8d9e0e67-7ebd-a58b-2905-f4ae97ee4cc9",
-   "name": "BALSA",
-   "mmsi": "374430000",
-   "flag": "PAN",
-   "type": "other_non_fishing",
-   "start": "2026-07-28T16:13:05.000Z",
-   "end": "2026-08-06T11:15:41.000Z",
-   "hours": 211.04333333333332,
-   "confidence": "3",
-   "port": "PUERTO MIRANDA",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.7677,
-   "lon": -71.5818,
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
@@ -52072,23 +51936,6 @@
    "at_dock": true,
    "lat": 10.2064,
    "lon": -64.6647,
-   "area": "Jose / Puerto La Cruz"
-  },
-  {
-   "vessel_id": "a8da4135f-fc64-b778-ab15-0d827058de36",
-   "name": "BLACK WHITE",
-   "mmsi": "775990319",
-   "flag": "VEN",
-   "type": "insufficient_data",
-   "start": "2026-07-23T18:24:45.000Z",
-   "end": "2026-08-06T13:02:37.000Z",
-   "hours": 330.6311111111111,
-   "confidence": "4",
-   "port": "PTO LA CRUZ",
-   "port_flag": "VEN",
-   "at_dock": false,
-   "lat": 10.2539,
-   "lon": -64.7361,
    "area": "Jose / Puerto La Cruz"
   },
   {
@@ -55407,23 +55254,6 @@
    "area": "Lake Maracaibo / Bajo Grande"
   },
   {
-   "vessel_id": "11c5e1444-4ba9-8908-576b-d6f718754a0a",
-   "name": "SMV-I",
-   "mmsi": "775992656",
-   "flag": "VEN",
-   "type": "insufficient_data",
-   "start": "2024-09-13T13:56:28.000Z",
-   "end": "2026-08-06T20:36:06.000Z",
-   "hours": 16614.660555555554,
-   "confidence": "2",
-   "port": "MARACAIBO",
-   "port_flag": "VEN",
-   "at_dock": true,
-   "lat": 10.6283,
-   "lon": -71.6121,
-   "area": "Lake Maracaibo / Bajo Grande"
-  },
-  {
    "vessel_id": "57815b235-59a6-1fbd-6ecd-180a4539e134",
    "name": "YARD NO. 549889",
    "mmsi": "377413000",
@@ -56104,23 +55934,6 @@
    "area": "Paraguana: Amuay / Cardon"
   },
   {
-   "vessel_id": "c2fbac517-7303-619d-9baf-de6032f867c7",
-   "name": null,
-   "mmsi": "775994850",
-   "flag": "VEN",
-   "type": "inactive",
-   "start": "2018-01-16T06:19:57.000Z",
-   "end": "2026-08-06T18:46:08.000Z",
-   "hours": 74988.43638888889,
-   "confidence": "2",
-   "port": "PUNTA GUARANAO",
-   "port_flag": "VEN",
-   "at_dock": true,
-   "lat": 11.6713,
-   "lon": -70.2157,
-   "area": "Paraguana: Amuay / Cardon"
-  },
-  {
    "vessel_id": "a2cc9cab8-83ea-60e5-3684-13564669bb7b",
    "name": null,
    "mmsi": "354468832",
@@ -56221,8 +56034,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9817626",
-    "length_m": null,
-    "gt": null,
+    "length_m": 268.84542666666664,
+    "gt": 79872.34,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56247,7 +56060,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9390692",
-    "length_m": null,
+    "length_m": 197.4112323066192,
     "gt": 41676,
     "registry_shiptypes": null,
     "built": null,
@@ -56273,7 +56086,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -56299,8 +56112,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56325,8 +56138,34 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897846",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.40235333333337,
+    "gt": 55900.32666666667,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "29d4f33d1-1a07-b3d1-596b-1c5449549fc5",
+   "name": "ELLIE LADY",
+   "mmsi": "636014423",
+   "from_port": "PUERTO LA CRUZ",
+   "from_flag": "VEN",
+   "left": "2026-10-20T01:25:39.000Z",
+   "to_port": "GRAVESEND ANCHORAGE",
+   "to_flag": "USA",
+   "arrived": "2026-10-26T14:04:51.000Z",
+   "to_end": "2026-10-30T17:23:10.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9390173",
+    "length_m": 225.05069333333327,
+    "gt": 62201,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56351,8 +56190,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798002",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.3231200000001,
+    "gt": 57010.704379084964,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56377,7 +56216,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798428",
-    "length_m": null,
+    "length_m": 159.14796666666666,
     "gt": 14485,
     "registry_shiptypes": null,
     "built": null,
@@ -56403,8 +56242,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56429,8 +56268,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56455,8 +56294,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9414034",
-    "length_m": null,
-    "gt": null,
+    "length_m": 225.0653000000001,
+    "gt": 59375.68666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56481,7 +56320,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -56507,7 +56346,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779795",
-    "length_m": null,
+    "length_m": 238.11185333333336,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -56533,8 +56372,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9794850",
-    "length_m": null,
-    "gt": null,
+    "length_m": 222.47627999999997,
+    "gt": 41674.64,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56559,7 +56398,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9753545",
-    "length_m": null,
+    "length_m": 231.39141333333333,
     "gt": 81287,
     "registry_shiptypes": null,
     "built": null,
@@ -56587,8 +56426,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971707",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.99072666666675,
+    "gt": 60119.58,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56613,7 +56452,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9694658",
-    "length_m": null,
+    "length_m": 227.67910000000012,
     "gt": 62832,
     "registry_shiptypes": null,
     "built": null,
@@ -56639,8 +56478,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9934644",
-    "length_m": null,
-    "gt": null,
+    "length_m": 239.2021066666668,
+    "gt": 73386.55,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56665,8 +56504,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9998248",
-    "length_m": null,
-    "gt": null,
+    "length_m": 228.21332000000015,
+    "gt": 51475.82,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56691,8 +56530,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9794771",
-    "length_m": null,
-    "gt": null,
+    "length_m": 129.97913333333338,
+    "gt": 10665.951515151515,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56717,8 +56556,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9835848",
-    "length_m": null,
-    "gt": null,
+    "length_m": 297.34958280701755,
+    "gt": 80852.02,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56743,7 +56582,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9402495",
-    "length_m": null,
+    "length_m": 231.66586666666666,
     "gt": 63294,
     "registry_shiptypes": null,
     "built": null,
@@ -56769,8 +56608,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9960291",
-    "length_m": null,
-    "gt": null,
+    "length_m": 207.17444,
+    "gt": 35790.33634046202,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56795,8 +56634,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393096",
-    "length_m": null,
-    "gt": null,
+    "length_m": 224.85161999999983,
+    "gt": 53629.76666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56821,7 +56660,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9572276",
-    "length_m": null,
+    "length_m": 243.93718000000007,
     "gt": 60193,
     "registry_shiptypes": null,
     "built": null,
@@ -56847,8 +56686,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1028530",
-    "length_m": null,
-    "gt": null,
+    "length_m": 262.9665333333335,
+    "gt": 86942.94,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56873,8 +56712,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56899,8 +56738,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9943061",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.61975999999984,
+    "gt": 73095.81333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56925,8 +56764,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9835862",
-    "length_m": null,
-    "gt": null,
+    "length_m": 304.51721115942007,
+    "gt": 88092.0596491228,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56951,8 +56790,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -56977,7 +56816,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9575565",
-    "length_m": null,
+    "length_m": 290.47708666666665,
     "gt": 83753,
     "registry_shiptypes": null,
     "built": null,
@@ -57029,8 +56868,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9488413",
-    "length_m": null,
-    "gt": null,
+    "length_m": 220.70320752639532,
+    "gt": 41865.39102548473,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57055,8 +56894,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897846",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.40235333333337,
+    "gt": 55900.32666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57081,8 +56920,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9428982",
-    "length_m": null,
-    "gt": null,
+    "length_m": 281.29460653061216,
+    "gt": 58028.88333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57107,7 +56946,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9377652",
-    "length_m": null,
+    "length_m": 184.70897324985054,
     "gt": 23248,
     "registry_shiptypes": null,
     "built": null,
@@ -57133,7 +56972,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9795103",
-    "length_m": null,
+    "length_m": 229.80764,
     "gt": 62742,
     "registry_shiptypes": null,
     "built": null,
@@ -57159,8 +56998,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9683013",
-    "length_m": null,
-    "gt": null,
+    "length_m": 257.3575600000001,
+    "gt": 98709.36,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57185,7 +57024,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -57211,8 +57050,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57237,7 +57076,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9372858",
-    "length_m": null,
+    "length_m": 201.7669308324964,
     "gt": 42010,
     "registry_shiptypes": null,
     "built": null,
@@ -57263,8 +57102,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897834",
-    "length_m": null,
-    "gt": null,
+    "length_m": 245.73306666666667,
+    "gt": 73410.76134502924,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57289,8 +57128,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9901867",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.7149466666667,
+    "gt": 54516.09333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57315,7 +57154,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -57341,8 +57180,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57367,8 +57206,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9414034",
-    "length_m": null,
-    "gt": null,
+    "length_m": 225.0653000000001,
+    "gt": 59375.68666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57393,7 +57232,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9425564",
-    "length_m": null,
+    "length_m": 172.58601987341777,
     "gt": 28465,
     "registry_shiptypes": null,
     "built": null,
@@ -57419,7 +57258,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9596985",
-    "length_m": null,
+    "length_m": 272.53045999999995,
     "gt": 81346,
     "registry_shiptypes": null,
     "built": null,
@@ -57445,8 +57284,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57471,8 +57310,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9533995",
-    "length_m": null,
-    "gt": null,
+    "length_m": 52.35501333333331,
+    "gt": 462,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57497,7 +57336,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779795",
-    "length_m": null,
+    "length_m": 238.11185333333336,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -57523,7 +57362,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9657064",
-    "length_m": null,
+    "length_m": 182.39083013785688,
     "gt": 30159,
     "registry_shiptypes": null,
     "built": null,
@@ -57549,7 +57388,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -57575,8 +57414,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9473066",
-    "length_m": null,
-    "gt": null,
+    "length_m": 278.18993333333344,
+    "gt": 70499.03666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57601,8 +57440,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9922108",
-    "length_m": null,
-    "gt": null,
+    "length_m": 261.7362933333335,
+    "gt": 65147.84,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57627,8 +57466,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9794850",
-    "length_m": null,
-    "gt": null,
+    "length_m": 222.47627999999997,
+    "gt": 41674.64,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57679,7 +57518,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9402495",
-    "length_m": null,
+    "length_m": 231.66586666666666,
     "gt": 63294,
     "registry_shiptypes": null,
     "built": null,
@@ -57705,8 +57544,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9843211",
-    "length_m": null,
-    "gt": null,
+    "length_m": 223.14592666666672,
+    "gt": 56060.617999999995,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57731,8 +57570,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9441166",
-    "length_m": null,
-    "gt": null,
+    "length_m": 260.49554666666654,
+    "gt": 65038.53321733823,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57757,8 +57596,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57783,8 +57622,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798002",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.3231200000001,
+    "gt": 57010.704379084964,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57809,8 +57648,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57835,7 +57674,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9683075",
-    "length_m": null,
+    "length_m": 226.55548666666664,
     "gt": 64309,
     "registry_shiptypes": null,
     "built": null,
@@ -57861,8 +57700,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9469687",
-    "length_m": null,
-    "gt": null,
+    "length_m": 225.99750666666674,
+    "gt": 65578.12066666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57887,8 +57726,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1074723",
-    "length_m": null,
-    "gt": null,
+    "length_m": 207.91637999999986,
+    "gt": 43442.20953773819,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57913,8 +57752,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9817626",
-    "length_m": null,
-    "gt": null,
+    "length_m": 268.84542666666664,
+    "gt": 79872.34,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57939,7 +57778,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9418602",
-    "length_m": null,
+    "length_m": 245.92504666666665,
     "gt": 83850,
     "registry_shiptypes": null,
     "built": null,
@@ -57965,8 +57804,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9506069",
-    "length_m": null,
-    "gt": null,
+    "length_m": 254.7840866666666,
+    "gt": 76819.69259259259,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -57991,7 +57830,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -58017,8 +57856,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897834",
-    "length_m": null,
-    "gt": null,
+    "length_m": 245.73306666666667,
+    "gt": 73410.76134502924,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58043,8 +57882,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9683025",
-    "length_m": null,
-    "gt": null,
+    "length_m": 213.07509333333334,
+    "gt": 53796.52,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58069,8 +57908,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9773753",
-    "length_m": null,
-    "gt": null,
+    "length_m": 175.56875444022836,
+    "gt": 30040,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58095,8 +57934,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9407287",
-    "length_m": null,
-    "gt": null,
+    "length_m": 223.76414433734942,
+    "gt": 46050.983888888884,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58121,8 +57960,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897846",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.40235333333337,
+    "gt": 55900.32666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58147,8 +57986,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9933212",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.00017333333338,
+    "gt": 76418.83333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58173,8 +58012,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9868156",
-    "length_m": null,
-    "gt": null,
+    "length_m": 256.85495333333347,
+    "gt": 68632.21333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58199,7 +58038,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9664809",
-    "length_m": null,
+    "length_m": 241.80777333333333,
     "gt": 65358,
     "registry_shiptypes": null,
     "built": null,
@@ -58225,8 +58064,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58251,7 +58090,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779537",
-    "length_m": null,
+    "length_m": 270.12721999999997,
     "gt": 81433,
     "registry_shiptypes": null,
     "built": null,
@@ -58277,8 +58116,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1029285",
-    "length_m": null,
-    "gt": null,
+    "length_m": 235.97557999999995,
+    "gt": 42058.247328981146,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58303,7 +58142,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779795",
-    "length_m": null,
+    "length_m": 238.11185333333336,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -58329,7 +58168,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9402495",
-    "length_m": null,
+    "length_m": 231.66586666666666,
     "gt": 63294,
     "registry_shiptypes": null,
     "built": null,
@@ -58355,8 +58194,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9943061",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.61975999999984,
+    "gt": 73095.81333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58381,8 +58220,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58407,8 +58246,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393101",
-    "length_m": null,
-    "gt": null,
+    "length_m": 201.34439333333341,
+    "gt": 40991.47780409356,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58433,7 +58272,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -58459,8 +58298,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58485,7 +58324,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9759795",
-    "length_m": null,
+    "length_m": 230.64408666666665,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -58511,8 +58350,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1028528",
-    "length_m": null,
-    "gt": null,
+    "length_m": 229.07119333333335,
+    "gt": 67426.80200000001,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58537,8 +58376,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58563,7 +58402,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -58589,8 +58428,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9473066",
-    "length_m": null,
-    "gt": null,
+    "length_m": 278.18993333333344,
+    "gt": 70499.03666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58615,8 +58454,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798002",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.3231200000001,
+    "gt": 57010.704379084964,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58641,7 +58480,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9293545",
-    "length_m": null,
+    "length_m": 120.08793333333332,
     "gt": 6292,
     "registry_shiptypes": null,
     "built": null,
@@ -58667,8 +58506,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1035557",
-    "length_m": null,
-    "gt": null,
+    "length_m": 243.67092,
+    "gt": 72393.86666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58693,8 +58532,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58719,7 +58558,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9795103",
-    "length_m": null,
+    "length_m": 229.80764,
     "gt": 62742,
     "registry_shiptypes": null,
     "built": null,
@@ -58745,7 +58584,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9728241",
-    "length_m": null,
+    "length_m": 228.0787466666668,
     "gt": 62513,
     "registry_shiptypes": null,
     "built": null,
@@ -58771,7 +58610,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -58797,8 +58636,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9587192",
-    "length_m": null,
-    "gt": null,
+    "length_m": 242.67807333333334,
+    "gt": 66515.4477124183,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58823,8 +58662,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971707",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.99072666666675,
+    "gt": 60119.58,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58849,8 +58688,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58875,8 +58714,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1029285",
-    "length_m": null,
-    "gt": null,
+    "length_m": 235.97557999999995,
+    "gt": 42058.247328981146,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -58901,7 +58740,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9664809",
-    "length_m": null,
+    "length_m": 241.80777333333333,
     "gt": 65358,
     "registry_shiptypes": null,
     "built": null,
@@ -58927,7 +58766,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9492309",
-    "length_m": null,
+    "length_m": 148.09764000000013,
     "gt": 10830,
     "registry_shiptypes": null,
     "built": null,
@@ -58953,7 +58792,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -58979,7 +58818,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9759795",
-    "length_m": null,
+    "length_m": 230.64408666666665,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -59005,8 +58844,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59031,8 +58870,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9943061",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.61975999999984,
+    "gt": 73095.81333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59057,8 +58896,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9506069",
-    "length_m": null,
-    "gt": null,
+    "length_m": 254.7840866666666,
+    "gt": 76819.69259259259,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59083,8 +58922,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9473066",
-    "length_m": null,
-    "gt": null,
+    "length_m": 278.18993333333344,
+    "gt": 70499.03666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59109,7 +58948,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9419890",
-    "length_m": null,
+    "length_m": 256.9472533333334,
     "gt": 83805,
     "registry_shiptypes": null,
     "built": null,
@@ -59135,8 +58974,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9901867",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.7149466666667,
+    "gt": 54516.09333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59161,8 +59000,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59187,8 +59026,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59213,8 +59052,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393101",
-    "length_m": null,
-    "gt": null,
+    "length_m": 201.34439333333341,
+    "gt": 40991.47780409356,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59239,8 +59078,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59265,8 +59104,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1028528",
-    "length_m": null,
-    "gt": null,
+    "length_m": 229.07119333333335,
+    "gt": 67426.80200000001,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59291,8 +59130,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59317,7 +59156,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -59343,8 +59182,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393096",
-    "length_m": null,
-    "gt": null,
+    "length_m": 224.85161999999983,
+    "gt": 53629.76666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59369,7 +59208,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -59397,8 +59236,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9817626",
-    "length_m": null,
-    "gt": null,
+    "length_m": 268.84542666666664,
+    "gt": 79872.34,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59423,7 +59262,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9390692",
-    "length_m": null,
+    "length_m": 197.4112323066192,
     "gt": 41676,
     "registry_shiptypes": null,
     "built": null,
@@ -59449,7 +59288,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -59475,8 +59314,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59514,8 +59353,34 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897846",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.40235333333337,
+    "gt": 55900.32666666667,
+    "registry_shiptypes": null,
+    "built": null,
+    "shiptypes": [
+     "OTHER_NON_FISHING"
+    ],
+    "geartypes": [
+     "TANKER"
+    ]
+   }
+  },
+  {
+   "vessel_id": "29d4f33d1-1a07-b3d1-596b-1c5449549fc5",
+   "name": "ELLIE LADY",
+   "mmsi": "636014423",
+   "from_port": "PUERTO LA CRUZ",
+   "from_flag": "VEN",
+   "left": "2026-10-20T01:25:39.000Z",
+   "to_port": "GRAVESEND ANCHORAGE",
+   "to_flag": "USA",
+   "arrived": "2026-10-26T14:04:51.000Z",
+   "to_end": "2026-10-30T17:23:10.000Z",
+   "type": "other_non_fishing",
+   "identity": {
+    "imo": "9390173",
+    "length_m": 225.05069333333327,
+    "gt": 62201,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59553,8 +59418,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798002",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.3231200000001,
+    "gt": 57010.704379084964,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59579,7 +59444,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798428",
-    "length_m": null,
+    "length_m": 159.14796666666666,
     "gt": 14485,
     "registry_shiptypes": null,
     "built": null,
@@ -59605,8 +59470,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59644,8 +59509,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59670,8 +59535,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9414034",
-    "length_m": null,
-    "gt": null,
+    "length_m": 225.0653000000001,
+    "gt": 59375.68666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59696,7 +59561,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -59722,7 +59587,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779795",
-    "length_m": null,
+    "length_m": 238.11185333333336,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -59748,8 +59613,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9794850",
-    "length_m": null,
-    "gt": null,
+    "length_m": 222.47627999999997,
+    "gt": 41674.64,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59774,7 +59639,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9753545",
-    "length_m": null,
+    "length_m": 231.39141333333333,
     "gt": 81287,
     "registry_shiptypes": null,
     "built": null,
@@ -59802,8 +59667,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971707",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.99072666666675,
+    "gt": 60119.58,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59828,7 +59693,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9694658",
-    "length_m": null,
+    "length_m": 227.67910000000012,
     "gt": 62832,
     "registry_shiptypes": null,
     "built": null,
@@ -59867,8 +59732,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9934644",
-    "length_m": null,
-    "gt": null,
+    "length_m": 239.2021066666668,
+    "gt": 73386.55,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59893,8 +59758,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9998248",
-    "length_m": null,
-    "gt": null,
+    "length_m": 228.21332000000015,
+    "gt": 51475.82,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59919,8 +59784,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9794771",
-    "length_m": null,
-    "gt": null,
+    "length_m": 129.97913333333338,
+    "gt": 10665.951515151515,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59945,8 +59810,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9835848",
-    "length_m": null,
-    "gt": null,
+    "length_m": 297.34958280701755,
+    "gt": 80852.02,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -59971,7 +59836,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9402495",
-    "length_m": null,
+    "length_m": 231.66586666666666,
     "gt": 63294,
     "registry_shiptypes": null,
     "built": null,
@@ -59997,8 +59862,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9960291",
-    "length_m": null,
-    "gt": null,
+    "length_m": 207.17444,
+    "gt": 35790.33634046202,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60023,8 +59888,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393096",
-    "length_m": null,
-    "gt": null,
+    "length_m": 224.85161999999983,
+    "gt": 53629.76666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60049,7 +59914,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9572276",
-    "length_m": null,
+    "length_m": 243.93718000000007,
     "gt": 60193,
     "registry_shiptypes": null,
     "built": null,
@@ -60075,8 +59940,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1028530",
-    "length_m": null,
-    "gt": null,
+    "length_m": 262.9665333333335,
+    "gt": 86942.94,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60101,8 +59966,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60127,8 +59992,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9943061",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.61975999999984,
+    "gt": 73095.81333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60153,8 +60018,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9835862",
-    "length_m": null,
-    "gt": null,
+    "length_m": 304.51721115942007,
+    "gt": 88092.0596491228,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60179,8 +60044,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60205,7 +60070,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9575565",
-    "length_m": null,
+    "length_m": 290.47708666666665,
     "gt": 83753,
     "registry_shiptypes": null,
     "built": null,
@@ -60257,8 +60122,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9488413",
-    "length_m": null,
-    "gt": null,
+    "length_m": 220.70320752639532,
+    "gt": 41865.39102548473,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60283,8 +60148,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897846",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.40235333333337,
+    "gt": 55900.32666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60309,8 +60174,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9428982",
-    "length_m": null,
-    "gt": null,
+    "length_m": 281.29460653061216,
+    "gt": 58028.88333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60335,7 +60200,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9377652",
-    "length_m": null,
+    "length_m": 184.70897324985054,
     "gt": 23248,
     "registry_shiptypes": null,
     "built": null,
@@ -60374,7 +60239,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9795103",
-    "length_m": null,
+    "length_m": 229.80764,
     "gt": 62742,
     "registry_shiptypes": null,
     "built": null,
@@ -60400,8 +60265,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9683013",
-    "length_m": null,
-    "gt": null,
+    "length_m": 257.3575600000001,
+    "gt": 98709.36,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60426,7 +60291,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -60452,8 +60317,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60478,7 +60343,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9372858",
-    "length_m": null,
+    "length_m": 201.7669308324964,
     "gt": 42010,
     "registry_shiptypes": null,
     "built": null,
@@ -60504,8 +60369,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897834",
-    "length_m": null,
-    "gt": null,
+    "length_m": 245.73306666666667,
+    "gt": 73410.76134502924,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60530,8 +60395,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9901867",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.7149466666667,
+    "gt": 54516.09333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60569,7 +60434,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -60595,8 +60460,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60621,8 +60486,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9414034",
-    "length_m": null,
-    "gt": null,
+    "length_m": 225.0653000000001,
+    "gt": 59375.68666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60647,7 +60512,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9425564",
-    "length_m": null,
+    "length_m": 172.58601987341777,
     "gt": 28465,
     "registry_shiptypes": null,
     "built": null,
@@ -60673,7 +60538,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9596985",
-    "length_m": null,
+    "length_m": 272.53045999999995,
     "gt": 81346,
     "registry_shiptypes": null,
     "built": null,
@@ -60699,8 +60564,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60738,8 +60603,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9533995",
-    "length_m": null,
-    "gt": null,
+    "length_m": 52.35501333333331,
+    "gt": 462,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60764,7 +60629,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779795",
-    "length_m": null,
+    "length_m": 238.11185333333336,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -60803,7 +60668,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9657064",
-    "length_m": null,
+    "length_m": 182.39083013785688,
     "gt": 30159,
     "registry_shiptypes": null,
     "built": null,
@@ -60829,7 +60694,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -60855,8 +60720,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9473066",
-    "length_m": null,
-    "gt": null,
+    "length_m": 278.18993333333344,
+    "gt": 70499.03666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60894,8 +60759,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9922108",
-    "length_m": null,
-    "gt": null,
+    "length_m": 261.7362933333335,
+    "gt": 65147.84,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60920,8 +60785,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9794850",
-    "length_m": null,
-    "gt": null,
+    "length_m": 222.47627999999997,
+    "gt": 41674.64,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -60972,7 +60837,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9402495",
-    "length_m": null,
+    "length_m": 231.66586666666666,
     "gt": 63294,
     "registry_shiptypes": null,
     "built": null,
@@ -60998,8 +60863,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9843211",
-    "length_m": null,
-    "gt": null,
+    "length_m": 223.14592666666672,
+    "gt": 56060.617999999995,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61024,8 +60889,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9441166",
-    "length_m": null,
-    "gt": null,
+    "length_m": 260.49554666666654,
+    "gt": 65038.53321733823,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61050,8 +60915,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61089,8 +60954,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798002",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.3231200000001,
+    "gt": 57010.704379084964,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61115,8 +60980,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61141,7 +61006,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9683075",
-    "length_m": null,
+    "length_m": 226.55548666666664,
     "gt": 64309,
     "registry_shiptypes": null,
     "built": null,
@@ -61167,8 +61032,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9469687",
-    "length_m": null,
-    "gt": null,
+    "length_m": 225.99750666666674,
+    "gt": 65578.12066666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61193,8 +61058,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1074723",
-    "length_m": null,
-    "gt": null,
+    "length_m": 207.91637999999986,
+    "gt": 43442.20953773819,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61219,8 +61084,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9817626",
-    "length_m": null,
-    "gt": null,
+    "length_m": 268.84542666666664,
+    "gt": 79872.34,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61245,7 +61110,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9418602",
-    "length_m": null,
+    "length_m": 245.92504666666665,
     "gt": 83850,
     "registry_shiptypes": null,
     "built": null,
@@ -61284,8 +61149,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9506069",
-    "length_m": null,
-    "gt": null,
+    "length_m": 254.7840866666666,
+    "gt": 76819.69259259259,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61310,7 +61175,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -61336,8 +61201,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897834",
-    "length_m": null,
-    "gt": null,
+    "length_m": 245.73306666666667,
+    "gt": 73410.76134502924,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61375,8 +61240,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9683025",
-    "length_m": null,
-    "gt": null,
+    "length_m": 213.07509333333334,
+    "gt": 53796.52,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61401,8 +61266,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9773753",
-    "length_m": null,
-    "gt": null,
+    "length_m": 175.56875444022836,
+    "gt": 30040,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61427,8 +61292,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9407287",
-    "length_m": null,
-    "gt": null,
+    "length_m": 223.76414433734942,
+    "gt": 46050.983888888884,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61466,8 +61331,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9897846",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.40235333333337,
+    "gt": 55900.32666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61492,8 +61357,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9933212",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.00017333333338,
+    "gt": 76418.83333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61518,8 +61383,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9868156",
-    "length_m": null,
-    "gt": null,
+    "length_m": 256.85495333333347,
+    "gt": 68632.21333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61544,7 +61409,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9664809",
-    "length_m": null,
+    "length_m": 241.80777333333333,
     "gt": 65358,
     "registry_shiptypes": null,
     "built": null,
@@ -61596,8 +61461,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61622,7 +61487,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779537",
-    "length_m": null,
+    "length_m": 270.12721999999997,
     "gt": 81433,
     "registry_shiptypes": null,
     "built": null,
@@ -61661,8 +61526,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1029285",
-    "length_m": null,
-    "gt": null,
+    "length_m": 235.97557999999995,
+    "gt": 42058.247328981146,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61700,7 +61565,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9779795",
-    "length_m": null,
+    "length_m": 238.11185333333336,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -61739,7 +61604,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9402495",
-    "length_m": null,
+    "length_m": 231.66586666666666,
     "gt": 63294,
     "registry_shiptypes": null,
     "built": null,
@@ -61765,8 +61630,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9943061",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.61975999999984,
+    "gt": 73095.81333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61817,8 +61682,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61856,8 +61721,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393101",
-    "length_m": null,
-    "gt": null,
+    "length_m": 201.34439333333341,
+    "gt": 40991.47780409356,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61882,7 +61747,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -61908,8 +61773,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -61973,7 +61838,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9759795",
-    "length_m": null,
+    "length_m": 230.64408666666665,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -61999,8 +61864,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1028528",
-    "length_m": null,
-    "gt": null,
+    "length_m": 229.07119333333335,
+    "gt": 67426.80200000001,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62025,8 +61890,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62051,7 +61916,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -62077,8 +61942,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9473066",
-    "length_m": null,
-    "gt": null,
+    "length_m": 278.18993333333344,
+    "gt": 70499.03666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62103,8 +61968,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9798002",
-    "length_m": null,
-    "gt": null,
+    "length_m": 227.3231200000001,
+    "gt": 57010.704379084964,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62129,7 +61994,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9293545",
-    "length_m": null,
+    "length_m": 120.08793333333332,
     "gt": 6292,
     "registry_shiptypes": null,
     "built": null,
@@ -62168,8 +62033,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1035557",
-    "length_m": null,
-    "gt": null,
+    "length_m": 243.67092,
+    "gt": 72393.86666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62194,8 +62059,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62220,7 +62085,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9795103",
-    "length_m": null,
+    "length_m": 229.80764,
     "gt": 62742,
     "registry_shiptypes": null,
     "built": null,
@@ -62246,7 +62111,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9728241",
-    "length_m": null,
+    "length_m": 228.0787466666668,
     "gt": 62513,
     "registry_shiptypes": null,
     "built": null,
@@ -62272,7 +62137,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -62298,8 +62163,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9587192",
-    "length_m": null,
-    "gt": null,
+    "length_m": 242.67807333333334,
+    "gt": 66515.4477124183,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62337,8 +62202,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971707",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.99072666666675,
+    "gt": 60119.58,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62376,8 +62241,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62402,8 +62267,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1029285",
-    "length_m": null,
-    "gt": null,
+    "length_m": 235.97557999999995,
+    "gt": 42058.247328981146,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62428,7 +62293,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9664809",
-    "length_m": null,
+    "length_m": 241.80777333333333,
     "gt": 65358,
     "registry_shiptypes": null,
     "built": null,
@@ -62454,7 +62319,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9492309",
-    "length_m": null,
+    "length_m": 148.09764000000013,
     "gt": 10830,
     "registry_shiptypes": null,
     "built": null,
@@ -62480,7 +62345,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9802152",
-    "length_m": null,
+    "length_m": 234.4372066666667,
     "gt": 63502,
     "registry_shiptypes": null,
     "built": null,
@@ -62506,7 +62371,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9759795",
-    "length_m": null,
+    "length_m": 230.64408666666665,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -62532,8 +62397,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971733",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.2381733333333,
+    "gt": 60569.753333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62558,8 +62423,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9943061",
-    "length_m": null,
-    "gt": null,
+    "length_m": 240.61975999999984,
+    "gt": 73095.81333333334,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62584,8 +62449,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9506069",
-    "length_m": null,
-    "gt": null,
+    "length_m": 254.7840866666666,
+    "gt": 76819.69259259259,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62610,8 +62475,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9473066",
-    "length_m": null,
-    "gt": null,
+    "length_m": 278.18993333333344,
+    "gt": 70499.03666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62662,7 +62527,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9419890",
-    "length_m": null,
+    "length_m": 256.9472533333334,
     "gt": 83805,
     "registry_shiptypes": null,
     "built": null,
@@ -62688,8 +62553,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9901867",
-    "length_m": null,
-    "gt": null,
+    "length_m": 233.7149466666667,
+    "gt": 54516.09333333333,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62714,8 +62579,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9729221",
-    "length_m": null,
-    "gt": null,
+    "length_m": 193.29005333333347,
+    "gt": 35649.193333333336,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62740,8 +62605,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857860",
-    "length_m": null,
-    "gt": null,
+    "length_m": 238.04823999999982,
+    "gt": 51840.9616340988,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62766,8 +62631,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393101",
-    "length_m": null,
-    "gt": null,
+    "length_m": 201.34439333333341,
+    "gt": 40991.47780409356,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62792,8 +62657,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9857858",
-    "length_m": null,
-    "gt": null,
+    "length_m": 234.63396060606067,
+    "gt": 55408.684001848975,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62818,8 +62683,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "1028528",
-    "length_m": null,
-    "gt": null,
+    "length_m": 229.07119333333335,
+    "gt": 67426.80200000001,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62844,8 +62709,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9971721",
-    "length_m": null,
-    "gt": null,
+    "length_m": 110.7,
+    "gt": 7454,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62870,7 +62735,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9568500",
-    "length_m": null,
+    "length_m": 163.92117333333334,
     "gt": 19349,
     "registry_shiptypes": null,
     "built": null,
@@ -62896,8 +62761,8 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9393096",
-    "length_m": null,
-    "gt": null,
+    "length_m": 224.85161999999983,
+    "gt": 53629.76666666667,
     "registry_shiptypes": null,
     "built": null,
     "shiptypes": [
@@ -62922,7 +62787,7 @@
    "type": "other_non_fishing",
    "identity": {
     "imo": "9765017",
-    "length_m": null,
+    "length_m": 233.83776666666677,
     "gt": 63758,
     "registry_shiptypes": null,
     "built": null,
@@ -63548,6 +63413,18 @@
    "to_flag": "PAN",
    "arrived": "2026-10-26T15:56:28.000Z",
    "to_end": "2026-10-26T16:37:08.000Z"
+  },
+  {
+   "vessel_id": "29d4f33d1-1a07-b3d1-596b-1c5449549fc5",
+   "name": "ELLIE LADY",
+   "mmsi": "636014423",
+   "from_port": "PUERTO LA CRUZ",
+   "from_flag": "VEN",
+   "left": "2026-10-20T01:25:39.000Z",
+   "to_port": "GRAVESEND ANCHORAGE",
+   "to_flag": "USA",
+   "arrived": "2026-10-26T14:04:51.000Z",
+   "to_end": "2026-10-30T17:23:10.000Z"
   },
   {
    "vessel_id": "034273099-9693-6d5c-0bc6-52712815b2b7",
@@ -65336,21 +65213,9 @@
    "to_flag": "IND",
    "arrived": "2026-10-10T05:40:25.000Z",
    "to_end": "2026-10-15T23:49:49.000Z"
-  },
-  {
-   "vessel_id": "13a63266d-da5a-314d-8595-04330cc855a4",
-   "name": "OLYMPIC LION",
-   "mmsi": "538005871",
-   "from_port": "JOSE VENEZUELA",
-   "from_flag": "VEN",
-   "left": "2026-08-29T23:46:07.000Z",
-   "to_port": "SIKKA",
-   "to_flag": "IND",
-   "arrived": "2026-10-10T05:40:25.000Z",
-   "to_end": "2026-10-15T23:49:49.000Z"
   }
  ],
- "vessels_followed": 859,
+ "vessels_followed": 855,
  "identity_fields": {
   "registryInfoTotalRecords": "int",
   "registryInfo": "list",
