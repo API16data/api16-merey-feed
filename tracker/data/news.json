@@ -3191,6 +3191,16 @@
    "origin": "rss"
   },
   {
+   "id": "947eece110db",
+   "date": "2026-11-01T18:57Z",
+   "title": "Venezuela aumenta 263 % sus exportaciones petroleras a EEUU: conoce su actual cartera de compradores",
+   "source": "2001 Online",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWHJQSFJFbHFpeXhtUDIzVzc5ZWhHcVZRa1BSUnJIYk4zNGNqdGQwY2VNYnA4WjVrM19ySlBtNjhrblJfZzh4OW5va2hSSHlRbHZVMXZHLW9LYTFvR1dzWTR3RjBVcHdIWnNYcklhckxkN0xrY0RqNFRqQ1FwenNyUnJiei1tMUtrWWJvTE0tS1VPOUhtM2U2VW1UempEZU9lZUk1NGZmbldubE1fUlN2U2F0cFZoT2IyWk9kclcyTXZjZ3lySzcxYzNHSklUV1dBbUItRGlidUoxZEN4?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "ccdc5f1b0b0e",
    "date": "2026-11-01T18:56Z",
    "title": "Venezuela dispara 236% sus exportaciones petroleras a EE.UU. y amplía su cartera de compradores",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "a4b41567d6e8",
-   "date": "2026-10-28T11:54Z",
-   "title": "Jarrod Agen afirma que crudo venezolano beneficiará al mercado de combustible de EE. UU.",
-   "source": "El Cooperante",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdEJJcGI5bnI3NEczd1pDVll5ZS1TSFBnU1dCcXFUNW1XTjduOHBOd3hCdEtvZERSZ2tqOXBIbFVaeGZ5QV9iNGVGZ05ZNjVGNlpOU0ZULW9VV1liSm03dnJQRzZZbWo3MEcwVEZJdENvMi1XTVZKang1RV94Wno3VE5NUUJPVldjNlN6TXpRdzhhTGxVcG83TzJTcHJRbU5LN2NwdEJBejBWRDZVRmZVcm1n?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T05:50:19Z",
+ "updated": "2026-11-05T06:56:28Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
