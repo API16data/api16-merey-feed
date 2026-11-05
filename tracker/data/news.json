@@ -711,6 +711,16 @@
    "origin": "rss"
   },
   {
+   "id": "07e69b3134ad",
+   "date": "2026-11-03T18:44Z",
+   "title": "Trump asegura que EE.UU. tiene el control total de Venezuela: lo que dicen las cifras",
+   "source": "MundoNOW",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53NXJoSG5iVVlUblNoaWdlb2QyTi13SDNFNndYN3pmaG90UXg0cFRlWExGUU5iNzgxQy1ySFg3SWtHd2J5YllTSlYyaXdDZURDU3JUXzlxWFpYNmtOU0I5Vzl4TnVwQk9qUS04b2NrRFV4TFl4aVZwYTl2QTJuSFU?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "be527a018d44",
    "date": "2026-11-03T18:40Z",
    "title": "Oil prices ease to nearly four-week low amid peace talks",
@@ -1988,6 +1998,16 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BU2ZmYWFxNGk3X2lqaXAybXc1SGRYWW93N3g1OWJRREVpNnMzN01jazZXTlBSZFpzYk4xbUp3ampEOGpSZEpjZ0toazNEQWJucE9Cd0NpWEdBa1VSWWJXelBFektFVEE1X0lWeU1CWEJQMjZMTEVIa0hUUQ?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f27cca2d6c35",
+   "date": "2026-11-02T21:34Z",
+   "title": "Trump promised 'no more wars'. His foreign policy tells another story - Truth or Fake",
+   "source": "France 24",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR3NTMHV0UTBncFo1eU1MaHFFN3lFMDJIMWdrMWJWQU5TY01BWldiMk1EUTZ5OExpcXpuZU0tMGNPUklfMndYeU9uUm5hQl84eDNBREhrQ0tRakRFdHJTWmtaRks1SFVNQXRldnpzVzU1S0kycVVqY0xneVUxMjk3S1N5UUxrOGxmR1ozUURsQThYMTRNTldOVUo2RktiWnNGOHRCRTNoejZWcFl5cmQ0SkI2M21GaG13bkJMMHdwbEVPOVlm?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "f25b1c6baf17",
-   "date": "2026-10-28T11:00Z",
-   "title": "Oil trading in triple digits, but Canadian crude selling at steeper discount",
-   "source": "CBC",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZXdvZ2xXR2hlektyaHMwcTI3aFZpWHlZY2RUb0dFUHpDQ3VDUmE5TG5vX3BDQWJER250dHRib0kya1JTQWxLNU9wTi1SMFBUa1VTWnplMHR4cDZRd0c4OF96OGsxa2k2N2xVRVR3MFVxbXlrc0czbjVEYXdYaGhaaTlfUDIzdnlVWm1N?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "872ff38f04a0",
-   "date": "2026-10-28T10:45Z",
-   "title": "Trump afirma que Estados Unidos recibirá un millón de barriles de petróleo de Venezuela",
-   "source": "El Aragueño",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1pUSVZOZk1TUnNlWFpzYUlSdFZiWVNFWHJFMVY1VjhQQllnQWNxZTlQRUl2OG1sNDhaY0M4UkpNbWZTZ2UzdWxGOXdhZWJtblRvVEdHSi14VUJyLWY4U21sWmpJVWNfSDgtUEtZSTI0NmtNNm56WE1PeDRwUHkzV2d4eVl3SGV3ZDNiV1p4dUc0WjVMSDI4SVlLMjRqbUtwWnNhekJVYURiOFVWTGswai1ka04?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T01:58:18Z",
+ "updated": "2026-11-05T02:50:54Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
