@@ -210,7 +210,7 @@
       [[s ? 'US$' + nf(2).format(s.brent) : '—', tt('Brent') + (s ? ' · ' + day(s.date) : '')],
        [s && s.wti ? 'US$' + nf(2).format(s.wti) : '—', 'WTI' + (s ? ' · ' + day(s.date) : '')],
        [mereyToday ? '≈ US$' + nf(2).format(mereyToday) : '—', tt('Merey 16 today (estimated)')],
-       [disc != null ? '−US$' + nf(2).format(disc) : '—', tt('Discount to Brent') + (p ? ' · OPEC ' + mname(p.month) : '')],
+       [disc != null ? '−US$' + nf(2).format(disc) : '—', tt('Discount to Brent') + (p ? ' · ' + (LANG === 'es' ? 'OPEP ' : 'OPEC ') + mname(p.month) : '')],
        ['≈ US$' + nf(0).format(FREIGHT), tt('Freight José → U.S. Gulf (Aframax)')],
        [mereyToday ? '≈ US$' + nf(2).format(mereyToday + FREIGHT) : '—', tt('Delivered in the U.S. (Merey + freight)')],
        [p ? 'US$' + nf(2).format(p.merey) : '—', tt('Merey 16 (OPEC, FOB Venezuela)') + (p ? ' · ' + mname(p.month) : '')],
