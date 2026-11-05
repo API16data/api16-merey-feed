@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:30:17Z",
+ "updated": "2026-11-05T14:34:42Z",
  "source": "U.S. Census Bureau, international trade API: imports by port, HS 2709 (crude petroleum), country Venezuela (3070). Vessel value and shipping weight; barrels estimated at 152.5 kg/bbl (Merey 16).",
  "monthly": [
   {
@@ -134,6 +134,13 @@
    "est_bbl": 18920749,
    "ports": 10,
    "usd_per_bbl": 82.51
+  },
+  {
+   "month": "2026-09",
+   "value_usd": 1476601733,
+   "est_bbl": 17939405,
+   "ports": 9,
+   "usd_per_bbl": 82.31
   }
  ],
  "rows": [
@@ -1294,6 +1301,87 @@
    "port": "2001",
    "port_name": "Morgan City, La",
    "value_usd": 100007035,
+   "weight_kg": 0,
+   "est_bbl": null,
+   "usd_per_bbl": null
+  },
+  {
+   "month": "2026-09",
+   "port": "2017",
+   "port_name": "Lake Charles, La",
+   "value_usd": 238766146,
+   "weight_kg": 512395124,
+   "est_bbl": 3359968,
+   "usd_per_bbl": 71.06
+  },
+  {
+   "month": "2026-09",
+   "port": "2104",
+   "port_name": "Beaumont, Tx",
+   "value_usd": 270018522,
+   "weight_kg": 479505104,
+   "est_bbl": 3144296,
+   "usd_per_bbl": 85.88
+  },
+  {
+   "month": "2026-09",
+   "port": "2002",
+   "port_name": "New Orleans, La",
+   "value_usd": 201672759,
+   "weight_kg": 365292744,
+   "est_bbl": 2395362,
+   "usd_per_bbl": 84.19
+  },
+  {
+   "month": "2026-09",
+   "port": "2101",
+   "port_name": "Port Arthur, Tx",
+   "value_usd": 186412928,
+   "weight_kg": 341313843,
+   "est_bbl": 2238124,
+   "usd_per_bbl": 83.29
+  },
+  {
+   "month": "2026-09",
+   "port": "5312",
+   "port_name": "Corpus Christi, Tx",
+   "value_usd": 160799173,
+   "weight_kg": 332021735,
+   "est_bbl": 2177192,
+   "usd_per_bbl": 73.86
+  },
+  {
+   "month": "2026-09",
+   "port": "5311",
+   "port_name": "Freeport, Tx",
+   "value_usd": 174244160,
+   "weight_kg": 312529618,
+   "est_bbl": 2049375,
+   "usd_per_bbl": 85.02
+  },
+  {
+   "month": "2026-09",
+   "port": "1903",
+   "port_name": "Pascagoula, Ms",
+   "value_usd": 121985358,
+   "weight_kg": 255559404,
+   "est_bbl": 1675799,
+   "usd_per_bbl": 72.79
+  },
+  {
+   "month": "2026-09",
+   "port": "1103",
+   "port_name": "Wilmington, De",
+   "value_usd": 76621753,
+   "weight_kg": 137141575,
+   "est_bbl": 899289,
+   "usd_per_bbl": 85.2
+  },
+  {
+   "month": "2026-09",
+   "port": "2001",
+   "port_name": "Morgan City, La",
+   "value_usd": 46080934,
    "weight_kg": 0,
    "est_bbl": null,
    "usd_per_bbl": null
