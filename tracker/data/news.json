@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "a2a642b89420",
+   "date": "2026-11-06T00:57Z",
+   "title": "Jaime Gilinski busca cambiar la historia del petróleo en Colombia para siempre: anuncian descubrimiento tras éxito en Venezuela",
+   "source": "redmas.com.co",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNRk9neWNLR19ZcTFjTVhiQnFPV1FuTk5qSDlyREJjdWNoT1JINFNDQ3hkNzVRQ3Q3eWJYZkU0LUhwbldlRnl0STYtQlBKaF9RNVIzZTNKR0MxRjlIX19jZkZ2ZUJvZEZXb3VoVXpnRC1ueXRhVzFsTXlZdDgzQUZDeEFEV2txOHBFT3JVRUZ2UWxFVG1vNUxkRXN2T1M1QnBfREt1S1VMMllCWEhkcjRkNWlxeGQzd1FDWURKX0lwVHBOVVZDQnliQkd6NFRNX3M4b2dLY251RXlnZEc5ZHpESzc4Tm90Q2JHUThhdFB6MDgzTEtNOXBzNjhDVFI4OXVWWHVsMFF6dXJuQQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "0d2a66bf71ec",
    "date": "2026-11-05T23:55Z",
    "title": "Hernán Rodríguez: «Es imposible el desarrollo de Venezuela sin el desarrollo del eje Orinoco",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "bb0293b582cd",
-   "date": "2026-10-28T15:16Z",
-   "title": "First Million Barrels Of Venezuelan Oil Arrive In Texas Under New Deal",
-   "source": "Tampa Free Press",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObDZqSlo3YUN4TlZJWVRiSlQ3eW5xOTVoRmItcUVfNXNUMHpteGJvUkdMLUJsN2VROGlWQU9vUDQxb0Etajh3cmRkNDVNZ255YTZ0QzRiQlVpREM2Q05SaXlvVzQxb01ybmtzTDBRYUhlbDAxbFZNc3ZaOFBFdVh1ODMta3ZzZnlvQkZnNXMtUWFVN1FkZlBlRGNHVQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T00:41:22Z",
+ "updated": "2026-11-06T01:58:13Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
