@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-06T13:05:37Z",
+ "updated": "2026-11-06T14:22:44Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 563153900,
+   "imo": 9735634,
+   "name": "HAFNIA EXPRESS",
+   "length_m": 219,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Houston / Galveston / Texas City",
+   "last_seen": "2026-11-06T14:22:44Z",
+   "destination": "USHOU > VEJOT",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 500
+  },
   {
    "mmsi": 352004839,
    "imo": 9971733,
@@ -15,20 +29,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 700
-  },
-  {
-   "mmsi": 563153900,
-   "imo": 9735634,
-   "name": "HAFNIA EXPRESS",
-   "length_m": 219,
-   "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Houston / Galveston / Texas City",
-   "last_seen": "2026-11-06T13:05:37Z",
-   "destination": "USHOU > VEJOT",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 500
   },
   {
    "mmsi": 538012456,
