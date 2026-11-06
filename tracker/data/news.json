@@ -701,6 +701,16 @@
    "origin": "rss"
   },
   {
+   "id": "15f1a463a038",
+   "date": "2026-11-04T02:38Z",
+   "title": "T&T, the US and Venezuelan oil",
+   "source": "Trinidad Guardian",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ19JYXFGTXdwTjlyaWZLekRCWllnMFBlb1lpdDBUUXJGWUpnbmxEQnQ0dGxMLXFLdGR2MzlMTHZldEVCQmV6dnlzeE1iaThhX2lPaWtrTGlGZU1TU0pPWWVRY3c2RkNpaExrM1ItckROMDA2SjV0Sk9LT0t4a1NtZ2t5bi0tZzV3MEdjWDFR?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "bb2579feab7f",
    "date": "2026-11-04T02:04Z",
    "title": "⚠️🚨 #Anzoategui Trabajadores de la industria petrolera, pertenecientes al Complejo Refinador Puerto La Cruz, Refinación Oriente, Pdvsa Marina y empresas mixtas, se pronunciaron en una movilización para denunciar la profunda crisis económica que gol",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "8320629f5d3c",
-   "date": "2026-10-28T16:02Z",
-   "title": "Why Marco Rubio's dual Cabinet roles let him appear beside Trump at a campaign rally",
-   "source": "Latin Times",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOW0tR2stajFLM2ZhdktiQnVndnkwVXFnaXFNdEZPRmw2SE04TG4tM1JHa0ROU3NOQ0RhNjlXdHpDMDZpRnFiNDNUeGRXdm9qVU5ZOUZoSWdBZ2RTRlZzdkNVRG4yMGhhSzktOTluUEFhNzE5MWxiVU1yZWtfdG91UjE1TFpLdV9SUmRB?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T02:48:32Z",
+ "updated": "2026-11-06T03:43:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8068,15 +8068,6 @@
    "featured": true
   },
   {
-   "date": "2026-11-04T03:04Z",
-   "title": "Venezuela Announces $17 Billion in Multilateral Financing to Boost Production",
-   "source": "teleSUR English",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oQ1AzRWlhQUppZnBaVzBaRUZ2TkgyX3B2YzZBWmpqUFVhdThTVnpPNVo2YjVJUWJQay1OVXJRTTZpQkRMR0pYVzk4d2NzeTVEbmlxLVI1d0txU0NBVkdNakJGclMzTnpqTk13b2x1eWtQNU9KN0JZSldNRQ?oc=5",
-   "category": "Production",
-   "angle": "More supply: more barrels heading to market",
-   "key_figure": "$17 B"
-  },
-  {
    "date": "2026-11-04T12:47Z",
    "title": "Venezuela’s oil revival moves cargoes from shadow fleet to mainstream tankers",
    "source": "Lloyd's List",
@@ -8101,6 +8092,15 @@
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT1NTWWttTEQxREpWdGR1RXU4UE14LTFydUl3M0FqZUkxOEVNS1JBamZxRW9WMXFEa0lWaXJOODQ3OGZkSDlKS2wzeF9hQzM5N2xxZnYwaWo4OWJfbGxTRUdmUnNiM3JpZ2FiY3JWdjBXMzl6anhIUlhuVFREcWZRWnhlV2t1ZW5XdFRxN0F2a3pCTHN2Q2JXQkRURlNHdUZRUHo0d1k4aklnUnlaWnU1aWN2eEZOTVFwdDdiekNxeFRlQ255bGMw?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
+   "key_figure": null
+  },
+  {
+   "date": "2026-11-05T18:47Z",
+   "title": "Colombia seeks to revive Venezuela gas pipeline amid shortages",
+   "source": "upi",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2Y3M0JFRWhHVlR5eUhjY1Q2NnN4RnVrRW5RNEJMR3VFbGt5SlM0Wml5SzUwXzhNelNLRHhDTmhjdE02VU1oV3hsYmNXYUd4WDFIT0xxSkJMLTVxQzc4WDhzck5pZkhtbXhYbTJHWS0zTVU3Y0N0bmYtaThjdENwR2oyOHdVa2NMWkZWSUxTUzNjUGtkclVtV0VvNm5IeG1wMWk2ZHp0QzMycmtI0gGyAUFVX3lxTE5yUEEySmdMNGRERVduNVBHa2dLUnlJSlRpSmVGVVpMOUR5a2tXS21QR2FFajR5dUxXbmNFMXZ3YlFGREZQYkxXYVRTUGhfRWtOWDdmcThmZXJRZVFWVXllVmtzeXJaSXhRN1dWUEVSaVozNTVhVU12WnR3aVBHLWdheFV2U2Y2eXFraGt1TF9HNFZ1cU5kQlQ3UU1BNEFQOVlqLURqSWl3S2dZMkdtcXhSMlE?oc=5",
+   "category": "Gas",
+   "angle": "A second export stream beyond crude",
    "key_figure": null
   }
  ]
