@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "c61bc7444a7a",
+   "date": "2026-11-06T05:43Z",
+   "title": "Iran Oil Exports Near Zero But Peace Deal Not Likely, FGE Says",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkRGUE9vNzFkZTQ5ZWkzZlJtZk5OUlBXSW5ydGJZWXkzMzc1TE1ucTMwUWZrQmVpbUxScWloNGtPNTBsMmtBeTJVRXlPS09lMHN0UDlRYnpHSkZlTFZCRmd1MnNmdzVuTDBQVEVoZWk5WVVRd0RLM1dsRmNBRFJCXzRrR1R2eHJfNGZSYVJEQmRMQ3FFd1NtbEgwRlh1THptV0ExWXlNZURwa3ctQXByR2ZB?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "13eddca78e27",
+   "date": "2026-11-06T05:31Z",
+   "title": "India’s HPCL Says Booking Tankers for Hormuz Still Complicated",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYk9OWFc3Z1k4OG9UOExhUnprd0I3U2hvekdvdG9yRFNfWmx0Skc4ZXNsT1k0SkZhNmgwYVpzempqMTFsTlJGMEZPcFY1OFdjXzdLcXZWdTBkM19CQWhtSnZzbXd3TUM4c3hDNkRxZmowOWhYSVBkb1JzcUUxbGcxX3QzSHgxVVNqa2YzZDdTWXVhd0pGTDRXQWlOb0FzTDVZb09ZR21Ldm14OUphQ0dRVEozMDM1RWt5YldkME0wdDN1WmVicXdF?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "85edcc09f0b9",
    "date": "2026-11-06T05:30Z",
    "title": "El petróleo de Venezuela fluye a España a ritmo récord desde los acuerdos millonarios de Defensa con ZP y Bono en 2006",
@@ -7725,26 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "19955cfed4e2",
-   "date": "2026-10-28T16:45Z",
-   "title": "Trump shows off oil tanker at Texas rally, floats statehood for Venezuela: 'We’re celebrating the greatest oil victory in history'",
-   "source": "We Got This Covered",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNjVvQ0lVaFdhRlZSWVZsLThvaXZUU2tGa2tnajdYVm9sSktCblVOXzZwZ3BTRUV2cHdMRDB4MkRSRDBGTVpBbl9vd29aZzBtM0p6c19zUTZCT2J0T1FwYzhpT2FaQVcyQkVlenRQWnY4bnlGWFZUcHRZZ3BUcTNGWGpTSlhrTGloXzh3d21yOXFCRmhCeFF3SmZfZUdUaFB0eWtONjZucXpGeEJxTEV5Ul9pdUJxZG1aaGNnQUVVLUVFZ0VHa204LTVJd2ZGenBLcW5NSGxUZzJ2TzZZek12eE1rNlQzRTBaZFZiWXVMa1dIRXVyaWpz?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "fad6374fcff0",
-   "date": "2026-10-28T16:38Z",
-   "title": "#EnVideo | ​Un consorcio integrado por la firma estadounidense Sunergon Oil y la venezolana Empreservinca solicitó formalmente al Ejecutivo nacional la concesión por 15 años de ocho plantas de tuberías y válvulas de PDVSA y la CVG. ​Las instalacione",
-   "source": "Facebook",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOXBRQVlfX0V0Yl9zTng4eXVCYTVqY3NZS0Rnb1RIcHk2dUJxSTZ0WEVyZUZORnRuQUFtZTFyd3J6Vy12NmwtWjAweTNBZFJwRlRqVFlnbWkzSVN1WXNnVllGSmtTZDFqVUEteUJOb3FRVFJ0blJkQ1VGcDBBWHl0dVZkUW1ZVDF2ek0tR1BIZmpzSldKOUlkV0w5aG4xN2c2WGxsaEMxRDVPTG4teGY0RW15X1NGdlB0cXpMeVk5S0dRLXNkU1YzdlIzbjhzSm5xNUdPZ1EzLVY?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T06:56:14Z",
+ "updated": "2026-11-06T08:09:20Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
