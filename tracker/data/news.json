@@ -1,6 +1,66 @@
 {
  "items": [
   {
+   "id": "61578478855c",
+   "date": "2026-11-06T18:31Z",
+   "title": "GeoPark acelera procesos de producción en el campo Bare en la Faja del Orinoco",
+   "source": "El Cooperante",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbTMzUU1NaDJqaTB6cjJVWkJOWVN6R2RqeV9OQzM4azA3OElMZm5TTzF4VXJzM0tENFpsYVpJcHNpYkRIT19HaF9WdjZLd3FBRXlxRTROV3gwTG5CakduMDE4VkttT2JuRm8zU3hwWXlmUWZZUHp3XzFGcTRIUDc1UHRlWnRaNldST3NZV0tFNk5tcUstMnpYRFZDYUJ5dnpWOGxSQV9iVQ?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "34bf4335ceed",
+   "date": "2026-11-06T18:15Z",
+   "title": "Importaciones de petróleo venezolano a Estados Unidos alcanzaron en julio su nivel más alto desde 2017, según la EIA",
+   "source": "AlbertoNews",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPampqbkxzNFVCVWNROUNIWWxlOUtFa0VkdGtLdDRCWFZ4RC1LZzZmeS1rT3NVRl82UFVsaTdFUnhNRlBYVFZzYVpYLVVTdktyR1hGWkRWSkQwS19tdTJtTVpZdnRYOTgxVjNMa2p4eTBUX1NpQ2t6VkZnNmJ4cjdZLTRDVDI3czgwdXhCWFFJN0hHWjFVMl9zS2QyNlItRlRhNVFxMFkzZnNCOFZ5cy1OYlRUS1B6RGpkRFRvQzZkMHJMMnVlRnhKS28tVllxY09Cc09YVnRWUUtMdm9IR18tSGpRbzdMZw?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "af461a9ea3f6",
+   "date": "2026-11-06T18:09Z",
+   "title": "Empresa de India espera permisos para operar dos proyectos petroleros en Venezuela",
+   "source": "Contrapunto.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSEl4S25Yd0NkZGRURkluUlIxNG9OamZrWWVoQUNaMUVja0VTcDdxZUI1NVQ0OGljVHFOV1llb09HMUhQSjE3a0F0RjV1N1R1TE1iMTVXY0FtdlJFNWpQNGNmTktmbHNoNUQyNVdoZGN3bjBoVl9mR05KVV81OVd4dnZoZ3ExY3R0dGROejZremV0Y3IzWXZxNnlfTXJjeTVHWFlrWHJ6bmRRN2lISnZiVmJfYmhvb1A0Z3JXbDFyTi03anM?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "e389ee1a92ae",
+   "date": "2026-11-06T17:54Z",
+   "title": "Trump Kidnapped Venezuela’s President. Now Britain Looks to Profit",
+   "source": "Orinoco Tribune",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaFZfbGdTM1kyNlROUEFTLXA2aFAzVHR1YnhQT1Y0VGJpZXZOREZZRGFBc0RMMm9VNHZtemhuU1JOaE1TYlB3TVViWlRPdWtzYVl5UHNXV1BxYl9PaGhrSVlwOV9hS0tRNERucUtPbUFiMVF4SEZuN3owbWl2VWlIUXR5X09EbUdaaFZ2RUJVNjV5cldpelc0?oc=5",
+   "category": "General",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "69815a1928a8",
+   "date": "2026-11-06T17:43Z",
+   "title": "ONGC negotiates to manage two Venezuelan oil projects — OilPrice",
+   "source": "UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbllDWlJ5NFh0Y0o2V1FVSXE1VEdGa1lyUmVQVXZGR2wtRVY2UmxTdjZ2XzdhcS1XelBqdHZYNmtheDU3NHNqWXh2YVN6M2ZoVXlZR2dLRUFNNktONUE5dFJ0M1picVViVnVxd2hCWHF5NmphZVZHUmxQWjd5M1V6ZDJ5Y19Bb2QyQUJkWV9jNDYxZkN1ZHl3U2NYcV9EeGc4eHF3ZDlnV1B4RHRXdmxPdWNkT2ZIZw?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "9660e1540841",
+   "date": "2026-11-06T17:38Z",
+   "title": "US refiners cash in as soaring tanker rates squeeze Asian competitors",
+   "source": "Baird Maritime",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMlRGOXI4N19pb2VrZWE2SFZfZi0yR0dnR2lIUGhIS0U3amFNQV9zSzRhbFlMTzVwUG55TmJhV2lsalh6RzJ1RF8tRFFOQU1jb1lCNTlqR2ZzdmxIV09aUWR2bzRoNXRSQjV6WkEzSXpnZlRRV2FBNWtzc1czaWFqeVZyYjdNeXR1UUhOOUhkVTRFaWd4OGRFRDliRG9BMlZtZmlKYWMzdHZGOUpJbHREWG5kc2NaTnd3NFZpM25EdXVtRXliN1pn0gHUAUFVX3lxTFA0ZVJ3WV9lS2tGR3poeVdnTG1wZF9zaGdyVExJTlpaYzBQdTlLN3h0VEVSeTJ4VGNrNFJySzNhOG9CX28tc2FCM3U2ZXZKanVOWlU3YlFnTjZ3T1V5dllDdVlTUW5FNjdCQzdQNGRaMjlKV00xNkloajhPd1dtSHpfajgxaTVOT1g4bUttVERERExzQ2VJQjhzWFo3R0FIYnlsb1NUTXg4WmI2NTJsWGp1T3BBUi1xc3hZVnJaTURSZlc3VVV2bDZkdjNGd2pDRUJvZ3NY?oc=5",
+   "category": "Refining",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "84db614e3606",
    "date": "2026-11-06T17:30Z",
    "title": "ONGC Moves to Take Over Venezuelan Oilfields, Recover $500 Million",
@@ -958,6 +1018,16 @@
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRFZJU0I0V2lIaDZETVJsVFNaRUJubU8zNFBRMlVtN2VMRC1yRUMzMFZyMGdqWWJ2RE5UeHU2RDhMejQweDIxZWpxRnE5NHNoc0Q2TWg2NXFqMUxuSXZ6amdKUHh2S0RHTWNuTEVkcWhHM0ZVOWNhczgzc3ZGemlBNlliNmJ3X0FEVUc2VEJVZFFEbGRCTGdsb0FjSjcwZ0xoX3hSNXo4djdOZG8tQnY2U2hYMHZEdTJmaUh3amppclU3VC1vLW9TY3E0bVlLUQ?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "06c60f903dd9",
+   "date": "2026-11-04T16:00Z",
+   "title": "Producción petrolera de Venezuela registra crecimiento del 8,5%",
+   "source": "televen.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTWR0MGVKODFjejBEWGY2bjM0Mi1sWWtzQndJdUVBeDhlNDBEc09iWTJPV0liWjdVaTB2Rm52ay1yQjFHWFhwcUdHWlBLajhzWldWQzJIRjNNVTlPYU1SenlsQWZTaml5N1pBUnFZTDZvSXNXTnBNZEw5OW9nbjBvLTFYcHktNUd5ZjY5dlFjdkIycDdwVHJuVmxpUXlOeUJTamZFUUE0cGFjQQ?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7675,76 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "17bdad3be0d7",
-   "date": "2026-10-28T23:52Z",
-   "title": "Jovany Martínez: Pdvsa proyecta 1 millón de barriles extra en 7 años por alianza con EEUU",
-   "source": "Últimas Noticias",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeVJiTXB1cDE1UHVlekxNS3N6c24waEJCRTV3MHQ0SlJUV2lOeUV6VThrM1dwZ0lUZHppLXZOcHlwZTdhalg1MjZaZ1BTekxuem5mdjV0cUdSRk5xYnpNWDFGc0hIN1RwV0trRVRHNnh1LTBVYXJhTDNlWDFmazBZRlFZUWF1Q0VZdEphQ1plLW9HVmFwS2hJTzdpa2lFVC1yX0VSWEFzNzNXS2h2dzQwTEFwTW1kdmJWc0I1NHRPb2RSOVFZYlkzeg?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "48e02f883802",
-   "date": "2026-10-28T23:33Z",
-   "title": "Estados Unidos. Trump vuelve a plantear que Venezuela sea el estado 51 de EE.UU",
-   "source": "Resumen Latinoamericano -",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSmtSVmlpVTEyYzlSWTV2TTJ5N0g5OGZ2RTFtX3paMy1lYUY2SGJQRDJBR3BJNmowdl80R1JmMXYxY0N6Zng4Z0pBX3lnS1EtbmgtMmF0RzBRclppeTRrMzJncWdONTM5TTNTYmdLcS1OeUJXaVhmYVJIV2F3QUJad0dtYkJpeE5hanYzTFo1ZW5hN3RNTUtUWS1PRU9sRngyYU9penNHWC1HSWpLWERLR0RNdWNtdGlpbF9FNlV3aFpQQUZN?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "aa7513c8045b",
-   "date": "2026-10-28T23:15Z",
-   "title": "Saudi oil exports boom despite relentless Houthi attacks",
-   "source": "New York Post",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQjdCVG5hYllpY3VIU3l6bnZRWFQtQmhHYlJValgySjFiMkZBdmRDZzhoN2lNMk1CSUxYQVJFUW4xclM0NHlnNVhqUzBmU3RtZDFKYjhSVzgteDBZUm5wcUVqek5PRUVZNEc2NzJmeURIWXF5WUVFbHJLRGpoNUJyb1FhRU1fVi1QUUZZZmloMVNhZkp1cmxTdnRMeXlLQzg?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "242bcdc1b99a",
-   "date": "2026-10-28T23:11Z",
-   "title": "Venezuela’s Revised Hydrocarbons Law Ties Investor Terms to Asset Type",
-   "source": "Social News XYZ",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVERiSGlNSHEwb21Eb1U3RW5UcVFCcjJVNmtBckFtX3BRZnZWNWZMRU9GbDVXcE4wRzgzME1sTVRKNDNxVFVhLXMwX0xGbzdaRExidHJ1TU1TOS1wTHEzaThXTnBnUjNzX083LUs4b0VTdlA4XzdWLVl2anlGSV9WQXU2WGpXdFlqYkVKZVpUZjhVcXdRcGZrNzV5cWZXWGw0MVNSV1VoUmJlMU5Q0gGsAUFVX3lxTE1URGJIaU1IcTBvbURvVTdFblRxUUJyMlU2a0FyQW1fcFFmdlY1ZkxFT0ZsNVdwTjBHODMwTWxNVEo0M3FUVWEtczBfTEZvN1pETGJ0cnVNTVM5LXBMcTNpOFdOcGdSM3NfTzctSzhvRVN2UDhfN1YtWXZqeUZJX1ZBdTZYald0WWpiRUplWlRmOFVxd1FwZms3NXlxZldYbDQxU1JXVWhSYmUxTlA?oc=5",
-   "category": "Investment",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "97fc33ca2a11",
-   "date": "2026-10-28T23:10Z",
-   "title": "Eni starts redevelopment at Junín-5 in Venezuela",
-   "source": "Oil & Gas Journal",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPazdkODJRcTZhZmRVY0FQWlRZVkJSMk1GRzFaUG9pVFpIWFY0TXhObDhOUWZvR25zS25vY2hPMTQ5YjlmWjM3NEtTTkVBT25hNjV2YVJmTDJ6a1RPb3RCdXdvY2tfYW5zRXhYR2hIdTdFeENXQ1VGUGhkNXZZMWNnVDR4Y3o0NjBTSkd5TnhkeVpUemNnQmZHSTA2SEczdlRWZTlaR2NmcXlNdw?oc=5",
-   "category": "General",
-   "via": "Google News: Orinoco Belt",
-   "origin": "rss"
-  },
-  {
-   "id": "7e32738f3878",
-   "date": "2026-10-28T22:40Z",
-   "title": "Delisted Shadow Tankers Move to Persian Gulf Crude Exports - News and Statistics",
-   "source": "IndexBox",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQmtTZnJibDcwR3hhUzQ0bDN2cHN4R3M5QXhlYXlpY1k2cUFXSHlCcUdLZTZXZHA5WEpUeU9OX2JKcWZveXNKS1YtMERtenNLckNMc2t1QXNSU2ZPbklWc1lsZEIwMHJITTFjUTNfZ0UwWDJaRjdMUW9xSnJ5SlhmM0ludHhmRXcyZWc?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "e1abbde973ff",
-   "date": "2026-10-28T22:39Z",
-   "title": "Así va la exportación de petróleo venezolano a EEUU: supera la cifra de 2024 y 2025 juntas",
-   "source": "2001 Online",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQVlibUhKd1NuSWtIdzV2dDh0SlVsZFUxQi1lRG01TkRmZ01Wc2lWbGQzeW5PblRFUFZwejdWeVV5LUpwMXJheDJsZUhIOFhSOHhHNVNFRXhCSHdRaTF6cGFwcXNqSmNvRjhNQ3hhS3VwYnp3ZTlmWi1yRXR5c204UVgzdC0zeXNidFVPY2J1S2pYb1dlN0dMeXBrVUphelFFR1hSVmVnRzZtbGRHZDJ1VkJNMWdpLWp3eWpKbklHUUJUZXZKUVNkNEEzdFRXVWZ5SEZF?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T17:40:17Z",
+ "updated": "2026-11-06T18:41:02Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8095,12 +8095,12 @@
    "key_figure": null
   },
   {
-   "date": "2026-11-05T06:29Z",
-   "title": "Fluor, Inelectra sign agreement to support energy projects in Venezuela",
-   "source": "Trend News Agency",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93WnVCYi1YSm16bndKNjJlY0NJLTVXWmVkMllEREk3MmZ1WE9yMU5CaDVyTENpS2pwOVZrTmpCLUhfbXR2V0x6bEk5WUw0V0ZG?oc=5",
-   "category": "Investment",
-   "angle": "Future barrels in the pipeline",
+   "date": "2026-11-06T17:43Z",
+   "title": "ONGC negotiates to manage two Venezuelan oil projects — OilPrice",
+   "source": "UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbllDWlJ5NFh0Y0o2V1FVSXE1VEdGa1lyUmVQVXZGR2wtRVY2UmxTdjZ2XzdhcS1XelBqdHZYNmtheDU3NHNqWXh2YVN6M2ZoVXlZR2dLRUFNNktONUE5dFJ0M1picVViVnVxd2hCWHF5NmphZVZHUmxQWjd5M1V6ZDJ5Y19Bb2QyQUJkWV9jNDYxZkN1ZHl3U2NYcV9EeGc4eHF3ZDlnV1B4RHRXdmxPdWNkT2ZIZw?oc=5",
+   "category": "Pricing",
+   "angle": "Moves the value of every Venezuelan barrel",
    "key_figure": null
   }
  ]
