@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:52:47Z",
+ "updated": "2026-11-06T16:54:49Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -9,12 +9,26 @@
    "length_m": 250,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-06T15:52:47Z",
+   "last_seen": "2026-11-06T16:54:49Z",
    "destination": "VEBJV=>USPOA",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 700
+  },
+  {
+   "mmsi": 371880000,
+   "imo": 9568495,
+   "name": "SAKURA ADVANCE",
+   "length_m": 170,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Trinidad & Tobago",
+   "last_seen": "2026-11-06T16:54:49Z",
+   "destination": "VE JOT",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 300
   },
   {
    "mmsi": 563153900,
