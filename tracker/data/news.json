@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "f2b06f1106fd",
+   "date": "2026-11-06T19:39Z",
+   "title": "Más negocios, alquileres al alza y vuelven trabajadores: renacer petrolero de Venezuela se siente en El Tigre",
+   "source": "Bloomberg Línea",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeWJaZUQ5dTVYSEpzMTZBMTFvbzFGaWczYTZ4ZWx4S2VTaENIeEIxLUgyZlN3RzhKSDZ3ZlZFd2NZMDF0WDhmQzhfMHU1M20xMWg0UlJJM3Y3NVRxdV9oX0MwblJEWU5VWnlobFd2cENWQUxOT3lWc3F4RExLQ29SeU8wVFFfSURYWWpaSUlLeFI2dXhjN1Y0RzdrclRtTnlNYktrM2c5TGNJSW50MlNtUUxIelZQbGwwRTFZdHpuX0JFLWFlNFF1aTk2dk5ZNWg0OTJ5YkRiRzUtVVNFMDdndXlkcnJ1cTB3OUJHbllYTjNyNlRtRHfSAYoCQVVfeXFMT2NnZkE2NGNDM2ZQTDB4M3FQb3UzaURWdWdOSTZZaFVCbTJpcW11S2VpLWtEc0FsRHZvV1d6MW1XRmNVNkdJUEtqVk9JcHFnNF9PcmJiSVNzYUl0bmdwUEhITU5LU24tWFdscUhrOTZfdmJ2d1p0aXhSMXlCQjh6aXpjNUk4NEJMZEZTQ2QyWFNodC1VbmZLYmhZT2xCSVVtbGtiMVVwSE1Dci1rT1FGaHdkUDh0Qm15Uk8tWUd3cVNINFk5dDAzOUFWZURIVUJTR2MzMURlY3BpT2ZUN0RBSC02NVVra0RiZFlMVFNFbnB2MV9iTEZLUDJwd2dsdE5yOHNQWVNQMF9QTUE?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "258bc08e8bf3",
    "date": "2026-11-06T19:25Z",
    "title": "GeoPark evalúa la logística en un yacimiento petrolífero venezolano de cara a su adquisición",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "96ad5d27aaab",
-   "date": "2026-10-29T01:01Z",
-   "title": "Precio de cesta petrolera venezolana subió a casi US$90 por barril, un valor no registrado desde 2014",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaE5zTEpnMV82TEdXR1o5MzVsamRiOHhYc1d6YlgwWTVrMXdMc2QzVkVJb2NDaHhKNjVGRzE3eWRBNzRSZmZlZ0hpLTlCQWc2X0phWThhNUlHcnFoa3JxaG1tZ29ycUNCZloxVEZBOUdiaURrMFlDR2tIdC1QdVA2a2w1WkJuNDJ1QzJzVXVSRjV0bkJLdGNHcTh6NEoyX2N5bkZTcFZWTkJCLWNicnAtdlhZdjlMX1p4eDlVTXMyYk5Kemt3VkktT1BQZw?oc=5",
-   "category": "Pricing",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T19:43:56Z",
+ "updated": "2026-11-06T20:38:41Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
