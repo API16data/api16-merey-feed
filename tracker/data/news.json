@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "e4fd5b90faf1",
+   "date": "2026-11-06T22:01Z",
+   "title": "Importaciones de crudo venezolano hacia Estados Unidos alcanzaron su nivel más alto desde 2017",
+   "source": "El Cooperante",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT2l1a0YyUDItbFlUZ2YtbnB3MWpYZXpFT3NtNFpiNmVCQWY2SGJQdU5LQjZscHFuc1lHdl9jUzNQM1NLU0hBVUNLRjBIYWlSbFdNYm5HSElGN3d0bmdMZjJZQmtkWHhUci05dW9xUUZJMHlCWUk1Skd5SXZNNzlHR3ViNzN2OTd6Vks5V0JzTzIwMmZ1dmtGZk1BNGFYWVFCOFJmeGtyNGV6UW5uYWRBSGdBdUhWMGo0S185LQ?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "6b608a455384",
+   "date": "2026-11-06T21:30Z",
+   "title": "Los precios del petróleo se estabilizan tras una semana en caída",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXA1UUV3YXJQbXdpV1B4SEZRTnRPWFhRTkdYVW9UVl9tVmpEaGdDVkEyRHp1Y1pzbTNseEg0S2pFT3R4cUN5ZXRyVEVHeGFKTlNaMTlDb3VzM09ITS1yVlBpTTRnMVk3akZwdGFBYVlxYjJjVG9KRi04SzlFRGI3NzMzNG5iM0dkYmpZYTVyNE9id1UxNzJJMW1scjM?oc=5",
+   "category": "Pricing",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "7f105d2fa617",
    "date": "2026-11-06T19:41Z",
    "title": "Oil Traders in Talks With US to Get Sanctioned Ships Back to Sea",
@@ -3991,6 +4011,16 @@
    "origin": "rss"
   },
   {
+   "id": "4e837d62c3a8",
+   "date": "2026-11-02T08:00Z",
+   "title": "What’s Going On in Venezuela?",
+   "source": "War on the Rocks",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TWmtjdlpnR243dWVWUldCSTJpYmZBa3pYbjM0VjNUUjhBZmgwbFBiWlNfeTVVVjVHWWtUWllLdlh6MU9YQWlmR2xoVng2bnQzT3FyTU9yM1F1R0tzd29EMTU3YmU?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "f5253a732611",
    "date": "2026-11-02T07:03Z",
    "title": "Exportaciones petroleras criollas a EE. UU. rompen récord interanual en 2026",
@@ -7715,36 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "0eb3f3538b8e",
-   "date": "2026-10-29T01:59Z",
-   "title": "Chevron CEO Says Patience Pays Off in Venezuela Oil Deal",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX2JUTHlCQW5ZRWpxeHZ3a2ZSWlp6TDZPdlN4VEpLN1NLSTJwX3F5cmhXcG0yb1lVeFdTT1ZFdmNVR2F1S1NXX3M1YzRLSXhIaFpZMy1mWkYxVGtOVjFsQnZ5ZWNuYlVMcnFVZFQ5eUR5eEs2eFFJMGlrOEZIZlJjb1Zia2M4T1pleTE5bTR5NUg?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "ee7e3402af29",
-   "date": "2026-10-29T01:45Z",
-   "title": "1 million barrels of Venezuelan crude oil arrive in Texas, USA",
-   "source": "ChemNet News",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xZ3otdThpcWRWbTNLUU9SakVwUzN6aUlGWVh1QlVOVnM3bHQ4cDNWSTMzWlNYajdWLWdVOVktUS1BLTcxTDlsY3RKS21SZTBxeWc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "cf1ad7a2a097",
-   "date": "2026-10-29T01:29Z",
-   "title": "Venezuela ha exportado a EEUU 136.7 millones de barriles de crudo desde enero",
-   "source": "Globovisión",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVd4bmU4UkR2ZkpOS2JJZFRSaWhQYnFvbjNGWGNLTlNya01oblFQVUp4U2RyNDB2R3UwdloyTWFaTk9sQ1lFcG5JdGlybEFPY1o3QmV6X01PMU1ZOVo4SENVNkJ0a0k1dnlIZjd5eDAwQlNqRmlmRm9NY181U1FFUEp3U3YtU25KZlJmNG8xZXRtal9UbXV2dnZ3VEptaUMzdnhYOWpsSHE2SEdLc1UxcWJSVXRQSElPYUU4?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T21:30:18Z",
+ "updated": "2026-11-06T22:14:57Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
