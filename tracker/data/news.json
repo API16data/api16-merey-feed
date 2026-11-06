@@ -4631,6 +4631,16 @@
    "origin": "rss"
   },
   {
+   "id": "c30c4f1d8327",
+   "date": "2026-10-31T10:30Z",
+   "title": "Shipping Strikes In Hormuz Leave Both Sides With Economic Pain",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHg3X0Rkemo5N2drTE8zV2lha0RVSm1MQ2FUWFVHRTZBQ3BHVVJ3aEZVSy1IZmJvQUYwaFI1ZGR5RmFOcTc3NTFqQTBfc1hQSkJUcTZRSGIzVUJrM3RuX2NLZGtZM2RLVjhDSEJTRHlIVUkxTlVyZWxMTExzd2p3V0U5WTd3aV9BQ0wzbHBjNDdqTVA2STA3TURNMDRXWFhSYk9wYnVZNjJOLWRmWDJuN2htMA?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "bb3455222dd7",
    "date": "2026-10-31T10:25Z",
    "title": "Las dudas técnicas y financieras detrás del acuerdo petrolero entre EE. UU. y NABEP",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "7c1e870f38bd",
-   "date": "2026-10-28T17:12Z",
-   "title": "Eni restarts operations at giant Venezuela oilfield",
-   "source": "Upstream Online",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZEhEUk4zdG5hS3V4X2VKcV8xb3NPVDB0aDZpSmp5MTlXOTRZRTVDYWVFTkZzSm1MRUFZaExQc29ZV1hMRkJmRGhrMU0zMk5CSmsyZGowWG5lVTlsd2lKODRqODZVMW1nMWxpaUxvMnVNLXBLRFd4eWVqblc2NVM2dnZhQTB6cEFldUtJVnJxTU5xZ1Z0MEpqOG1uRElKdHRTRHFzMEhCdkxUTkxTSHNXWWNB?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T10:27:31Z",
+ "updated": "2026-11-06T11:23:42Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
