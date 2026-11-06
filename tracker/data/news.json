@@ -181,6 +181,16 @@
    "origin": "rss"
   },
   {
+   "id": "f2252b94fb00",
+   "date": "2026-11-05T18:45Z",
+   "title": "Russian oil tanker has arrived in Cuba, Interfax reports",
+   "source": "DD News",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQzhoWkdXTGlxY3hOcC1fSk1TWlVLZTFMdWpxSER0YUstcGZ5bmx2MEZIblkzSGNqeFBNa2lDUS1BWDUyRlViMUllSjltMTdjZkpLTWhicy1JbGhHY0p5RWJoZUFOQnNBRGp1OC1ZWmZSeTNEdG9WT21QQl9UeDJ1VmVPNzI1Mk0w?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "a77c4410d79b",
    "date": "2026-11-05T18:19Z",
    "title": "Jets privados y arriendos de US$4.500: así es la fiebre petrolera que revivió a una ciudad fronteriza en Venezuela | El Colombiano",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "08b97e901c9d",
-   "date": "2026-10-28T16:59Z",
-   "title": "Eni Restarts Production at Venezuela’s Junín-5 Oil Field",
-   "source": "Egypt Oil & Gas",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUtlU040VXZxVXFYX2hlOXotNUlJSWdveVo2NTZHNUVDcXEzX21ySnZfZ0lwNFUzNjVyTnlYNGdlUmZObHVyS0I4Zm5pVFA3ZTBCNjJUSkttNG9oLWxEdkJiWVI5ZzFWTUFpb2k0WFlDWEc5T0xUN1NHdGxKSmVJUUtrRkpIRlphMzNOa0xFMA?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T08:09:20Z",
+ "updated": "2026-11-06T09:22:12Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
