@@ -41,6 +41,16 @@
    "origin": "rss"
   },
   {
+   "id": "48884622bc31",
+   "date": "2026-11-05T22:41Z",
+   "title": "Fluor signs Venezuela MoU with engineering firm Inelectra",
+   "source": "World Oil",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQmNiZVRQdTZOazZCR0c2RUlNTnhQNGgycVRWWHdlQ1BWck4wTkx2TXZPb0ptcWh6N1N5VkxQWXZKenl5dzBSQURWd0o5S2lKdGtQZk1DQWZBOTdzbi1fT2RuSVhQbXphTTVjMkVNaUtoQmxBeFd2UzJXN3NBcU9TMFVUOGswdVg2NzFsbWFyOElCeHo5NnV2TmZqaV8tUUk?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "484e5e60ef84",
    "date": "2026-11-05T21:48Z",
    "title": "US Imposes New Sanctions on Cuba, Ramping Up Collective Punishment",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "0eead82e7caa",
-   "date": "2026-10-28T16:20Z",
-   "title": "Trump promises ‘billions’ of Venezuelan barrels in rally beside Trafigura tanker",
-   "source": "TradeWinds News",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdGdXN3NZVndTU04wMW5MZ0s1U3otQ1BsMnZ2R1FaeVNaZWdTUjZiQUt5WXJoczZmNFllbDUybVlHeVpfSEYtWlF5dUV5WUJnY1BJc0o0QUQtRFZfQkxTV2I0U0pIMTdTSmloRGRBSkFfMDJEWFFjWjZWOHVoVTdMak5sTjE1RG05VUt2SjNzdWpoYWhnUWI5ZHAyeGhoTDNoVGZ4dFRNbXhKTTJUZmM3aEQwUHAyQ01hVEFjbkh3STFNWjJqMkNzUw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T03:43:36Z",
+ "updated": "2026-11-06T04:47:53Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
