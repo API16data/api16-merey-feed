@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:04:52Z",
+ "updated": "2026-11-06T11:06:47Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -42,7 +42,7 @@
      "first": "2026-10-29T15:56:49Z"
     }
    ],
-   "last_seen": "2026-11-06T10:04:52Z",
+   "last_seen": "2026-11-06T11:06:47Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
@@ -322,6 +322,66 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-563153900-2026-11-06",
+   "mmsi": 563153900,
+   "imo": 9735634,
+   "name": "HAFNIA EXPRESS",
+   "length_m": 219,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USHOU > VEJOT",
+   "destinations": [
+    {
+     "dest": "USNYC > USHOU",
+     "first": "2026-10-31T19:40:46Z"
+    },
+    {
+     "dest": "USHOU > VEJOT",
+     "first": "2026-11-06T11:06:47Z"
+    }
+   ],
+   "last_seen": "2026-11-06T11:06:47Z",
+   "last_zone": "Houston / Galveston / Texas City",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-06T11:06:47Z",
+     "detail": "declared destination USHOU > VEJOT"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
