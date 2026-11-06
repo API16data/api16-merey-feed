@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "7f105d2fa617",
+   "date": "2026-11-06T19:41Z",
+   "title": "Oil Traders in Talks With US to Get Sanctioned Ships Back to Sea",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcFlpVkgzUmhYWWdtSmxqUno4YlpTM0l0aWZ1bENHbk1FMHNLRDVxVXJqYzJ3Z3BpWk0wbmlMQ0RXMkd6QkxxVUozQXlJUVBISklfS2F5blp5aW5yUmVvbFdyMHlNbnFQbmg3MV9weXh2ZFJsN3JnMjRfREJoSDNpaWZVWGlXZ0p6aExRaWN0MGZULUFFSW05UC12MGY2Q21mWktpSGhCYWJFeVE2dEE5LWhYSUcwQQ?oc=5",
+   "category": "Sanctions",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "f2b06f1106fd",
    "date": "2026-11-06T19:39Z",
    "title": "Más negocios, alquileres al alza y vuelven trabajadores: renacer petrolero de Venezuela se siente en El Tigre",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "6c9efafb6513",
-   "date": "2026-10-29T01:28Z",
-   "title": "Mientras Trump sostiene que Venezuela le regaló \"un millón de barriles de petróleo\", Delcy dice que \"no hay un solo barril de petróleo que salga del país sin que se pague\"",
-   "source": "NTN24",
-   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxORVZvTmE5RE9KMjhITS1xdU91OXpMejhNZkN4b2pWc0tWTDNFdDFNbjBUeGtwWGRRRUo4QWZqVEdsMXhzeENWVllNbFdBclpFOEsyUFdBWlQwRmlsMXR4OWlPQmxELWtCYk1KOTNFOTNWbENsMjh6RXNmb2N2REVrd3pLTnd6Mmd0NV9pWlMwNVZQSlJCWEQ3WGtYVTUyUUZKMHFTRm94aDlnNFpMeVZrZFk3MjNJVVloYnU2Zk1tMG1NN1duTlJSMjdfQTI0WDFuX0ZxUUdrMV9PZE9fcjI3amVzbE45Mm9UMi1vcEtLZ3ZyN0xFNzZXUkZzbW5ndzdVLS12LVVoU2t3ZHkxdkQxbVBtUmRVQS1hbGhZZDhKYTdyekMyUnJ1ZjEtWHhQdGp6bkwtMGFTSTdWbUHSAbsCQVVfeXFMTTdtWUFtWDhsVE93VTE4Z2czMmo2a0tkTk5zczdES1Q1VjNtRXhpd29jd0xjcjN4MjYteUMzTWV2RHZfaTVyS1AteXhMRk9QMTdLTkxOU21ONFc1YzhIUTZiZVhJX2FSVktnUFVxRk04VS1CVWdVaUpBSnZOcE13eEM4dWVWZnBlX1I4YTlFT01vT25uZXFGem9hcmlIVzZRNU84dzRleEd2WnJIR09uLWtpRXo5LWdFbXBKWWJVaWxtdW1tNEpsc3FxdEs1TXhIVW5aSXZVVDlZbmFGaENJaHcwSHRXUW1NMk1DaFJLTFR3WXFtQnNoM2hjWTZRemVURjAwR0tXVUFFWWlNSzd4SkJmajl6bjNvR21fM3B4R3ptazVUb0UwQ1pxVWhsYmdyRnR6d1BNdzFKTDhj?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T20:38:41Z",
+ "updated": "2026-11-06T21:30:18Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
