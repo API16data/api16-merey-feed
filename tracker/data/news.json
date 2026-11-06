@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "258bc08e8bf3",
+   "date": "2026-11-06T19:25Z",
+   "title": "GeoPark evalúa la logística en un yacimiento petrolífero venezolano de cara a su adquisición",
+   "source": "Bloomberg Línea",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTWZseUhwMDYtOFM1Z0VULUJvWXFBdHNja3ZocTNOT29OanlSWDEyOVA3UDFQX19tVmVvVzhGNzJFb0xiSllXNUFRaGZPQU51VVgtLWhnUlpyRk00R0F6LXI0NExCMk8zc0x4YTRhdFM2RHU5em4wWTVxcFlHNmdodmlZUVhpYU55VlE3QlhzNTRLdnFDTHBiUEl6bTNsUk5wRnc0NFRtWlZaWmZlRUJQOC1FOV9TcHkxYk5CU013YjAwcGtuc2ZZbmUxUDZIb2Y1WTlXNllEM00wYVhIRTdoVm1B0gH2AUFVX3lxTE5FcDBGRkJPQV9RZl8yblBkQ2ttTXBObk9zVmZtQzJyQ1pQblFHYnlHd3BkWUJ1T0tGT1VoRmpMZlF0NXFMOVVpTEYyZHBQVmdhejBlWTZxdkt2VTZJclNwYmV3YkJJdVJnNWdfSVIwRnNKSndaZzczbWdHYjYtTUVSWGJKWm90Q2VnYURweThOTjZGcjJuRDFWQW1BVWxHMWltR0I0cE01X09IZElyQl9YaEZSejhDZXcxUFVEcjludjYtdmRDZkdPZ05tQkNObm85NmNNaDlhYzZGVGN6ZXFoM1ZTYjhrOXdocmhkS05qSXVzY3dpZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "bfce51564f5c",
+   "date": "2026-11-06T18:34Z",
+   "title": "Bloomberg: Petrolera GeoPark acelera los preparativos para operar el campo Bare en Venezuela",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUFRZY1kwRWNvX3RMQlJsWWtQdlNtc2IzOHU5N3VGd1Y5SXYzNnN6M3RmV0hvMjJkVWVZVk9iSUtKLWxHb2ZoaE5FSDRxOElPRkozSjY3OGFEV0RYb29TTDdvdWdyQUt4YUJROXdFVVY4LWFOS2RaeTNzdklNMFhlQ2RCQzlZaHJVTlhDd00za2lsZklHcEsyWUZDaFd1ZVF2VVBhaUZsMWMzZUZ1SXIzUFhUSGFNazYxaURaVEY5NHI?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "61578478855c",
    "date": "2026-11-06T18:31Z",
    "title": "GeoPark acelera procesos de producción en el campo Bare en la Faja del Orinoco",
@@ -78,6 +98,16 @@
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVnpKV2NoVnlFLTFxZi0zby1JLVdHU3VaUTFxVUFMU0tWZEEyYnN1N2l1UkpqRThFUk5jQW9pbE92aVQwc0cwR2Q3c3hiUEt4MG1ZenF5RTc2RmN2dkVSU0xHYnJfczV2aVM5Z3ZFbUNEc1dVcFFYeTRBS05Ua3Vjc0tJaXNCMnp0T2VVSDI0SlRoTXl5VHg4RGZiWFVPQVlHaDY5OUVoMlZJaklaS1dDWi1WbXZSd0s3cGRtNVJXcWJKMjhXNVRDbE12NkpMdFNzY1pseG5DZEpoSFBYY0x6TDFGdzJjOHJtb29jT1A0RGZDZ3lx?oc=5",
    "category": "Production",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "d24ad2d97ef2",
+   "date": "2026-11-06T17:11Z",
+   "title": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+   "source": "gCaptain",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT3ppaGs0MHRITklCWmxhNzF2aUxFaEMwRFkzRDFWdkt2T2hRV1lGQXVfS3h3cmkxUXg3Mnp0aUlsTVhlYjZ0UTZySUF2YTZHMFRrWWt2V2FTNDFoZnUyNndvMHJKbldtclA1bDY4OGlEUGZWSF9zb0JVY1l1Q2RhMEctMXdQV1czNzln?oc=5",
+   "category": "Sanctions",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7715,36 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "f35f52e33d11",
-   "date": "2026-10-29T00:44Z",
-   "title": "ENI inicia operaciones en Junín 5 y proyecta producir 200.000 barriles diarios en 2028",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd2JXbkMyUmhuNEdzZUJYNGRxa1d5Q2ZOcGFOby1LTk8zRHFGMjJ3cWZsM3ZFa3E4TUJ1UUxwSDFxTWRQNHhHX0swSEQ2UnR0YnlqQ21SMUdKVWRqTzZrZktrVnZyQmpYMFFuQ3dSel9SSXNsZF9CYXBla0RsbkVtSk9ucF9zWmJYbTEyeENoSm5GNEx1c1lQbEQyQ3dxM2pmNDJ2N0o4VW05N2NWVGN2alZsXzNQMl8yRnpQeGVTNA?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "d604a6ab05ca",
-   "date": "2026-10-29T00:29Z",
-   "title": "Fishermen Battle Oil Spills As Venezuela Fights for Petroleum Revival",
-   "source": "LatinAmerican Post",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbFJfNTdlQVNqYTBXLU1PcEdiTEw4TC1FTVpXX0RfUk0zOFQ2WVR5WU9uSXdUelFSbm5fQWZzMnNLZFNYWm4ybTNjREx2aHVNRjFTdDFaZy03bm1JVHRqREZSNXlSR3FQWElsRkZidGhHcnp2bEpnZVZSeFVENXd5cUc1Z0hodWNWMmlJUVI1a0NRSEd0LUZZd1puU2tCdTN4aWJVOUw0ZnF2Y29FWllCLWl3RkFackFMNnZJNDZ3?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "7f03c990647c",
-   "date": "2026-10-29T00:17Z",
-   "title": "Venezuela supera 136 millones de barriles exportados a EEUU",
-   "source": "Diario Primicia",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSHNjREpaQzF3VzItR1ZYNGdMUEo0X3hFbHZvVlR5SjFkbG9yZ0hTX3RzZzYxOV85S0JLYnVOOXBXRXBKaVJid1RONTRWX1VuN2hZUnlUVWNNVFdzWFZwdzBRLS13VElpLU9oSEZlM0tHeU5EbDQ2RmRfT2xYWTBxWE81NVJBakFnejNrY25lUkduN1YySkF2cg?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T18:41:02Z",
+ "updated": "2026-11-06T19:43:56Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
