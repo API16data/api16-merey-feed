@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:08:29Z",
+ "updated": "2026-11-06T02:54:27Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -9,12 +9,26 @@
    "length_m": 250,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-06T01:08:29Z",
+   "last_seen": "2026-11-06T02:54:27Z",
    "destination": "VEBJV=>USPOA",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 700
+  },
+  {
+   "mmsi": 538009651,
+   "imo": 9326873,
+   "name": "ALBARO",
+   "length_m": 229,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Corpus Christi",
+   "last_seen": "2026-11-06T02:54:27Z",
+   "destination": "VEJOT",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 500
   },
   {
    "mmsi": 636025667,
