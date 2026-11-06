@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0d2a66bf71ec",
+   "date": "2026-11-05T23:55Z",
+   "title": "Hernán Rodríguez: «Es imposible el desarrollo de Venezuela sin el desarrollo del eje Orinoco",
+   "source": "Contrapunto.com",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN1cwc3FtWWliN2ktbW1NVTFxc2VWNVdJZENid09aUTZHSDItZVlqRlpWZFh1MUp6b1pWTk1uQzhBNEloa1NhVzA4X19EQ0t5dmZBX2FPYzg3MnA3UmNmbGVTR3YyRUZlQ01hLUpaT2VNSUV2N1pZUXV2MGZ5T184cHZzRUZzQ0hkcTA3Y2dTSW56N3lzd1ZJUFRZWnhpb3gzYlFnODBVZWotc2twY3BQdGFibnZpZnhsNFlGRTFBcjNrMlRjbGhieElQVDF0M21reXVKSG5pVEwtdw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "484e5e60ef84",
    "date": "2026-11-05T21:48Z",
    "title": "US Imposes New Sanctions on Cuba, Ramping Up Collective Punishment",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "c03900e5de53",
-   "date": "2026-10-28T15:14Z",
-   "title": "La empresa suiza de ingeniería Sulzer firma una alianza con la venezolana Pdvsa",
-   "source": "LaRepublica.co",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVEVkQkp2UnpORlRzT2xXZXBJak1FUE41RkhVRWZQZUFrcDNvQjBiSV9sbmxfTWpWYVlWSmVFWFF0MDBtZ1V6ZGdwWUwySXhqUXg4dXpPSU5TLVhPVnFfQkNiRTVoSkR1R2JUMjIwTDB4U0FMand0RkRBU0RMMks4VVRHUUYtUlp1MmNQOEsxYl94Nm81VmhuUHZuaFdTbENBVnBBMXVGTDEyakk0LXBsbzZTcVp4a0VkS0hBNGpFRmNCX2ZWYlHSAcYBQVVfeXFMUEltLTBlaGpWZWIybUQ1dV93aHJKbzBwYUlHRmF1bmlZNGlnMkZBNlBQb2FoNno4S2M2NEtJbmU0TWY3ZTBfcTBmZ291UWVRLUJNZnBBNXRDN2FJelIzZ29mQzIyZnRVal9NQWlRckUzMXhiUUtxcmMzcjE4T1lHM2p4MFlYbGRWQndfazc4eXVMVnZRa3ZqTmJKUGc5V0hTcmprRTA1d3JTbTZzd045d2dzTkhyVlgwVF9rQ2NVRUdPeXdEZ1ZB?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-05T23:36:10Z",
+ "updated": "2026-11-06T00:41:22Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8077,15 +8077,6 @@
    "key_figure": "$17 B"
   },
   {
-   "date": "2026-11-04T00:22Z",
-   "title": "Oil production in Venezuela grew by 8.5% in the last year, says Delcy Rodríguez",
-   "source": "De Último Minuto",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk5TeWxoZ3lGaGRvaFVObVdjaEJadjFfeGZZOVFLVzM1MGxMVWZhWUs0a0lfVC1HUi1fZk5Ta3BSWWdVN01abHVneDFUU0dNRlk5RzZfeTM3eGttckJsOUY4NTRrbWVZRlViOGFnUzl4a0gwVWhPbnFON0Y3NW9IM29WbDJuZTRnWnM5a0FadEdUNi1PejZrcUJ1dTBEXzhPUHJJbk9IMkRqNEpmRDFaVHZFYUZyNEE3TXJCd0xtNA?oc=5",
-   "category": "Production",
-   "angle": "More supply: more barrels heading to market",
-   "key_figure": "8.5%"
-  },
-  {
    "date": "2026-11-04T12:47Z",
    "title": "Venezuela’s oil revival moves cargoes from shadow fleet to mainstream tankers",
    "source": "Lloyd's List",
@@ -8101,6 +8092,15 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlo5ak1IaVNQVGZpM2EtdVpLajFYaHVpSWZWdVRJZUdnTy1vX05GdW81dk5talpLM1Nnd3B4LXZzbVlNTEhPa2QxLWZVVU41X3hDUS1rWjZPS1JtMVJTUm9Mbmw0SUVVMmhwVDhrYkFGZ3pSQXl4ZXlyZDk5bWtPYkhHeDl0V1YxQWlBZ3A2LTh1QTlNY3c5a3l4WER5Yk0?oc=5",
    "category": "Sanctions",
    "angle": "Market access: who can buy and finance cargoes",
+   "key_figure": null
+  },
+  {
+   "date": "2026-11-04T17:53Z",
+   "title": "CVX (NYSE:CVX) Revenue Surge and Venezuela Output Add Momentum to Chevron Profit Picture",
+   "source": "Kalkine Media",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT1NTWWttTEQxREpWdGR1RXU4UE14LTFydUl3M0FqZUkxOEVNS1JBamZxRW9WMXFEa0lWaXJOODQ3OGZkSDlKS2wzeF9hQzM5N2xxZnYwaWo4OWJfbGxTRUdmUnNiM3JpZ2FiY3JWdjBXMzl6anhIUlhuVFREcWZRWnhlV2t1ZW5XdFRxN0F2a3pCTHN2Q2JXQkRURlNHdUZRUHo0d1k4aklnUnlaWnU1aWN2eEZOTVFwdDdiekNxeFRlQ255bGMw?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
    "key_figure": null
   }
  ]
