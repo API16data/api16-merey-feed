@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:06:47Z",
+ "updated": "2026-11-06T11:58:09Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -8,14 +8,14 @@
    "source": "Directorio Petrolero (Instagram), White House (X)",
    "added": "2026-10-28",
    "reported_venezuela": true,
-   "seen_this_run": false,
-   "last_seen": "2026-11-01T05:48:00Z",
+   "seen_this_run": true,
+   "last_seen": "2026-11-06T11:58:09Z",
    "last_zone": "Open sea / other",
-   "lat": null,
-   "lon": null,
-   "status": null,
-   "draught_m": 8.1,
-   "destination": "USCRP",
+   "lat": 27.8305,
+   "lon": -96.7511,
+   "status": "at anchor",
+   "draught_m": 8,
+   "destination": "USBPT",
    "visits": [
     {
      "zone": "Corpus Christi",
@@ -29,8 +29,8 @@
      "zone": "Open sea / other",
      "group": null,
      "first": "2026-10-31T22:38:44Z",
-     "last": "2026-11-01T05:48:00Z",
-     "draught_m": 8.1,
+     "last": "2026-11-06T11:58:09Z",
+     "draught_m": 8,
      "draught_first": 8.1
     }
    ],
@@ -94,6 +94,16 @@
      "draught_m": 8.1,
      "dest": "USCRP",
      "zone": "Open sea / other"
+    },
+    {
+     "t": "2026-11-06T12:31:35Z",
+     "lat": 27.8305,
+     "lon": -96.7511,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 8,
+     "dest": "USBPT",
+     "zone": "Open sea / other"
     }
    ]
   },
@@ -118,7 +128,7 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-06T11:06:47Z",
+   "last_seen": "2026-11-06T11:58:09Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "lat": 29.8226,
    "lon": -93.9559,
@@ -146,7 +156,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-04T02:02:17Z",
-     "last": "2026-11-06T11:06:47Z",
+     "last": "2026-11-06T11:58:09Z",
      "draught_m": 9.4,
      "draught_first": 9.4
     }
@@ -1354,6 +1364,16 @@
     },
     {
      "t": "2026-11-06T11:26:25Z",
+     "lat": 29.8226,
+     "lon": -93.9559,
+     "kn": 0,
+     "status": "moored",
+     "draught_m": 9.4,
+     "dest": "VEBJV=>USPOA",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-06T12:29:25Z",
      "lat": 29.8226,
      "lon": -93.9559,
      "kn": 0,
