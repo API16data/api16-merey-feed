@@ -1121,6 +1121,16 @@
    "origin": "rss"
   },
   {
+   "id": "d58c7ae39a0d",
+   "date": "2026-11-05T08:00Z",
+   "title": "Oil Companies Signing Agreements in Venezuela, But Delays Persist",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUHhKQ1ItT0FpMlZNRmdDcFpDRENhdFU2Ri0yOUllcmpad3hIWUtJMHR4ZzRaUzRranBDcHNpLXZCd1FmRGw2d3h1M3RSbFhad2ZuZWpNVnRNX1VYdnB4YnFqQ2lyZnpBQXBIQ3g2S0FuMEQ5MXd0MUdPdFJ6YUFLYmtfeE5jbTQwUDVrQWJEWU10aE9xRTVoenV3?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "371f81ecb849",
    "date": "2026-11-05T07:11Z",
    "title": "Fluor Partners with Inelectra in Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "ed4dd35da535",
-   "date": "2026-10-29T12:27Z",
-   "title": "Esta es la proyección de producción de Pdvsa para los próximos siete años",
-   "source": "La iguana TV",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sZDlodnlqR2E3RUdvdXJPMjJGOHJJN0dsVzFUZVJCUVdlZ2R5LXI2UWcxYWhKbFE3c0M4T0FMQzVrM0NBTDBxSGJ1WDdmbGxVTjd2UlBySHIxTk5RUjh5QXRGeE93TnB0OEpNXzBYaEhvWkdVTVhrZ2VB?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T20:26:02Z",
+ "updated": "2026-11-07T21:04:14Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
