@@ -101,6 +101,16 @@
    "origin": "rss"
   },
   {
+   "id": "1341724704a3",
+   "date": "2026-11-06T18:33Z",
+   "title": "Venezuela: una petrolera de India busca operar dos proyectos y cobrar US$500 millones",
+   "source": "Lmneuquen.com",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON1lRcWxJT0g5RkRPbmgxNUNkWHNONVlWRkp5NkZyc1NIeHJ3UWU1TUFSd3dmWWE4ek8yQVpLblRuNXJydlg5QVhVM3FMR3ZmYU8ycVFRbmdaZmw0WWMtX29vZjJteXNvdnNvMmZYSmNrOHVCOVdCdlQtLUhlbU9lMzQ2dXhKWktIWDRucEJvM0gwT3VTWWFSSXpjZTFQUjN6QTNNWE9UQ3hOYW0wbm14X2RtLUVLSzlYR01RLWw3dDRfcVkxYndGYUxkZ1XSAdIBQVVfeXFMUGlyLUZlUTJTU0UzWkJiSXdxeGxHbkljS2xTRXRGVXd2a0FpSTFLYVAtdks0RTczVlVIcE1tS3NZWG1Lb1NjcGdtOTdRREp4U2hlcmwyd1JkbzB1ZnZlZUw5RjVwMzc4SURXZGRXSjEtUWJhb0FQdFZUYzBPdTJ0ZDh0MHlia0VvNmJxUnQ3VFoyRXpZVG1ZRnE1RFM3dXlxdEZVZXVHMkY0UHRzbWJmLUhDdzd1VlE3b1VNZEtHLTlDekVFaGVMdHVuX0Q5UjVOZXZB?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "61578478855c",
    "date": "2026-11-06T18:31Z",
    "title": "GeoPark acelera procesos de producción en el campo Bare en la Faja del Orinoco",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "d059dc94467b",
-   "date": "2026-10-29T06:01Z",
-   "title": "Suiza Sulzer firma una alianza con la venezolana PDVSA",
-   "source": "El Economista",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZEtEM3pvZ3J5UHgtcHJtcHpMQlRNX2JkZHRTZDNRZElDZXdjWjliejhiUDdiLUduUDA5WnUzd2V2VWg2SGI4N0EzOG9hd0JfR1B5X0tFODFkUkJvRURDZzc3R3NuSEhiT1plclVEdGgxRF9vNHdqckg3T01PRHh4c1NBLWhMcngtVmFJNDM2V01lcENtNHZLTzk0aG84RE5PX1czZDZuNmPSAa4BQVVfeXFMT0pYY1hOQ1NDTWdRYm81cVBmSVdzbWVLTDlrU005ODFxcHZUSkktN0ZUTHh0YXhxSV9hRERQcE9jV3dfcFN3Sy1NdHZWaEt1eHlPaW9DS2hYS3Uya3hVaTM2RktMYkdtRmh4NFZIczBnRmtGaVg4elJrNFJleDBGdkkzeGhRU2VWUG9fWnNXWEZyM3RZS1ZOcFZYeFpBOF9HN0I3b3hTaEZpbG9CMFZ3?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T00:55:28Z",
+ "updated": "2026-11-07T01:49:10Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
