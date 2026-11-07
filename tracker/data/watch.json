@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:43:13Z",
+ "updated": "2026-11-07T17:39:23Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -8,12 +8,12 @@
    "source": "Directorio Petrolero (Instagram), White House (X)",
    "added": "2026-10-28",
    "reported_venezuela": true,
-   "seen_this_run": false,
-   "last_seen": "2026-11-06T11:58:09Z",
-   "last_zone": "Open sea / other",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "seen_this_run": true,
+   "last_seen": "2026-11-07T17:39:23Z",
+   "last_zone": "Gulf of Mexico offshore (lightering)",
+   "lat": 28.7599,
+   "lon": -93.3405,
+   "status": "under way",
    "draught_m": 8,
    "destination": "USBPT",
    "visits": [
@@ -32,6 +32,14 @@
      "last": "2026-11-06T11:58:09Z",
      "draught_m": 8,
      "draught_first": 8.1
+    },
+    {
+     "zone": "Gulf of Mexico offshore (lightering)",
+     "group": "USG",
+     "first": "2026-11-07T17:39:23Z",
+     "last": "2026-11-07T17:39:23Z",
+     "draught_m": 8,
+     "draught_first": 8
     }
    ],
    "track": [
@@ -104,6 +112,16 @@
      "draught_m": 8,
      "dest": "USBPT",
      "zone": "Open sea / other"
+    },
+    {
+     "t": "2026-11-07T18:15:36Z",
+     "lat": 28.7599,
+     "lon": -93.3405,
+     "kn": 12.5,
+     "status": "under way",
+     "draught_m": 8,
+     "dest": "USBPT",
+     "zone": "Gulf of Mexico offshore (lightering)"
     }
    ]
   },
