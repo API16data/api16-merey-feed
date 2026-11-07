@@ -31,6 +31,16 @@
    "origin": "rss"
   },
   {
+   "id": "481aedb69a47",
+   "date": "2026-11-06T22:14Z",
+   "title": "Venezuela’s Oil Exports Fell Slightly to 1.2 Million Bpd in June, Data Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEVSNzd1SEF4WlRGWGx1SlMxZ0FldE1jSjhtRnNKSWFvUjJ5VTJZanNNRTI2YmZ6QlNZNWV2RjNHVzA5SHFtQ1hERGl3blQ1NlIyZWNUOWpJNGRaVjhoWjZNMHppbnhkNVZueDBhVHhqcExUV1k1alJwTktnSGFfajVOeGJLQ1RkVmxCSXY1bWd5aUVUcXRUNjlhQXFDRDBhOWNTOUVMbw?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "12a4d594b986",
    "date": "2026-11-06T22:10Z",
    "title": "THE DEAL: How are Caracas and Washington Structuring a Massive Oil Output Deal?",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "2b6ebf0af5c8",
-   "date": "2026-10-29T07:18Z",
-   "title": "India halted Iranian, Venezuelan oil imports under US pressure: Ex-Indian FS",
-   "source": "Kashmir Media Service",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd2JsdGxjRmwxSkdoRmYwY1ZCaDJQX1plRU9OT1VqLUgyWmJoLU5wcDN5XzNJUmpLOVNGM3hweFN3cHpLdUtiTFFPRVRiejJ1a2xtNFNic3gxZHZmWm9rMDFCSUh0NE94bktOLUF1aVNaZHlPN2gzR2ZaTno4SWE2ZWhJVWh1cmt6Mmphc3VsTUZYNzQ2SWtfRDRzOXF5YklLYzh2Tk1oaHFjUFB1UWZFYnczeGo?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T06:42:00Z",
+ "updated": "2026-11-07T07:49:52Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8053,7 +8053,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Banca y Negocios: URLError",
+  "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
  "highlights": [
@@ -8077,6 +8077,15 @@
    "key_figure": "$500 Million"
   },
   {
+   "date": "2026-11-06T22:14Z",
+   "title": "Venezuela’s Oil Exports Fell Slightly to 1.2 Million Bpd in June, Data Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEVSNzd1SEF4WlRGWGx1SlMxZ0FldE1jSjhtRnNKSWFvUjJ5VTJZanNNRTI2YmZ6QlNZNWV2RjNHVzA5SHFtQ1hERGl3blQ1NlIyZWNUOWpJNGRaVjhoWjZNMHppbnhkNVZueDBhVHhqcExUV1k1alJwTktnSGFfajVOeGJLQ1RkVmxCSXY1bWd5aUVUcXRUNjlhQXFDRDBhOWNTOUVMbw?oc=5",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "key_figure": "1.2 Million Bpd"
+  },
+  {
    "date": "2026-11-06T20:02Z",
    "title": "ONGC Eyes Venezuelan Oil Fields to Recover $500M",
    "source": "The Cliff News",
@@ -8092,15 +8101,6 @@
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HZTBMb1Zza3BRN0tXYjJDSWNjckRHLURvQ2IwcnQ1WFJqdFF3TS1KclkzX1hNZEdiSnIwVUtxRGZDbXFobm5RNElFaldFaHhvUGttajdqaV9aV2NKQ180c3ljWQ?oc=5",
    "category": "Exports",
    "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": null
-  },
-  {
-   "date": "2026-11-06T17:43Z",
-   "title": "ONGC negotiates to manage two Venezuelan oil projects — OilPrice",
-   "source": "UA.NEWS",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbllDWlJ5NFh0Y0o2V1FVSXE1VEdGa1lyUmVQVXZGR2wtRVY2UmxTdjZ2XzdhcS1XelBqdHZYNmtheDU3NHNqWXh2YVN6M2ZoVXlZR2dLRUFNNktONUE5dFJ0M1picVViVnVxd2hCWHF5NmphZVZHUmxQWjd5M1V6ZDJ5Y19Bb2QyQUJkWV9jNDYxZkN1ZHl3U2NYcV9EeGc4eHF3ZDlnV1B4RHRXdmxPdWNkT2ZIZw?oc=5",
-   "category": "Pricing",
-   "angle": "Moves the value of every Venezuelan barrel",
    "key_figure": null
   }
  ]
