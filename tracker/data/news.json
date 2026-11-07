@@ -71,6 +71,16 @@
    "origin": "rss"
   },
   {
+   "id": "9b1dcf609d77",
+   "date": "2026-11-06T22:39Z",
+   "title": "RED FLAGS: Trump’s Oil Deal With Venezuela Raises Red Flags for Some Major Producers",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbVJKU1N3ejdmN0gtSW1YUlBjcm94cTRPVkx2eGFSVU5jQ3JmMWw5a2phWTllNDFzVS0wSVcwVU1SSUhucVdsRXQ4MG11Y2NiUGVEb3M2SmVpc2NTM09VRDcwRkZfcGIwcTdSb1FlQWV6TWs0bndBMHhVeUlIRTlybVd0YklXZ3J1QlR3RXFWYmdKUHdLRUVfWllpaktTaC0wZkFDeTVwRXM0Y0thQ0hlMWNVcw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "f684c3921286",
    "date": "2026-11-06T22:25Z",
    "title": "Summa Consulting: economía venezolana crecería 12,8% en 2027, pero seguiría en 44% de su tamaño de 2012",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "1db2633c0bc5",
-   "date": "2026-10-29T10:11Z",
-   "title": "Economista asegura que Venezuela envía el 20% de su producción petrolera a Estados Unidos «al costo»",
-   "source": "Mundo UR",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQWVfbGV6Nl9XTWhZeVp0Skh6VUtFTDFJU2RQYWgtTmFmOWZuNXZDeVhxMVhzcndaY2h3VF9PX0sxbktqSjJaaHpQTkdyMjFqVEY2UjBqMDFpMkgwcUpzcDdyc3ZrOGh1dDhxTE9OUGZ2TGNyUnZGZ1E3SWY1Q05VbWZlR3NCdlR1Tm5kdmxSSmg4azlyeE1FZG5KR3IyQXZTdFpuZElzV0hpUjFXM29KZ1c2NTdsWHIwZGlVWVhLNUExR3ZsTUFrUg?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T11:25:52Z",
+ "updated": "2026-11-07T12:04:31Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
