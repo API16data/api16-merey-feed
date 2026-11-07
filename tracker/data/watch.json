@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:42:34Z",
+ "updated": "2026-11-07T12:52:06Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -128,10 +128,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-07T11:42:34Z",
+   "last_seen": "2026-11-07T12:52:06Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.4452,
-   "lon": -93.6669,
+   "lat": 29.1958,
+   "lon": -93.6639,
    "status": "under way",
    "draught_m": 8.6,
    "destination": "USPOA=>VEJOT",
@@ -164,7 +164,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-11-07T11:42:34Z",
-     "last": "2026-11-07T11:42:34Z",
+     "last": "2026-11-07T12:52:06Z",
      "draught_m": 8.6,
      "draught_first": 8.6
     }
@@ -1605,6 +1605,16 @@
      "lat": 29.4452,
      "lon": -93.6669,
      "kn": 13.4,
+     "status": "under way",
+     "draught_m": 8.6,
+     "dest": "USPOA=>VEJOT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-07T13:21:55Z",
+     "lat": 29.1958,
+     "lon": -93.6639,
+     "kn": 13.3,
      "status": "under way",
      "draught_m": 8.6,
      "dest": "USPOA=>VEJOT",
