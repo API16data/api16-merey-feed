@@ -1081,6 +1081,16 @@
    "origin": "rss"
   },
   {
+   "id": "d51281aca519",
+   "date": "2026-11-05T08:00Z",
+   "title": "COMMENTARY: How Will Trump’s Venezuela Deal Affect Alberta? – Yogi Schulz",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ29NY29GaUNsVkFXTHJ1VUlPdFRIRjhmOHhINy1kSVl5LVVWNVA1bF9sWG5UOWE4SnJaajdyaEdJRVAxX3pjUVUyRzd4bnFkZ19RYVljdWZBOUpCTWQ3VUpCTzdsSHBKZ0xsZXVHc1QwODZLdUNpUW00Smx0RzV2WlEweFdOdlBYS094ZWN2NWJubUY4R1VkSkRqSndFNU0?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "371f81ecb849",
    "date": "2026-11-05T07:11Z",
    "title": "Fluor Partners with Inelectra in Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "006ba542e5eb",
-   "date": "2026-10-29T12:04Z",
-   "title": "La extraña matemática de Trump para decir que Venezuela le \"regaló\" petróleo a Estados Unidos",
-   "source": "CNN en Español",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYV9zWjJ6UzVaUk9pZUNUZmRTQ1I3YUVfaENpRndkVndzRU1HdEY2TGhpS0xUUzBjTGlUblBiZWV1a244Vl9rNWFKaHVmZ3ZEVmg4V2RhS1ZiWk5ZZWJMX1FTWUk1SVhZeEZEUGpYRHI4ZVljdVY2VUNlYUN6SUFtQkMwT0k4bndJN1owUWJKYkQ1Y2s?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T15:05:51Z",
+ "updated": "2026-11-07T16:03:01Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
