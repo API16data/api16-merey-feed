@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:46:26Z",
+ "updated": "2026-11-07T19:44:41Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -9,10 +9,10 @@
    "added": "2026-10-28",
    "reported_venezuela": true,
    "seen_this_run": true,
-   "last_seen": "2026-11-07T18:46:26Z",
+   "last_seen": "2026-11-07T19:44:41Z",
    "last_zone": "Gulf of Mexico offshore (lightering)",
-   "lat": 28.968,
-   "lon": -93.5172,
+   "lat": 29.0362,
+   "lon": -93.573,
    "status": "under way",
    "draught_m": 8,
    "destination": "USBPT",
@@ -37,7 +37,7 @@
      "zone": "Gulf of Mexico offshore (lightering)",
      "group": "USG",
      "first": "2026-11-07T17:39:23Z",
-     "last": "2026-11-07T18:46:26Z",
+     "last": "2026-11-07T19:44:41Z",
      "draught_m": 8,
      "draught_first": 8
     }
@@ -127,6 +127,16 @@
      "t": "2026-11-07T19:30:17Z",
      "lat": 28.968,
      "lon": -93.5172,
+     "kn": 12.4,
+     "status": "under way",
+     "draught_m": 8,
+     "dest": "USBPT",
+     "zone": "Gulf of Mexico offshore (lightering)"
+    },
+    {
+     "t": "2026-11-07T19:54:27Z",
+     "lat": 29.0362,
+     "lon": -93.573,
      "kn": 12.4,
      "status": "under way",
      "draught_m": 8,
