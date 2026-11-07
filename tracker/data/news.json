@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T05:38:41Z",
+ "updated": "2026-11-07T06:42:00Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8053,7 +8053,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Banca y Negocios: RemoteDisconnected",
+  "Banca y Negocios: URLError",
   "OFAC recent actions: HTTPError"
  ],
  "highlights": [
