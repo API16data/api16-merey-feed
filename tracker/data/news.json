@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "54dde5d3b125",
+   "date": "2026-11-07T10:45Z",
+   "title": "Petroleras colombianas alertan sobre creciente fuga de capital y talento hacia Venezuela",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSHhMUmw3dWkyc21jVF92d1NYcEFJLXpKVnI0VDV6Z0Z1cEwxVGg2WXM1ckNHYUQ5VG56alFiLW05ZEd1eC1CbmRwOG13V1FMZEhuSGlyYkpPNDg5cFZrTXA0SjZwZmVwUk5hX0Nkb2RweEVmUFBIZlBtTS1IOS1leGtCREVfMXZjMGFyaDZxWUpQOXVxSTVPTzVISUt0ZVRmWm0tVG8wNHN1LXVobTRpQTNOM3JNVjJYeFlzNQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "49a8448547c9",
    "date": "2026-11-07T09:30Z",
    "title": "La ruina de PDVSA abre las puertas al capital privado en la nueva era del petróleo venezolano",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "7232f4b99ee5",
-   "date": "2026-10-29T10:07Z",
-   "title": "Inside India's Energy Dilemma: Why Russian And Venezuelan Oil Are Testing India's Refining Power",
-   "source": "The Daily Jagran",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYVkxQjlpc043cGk4THFSTjBWbC12OHFRMG1ZR1U5T2szUDJuMGlQT0xkeTkzb0xMUVhmYUptYnNTMXE0WXYta2dkYmhlQmUyMmxkT2FoNnpkVmJfdExhRlNZTGRaVzNTdVkxbkI5LXpDalk1bXlKOGNCWGRQSUd3WmluT01TOW9JZ2I0M3d6VWhrdmJvOHFrOUR3QlY4bUYzUUtvRVJXT3RCVlBIUWVFMVppVXEwZDNPNlh2Ql9DVlRhckNWNnZidTZ1RWoxX2ZiUGNuTlY0THpicXIxWWM5TNIB5wFBVV95cUxNTkRwakYybmd2UGhxOEFxcGI5YjJLTFNZLVdLMmF5UFJDY1RmSHhNX1puOTdNMDVXM0FGbHZTbU1pOFdBMVNRaWM2NU5GSUF1Zjk2YVBfQ2ViQTlKWFBwVUI2b1N5UkZTdHZibmRNU01mai1TUm5rREdyOU9jSE01clg4Y1N3QnQyRlhyWGtXVGdYTkIxMTBqeWhabjhBSTA3cDl1QjNaMHAxMVFNdHF0aXJhd2VFTHVQSUk4ZjRmRWJoT3J5QVltZnREc0sxWk12YlJHQTRINTlZeS1Wa1JLWDNjM1hxNE0?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T10:31:32Z",
+ "updated": "2026-11-07T11:25:52Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
