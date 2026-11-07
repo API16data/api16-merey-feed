@@ -551,6 +551,16 @@
    "origin": "rss"
   },
   {
+   "id": "32946609874f",
+   "date": "2026-11-06T13:21Z",
+   "title": "Chevron CEO says Venezuela investment funded by JV cash",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVTFDMjNxZTk1YzNtc25QU2g5R2pFN29sa1NXdlRKMXRiaWJWTXBveHBhWFpVTDVjMFZSUFN2dk9ydDB3RDh6azdYOGhXZWJMQVBQNTdFQ2M4NXFJTkYwZ3BkV2V1cXFwVTRoWFZfUUxrWlhNdVhLR3JXaGhpd1dTWlB0T1huSmFOUThoakRjOE96RnJzWGVCa0NHTERZUXkzaXBPZQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "2b4658ee334c",
    "date": "2026-11-06T13:14Z",
    "title": "ONGC eyes operatorship of two Venezuela oil projects in six months, seeks recovery of $500 million dues",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "0b7b58aaf206",
-   "date": "2026-10-29T11:34Z",
-   "title": "Oil Executives Worried Over Lack of Essential Element for Venezuela Expansion: Power",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN093Ri1EZWVhNG13SkwwNzgydndiUjAwWF9TM2ZGS3lUM0J4ZlJYbVdDeXJDS282N2R3SFphYTJCYzgzWURnMjJ2V3FXQnFiNHltcHNPVE1wcjVkbEZmRG1GZ2t6UXIyaElobVhjZnJfQlI3T3p5ZkE5OHVGZ1dSZ0hSZmQ3NlBlMGFtc2pGLTgxQXFUdl9PczFyeVNQTzl6QkVIanRPVVdjVlRTZmZjQkI4VWM?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T13:23:02Z",
+ "updated": "2026-11-07T14:12:05Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
