@@ -21,6 +21,16 @@
    "origin": "rss"
   },
   {
+   "id": "12a4d594b986",
+   "date": "2026-11-06T22:10Z",
+   "title": "THE DEAL: How are Caracas and Washington Structuring a Massive Oil Output Deal?",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMHdlMms1N1hQbmNQS29BUUhMdWk2VDVIbTZRMnpVWUIyb0M2ZVY3XzJrVjIzZFRtN2NlVVZ1YS1GOUV6Nm85aE16OUFPZzFUS1hTV1BOU2tMU2o5WkxFQXlJc0V5N2xnaVRKdWplcEt2ZkMtd2JiQXdmMEVMc2hPeGw3emtOWU42NnloVERTa3pqRFFBZUJTSU9vc0p0VGZt?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "e4fd5b90faf1",
    "date": "2026-11-06T22:01Z",
    "title": "Importaciones de crudo venezolano hacia Estados Unidos alcanzaron su nivel más alto desde 2017",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "d35eda3afcc7",
-   "date": "2026-10-29T07:00Z",
-   "title": "EXCLUSIVE: First Russian diesel from Putin-Trump deal heading for US, data shows",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3Zka2dCZ1RzeXJfN1BWOGlIbHpxODVFbTdvdjFuengzUlVHTkpLVGlOa05wUXNvdWpyNl9MTGRVMTJmWFdMTTFyU3pka3FrZ0hzMGhHVEJTRGpVQXV1TEhPYXBsSjU2UllWZHlfVzBCMnBvT01NbVNUdkJiMER4YWhKZDljRUVMY2N1REdxMEpZVkg1RFhOMGFkT3NnNWljS29Jd05ZLXdNMnhmaUlUZXJWY3hGTzN4b3hEM2ExUGxNcDRLMDVr?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T03:38:53Z",
+ "updated": "2026-11-07T04:41:03Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
