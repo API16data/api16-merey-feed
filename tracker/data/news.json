@@ -71,6 +71,16 @@
    "origin": "rss"
   },
   {
+   "id": "4af218cf2058",
+   "date": "2026-11-06T19:37Z",
+   "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYzV0RVhpWmM5X3FKMUVGNGdHMjZzVENKLUlaWnROTTBSR2pfeWh5a0t2QzNCVllwb3dvSnozLTZIQ0VuU3dKcVV4Y3ExRzI4S1NPQ1dCTzNvWDcxN01EVEM0S3h2ell5SmtVRzFTMmY4Y3NfOUhoeVRPcUZLeHZzUng1aXctYk82Z3d4bjRuamRrZHdVTDNsM3Z2dw?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "258bc08e8bf3",
    "date": "2026-11-06T19:25Z",
    "title": "GeoPark evalúa la logística en un yacimiento petrolífero venezolano de cara a su adquisición",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "d7ce362bd4f6",
-   "date": "2026-10-29T05:00Z",
-   "title": "Venezuela’s oil revival threatened by worker shortage",
-   "source": "Financial Times",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92UUVzLUNjdnNHYXAzWWY1aW51MkJGNG9odTRHX1RpVVRKLVJnalpxczQ5UldLQlV2ZE05MGFqd3d2amFha0oxRC15bFR4NzJhWl9XMHY1dzVxMWxfQ1JYMGJPY0lOcUdralZ1eGhSRzI?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-06T23:08:10Z",
+ "updated": "2026-11-07T00:00:00Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
