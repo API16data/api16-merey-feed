@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:52:06Z",
+ "updated": "2026-11-07T13:53:14Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -127,12 +127,12 @@
     "manager": "Genel Denizcilik Nakliyati AS (Geden Lines), Istanbul",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-11-07T12:52:06Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.1958,
-   "lon": -93.6639,
-   "status": "under way",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 8.6,
    "destination": "USPOA=>VEJOT",
    "visits": [
