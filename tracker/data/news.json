@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "6ea8bcf909f6",
+   "date": "2026-11-07T01:51Z",
+   "title": "OVL looks to operate 2 Venezuelan oil projects",
+   "source": "The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTlV3ZFF5bWdmSDhsZWRlZFhCeVB6MnRXZTdRRjg3V3BhTWtHdnpmb3E2eXlSQ2pRYW5hUDdaNFdMSGNpN0MxOVZNRnZieWdwVUVtUGVMWTZtN2dLNmdOUTRjeXFoSlFNSUwtOHBjcy02b01pZDdpT2diYWpvREc1RUFvWEdpTnA3MkVvcEpDLTFTclZ5V05mNTZtSi1UajMwZHZIQXJyLXgwVmlDVlloT0FfNTZ4Vm1acFJDS3dOUy1tTm1BZnoxTGZ5X1XSAdIBQVVfeXFMTkNLY0lFMmp4aHIxQkRONmpoZGhJazZ2WklzTnZIbl9OLU1zbGtRSC10QlZ3R3JocXdNT3RrNVFjX1YwcHNpaVAtcTZaWlJwREY4TWtfTm44MVd2N29nUTNhV3A1UjdwMnFwaDhUOTNOQTc3N3RKWUN5UkVwR3ZSbWdFQWxxaWVXMWpDLXhJSDlGU3pZSndRbTdjVWpBSTlIWURkSndrWWt1RHYyMzFqMk14NDdqREo0ZGpuajkwT2toUTk5MmNGaEVGbUlubHcwLVF3?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "f684c3921286",
    "date": "2026-11-06T22:25Z",
    "title": "Summa Consulting: economía venezolana crecería 12,8% en 2027, pero seguiría en 44% de su tamaño de 2012",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "13dc4f787979",
-   "date": "2026-10-29T07:00Z",
-   "title": "Processed eucheuma seaweed Venezuela Prices & Trade Data | Market Overview 2026",
-   "source": "Tridge",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsc3NXSmIwRnVyaldqckJnTnJWaG5UeUxQeGRyT2ZGSjZYZy1EaUZaNVdvYi0zNnViYjhTb1QtdU5FTmp4WmI2dFQzYVB3ODB0LXUzWnRKaGFUWHQyZmFDSWVuVVR2S0JCY0ZpUWxjZmZNQ3VMTFFZ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T01:49:10Z",
+ "updated": "2026-11-07T02:38:53Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
