@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "b1a766776175",
+   "date": "2026-11-07T16:47Z",
+   "title": "Venezuela gana terreno como proveedor petrolero de España con las mayores exportaciones en 20 años",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcEF5OUVzSWc2X1RyalpZNm5ya043YkxFNTg1SFQtVDl1TFdxWFMxT2o5ajdrZEoteDhSZDluejFoT2tvamZsNVcwYkdLNVQyNDhsN0JnTkZjcDFiYjZzQlBmQ0p5U19BZEtYWmprSm9Dd2J0dU5IZ3BleVJ2QXFRd3k4V0R6ZUxLMjlFaWRRWDB4X2VSMzgtTEZZdFN1bXJwVGxQNkduakdYdjZWQUx1ck40ZWZEWGZwQW0yR0hBVjdqMHI5cHJLazVR?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "9be6e51f9c80",
    "date": "2026-11-07T12:41Z",
    "title": "In his words: New White House chief of staff Stephen Miller is US immigration hardliner, bombastic critic of Democrats",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "ab5da48a22c2",
-   "date": "2026-10-29T12:06Z",
-   "title": "Russia's shadow fleet: Can the EU act even if the US eases sanctions on these ships?",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkpSeGgzNjlRbXJsbi02S2R1dTNrSGM5T3RPUVFMV2xKWXB3Uzc3ZUNpWTZkLUI3NlktMVVLOEVsTXBuZHczTlhtajBfUHZqbmozNGQzRTQ0TkdrajhWd1ZNbnZSOGJCRmg4YWZQeUhHb2liZlN3M0JjOTNfc0RwendocGM3VEtFTGVtY2Z1SUJFYzJDN3fSAZYBQVVfeXFMUHdsWk0tM0VqSzlDTXFaQ3BJWGpnWk5mUjZBRW5ocm1UV0lwckVkV3pxQUstZFNqbXJ2dVEwX0txN25WZW0yV0N0TXlDZHd1RkZhU1ZRNzRuMUNuS2IwaFlKUTBXRnRtbzJBZ3Q3bGFSMjZ6RG9UV2FReGRVbWxYNnNmSF85cG9uQVY1NHRzRzNlNFg5bHBB?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T16:03:01Z",
+ "updated": "2026-11-07T17:04:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
