@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:53:56Z",
+ "updated": "2026-11-07T09:50:14Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -128,10 +128,10 @@
     "class": "ABS"
    },
    "seen_this_run": true,
-   "last_seen": "2026-11-07T08:53:56Z",
+   "last_seen": "2026-11-07T09:50:14Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 29.8224,
-   "lon": -93.959,
+   "lat": 29.7224,
+   "lon": -93.8627,
    "status": "under way",
    "draught_m": 8.6,
    "destination": "USPOA=>VEJOT",
@@ -156,7 +156,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-04T02:02:17Z",
-     "last": "2026-11-07T08:53:56Z",
+     "last": "2026-11-07T09:50:14Z",
      "draught_m": 8.6,
      "draught_first": 9.4
     }
@@ -1567,6 +1567,16 @@
      "lat": 29.8224,
      "lon": -93.959,
      "kn": 1.7,
+     "status": "under way",
+     "draught_m": 8.6,
+     "dest": "USPOA=>VEJOT",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-07T10:34:56Z",
+     "lat": 29.7224,
+     "lon": -93.8627,
+     "kn": 8.7,
      "status": "under way",
      "draught_m": 8.6,
      "dest": "USPOA=>VEJOT",
