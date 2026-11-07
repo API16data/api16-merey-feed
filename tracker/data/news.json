@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "50311569a2d7",
+   "date": "2026-11-07T08:42Z",
+   "title": "ONGC Negotiates to Operate Venezuelan Oilfields, Seeks $500 Million",
+   "source": "Udaipur Kiran",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3lmSmJUT20wRXBfd3d6bFJJeG1VSS11NGVYRVJmT2VmUThsZlM4WksyNV9ZWnFoTUF3eFdYa2F1VzItQ0c0UDQ2SmFZdFpKdFlpN0JwRG5mOVJOYVJ0VmdWZ01BVVBkYXZMUW5mcmJZbzYxR1NXWUl3d3NQWEhaNWNVeWI5bUlyNjlMQUpDb3loY0pmMEE?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "db935828b2b9",
    "date": "2026-11-07T08:21Z",
    "title": "ONGC Videsh’s eyes on two Venezuela oil projects; know what finance head Anupam Agarwal said on $500 mn dividend",
@@ -7735,16 +7745,6 @@
    "origin": "rss"
   },
   {
-   "id": "550bc0bc7544",
-   "date": "2026-10-29T09:22Z",
-   "title": "¡PETRÓLEO EN CIFRAS! Verifica los valores referencia del Brent, WTI, Cesta Opep y crudo venezolano || #29OCT",
-   "source": "Howl.Link",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5OM1JLQ2hkZ0NoWER4allSbG9MeGQ2YkNBM2J3WGJGSjVpcTBYeWxCRmpDZWJ4dFJiRnJV?oc=5",
-   "category": "Pricing",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
    "id": "c-n26",
    "date": "2026-10-27T20:00Z",
    "title": "First cargo under the US-Venezuela (NABEP) oil deal arrives in Corpus Christi: two tankers, 1 million barrels, for ExxonMobil and Citgo refineries",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T08:40:45Z",
+ "updated": "2026-11-07T09:36:51Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
