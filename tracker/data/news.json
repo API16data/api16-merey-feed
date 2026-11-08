@@ -561,6 +561,16 @@
    "origin": "rss"
   },
   {
+   "id": "519929f9f9e4",
+   "date": "2026-11-06T19:39Z",
+   "title": "GeoPark se prepara para operar un campo petrolero en Venezuela: ¿qué se sabe?",
+   "source": "El Espectador",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaDZxbTFkUm1FbXRYZnNRcjFFTkZWamQwdG5FcjBwTnZUSV85Vlo2SjJSc2hzaWM2NXpReG5PcWRHWXQzQTFjUEhteXlycmZwcEdIMHJuTl9wWVVQeDNmRVBjQzJObEQ0NnlPY0R2WHFsZnJBNXBkckZBVGgzR0o4M1hXa3p1S3dKMWJwUlFNZ285dTltMU56aHVqNXlQNzNkOWVVYmkxVU1PTmZkbnpqTWxBcVNyNVprWEVXa3hZRHNmQTQ5SHQ40gHHAUFVX3lxTE9oNnFtMWRSbUVtdFhmc1FyMUVORlZqZDB0bkVyMHBOdlRJXzlWWjZKMlJzaHNpYzY1elF4bk9xZEdZdDNBMWNQSG15eXJyZnBwR0gwcm5OX3BZVVB4M2ZFUGNDMk5sRDQ2eU9jRHZYcWxmckE1cGRyRkFUaDNHSjgzWFdrenVLd0oxYnBSUU1nbzl1OW0xTnpodWo1eVA3M2Q5ZVViaTFVTU9OZmRuempNbEFxU3I1WmtYRVdreFlEc2ZBNDlIdDg?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "4af218cf2058",
    "date": "2026-11-06T19:37Z",
    "title": "Venezuela Wants Oil Firms to Supply Their Own Power for Projects",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "bf3e0d189506",
-   "date": "2026-10-29T19:58Z",
-   "title": "Machado Questions Transparency Of US-Venezuela Oil Deal",
-   "source": "Al Arabiya English",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWWNRWkRHcFpHLUlSQzY2ZGNQVTUxbm1PN1B3cFNRTTBoOE95cVhfdWJmUDBSMXV2Mk82YmhLb3NxVDBNNnhTUmN2MkpVLW9DYnRmSGtud1Jabm9OTi11akpPa0ZidGExNUVLWUp2QlNCcXduQTdFNV9LMjh1SzBLLVgxQlkyYWdtNU9aZUN1aHNaUkZ1b3VSeGZyTDZWdi1SbkZXY0NSa0lxcHfSAbABQVVfeXFMTnhDSEhmaWRkZjRvank1cGppSmE3MkFfelYzd052ZmZ4R2RKY1JMdTd2Zk03NHlGWUxJWElIOXpEd2J5NU55U3IxRDNnRjRURHVZWGw5LXRhSFZjUEVsZWRGZkZDdE5Zak1McFN6RmdJVlVJUmM1N2tSTk1iOVEtZjc1SU9tSXFlRFhMMDAwakd1RVBkM1Y1SUoyOE1VTER0dDdLR1g3WmFuWmVFRmZQVHU?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T18:35:09Z",
+ "updated": "2026-11-08T19:32:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
