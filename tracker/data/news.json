@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "57bcc182aa5e",
+   "date": "2026-11-08T10:04Z",
+   "title": "Mysterious billionaire shows off ‘America’s oil’ — and Trump’s Venezuela",
+   "source": "The Washington Post",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZTNSTHlWXy1vdEQ5dDV2a0gtTFZQZmJfNzIxM1ZSUTFvWmhDVWhnMUtjTy1WMTFIVnVIcEhhekRNN3hpMk5kQks2X2QxVVNnMW9qVE5hNVh2cmFya0xSYWd6LTJBWWI2aGplMlpIdnY5ZWJ3OUpuQnhVc1N4aXI4V3hzTkRzTUt1RmFfNl90UVNDSS1FZnMyTk1aeTJKc2xsOUtvVmtXQzA1ZzNSNjRoQw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "f490d38c32d2",
    "date": "2026-11-08T05:43Z",
    "title": "IOC to buy crude, LPG ships as West Asia crisis exposes shipping risks",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "dbfe9a094221",
-   "date": "2026-10-29T14:39Z",
-   "title": "Venezuela - Oil & Gas Laws and Regulations 2026",
-   "source": "ICLG",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXlKbGEtUHp4MU1WQWlUalh6V19mQU9ra2FmRnJ1em1uYkFSN1JYWG9Ddmd1UlNQQjBaUzNvUHRjUmFHanF1ZTVGVnFmTms3eTVuMmRFenRxMEZ4VUJSeHllcUZiM1VHUEp5WnprYmtqWUN0eU81MktMc1dmYnhDZw?oc=5",
-   "category": "Gas",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T09:36:58Z",
+ "updated": "2026-11-08T10:32:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
