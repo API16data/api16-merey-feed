@@ -2281,6 +2281,16 @@
    "origin": "rss"
   },
   {
+   "id": "525b10798327",
+   "date": "2026-11-03T20:09Z",
+   "title": "Trump asegura que EE UU tiene “control” sobre Venezuela y el 50% del petróleo mundial",
+   "source": "Correo del Caroní",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUdQdklURENZclVWeWU4VkpXTndWTjZuMXhKd3lrc0xnVmo4c0RzbjVuVDl1TlJvRy1jZmlyd3QyTnhxd01VZkhmRF9iZWpTa0hhSktOYU05LWhXSzNINTlUY3VUajZ2dmtTc1g2ZXFZREpQb3BnZEtLV1ZSSjhXVklhRE1ET0RvcGZjX3dLQWZMNkJoQ1Njb3I3RFVOcFlYd1VpZm5aSVdSYktWN1pobUIxdWlIc3Ex?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "e53fb006bb83",
    "date": "2026-11-03T19:51Z",
    "title": "Caen los envíos de petróleo venezolano a Estados Unidos",
@@ -2608,6 +2618,16 @@
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1T1NQSWZVcXpsdXk4UGpzX0RrVFoxRTFWVngxYktKd05VZzFDUURNQm5xWXgxcm5GRnJ4ZWUxMTl1SEZTVGktMnl1QTNtZUpoSHNZa25JRE5ZMkN4b0lzX1ZERWdYTnBVamdVOUZFWGpURjZvazk0LUZma2VzQQ?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "125995e3ed58",
+   "date": "2026-11-03T15:39Z",
+   "title": "Fiebre petrolera: El Tigre despierta entre jets privados y alquileres a precio de oro",
+   "source": "El Pitazo",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbGMtWDlkV1g3LXdmVlJULWJ6OTJfcXpnUERfODhOWk5JaVlqTG1YYW5feTlsTUxrZW50Qzh6OF9ITTY0dmIwOEdaMTlrOHNjVFhwOW54MVlfQ2l5ZlhraHlTdzh4ME1LQ1ZjczR5VUJYSzZmZ1lYakplaDdxWEdlWWxUUmd6c0F5ZzVIQmZPcU9PbXN1RW9wdkpwZjhlVm5keXJ2TUNwanhRT2JIMkxiV21KRmZ2UQ?oc=5",
+   "category": "Pricing",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "482b19a5704e",
-   "date": "2026-10-29T17:42Z",
-   "title": "#EnVideo📹| Experto petrolero, Werther Sandoval, conversó sobre la importancia que tiene Venezuela en la recuperación de la Guayana Esequiba, donde el Ejecutivo Nacional invitó al mandatario de Guyana, Irfaan Ali, a sostener un diálogo directo para pod",
-   "source": "Instagram",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HY3JKV2dXMHhFZnBFbUxBb1V1ZFJnaFNMcE9nM2xLMUcwVzhOdWxfVy1iLWhOYU9qcm4xTVVkY1l5SXQ1enBpWWFwbS1lemtwMmQwRFln?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "238ac4fe9a73",
-   "date": "2026-10-29T17:32Z",
-   "title": "Venezuelan crude oil to be refined in Corpus Christi",
-   "source": "KRIS 6 News Corpus Christi",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTUlYQWVJbEFIb0F2cnFGYkZUd3NqYTJ6eElTdmNSQTJONklRQmRJQmVmZjJQejR4cHlQOW9rbG9MNERmdE5HQTExQ2hCdVZwR3JfQjl4c1RmZkZUUGNvRlZKd1lPT2d6OU10UlNvNDViN1BCUXRUQ3pVQXVaX3d4M3dkcXpOUGFNUFNabl9HLWxidnNGc1E?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T15:04:31Z",
+ "updated": "2026-11-08T16:00:34Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
