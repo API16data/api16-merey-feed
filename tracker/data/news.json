@@ -4341,6 +4341,16 @@
    "origin": "rss"
   },
   {
+   "id": "d8047bf36078",
+   "date": "2026-11-02T11:14Z",
+   "title": "Chevron rides a diesel crunch to its biggest ever refining profit",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEQ4aG5MSEd1NmsxMklMbkJMNGFIcGpDUFlOVEhla2R0ckNiR3FtVzJuanlEVWc5UEdYT2ZQVU4xbExiSFRfcFdiVnpsVHNwd011elg1TUtrcHpyTmdoMlhjaTdNVExwQmsySnVGOTNtbXU4anZXV0hVcUZGU1BSV1BaS0dTT1ZVdklMdDVCc0JUYnhxOUdPeXh4T01laDZrUlVFaXJWWWFfUnJzWTdtZV93RlR1U3hKcTlNZlBqcEVVbGs?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "3bb8e2214de6",
    "date": "2026-11-02T11:03Z",
    "title": "Six financial crime key updates you missed this month",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "070560f05f39",
-   "date": "2026-10-29T13:47Z",
-   "title": "Eni arranca operaciones en el bloque Junín 5 de la Faja Petrolífera del Orinoco firma con PDVSA",
-   "source": "Notiprensa Digital",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdXZOdHpYbzBBRTk2YWhBZ1NBR3lyd29waUJEQWJzak44VGFERXBGWUpVaUJkaGJ4LWVTR096QzZVUUF2LVlQNU5ZcFQta2hXV3hxTzIxTHlhSEkySEpkTFhuNm5PZXhCLVEyWEdPSndCSnBSc2Y1X1lsUk10QmEySFVoNl82ZWZjRVI5SVZjSkN6bmk1MnJoRmpKNFlfU3NiaDcwaXU0cUZRYl8yVGVTT2JwNFFvdnNoYVRaOWdqU0VHdTg1?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T07:50:47Z",
+ "updated": "2026-11-08T08:40:30Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
