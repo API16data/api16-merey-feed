@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "6d8216c45665",
+   "date": "2026-11-08T11:00Z",
+   "title": "Chávez Sacrificed the Economy to Turn Oil Into an Anti-US Weapon",
+   "source": "Caracas Chronicles",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlRQejdxaHQwNXhOc1hvemc1cUdEXzBDY0lSQTBaaS05RHN0d19Va2I3dWJmNV85cDRpRktEWmk5c0hvQmh1TzVwMjYweFExUWhfRVRXRXVEejM0aW5LZjFKZEUyUXQwUEhRRzRoM1dWd3diMmdoTkE3RFVwbUtld1NSei1NSFdJYUkyeXhCTU9pNXBicHBkby1HVEFsdlZlUU4taW9uSmZ1Q2tjT21Z?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "57bcc182aa5e",
    "date": "2026-11-08T10:04Z",
    "title": "Mysterious billionaire shows off ‘America’s oil’ — and Trump’s Venezuela",
@@ -828,6 +838,16 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nbkNCdGdSMFNUTkVFdDhrT0FwZHhBVXJkbEljS1pEYlFlYlRsczhhbHg3VHp2Snd1cFJ5azBvMGI4QklPVkpqSEFseHVoNHdGTUtvR3dyeVJubEFhNnJpTnlEUXdTU1VsLW1RLWRGVFgwRE1jb2FuWVln?oc=5",
    "category": "Gas",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "13dc4f787979",
+   "date": "2026-11-06T08:00Z",
+   "title": "Processed eucheuma seaweed Venezuela Prices & Trade Data | Market Overview 2026",
+   "source": "Tridge",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsc3NXSmIwRnVyaldqckJnTnJWaG5UeUxQeGRyT2ZGSjZYZy1EaUZaNVdvYi0zNnViYjhTb1QtdU5FTmp4WmI2dFQzYVB3ODB0LXUzWnRKaGFUWHQyZmFDSWVuVVR2S0JCY0ZpUWxjZmZNQ3VMTFFZ?oc=5",
+   "category": "Pricing",
+   "via": "Google News: OFAC Venezuela",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "1ee14df9285b",
-   "date": "2026-10-29T14:46Z",
-   "title": "Repsol closes in on Venezuelan heavy oil deal with 210,000-b/d potential",
-   "source": "BNamericas",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGExS0lUdk1LTm5weGNRSzQ4b3N6N0NMbDMzYlp1WnRMTmhtS1l6NW5SNi1XNmxGY243QXMzQ0REMnRxYkxtUUVKV1JfRHZJWno3UnBuaEpscjZGVUhaazlTZFFCZ0p0VFJRZmZtYXc3dk9MazRMNHdyczBpR3ZMZVN4RkF3LTlEcDZ4VXRpWklGd3lMb2lTOUVJdDNadXNTai1IQUVmeVM2Z3Z3LUE?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "ad33b89a75d4",
-   "date": "2026-10-29T14:43Z",
-   "title": "Repsol se acerca a un acuerdo de crudo pesado en Venezuela con un potencial de 210.000b/d",
-   "source": "BNamericas",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb09rY0tEY1JPYmxJSmhINjV3aC1yZmZlWlYyM2d2YzdwMkdpa3Y5T3Z5eEdCVmhuSGdyTk5QRGJYZmNnN05aakpiNWpfamtMVzNTNVJFSk1BdURDOENaeVk0SlA1YTRIS0UwZlhyNENYVnY5cXdLanV0VEZtaURYSDVEQjZQX0dOa0c3dWdrTlU5YnpkNk5uUmtLVTRFT3liY1g2d0UybGRWd28ybmV5ZGV3UGVlVFliS0xnSURVY3l4Qk1RXy1N?oc=5",
-   "category": "Production",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T10:32:04Z",
+ "updated": "2026-11-08T11:27:19Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
