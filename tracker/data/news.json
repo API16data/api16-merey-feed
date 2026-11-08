@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "4f846cc6e534",
+   "date": "2026-11-08T00:00Z",
+   "title": "How Trump stole Venezuela’s oil money",
+   "source": "The New European",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZkFUelVLcGpaNFZEb1MyRXJqRnZsLVV3Y2NZdDVLR3BTaGl4TWs5cTVjdWJ0UXVxZ2hSSW1lN2VHdmJxOEhRd01Vc294UHlidHBwZFd4S0pIMVdyakJGbU02bE1KenQ1UkhpN1dGZUNnX3Z4S19PY0l2Y3FscEFJdnB1R2JXMWM?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "357cdb9b25e1",
    "date": "2026-11-07T22:05Z",
    "title": "Trinidad y Tobago espera que elecciones de EEUU no afecten su cooperación con Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "7d3bea543379",
-   "date": "2026-10-29T13:00Z",
-   "title": "Venezuela Oil Corruption Claim Questioned",
-   "source": "News Americas Now",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0bzhiLWJTV2pIMTc4RGlnQTZvME5UYWNILXBtVUY4MFUwZHo5T2YtVm1Jd3RqSkRFX1BzXzU1c0VXQUVhc3NrSEZ0cTlCZGxiR2RCbE16aF9zQUkwRm0yUF9KQ0k4SnVES0tLbkR0dmxMSTZQVGc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-07T23:58:22Z",
+ "updated": "2026-11-08T00:50:57Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
