@@ -251,6 +251,16 @@
    "origin": "rss"
   },
   {
+   "id": "4861eb9abafb",
+   "date": "2026-11-07T13:36Z",
+   "title": "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen",
+   "source": "gCaptain",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2h5TG5oT29ZbEdzQWZERkNrNktnU1VIdFhfM004Y1FEYWl6dWJId3ItU2hSUG91ZXd0UmM4MkJnc3drRkVnWkEyUVVOZEF0X01aWnJNLXIwcXNVVXljc0Q0eHRXWEJPVnBBb2xnWDU2ZTl6N052aG9FU3pQVFFOcG5OcXdHN19TTTlGYlNXZDhCN3RL?oc=5",
+   "category": "Refining",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "88ba930d188f",
    "date": "2026-11-07T13:13Z",
    "title": "ONGC Plans Control of Venezuelan Oilfields to Recover $500M",
@@ -468,6 +478,16 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEVSNzd1SEF4WlRGWGx1SlMxZ0FldE1jSjhtRnNKSWFvUjJ5VTJZanNNRTI2YmZ6QlNZNWV2RjNHVzA5SHFtQ1hERGl3blQ1NlIyZWNUOWpJNGRaVjhoWjZNMHppbnhkNVZueDBhVHhqcExUV1k1alJwTktnSGFfajVOeGJLQ1RkVmxCSXY1bWd5aUVUcXRUNjlhQXFDRDBhOWNTOUVMbw?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "48550b90e44b",
+   "date": "2026-11-06T22:14Z",
+   "title": "COMMENTARY: TRUMP’S CLAIM – Can Venezuelan Oil Really Refill America’s Strategic Petroleum Reserve Anytime Soon?",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON2NwYlFBZkxZX0ozR1lhVGU5b29YNlF2dDVWYkREc3d2R1lpeUtCaEhfUTM1VWdtM2ZVTDFTSVUxTnNqQ1VkamxjV1pCZ1dTUk5fSGlpYXhqSUdwNjRnbXEtQTFjVk5MWEFKcmVDMmVTM0lqNkM1TzVRXzFUbE1Damd1NFdKdDczVGNWUmtDM3hhdTBBa3lCR1FiZmItM1lGV3BkX2FPdFN1dXBZQW5SZTNDZlVhMjR3elRLeEQxdmQxX1hDUGRsemtrdw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "4e618b91d68c",
-   "date": "2026-10-29T20:54Z",
-   "title": "Trump's Venezuela Oil Deal Faces Political Risks",
-   "source": "Yahoo",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFZ0eURrcHk3MGxhazJNUmlTaTFFNjN1ZXk5aXhEcTkxTkVyNHl1di1lSjBCRldUaFl0dFRwdVVtM2FpX1BVR0U4M1Z5OTA3aGNyWUhQZGZfN0JtaWxMNncyVjBPQ3A2QmFnMk0tRklRc0J5eUFhYWFRUWs4VkZ6VEJ0MVRnQXQxVTVGVjRKX3BMdXBsOFE?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "539498e8637f",
-   "date": "2026-10-29T20:43Z",
-   "title": "Venezuelan Opposition Leader Thanks Trump but Marks Distance From Him",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMGpfVmZpVjZQVmE2aVhWTE5BMEh4WUlUUDFIeWR0TXNveWJJTjA5d2E3VDd4dndQUFNsM1JYUWJWNklzS2UybVhNVGtpdmdMelhMVUNxQkVUaThYMl9lQlVLYmlFdzJxNUczcjhYVUpCVjJKeEtLR2xjbHA5T2JMMnhtQTFHZXB4SEltVjFB?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T23:00:40Z",
+ "updated": "2026-11-08T23:59:07Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
