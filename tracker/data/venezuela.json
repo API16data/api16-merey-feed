@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:41:56Z",
+ "updated": "2026-11-08T17:39:11Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -9,7 +9,7 @@
    "length_m": 122,
    "why": "seen in Venezuelan / ABC waters",
    "last_zone": "Trinidad & Tobago",
-   "last_seen": "2026-11-08T16:41:56Z",
+   "last_seen": "2026-11-08T17:39:11Z",
    "destination": "GY GEO",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -22,8 +22,8 @@
    "name": "ANGERONA",
    "length_m": 240,
    "why": "reported in the news, not confirmed",
-   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "last_seen": "2026-11-08T16:41:56Z",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "last_seen": "2026-11-08T17:39:11Z",
    "destination": "USBPT",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
