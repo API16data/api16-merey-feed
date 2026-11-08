@@ -370,7 +370,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-07T16:43:13Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.4,
     "draught_first": 9
    }
@@ -381,7 +381,7 @@
   "name": "PENNSYLVANIA",
   "destination": "HOUSTON TX",
   "draught_m": 9.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG",
   "beam_m": 32,
@@ -730,7 +730,7 @@
     "zone": "Trinidad & Tobago",
     "group": "TT",
     "first": "2026-11-01T20:39:26Z",
-    "last": "2026-11-03T18:54:32Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 4.8,
     "draught_first": 4.8
    }
@@ -741,7 +741,7 @@
   "name": "SAN MIGUEL",
   "destination": "GY GEO",
   "draught_m": 4.8,
-  "last_seen": "2026-11-03T18:54:32Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Trinidad & Tobago",
   "last_group": "TT",
   "seen_near_venezuela": true,
@@ -1480,12 +1480,20 @@
     "last": "2026-11-08T13:52:35Z",
     "draught_m": 8.5,
     "draught_first": 10.8
+   },
+   {
+    "zone": "Open sea / other",
+    "group": null,
+    "first": "2026-11-08T14:43:05Z",
+    "last": "2026-11-08T14:43:05Z",
+    "draught_m": 8.5,
+    "draught_first": 8.5
    }
   ],
   "name": "OVERSEAS TAMPA",
-  "last_seen": "2026-11-08T13:52:35Z",
-  "last_zone": "Gulf of Mexico offshore (lightering)",
-  "last_group": "USG",
+  "last_seen": "2026-11-08T14:43:05Z",
+  "last_zone": "Open sea / other",
+  "last_group": null,
   "imo": 9353606,
   "type": 80,
   "length_m": 187,
@@ -1650,13 +1658,13 @@
     "zone": "Trinidad & Tobago",
     "group": "TT",
     "first": "2026-10-27T15:48:44Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.4,
     "draught_first": 7.4
    }
   ],
   "name": "LORENA B",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Trinidad & Tobago",
   "last_group": "TT",
   "imo": 9438212,
@@ -2713,7 +2721,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-03T21:48:18Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11,
     "draught_first": 11
    }
@@ -2724,7 +2732,7 @@
   "name": "BOW CHEETAH",
   "destination": "BR ITQ- USPOA",
   "draught_m": 11,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "destinations": [
@@ -2949,7 +2957,7 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-04T03:55:20Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.6,
     "draught_first": 12.2
    }
@@ -2960,7 +2968,7 @@
   "name": "ARCTIC STAR",
   "destination": "USGLS",
   "draught_m": 8.6,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG",
   "beam_m": 42,
@@ -5113,7 +5121,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-10-29T00:57:02Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.6,
     "draught_first": 9.7
    }
@@ -5124,7 +5132,7 @@
   "name": "BOCHEM CASABLANCA",
   "destination": "US HOU",
   "draught_m": 9.6,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG",
   "destinations": [
@@ -5420,7 +5428,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T10:45:05Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -5431,7 +5439,7 @@
   "name": "MARIYA MORAN",
   "destination": "USPOA>USPEV",
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "destinations": [
@@ -8739,7 +8747,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-06T11:06:47Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.8,
     "draught_first": 11.7
    }
@@ -8764,7 +8772,7 @@
    }
   ],
   "draught_m": 9.8,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "beam_m": 42
@@ -10402,13 +10410,13 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-05T18:56:52Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.2,
     "draught_first": 8.2
    }
   ],
   "name": "VS PROSPERA",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG",
   "imo": 9298313,
@@ -10688,13 +10696,13 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-07T20:41:01Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8,
     "draught_first": 8
    }
   ],
   "name": "ANGERONA",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "track": [
@@ -10967,6 +10975,16 @@
     "draught_m": 8,
     "dest": "USBPT",
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+   },
+   {
+    "t": "2026-11-08T15:02:30Z",
+    "lat": 29.3876,
+    "lon": -93.6348,
+    "kn": 0.4,
+    "status": "at anchor",
+    "draught_m": 8,
+    "dest": "USBPT",
+    "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
    }
   ],
   "watch": "Pictured at a Corpus Christi dock on Oct 27, 2026, when the first cargo of the US-Venezuela (NABEP) deal arrived (2 tankers, 1M bbl). Not confirmed by official sources.",
@@ -11087,7 +11105,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-10-30T14:58:56Z",
-    "last": "2026-11-08T10:46:18Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.1,
     "draught_first": 11.8
    }
@@ -11104,7 +11122,7 @@
    }
   ],
   "draught_m": 8.1,
-  "last_seen": "2026-11-08T10:46:18Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG",
   "beam_m": 32
@@ -13057,7 +13075,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-06T01:08:29Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.5,
     "draught_first": 9.5
    }
@@ -13078,7 +13096,7 @@
    }
   ],
   "draught_m": 9.5,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "beam_m": 37
@@ -13120,7 +13138,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-11-01T03:53:03Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.3,
     "draught_first": 8.3
    }
@@ -13137,7 +13155,7 @@
    }
   ],
   "draught_m": 8.3,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG",
   "beam_m": 32
@@ -13681,7 +13699,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-08T02:08:15Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11.2,
     "draught_first": 11.2
    }
@@ -13706,7 +13724,7 @@
    }
   ],
   "draught_m": 11.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "beam_m": 32
@@ -13894,13 +13912,13 @@
     "zone": "Open sea / other",
     "group": null,
     "first": "2026-11-01T07:59:45Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.5,
     "draught_first": null
    }
   ],
   "name": "ASHARAMI GHANA S/T",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Open sea / other",
   "last_group": null,
   "imo": 1026685,
@@ -15678,7 +15696,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-02T13:08:09Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9,
     "draught_first": 9
    }
@@ -15695,7 +15713,7 @@
    }
   ],
   "draught_m": 9,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "beam_m": 44
@@ -15959,13 +15977,13 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T00:59:15Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.3,
     "draught_first": 8.3
    }
   ],
   "name": "ITHACA GAS",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9987550,
@@ -16641,7 +16659,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-05T09:02:10Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.8,
     "draught_first": 7.8
    }
@@ -16666,7 +16684,7 @@
    }
   ],
   "draught_m": 7.8,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "beam_m": 32
@@ -17051,7 +17069,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-06T06:00:00Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 12.1,
     "draught_first": 8.9
    }
@@ -17072,7 +17090,7 @@
    }
   ],
   "draught_m": 12.1,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "beam_m": 36
@@ -17152,7 +17170,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-03T16:58:41Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11.2,
     "draught_first": 11.2
    }
@@ -17169,7 +17187,7 @@
    }
   ],
   "draught_m": 11.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "beam_m": 32
@@ -17284,7 +17302,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-06T01:08:29Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.4,
     "draught_first": 9.4
    }
@@ -17301,7 +17319,7 @@
    }
   ],
   "draught_m": 9.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "beam_m": 36
@@ -17442,7 +17460,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-03T23:42:47Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9,
     "draught_first": 9
    }
@@ -17459,7 +17477,7 @@
    }
   ],
   "draught_m": 9,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "beam_m": 43
@@ -17653,7 +17671,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T17:39:23Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.7,
     "draught_first": 8.7
    }
@@ -17674,7 +17692,7 @@
    }
   ],
   "draught_m": 8.7,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "beam_m": 32
@@ -17725,13 +17743,13 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-06T01:08:29Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.4,
     "draught_first": 8.4
    }
   ],
   "name": "FUTURE DIAMOND",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG",
   "imo": 9853864,
@@ -18245,7 +18263,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-07T18:46:26Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8,
     "draught_first": 8
    }
@@ -18262,7 +18280,7 @@
    }
   ],
   "draught_m": 8,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG",
   "beam_m": 44
@@ -18317,7 +18335,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-07T15:41:32Z",
-    "last": "2026-11-08T11:42:47Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -18338,7 +18356,7 @@
    }
   ],
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T11:42:47Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG",
   "beam_m": 42
@@ -18891,7 +18909,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-06T02:54:27Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11.4,
     "draught_first": 8.2
    }
@@ -18912,7 +18930,7 @@
    }
   ],
   "draught_m": 11.4,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "beam_m": 36
@@ -19333,7 +19351,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-08T12:52:38Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11,
     "draught_first": 11
    }
@@ -19355,7 +19373,7 @@
    }
   ],
   "draught_m": 11,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -20020,7 +20038,7 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-08T12:52:38Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.2,
     "draught_first": 7.2
    }
@@ -20038,7 +20056,7 @@
    }
   ],
   "draught_m": 7.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG"
  },
@@ -20164,7 +20182,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-11-06T07:16:30Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 13.2,
     "draught_first": 9
    }
@@ -20186,7 +20204,7 @@
    }
   ],
   "draught_m": 13.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -20320,7 +20338,7 @@
     "zone": "Lake Charles",
     "group": "USG",
     "first": "2026-11-07T16:43:13Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 10,
     "draught_first": 10
    }
@@ -20342,7 +20360,7 @@
    }
   ],
   "draught_m": 10,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Lake Charles",
   "last_group": "USG"
  },
@@ -20362,7 +20380,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T00:59:15Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.6,
     "draught_first": 8.6
    }
@@ -20380,7 +20398,7 @@
    }
   ],
   "draught_m": 8.6,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -20568,7 +20586,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-06T10:04:52Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.4,
     "draught_first": 8.3
    }
@@ -20586,7 +20604,7 @@
    }
   ],
   "draught_m": 8.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -20616,13 +20634,13 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-06T11:06:47Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8,
     "draught_first": null
    }
   ],
   "name": "JAG PRIYANKA",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG",
   "imo": 9658379,
@@ -20654,7 +20672,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-06T15:52:47Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.4,
     "draught_first": 9.4
    }
@@ -20672,7 +20690,7 @@
    }
   ],
   "draught_m": 9.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -20811,7 +20829,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T20:41:01Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.5,
     "draught_first": 9.5
    }
@@ -20829,7 +20847,7 @@
    }
   ],
   "draught_m": 9.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -20895,7 +20913,7 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-08T13:52:35Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -20913,7 +20931,7 @@
    }
   ],
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG"
  },
@@ -21049,7 +21067,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T00:59:15Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.3,
     "draught_first": 8.3
    }
@@ -21067,7 +21085,7 @@
    }
   ],
   "draught_m": 8.3,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -21211,13 +21229,13 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T23:39:07Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.2,
     "draught_first": 8.2
    }
   ],
   "name": "BOCHEM HOUSTON",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG",
   "imo": 9955428,
@@ -21301,7 +21319,7 @@
     "zone": "Trinidad & Tobago",
     "group": "TT",
     "first": "2026-11-06T20:49:53Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 10.8,
     "draught_first": 9.2
    }
@@ -21323,7 +21341,7 @@
    }
   ],
   "draught_m": 10.8,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Trinidad & Tobago",
   "last_group": "TT"
  },
@@ -21365,7 +21383,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-11-06T20:49:53Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8,
     "draught_first": 8
    }
@@ -21383,7 +21401,7 @@
    }
   ],
   "draught_m": 8,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -21479,7 +21497,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T01:58:47Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -21497,7 +21515,7 @@
    }
   ],
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -21577,7 +21595,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T05:50:40Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.8,
     "draught_first": 9.8
    }
@@ -21595,7 +21613,7 @@
    }
   ],
   "draught_m": 9.8,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -21615,7 +21633,7 @@
     "zone": "Freeport",
     "group": "USG",
     "first": "2026-11-07T14:44:45Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.2,
     "draught_first": 8.2
    }
@@ -21633,7 +21651,7 @@
    }
   ],
   "draught_m": 8.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Freeport",
   "last_group": "USG"
  },
@@ -21675,7 +21693,7 @@
     "zone": "Freeport",
     "group": "USG",
     "first": "2026-11-07T08:02:20Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11.5,
     "draught_first": 11.5
    }
@@ -21693,7 +21711,7 @@
    }
   ],
   "draught_m": 11.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Freeport",
   "last_group": "USG"
  },
@@ -21713,7 +21731,7 @@
     "zone": "Open sea / other",
     "group": null,
     "first": "2026-11-08T13:52:35Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 11.5,
     "draught_first": 11.5
    }
@@ -21735,7 +21753,7 @@
    }
   ],
   "draught_m": 11.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Open sea / other",
   "last_group": null
  },
@@ -21747,7 +21765,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-07T08:02:20Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.2,
     "draught_first": 8.2
    }
@@ -21765,7 +21783,7 @@
    }
   ],
   "draught_m": 8.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -21777,7 +21795,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T08:53:56Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 6.1,
     "draught_first": 6.1
    }
@@ -21795,7 +21813,7 @@
    }
   ],
   "draught_m": 6.1,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -21818,6 +21836,14 @@
     "last": "2026-11-08T13:52:35Z",
     "draught_m": 8.5,
     "draught_first": 8.5
+   },
+   {
+    "zone": "Port Arthur / Beaumont / Sabine",
+    "group": "USG",
+    "first": "2026-11-08T14:43:05Z",
+    "last": "2026-11-08T14:43:05Z",
+    "draught_m": 8.6,
+    "draught_first": 8.6
    }
   ],
   "imo": 9747338,
@@ -21832,10 +21858,10 @@
     "first": "2026-11-07T09:50:14Z"
    }
   ],
-  "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
-  "last_zone": "Open sea / other",
-  "last_group": null
+  "draught_m": 8.6,
+  "last_seen": "2026-11-08T14:43:05Z",
+  "last_zone": "Port Arthur / Beaumont / Sabine",
+  "last_group": "USG"
  },
  "352004817": {
   "mmsi": 352004817,
@@ -21883,7 +21909,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T16:43:13Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.8,
     "draught_first": 8.8
    }
@@ -21901,7 +21927,7 @@
    }
   ],
   "draught_m": 8.8,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -21913,7 +21939,7 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-07T11:42:34Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.7,
     "draught_first": 9.7
    }
@@ -21931,7 +21957,7 @@
    }
   ],
   "draught_m": 9.7,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG"
  },
@@ -21943,7 +21969,7 @@
     "zone": "Corpus Christi",
     "group": "USG",
     "first": "2026-11-07T12:52:06Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.5,
     "draught_first": 9.5
    }
@@ -21961,7 +21987,7 @@
    }
   ],
   "draught_m": 9.5,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Corpus Christi",
   "last_group": "USG"
  },
@@ -21997,7 +22023,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-08T04:55:33Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.9,
     "draught_first": 8.2
    }
@@ -22019,7 +22045,7 @@
    }
   ],
   "draught_m": 8.9,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -22061,7 +22087,7 @@
     "zone": "Trinidad & Tobago",
     "group": "TT",
     "first": "2026-11-07T14:44:45Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.8,
     "draught_first": 8.8
    }
@@ -22079,7 +22105,7 @@
    }
   ],
   "draught_m": 8.8,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Trinidad & Tobago",
   "last_group": "TT"
  },
@@ -22219,7 +22245,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-07T20:41:01Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.4,
     "draught_first": 9.4
    }
@@ -22237,7 +22263,7 @@
    }
   ],
   "draught_m": 9.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -22275,7 +22301,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-07T19:44:41Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.3,
     "draught_first": 9.3
    }
@@ -22301,7 +22327,7 @@
    }
   ],
   "draught_m": 9.3,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -22321,7 +22347,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-07T21:40:24Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.6,
     "draught_first": 7.6
    }
@@ -22339,7 +22365,7 @@
    }
   ],
   "draught_m": 7.6,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -22351,7 +22377,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-07T20:41:01Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.2,
     "draught_first": 9.2
    }
@@ -22369,7 +22395,7 @@
    }
   ],
   "draught_m": 9.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -22509,7 +22535,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T02:08:15Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.6,
     "draught_first": 9.6
    }
@@ -22527,7 +22553,7 @@
    }
   ],
   "draught_m": 9.6,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -22539,7 +22565,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T02:08:15Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 5.8,
     "draught_first": 5.8
    }
@@ -22557,7 +22583,7 @@
    }
   ],
   "draught_m": 5.8,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -22577,7 +22603,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-08T06:59:09Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -22595,7 +22621,7 @@
    }
   ],
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -22637,7 +22663,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-08T04:55:33Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.9,
     "draught_first": 8.9
    }
@@ -22655,7 +22681,7 @@
    }
   ],
   "draught_m": 8.9,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -22667,7 +22693,7 @@
     "zone": "Freeport",
     "group": "USG",
     "first": "2026-11-08T04:55:33Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.1,
     "draught_first": 9.1
    }
@@ -22685,7 +22711,7 @@
    }
   ],
   "draught_m": 9.1,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Freeport",
   "last_group": "USG"
  },
@@ -22727,7 +22753,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T06:59:09Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.6,
     "draught_first": 8.6
    }
@@ -22745,7 +22771,7 @@
    }
   ],
   "draught_m": 8.6,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -22787,7 +22813,7 @@
     "zone": "Freeport",
     "group": "USG",
     "first": "2026-11-08T06:59:09Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.2,
     "draught_first": 8.2
    }
@@ -22805,7 +22831,7 @@
    }
   ],
   "draught_m": 8.2,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Freeport",
   "last_group": "USG"
  },
@@ -22847,13 +22873,13 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T08:03:49Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 6.2,
     "draught_first": null
    }
   ],
   "name": "CURIOUS JOEL",
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG",
   "imo": 9788978,
@@ -22877,7 +22903,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T09:50:22Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -22895,7 +22921,7 @@
    }
   ],
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -22915,7 +22941,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-08T12:52:38Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 9.4,
     "draught_first": 9.4
    }
@@ -22933,7 +22959,7 @@
    }
   ],
   "draught_m": 9.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -22945,7 +22971,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T11:42:47Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.7,
     "draught_first": 7.7
    }
@@ -22963,7 +22989,7 @@
    }
   ],
   "draught_m": 7.7,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -22983,7 +23009,7 @@
     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
     "group": "USG",
     "first": "2026-11-08T12:52:38Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.3,
     "draught_first": 7.3
    }
@@ -23001,7 +23027,7 @@
    }
   ],
   "draught_m": 7.3,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
   "last_group": "USG"
  },
@@ -23021,7 +23047,7 @@
     "zone": "Port Arthur / Beaumont / Sabine",
     "group": "USG",
     "first": "2026-11-08T13:52:35Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.5,
     "draught_first": 8.5
    }
@@ -23039,7 +23065,7 @@
    }
   ],
   "draught_m": 8.5,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Port Arthur / Beaumont / Sabine",
   "last_group": "USG"
  },
@@ -23051,7 +23077,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T12:52:38Z",
-    "last": "2026-11-08T12:52:38Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 8.7,
     "draught_first": 8.7
    }
@@ -23069,7 +23095,7 @@
    }
   ],
   "draught_m": 8.7,
-  "last_seen": "2026-11-08T12:52:38Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -23081,7 +23107,7 @@
     "zone": "Houston / Galveston / Texas City",
     "group": "USG",
     "first": "2026-11-08T13:52:35Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 7.4,
     "draught_first": 7.4
    }
@@ -23099,7 +23125,7 @@
    }
   ],
   "draught_m": 7.4,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Houston / Galveston / Texas City",
   "last_group": "USG"
  },
@@ -23111,7 +23137,7 @@
     "zone": "Gulf of Mexico offshore (lightering)",
     "group": "USG",
     "first": "2026-11-08T13:52:35Z",
-    "last": "2026-11-08T13:52:35Z",
+    "last": "2026-11-08T14:43:05Z",
     "draught_m": 15,
     "draught_first": 15
    }
@@ -23129,7 +23155,7 @@
    }
   ],
   "draught_m": 15,
-  "last_seen": "2026-11-08T13:52:35Z",
+  "last_seen": "2026-11-08T14:43:05Z",
   "last_zone": "Gulf of Mexico offshore (lightering)",
   "last_group": "USG"
  }
