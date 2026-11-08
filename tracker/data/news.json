@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T21:03:48Z",
+ "updated": "2026-11-08T22:01:52Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8095,12 +8095,12 @@
    "key_figure": "$500 Million"
   },
   {
-   "date": "2026-11-06T21:56Z",
-   "title": "Venezuela Oil Investment Is Pulling Capital and Crews From Colombia",
-   "source": "Discovery Alert",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRXpJSjg5RE5LZmNVR2ZCTHctZkxKSmVLZzNCYXA5TmpOSEVqNUVvWnhiNnBFMWNGWHo3Q2IwOUVxXy03Y1FqSnd5ekJIVHlLWlZlY3J1ZEZOVXZpNmNUeUZ4WTc3azctWUN5SUJSTnltVEZSVXNXN3d0cGgyUkN2QmlPT0toNWYybmtkWQ?oc=5",
-   "category": "Investment",
-   "angle": "Future barrels in the pipeline",
+   "date": "2026-11-06T14:05Z",
+   "title": "U.S. crude oil imports from Venezuela in July were highest since 2017",
+   "source": "U.S. Energy Information Administration (EIA) (.gov)",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5HZTBMb1Zza3BRN0tXYjJDSWNjckRHLURvQ2IwcnQ1WFJqdFF3TS1KclkzX1hNZEdiSnIwVUtxRGZDbXFobm5RNElFaldFaHhvUGttajdqaV9aV2NKQ180c3ljWQ?oc=5",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
    "key_figure": null
   }
  ]
