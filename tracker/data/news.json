@@ -601,6 +601,16 @@
    "origin": "rss"
   },
   {
+   "id": "dd6b9de74f1e",
+   "date": "2026-11-06T19:19Z",
+   "title": "Chevron Expands Venezuela Position, to Invest $7 Billion in Next Five Years",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1M3dHZrMW84MDZreGpKSGN2QlMybjBmeHMwNW40bjF2MWdjUE13dWVHSTZPaGJlaDZIZFlJMGVkZGh2MHZ5cGptbkpPNVZGdlVyUjVQbU5hVlRjQ0ZneFA1NkVUWEs0bzU3S1hGS00tY0xjRDQzX0VISmNLSE9ZblNnNVhQZ3d6UXI3Mkd0M1lfZzc2T3A5N2V5QVRXZmFmckNsYmxJdw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "bfce51564f5c",
    "date": "2026-11-06T18:34Z",
    "title": "Bloomberg: Petrolera GeoPark acelera los preparativos para operar el campo Bare en Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "1ee33a7492a0",
-   "date": "2026-10-29T20:27Z",
-   "title": "Repsol mantiene como prioridad aumentar la producción de hidrocarburos en Venezuela",
-   "source": "El Cooperante",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbUx5ODJGajIzS3FXYl94dzlwVVB3TzgxT3k5RFJGUDNoWEpDdE9EaWhaNXUxQVpjYjFQOHdDWXduTUtUdlVPV2Vjal9UTmt3Zm5DcTNJcGNfNkQ3SzM0SU4xT2txa2FzanVDOTlQMzVjM1A5N3VvV25qbFV1Z3FKdlg4SzVqRXhqTEFpa0JpS0R2cXhUd1d3WWxhZ2YzVDlHNTNzWVFsSHdxeWZWbWdvUF9qeUNQbjZSYzl6UUpGd25tWjA?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T20:26:09Z",
+ "updated": "2026-11-08T21:03:48Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
