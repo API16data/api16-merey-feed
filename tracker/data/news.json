@@ -91,6 +91,26 @@
    "origin": "rss"
   },
   {
+   "id": "bf848c17969b",
+   "date": "2026-11-07T13:10Z",
+   "title": "Trump Demands Lower Gas Prices From Oil Companies, Chides Chevron CEO",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFJ6YmgybVVRNmhHYmszYmhFVkw0T1JFQVFNUWk0SlRVMk12T3dZQzl5UmcxX1U0TGVqajI2WUJfRnhJOVhzdWt1XzBoQ3BXQXNuREhoZTg0eExLQjNLenYzd3pJeXZiZkExbG92UGFEbEU3Z2FmbWRTdGRYVURfVVl2NC1EYkIwaDl4V3JaQmRtb3ZHX05yYmRYZklwUEpy?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "add1656b2177",
+   "date": "2026-11-07T13:00Z",
+   "title": "Venezuela’s Oil Exports Rose to 1.25 Million bpd in May, Shipping Data Shows",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQclFscUd5d1JBMkI2anlHRFB0VXU3YWJqbVJGYW1oYnR2UXBJX0VWZXhJUW1nZHRRQ2RRbjVQMUJzSzZNZTh3N3FRZlk3U2k1Z1lURzFDaVE1S3B0MEJOZ1VNaDBTTDkzZGJnaDJybHNTTWcwQzljYmh3STJZVld5TG50QUpjcnFMUThBNWZBWWhBNzhzZmRNc1pPOVlaMjRjTERLTkcweXc?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "9be6e51f9c80",
    "date": "2026-11-07T12:41Z",
    "title": "In his words: New White House chief of staff Stephen Miller is US immigration hardliner, bombastic critic of Democrats",
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "9a6367efa781",
-   "date": "2026-10-29T13:38Z",
-   "title": "Un tribunal de apelación de EE.UU. confirma validez de bonos Pdvsa 2020 de Venezuela",
-   "source": "LaRepublica.co",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY1VkbG5IOEhPZkE3WUlHNmdERUxpVGdON3pydVNoRG03aVZOLTdRUW4tVmd4YmJKNDFSdUtRTVI5cHZRWThuMHNnUEZiMURjdmhtemZndDUyUGgzaFB1VjN6c0I3OS1qWS0zcVdOUnBZMTNXM0tOYmlORUZqUUxObUdnYWFEOGVtenZEcTJ4SWl0UDNPbnc1aU1COW5HQWExUkEwaVZCaWR0TDZHR1J2Yk1XbVJ5ckZFRWJwanVyMVNud0stNDBDMGpzb07SAcwBQVVfeXFMTmxOZDVGR2ZISTlTUmt4WGNYa3N0cUptZzZoRnljWkRVZ3RLS1Q2SWNUUUlEZC1fNDkwa0pyNHg3UXpnUElxV0JVVjg4b19UVEMwRDlMdEtfRmtNaDc1X0hIb0RjbV9ZQzExNnVKUUNvTGpJUDhMVk5SYWJPbDZsT1YwMjg1bE5VM1BJUWRuOE9uRldFWkV0ZU93VmxfS2ZWcE5aR3lVTVdDYnprWExLZkF0bjBsT1U0NEE0dW9QVEExcHdOdlFkVWZMRWhQ?oc=5",
-   "category": "Debt",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "0a099728cdfa",
-   "date": "2026-10-29T13:33Z",
-   "title": "Pdvsa proyecta producción de 1 millón de barriles extra en siete años",
-   "source": "Ciudad Valencia",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTDlPRi1sRTlRX2pPNWtaMzh4ME5ILVBxWEtlUjFhNGhwYzExd0JGZWNSM251OEhkMTU1N3BEQWw3Qmc0UjdvOWIyeVNCcnAtUEtydE9SZWJfWE5ZQTZtd20zQWtwejFJWkhOM3BiTC1mb0tHdG5TTHBCYk0wXzZHenE5Z3pnVm1TMmw1ZHdnb3NzNkEtMHM5MktlbGpsQjlnOUdReFhxWQ?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T06:42:36Z",
+ "updated": "2026-11-08T07:50:47Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
