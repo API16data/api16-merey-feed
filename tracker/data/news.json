@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "866ee3bf693b",
+   "date": "2026-11-08T22:10Z",
+   "title": "Producción petrolera de Venezuela se estanca y acumula casi cuatro millones de barriles de crudo",
+   "source": "Diario La Libertad",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTC1FN3VjWVhMUkxzYlI3RWNTN3JRWjRDaTUtdkhwcWZrZjk4TkdaUnNjczk5Y18wdFRzNHZvWGZYR2V1Y1ZvdFJLVF9uemhTREN1amJzQVRnbHY1djVMVm0wMS1oZkRnM3dUY1diU1p0b0tZQ3hHbjFTa2NtdEd6VWhXZDIyOHY4aHU3c2pOT3REZUl1TnZsT3dBUU9sd2JwemZKRE0wc1lfcjEzV01MYmtQRmJxWW8zOHJieTFzamhwSnJTUzFiS2gwbnUtWDJ0Y0FN?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "302d808ae66d",
    "date": "2026-11-08T17:34Z",
    "title": "The Washington Post recorrió los campos operados por Nabep en el Lago de Maracaibo y la Faja del Orinoco",
@@ -398,6 +408,16 @@
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMHhtUml0WVdsVHZ5MXlOSXE5X3JBZGNfb2Jpc0dzNkg0ZGdBNWxYR2l0Njd5dmw4UV9YcTdDWGhQUEdoS2pnSDFJb0NHSEhvSFAxcFJlLVVvUkZzQTZyOHNrWXRMX28yQ2wxS21IV1RKako3bGl0VkM4SEhBc08xaUYxMzFfSFhhRGgzb2tBcm11UjBH?oc=5",
    "category": "Production",
    "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "daface57ef68",
+   "date": "2026-11-06T23:59Z",
+   "title": "Trade between Venezuela and the United States grew 739% in the third quarter",
+   "source": "Binance",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfV3ZPa28wT2hkUkgzaXNQRmVKLW8tSV9PUk9WdjZBXzIxQXFVNXZuWDE4Q2RkRHBiYWFmYmlmaEdXUzZXU1ZNZmtjTkRXM2wxcUx2ZXMzZWZ5VVByN0tkUmt6MVc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "b11d1913cb54",
-   "date": "2026-10-29T20:42Z",
-   "title": "Opinion | New Energy for the U.S. Virgin Islands",
-   "source": "WSJ",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zaHlXd2l0czBjeWZ5eW4wZ3FENjNkZFVOVnpLLU42YllRbkFCWGpLMXNObzhfVGc0MEZaalg1NFVYeWx6QTJiN0VoV1I1UHZ0MGE2aFBUc1VpNE1zWFBoTzc0bkFQWDJmU1E2OEpzYjE5cW1YbjRKRkhIaVNYMFE?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "ae21cd1d18a0",
-   "date": "2026-10-29T20:41Z",
-   "title": "Venezuela to offer state assets to private sector, Rodriguez says",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLTlxRWJYVzEtbmtpdUhPSVJSbFF2Zk5RbDNCeS1jakpZalhDUTByc25FNEtQVy1sazRSRFFCOUFvQWMxZk82WUx0XzJYbFEyLVQ1eXMwZG5CUUVIOGF0NjVjMDVPc1dmbVJZVlFXanRmN2QzcFV3cVB6MHJtaTdJVTRWZndyalItQXVRSzd5NHR2bFVBcGR6QzJnczdhQjhHeXcwUnNmenh1ajVzYjk2dm9LZm4zRmFLV1hF?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T22:01:52Z",
+ "updated": "2026-11-08T23:00:40Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
