@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "a1405baae87f",
+   "date": "2026-11-08T11:48Z",
+   "title": "WaPo | El misterioso multimillonario que exhibe el petróleo de «Estados Unidos» en Venezuela bajo el nuevo acuerdo de Trump",
+   "source": "AlbertoNews",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQN0x5UnNEYVBFaEQySW9Ic2tneXZFZUVYdzB5S01BT1Mxa1Z6QVlMaEVfTWJ0N1JKMF9SRFVQZDVucTVOQk5KdTdZVlNjM1JXMTlRWTNydVljZlI4NGNkOG5MQXBUeVh3UlVPclM0WTF4ZklQdUQzS09zNkw2YTM5aldhaGhtNTlJdU1Vd0xsMldxNUIwOU1Oem10aXJUWUlYT0NqV282VE5OM2h0MmtFaHJrQ3FKU2gwdEJvRkg3WDQ2UWV4R3lKcXl6bzl4eEJiRUNtUXgwaTRySUZEOXc5UTJYTERvbXNRXzhWRQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "6d8216c45665",
    "date": "2026-11-08T11:00Z",
    "title": "Chávez Sacrificed the Economy to Turn Oil Into an Anti-US Weapon",
@@ -8,6 +18,16 @@
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlRQejdxaHQwNXhOc1hvemc1cUdEXzBDY0lSQTBaaS05RHN0d19Va2I3dWJmNV85cDRpRktEWmk5c0hvQmh1TzVwMjYweFExUWhfRVRXRXVEejM0aW5LZjFKZEUyUXQwUEhRRzRoM1dWd3diMmdoTkE3RFVwbUtld1NSei1NSFdJYUkyeXhCTU9pNXBicHBkby1HVEFsdlZlUU4taW9uSmZ1Q2tjT21Z?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "2b3156d7a52c",
+   "date": "2026-11-08T10:25Z",
+   "title": "Chevron CEO Says Venezuela Oil Sales to Fund Expansion in Country",
+   "source": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbnVlcEpXdUxRVGtvaGVZMHhNcGpxOU42anBSZnd3dEV0Y3lpNlhDajhhTmZmaGVhdHhwNzBiU2NqWl8wSGpqcHd3ck9Zc2xyYnpOVGdPaE5nXzh5ZGg4bVJIaTl1bXdwdXNXdFJpUHZXWnV6VWd6WFJfTlpabFJXSXFWR0dfdkVTRl9Eb0Q3THFpLWtKS0RMUHgwZlZvU0lUY083OGJhNXl0S0pYWVJXTDJhNW1uZlR6akE?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "f298d485851a",
-   "date": "2026-10-29T14:51Z",
-   "title": "Venezuela’s 303 Billion Barrels Of Oil",
-   "source": "Yahoo",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdS0xMEhKaXdvMWtpQ0IxcUNyUUhIQkgtRzBoMlo1dzN6UzJ1ZDg5YUE0c2xsQWpSOHgzS205RG5zbXIzWktXT01yVGxEeDd5cUV6SVVRNi00YmdqdGM4ZVk0T3dqRlp1UWpiM3MtQW1Ja2ZWM1BQeXZxWEZEbTdiRktiNlNOQ1BESHc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "dd22df732456",
-   "date": "2026-10-29T14:48Z",
-   "title": "Cesta petrolera de Venezuela subió a casi $90 por barril, un precio que no se alcanzaba desde 2014",
-   "source": "EL UNIVERSAL",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc0pnRWNVcnBma0VYb2VOMlpVVVIyRHVLTS10clJJLUUxRzdnU2xuV241cmVBWUg5OFhYX1RDdW96Um5Rc3dXQ2FRcnJ5SUxPY082dlJySjN3Qy1KZks2N09iamc2VXRLTFUzMlpZVEJ5STlGdF9xY08taVZQeEo3ZDRacTloUlhyamVXdERIdFIwLUd6MXc4NUpOQ3k1MEhjanloYWRBaEd1M09Hc1ZNWG55Z1kwT3o3UFpUZXZEOFhFemM2M0Y1SEFoMG1yRU53NVFiLWNB?oc=5",
-   "category": "Pricing",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T11:27:19Z",
+ "updated": "2026-11-08T12:06:31Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
