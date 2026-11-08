@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:40:23Z",
+ "updated": "2026-11-07T23:39:07Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -9,10 +9,10 @@
    "added": "2026-10-28",
    "reported_venezuela": true,
    "seen_this_run": true,
-   "last_seen": "2026-11-07T22:40:23Z",
+   "last_seen": "2026-11-07T23:39:07Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.388,
-   "lon": -93.6351,
+   "lat": 29.3883,
+   "lon": -93.6352,
    "status": "at anchor",
    "draught_m": 8,
    "destination": "USBPT",
@@ -45,7 +45,7 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-11-07T20:41:01Z",
-     "last": "2026-11-07T22:40:23Z",
+     "last": "2026-11-07T23:39:07Z",
      "draught_m": 8,
      "draught_first": 8
     }
@@ -175,6 +175,16 @@
      "t": "2026-11-07T23:23:22Z",
      "lat": 29.388,
      "lon": -93.6351,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 8,
+     "dest": "USBPT",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-08T00:05:21Z",
+     "lat": 29.3883,
+     "lon": -93.6352,
      "kn": 0.1,
      "status": "at anchor",
      "draught_m": 8,
