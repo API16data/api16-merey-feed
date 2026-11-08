@@ -1471,6 +1471,16 @@
    "origin": "rss"
   },
   {
+   "id": "6fecc48f329a",
+   "date": "2026-11-05T08:00Z",
+   "title": "Trump Says Exxon is ‘Going in’ to Venezuela as US Pushes Oil Deals",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVndjQlNIYkYyLTMtZmpudnJPcEFqSDYtRlF2Y1pzMURYZU4xc0s3OHIzREtkckExQXV1NWd2WVFTQ3J6SG9OM3BIcER0Zm1mVDRES24xMnFoamhFZVlhS1A2am55S2JEeHU5bncxdXhxVzBaN2xlbmJLcmdLV2Q4ZEFYc1daZ0xKTFN6NnZnTGVFV0d6OXFRRkV3?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "371f81ecb849",
    "date": "2026-11-05T07:11Z",
    "title": "Fluor Partners with Inelectra in Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "76f6406d4ebe",
-   "date": "2026-10-29T20:24Z",
-   "title": "La paradoja petrolera de EE.UU.: produce crudo, pero recurre a Rusia",
-   "source": "Energía & Negocios",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ3BMOVhwbHhacVFELTRSNlUyOTU1RW5nUGNkcEZUbnd5dENqREJqeFBpLXlKLUI4TTR1ZDNQcFR5ZTViY2V4QzFLYVdQQ0RBNl82ZkdocnlEQ2JQb1JHQUh2dThzTTlGY0NuSzQyc3dvbFloRVcwVmVwSlZjTWVPY3hjc1hWWld0cEFYSDJ5NzF0V2daSTJDOEQ4dG43N0syTTlqeA?oc=5",
-   "category": "General",
-   "via": "Google News ES: crudo Merey",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T19:32:04Z",
+ "updated": "2026-11-08T20:26:09Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
