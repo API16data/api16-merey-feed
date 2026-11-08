@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0b13188ccc99",
+   "date": "2026-11-08T05:27Z",
+   "title": "¿Por qué la riqueza petrolera no ha estado al servicio de los venezolanos?",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVkhCUkdXOGJwX21HSlhsWnhUVm5uOFdmcjlRZU13YnItRHVCRW1fYWdselN0Q3BScDEtS3NHSU5DUXRaU0MwMW9jampnNFVXMWtYRklZMlNRZUdrTkZZQWNQOE9PZURWNGpSS0FNTWlsT09xQkN4MW9ERUxoaGI1RnREd1RtMGlGdV80Y2g1SHFqdXRvZUxVVTZBZnJMM3hOUEhOdXdXNjBkZ1FPYVQwd3VENWhaeFRF?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "4f846cc6e534",
    "date": "2026-11-08T00:00Z",
    "title": "How Trump stole Venezuela’s oil money",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "231cc7877de3",
-   "date": "2026-10-29T13:26Z",
-   "title": "Venezuela e India evalúan agenda para potenciar sistema ferroviario nacional",
-   "source": "Ciudad MCY",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdTIzVGM1T0lYUWttZWJjR1N6ZGE5cWoxZmtzQWJJd1JKdWRjc2M5XzV1b1VlRHFMNkhla3hRMUpOSi1adGEwWmZwNEZVWWJRc3ZsdmY3NEtHOHE5SndWNFpmTEpaREVJR0s1amdPd28xVUdVZUxWdFlpRVhiVTQteU9lcU1GcVRqMmV1X2lNZThQZVVMcXF5V2s2X29lUFQ1MExaWA?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T04:43:04Z",
+ "updated": "2026-11-08T05:39:38Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
