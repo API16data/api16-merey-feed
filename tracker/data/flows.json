@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-07T16:36:59Z",
+ "updated": "2026-11-08T16:31:22Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
   {
    "month": "2026-07",
    "high_n": 8,
-   "high_kbbl": 4452,
+   "high_kbbl": 4752,
    "possible_n": 2,
    "possible_kbbl": 1300,
-   "high_kbd": 144,
-   "with_possible_kbd": 186,
+   "high_kbd": 153,
+   "with_possible_kbd": 195,
    "eia_monthly_kbd": 701,
    "eia_weekly_kbd": 586,
    "customs_kbd": 568,
    "official_kbd": 701,
-   "coverage": 0.21,
-   "coverage_with_possible": 0.27,
+   "coverage": 0.22,
+   "coverage_with_possible": 0.28,
    "complete": true,
    "usd_per_bbl": 66.89,
-   "high_value_usd": 297794280
+   "high_value_usd": 317861280
   },
   {
    "month": "2026-08",
@@ -1646,7 +1646,7 @@
    "name": "ADVANTAGE SUMMER",
    "mmsi": "538006307",
    "imo": "9419890",
-   "length_m": 256.9472533333334,
+   "length_m": 283.3305666666666,
    "gt": 83805,
    "from_port": "JOSE VENEZUELA",
    "terminal": "Jose / Puerto La Cruz",
@@ -1654,9 +1654,9 @@
    "to_port": "CORPUS CHRISTI",
    "arrived": "2026-07-25T01:46:06.000Z",
    "confidence": "high",
-   "est_kbbl": 650,
-   "est_low": 520,
-   "est_high": 780,
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
    "method": "typical full load for the ship size"
   },
   {
