@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "f490d38c32d2",
+   "date": "2026-11-08T05:43Z",
+   "title": "IOC to buy crude, LPG ships as West Asia crisis exposes shipping risks",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOVZReHl0Y1RRS0ZKSmRGQzhjcVVFNVRMcFpNR2xZbWJpUFNibkhLY2tTSnQwOV95Q0tFVDU3eFBlaEw5OEdacjRiOWlmQ2w0MW1OQ184b3R6dGlxVlFOVThOeEJ5ZXZUWUtZM0d6MnN0cTRuMlE3blNYOTU4MWhhdzk2elVncWdEeEkyY3RpeTdKT0w5Z2FvYzdwRlRWM3FNdEdvZWtlVTAwbjdaN180Sm1FSjI4eWQ2SFFEcHRuZ0Rrak4zMXNLQTRrVXpYdWRaUEswMFJWT2VyY0g4NHBQbUZlQllFczAzMGR0eTBuNThIbkRhR2g0bGlR0gH_AUFVX3lxTFBrbXFoM0ozQVVvbHJ3X3l4ZkJsWmozNTkzNWVmZUw0SHpnVFFsQnhSeDVQaFhDalByQTg4bEU4TEs0UUJDcDBDb195OVF5ZU5XajVHTG5MUEoya2FRUFhNWjg4SkhlTXE3M0pHS2czYzFxemV2X0d6dUZ0NHFtODAtWFJQdXVpd3BTSVljYUphcEJxR0ZwYzJYX2ZWRHFILW1STkZJcEVGRXo1YVFiMVAzczJTMGR1enZVd2JHNmNRd2VIWGJHMWwxNDdsN2xQQ3o2M1ozZE04WnptNnJZZ2lmS19rbThVcmdpQjdCazFzcUZmaVUxR3MxTmtuSmxZSQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "0b13188ccc99",
    "date": "2026-11-08T05:27Z",
    "title": "¿Por qué la riqueza petrolera no ha estado al servicio de los venezolanos?",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "1ec619161849",
-   "date": "2026-10-29T13:28Z",
-   "title": "Repsol se siente ‘cómodo’ con la meta de aumentar un 50% la producción en Venezuela",
-   "source": "Radio Intereconomía",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXRTVDBqLWlucThLN0Nidmw0RHhURFdzX2lWMXRNQTM5Ym9iUjRpb3I4dVVEWTdLaDdkdUx6eHhnbFNneGJacGRzQzU5VmhzWHduVUZGcHotdGxBcWxScDZMaFA0S2ZkaHRtM0xfWWVXNGZhZ29WTzJGbjNJektib3FSSGNYbzExcV80T01MdTV3dXVFOXQ5U0l5QlJqRDJMaEVhMWFvM1Q3bGFKSlZBd0Z4Y01VVTFqU1JuUlg1bWVxakFZakU5N1BNaXkwNWRmYXY2QdIB2gFBVV95cUxPZm52d1JpMUM1ZzhuZEtod1FraHNDdDVzNVczSG1qZHZUd1g2VG1HaHo5Q0NrUE5DeTFDOHNPQ1ZIbG5JUDNaMHYwUDJZWW5JSHRNTVQzUlByd1gyY2U1Tk1KOU5oVFZKT0ZVY1luZ3JHaklXVVh1OXZmVW05NHMxNXpiOFZNTklVcmxYUGktd3VjaHF1TVd5NHVrZ3RBYzdVWWN3TG5UbVZJeml5eUZxdWhJM0lxSXd4ai1fZjU1YXRfVHNRTC1BaXFaSGMtb3ZXQVp5ZGNOeVlrQQ?oc=5",
-   "category": "Production",
-   "via": "Google News ES: empresas mixtas PDVSA",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T05:39:38Z",
+ "updated": "2026-11-08T06:42:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
