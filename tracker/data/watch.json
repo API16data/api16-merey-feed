@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:39:59Z",
+ "updated": "2026-11-08T22:41:13Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -9,11 +9,11 @@
    "added": "2026-10-28",
    "reported_venezuela": true,
    "seen_this_run": true,
-   "last_seen": "2026-11-08T21:39:59Z",
+   "last_seen": "2026-11-08T22:41:13Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": 30.0095,
-   "lon": -93.9838,
-   "status": "under way",
+   "lat": 30.0093,
+   "lon": -93.9742,
+   "status": "moored",
    "draught_m": 8,
    "destination": "USBPT",
    "visits": [
@@ -53,7 +53,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-08T17:39:11Z",
-     "last": "2026-11-08T21:39:59Z",
+     "last": "2026-11-08T22:41:13Z",
      "draught_m": 8,
      "draught_first": 8
     }
@@ -405,6 +405,16 @@
      "lon": -93.9838,
      "kn": 2.6,
      "status": "under way",
+     "draught_m": 8,
+     "dest": "USBPT",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-08T22:57:40Z",
+     "lat": 30.0093,
+     "lon": -93.9742,
+     "kn": 0,
+     "status": "moored",
      "draught_m": 8,
      "dest": "USBPT",
      "zone": "Port Arthur / Beaumont / Sabine"
