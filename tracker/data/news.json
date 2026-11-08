@@ -41,6 +41,16 @@
    "origin": "rss"
   },
   {
+   "id": "455b1c24d456",
+   "date": "2026-11-07T18:08Z",
+   "title": "Petróleo por debajo de $100: el respiro que mira el P2P venezolano",
+   "source": "Binance",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rN2ZjdkdObGFOR3dOWnY1U21EVFhoSTIxam5vNHkxa3UwMVZvU1BXYUwzTTViNEdnbG9NVkV2MHk0bUVxWjI5MXdPS0M3NEF3MnB4dFktZ0JTM2dCNklzNk5ncFU?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "b1a766776175",
    "date": "2026-11-07T16:47Z",
    "title": "Venezuela gana terreno como proveedor petrolero de España con las mayores exportaciones en 20 años",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "fdc42df62ec4",
-   "date": "2026-10-29T13:25Z",
-   "title": "Repsol controlará un tercio de un nuevo yacimiento en Venezuela que producirá 210.000 barriles diarios",
-   "source": "Economía Digital",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUURyMmVjM2dMQ3EtaFVzRDljLXo1emtwaHZMMy03T1I4R3Q5eUR1ME0tdlhBQUFDR3gtTnRsRVFTMDgtSVFzMkNPQk1VWVBpNXlKdWRWUGhaSkhuUlpJSFRjNDB4VzhBNDAyVTR5QTRZaUxBVVdDLU1ndUk3WFRIcFNGRmY2aml4dEM1M0ZjUXNuS1l3NkpLQmNPSGRnODBUa3ZUc0VhZHlGM2t1MDYzSTB3a2ZQMkViSm5nbTRaM1dJQ1Rmd0stLUtTONIB0AFBVV95cUxOZWpORHNGRG9NTXg5ZVEwd0J2YmJLYlNCVkxCMVI3NWlObi1zM3NUM1dWdFpEa0FDRV9pTzFweTJPZHFwcEdlcVNiQW5fWDlvXzE5VWpWT1IxSDg4ZUY0Q2pvU2hIQ1NhQWtrWktUdktaVEVQRll2aVozdGk4ZEp1aEZGMlhvVTRsZTlJbFRQcnJmdVBIcUNGVVZ6X0lfcWRPc2RHNTVodGI2NmJhZWdlcE9Kb2FtS0VaTm1fUmdLb0hEOW1xcnIxWkl0LUh0V09X?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T01:53:33Z",
+ "updated": "2026-11-08T02:42:05Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
