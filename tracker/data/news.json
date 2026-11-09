@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "a7c1e153365c",
+   "date": "2026-11-09T00:36Z",
+   "title": "Alejandro Betancourt traza un plan para superar a Chevron y convertirse en el mayor productor privado de pe...",
+   "source": "OkDiario",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYncxUDBHdmtkbmFySGVjQ2VESTFBSkk4MzBlQjZ2REh5cnQ2VGN6ckdCcFNiQnhnMVl3bmxScnZLVTlEaWtzSS1Mb05uR01IeEhnaV91TlpTcnN4a29tZ3BkWktySTJ3eV9SU1cwYzlNNml4eXRUY2VjUjBQV2NwVmg2TVM2a2stdU1aN2FYc29IdlExQTZIaUdKWWRSUXdON2MycGVzN245VnN6X3hBZWpOQUk4ckVSSjJiTjZmSlo2Y28zdy1JaDEyN01fLWVqcHJRQ25Cbk5YWGlLSnRR0gHkAUFVX3lxTFBsbmZ3bGZ5ajExVmJqOXV2MmZITGhGRk5semdGckVfVGd3bWgxcU9GZ00xTGRhUW1BdmU2UUNBYkVLTjNXdHJ4LTNuSzM5bXd1M085SWdINjJiejkwVl8zd0d2bHBnSzV0Q1o2V25DS19qZUZaNVFWRm1zR3ZHVi0xTThRNFRid3BJSW5FMjBXdGhmZDhWVmVtRUxCNndid2pUNW1ZZW13dTVwSU41RFhUUzNwdkp0NDhES3Mza1poZ3dvTGZhVHZYTnV5MXRvT25UUlFfOU1teVFrRFAtbjRvOWZZdA?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "866ee3bf693b",
    "date": "2026-11-08T22:10Z",
    "title": "Producción petrolera de Venezuela se estanca y acumula casi cuatro millones de barriles de crudo",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "0849d602c093",
-   "date": "2026-10-29T21:12Z",
-   "title": "UK Spy Agency Cannot Account for Thousands of Storage Devices",
-   "source": "Newsmax",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONTJHaG1pTWVxbVBlYUFaNUh4RWFtTktrQmpuOWJJZjhXZHVnU3gxejVOaTVwZmpGTUwzQklhd0ZqN3pMWHFTQXRObU9PeHpoREpUQXIzWUVRVTJfUmhQejRyaGM1d0xJZDFWSXhEQ3BjWHJnYmRtR2l6dW54dENNb09GSzhHUEY4LTluVkFR?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-08T23:59:07Z",
+ "updated": "2026-11-09T00:56:42Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
