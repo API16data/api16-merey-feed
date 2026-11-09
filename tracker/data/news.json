@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "9a6b7f35a3d3",
+   "date": "2026-11-09T10:41Z",
+   "title": "US crude oil imports from Venezuela hit nine-year peak in July 2026",
+   "source": "ANI News",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3NySk9qWWpkdUNlNnlHcTZzYnA2OGJvQTUwVm90em5yLUUzVVJTWTVMYllnQzRvMWZXTkJnZ000VWczY1hZckxQQ3pGYVAzeTVPNHMwMGJlR0t1R2tLaE00cll6b1ZSUjRUTlYtck5rMDJzVEUxd2Z0YnluU1ZrQWZKUDBodF9yVmp4Tkh4dWx5ejhfYWVMS1VJRkwzY2piUnpKMHFob3RhbEM1eTJiSThHMzNYTDY5UGc?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "cd10d45b5afe",
+   "date": "2026-11-09T10:36Z",
+   "title": "The Week in Charts: Crude tanker correction worsens in wake of US midterms | Black Sea shipping activity plunges as escalating attacks deter owners",
+   "source": "Lloyd's List",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNYW9jS3NpZHc0Z3hvcjEwR1UzU1g5VnFxbUg4ZUp6NkJDZTlHUm1LTl9CZDY5bUNndURDc3FfYzA0RDdDZmV1TU52ajZweU9FTVdKejZDT25VNmhSOE8tMFNob2Vtc2I5QjRfZWFhLXBHbTVzbWZMcWU3V2RMVndPSEx5Rm1XRm5PYmo0eXFTelgwVEl0T3I5Qm9BQ2hkUjk2b1E3UjVnWVRWNjhMUjhJeURYYVZTbE5yTEVMYkRwZnY5OHdOSWxFUVBVcC1Rc3RwMFFQUWJRRXNtSnlVUWJoUGZ0Y0h3MjRsNExMR29taXFhMDc2amJiamVKaFFMcUxrSUxHOFhBbGpjbTU1MGQ0?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "0ea3d84c5a85",
    "date": "2026-11-09T08:00Z",
    "title": "Trump administra petróleo venezolano bajo opacidad",
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "cd5ce60ef8fd",
-   "date": "2026-10-29T23:59Z",
-   "title": "Port leaders discuss growth after Trump's Corpus Christi visit",
-   "source": "kiiitv.com",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZGpHVmstbVZxVTZOeWdHc3hMSnJvcFBNTVVodHhhTjdsdE1OSEJBVzEzVVVrOVpQODkwYWhxOUt1UnZBNTdXVUlwWGY0anU5a1R5SFBQUEFiX1lsUXk0eTNOVVl2Q2huZHlZN2pUekFzMEN6ZEVTLWVaOUVZSWVFMENTOTBYenBNNnQtV3VLX1JTMUlXLU04cFdveE5SOWppMnRQU1RCUXl0NjM3cVhyMVhGV0dSczFDNFpVNW5UTnRwVkNVS1ZWT0FmNk9tWHUwMWdoOXNJdW1RektYeDNGb0FhOUpKTlNSeVE?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "e68d547a5f90",
-   "date": "2026-10-29T23:24Z",
-   "title": "Fernando Luis Egaña: Arrasa",
-   "source": "LaPatilla.com",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RMjlSOFZ6SkxaQm5CcExWb081WFlmUGpfZ3htd3NoZnNCLUNyZmtheGtCMVhPejR4WVdELUx0VEpIRGdHbUdaXzJ4czdGbkJRUlV2Yy15MDhTR1k5bXNhTFZlaHI2RkVqS2NQcA?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T09:50:00Z",
+ "updated": "2026-11-09T10:47:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8068,15 +8068,6 @@
    "featured": true
   },
   {
-   "date": "2026-11-06T22:41Z",
-   "title": "Venezuela’s Oil Exports Surpassed 1 Million Bpd for the First in 6 months, Shipping Data Shows",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0hoOUNPLV9BSU5MdjZYMnk3bTNMbjhKQXBjNjRjenh3b0F4eWU4a1RBaWtBM1BUUzdVX2FBLXNlRkRsTVJxejg5VjJGMFpmVEdVQkE4czF5ckpSOU1qYWJqZk14UmxoWlhzNXJXU0xTa2htZjFzcFhlNC10M0lHU21DWk9tTjdlYW5LUEpnT0pWSjhobUdpQWVtdHllblExclctR2hNQllzbUpTX3dCQWs3Tm1kZnZfRXA1V1hSR0g?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": "1 Million Bpd"
-  },
-  {
    "date": "2026-11-07T13:13Z",
    "title": "ONGC Plans Control of Venezuelan Oilfields to Recover $500M",
    "source": "NewzTodays",
@@ -8086,22 +8077,31 @@
    "key_figure": "$500M"
   },
   {
-   "date": "2026-11-07T08:42Z",
-   "title": "ONGC Negotiates to Operate Venezuelan Oilfields, Seeks $500 Million",
-   "source": "Udaipur Kiran",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3lmSmJUT20wRXBfd3d6bFJJeG1VSS11NGVYRVJmT2VmUThsZlM4WksyNV9ZWnFoTUF3eFdYa2F1VzItQ0c0UDQ2SmFZdFpKdFlpN0JwRG5mOVJOYVJ0VmdWZ01BVVBkYXZMUW5mcmJZbzYxR1NXWUl3d3NQWEhaNWNVeWI5bUlyNjlMQUpDb3loY0pmMEE?oc=5",
-   "category": "Production",
-   "angle": "More supply: more barrels heading to market",
-   "key_figure": "$500 Million"
-  },
-  {
-   "date": "2026-11-07T03:06Z",
-   "title": "Venezuela’s Oil Exports Fell 6.5% in February With Loss of Chinese Market, Data Shows",
+   "date": "2026-11-07T13:00Z",
+   "title": "Venezuela’s Oil Exports Rose to 1.25 Million bpd in May, Shipping Data Shows",
    "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZk9pVTdUTGFDOEQ4WVVrR0E1NFpRdXpNNDlCWFo2ZmhCMEt6d0ZxUHc3SXlkTW9FMWxGQzh4V0NBYTltQmZIYlF1SnoyNkpXOHJKb1g4bWJMMkpmUWJTYlQwcTFyc1lFV3MyVkhZS2t3cE9SUDV6dDRHbjBfWWtvU3FwNVJFc2FJcmNyNXVHSi1EZ056Z2wteEQ1Uy1rRnF0QU85d3duWEc4TXNObGJkSkU1UQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQclFscUd5d1JBMkI2anlHRFB0VXU3YWJqbVJGYW1oYnR2UXBJX0VWZXhJUW1nZHRRQ2RRbjVQMUJzSzZNZTh3N3FRZlk3U2k1Z1lURzFDaVE1S3B0MEJOZ1VNaDBTTDkzZGJnaDJybHNTTWcwQzljYmh3STJZVld5TG50QUpjcnFMUThBNWZBWWhBNzhzZmRNc1pPOVlaMjRjTERLTkcweXc?oc=5",
    "category": "Exports",
    "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": "6.5%"
+   "key_figure": "1.25 Million bpd"
+  },
+  {
+   "date": "2026-11-09T10:41Z",
+   "title": "US crude oil imports from Venezuela hit nine-year peak in July 2026",
+   "source": "ANI News",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3NySk9qWWpkdUNlNnlHcTZzYnA2OGJvQTUwVm90em5yLUUzVVJTWTVMYllnQzRvMWZXTkJnZ000VWczY1hZckxQQ3pGYVAzeTVPNHMwMGJlR0t1R2tLaE00cll6b1ZSUjRUTlYtck5rMDJzVEUxd2Z0YnluU1ZrQWZKUDBodF9yVmp4Tkh4dWx5ejhfYWVMS1VJRkwzY2piUnpKMHFob3RhbEM1eTJiSThHMzNYTDY5UGc?oc=5",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "key_figure": null
+  },
+  {
+   "date": "2026-11-09T05:23Z",
+   "title": "India's ONGC eyes operating rights at two Venezuelan oilfields",
+   "source": "Banglanews24",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YRGJSS0FRVHBrZmR2LURtTlRJLTRmSkJULXZSQ1lfR0VYbmh2Q25ELVIxWmlVX1hhRzdIaktRb3R0V2ltaUU4elVVMFQ1NXI3c05NdkRlRW9uSWE2VkE5czJoWS1pbWFmclNz?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": null
   }
  ]
 }
