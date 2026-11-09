@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:14:48Z",
+ "updated": "2026-11-09T14:58:50Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -153,6 +153,79 @@
      "done": true,
      "time": "2026-10-30T04:50:27Z",
      "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-636016725-2026-11-09",
+   "mmsi": 636016725,
+   "imo": 9705902,
+   "name": "ELKA DELPHI",
+   "length_m": 189,
+   "status": "at origin",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": 340,
+   "est_cargo": {
+    "kbbl": 340,
+    "kbbl_low": 286,
+    "kbbl_high": 398,
+    "tonnes": 50000.0,
+    "draught_m": 12.1,
+    "loa_m": 189,
+    "beam_m": 35,
+    "beam_estimated": false
+   },
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "BRIQI",
+   "destinations": [
+    {
+     "dest": "USCRP",
+     "first": "2026-10-30T03:50:01Z"
+    },
+    {
+     "dest": "BRAZIL FOR ORDERS",
+     "first": "2026-11-01T21:39:30Z"
+    },
+    {
+     "dest": "BRIQI",
+     "first": "2026-11-09T14:58:50Z"
+    }
+   ],
+   "last_seen": "2026-11-09T14:58:50Z",
+   "last_zone": "Venezuelan waters (other)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-09T14:58:50Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": "2026-11-09T14:58:50Z",
+     "detail": "draught 12.1 m vs ~9.8 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
     },
     {
      "stage": "Discharged",
@@ -371,7 +444,7 @@
      "first": "2026-11-06T11:58:09Z"
     }
    ],
-   "last_seen": "2026-11-09T13:14:48Z",
+   "last_seen": "2026-11-09T14:58:50Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
