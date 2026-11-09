@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "e6e70967e596",
+   "date": "2026-11-09T01:00Z",
+   "title": "Weekly Recap: Q2 profit rises 57.3% and Venezuela rights expected",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcXZEdHNNcnk4cGcxa2tkZjhkQkNFRS1PSGJpTnpiZHVrNTczMkZUSmdsOXVkSXZ2M1Y0cE5mVVJ4aHV0OHRLR2dTY0NrcDNBNkFtZUpHNUZldWd4b21NZ0lXSzlld0kxRHFjQ0t0Sm1TMElhWWRLYW04VHczT2JIRzFTbWhYOXlzTzNKVkxxSExjTmNyMzZjUXZpNkdpbFZaWWFLZXA0SHpkRnRvZEhyVHVzaUs3TFpXT1RCUW1mQ1NjVk0?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "a7c1e153365c",
    "date": "2026-11-09T00:36Z",
    "title": "Alejandro Betancourt traza un plan para superar a Chevron y convertirse en el mayor productor privado de pe...",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "ea8d807b71b2",
-   "date": "2026-10-29T21:37Z",
-   "title": "Oil Price Shocks Now Benefit the US as Venezuelan Crude Flows to Texas",
-   "source": "economy.ac",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02WE5RdU9oQ0pTSngwTWlVcFRIX2NOd3owLXFPVmRuN2hGdDFnanhHdC1zanhFWHd2Vl9YRHhJa0M5amtCd0pmQVgxeDNDR2tNcjhyRGM4VG9BUQ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T01:59:38Z",
+ "updated": "2026-11-09T02:50:30Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
