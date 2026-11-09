@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "0ea3d84c5a85",
+   "date": "2026-11-09T08:00Z",
+   "title": "Trump administra petróleo venezolano bajo opacidad",
+   "source": "El Universal",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRmpDOERGeFRhN2twUC03QmlFT094WGdkd3k3MFdyOHdCal9IT2NwcUx1S0ZlUjI4bHNSUWhfWUMwZ1drVGhyNTYwV1VENHl0eFNoeHQwRnQ2UDdOSWVVVC12Wi11XzM2Z2lnRVF6Tk0wNDJsaG1PNW9PeHVxQUVYTmZHejJHYXptb3pXS0k0eDNFd9IBpgFBVV95cUxNdElsWTZSdnhUeFdUSl96Nmc0VEFNdUxUTEJCRVlqWHhUeVktaEdPRDdtQ2NLbTlCMUZOQnpUaUluN0thY1VtMFZFemY5TVNrTEtPZExSQVFRVl9mT0k5Q2l3MnpZTVRiTnBQMXhBWnFZQ2Y0aDBDTVk5VUp4QWt3VnMyVEdRQklmTzZST2ZmY0hBLWtiZmFMNkhYRVdpeHg0bW5iVnR3?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "30e44f3063b4",
+   "date": "2026-11-09T07:24Z",
+   "title": "El ejército estadounidense lanza nuevos ataques en territorio venezolano, en medio de planes para una presencia a largo plazo",
+   "source": "World Socialist Web Site",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qSFA5SFNVVmNiWjQ2NWFJRWd2RmZ6VVBkd2J0ZjBpM2xDVW5ab2kteFgyYVBZLUNDZ3V6cUk0d3hLLS1vSm5uLUZtVXM5Y1pzZTZtbTBWam82VGRYdDJ0cDhQc2xhM3Zr?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "9f9fa0cbb7d7",
    "date": "2026-11-09T06:03Z",
    "title": "India’s ONGC set to take control of two key Venezuelan oil projects",
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "39d38517ace6",
-   "date": "2026-10-29T22:54Z",
-   "title": "US firm to take over some Venezuela oilfields previously run by Chinese, Russian firms, officials say",
-   "source": "The Business Standard",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQREVrSzIyR1YwRk94VWR5bzVNTlpUaDZCTlZIaWgyeHFlbVJld0JfX2tBaWhHYWotUGNRLWdlblU0RTNsVHRTejJfaWtOcmdVRUpkbjRLMWFUa2dqeW5BQ1ZpNmVJYkhPTy00T2xWR2tXMV9ORmpDaTFVenhUZVVfODNrVVo4YkQzNk5RSjZtTFBvLVJzZDlNRXVzV0JRWDRaNnZJLVF5Sml4Vk5QMzI0NEt3Z3drajVZaW9HQUVxNzk?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d9277f658610",
-   "date": "2026-10-29T22:31Z",
-   "title": "What Trump’s Venezuela Oil Grab Means for China",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWG1FdXlpd3V3MXhjampkOGZKLWxuQ3FJMFh2a25MT3c2WjRJLW9FS1ROQ1VpWjlTRC1TYlExS1NmVUp2X3h1TEh4U3Zyd3dqR2tiU0FhOW8yT3VkY2o5blBFb20wUXVWcmdXQ3JXV1Q0WXlHZno1YXljVHoycktmekVJVQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T07:06:35Z",
+ "updated": "2026-11-09T08:43:47Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
