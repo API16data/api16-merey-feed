@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "504cd828777c",
+   "date": "2026-11-09T05:23Z",
+   "title": "India's ONGC eyes operating rights at two Venezuelan oilfields",
+   "source": "Banglanews24",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YRGJSS0FRVHBrZmR2LURtTlRJLTRmSkJULXZSQ1lfR0VYbmh2Q25ELVIxWmlVX1hhRzdIaktRb3R0V2ltaUU4elVVMFQ1NXI3c05NdkRlRW9uSWE2VkE5czJoWS1pbWFmclNz?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "46e1178603e6",
    "date": "2026-11-09T04:45Z",
    "title": "US gains access to 63.7 billion barrels of oil reserves in Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "398eb6e642e6",
-   "date": "2026-10-29T22:18Z",
-   "title": "ENI, petrolera italiana, inicia operaciones en la Faja del Orinoco",
-   "source": "Rumbo Minero",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNnA1N0VOQUN1V04tRzZLenA5MkJtRHhvNk5ieWNhSHBkRHRGcDZ2TTIyTjh4WVByLXRZSk9jOGtJY1kxOXZZbzFDWEhGQnZZeGM0UkliYU9KVlNLNEJaT3F5Tm1VaUlqUV9HZUJHRnFic3lBaVRpZF9qUmlwdXR2LUtVV0dyb1NzOGF4YXZmUnctdDZSMXNMY013OFZQdWREdy1FUi01c0FBUQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T04:53:57Z",
+ "updated": "2026-11-09T05:54:48Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
