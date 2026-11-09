@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "cab0505b784b",
+   "date": "2026-11-09T22:07Z",
+   "title": "Biggest oil deal in world history: JD Vance claims US control of Venezuelan reserves, energy dominance",
+   "source": "The Tribune",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbjQtWGZvYmhtS0JBdnQwRV9pdGJUVEFLUHpKOFBpYVBxTUtxNjBySWZoUV80cEl2aldpU2g4NldMbVdWQXEzcE53SHRQZ19vZ1lGN1phWWNyMHZfMUJtcnloSTBRX2cwNFVIbXRNelFTOVNBN3BPRUNFQ3E5cTBxalRkLTVxNlJidFRYQnIxV1oyZkUxR1JNVXNIQmNGaFZUUUZpUEJKNktRcEl1dm1PdW1nT0RxejYyekF1Ti1xakt0d2tUaWxpb3AzdXJVLTFz0gHgAUFVX3lxTFBUWVhuaVpmR1Bpa2V2S0JZZmRtcndvem5SOHdibXA2ZmpLRkZidHl2RTc0MkVFaW91eHZJX2FJNWJuVUlVd1pWTVNtS0ZtX0RhckNrX1k4NW9uVnY1YVJpQ3BaSVlSWUV4YU8zWmZpTDFDaDZSNWl0dmJxb2ZZVVdFVnBNRU1RX1FheHFLY1BzUFZodzFlZVdma2NXODZ4azZqamdINk1RNWlQRGNoZDNBeXpseXdDMG41N2FNVXdQaGUwcHMzS3J6eGtnZUFIcnA3RkFvS2xoaHBidHpiMzVr?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "46b3ecfd95c4",
    "date": "2026-11-09T19:34Z",
    "title": "Venezuela frenó la recuperación petrolera y exportó menos crudo en octubre",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "6fa1bf66db33",
-   "date": "2026-10-30T10:15Z",
-   "title": "Chevron Reports Third Quarter 2026 Results",
-   "source": "Business Wire",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTWZQZ0tTajVSekNyWnNQTzFsRi1YZ3N6M2k2MTNSSHZyZnpVSE9wN0IwazZ6Z0VkaVUzZVF6bVk3MkRzMmQzU0dLZG5vR1JKZmtQbHdjSHpwZHAyWmJsWG5Pc2FDa0VWV2pBMkxIakp2bU1xNnhVdWNRcktvQ1c5OFJpOXVlYUNpMUtkRENreTQyY05BeXJ6ZVJpQjdDUHI2?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T21:18:50Z",
+ "updated": "2026-11-09T22:13:45Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
