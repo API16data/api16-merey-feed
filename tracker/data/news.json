@@ -11,6 +11,16 @@
    "origin": "rss"
   },
   {
+   "id": "f690e1be34be",
+   "date": "2026-11-08T22:30Z",
+   "title": "Iraq Has Reached Understandings With US To Allow Oil Exports Through Hormuz",
+   "source": "gCaptain",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQlJwZW9qVWozVExBTWZZa0JEVTNvQ3cycjJ2TjA0VUExNWZsSkcxeFBpTjRReWFqbklWQ3F0MGYxNU9rcGtMeDZLa3VxeGoyQWFzamtPbHRqaXRTSmV3b1FRWF90TUVZS21PUmFZQWRZREYtZUx4WThvb19sT1BPdkNYSFBiWTNfdVVmUk5RNXFtYjctOThkZWVDdTliZw?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "866ee3bf693b",
    "date": "2026-11-08T22:10Z",
    "title": "Producción petrolera de Venezuela se estanca y acumula casi cuatro millones de barriles de crudo",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "93d57d9f47bd",
-   "date": "2026-10-29T21:17Z",
-   "title": "Repsol sees 11% growth in gas output at Venezuela JV, progress on oil operations",
-   "source": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU1RaMmRKMm8wQW85bVhYYUZQSmhwWUotY3dqMjl0dnBtVmI5ZUg1OWJndEl2M24tTXhtcGdnV3prYUpJbk9nSmVyVWxIWnI1R2hza2Q3MllTbmpXT3VENE5yNGlsdjhpZzc3cTREbllhUDNnamtrXzdXaGVvaF9uVU5JdVVPTi1IejdFYXh6SGIyNV9McWJLbG9qc0RsbDlmeGJUMkdMM0lyWkt1QU83QVdpYThDaDN2NDJmcGhpZWxSTjVyUWQ5UU1RNA?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T00:56:42Z",
+ "updated": "2026-11-09T01:59:38Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
