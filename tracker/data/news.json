@@ -391,6 +391,16 @@
    "origin": "rss"
   },
   {
+   "id": "cae351e564cc",
+   "date": "2026-11-07T11:50Z",
+   "title": "Irán informa de otro petrolero incendiado por una mina en el estrecho de Ormuz",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcUhoUjVSRDM3aXJmbGpMX3ZSeHFyOFBMSWc5UHR2bEVBQXV5T250ZGdFWHY4U1dmS25yVUpwT0haUXBsN0Z6SnFnM0FCMXJ2ZkFLNGd0YkFLcDRjZ2Z3c3ZfNm1ZbkhSMGwtcGZlYmw1YkZQYW9GUVFlbnEyUlJBVTF5YUdld3JMc3hkbGtIcmkzTnNSa0c4eUtaLVM4YmhNZnBGaUlNWFAyTlg0OU5JZVBqQlE?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "b4d1add93884",
    "date": "2026-11-07T10:50Z",
    "title": "Empresa de India espera permisos para operar dos proyectos petroleros venezolanos",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "72502ba1bfc9",
-   "date": "2026-10-29T23:12Z",
-   "title": "TRUMP’S VENEZUELA OIL DEAL: A Strategic Win for America, but is it a Good Deal for Venezuelans?",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONlEzeVVJclF5cHdXcF9yY01KMVdpNnlINGRua2NvQ21yZmozVU9pTG5RQTczMHQybDZnVGYyNXNNcHc0ZjBkZEYxMWZMWnZxbzRXQzBJbXJvc2tIeEZwV1Eyd2l4TjBMYXZPU2lSLUF3bDhlY3NyczNxbFVxOGxVVnlXSUpDbkRuTXNMSTlSb0NLUmR2NVlkVE5mZzNQTXZLcFlRdFJQUDc4WEdRUFFXbGJUMWNlVFdXMUF2dndR?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T08:43:47Z",
+ "updated": "2026-11-09T09:50:00Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
