@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "9f9fa0cbb7d7",
+   "date": "2026-11-09T06:03Z",
+   "title": "India’s ONGC set to take control of two key Venezuelan oil projects",
+   "source": "Daily Sun",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQjlkRkFZemNtclRCb3hUZWI5SzJ0cWlZemVvakRUVjJXdUstVVlyQk5BSmNsRU5xQmstWDhMQzFKVkdVNV9PcXI4NEhLcnVlTVBTZ3ppRm9jWjVZQTdPUUg2MjlLRkxCa01WYjc1eE44Q25uTFNwTXNXS1FGbUZMT2hzRUk3UjA1ZjIzblN2OEI0NmZoLUZfQU9RVlBEcnN2ZEMxanFkQUNMdw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "504cd828777c",
    "date": "2026-11-09T05:23Z",
    "title": "India's ONGC eyes operating rights at two Venezuelan oilfields",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "08f764b9c45b",
-   "date": "2026-10-29T22:28Z",
-   "title": "Venezuela Dragging Out on New Oil Contract Models as Energy Investors Wait",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQakNmZVJ6Y3BKTEtiU0p0ZHVITWlabGdCTnBSQmhPVVhiUFMwc0JzbkJPdXVKSGNLSkNiT3Q0MnFWd09TUkNULU5XdVgwb2RVcXdxc3l0RzgtbDBBZldza2xzQVFsN2hNdVRTVHlzTXFZWDVuVXBFNE9WLW1Lekh5bnU2NUk4bk4wSEhBam56XzVjZ2F0OGRpcWZ4MzlSdV9CSm5JRENOVW0?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T05:54:48Z",
+ "updated": "2026-11-09T07:06:35Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
