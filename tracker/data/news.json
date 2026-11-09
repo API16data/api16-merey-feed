@@ -431,6 +431,16 @@
    "origin": "rss"
   },
   {
+   "id": "63acfedb588f",
+   "date": "2026-11-07T02:15Z",
+   "title": "China Won’t Have Claim to Venezuela Oil Revenue, Wright Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV0txdjFOSDFvRWh3S1UzcGRWVm1jVmVORE1DTTZxZENpUlU5ZENSWWVySHZPLWp3NjJzNVJVZzFmZTkyd3NrV2Z3QlhCSzhJUlR4UG5IS3h2Y0V0NjVFcVhHVVZUa2dLVUt6aF9VS2FyTWpyR1pVMU45SEFEQWZRbUMtSWhzeDhNRTQydUd2TlctYVU?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "6ea8bcf909f6",
    "date": "2026-11-07T01:51Z",
    "title": "OVL looks to operate 2 Venezuelan oil projects",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "c5928e01e3e5",
-   "date": "2026-10-29T21:38Z",
-   "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T02:50:30Z",
+ "updated": "2026-11-09T03:46:02Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
