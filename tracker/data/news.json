@@ -1771,6 +1771,16 @@
    "origin": "rss"
   },
   {
+   "id": "0c9ed80824a3",
+   "date": "2026-11-05T08:00Z",
+   "title": "Chevron (NYSE:CVX) Stock Forecast & Analyst Predictions",
+   "source": "Simply Wall St",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6TDlhSWRrdWVyekFhYVVQQVk5dktOYWRkUjk3UTF1ZGVwWWE4RjBMMzdUTXFhcllYTWxwRkNSaEtCRmszSEtGWVVhSWdBanhPTndaUkRrb1ZLNFVsRXRjanI3enk3cllmV3pBb1VXMA?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "371f81ecb849",
    "date": "2026-11-05T07:11Z",
    "title": "Fluor Partners with Inelectra in Venezuela",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "a4df657d1674",
-   "date": "2026-10-30T04:45Z",
-   "title": "Venezuela’s Machado lauds Trump for ‘freedom’, urges 2027 elections",
-   "source": "Al Jazeera",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWlFSGV6RTJfRVg0NHpyQ3A2Q1JOWFRhdjZPUGZPZDY0LXNuVDVWdFo0aUZEbW5CR0EzOTJxaEoyNlA2bDctSms0TmltRjhvcWNHNGRtVjRMNTBwLVp5OW84WWh6RnNmMzRtQVZaRXN6SzVDSjM4bTJjNFhRb2pycHVrRU1hQW9yQ0JmcDB1QUIwNkxsR1VLN1NXRUtoaGs3M3R1RWNlWdIBrAFBVV95cUxQWU12RmZqd1JldklYQURWU0NoNjJSRlZ1aDctRlg2RFc1WGxKWkpiOUY1Szgtd1d2ek1GOG5pT014UVUyRHFmY05WcHVpZnhMcDJFMFVZbGFWa2xlMWdoaDc5c0ZhbVA0Z1Y1c2xQSUVHY3ptaTczVm0xSDVVX2prZTRWSWpTTm95TUhIeEFHTmZBZEhHVVYzQlZfYWZZQUdJV1lwNnlReXQwVHRi?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-09T15:21:58Z",
+ "updated": "2026-11-09T16:30:12Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
