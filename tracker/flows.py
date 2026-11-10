@@ -7,8 +7,9 @@ refining port. Everything else (products, LPG, asphalt, cruise, cargo) stays out
 
   high      crude terminal + large tanker (>= 225 m or >= 40,000 GT) + U.S. refining port
   possible  crude terminal but size unknown or mid-size tanker, or a large tanker coming from
-            a storage / transfer hub (Curacao, Aruba, Bonaire, Sint Eustatius) or a refinery port
-            (Amuay, Cardon) to a U.S. refining port
+            a storage / transfer hub (Curacao, Aruba, Bonaire, Sint Eustatius) to a U.S. refining port
+  left out  voyages from Venezuelan refinery ports (Amuay, Cardon, El Palito): mostly fuel oil and
+            products, not crude
 
 Volumes: the draught estimate from API16's AIS when there is one; otherwise a typical load for
 the ship size and terminal (Lake Maracaibo loads are draft-limited, about 9.4 m). Every figure
@@ -49,18 +50,34 @@ def cargo_from_draught(loa_m, beam_m, draught_m):
     return tonnes * 6.8 / 1000 if tonnes > 0 else None
 
 
-def typical_kbbl(length_m, lake):
-    """Typical cargo, thousand barrels, by ship length and terminal."""
+def typical_kbbl(length_m, lake, gt=None, dest=""):
+    """Typical cargo, thousand barrels, by ship size and terminal.
+
+    Gross tonnage separates tanker classes better than length (an LR1 and an Aframax can both be
+    ~225 m long), so it is used first; length is the fallback. Merey 16 is ~6.5 bbl per tonne.
+    """
     if lake:
         # draft-limited: about 9.4 m whatever the size (NAVE NEUTRINO / IONIC ANAX)
         return round(cargo_from_draught(length_m or 250, None, 9.4) or 400)
+    if gt:
+        if gt < 35000:
+            return 300      # MR (~45-50k dwt)
+        if gt < 50000:
+            return 450      # LR1 / Panamax (~70-80k dwt)
+        if gt < 75000:
+            return 650      # Aframax / LR2 (~105-120k dwt), full at Jose
+        if gt < 140000 or "LOOP" not in dest:
+            return 950      # Suezmax (~150-160k dwt); VLCCs only discharge at LOOP
+        return 1900         # VLCC
     if not length_m:
         return 650
     if length_m < 200:
-        return 300      # MR / LR1
+        return 300      # MR
+    if length_m < 228:
+        return 450      # LR1 / Panamax
     if length_m < 265:
-        return 650      # Aframax / LR2, full at Jose
-    if length_m < 300:
+        return 650      # Aframax / LR2
+    if length_m < 320 or "LOOP" not in dest:
         return 950      # Suezmax
     return 1900         # VLCC (LOOP only)
 
@@ -100,8 +117,10 @@ def main():
             conf = "high"
         elif (lake or east) and (mid or not (length or gt)):
             conf = "possible"
-        elif (hub or vref) and big:
+        elif hub and big:
             conf = "possible"
+        elif vref:
+            continue  # Amuay / Cardon / El Palito are refineries: they ship mostly fuel oil and products
         else:
             continue
         # API16's draught estimate belongs to the ship's current voyage only (arrivals in the last 21 days)
@@ -109,7 +128,7 @@ def main():
         if est and (est.get("draught_m") or 0) > 0 and conf == "high":
             kbbl, method = est["kbbl"], f"draught {est['draught_m']} m (API16 AIS)"
         else:
-            kbbl = typical_kbbl(length or (250 if big else 200 if mid else None), lake)
+            kbbl = typical_kbbl(length or (250 if big else 200 if mid else None), lake, gt, dst)
             method = ("typical Lake Maracaibo load (~9.4 m)" if lake else "typical full load for the ship size")
         voyages.append({
             "name": l.get("name"), "mmsi": l.get("mmsi"), "imo": idt.get("imo"), "length_m": length, "gt": gt,
