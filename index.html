@@ -397,7 +397,7 @@
 
   // ---------- map ----------
   const map = L.map('map', { scrollWheelZoom: false, attributionControl: true, zoomControl: true }).fitBounds([[8.5, -97.5], [30.5, -60.5]]);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap contributors &copy; CARTO · Port calls: Powered by Global Fishing Watch', subdomains: 'abcd', maxZoom: 12 }).addTo(map);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, NOAA, USGS · Port calls: Powered by Global Fishing Watch', maxZoom: 12 }).addTo(map);
   window.API16_MAP = map; window.API16_LANG = () => LANG;
   // the main route, drawn for orientation: José terminal to the U.S. Gulf Coast
   L.polyline([[10.1, -64.85], [12.3, -68.5], [18.5, -80.0], [23.5, -86.5], [28.8, -93.8]], { color: '#E2A548', weight: 2, opacity: .7, dashArray: '6 8' }).addTo(map)
