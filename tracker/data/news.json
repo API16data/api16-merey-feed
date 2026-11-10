@@ -11,6 +11,16 @@
    "origin": "rss"
   },
   {
+   "id": "cc1c8c0ae2bc",
+   "date": "2026-11-10T23:04Z",
+   "title": "El mapa interactivo de Transparencia Venezuela para monitorear negocios petroleros tras opacidad del chavismo",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX3N0dXlYX3pnQ1FfMFdTaXFIYzlBWWRjZk5qeXdobXM0aGNvTjR6THo2UnBGbXJFWTJueVR1YXFXS0VVLXJKaHpiLWpUd3JQaDFGeElQVXRtSjhFWXNsNjM4cmtsSVVmZzFnU29lUlliMnFHUmNDR0JIWE9ROTVPNktiRTRBZmNQRWZqSjVYUTZHc1ZLeHE1MGNrOHV5cG9VV1hqQ0ZpS2hGdWtEMXRLd0hsSlVzaFRlc2pDX0JMMW5PeDgxVXNSb0FyUzZnVjBWYnN1MTZXMHdua0E?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "60bf8f9db502",
    "date": "2026-11-10T23:00Z",
    "title": "#TeExplicamosElDía | Martes 10 de noviembre",
@@ -4281,6 +4291,16 @@
    "origin": "rss"
   },
   {
+   "id": "3fe76a4a0c63",
+   "date": "2026-11-04T12:58Z",
+   "title": "US Issues License Authorizing Oil and Gas Exploration and Production in Venezuela, Treasury Says",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM3Vhd0JCZnhNR3dmd28tazZBOUZ1a1JuZjVJd09FSkZPYTdzYUdwNlJid3l3Znl2dDdsTVdnNFlBd3dqTFdmOG4xMGM2YzNiUGtCenhGUk5MUk1NMkYtVE5fblRnNmRnVHJzc0RfaHg5VjVFcGswZ1pIczZteTY1bEtBYW1nRm8yb0FBb3lVd1hBR1RTV0xwRnJ4RjZHbE5nVzlTTUZ4RDkwaTBuM3liT0hYQWhrWEpRYVlwVF95R2RKWmM?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "3010ccaa9857",
    "date": "2026-11-04T12:47Z",
    "title": "Venezuela’s oil revival moves cargoes from shadow fleet to mainstream tankers",
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "55f8f421e26a",
-   "date": "2026-11-01T08:50Z",
-   "title": "An Ex-Trump Buddy’s Exit Offers Clues on Venezuela’s Next Phase",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPakhMWVlsMHVaTmlCQUZHLXFDcjlRcjdmNnJXZ2l0RkZGZkZiOFB6QjBRb2xjQ1JSM3YwblhvTThoa3pISHVyekluWExmNGxmT1VYSnkxYWpoQW9YMXJrTXR2Y05KYlp5by1aMmJzUjdSMjhXTmstLUVBVmNYY3ByaHk0Qm9IeWp0OEJ4MlNHdjQybHdYajk0?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "ffa3adb0de56",
-   "date": "2026-11-01T07:35Z",
-   "title": "Iranian oil tanker reaches China after 3.5 months at sea",
-   "source": "Al-Bawaba",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2o0UHVBVXRmUTNKMWp1YWRCZ3JodnlZOWprUTRDaGRyYmxvbnBUTWNPY3NxVkFuOEFpTzZuLU5WTHRJZXRTNUZoMFp1akFQdU15UHczUElUOVY4dGlRam5qODZyQmFPWU52eU9kQUx0VFdkUHhDelhLV0VmQmg5R0VPaXZ2U28?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-10T23:25:46Z",
+ "updated": "2026-11-10T23:58:59Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
