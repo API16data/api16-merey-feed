@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-10T07:10:30Z",
+ "updated": "2026-11-10T08:57:28Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 563343100,
+   "imo": 9830288,
+   "name": "HAFNIA HONG KONG",
+   "length_m": 228,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Houston / Galveston / Texas City",
+   "last_seen": "2026-11-10T08:57:28Z",
+   "destination": "USPAS",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 500
+  },
   {
    "mmsi": 538012456,
    "imo": 9403475,
@@ -15,20 +29,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 700
-  },
-  {
-   "mmsi": 563343100,
-   "imo": 9830288,
-   "name": "HAFNIA HONG KONG",
-   "length_m": 228,
-   "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Houston / Galveston / Texas City",
-   "last_seen": "2026-11-10T07:10:30Z",
-   "destination": "VEAMY>USHOU",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 500
   },
   {
    "mmsi": 352001337,
