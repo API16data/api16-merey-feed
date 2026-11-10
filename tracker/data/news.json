@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "34cbdd7d128f",
+   "date": "2026-11-10T05:13Z",
+   "title": "Presidenta (E) de Venezuela lidera firma de memorando de entendimiento entre PDVSA y ExxonMobil",
+   "source": "teleSUR",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU2ZDUTVrR2ZhNWlzRmY4RmdiWmM0M1phYktpaUxQQ0Zlck0tQ2J4aF9yaUFzZnVlT3BmN1RreTk0bDFXUzJhalVFcHNWdXFWVWVtTThwN203cmNpTk9QLUNrSFlDU2VlNnZyZW4xU00zZmswajVaM3JsSmdGV1JHdGN1Nk85MjN0QmNlYXVxMl8?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "84c25eb3b55e",
+   "date": "2026-11-10T05:06Z",
+   "title": "ExxonMobil firma acuerdo preliminar para regresar a Venezuela",
+   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVU5cWdFYzNBb3FxaUk0bTZMV3dSNmFrN2o0dXZ4VkNZVTM5VTMyMWhCREJfaEJNZmZpR0Q3SHE1RHU3eEtaRU1udEMwOFA0T3FCWTJqMWN0X016b2xHa20wN3R4TjhFQ3lOWXNZMm9ORUczVmZXYzR1RmZWQkFneE4tRGt5TmFVa1dQalY2eE1SaXNUMUl3?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "6122d7b12753",
+   "date": "2026-11-10T05:00Z",
+   "title": "Alejandro Betancourt, el puente energético entre Caracas y Washington",
+   "source": "Escudo Digital",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMTRKWElnNndnTlBFcEZYRkRmeXp2U0Q4R1N0TEhENHpHenBRUmJVV1FlUWRxX0lybllYRVFYcS1YTHNxVHd4V1lnd2c3ZEl4eXh4WFVxN2JER1JXLVRya3J5NGNtUDl4S3pYUjE2TmxRRVRieUVhUkQ1SHNMQXpfV0YtanZoSDVUVWJ5Z3ZKM001Z29DOWQtUUtXOFVENVhnSVBFejNXOVR4QUJQYXRsN2tYMVJSdzc0UWlBNDEtUlpGajVGUTVUd0JUZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "e6629b1abfc3",
+   "date": "2026-11-10T04:48Z",
+   "title": "The Shifting Sands of India-US ties, under Donald Trump",
+   "source": "Tatsat Chronicle",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ1EzeUxGbEluNGdJNmxVZHpOWWlCQXdzY0tQWkdHNlQxeGVUb2dxVGttYkgwdzk1c3ozZUx4bTg5SFp3aHhhNFVqLWtTTllWeTBzZDljdE1FbHdhazNyUGRtaEpxZUNUbXVxWU4zeE5yNEVkc0M2em1HUGFod0ZlTkZ6OGxOaWgzRHBv?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "076fab44e3d8",
+   "date": "2026-11-10T04:47Z",
+   "title": "ExxonMobil suscribe acuerdo con Venezuela para explorar inversiones petroleras",
+   "source": "TalCual Digital",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeFVFbE91WDJibTVqN3U5OFJBT2staVR0QzBTdWJCQTRGWmw3UjQya2ZVOWJZSHZkenFMUDU1ZklXYkx4VXVRTFFYdG9OVUdtT3d1cWVHalliZVkzLXBSN2JOOFVWRVFSc083ZTBpZ3NqWHp0TnRzWDdsM09PSXNFM1gyY2xFdVI3MFp5LUo1UjNPZFlONEZGSXFkLUt5X3pQS3RfSU9KSGkwWGZGLUdfSmtOdnJrUQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "46f934a39c2f",
    "date": "2026-11-10T03:43Z",
    "title": "ExxonMobil signs deal with Venezuela in step toward re-entering the country",
@@ -8,6 +58,16 @@
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONm1zMm5wVlJhZjVDdXkzQ05VV2JmQi11bzZNdjRHeE5GWU9sUkQxZ1QtazgwTGhKMUlzQVNEQzF5NENHSTdUcnVSQURfcE5aTF9vUERrRTk0dGRvalZFNVdmaFdjNldhOEl2LXA4VGVYWk5NZWduV0xNZjZMVHBtd1MybEpqbDJXTjVxckRZUU1sQ3lCS0dCVWw0X2Z2QnQ1cEI4MW8xOV9Ma3FKZF9LUDVtbnpSRng1cHZJYndzaGczQ1Vlc0pOWUVjVWNZVmhxMUFWZ3pBc9IB3AFBVV95cUxOR1N1cFZZdFRXLVdKN2N1MndVYXlRSjBzbGxjT2hJeWVlNWpVMWo0eEctbl9mRnoxZ0g0ZVZrYkFOSHRBeUhIcTR0Q3FUVHZiUXBQWXpsRi10VFRfNGFjbDlNZVFRckpILU1neVhvN0FUMnljV1V2ejdKU0NQQmFGVzktN0lDcV9USTlJakRIVmlPTUF2bXJMTXZ4bnhPNlI1TmJIRHdFYUNvOVdmd3pkNWlHcFdNTW5JaS02V1VSRnUwcXVWZXowWDVJeWJIV21vYXFDdUc1WE5ZMHl3?oc=5",
    "category": "Investment",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "f1a4f969b79b",
+   "date": "2026-11-10T03:34Z",
+   "title": "Exxon Reaches Preliminary Deal to Return to Venezuela",
+   "source": "Demokratis.co.id",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90ZjMzRFoxSW1TbHp0X3l0NjVveVBYUFRITi15T0FzbUFHeXNxY2tqb2xLWUpYTndHNmIyMTIzYUtZZkk2Qk9zbGdnc203RHNTQlZsY1Btb2pVSmJaM3FKTmt4M041UQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -126,6 +186,16 @@
    "title": "#EnVideo📹 | Petróleos de Venezuela, S. A. (PDVSA) y ExxonMobil suscribieron un memorándum de entendimiento para fortalecer la cooperación energética y evaluar potenciales oportunidades en el sector petrolero venezolano. #VTVCanal8",
    "source": "Instagram",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQeGxwUHpyRzlWdmFTR1JJQ09PanpCZFZZWHhCQlNJY3k2V0NWcklXNnJudHUwakFVelpXbHg4UjJtcmRNSmg2RVJPc1k5ZEh0ZENoWUpn?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "daa1e75b8f8b",
+   "date": "2026-11-10T01:33Z",
+   "title": "ÚLTIMA HORA | Presidenta Delcy Rodríguez lideró firma de memorando de entendimiento entre PDVSA y la empresa ExxonMobil",
+   "source": "La iguana TV",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUxmQUtXZUdVOTJWQVA2eTNjeGE4TDFtT0FrN0FEY2VfWDVzRTBSMEhtR2ptZXo1UWMxQkN6RmZGQW1PLWk4VEQzajU3RzZKdGVzWUtDdTJuZEZ2TjJPbHVpejNCM2lwc19XTmNrSDB3enZPdXVHcXVWYXRlLUNlT3V3WTNhN1pHX2ZaMDBZelItci1fMUlucTJRcFBNcUNiS2hNTGUycWRHblpsQW54NE5HaW5FQWtvRlVndXBFT3BoM0QwQ0E?oc=5",
    "category": "General",
    "via": "Google News ES: PDVSA petróleo",
    "origin": "rss"
@@ -278,6 +348,16 @@
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeGtaMm05VzlzQ2RKNUY3aFNUdERYdGpTeGRiY3pWZW1MeVNmTVNCWE90dm90WnlwTVZtMW1OUGZwU2Q2NG53eUZsd3htTllKRjZmM2xvSzlOa2dvVlVZN3ZCcHBHMEUyd2pOUV9JUm5JdTEyZXpGZEYzbUdzSktSa1JuSEd4T3V1STBvWktLN1JORTNIVGdIRzRpbEh4UWZTTkVPWXpqMmVxS0JhekxxQnJaZmVDV283LVJGbnV6dWpoOGFYUkR4VWcxYWEyLUd2RERfT0kwS1V4SVFScmdv?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "ec0f2cfe3744",
+   "date": "2026-11-09T23:15Z",
+   "title": "US Claims Dominance in Venezuelan Oil Reserves, Citing 'Biggest Deal in History'",
+   "source": "Lokmat Times",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSHRMZ2Yzc1Z6YS00OW03TUJJVEpsYzZPV3g1b2JRMnd5SjJ4Y0VwVklnUVZoNHZNTHZfY2hqdjRhN09CS0s4VXZvMHdJaGZDZXJvSEZtLU4wdWdOdzkzaVNNM3VGNm1iMEpQS0w0eVBaNldvU2RWaTBKSzZsNHNZck5hZ2ZmQ1d6NXFDYnRaZUNMSkM5ZnhwdklSVlBUMWo4SXV5bFB3cmF6anhYb19vcDVEWDVQNkRCUXFsSGRzT1RyM21uMkk00gHOAUFVX3lxTE11d252clNqR05wZ0t3UWE3ZFdaSmtjZUxqWFlGRFhaTlZqajhuQ0NNMmx1SzloTnZPR0R1bmJISGQ1WFBvdnFudDhOaGRIajFpQnZlMlN6c1UwLTdSWnpHWWZZeU9YaDNDYUVSeTZ2QVhwWnNWaDVSQzZOMGlDekRTNlVGeXNQUEVsU2VtUFJoazJUem9HRXlTYzZBTjNZYXVMQ2paLXdaQnhxNFVNMGxPMVZ5SU15NUpqQzFJbV9BMGYtRHpuRGxLZldxN1pB?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -1118,6 +1198,16 @@
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeGdxYUFiREVxVnREZDltZzVzLXBpOTNneTNTdVU2a0Z4MGxsMklhVmdmUHpZamdVdkRLcWtrMm1JX0FBX1RkTnppSzEtVkk2a0ZrdXE3bzIwNDU2QWJWeVl4aldnOXp4bk5fV3BRb3VNTXpUY3JrX215NlRsc0J1cTBrU2JwbFZwUUxnb3JkdndPS0VmcEpsZ3prdWs1clI3ZFBVdlhHUE1ZNVVwdlNyVFJPYzFTbmY5MUxpdWRfMkYwcEplYXdidQ?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "d6cd178f3a46",
+   "date": "2026-11-07T08:06Z",
+   "title": "Chevron Corporation",
+   "source": "Britannica",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtV3huek5XemZZeDZXTUw0ODZHOEwtbHpMejVrTmNYRFBlT2lUc1FhaDJNcUFJM1U2c2ZxZWpNZUlfSTZqc1I5U183MnMzeGtPaXZpc3NVcG9hUThjdXBDb3N3?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -7641,96 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "449f9eb11cfd",
-   "date": "2026-10-30T16:06Z",
-   "title": "Freight rates for Russian oil stay at record highs amid tanker shortage, Black Sea risks, sources say",
-   "source": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbEFZQWs4WExFWEF2c2tjVWxEQzNTSEJtbnJvMk50cktTenl6V1RESVFaZ3lBREdZNXRiNjZQS19RQUkxRE5RRHpONXNnVk5DZG05ZEtuV0ZaRUZrRUduYkZOaFdNWVlZeVNabi1ld3cwRzJleG9Lbi03cldTYmFxdXFpRUJUaGQ3YlB6MkhQamlmWk5zaDVhc21hVk82UHZ4dS1yX045TURoTHlCdGRpR0ZMNjBteVdxZVFRSjJpMHJ0WXhYeVNGeHRtLTBHMzBFUFB3cmUtdmFxLXBfOGFObk83MEwxdw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "4bde4463ec52",
-   "date": "2026-10-30T16:04Z",
-   "title": "Chevron: Investing $7B Over Five Years in Venezuela >CVX",
-   "source": "Moomoo",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb3cxbDdTM2dWSFp1aFZrNS01M0t5eGZ5RTlibldaVVZRZG12LVNnLWxQOWJGX3ZvUndoUmVLSmR4X0o4SDNVTDBxSHpzTGdaVWhpdVVwNjF4TGVnRG96cENXTzBqWGlDcS02N3oxMjk1VTkzX1NNOEJYZHFDVkszXzRQXzJvcF81RkU3T0xwT3lrbEpqaHFxdi1vcU1yQQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "da60eca5c04a",
-   "date": "2026-10-30T15:58Z",
-   "title": "Sanctions: the US perspective",
-   "source": "Global Investigations Review",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRjRXLWNPRnF6QWcyTmJnRjN3cjhUOFNHd3hrYXdQVU93SWRvYTY2MU1mWG1Xc3FtYU95YUVxM1JfR3NvYzZzX0hrS2pvSGpJYzVfRW5iZDJlXy1SVEJsdXZ2MEctTkZHaUlINDVCVk9GSk54WGJhNjBLUDlnYTFUc1FWZndZU0VJcHZlRjFMUk9LRE0yZ1oyb1FNSEFwR3B1alNtaExoQ1NpMzMtbVQtd0paalROVE9oVndfMnlNYkJEOHBiNDg1WUtmYzk?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "40642c0072fe",
-   "date": "2026-10-30T15:47Z",
-   "title": "Diputado Ramón Lobo resalta necesidad de ajustar el marco normativo en las leyes de economía digital",
-   "source": "Promar TV",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb1c0MmhTZjJvYmpNT3lhbE1nVFozN2lReWtJT0hidlFSX0pfZkFTSHNaTG04dXZ4TF94NzlUdjZVY1VwWUtFa2NLdU83QTVBOUI1VnFEaGhYeDZoTkp0aHJQd0tmTk9PN25jUXRDZ19hMEp6UWp5OFVPeEVJQkxxWnh2dEVaWTgzb2tBSUF4SW12N2ZfLWJqdUhVMGxfMUc0eGdOeWhHWFRtNzdVZFJnYWVDNE5IUUUxQ2ZrQzdKal8yWU13X2FCVWFZS0RBSkU?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "63fdd69567bf",
-   "date": "2026-10-30T15:41Z",
-   "title": "Chevron reports profits of $9.9 billion in Q3",
-   "source": "Inspenet",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DTVZZVzRHbm1KQ0prWEdoVnJCWHFydTNTT1lEZE1wS1llUDVudWI2RVBuekV4cU0zcVU5RFpGbFhzc3RFYzRyNm9kMkdnT19tWmZOTUVUci1oODBtbXlNZkZ1akVUaGkzdVFCaUYzcDNMUWZEdEE?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "57283ac5c7e4",
-   "date": "2026-10-30T14:54Z",
-   "title": "Venezuela negocia 44 acuerdos petroleros y abre activos estatales al sector privado",
-   "source": "Rumbo Minero",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbndaVjhQNC1ZalJ0T1IzXzZOeVRyS21RN1Q5a0xvLXV4WlJjOTYteF9OdEpjVFY3ZFU4eHppSXJtcllmNkZOM09jelBLS1pmWkJjTTFzblJ4M2FVZDNMcWIzOFRHbW5JNHN1V1ZLWXo2bkprWUpabmd1TV9fZWZCbDZiZ1NBM1BsQmUxeDRFZUdOS1FTWDdUVm5SQXl2N0g0c3ZuVzlueUNpaEVXclRraG9pckZFaWZ2cTNrRFh3UVhCT0E?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "7714a73d41f0",
-   "date": "2026-10-30T14:47Z",
-   "title": "Chevron beats profit forecasts, plans Venezuela investment as cash flow cools",
-   "source": "finchannel",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOFhNQjFkOERtX2J5Q25SVHdrTGpKclZwdFgya2lXNE1obW1KaGo1bDE4LW5jTXVuN05pRVFTLWoyaWhLcC1JMFBvQTVJM2FEVVFfQTduM0Rnbk0tdW9kTGtOTnplZ3ZtSzhBVW5OdmxyZThqWjNybzNuMkZ6OWhyRS1IcWRuY2wwQnBpVTlrOGVkLUItT3BobHJtSnpKUFdXZjJoNUw4STh0Vk5mcnZzSVEwNUt3S3FNRnViZGlTNDFBc0xKN3ZCR0VtZ0xwX0RZdFBmdmtNNXkyTnUzN21kQnhVWVhBXzZy?oc=5",
-   "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "7d822e055b36",
-   "date": "2026-10-30T14:42Z",
-   "title": "Tanker in Strait of Hormuz hit by limpet mines, security sources say",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjdDdUxXVENSNGdpbWJZOEp2QXMtSy1WSUdCVFdHc21FVnMwTE9uMC1xMkFEaS1wTHRjd2JMQzFTZEtPX0drQ3hPMlZVeDlITnc2RndQRElNUy13Ny1UdXpROVVpejNQRHJ4a3l6Q0t3TTZwOUptZDNKdlRVQWJXLXBxTldad19oZUFGS3BKSUlLWlk3d055R290THF3ckRWb3hRYjlR?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "86a0a736c6b6",
-   "date": "2026-10-30T14:39Z",
-   "title": "Exxon y Chevron disparan sus beneficios impulsadas por los márgenes de refino y diésel",
-   "source": "LaPatilla.com",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOak1mY1laOFFucHdpVUJ5dXI3LWY0b0JBRkxXSWRZaEw1X1BpWlEtdm1KQTVweXRBellBRV93YnAwVFF3SXJtcDlmN0NJUGVpUDl2STM2MWEzYlhjQUs5bUFLM21JSzhBcm5wVWR5OG53TUNYS0VmSjI3R0tUU09VTHRoUnVXenVJYW9fR1ZFUmRvR0twZGQtakVtTGlQeS1tZ1Q3Sk1qUGprVkdHWHM3NmNsZTJFcnBMQjE4cg?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-10T04:43:08Z",
+ "updated": "2026-11-10T05:44:16Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
