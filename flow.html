@@ -117,8 +117,8 @@
     'The voyages': 'Los viajes', 'Safe: large tanker, crude terminal, U.S. refining port.': 'Seguras: tanquero grande, terminal de crudo, puerto con refinerías en EE. UU.',
     'Arrived': 'Llegó', 'Vessel': 'Buque', 'From': 'Desde', 'To': 'Hasta', 'Est. cargo': 'Carga est.', 'Range': 'Rango', 'Basis': 'Base',
     'Possible cargoes (not in the headline)': 'Cargas posibles (fuera de la cifra principal)',
-    'Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub or a refinery port.':
-      'Posibles: terminal de crudo pero tamaño desconocido o mediano, o tanquero grande que viene de un hub del Caribe o de un puerto de refinería.',
+    'Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub. Voyages from refinery ports (Amuay, Cardón) are left out: they ship mostly fuel oil.':
+      'Posibles: terminal de crudo pero tamaño desconocido o mediano, o tanquero grande que viene de un hub del Caribe. Los viajes desde refinerías (Amuay, Cardón) quedan fuera: despachan sobre todo fuel oil.',
     'high': 'segura', 'possible': 'posible', 'Lake Maracaibo': 'Lago de Maracaibo', 'Jose / Puerto La Cruz': 'José / Puerto La Cruz',
     'Paraguana refineries': 'Refinerías de Paraguaná', 'Caribbean hub': 'Hub del Caribe',
     'typical Lake Maracaibo load (~9.4 m)': 'carga típica del Lago (~9,4 m)', 'typical full load for the ship size': 'carga completa típica para su tamaño',
@@ -232,7 +232,7 @@
     const vc = $('section', 'card'); vc.append($('h2', null, tt('The voyages')), $('p', null, tt('Safe: large tanker, crude terminal, U.S. refining port.')));
     vc.append(vt(vs.filter((v) => v.confidence === 'high')));
     const det = $('details'); det.append($('summary', null, tt('Possible cargoes (not in the headline)') + ' · ' + vs.filter((v) => v.confidence === 'possible').length));
-    det.append($('p', 'note', tt('Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub or a refinery port.')));
+    det.append($('p', 'note', tt('Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub. Voyages from refinery ports (Amuay, Cardón) are left out: they ship mostly fuel oil.')));
     det.append(vt(vs.filter((v) => v.confidence === 'possible'))); vc.append(det);
     main.append(vc);
 
