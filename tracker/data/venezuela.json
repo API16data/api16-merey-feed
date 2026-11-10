@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-10T03:53:42Z",
+ "updated": "2026-11-10T04:56:11Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 352001337,
+   "imo": 9567764,
+   "name": "SAN MIGUEL",
+   "length_m": 122,
+   "why": "seen in Venezuelan / ABC waters",
+   "last_zone": "Trinidad & Tobago",
+   "last_seen": "2026-11-10T04:56:11Z",
+   "destination": "TT PTP",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 300
+  },
   {
    "mmsi": 538012456,
    "imo": 9403475,
@@ -9,7 +23,7 @@
    "length_m": 240,
    "why": "reported in the news, not confirmed",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-10T03:53:42Z",
+   "last_seen": "2026-11-10T04:56:11Z",
    "destination": "USBPT",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -22,27 +36,13 @@
    "name": "HAFNIA HONG KONG",
    "length_m": 228,
    "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Open sea / other",
-   "last_seen": "2026-11-10T03:53:42Z",
+   "last_zone": "Houston / Galveston / Texas City",
+   "last_seen": "2026-11-10T04:56:11Z",
    "destination": "VEAMY>USHOU",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 500
-  },
-  {
-   "mmsi": 352001337,
-   "imo": 9567764,
-   "name": "SAN MIGUEL",
-   "length_m": 122,
-   "why": "seen in Venezuelan / ABC waters",
-   "last_zone": "Trinidad & Tobago",
-   "last_seen": "2026-11-09T18:57:56Z",
-   "destination": "TT PTP",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 300
   },
   {
    "mmsi": 636016725,
