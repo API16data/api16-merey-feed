@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "472a11b44087",
+   "date": "2026-11-10T10:07Z",
+   "title": "ExxonMobil firmó acuerdo preliminar para regresar a Venezuela",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdXBUcTNDdDI4X1o2SEV3cjhrWTlGdHQ1a01lcGV6RDBQNEltZlVOVmJFMUFZY2xqd05JYl9TRWdLU29IeEl6SUNhLXViaTBFM1FZNGNCUTd1SEFndnM1YWlGa3BHV21nQnNnSXNNREJQZ0R6NW5WQUwtZzVlTldxYVhuWURxaUxReUpuVExOcFJDYVR0Q0M2QmZ4MXNIUQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "fec83cbc21b4",
+   "date": "2026-11-10T09:34Z",
+   "title": "PDVSA y ExxonMobil firman memorándum de entendimiento",
+   "source": "El Regional del Zulia",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcFJvS0JEXzR0X0prcHpyVGZwbDNBSEtWc2lHWDVfM1JMSG5ieWYzOWFvbGFiWWdDVXBlaEdyUk1ZWnBNX0ZndFNWYXVLVXYzd0pYLWxEeVB4S2FJazREMlZ2aklkemc0aVM5SjBYcS1IeTRWWXRlNzlYbjJuS0dmV013dTZjQW5iaFIwTU9SLVFkZlFxbHc?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "870a01f97555",
+   "date": "2026-11-10T08:51Z",
+   "title": "(VIDEO) Delcy RodrÃ­guez sobre acuerdo con ExxonMobil: Que se traduzca \"muy pronto\" en compromisos: \"Le damos la bienvenida de vuelta\"",
+   "source": "Aporrea",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tLVpxVWFZejJxaldKSVo3MTNRSExOS29HcjB0SklyaVdZR2ZDa0Zoc3lvTVJUV0xUVkRhdE9pSl9vR3dlZnlLSkRhb0RucEw3RVBaUWlMVdIBXEFVX3lxTE1icGF6R3BQelJuZVBaVmlnZG5UeDdxYVZMZlFjUFhtVGNEb2lib252VklYQnVNYVIxNzlNeUgtX2xfTnNQdmtrUy1heEh3Xy1ZR1F1VnhnRE1Zc1Va?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "8ff8b5067221",
    "date": "2026-11-10T08:22Z",
    "title": "ExxonMobil Eyes Venezuela Return After Nearly 20 Years",
@@ -16,6 +46,16 @@
    "title": "PDVSA firma memorándum con ExxonMobil para su retorno al país",
    "source": "Diario Última Hora Digital",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUkF4Y0pLc3ljVGhlQlFkVF9uLWcyWEdSN055M3BXYjgxMEhTMHluZGlkRlZZRWNEMFUySFV6T1JMRUpQTXU0U0RBNklyV0tzT01Ub2o0aDN4OWQxOHRvOWF2a09yZDFwb1hoNnhYQ1dvZlVjZHZxdUJOMGRpOXJzc3lBUFBwcUs4a181Wnp1RWJZTXdrXzNhMUJ6TlAxaGp5R0tYM3VUazFkblJMNk5MdGxIUFU4NVU?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "aa2013b53a72",
+   "date": "2026-11-10T07:53Z",
+   "title": "(Multimedia) PDVSA de Venezuela firma memorándum con ExxonMobil para su retorno al país",
+   "source": "新华网",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9PYmppbnNpQ2FxZ2lyZmlwUUZ6NnpWWnhXVTlXUG15NzFRelRVRVZ2NFU3cWVjWnJHWDdteXlnV0xFUV80LTVIOGV5aEZkUFdNbk10V1VPcDVYRGFwX0FwRmRoU3pYV1JuQnpYSVVIanIwTFlKT2tsLUlidDQ?oc=5",
    "category": "General",
    "via": "Google News ES: PDVSA petróleo",
    "origin": "rss"
@@ -148,6 +188,16 @@
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSFlKaWljbUY2ZmJWaE9fWm1EaW9USHJlYUlYUUNjSEQ3Z0NvUTlXVWtsMUZvVnpucnpxdTR0NUdzVzF2RUFxYW9pWHJpaVJRUjZPQktqeVNpTmdHRzR1VHI1bDdnNDRBSGtKbHh5c3JMY3VZbU5FSWw1ejd1eWdHS0l5UWhLQ0M5ZTZ3RHp3b1F2UllNUkNDLVFxT21fSjJpaUxnMUhHVWduOVRDSlYtZDVLbUo1XzdFTWEyczRtNlE1WTZXa0dOWg?oc=5",
    "category": "Production",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f1900a92ccb5",
+   "date": "2026-11-10T02:36Z",
+   "title": "#EnVideo📹 | Presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, lideró la firma del memorándum de entendimiento entre #PDVSA y la empresa ExxonMobil. #VTVCanal8",
+   "source": "Instagram",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HMnU1VW94UjNRTk9TbDhESjAwOXdWSVQ1U0xfSV9aTnN2TFJBZ2ZZQ05TWWhUUFo4ckJVd2FKUzJGajJYUWx5SnEzcEFaX0tZd29hX2Rn?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
    "origin": "rss"
   },
   {
@@ -7681,56 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "178657b5fef9",
-   "date": "2026-10-30T18:06Z",
-   "title": "Eni reactiva operaciones en la Faja del Orinoco con meta de 200.000 barriles diarios para 2028",
-   "source": "Promar TV",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONGZnNW1BQ1BvQ0d1alVycU5lbnpWYUkzbFRhUVNMSjBLcHlSSmRPVHYzZUdyaDFPNFBXZU5TX21RV0ZhNkZ5aHlINC1mdW5BQ1o0djhKOXJPRUhvMC1QeXdkVVczN1VLcmxhd2Y0SFdHZENvQ3VaNEJhMl9YeGZfRzJqZUlOQUM4bGhQTzFsWWhISnItWTNXM1NIYzJQQURqWDlhOW4wT2tacFVXWXlSNFgyYVhYb2FEYXdoNHlYbjRLakZSdmZV?oc=5",
-   "category": "Production",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "682447a4b10f",
-   "date": "2026-10-30T17:49Z",
-   "title": "Oil prices set for fourth straight monthly gains as tanker attack highlights supply risks",
-   "source": "The Lufkin Daily News",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPMXAxbWhmTEhIUU9LSWtGSWZ0bkV4ZXg2Q1VUR2xvZGFuTDhabFI4bmZ6ZTBIYVN3NGQtMzN6ZHRhS1JEaVFIby0zcFh0czY4SnBHYUg5TExXVUYwNmZERUNNSDdjcGJtWFVucnllZ0dUSVZoOFdWVy1EM0JZT25hcXRvVW1TSF8yQjk2N2lfM0w5TUlNdml5V3dRNDdfX1Z1RFk4Y0FBRTVaNUIxTkp4bkZXMG0tQlJKM0FzdFJSRUJZZkpDRml4Y0lnV0ZwS01zbGs5RGw3NDhkOG4xM21fQUxMc1VOWDV3Nk03U1J2V3FCZXRvSDMycU1WSWczamlLUlBCS1NLNWZNazVfeE9nUUZpT2liTGo0?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "d5b71b02f788",
-   "date": "2026-10-30T17:44Z",
-   "title": "Avanzan labores de instalación de autotransformador en la Subestación Portuguesa 400 – Noticias de Barquisimeto",
-   "source": "Promar TV",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWtPY2ZMenl5Q0tKS1ZyTTVXU2p3VHdFRlE3ZmRSdTUtU1NhbjBLejlJaThRM2VVWFlDZ2o5b3hVenA1ZGY5OFF1dnlEcEJHWE9IVnNKRDRSalJXTVpNTjB6bi1YY01nazJmOGpaNVd3Q04xZGxUcUdRd3ZKZVNwRWFIeHNmdXk3ZVROQ1Jic2FyTGRFVDBub3VCM25UWThNcHY5cG1yNl9qVXI4a2VfTXhCRXhtZzF2THc?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "31fe75166323",
-   "date": "2026-10-30T17:36Z",
-   "title": "Chevron proyecta alcanzar 300.000 barriles diarios en Venezuela antes del 2027 y anuncia inversión de 7.000 millones de dólares",
-   "source": "Globovisión",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYTNHanF6U3RXMkJJT1RGUVlQRmFPZnNmWmNXUGc0UkJ4a3EzY1FUeS1ESGJqeFhXa0h2eXhkOG9wZ3RXd25mS2JTRl85REt2TV9jYTVTeW16QUJaRnhoZFdEakttWTQ3bEMxYTA5YzRYalJNQkhXbW5mMjNLOWpnRWxqZXV1Y0dhNVQ2R1pncGdmOUhMVHQzRFVxTXFYYkhISEY2QVJ4VDdCU085SDB5OFJ5eGRiOERmR0pSYTlMR2g0dDM0VUt3Qi1vS0lnZlA3bi1teGVCOA?oc=5",
-   "category": "Production",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "70fc3bafe349",
-   "date": "2026-10-30T17:36Z",
-   "title": "Oil politics reeks of hypocrisy",
-   "source": "The Indian Panorama",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WSFFtUGxzUUtfYlpKNGhfcThoemVRN1NvUlMtUHhrWENjNHBBdHNmUGN2VTFuZVpyWUpJU01tTWJubExqejZ5REZWSjYzcHlRbm43YmxGVUJwYUhGSC1VdjB3TTFRcGhHZGRZTnhRSHdlVV92dlE?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-10T09:16:47Z",
+ "updated": "2026-11-10T10:19:57Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
