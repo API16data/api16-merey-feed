@@ -131,6 +131,7 @@ def main():
             kbbl = typical_kbbl(length or (250 if big else 200 if mid else None), lake, gt, dst)
             method = ("typical Lake Maracaibo load (~9.4 m)" if lake else "typical full load for the ship size")
         voyages.append({
+            "vessel_id": l.get("vessel_id"), "from_ll": l.get("from_ll"), "to_ll": l.get("to_ll"),
             "name": l.get("name"), "mmsi": l.get("mmsi"), "imo": idt.get("imo"), "length_m": length, "gt": gt,
             "from_port": l.get("from_port"), "terminal": "Lake Maracaibo" if lake else "Jose / Puerto La Cruz" if east
             else "Paraguana refineries" if vref else "Caribbean hub" if hub else "other",
