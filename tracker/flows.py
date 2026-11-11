@@ -138,14 +138,13 @@ def main():
             "left": l.get("left"), "to_port": l.get("to_port"), "arrived": l.get("arrived"),
             "confidence": conf, "est_kbbl": kbbl, "est_low": round(kbbl * 0.8), "est_high": round(kbbl * 1.2),
             "method": method})
-    # Keep the history: voyages from earlier runs that arrived before this run's window are carried
-    # over, so a one-off backfill (or the daily 90-day window) never erases older voyages.
+    # Keep the history: every voyage found by an earlier run (a backfill or a daily run) stays, unless
+    # this run found the same ship arriving the same day (then this run's fresher record wins).
     prev = (load(os.path.join(D, "flows.json"), {}) or {}).get("voyages") or []
-    first = min((x["arrived"] or "" for x in voyages), default="")
     seen = {(str(x["mmsi"]), (x["arrived"] or "")[:10]) for x in voyages}
     for x in prev:
         k = (str(x.get("mmsi")), (x.get("arrived") or "")[:10])
-        if first and (x.get("arrived") or "") < first and k not in seen:
+        if k not in seen and (x.get("confidence") in ("high", "possible")):
             voyages.append(x); seen.add(k)
     voyages.sort(key=lambda x: x["arrived"] or "", reverse=True)
 
