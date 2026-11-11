@@ -1,20 +1,22 @@
 name: GFW real routes
 
 on:
-  schedule:
-    - cron: "17 17 * * *"
+  # runs every time the port-visit update finishes, so it always has the newest voyages
+  workflow_run:
+    workflows: ["GFW port visits"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       max:
         description: "New voyages to fetch in this run"
         required: false
-        default: "60"
+        default: "100"
 
 permissions:
   contents: write
 
 concurrency:
-  group: gfw
+  group: tracks
   cancel-in-progress: false
 
 jobs:
@@ -33,7 +35,7 @@ jobs:
       - name: Daily positions, encounters and AIS gaps per voyage (Global Fishing Watch)
         env:
           GFW_API_TOKEN: ${{ secrets.GFW_API_TOKEN }}
-          TRACK_MAX: ${{ inputs.max || '60' }}
+          TRACK_MAX: ${{ inputs.max || '100' }}
         run: python tracker/tracks.py
 
       - name: Save results to the repository
