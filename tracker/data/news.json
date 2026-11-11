@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0cd4372bdda8",
+   "date": "2026-11-11T05:59Z",
+   "title": "EEUU respalda el acuerdo de ExxonMobil y Venezuela por su potencial energético",
+   "source": "América Económica",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOamZKcWZyTWRfeF9rUmswdmdvY0xhVmpEOFBJR1B1ZjQ3VmhCZk16V0JweTlMLWdPM3NfbXA5Y1pKaDFsTUJYbzF5TnJxVWRZaFphRzdsSXExakFtcjgtNGVmUDVhOWhOOFN1NFhXVG9tY0JzNVBmbkFERnJQTklYZjFfWHdHbVZfUEtr0gGQAUFVX3lxTE1xUlViSnRNc2hoc3RNTmRjRjV3c18xazQtOTBqeU5aT0xJZnVvb2J5Tno4X05SLXc0ck1zWE9IZVk1LUE0bmo1U25kaWhKTzl0UFlMTVcwWVlyWklIbGVoNHI0SmQyR3Z6LWxnbXM5VWxhNHdvRDJncU42V1NacVM1czlyMm1QRk56LWJKZVpOQg?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "65b3a29b73d6",
    "date": "2026-11-11T04:23Z",
    "title": "ExxonMobil Eyes Return to Venezuela Under Post-US-Bombing Hydrocarbons Framework",
@@ -7721,16 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "2fce70d952bc",
-   "date": "2026-11-01T23:26Z",
-   "title": "Venezuela dispara 236% sus exportaciones petroleras a EEUU",
-   "source": "El Periodiquito",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVkg4SEVVNVlpdHk1TUw4Z01QT01pYUtycGRQRHl6RVhpUndCYWlOVWF4cE03UUp2QU1rY09Sam1fOGFLb1Q1bWE0WGlGOTJtMmZQbENxUXB5eWp1NDFVSG5iNXEzUWptX0N3dlRGcHZrOUpVM3JWWTdWZ3BZM1JjZEQxWmNsZzNSQ2ZrNEF4cVNmdndkNjE5QXZWOUo1XzYydHM1RA?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-11T05:48:24Z",
+ "updated": "2026-11-11T06:54:35Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
