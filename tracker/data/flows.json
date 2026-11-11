@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:22:48Z",
+ "updated": "2026-11-11T18:53:21Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
@@ -131,84 +131,84 @@
   },
   {
    "month": "2026-07",
-   "high_n": 23,
-   "high_kbbl": 15469,
-   "possible_n": 3,
-   "possible_kbbl": 1700,
-   "high_kbd": 499,
-   "with_possible_kbd": 554,
+   "high_n": 25,
+   "high_kbbl": 17369,
+   "possible_n": 4,
+   "possible_kbbl": 2350,
+   "high_kbd": 560,
+   "with_possible_kbd": 636,
    "eia_monthly_kbd": 701,
    "eia_weekly_kbd": 586,
    "customs_kbd": 568,
    "official_kbd": 701,
-   "coverage": 0.71,
-   "coverage_with_possible": 0.79,
+   "coverage": 0.8,
+   "coverage_with_possible": 0.91,
    "complete": true,
    "usd_per_bbl": 66.89,
-   "high_value_usd": 1034721410
+   "high_value_usd": 1161812410
   },
   {
    "month": "2026-08",
-   "high_n": 17,
-   "high_kbbl": 11275,
-   "possible_n": 2,
-   "possible_kbbl": 900,
-   "high_kbd": 364,
-   "with_possible_kbd": 393,
+   "high_n": 22,
+   "high_kbbl": 13903,
+   "possible_n": 4,
+   "possible_kbbl": 1800,
+   "high_kbd": 448,
+   "with_possible_kbd": 507,
    "eia_monthly_kbd": 655,
    "eia_weekly_kbd": 683,
    "customs_kbd": 610,
    "official_kbd": 655,
-   "coverage": 0.56,
-   "coverage_with_possible": 0.6,
+   "coverage": 0.68,
+   "coverage_with_possible": 0.77,
    "complete": true,
    "usd_per_bbl": 76.82,
-   "high_value_usd": 866145500
+   "high_value_usd": 1068028460
   },
   {
    "month": "2026-09",
-   "high_n": 23,
-   "high_kbbl": 14419,
+   "high_n": 24,
+   "high_kbbl": 15369,
    "possible_n": 5,
    "possible_kbbl": 2300,
-   "high_kbd": 481,
-   "with_possible_kbd": 557,
+   "high_kbd": 512,
+   "with_possible_kbd": 589,
    "eia_monthly_kbd": null,
    "eia_weekly_kbd": 629,
    "customs_kbd": 598,
    "official_kbd": 598,
-   "coverage": 0.8,
-   "coverage_with_possible": 0.93,
+   "coverage": 0.86,
+   "coverage_with_possible": 0.98,
    "complete": true,
    "usd_per_bbl": 93.75,
-   "high_value_usd": 1351781250
+   "high_value_usd": 1440843750
   },
   {
    "month": "2026-10",
    "high_n": 24,
    "high_kbbl": 15791,
-   "possible_n": 6,
-   "possible_kbbl": 2950,
+   "possible_n": 7,
+   "possible_kbbl": 3900,
    "high_kbd": 509,
-   "with_possible_kbd": 605,
+   "with_possible_kbd": 635,
    "eia_monthly_kbd": null,
    "eia_weekly_kbd": 565,
    "customs_kbd": null,
    "official_kbd": 565,
    "coverage": 0.9,
-   "coverage_with_possible": 1.07,
+   "coverage_with_possible": 1.12,
    "complete": true,
    "usd_per_bbl": null,
    "high_value_usd": null
   },
   {
    "month": "2026-11",
-   "high_n": 4,
-   "high_kbbl": 1723,
-   "possible_n": 0,
-   "possible_kbbl": 0,
-   "high_kbd": 57,
-   "with_possible_kbd": 57,
+   "high_n": 7,
+   "high_kbbl": 3973,
+   "possible_n": 1,
+   "possible_kbbl": 300,
+   "high_kbd": 132,
+   "with_possible_kbd": 142,
    "eia_monthly_kbd": null,
    "eia_weekly_kbd": null,
    "customs_kbd": null,
@@ -246,6 +246,84 @@
    "est_low": 286,
    "est_high": 430,
    "method": "typical Lake Maracaibo load (~9.4 m)"
+  },
+  {
+   "vessel_id": "1d676edb2-25b8-1377-b53f-d3e7e54ba242",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    28.8733,
+    -89.3299
+   ],
+   "name": "SEMAKAU SPIRIT",
+   "mmsi": "538011703",
+   "imo": "9833723",
+   "length_m": 282.0922933333333,
+   "gt": 95109.79437908497,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-10-31T21:21:27.000Z",
+   "to_port": "NEW ORLEANS",
+   "arrived": "2026-11-07T00:06:15.000Z",
+   "confidence": "high",
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "b0d137654-4609-fdac-e741-8ff243e54713",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.3282,
+    -88.5114
+   ],
+   "name": "BELGRAVE SQUARE",
+   "mmsi": "636024456",
+   "imo": "1027926",
+   "length_m": 232.3601800000001,
+   "gt": 55518.621333333336,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-10-24T03:28:11.000Z",
+   "to_port": "PASCAGOULA",
+   "arrived": "2026-11-04T13:36:29.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "ac5d31d7f-f305-c93a-6563-d25b033769de",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
+   "name": "ADVANTAGE ATOM",
+   "mmsi": "538006198",
+   "imo": "9472622",
+   "length_m": 232.25012799999996,
+   "gt": 61336,
+   "from_port": "JOSE",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-10-28T19:16:16.000Z",
+   "to_port": "PASCAGOULA",
+   "arrived": "2026-11-04T06:55:20.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
   },
   {
    "vessel_id": "7fd410223-3135-ef7c-7f94-3225bfb618ce",
@@ -324,6 +402,32 @@
    "est_low": 294,
    "est_high": 440,
    "method": "typical Lake Maracaibo load (~9.4 m)"
+  },
+  {
+   "vessel_id": "6099861ed-d7c6-2cc1-b4c9-a7648ec20b48",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
+   "name": "ALBARO",
+   "mmsi": "538009651",
+   "imo": "9326873",
+   "length_m": 184.65294788295776,
+   "gt": 31394.836928319222,
+   "from_port": "VE JOT",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-10-25T17:57:59.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "arrived": "2026-11-01T12:43:55.000Z",
+   "confidence": "possible",
+   "est_kbbl": 300,
+   "est_low": 240,
+   "est_high": 360,
+   "method": "typical full load for the ship size"
   },
   {
    "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
@@ -453,6 +557,32 @@
    "est_kbbl": 650,
    "est_low": 520,
    "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "b5252a2f6-61ee-16ae-227a-de5d36e5bb7d",
+   "from_ll": [
+    12.1953,
+    -69.0316
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
+   "name": "ARCTIC STAR",
+   "mmsi": "241952000",
+   "imo": "9978690",
+   "length_m": 207.94537333333335,
+   "gt": 81864.2752238806,
+   "from_port": "BULLENBAY",
+   "terminal": "Caribbean hub",
+   "left": "2026-10-18T23:42:41.000Z",
+   "to_port": "PORT NECHES",
+   "arrived": "2026-10-24T12:56:06.000Z",
+   "confidence": "possible",
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
    "method": "typical full load for the ship size"
   },
   {
@@ -1782,6 +1912,32 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "8642535dc-c925-73e0-546a-9f7824470941",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.0298,
+    -93.3319
+   ],
+   "name": "FREEPORT STAR",
+   "mmsi": "538010080",
+   "imo": "9933212",
+   "length_m": 240.00017333333338,
+   "gt": 76418.83333333333,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-08-11T23:59:51.000Z",
+   "to_port": "USA-1152",
+   "arrived": "2026-09-03T02:57:54.000Z",
+   "confidence": "high",
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
+   "method": "typical full load for the ship size"
+  },
+  {
    "vessel_id": "d5dd33f3e-eed0-5de7-6deb-7e2ab69c62a6",
    "from_ll": [
     10.2073,
@@ -2172,6 +2328,58 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "22caeb8af-f86c-84ab-a6a9-fc2fab42409d",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
+   "name": "HAFNIA EXCELSIOR",
+   "mmsi": "563152900",
+   "imo": "9735581",
+   "length_m": 219,
+   "gt": 42755.3,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-08-03T22:16:00.000Z",
+   "to_port": "STEUTSPASS",
+   "arrived": "2026-08-17T18:56:38.000Z",
+   "confidence": "possible",
+   "est_kbbl": 450,
+   "est_low": 360,
+   "est_high": 540,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "32ab86d2c-c58e-cc9d-077a-7a49140daa21",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.2427,
+    -93.6951
+   ],
+   "name": "NISSOS SERIFOPOULA",
+   "mmsi": "538011662",
+   "imo": "1035557",
+   "length_m": 243.67092,
+   "gt": 72393.86666666667,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-08-08T16:00:07.000Z",
+   "to_port": "PORT ARTHUR",
+   "arrived": "2026-08-16T23:16:16.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
    "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
    "from_ll": [
     10.2072,
@@ -2195,6 +2403,32 @@
    "est_kbbl": 650,
    "est_low": 520,
    "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
+   "name": "ADVANTAGE PORTOCERVO",
+   "mmsi": "538010650",
+   "imo": "9794850",
+   "length_m": 222.47627999999997,
+   "gt": 41674.64,
+   "from_port": "VE JOT",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-05-23T00:21:42.000Z",
+   "to_port": "BEAUMONT",
+   "arrived": "2026-08-14T00:45:18.000Z",
+   "confidence": "possible",
+   "est_kbbl": 450,
+   "est_low": 360,
+   "est_high": 540,
    "method": "typical full load for the ship size"
   },
   {
@@ -2222,6 +2456,32 @@
    "est_low": 520,
    "est_high": 780,
    "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "f242357e7-797a-961e-c9a0-a12afdf44f23",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
+   "name": "MINERVA BALTICA",
+   "mmsi": "248292000",
+   "imo": "9728241",
+   "length_m": 228.0787466666668,
+   "gt": 62513,
+   "from_port": "PUERTO MIRANDA",
+   "terminal": "Lake Maracaibo",
+   "left": "2026-08-07T12:38:46.000Z",
+   "to_port": "PASCAGOULA",
+   "arrived": "2026-08-13T11:07:27.000Z",
+   "confidence": "high",
+   "est_kbbl": 337,
+   "est_low": 270,
+   "est_high": 404,
+   "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
    "vessel_id": "625c493fb-ba6f-e51f-b6e6-e1ce16ca8b74",
@@ -2328,6 +2588,84 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "4c69e75e7-7691-bafb-069b-fa1567af2e28",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    27.8001,
+    -96.8438
+   ],
+   "name": "METRO MOON",
+   "mmsi": "636026319",
+   "imo": "9590319",
+   "length_m": 214.97074000000006,
+   "gt": 53243.31333333333,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-07-24T15:19:57.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "arrived": "2026-08-03T03:31:52.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "73808864d-d83a-b713-5031-f9bb65a74641",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.0298,
+    -93.3319
+   ],
+   "name": "SEARUNNER",
+   "mmsi": "249986000",
+   "imo": "9765029",
+   "length_m": 224.4762466666666,
+   "gt": 63758,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-07-16T01:52:25.000Z",
+   "to_port": "USA-1152",
+   "arrived": "2026-08-03T02:26:49.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "5e243b385-518d-8776-9f11-9b41fde2266b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
+   "name": "NISSOS PAROS",
+   "mmsi": "241212000",
+   "imo": "9592290",
+   "length_m": 229.49692000000005,
+   "gt": 61320,
+   "from_port": "PUERTO MIRANDA",
+   "terminal": "Lake Maracaibo",
+   "left": "2026-07-26T16:55:13.000Z",
+   "to_port": "PORT NECHES",
+   "arrived": "2026-08-02T10:31:29.000Z",
+   "confidence": "high",
+   "est_kbbl": 341,
+   "est_low": 273,
+   "est_high": 409,
+   "method": "typical Lake Maracaibo load (~9.4 m)"
+  },
+  {
    "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
    "from_ll": [
     10.7677,
@@ -2432,6 +2770,58 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "acf362d76-6e7a-d7e5-68cf-5180194a37e1",
+   "from_ll": [
+    17.4786,
+    -63.0286
+   ],
+   "to_ll": [
+    28.8699,
+    -90.0074
+   ],
+   "name": "ADVANTAGE LOVE",
+   "mmsi": "538006074",
+   "imo": "9708552",
+   "length_m": 236.55046000000002,
+   "gt": 63915,
+   "from_port": "SINT EUSTATIUS",
+   "terminal": "Caribbean hub",
+   "left": "2026-07-06T18:04:46.000Z",
+   "to_port": "LOOP",
+   "arrived": "2026-07-29T16:46:20.000Z",
+   "confidence": "possible",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "0e96ca5a2-2e37-5fd7-29f5-de5a0e010e35",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    28.8731,
+    -90.003
+   ],
+   "name": "NISSOS ANAFI",
+   "mmsi": "538008310",
+   "imo": "9856086",
+   "length_m": 286.8104733333336,
+   "gt": 133085.72,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-07-05T19:17:09.000Z",
+   "to_port": "LOOP",
+   "arrived": "2026-07-27T01:00:44.000Z",
+   "confidence": "high",
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
+   "method": "typical full load for the ship size"
+  },
+  {
    "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
    "from_ll": [
     10.7677,
@@ -2456,6 +2846,32 @@
    "est_low": 401,
    "est_high": 601,
    "method": "typical Lake Maracaibo load (~9.4 m)"
+  },
+  {
+   "vessel_id": "9ad90cf94-4a63-3e7c-7a2d-1f8e134d50a9",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    27.8001,
+    -96.8438
+   ],
+   "name": "ADVANTAGE SUMMER",
+   "mmsi": "538006307",
+   "imo": "9419890",
+   "length_m": 256.9472533333334,
+   "gt": 83805,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-07-13T15:49:15.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "arrived": "2026-07-25T01:46:06.000Z",
+   "confidence": "high",
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
+   "method": "typical full load for the ship size"
   },
   {
    "vessel_id": "8c27188ac-c12a-6021-2fdc-516b402760f0",
@@ -2510,6 +2926,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -2527,6 +2952,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "02ab329d1-1498-3e4a-0cc9-7012d8059f17",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.3898,
+    -93.6237
+   ],
    "name": "FRONT SUEZ",
    "mmsi": "477539100",
    "imo": "9831830",
@@ -2544,6 +2978,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -2561,6 +3004,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "1e6b26d52-2107-6f7d-6955-d202573d6c55",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "PHAEDRA",
    "mmsi": "311001573",
    "imo": "9989091",
@@ -2578,6 +3030,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "22ef454b7-79cc-848e-ce00-651e5ed399d3",
+   "from_ll": [
+    10.2358,
+    -64.7531
+   ],
+   "to_ll": [
+    29.254,
+    -93.2563
+   ],
    "name": "GENEVA STAR",
    "mmsi": "538011663",
    "imo": "1028528",
@@ -2595,6 +3056,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "37afb3367-757f-9006-b984-0c198ed8cd61",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    39.787,
+    -75.454
+   ],
    "name": "MARLIN HESTIA",
    "mmsi": "538009474",
    "imo": "9729233",
@@ -2612,6 +3082,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "SEAROVER",
    "mmsi": "249984000",
    "imo": "9765017",
@@ -2629,6 +3108,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "df3f5bc25-5346-10a2-20e8-1b306bff933e",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    28.8699,
+    -90.0074
+   ],
    "name": "FRONT CASCADE",
    "mmsi": "538007399",
    "imo": "9769829",
@@ -2646,6 +3134,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5e243b385-518d-8776-9f11-9b41fde2266b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "NISSOS PAROS",
    "mmsi": "241212000",
    "imo": "9592290",
@@ -2663,6 +3160,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "86cf9cb47-7d41-1f78-41ff-0cbb3982af5c",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    28.8731,
+    -90.003
+   ],
    "name": "NISSOS DONOUSSA",
    "mmsi": "538008313",
    "imo": "9853840",
@@ -2680,6 +3186,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "b5252a2f6-61ee-16ae-227a-de5d36e5bb7d",
+   "from_ll": [
+    10.292,
+    -64.7085
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "ARCTIC STAR",
    "mmsi": "241952000",
    "imo": "9978690",
@@ -2697,6 +3212,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "04d2e80be-eebf-f856-b4ba-6f277c0feec2",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.0298,
+    -93.3319
+   ],
    "name": "MARLIN SICILY",
    "mmsi": "538009744",
    "imo": "9835848",
@@ -2714,6 +3238,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -2731,6 +3264,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "de29deff2-229b-6ed3-5248-57c4f5d199c3",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "FRONT CRYSTAL",
    "mmsi": "538007278",
    "imo": "9743186",
@@ -2748,6 +3290,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "09555612e-e333-cb4a-87c4-b3dd197df68f",
+   "from_ll": [
+    12.1953,
+    -69.0316
+   ],
+   "to_ll": [
+    27.7879,
+    -96.8433
+   ],
    "name": "CAP QUEBEC",
    "mmsi": "241593000",
    "imo": "9817107",
@@ -2765,6 +3316,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "ANDROMEDA",
    "mmsi": "311001308",
    "imo": "9943061",
@@ -2782,6 +3342,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.2427,
+    -93.6951
+   ],
    "name": "NAVE NEUTRINO",
    "mmsi": "352004839",
    "imo": "9971733",
@@ -2799,6 +3368,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "d5dd33f3e-eed0-5de7-6deb-7e2ab69c62a6",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "MARAN PHOEBE",
    "mmsi": "241700000",
    "imo": "9868156",
@@ -2816,6 +3394,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -2833,6 +3420,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.2427,
+    -93.6951
+   ],
    "name": "CARIBBEAN VOYAGER",
    "mmsi": "311000864",
    "imo": "9857860",
@@ -2850,6 +3446,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    28.8341,
+    -95.1513
+   ],
    "name": "SEALEO",
    "mmsi": "256721000",
    "imo": "9473066",
@@ -2867,6 +3472,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "f242357e7-797a-961e-c9a0-a12afdf44f23",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "MINERVA BALTICA",
    "mmsi": "248292000",
    "imo": "9728241",
@@ -2884,6 +3498,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "d53a4f907-79dc-133e-7118-4a5b29b862e7",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "SEARANGER",
    "mmsi": "249981000",
    "imo": "9759800",
@@ -2901,6 +3524,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -2918,6 +3550,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c5632714d-d64e-edbc-a8f2-bc3a8a8e7e28",
+   "from_ll": [
+    17.4854,
+    -63.0334
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "MONZA",
    "mmsi": "538012046",
    "imo": "1021609",
@@ -2935,6 +3576,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    29.2316,
+    -94.4511
+   ],
    "name": "MARLIN HERA",
    "mmsi": "538009473",
    "imo": "9729221",
@@ -2952,6 +3602,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "e96f1b7b9-90ff-2a33-8166-0b4e5c1146cb",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.35,
+    -94.7165
+   ],
    "name": "ELANDRA CYPRESS",
    "mmsi": "538011451",
    "imo": "1074735",
@@ -2969,6 +3628,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "a0cee54d8-873a-ec7c-fb30-4fd92f56aca7",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    28.6661,
+    -94.6689
+   ],
    "name": "WATER TIGER",
    "mmsi": "538008418",
    "imo": "9858034",
@@ -2986,6 +3654,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "69f605619-97b0-8815-6c3f-9aef01807a37",
+   "from_ll": [
+    10.2059,
+    -64.7839
+   ],
+   "to_ll": [
+    29.113,
+    -94.5241
+   ],
    "name": "AMALTHEA",
    "mmsi": "240447000",
    "imo": "9298650",
@@ -3003,6 +3680,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -3020,6 +3706,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "b0dc1a822-25d5-2b5e-5516-221a476846b3",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    30.3282,
+    -88.5114
+   ],
    "name": "SEAFAITH",
    "mmsi": "215515000",
    "imo": "9843209",
@@ -3037,6 +3732,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "IONIC ANAX",
    "mmsi": "538007411",
    "imo": "9802152",
@@ -3054,6 +3758,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "7dcd0e80d-d00e-ec61-00f8-22e24f15763d",
+   "from_ll": [
+    10.2924,
+    -64.7117
+   ],
+   "to_ll": [
+    30.0298,
+    -93.3319
+   ],
    "name": "SFL SABINE",
    "mmsi": "538007465",
    "imo": "9799874",
@@ -3071,6 +3784,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c50e8ba22-2fe2-fbb6-2342-58833bca73b5",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    28.6661,
+    -94.6689
+   ],
    "name": "VINCERE",
    "mmsi": "538012467",
    "imo": "9905100",
@@ -3088,6 +3810,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.8221,
+    -93.9561
+   ],
    "name": "NAVE NEUTRINO",
    "mmsi": "352004839",
    "imo": "9971733",
@@ -3105,6 +3836,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "4c69e75e7-7691-bafb-069b-fa1567af2e28",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "METRO MOON",
    "mmsi": "636026319",
    "imo": "9590319",
@@ -3122,6 +3862,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "f5521f9fd-da42-a8fe-d2cc-e5e8274c5abc",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "MATILDA",
    "mmsi": "249747000",
    "imo": "9407457",
@@ -3139,6 +3888,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7951,
+    -97.389
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -3156,6 +3914,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "ANDROMEDA",
    "mmsi": "311001308",
    "imo": "9943061",
@@ -3173,6 +3940,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "fe247d751-1824-fee1-b7a1-af99789b8f2b",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SEAWAYS COLORADO",
    "mmsi": "538004034",
    "imo": "9594767",
@@ -3190,6 +3966,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -3207,6 +3992,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "f242357e7-797a-961e-c9a0-a12afdf44f23",
+   "from_ll": [
+    10.6483,
+    -71.5803
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "MINERVA BALTICA",
    "mmsi": "248292000",
    "imo": "9728241",
@@ -3224,6 +4018,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "d53a4f907-79dc-133e-7118-4a5b29b862e7",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "SEARANGER",
    "mmsi": "249981000",
    "imo": "9759800",
@@ -3241,6 +4044,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    10.6858,
+    -71.5627
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "SEAROVER",
    "mmsi": "249984000",
    "imo": "9765017",
@@ -3258,6 +4070,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "5e243b385-518d-8776-9f11-9b41fde2266b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "NISSOS PAROS",
    "mmsi": "241212000",
    "imo": "9592290",
@@ -3275,6 +4096,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "e0945567b-b0dd-ea81-dc0b-14881f845049",
+   "from_ll": [
+    10.2924,
+    -64.7117
+   ],
+   "to_ll": [
+    28.8341,
+    -95.1513
+   ],
    "name": "PANTELIS",
    "mmsi": "215509000",
    "imo": "9865104",
@@ -3292,6 +4122,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7568,
+    -71.5701
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -3309,6 +4148,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "NAVE NEUTRINO",
    "mmsi": "352004839",
    "imo": "9971733",
@@ -3326,6 +4174,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "CARIBBEAN VOYAGER",
    "mmsi": "311000864",
    "imo": "9857860",
@@ -3343,6 +4200,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "68c3019c8-8de2-7e32-5bc1-74af5fc0b319",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    30.0828,
+    -88.0292
+   ],
    "name": "SAKURA ADVANCE",
    "mmsi": "371880000",
    "imo": "9568495",
@@ -3360,6 +4226,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -3377,6 +4252,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "b0dc1a822-25d5-2b5e-5516-221a476846b3",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "SEAFAITH",
    "mmsi": "215515000",
    "imo": "9843209",
@@ -3394,6 +4278,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c50e8ba22-2fe2-fbb6-2342-58833bca73b5",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    28.8874,
+    -89.9976
+   ],
    "name": "VINCERE",
    "mmsi": "538012467",
    "imo": "9905100",
@@ -3411,6 +4304,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "1e6b26d52-2107-6f7d-6955-d202573d6c55",
+   "from_ll": [
+    10.2924,
+    -64.7117
+   ],
+   "to_ll": [
+    30.0298,
+    -93.3319
+   ],
    "name": "PHAEDRA",
    "mmsi": "311001573",
    "imo": "9989091",
@@ -3428,6 +4330,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "625c493fb-ba6f-e51f-b6e6-e1ce16ca8b74",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    29.8221,
+    -93.9561
+   ],
    "name": "ADVANTAGE SWEET",
    "mmsi": "538010184",
    "imo": "9587192",
@@ -3445,6 +4356,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -3462,6 +4382,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -3479,6 +4408,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "d6a2e0f55-5630-2f7b-708c-5d49fa8640d1",
+   "from_ll": [
+    12.3754,
+    -70.0836
+   ],
+   "to_ll": [
+    27.7879,
+    -96.8433
+   ],
    "name": "CAP PORT ARTHUR",
    "mmsi": "241613000",
    "imo": "9829801",
@@ -3496,6 +4434,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.113,
+    -88.5496
+   ],
    "name": "SEAROVER",
    "mmsi": "249984000",
    "imo": "9765017",
@@ -3513,6 +4460,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.113,
+    -94.5241
+   ],
    "name": "SEALEO",
    "mmsi": "256721000",
    "imo": "9473066",
@@ -3530,6 +4486,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5e243b385-518d-8776-9f11-9b41fde2266b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "NISSOS PAROS",
    "mmsi": "241212000",
    "imo": "9592290",
@@ -3547,6 +4512,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "8642535dc-c925-73e0-546a-9f7824470941",
+   "from_ll": [
+    10.292,
+    -64.7085
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "FREEPORT STAR",
    "mmsi": "538010080",
    "imo": "9933212",
@@ -3564,6 +4538,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "ecf37305a-aed3-8ad8-a1a4-a67dd9d9b2bf",
+   "from_ll": [
+    12.3871,
+    -70.0831
+   ],
+   "to_ll": [
+    29.2469,
+    -93.7109
+   ],
    "name": "DUBAI GOLD",
    "mmsi": "538006216",
    "imo": "9314193",
@@ -3581,6 +4564,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    30.3385,
+    -88.5092
+   ],
    "name": "CARINA VOYAGER",
    "mmsi": "311000953",
    "imo": "9897834",
@@ -3598,6 +4590,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -3615,6 +4616,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "ef6a6116c-c6f9-ecdf-4062-dd6f511a6fa7",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    27.7879,
+    -96.8433
+   ],
    "name": "SEA ONYX",
    "mmsi": "241786000",
    "imo": "9922108",
@@ -3632,6 +4642,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "d41d285a4-4f49-3dd4-acf7-f1f2b4e1e80d",
+   "from_ll": [
+    10.292,
+    -64.7085
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "AQUALEGEND",
    "mmsi": "636015176",
    "imo": "9592240",
@@ -3649,6 +4668,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "dd671c5d0-00f8-a254-4be2-f8adad6ee522",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    28.8874,
+    -89.9976
+   ],
    "name": "NISSOS SIFNOS",
    "mmsi": "538008913",
    "imo": "9884045",
@@ -3666,6 +4694,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "b0dc1a822-25d5-2b5e-5516-221a476846b3",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SEAFAITH",
    "mmsi": "215515000",
    "imo": "9843209",
@@ -3683,6 +4720,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "68c3019c8-8de2-7e32-5bc1-74af5fc0b319",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SAKURA ADVANCE",
    "mmsi": "371880000",
    "imo": "9568495",
@@ -3700,6 +4746,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "IONIC ANASSA",
    "mmsi": "538006696",
    "imo": "9779795",
@@ -3717,6 +4772,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "4371df35e-eb1e-6fc8-9167-45315ad0e27d",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    29.2316,
+    -94.4511
+   ],
    "name": "HAFNIA EXCEL",
    "mmsi": "563153400",
    "imo": "9735579",
@@ -3734,6 +4798,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    27.7879,
+    -96.8433
+   ],
    "name": "ADVANTAGE PORTOCERVO",
    "mmsi": "538010650",
    "imo": "9794850",
@@ -3751,6 +4824,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "CARIBBEAN VOYAGER",
    "mmsi": "311000864",
    "imo": "9857860",
@@ -3768,6 +4850,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "from_ll": [
+    10.7632,
+    -71.5795
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "IONIC ANAX",
    "mmsi": "538007411",
    "imo": "9802152",
@@ -3785,6 +4876,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -3802,6 +4902,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "2f44cdb66-63fb-510c-f5a1-86ee7f3e56ce",
+   "from_ll": [
+    17.4786,
+    -63.0286
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "DIM",
    "mmsi": "538012387",
    "imo": "9446374",
@@ -3819,6 +4928,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1526,
+    -64.837
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -3836,6 +4954,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "SEALEO",
    "mmsi": "256721000",
    "imo": "9473066",
@@ -3853,6 +4980,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "SEAROVER",
    "mmsi": "249984000",
    "imo": "9765017",
@@ -3870,6 +5006,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "from_ll": [
+    10.7579,
+    -71.5744
+   ],
+   "to_ll": [
+    27.7951,
+    -97.389
+   ],
    "name": "NAVE NEUTRINO",
    "mmsi": "352004839",
    "imo": "9971733",
@@ -3887,6 +5032,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    28.8341,
+    -95.1513
+   ],
    "name": "CARINA VOYAGER",
    "mmsi": "311000953",
    "imo": "9897834",
@@ -3904,6 +5058,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5e243b385-518d-8776-9f11-9b41fde2266b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "NISSOS PAROS",
    "mmsi": "241212000",
    "imo": "9592290",
@@ -3921,6 +5084,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "2102f74c2-216e-59dd-2187-03b2542ab75c",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.2316,
+    -94.4511
+   ],
    "name": "HAFNIA ASIA",
    "mmsi": "248949000",
    "imo": "9467809",
@@ -3938,6 +5110,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    28.8341,
+    -95.1513
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -3955,6 +5136,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "IONIC ANASSA",
    "mmsi": "538006696",
    "imo": "9779795",
@@ -3972,6 +5162,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "7e8c7d085-5329-6494-4b74-c9149d7793e2",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "DUBAI BRILLIANCE",
    "mmsi": "538004174",
    "imo": "9422550",
@@ -3989,6 +5188,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -4006,6 +5214,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "d580ec2ae-e3d4-9bbc-73f0-b6a97b208e43",
+   "from_ll": [
+    17.4873,
+    -63.0179
+   ],
+   "to_ll": [
+    30.0298,
+    -93.3319
+   ],
    "name": "ECO OCEANO CA",
    "mmsi": "538009427",
    "imo": "9794020",
@@ -4023,6 +5240,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "fc556a380-023d-92d7-c1dc-0a8fc75def2e",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "CARIBBEAN VOYAGER",
    "mmsi": "311000864",
    "imo": "9857860",
@@ -4040,6 +5266,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -4057,6 +5292,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "68c3019c8-8de2-7e32-5bc1-74af5fc0b319",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SAKURA ADVANCE",
    "mmsi": "371880000",
    "imo": "9568495",
@@ -4074,6 +5318,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "4371df35e-eb1e-6fc8-9167-45315ad0e27d",
+   "from_ll": [
+    10.2073,
+    -64.7959
+   ],
+   "to_ll": [
+    29.2316,
+    -94.4511
+   ],
    "name": "HAFNIA EXCEL",
    "mmsi": "563153400",
    "imo": "9735579",
@@ -4091,6 +5344,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c841e11f1-15ab-d9ea-bf5d-cb05a18f2f3a",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "DUBAI ATTRACTION",
    "mmsi": "538004172",
    "imo": "9422536",
@@ -4108,6 +5370,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "f7b352145-533f-023a-9c92-f5d1adc70dee",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "FRONT FUSION",
    "mmsi": "538009153",
    "imo": "9887803",
@@ -4125,6 +5396,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "SEAROVER",
    "mmsi": "249984000",
    "imo": "9765017",
@@ -4142,6 +5422,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "IONIC ANAX",
    "mmsi": "538007411",
    "imo": "9802152",
@@ -4159,6 +5448,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "04d2e80be-eebf-f856-b4ba-6f277c0feec2",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.243,
+    -93.6906
+   ],
    "name": "MARLIN SICILY",
    "mmsi": "538009744",
    "imo": "9835848",
@@ -4176,6 +5474,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "521946579-96e9-3b37-516a-7d3f0479ab95",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "HAFNIA AUSTRALIA",
    "mmsi": "566245000",
    "imo": "9467794",
@@ -4193,6 +5500,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5e243b385-518d-8776-9f11-9b41fde2266b",
+   "from_ll": [
+    10.1526,
+    -64.837
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "NISSOS PAROS",
    "mmsi": "241212000",
    "imo": "9592290",
@@ -4210,6 +5526,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
+   "from_ll": [
+    10.1526,
+    -64.837
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "CARINA VOYAGER",
    "mmsi": "311000953",
    "imo": "9897834",
@@ -4227,6 +5552,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "f242357e7-797a-961e-c9a0-a12afdf44f23",
+   "from_ll": [
+    10.2044,
+    -64.826
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "MINERVA BALTICA",
    "mmsi": "248292000",
    "imo": "9728241",
@@ -4244,6 +5578,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "36e2e7dc1-1463-06b5-47f6-1bd8871ca905",
+   "from_ll": [
+    10.1526,
+    -64.837
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "STENA SUEDE",
    "mmsi": "265078080",
    "imo": "9579042",
@@ -4261,6 +5604,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "SEALEO",
    "mmsi": "256721000",
    "imo": "9473066",
@@ -4278,6 +5630,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -4295,6 +5656,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "d6a2e0f55-5630-2f7b-708c-5d49fa8640d1",
+   "from_ll": [
+    12.4091,
+    -70.0949
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "CAP PORT ARTHUR",
    "mmsi": "241613000",
    "imo": "9829801",
@@ -4312,6 +5682,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "ANDROMEDA",
    "mmsi": "311001308",
    "imo": "9943061",
@@ -4329,6 +5708,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "73808864d-d83a-b713-5031-f9bb65a74641",
+   "from_ll": [
+    17.4786,
+    -63.0286
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SEARUNNER",
    "mmsi": "249986000",
    "imo": "9765029",
@@ -4346,6 +5734,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "IONIC ANASSA",
    "mmsi": "538006696",
    "imo": "9779795",
@@ -4363,6 +5760,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7951,
+    -97.389
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -4380,6 +5786,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "7127ebdb8-8e9d-f162-c2ae-f6b960b13aeb",
+   "from_ll": [
+    17.4786,
+    -63.0286
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "HAFNIA SEINE",
    "mmsi": "566931000",
    "imo": "9342217",
@@ -4397,6 +5812,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    28.8611,
+    -89.3344
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -4414,6 +5838,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7632,
+    -71.5795
+   ],
+   "to_ll": [
+    29.4052,
+    -93.6909
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -4431,6 +5864,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "68c3019c8-8de2-7e32-5bc1-74af5fc0b319",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    29.2316,
+    -94.4511
+   ],
    "name": "SAKURA ADVANCE",
    "mmsi": "371880000",
    "imo": "9568495",
@@ -4448,6 +5890,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    12.4091,
+    -70.0949
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "SEAROVER",
    "mmsi": "249984000",
    "imo": "9765017",
@@ -4465,6 +5916,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -4482,6 +5942,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "SEALEO",
    "mmsi": "256721000",
    "imo": "9473066",
@@ -4499,6 +5968,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "bfa70eee5-5b7e-63a4-d185-54abb9edf322",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    28.8699,
+    -90.0074
+   ],
    "name": "LAUSANNE STAR",
    "mmsi": "255917263",
    "imo": "1028530",
@@ -4516,6 +5994,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "ANDROMEDA",
    "mmsi": "311001308",
    "imo": "9943061",
@@ -4533,6 +6020,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "63aaba66d-da30-9906-e7d0-23f1a21467b2",
+   "from_ll": [
+    12.5993,
+    -70.0841
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "RICHMOND VOYAGER",
    "mmsi": "538011004",
    "imo": "9827683",
@@ -4550,6 +6046,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "from_ll": [
+    10.1784,
+    -64.8258
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "IONIC ANASSA",
    "mmsi": "538006696",
    "imo": "9779795",
@@ -4567,6 +6072,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "63f04ca27-7eb1-9b42-fc96-c822b93562fc",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "MINERVA ASTRA",
    "mmsi": "241735000",
    "imo": "9893008",
@@ -4584,6 +6098,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "NAVE NEUTRINO",
    "mmsi": "352004839",
    "imo": "9971733",
@@ -4601,6 +6124,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.395,
+    -93.6443
+   ],
    "name": "IONIC ANAX",
    "mmsi": "538007411",
    "imo": "9802152",
@@ -4618,6 +6150,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "bcc71696c-cc89-ee07-3cc4-7b9d69bbb4c5",
+   "from_ll": [
+    10.1526,
+    -64.837
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "MEDITERRANEANVOYAGER",
    "mmsi": "311000863",
    "imo": "9857858",
@@ -4635,6 +6176,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -4652,6 +6202,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7632,
+    -71.5795
+   ],
+   "to_ll": [
+    27.7879,
+    -96.8433
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
@@ -4669,6 +6228,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "IONIC ANASSA",
    "mmsi": "538006696",
    "imo": "9779795",
@@ -4686,6 +6254,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -4703,6 +6280,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "b4d512c1c-c409-4af7-5d7a-3e857bbcefe8",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    30.0828,
+    -88.0292
+   ],
    "name": "JOSE PROGRESS",
    "mmsi": "355209000",
    "imo": "9392391",
@@ -4720,6 +6306,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "73d6becc1-1a6e-affa-b01c-31ddeed70345",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    28.8495,
+    -89.3628
+   ],
    "name": "SEALEO",
    "mmsi": "256721000",
    "imo": "9473066",
@@ -4737,6 +6332,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "95024d7b7-7b9d-0b84-3952-9d30ff42b9ba",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
    "name": "SEARUBY",
    "mmsi": "249693000",
    "imo": "9759795",
@@ -4754,6 +6358,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "63f04ca27-7eb1-9b42-fc96-c822b93562fc",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
    "name": "MINERVA ASTRA",
    "mmsi": "241735000",
    "imo": "9893008",
@@ -4771,6 +6384,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "9af2deb58-8703-d559-4866-0eb50418c77b",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.3898,
+    -93.6237
+   ],
    "name": "IONIC ANAX",
    "mmsi": "538007411",
    "imo": "9802152",
@@ -4788,6 +6410,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "f0cca7353-35ac-0506-4e48-81e368f8c72b",
+   "from_ll": [
+    10.2039,
+    -64.82
+   ],
+   "to_ll": [
+    28.9396,
+    -95.302
+   ],
    "name": "NAVE NEUTRINO",
    "mmsi": "352004839",
    "imo": "9971733",
@@ -4805,6 +6436,15 @@
    "method": "typical full load for the ship size"
   },
   {
+   "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1076,
+    -88.5253
+   ],
    "name": "NAVE COSMOS",
    "mmsi": "352003298",
    "imo": "9971707",
@@ -4822,6 +6462,15 @@
    "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
+   "vessel_id": "c12e94251-1822-c646-3b1d-3bb2b3aeda34",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
    "name": "MINERVA GLORIA",
    "mmsi": "215307000",
    "imo": "9382750",
