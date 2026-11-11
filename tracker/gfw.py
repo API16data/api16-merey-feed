@@ -163,7 +163,10 @@ def main():
             if nxt:
                 legs.append({"vessel_id": vid, "name": x["name"], "mmsi": x["mmsi"], "from_port": x["port"],
                              "from_flag": x["port_flag"], "left": x["end"], "to_port": nxt["port"],
-                             "to_flag": nxt["port_flag"], "arrived": nxt["start"], "to_end": nxt["end"]})
+                             "to_flag": nxt["port_flag"], "arrived": nxt["start"], "to_end": nxt["end"],
+                             # exact anchorage / berth positions reported by GFW for each port visit
+                             "from_ll": [x["lat"], x["lon"]] if x["lat"] is not None else None,
+                             "to_ll": [nxt["lat"], nxt["lon"]] if nxt["lat"] is not None else None})
     to_us = [l for l in legs if l["to_flag"] == "USA"]
     # One leg per U.S. arrival (the last Venezuelan/ABC departure before it). GFW labels tankers
     # "other_non_fishing" and container, cruise and general-cargo ships "cargo", so the first
