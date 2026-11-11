@@ -114,7 +114,7 @@
     'U.S. customs declared value': 'Valor declarado en la aduana de EE. UU.',
     'Freight: about US$5/bbl in September 2026, from US$1.90 at the start of the year (Signal Maritime via Reuters). Insurance and port costs are not included.':
       'Flete: unos US$5/bbl en septiembre de 2026, desde US$1,90 a inicios de año (Signal Maritime vía Reuters). No incluye seguro ni costos portuarios.',
-    'The voyages': 'Los viajes', 'Safe: large tanker, crude terminal, U.S. refining port.': 'Seguras: tanquero grande, terminal de crudo, puerto con refinerías en EE. UU.',
+    'The voyages': 'Los viajes', 'The ships': 'Los barcos', 'Ship': 'Buque', 'Voyages': 'Viajes', 'Barrels (est.)': 'Barriles (est.)', 'Value at Merey (est.)': 'Valor a precio Merey (est.)', 'First arrival': 'Primera llegada', 'Last arrival': 'Última llegada', 'Loads at': 'Carga en', 'Ships with only possible cargoes are shown greyed. Value = estimated barrels × OPEC Merey of the arrival month (latest month when not yet published). Port calls: Powered by Global Fishing Watch.': 'Los buques con solo cargas posibles salen en gris. Valor = barriles estimados × Merey OPEP del mes de llegada (último mes publicado si aún no sale). Escalas: Powered by Global Fishing Watch.', 'Safe: large tanker, crude terminal, U.S. refining port.': 'Seguras: tanquero grande, terminal de crudo, puerto con refinerías en EE. UU.',
     'Arrived': 'Llegó', 'Vessel': 'Buque', 'From': 'Desde', 'To': 'Hasta', 'Est. cargo': 'Carga est.', 'Range': 'Rango', 'Basis': 'Base',
     'Possible cargoes (not in the headline)': 'Cargas posibles (fuera de la cifra principal)',
     'Possible: crude terminal but ship size unknown or mid-size, or a large tanker coming from a Caribbean hub. Voyages from refinery ports (Amuay, Cardón) are left out: they ship mostly fuel oil.':
@@ -219,6 +219,32 @@
       main.append(ec);
     }
 
+    // the ships: one row per tanker, all voyages counted since the start of the history
+    const vs = F.voyages || [];
+    const pmap = {}; (M || []).forEach((x) => { if (x.merey) pmap[x.month] = x.merey; });
+    const plast = pm.length ? pm[pm.length - 1].merey : null;
+    const ships = {};
+    vs.forEach((v) => { const k = v.imo || v.name || v.mmsi; const z = ships[k] = ships[k] || { v, n: 0, kbbl: 0, usd: 0, first: v.arrived, last: v.arrived, term: new Set(), safe: false };
+      const px = pmap[(v.arrived || '').slice(0, 7)] || plast || 0;
+      z.n++; z.kbbl += v.est_kbbl || 0; z.usd += (v.est_kbbl || 0) * 1000 * px; z.term.add(tt(v.terminal));
+      if (v.arrived < z.first) z.first = v.arrived; if (v.arrived > z.last) { z.last = v.arrived; z.v = v; } if (v.confidence === 'high') z.safe = true; });
+    const sl = Object.values(ships).sort((a, b) => b.kbbl - a.kbbl);
+    if (sl.length) {
+      const totB = sl.reduce((a, x) => a + x.kbbl, 0), totU = sl.reduce((a, x) => a + x.usd, 0);
+      const f0 = vs.reduce((a, v) => (!a || v.arrived < a ? v.arrived : a), '');
+      const sc = $('section', 'card'); sc.append($('h2', null, tt('The ships')));
+      sc.append($('p', null, (LANG === 'es' ? 'Desde el ' + day(f0) + ': ' : 'Since ' + day(f0) + ': ') + sl.length + (LANG === 'es' ? ' tanqueros, ' : ' tankers, ') + vs.length + (LANG === 'es' ? ' viajes, ≈ ' : ' voyages, ≈ ') +
+        nf(1).format(totB / 1000) + (LANG === 'es' ? ' M de barriles, ≈ ' : 'M barrels, ≈ ') + usd(totU) + (LANG === 'es' ? ' a precio Merey (seguras + posibles).' : ' at Merey prices (safe + possible).')));
+      const w = $('div', 'tbl'); const t = $('table'); const h = $('tr');
+      [['Ship'], ['Voyages', 'n'], ['Barrels (est.)', 'n'], ['Value at Merey (est.)', 'n'], ['First arrival'], ['Last arrival'], ['Loads at']].forEach(([x, c]) => h.append($('th', c, tt(x)))); t.append(h);
+      sl.forEach((z) => { const r = $('tr', z.safe ? null : 'partial'); const nm = $('td'); const a = $('a', null, z.v.name || ('MMSI ' + z.v.mmsi)); a.href = 'passport.html?mmsi=' + encodeURIComponent(z.v.mmsi); nm.append(a);
+        if (z.v.imo) nm.append($('small', null, 'IMO ' + z.v.imo));
+        r.append(nm, $('td', 'n', String(z.n)), $('td', 'n', nf().format(Math.round(z.kbbl * 1000))), $('td', 'n', z.usd ? usd(z.usd) : '—'), $('td', null, day(z.first)), $('td', null, day(z.last)), $('td', null, [...z.term].join(', ')));
+        t.append(r); });
+      w.append(t); sc.append(w, $('p', 'note', tt('Ships with only possible cargoes are shown greyed. Value = estimated barrels × OPEC Merey of the arrival month (latest month when not yet published). Port calls: Powered by Global Fishing Watch.')));
+      main.append(sc);
+    }
+
     // voyages
     const vt = (list) => { const w = $('div', 'tbl'); const t = $('table'); const h = $('tr');
       [['Arrived'], ['Vessel'], ['From'], ['To'], ['Est. cargo', 'n'], ['Range', 'n'], ['Basis']].forEach(([x, c]) => h.append($('th', c, tt(x)))); t.append(h);
@@ -228,7 +254,6 @@
           $('td', 'n', nf().format(v.est_kbbl * 1000) + ' bbl'), $('td', 'n', nf().format(v.est_low * 1000) + '–' + nf().format(v.est_high * 1000)), $('td', null, tt(v.method)));
         t.append(r); });
       w.append(t); return w; };
-    const vs = F.voyages || [];
     const vc = $('section', 'card'); vc.append($('h2', null, tt('The voyages')), $('p', null, tt('Safe: large tanker, crude terminal, U.S. refining port.')));
     vc.append(vt(vs.filter((v) => v.confidence === 'high')));
     const det = $('details'); det.append($('summary', null, tt('Possible cargoes (not in the headline)') + ' · ' + vs.filter((v) => v.confidence === 'possible').length));
