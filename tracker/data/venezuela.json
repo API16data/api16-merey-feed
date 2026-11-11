@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-11T05:01:53Z",
+ "updated": "2026-11-11T06:01:53Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 538012456,
+   "imo": 9403475,
+   "name": "ANGERONA",
+   "length_m": 240,
+   "why": "reported in the news, not confirmed",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "last_seen": "2026-11-11T06:01:53Z",
+   "destination": "USBPT",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
   {
    "mmsi": 563343100,
    "imo": 9830288,
@@ -15,20 +29,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 500
-  },
-  {
-   "mmsi": 538012456,
-   "imo": 9403475,
-   "name": "ANGERONA",
-   "length_m": 240,
-   "why": "reported in the news, not confirmed",
-   "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-11T03:57:21Z",
-   "destination": "USBPT",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
   },
   {
    "mmsi": 352001337,
