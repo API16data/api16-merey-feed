@@ -31,6 +31,10 @@ AREAS = {
     "Aruba / Curacao / Bonaire": [[12.00, -70.20], [12.70, -68.20]],
 }
 SKIP_TYPES = {"fishing", "passenger", "gear", "seismic_vessel"}
+# Look-back window. The daily run uses 90 days; a one-off backfill (workflow input) can ask for more,
+# e.g. since 1 Jan 2026. flows.py keeps older voyages, so the history builds up over time.
+DAYS = max(30, int(os.environ.get("GFW_DAYS") or 90))
+CAP = 2000 if DAYS <= 120 else 40000
 log = []
 
 
@@ -108,8 +112,8 @@ def main():
     # 1. port visits inside the Venezuelan terminal areas
     ve_visits = []
     for area, box in AREAS.items():
-        body = {"datasets": [DS_PORT], "startDate": d(90), "endDate": today, "geometry": poly(box)}
-        got = page("POST", "/events", body=body)
+        body = {"datasets": [DS_PORT], "startDate": d(DAYS), "endDate": today, "geometry": poly(box)}
+        got = page("POST", "/events", body=body, cap=CAP)
         print(f"gfw: {area}: {len(got)} port visits")
         for e in got:
             s = simplify(e, area)
@@ -140,10 +144,10 @@ def main():
     voyages = {}
     id_list = list(ids)
     for i in range(0, len(id_list), 20):
-        params = {"datasets[0]": DS_PORT, "start-date": d(120), "end-date": today}
+        params = {"datasets[0]": DS_PORT, "start-date": d(DAYS + 30), "end-date": today}
         for j, vid in enumerate(id_list[i:i + 20]):
             params[f"vessels[{j}]"] = vid
-        for e in page("GET", "/events", params):
+        for e in page("GET", "/events", params, cap=CAP):
             s = simplify(e)
             voyages.setdefault(s["vessel_id"], []).append(s)
     for vid, lst in voyages.items():
