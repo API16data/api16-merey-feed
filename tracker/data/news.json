@@ -161,6 +161,16 @@
    "origin": "rss"
   },
   {
+   "id": "4a5018f63b12",
+   "date": "2026-11-11T01:33Z",
+   "title": "EXCLUSIVA | ¿Qué puede esperar Venezuela ante la nueva correlación de fuerzas legislativas en EEUU?",
+   "source": "La iguana TV",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYVZRbXNSYkpkUXR3ekdBOHVYaGstTUlGWHhZY2xucGZOMV9MM1hCTjFfWngzVGdRdUlBcEJXMU5CRTF4UnJ0UnRzM3Y4Y0RqSDhBRUx6RkdxYjVaMmNTYjNxRmxDeUl1OWE5Wmh0aTU0b1U3SEhSenFROG5JVnMtZ1F5VQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "6e99370a63f1",
    "date": "2026-11-11T00:19Z",
    "title": "ExxonMobil volverá a explotar petróleo en Venezuela con “condiciones muy favorables”",
@@ -1478,6 +1488,16 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxWDNpS2lFa2ZabWZscF9HTlJZTDJWZlhnUV9tWGl0OHp2ajZmUDdFR0d0dTBkVU8wTk9ERmxkck5ZOFQ3OF9EU1pxZ0JXYXNmUzE5dzFoMFJIYWdDemcyc1ZwVmlQXzduaUszOG8tbVpCVlYwZ2c?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "9aefc670c97f",
+   "date": "2026-11-10T06:18Z",
+   "title": "Best Oasis becomes second cash buyer to secure US sanctions clearance",
+   "source": "Splash247",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa3BGbS12ZVhCekJhZWpxMjM3bEZ3dW5kMlpqQUdRTmxTaXBzQlBBLUhBNmFRaTMzZHA2U1l6X0c3dFdrQ2JISWpiQ1lKY3NrbFNNRk0zVi1GNWxwckhkendqU3NlaFRiNF9PamZTMUQ1NzFCUjZpSGRJRWxfdGc4YnQxM1FzYXlmaUJZTmthZnBFdEZUcjhJ?oc=5",
+   "category": "Sanctions",
+   "via": "Google News: OFAC Venezuela",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "0e77342863a4",
-   "date": "2026-11-01T22:41Z",
-   "title": "Venezuela lidera crecimiento mundial de las exportaciones petroleras hacia EE UU en 2026",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSGhsWVRmSVIyNllnNFVkR19qLXdlbVliUlh6VVpXcHFseGp3Q095OXpQTkxwdVBEWnRUSlMtcHZ1TmdweDBIMEp3dVBrOV9FLV91MnFNcld2dndJdmw5NnBudHVzdU43aktwcmlYemdyNmYxVFBaeHA2T0ROT0RIRk1RZmRxSE4zcUN0a0JwRndvQXA5cjU5VldrTVFnYW56NE1DUVYtdEtJY25HM3dCUFR2eG0xNlk1TUxJRnBJaGJId2pCZUE?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "99607283f5a9",
-   "date": "2026-11-01T22:17Z",
-   "title": "Venezuela aumentó 236 % sus exportaciones petroleras a EEUU durante 2026",
-   "source": "LaPatilla.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUmNiaFRadmIwSGdYUngyM3Z1SHZ2emRoeUF4VXluMFY2SlFyRmJKcDd3SzBuU19EaDhuTkduZHZmTnBvQVU0azBoWTB1cG1KV3AwV0d4WkNOcmMwUFZLWE5WMTRFbXZGRERIZnpzX3cyWUtlczhjSU1oUnZtMjR2QkozaGxWS1J2NWFwa1dsY0JLRjBGTnpkVUxtSndlWnFYcGRqemRkUQ?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-11T04:48:18Z",
+ "updated": "2026-11-11T05:48:24Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
