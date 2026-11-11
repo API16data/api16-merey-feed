@@ -1,7 +1,76 @@
 {
- "updated": "2026-11-11T20:01:52Z",
+ "updated": "2026-11-11T21:38:31Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
+  {
+   "id": "AIS-538012206-2026-11-11",
+   "mmsi": 538012206,
+   "imo": 9747338,
+   "name": "ANTALYA",
+   "length_m": 183,
+   "status": "arrived",
+   "stages_done": 3,
+   "stages_total": 5,
+   "est_cargo_kbbl": 266,
+   "est_cargo": {
+    "kbbl": 266,
+    "kbbl_low": 224,
+    "kbbl_high": 312,
+    "tonnes": 39200.0,
+    "draught_m": 11,
+    "loa_m": 183,
+    "beam_m": 32,
+    "beam_estimated": false
+   },
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VEAMY",
+   "destinations": [
+    {
+     "dest": "USBPT",
+     "first": "2026-11-07T09:50:14Z"
+    },
+    {
+     "dest": "VEAMY",
+     "first": "2026-11-11T21:38:31Z"
+    }
+   ],
+   "last_seen": "2026-11-11T21:38:31Z",
+   "last_zone": "Gulf of Mexico offshore (lightering)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-11T21:38:31Z",
+     "detail": "declared destination VEAMY"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": null,
+     "detail": "draught 11 m vs ~9.5 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-11T21:38:31Z",
+     "detail": "Gulf of Mexico offshore (lightering)"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
   {
    "id": "AIS-352004839-2026-10-29",
    "mmsi": 352004839,
@@ -504,7 +573,7 @@
      "first": "2026-11-06T11:58:09Z"
     }
    ],
-   "last_seen": "2026-11-11T20:01:52Z",
+   "last_seen": "2026-11-11T21:38:31Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
