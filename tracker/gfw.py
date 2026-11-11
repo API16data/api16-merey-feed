@@ -34,7 +34,7 @@ SKIP_TYPES = {"fishing", "passenger", "gear", "seismic_vessel"}
 # Look-back window. The daily run uses 90 days; a one-off backfill (workflow input) can ask for more,
 # e.g. since 1 Jan 2026. flows.py keeps older voyages, so the history builds up over time.
 DAYS = max(30, int(os.environ.get("GFW_DAYS") or 90))
-CAP = 2000 if DAYS <= 120 else 40000
+CAP = 40000   # José alone passes 2,000 port visits in 90 days
 log = []
 
 
