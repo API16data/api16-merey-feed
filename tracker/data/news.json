@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "32c73cbec71b",
+   "date": "2026-11-12T04:31Z",
+   "title": "Exxon Venezuela Review Spans 7 Areas",
+   "source": "Oil & Gas Middle East",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjX01fa09icjQwa25vOGdHVVFNZ1RIWXJaQVotZkhFVF8wY2dCWTh0TV9TSDlrWDFMdFRuaExwT05HVzQwX3hCMGFyWi1SOWFIUm5VTUdhdERlNlBvQUdvNWxaLUVrQWJYZ3FqVmhxV3d0UF9FUy0w?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "4293a414e393",
    "date": "2026-11-12T02:55Z",
    "title": "Venezuela enviará ewuipos petroleros a EEUU para sus arreglos",
@@ -108,6 +118,16 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa1llMWk5cGhObENXMUFZeWNFNm5JcFBpOEdiWUU4Y1A1M2Q3M1VYVnhRS0FNWFRSM3R1MmduMS1iVXhzRlFPUm1XV0NjdWUwaG1rcW5DSlBiUnFONTJOV0VDd0lxbFBPX204c1ltSG12UE9ocEctUkJ2STY0bjVHeU5aNW9IQmpQMzVEX2FQX2FaYTNfT2xIbw?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f4d3ea41fa0e",
+   "date": "2026-11-11T22:45Z",
+   "title": "Trans Mountain Readies Expansion in 2027 as Pipeline Space Fills Up",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3REZ2pXRzVQU2lHRXNCYXNzTWRlNXdWaXB0SGVzajVMWHNZZGJBa3BRS2pDMi0zQW9mSG85bXRBaEZPVkx3SW1Yc1Z5MHNpa1BiRFBYcGpzUG5NV01UNTgwb21UeVozd3lmSWE3bFBBNnFCTEo1VFdVaTRuLVhGdVY1QUtMSzhYdkp5Z0pSWTItSmJmTVJZTXM1Y1U5QQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7711,26 +7731,6 @@
    "origin": "rss"
   },
   {
-   "id": "fb5d53ddb0f0",
-   "date": "2026-11-03T00:17Z",
-   "title": "Bloomberg: Exportaciones petroleras venezolanas caen a su nivel más bajo en 2026 por altos costos de fletes",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3BqNUdxU2ZKVkNoN3oxSTNMNk5fWDI0SElQLWlMOHZ2UEVXMnlGeVhDLVZCOTRZOWFYMzJyMXgwMjdMdDA4VmMxbXkyWklUMEpUT3JaUE1iSUJWbVVKS2Qwak9DbVlCRGxvQ19zaW44bFlmRUFRaU9lLUFTMTJsdFRXOWgyckhvQjRiNjlIRXg0SkNLOERmSFVjREdrS1dkV2RjQU5CLVAzZjZCTkhTbklqNEQySDQyYW5SLTJzTXBCXzhKdzBOMGFoU2lpNmJ4WmREQQ?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "54457ee92dff",
-   "date": "2026-11-03T00:16Z",
-   "title": "Chevron Earnings Call Highlights Cash, Growth and Resilience",
-   "source": "The Globe and Mail",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb2gwLUN5ZFFwaGtkaUVZWHctaTFaUnlJYU43Z2NueV9UM1FDbzE0Y0VuNmIzZDNleFNfVVZyblJJWUFFMVJ4UWpzNDY0bG50Yl9VSXdDcEpEbjB4S3RkSkFKa3FCcVhYdnJHN0Yyd09xNk1tclNzV3V3d0NOSVEySjd0ajEwYWVYNEtIV0ZuQ0J5WkExa0thMWhUMVRoLU9Lb3ZGLXhuMzNIZUYwLWo2azF3cmNCUUZCX0N4aDdhOEVmWF9RUHdkbzlsbm9oZDROc1liYlpNcw?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8033,7 +8033,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-12T03:43:04Z",
+ "updated": "2026-11-12T04:48:30Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
