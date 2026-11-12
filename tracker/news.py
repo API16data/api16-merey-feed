@@ -161,12 +161,20 @@ def highlights(items, now, n=5):
     # Featured stories chosen by hand (curated.json "featured": true) go first while they are current:
     # until their "until" date, or for 14 days if no date is given. At most two.
     today = now.strftime("%Y-%m-%d")
-    feat = [i for i in items if i.get("origin") == "curated" and i.get("featured")
-            and ((i.get("until") or "") >= today if i.get("until") else age_days(i) <= 14)]
+    def current(i, days):
+        return (i.get("until") or "") >= today if i.get("until") else age_days(i) <= days
+    # Alerts (curated.json "alert": true): spills, fires, accidents, outages that hit barrels. They go above
+    # everything, until their "until" date or for 7 days. At most two; they do not use featured slots.
+    alerts = [i for i in items if i.get("origin") == "curated" and i.get("alert") and current(i, 7)]
+    alerts = sorted(alerts, key=lambda i: i["date"], reverse=True)[:2]
+    alert_urls = {i["url"] for i in alerts}
+    feat = [i for i in items if i.get("origin") == "curated" and i.get("featured") and i["url"] not in alert_urls
+            and current(i, 14)]
     feat = sorted(feat, key=lambda i: i["date"], reverse=True)[:2]
     pinned = [{"date": i["date"], "title": i["title"], "source": i.get("source", ""), "url": i["url"], "category": i["category"],
-               "angle": i.get("angle") or ANGLE.get(i["category"], ""), "key_figure": i.get("key_figure"), "featured": True} for i in feat]
-    pinned_urls = {i["url"] for i in feat}
+               "angle": i.get("angle") or ANGLE.get(i["category"], ""), "key_figure": i.get("key_figure"),
+               **({"alert": True} if i in alerts else {"featured": True})} for i in alerts + feat]
+    pinned_urls = {i["url"] for i in alerts + feat}
     pool = [i for i in pool if i["url"] not in pinned_urls]
     n = n - len(pinned)
     out = []
