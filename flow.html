@@ -64,6 +64,8 @@
   .econ b { display: block; font: 600 18px var(--mono); }
   .econ span { font-size: 12px; color: var(--muted); }
   footer { border-top: 1px solid var(--line); padding-block: 26px 40px; font-size: 12px; color: var(--muted); }
+  .months-card { margin-top: 22px; border: 1px solid #2A3E5C; border-radius: 14px; padding: 18px 18px 14px; background: rgba(6,12,22,.45); color: #fff; }
+  .head .months-card p.mo-note { color: #9FB1C9; margin-top: 4px; }
 </style>
 </head>
 <body>
@@ -87,6 +89,7 @@
     <h1>Counted ship by ship.</h1>
     <p>Every large tanker that left a Venezuelan crude terminal and reached a U.S. refining port, with an estimate of its cargo, checked each month against official EIA and U.S. customs figures. Products, gas, asphalt and other ships are left out.</p>
     <div class="big" id="big"></div>
+    <div class="months-card" data-api16-months></div>
   </div>
 </section>
 
@@ -272,8 +275,10 @@
     LANG = LANG === 'es' ? 'en' : 'es';
     try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
     applyStatic(); render();
+    document.dispatchEvent(new Event('api16-lang'));
   });
 })();
 </script>
+<script src="monthly.js"></script>
 </body>
 </html>
