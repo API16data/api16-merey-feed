@@ -1,0 +1,22 @@
+# Keys and wallets never go in the repo: they live in GitHub secrets.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+keystore/
+secrets/
+
+# Node / Hardhat build output
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Python and editor clutter
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
