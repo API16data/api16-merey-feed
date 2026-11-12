@@ -451,7 +451,7 @@
     const news = ((LIVE.news && LIVE.news.items) || []).filter((n) => T.words.test(n.title) && /^https:\/\//.test(String(n.url))).slice(0, 2);
     if (news.length) {
       box.append(el('div', 'lbl', tr('Latest news')));
-      const ul = el('ul'); news.forEach((n) => { const li = el('li'); const a = el('a', null, n.title); a.href = n.url; a.target = '_blank'; a.rel = 'noopener'; li.append(a, document.createTextNode(' · ' + MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10)))); ul.append(li); });
+      const ul = el('ul'); news.forEach((n) => { const li = el('li'); const a = el('a', null, n.title); a.href = /^https?:\/\//.test(String(n.url || '')) ? n.url : '#'; a.target = '_blank'; a.rel = 'noopener'; li.append(a, document.createTextNode(' · ' + MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10)))); ul.append(li); });
       box.append(ul);
     }
     box.append(el('p', 'foot', tr('Free AIS misses ships near Venezuela; an empty list does not mean no loadings.')));
@@ -563,7 +563,7 @@
       const top = news.highlights && news.highlights.length ? news.highlights : news.items.filter((n) => n.category !== 'General').slice(0, 5);
       top.forEach((n) => {
         if (!/^https:\/\//.test(String(n.url))) return;
-        const a = document.createElement('a'); a.href = n.url; a.target = '_blank'; a.rel = 'noopener';
+        const a = document.createElement('a'); a.href = /^https?:\/\//.test(String(n.url || '')) ? n.url : '#'; a.target = '_blank'; a.rel = 'noopener';
         const t = document.createElement('time'); t.textContent = LANG === 'es' ? (+n.date.slice(8, 10)) + ' ' + MES[+n.date.slice(5, 7) - 1] : MES[+n.date.slice(5, 7) - 1] + ' ' + (+n.date.slice(8, 10));
         if (n.key_figure) { const f = document.createElement('span'); f.className = 'fig'; f.textContent = n.key_figure; t.append(f); }
         if (n.featured) a.className = 'feat';
@@ -606,6 +606,8 @@
 </script>
 <script src="monthly.js"></script>
 <script src="home-voyages.js"></script>
+<script type="importmap">{"imports":{},"integrity":{"https://unpkg.com/three@0.160.0/build/three.module.js":"sha384-61S/Nu32S3E5+n+KpCOTb2eRYps6fVKm+9Gz1QBvSePFthb46f063Aa/qe/lykFZ"}}</script>
+<link rel="modulepreload" href="https://unpkg.com/three@0.160.0/build/three.module.js" integrity="sha384-61S/Nu32S3E5+n+KpCOTb2eRYps6fVKm+9Gz1QBvSePFthb46f063Aa/qe/lykFZ" crossorigin="anonymous">
 <script type="module" src="home-stage.js"></script>
 </body>
 </html>
