@@ -1455,6 +1455,16 @@
    "origin": "rss"
   },
   {
+   "id": "ab7e328f45a6",
+   "date": "2026-11-10T21:54Z",
+   "title": "US Reports $12 Billion in Venezuelan Oil Revenue",
+   "source": "SuaraGarut.ID",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VTjJJTlN2Z0Jjc0lsQk5Qd3V2VzVITWtFYThZWGl5Y0I1WmJYWm9RQ0FSM2lfMEhhS3pIX3ZmbVdIVFF1ZXA0Tm5iYzlxVDFKNVFPRjRIZE4wMTJXTDZCRW1ONDJNMzg?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "c0b7556cb769",
    "date": "2026-11-10T21:51Z",
    "title": "El Tesoro estadounidense administra los ingresos petroleros procedentes de Venezuela",
@@ -7725,16 +7735,6 @@
    "origin": "rss"
   },
   {
-   "id": "bd39003d6ac4",
-   "date": "2026-11-03T00:59Z",
-   "title": "Nabep reactiva horno en la Faja del Orinoco que aportaría hasta 10.000 bpd",
-   "source": "El Cooperante",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlk3bmtVSnloNjFlOGJwV1RqeTFrQ1FpYzlBclBhNGtrUXFYeVVuX0hSbFZ6RnZlOVBKdzJBT1R2VjZMeXJNQW1OZk0yeDcyY0o1cXp2amdXdXplaWJiNXIwYzU2OEszNzlWRDAxWXE1Nmo4aTVJa1F5Q29fU21WUGJPcGJjUFRQTVBQSEJMZkZWVE84ME9yVnRxbnZUY2xTZWc?oc=5",
-   "category": "Production",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8037,7 +8037,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-12T05:50:54Z",
+ "updated": "2026-11-12T06:04:30Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
