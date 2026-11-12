@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T14:58:08Z",
+ "updated": "2026-11-12T16:03:53Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -562,7 +562,7 @@
    "est_cargo": null,
    "partial_load": false,
    "specs": null,
-   "destination_now": "USBPT",
+   "destination_now": "FREEPORT",
    "destinations": [
     {
      "dest": "USCRP",
@@ -571,9 +571,13 @@
     {
      "dest": "USBPT",
      "first": "2026-11-06T11:58:09Z"
+    },
+    {
+     "dest": "FREEPORT",
+     "first": "2026-11-12T16:03:53Z"
     }
    ],
-   "last_seen": "2026-11-12T13:14:15Z",
+   "last_seen": "2026-11-12T16:03:53Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
