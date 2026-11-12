@@ -4279,6 +4279,16 @@
    "origin": "rss"
   },
   {
+   "id": "695392dc53c7",
+   "date": "2026-11-08T19:30Z",
+   "title": "El empresario Alejandro Betancourt busca superar a Chevron con Nabep y revela que Venezuela cobra primero el petróleo",
+   "source": "Noticias Barquisimeto",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUXJEdS1VWTlNYUo4UFNkVEJERFVnNHloVkFMV0lTUDY3NUhMUGMyLUJYYTRaWjJwZENWdUtySFRwbnhFcVhxV0RYNFMwc0U4dmRscWZNOXhOZDNKcGY4SWNZLWFHQm16ZkxjYmJvVV9tWjN4aURuUkNWRzc0dk5BS1NNbUhPa05sLWYzNEE5Rng5c3N5YUFsVHpKeGNQZElfc0xjR3FUeTk5eHZScFNWY0tEY1NYQkJYUXZva04tcThuLXYwNm11RGNDWVgzakR0dUg0Rk9BdF9mTFlTNmxzZVpWdUJ1NU9OQ1U0?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "185a15b1266d",
    "date": "2026-11-08T18:50Z",
    "title": "Nabep apunta a superar la extracción de Chevron en Venezuela",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "2c3229e3dca5",
-   "date": "2026-11-03T11:52Z",
-   "title": "Trump aseguró que Estados Unidos tiene el “control total” de Venezuela y su petróleo",
-   "source": "Radio Mitre",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObUxJamRwR0xOM3hFbWtnLUxHU2RNaHBiR0FoTHFCU1lWNnRCOGhlenV1SkNGRHJkNHU1cVZud2ZabS1hZWNzalJuQUhidHRnTk12UENYY04xbGFjYjhoc3M4enN0aEJyVVBOdUNub3FSMGNqdDFVZkFKaXVSRzYwekpfMTdJM0YtS3N0NWpSVnptVUE0VVVhWVVkeWdGYzhva3FsMmpKdE81bTBQN2lIX1N5bWtnRlNSemthNE9QaWxDai1RYUctU3BjbGFvZw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-12T15:46:04Z",
+ "updated": "2026-11-12T15:48:39Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
