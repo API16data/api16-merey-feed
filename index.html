@@ -131,6 +131,7 @@
   .vy-stats span { font-size: 11px; color: #9FB1C9; line-height: 1.25; display: block; }
   .vy-pop .go { display: inline-block; margin-top: 6px; font-weight: 600; color: #A86A12; }
 
+  .months-card { border: 1px solid #2A3E5C; border-radius: 14px; padding: 18px 18px 14px; background: rgba(6,12,22,.45); color: #fff; }
   /* products */
   section.block { padding-block: 44px; }
   h2 { font: 800 clamp(24px, 3.4vw, 34px)/1.15 var(--display); margin: 0 0 6px; letter-spacing: -.01em; text-wrap: balance; }
@@ -214,6 +215,7 @@
       <span>≈ <b id="ctr-usd">—</b> at Merey prices</span>
       <span><b id="ctr-rate">—</b> barrels every second</span>
     </div>
+    <div class="months-card" data-api16-months></div>
     <div class="mix" role="group" aria-label="How firm is the number">
       <div class="mixbar" aria-hidden="true"><i class="c" id="mx-c"></i><i class="k" id="mx-k"></i><i class="p" id="mx-p"></i><i class="e" id="mx-e"></i></div>
       <div class="mixleg">
@@ -602,6 +604,7 @@
   setInterval(load, 5 * 60 * 1000);
 })();
 </script>
+<script src="monthly.js"></script>
 <script src="home-voyages.js"></script>
 <script type="module" src="home-stage.js"></script>
 </body>
