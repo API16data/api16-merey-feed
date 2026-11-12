@@ -1,6 +1,7 @@
 {
  "how_to": "Add one block per story at the top of items: id (unique, e.g. c-n27), date (YYYY-MM-DDTHH:MMZ), title (in English, your own words), source, url, category (Production, Exports, Sanctions, Investment, Gas, Pricing, Refining, Debt, General). key_figure is optional. Add \"context\": true to keep a story in the feed but out of the home-page highlights. Add \"featured\": true (and optionally \"until\": \"YYYY-MM-DD\" and your own \"angle\") to pin a story at the top of the home page. Saved changes appear on the site after the next news run (every 30 min).",
  "items": [
+  {"id":"c-n28","date":"2026-11-11T18:00Z","title":"ExxonMobil is assessing seven areas in Venezuela under its non-binding MoU with PDVSA, focused on Orinoco Belt heavy oil, including a possible return to Petromonagas (former Cerro Negro); one-year exclusivity to negotiate terms","source":"Reuters via BOE Report","url":"https://boereport.com/2026/11/11/exxon-assessing-7-areas-in-venezuela-for-possible-energy-projects-sources-say/","category":"Investment","via":"API16 curated","key_figure":"7 areas","featured":true,"until":"2026-12-31","angle":"Future barrels in the pipeline"},
   {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
