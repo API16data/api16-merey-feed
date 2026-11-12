@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T06:05:40Z",
+ "updated": "2026-11-12T07:26:19Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -8,12 +8,12 @@
    "source": "Directorio Petrolero (Instagram), White House (X)",
    "added": "2026-10-28",
    "reported_venezuela": true,
-   "seen_this_run": false,
-   "last_seen": "2026-11-12T05:01:57Z",
+   "seen_this_run": true,
+   "last_seen": "2026-11-12T07:26:19Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
-   "lat": null,
-   "lon": null,
-   "status": null,
+   "lat": 30.0094,
+   "lon": -93.9742,
+   "status": "moored",
    "draught_m": 8,
    "destination": "USBPT",
    "visits": [
@@ -53,7 +53,7 @@
      "zone": "Port Arthur / Beaumont / Sabine",
      "group": "USG",
      "first": "2026-11-08T17:39:11Z",
-     "last": "2026-11-12T05:01:57Z",
+     "last": "2026-11-12T07:26:19Z",
      "draught_m": 8,
      "draught_first": 8
     }
@@ -1004,6 +1004,16 @@
      "lat": 30.0094,
      "lon": -93.9742,
      "kn": 0,
+     "status": "moored",
+     "draught_m": 8,
+     "dest": "USBPT",
+     "zone": "Port Arthur / Beaumont / Sabine"
+    },
+    {
+     "t": "2026-11-12T08:07:02Z",
+     "lat": 30.0094,
+     "lon": -93.9742,
+     "kn": 0.1,
      "status": "moored",
      "draught_m": 8,
      "dest": "USBPT",
