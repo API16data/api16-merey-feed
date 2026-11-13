@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T03:56:28Z",
+ "updated": "2026-11-13T05:00:30Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -255,7 +255,7 @@
      "first": "2026-11-10T08:57:28Z"
     }
    ],
-   "last_seen": "2026-11-13T03:56:28Z",
+   "last_seen": "2026-11-13T05:00:30Z",
    "last_zone": "Houston / Galveston / Texas City",
    "stages": [
     {
@@ -528,6 +528,66 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-538006357-2026-11-13",
+   "mmsi": 538006357,
+   "imo": 9722596,
+   "name": "STI JERMYN",
+   "length_m": 256,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VE BJV",
+   "destinations": [
+    {
+     "dest": "USPOA",
+     "first": "2026-11-03T23:42:47Z"
+    },
+    {
+     "dest": "VE BJV",
+     "first": "2026-11-13T05:00:30Z"
+    }
+   ],
+   "last_seen": "2026-11-13T05:00:30Z",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T05:00:30Z",
+     "detail": "declared destination VE BJV"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
