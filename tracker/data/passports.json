@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:54:01Z",
+ "updated": "2026-11-13T18:56:00Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -588,6 +588,66 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-538005808-2026-11-13",
+   "mmsi": 538005808,
+   "imo": 9721918,
+   "name": "MARLIN AVENTURINE",
+   "length_m": 183,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VE AMY",
+   "destinations": [
+    {
+     "dest": "US BPT",
+     "first": "2026-11-11T10:01:36Z"
+    },
+    {
+     "dest": "VE AMY",
+     "first": "2026-11-13T18:56:00Z"
+    }
+   ],
+   "last_seen": "2026-11-13T18:56:00Z",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T18:56:00Z",
+     "detail": "declared destination VE AMY"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",

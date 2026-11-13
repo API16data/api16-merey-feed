@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-13T17:54:01Z",
+ "updated": "2026-11-13T18:56:00Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 538005808,
+   "imo": 9721918,
+   "name": "MARLIN AVENTURINE",
+   "length_m": 183,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "last_seen": "2026-11-13T18:56:00Z",
+   "destination": "VE AMY",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 300
+  },
   {
    "mmsi": 563343100,
    "imo": 9830288,
