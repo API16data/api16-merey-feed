@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "3d00e9cd7dca",
+   "date": "2026-11-13T16:35Z",
+   "title": "Incremental gas output from Venezuela offshore project to be sent to Colombia, PDVSA says",
+   "source": "marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZkFyMDZuTXJVajVQTFExWXEyUm5LZFJxbm13NnRLR0w2VkhYOGxiSkhUZXh0OFRBZlNsbnpmWHctN0VldF96Z21lSHFsSnNtT3c0dXJDQTBOdGVSZGtaZnc4X3ZFVy1iYmp3a3ZBSDA3aHpDajRBVnRLaUVPN2lBT3llaF9vY1VzRFFhVU0zT01paExJMU1NZ2JwV3k1VHB2SzNPZDBNR0ZtX19RcG5meFZOeGgxZlBJMUswZEpEMDVGQW1NanM0ZWRnMWtad3lEWXhKT1NYUGc?oc=5",
+   "category": "Production",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "2be5cba6d266",
+   "date": "2026-11-13T16:16Z",
+   "title": "Transparencia Venezuela y José Guerra coinciden: hay opacidad en el manejo de ingresos petroleros",
+   "source": "Efecto Cocuyo",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMWFHQW1YdTJfbEFTWUV0N3ZqYzU2Zm9qSlBzaFRhQi1QMDUtNllsMUdJLUt0cEhCTEdsbUZnS1ZGYWdlM1V4SUNwOU5QRzZBR3pIYkRSMThmYWFkellCM1VZQ2dVNS05RS1KLUxTc2xDU292S2hVaFpDNVNrNjZLVlBJWnR3QmtrOGZVRWNNbGtfaE9pX0RlTXpTdDczM1g4MUR1WXFOSlFJSUVSVXdkNmYtbUFSZjBTTU5MV294U3hxZzhqSHFDazU5TQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "03a09f3ca7d9",
+   "date": "2026-11-13T15:50Z",
+   "title": "Venezuela: PDVSA y Shell refuerzan alianza técnica mediante la firma de cinco acuerdos",
+   "source": "Extra News Mundo",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9EY3dRYzlSNXlDLW9Namx6eEtxMWhrZjhPNjBLSjNHenprQVdaRjNMYnlhSjNuOFFLYS1tV1JrOWQxMm1rVkRRb0Zmcm5lak9XZjduT3lZTHZHakdkMExvdUlZd1ktYm9UcWxVTmpkX050T0c0TlNWZQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "1309182bfb49",
    "date": "2026-11-13T15:30Z",
    "title": "Chevron stock: Venezuela plan targets USD 7 billion investment",
@@ -208,6 +238,16 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX2xBd2lmc3Z0WWp0YktLWWh2WVBMcTZXOWl3NEZ6U1ZvLVdHbkRKYkl4YVRORUQxR1dqVTRSMkRWblBYbngwdFJjZ2g0XzFhdEVIQ3pSM1hISFdvcWNEbzRXdkh5ZHVIeUVaR0Q0SHh0STFOTHd3SDBWUk1IcjRBMFkzeU9xUm1DZG8tSUVlZlZMWGE2eUFFS1luUUxxNTIzcm1Kd1lHc0FtUWxWNXdjRVNZVXhvX0xfQmtNckVkVEpQTW8?oc=5",
    "category": "Investment",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "e75901af3254",
+   "date": "2026-11-13T10:55Z",
+   "title": "Where does T&T really stand with Venezuela?",
+   "source": "Trinidad Guardian",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZy01TG0zck9aZkx1Z3JJZUFnOUZhb1JtakZwdDJmaTVBMkZKcWJxTWxwVTBkVWNsYTlKSUcyQVR2VXg5TWdBTEtOZk4zUDJEa1FSd3g3OGpUYlp1UWZWZXZtcjBhVHZzaEJOV0N4Yk9pc2lMdlRDR0l4MU10MFRCS29QaFZEaHNkSTVyVUU2akFldERqOUxpS3A0Q2pfQjg?oc=5",
+   "category": "General",
+   "via": "Google News: OFAC Venezuela",
    "origin": "rss"
   },
   {
@@ -7699,46 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "b9a50262d821",
-   "date": "2026-11-04T17:48Z",
-   "title": "Delcy Rodríguez afirmó que la producción petrolera de Venezuela creció un 8,5% en el último año",
-   "source": "Infobae",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdDQyeHhUZU94TVFMb0ZDTlQyWXRqb1BTZHVkSXF5Q3RyQmYycVZWUEhTZERKTXZkYXFRU1VfclM3VHdZWjMxVXgyeU1KM3ZzZ1owV1d2UlYtcmdEVnptQ1ZZRk12UzA3VVhtM0p6eFdGY01BY2pYd3Y0aTYySEt2YU1CenUzR0VUVE1SSjByaG1LTGIyYkdqLWdmOXVjMkNuaENha1dWS25qNlhyTXdtLUppa3V2MWFqdUhxNWRQQlJ2VTQwdHdmVldoUzJwdm91YVFKMzZB0gHwAUFVX3lxTE5uU0d3TXh6a0dyZzhndmhYY0JHTHNtSkJVQXFnanYzcThSYVZBZ05KQ0w4T2tOVU9Ta2JPY0h4V1puaWhqWFllREF3Uk9xTXprMmVQQjR3bW9iN3UxRklxQWE1QllVYjhvY0RaZTRWRW42OHVYV2FGamo1TDZ3bWRaSUI5YjNZc3R1TmVnTEtBYWlCRFdaWDdNaVRlcWpCN1dlZWJQdEZnd2VORUJiQWpOYjBQYWpKdFd6TGktYjZabVRWVTVHTW00alVKczA0a1o4RDBjbHBHekZmTVZidUowTDRObi1qRHRxUGp2aVJpcw?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "2d70c7f7960e",
-   "date": "2026-11-04T17:27Z",
-   "title": "Belarus President Calls US Aggression on Venezuela ‘Disgrace’",
-   "source": "Orinoco Tribune",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU2tudUdnNXZoZzlwT19renFRQzZ5RzYydHhjZlpBeW93U0p3MkRQWUk2TE45M0lZcmUyTXlOYkk0ZzJPZmxlVjhtdmFDSlFnQmhTNmZqVV9wRnF6dlhBUjkyWXRKalI5UzF5R240MjQxbGFpZVZueHY5TDF1WlZJakMxT2JjNWdlUFlJUmhvT1o?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d080592ea7ae",
-   "date": "2026-11-04T17:10Z",
-   "title": "Reuters: Petróleo venezolano registra estancamiento en producción y altos precios de flete",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdThWcG5EaXA4ZTNCeF9jMFh5dlNqOWhHd1RWMGlULV9aSFh1VVBBc1drM3l1akNPWHM4OGlGcURQQkVoSUlQb2lMZDZSM01KanFVQ3ZiRWNVWDhtcHFCRzByYVhYdlhTbUZwbkJfRWhRNzdzR1V3dkpPbW9nYmp2U2FRMHJlZk5WZ19yc3hUQjVKaHlFUElhaFk4UnczY2llczd0ZjREdFA0czMweEM2bmlXZTlldzBHaEpEQ3phckV3aGs?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "db3cebb5bab6",
-   "date": "2026-11-04T17:03Z",
-   "title": "Venezuela aumenta su producción petrolera un 8,5 % y alcanza 1,25 millones de barriles diarios",
-   "source": "ElOriente.com",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeFFGaHJDZUJMRHNVeU5NNkNUdTRoaFZDXzFueURJT3lTd3R1bFBnNkdjWEVBR0lnZVFFMWtBX3JGV19fS2FPR2RvaHc1ZDBaaHdQYVY1OXZIR2NjcDQzU21ERVRNd2RVaVc1dUNQWEswVGI3QVVBNXlFbS1zbmFqOTdNZnRzQlo5Ti1uSFdfWWQwQWYzUGxCUzBVRmpBaUk1d2tVOGs0RWR1Q1E3blllV2ZzQUk2YmNyOUR0bFg3OUc3YllLTjBEZmdHNA?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-13T15:38:18Z",
+ "updated": "2026-11-13T16:43:33Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
