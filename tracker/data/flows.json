@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:54:13Z",
+ "updated": "2026-11-13T16:58:22Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
@@ -186,11 +186,11 @@
   {
    "month": "2026-10",
    "high_n": 24,
-   "high_kbbl": 15791,
+   "high_kbbl": 15738,
    "possible_n": 7,
    "possible_kbbl": 3900,
-   "high_kbd": 509,
-   "with_possible_kbd": 635,
+   "high_kbd": 508,
+   "with_possible_kbd": 633,
    "eia_monthly_kbd": null,
    "eia_weekly_kbd": 565,
    "customs_kbd": null,
@@ -203,24 +203,50 @@
   },
   {
    "month": "2026-11",
-   "high_n": 7,
-   "high_kbbl": 3973,
+   "high_n": 8,
+   "high_kbbl": 4923,
    "possible_n": 1,
    "possible_kbbl": 300,
-   "high_kbd": 132,
-   "with_possible_kbd": 142,
+   "high_kbd": 164,
+   "with_possible_kbd": 174,
    "eia_monthly_kbd": null,
-   "eia_weekly_kbd": null,
+   "eia_weekly_kbd": 603,
    "customs_kbd": null,
-   "official_kbd": null,
-   "coverage": null,
-   "coverage_with_possible": null,
+   "official_kbd": 603,
+   "coverage": 0.27,
+   "coverage_with_possible": 0.29,
    "complete": false,
    "usd_per_bbl": null,
    "high_value_usd": null
   }
  ],
  "voyages": [
+  {
+   "vessel_id": "5b3abd7af-f610-2cdf-4df0-7a33bf1fbcdd",
+   "from_ll": [
+    10.2072,
+    -64.8081
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
+   "name": "ADVANTAGE ANGEL",
+   "mmsi": "538009821",
+   "imo": "9779953",
+   "length_m": 285.3116266666666,
+   "gt": 90084.25,
+   "from_port": "JOSE VENEZUELA",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-11-01T21:51:07.000Z",
+   "to_port": "STEUTSPASS",
+   "arrived": "2026-11-07T21:09:09.000Z",
+   "confidence": "high",
+   "est_kbbl": 950,
+   "est_low": 760,
+   "est_high": 1140,
+   "method": "typical full load for the ship size"
+  },
   {
    "vessel_id": "5191c6a85-5584-17d2-f2b9-ea31049fd248",
    "from_ll": [
@@ -312,7 +338,7 @@
    "name": "ADVANTAGE ATOM",
    "mmsi": "538006198",
    "imo": "9472622",
-   "length_m": 232.25012799999996,
+   "length_m": 264.97186666666664,
    "gt": 61336,
    "from_port": "JOSE",
    "terminal": "Jose / Puerto La Cruz",
@@ -606,10 +632,10 @@
    "to_port": "PORT ARTHUR",
    "arrived": "2026-10-22T10:52:50.000Z",
    "confidence": "high",
-   "est_kbbl": 406,
-   "est_low": 325,
-   "est_high": 487,
-   "method": "draught 9.4 m (API16 AIS)"
+   "est_kbbl": 353,
+   "est_low": 282,
+   "est_high": 424,
+   "method": "typical Lake Maracaibo load (~9.4 m)"
   },
   {
    "vessel_id": "6620e0a13-35f3-dc6d-117f-2d506fe9679c",
@@ -936,7 +962,7 @@
    "name": "LUZON SPIRIT",
    "mmsi": "311000467",
    "imo": "9572276",
-   "length_m": 243.93718000000007,
+   "length_m": 244.44221999999993,
    "gt": 60193,
    "from_port": "JOSE VENEZUELA",
    "terminal": "Jose / Puerto La Cruz",
