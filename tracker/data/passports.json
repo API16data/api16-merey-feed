@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T11:02:05Z",
+ "updated": "2026-11-13T11:57:57Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -232,6 +232,66 @@
    ]
   },
   {
+   "id": "AIS-563343100-2026-11-10",
+   "mmsi": 563343100,
+   "imo": 9830288,
+   "name": "HAFNIA HONG KONG",
+   "length_m": 228,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USPAS",
+   "destinations": [
+    {
+     "dest": "VEAMY>USHOU",
+     "first": "2026-11-10T02:58:02Z"
+    },
+    {
+     "dest": "USPAS",
+     "first": "2026-11-10T08:57:28Z"
+    }
+   ],
+   "last_seen": "2026-11-13T11:57:57Z",
+   "last_zone": "Houston / Galveston / Texas City",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-10T02:58:02Z",
+     "detail": "declared destination VEAMY>USHOU"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 8.2 m vs ~11.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-10T04:56:11Z",
+     "detail": "Houston / Galveston / Texas City"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-538006357-2026-11-13",
    "mmsi": 538006357,
    "imo": 9722596,
@@ -282,66 +342,6 @@
      "done": true,
      "time": "2026-11-13T07:17:43Z",
      "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-563343100-2026-11-10",
-   "mmsi": 563343100,
-   "imo": 9830288,
-   "name": "HAFNIA HONG KONG",
-   "length_m": 228,
-   "status": "arrived",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "USPAS",
-   "destinations": [
-    {
-     "dest": "VEAMY>USHOU",
-     "first": "2026-11-10T02:58:02Z"
-    },
-    {
-     "dest": "USPAS",
-     "first": "2026-11-10T08:57:28Z"
-    }
-   ],
-   "last_seen": "2026-11-13T10:01:48Z",
-   "last_zone": "Houston / Galveston / Texas City",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-10T02:58:02Z",
-     "detail": "declared destination VEAMY>USHOU"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "draught 8.2 m vs ~11.9 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-11-10T04:56:11Z",
-     "detail": "Houston / Galveston / Texas City"
     },
     {
      "stage": "Discharged",
