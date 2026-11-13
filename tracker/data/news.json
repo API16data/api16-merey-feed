@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "881c1776ba2f",
+   "date": "2026-11-13T09:13Z",
+   "title": "World oil market is returning to surplus as Gulf exports recover, IEA says",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "98d4a8fa76af",
+   "date": "2026-11-13T08:36Z",
+   "title": "US returns over $12 bn in oil proceeds to Venezuela since Maduro's ouster, report says",
+   "source": "Naharnet",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOelBsYUt5QWNUS0ItMGtJeHNOX2QySkE2QzYwTGQ5VEtmMDJFdWlXd09jTS10bzdzektfUkhOV3MybWxZdTRyLTVELVMzbW5Faml5dDExSmlnZVNQc3hhS0Y5ZG16RzdIUWxFVlMzRVFhZFNmOUd6TzN5R2tPUzZNaUF4SnFMeGYxUFNpUlVkWmJ5RnFkcnotcTBLeUIyTS1DZXZxSEtOeE5DdnRjQWdQOEh6ZHpmdTR1WTNiLWUxVUZzSFc5SWc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "d6832669f7a5",
    "date": "2026-11-13T07:06Z",
    "title": "Negocios petroleros de Trump en Venezuela: ¿qué cambia?",
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "d56b8edd261f",
-   "date": "2026-11-04T01:56Z",
-   "title": "Trump Announces Sweeping US Grab for Control of Venezuela’s Vast Oil Reserves - What This Could Mean For Canadian Crude",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYzkzVjNXTFNkVG1scG15eWtRWVlSMkgtdjZ1TGZQSm1tRkdUZ28zcDJyek5NVjJQU3FGT1QyWjl2WnJWanBQT1FHMmhicGRvejNBcWlkb3MtSllGSkNseFhzWGIxQWRhUEdWZlZsay1WRzBqcmZCWjNtRHktaFhwMEFfeWFZQTZ1M3hzSE55TGVramZOMm9jNUprdm9IRGxubnY3S3dib1JCUE5XZnFWTzJIdjJBX0l3cWlyYQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "1d747c2e1c6a",
-   "date": "2026-11-04T01:48Z",
-   "title": "Reality check: Trump's Venezuela oil deal may have little immediate impact on US gas prices",
-   "source": "ABC News - Breaking News, Latest News and Videos",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGxlT2YyYzQyRUFyTzc4a25QeXRzTHpQV0tTR05YZkZYWl9wd1JUT1Mwb1lJeTBNM2ItVjMwRlRtdDZLOVVCMG5CVWhkMjJCT3B6OHhQWkRDdWRLZUQ3Z2lPZGowaDhNNU9YWjhjdlpiekctM0tpb2JkbnZIQy1qV051Yk1VWmtPdmc4Y29NYUcwUFRFaUlubmUtZWtfc3Y5dzF3bmhHa9IBrAFBVV95cUxQM1hWaXRCS3NTUmd6UFY3MmpRajRiNkZuRkFwZ2ZrVTFYWjQybnF0WFpvbUd5cmw5VzNKU2k0TUI0X2luSllDZFozT2p3dmlFb0hyT2JELU1HSzVZRFVFc3RQOTR4WXNvZWRZQmxsTy1wM09TSng4dlk4TWM5WGtVR04xVWR3VTdPSDdxalNLYzFhMzY2ajRGV0FxY2xjdC1fR0M4LU1hRzVYbkUz?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-13T08:12:34Z",
+ "updated": "2026-11-13T09:25:23Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
