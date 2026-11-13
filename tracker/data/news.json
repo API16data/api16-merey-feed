@@ -1521,6 +1521,16 @@
    "origin": "rss"
   },
   {
+   "id": "9863ba4420af",
+   "date": "2026-11-11T20:23Z",
+   "title": "Iran Continues Crude Exports Despite US Blockade, Vortexa Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NBRlNzMTlGVzhjOF81RjZHS0p4d1RvSUxOMEVkREJxblVJaGlvRlpqZ3U3TEZ6NWNNbVRRZGM4dnNOaWVCWFQ1ck9XZXB5ekpJNFhMTFpGRjNXUmc5ODBOdjhjOE5VaEVJM3BLZW80bk1ITjlDVFFGaHpJd2Jwek14SmxBLTNHLVFqYkRlTWlsVFRqVG5V?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "e3b77cddac30",
    "date": "2026-11-11T20:20Z",
    "title": "LNG Tankers Appear to Transfer Fuel as Hormuz Tensions Persist",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "ffdefd7bd58e",
-   "date": "2026-11-04T00:03Z",
-   "title": "Trump Claims Total Control Over Venezuela, Highlights Oil Dominance",
-   "source": "CubaHeadlines",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55SmJWamtDajRENU1ZaGRvUm0yLUE0bC1iTlFqVzEzUTdXaFdOVlE5WW82OEJDbzJzN29Zay1qWGF3UkRld3pnVXRpOWFXR2dCQ05fWEUtd3c?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-13T05:50:16Z",
+ "updated": "2026-11-13T06:55:34Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
