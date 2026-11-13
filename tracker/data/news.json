@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "1309182bfb49",
+   "date": "2026-11-13T15:30Z",
+   "title": "Chevron stock: Venezuela plan targets USD 7 billion investment",
+   "source": "ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWlTak5QNTR6OURoOFV1MmNhZnlxcEZPNEwteXhmeE92N2VDa19IY2Y0cS0tcTU5R0JaQVVYZHRPeWRheXEwRlplal9ybXlfUC0xd0dQTU5VQ281Ylg2RVk3NDQ0d1NBZkdBRkVZcVhvOER3YzgtbU5qYkZhcjVDUkowNW4zcVlSaDJoZldoaDJWRVcxNlQ5YXNTaEp2RUg3aXY2ZG5DYWsyV2NEM3A3YURLYlFzbjcwazBEOGdDSkhjdw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "4001caa02c16",
+   "date": "2026-11-13T15:16Z",
+   "title": "EE.UU. afirma que transfirió a Venezuela más de US$12.000 millones por sus exportaciones petroleras y de otros recursos",
+   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0UwWXJjbVlEYUdMaG1SX2dFdV9PME1BZHFqN25zWlo4MzA1UW1WX05fenYwMkIzY2x0NUlfX1Zwbzh1ZVltZUFWY1N2NXBTNkx4dzloQnA2Q1JZbmo1TnRpVWQ3VUxDRkN2dlhwWk5hMWhkMHdyYmJmNnlZOGhpVFBXSlA1d3dKVTc1b2FENA?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "3e04e549fdbd",
+   "date": "2026-11-13T15:07Z",
+   "title": "SVG realiza la tercera edición de su Jornada Geológica de Petróleo y Gas en Caracas",
+   "source": "EL UNIVERSAL",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLWFWNTNJemN3LXNkRXcySUd0TFV0MjdtLVlmUWtsUWgzWTRTTFhQOGJYRkFPODY3VTFLMGNrQVA5bjgxUGdnUHhKUEdYNGxtb1JEOU1SbVM5TjFibGhHckw0UHY4elJJVm5uRXdqbHhPdzZwYXlOeHBYaXhUdV9FbVMtNG5FY3ZKNDJlSl9zQThoZlhLTk1KWllBRERvVTd1dDZidUJ4M0loYXhlUEdlbVRyV3J3SW5zYUQ2WFF3OW02ZGx4?oc=5",
+   "category": "Gas",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "05060cfb8773",
+   "date": "2026-11-13T14:56Z",
+   "title": "Bombeo de crudo venezolano se enfría luego del avance de enero a agosto",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRjdtYlktR2Fzd19KaS1INjhVSzBBNmg1NEFENVlOTWZqTWc0STYzRTdUd0hoYVBGVllXU1pseWJCYk81Sl9zalRDYXRqUnFBVUh0aTF4TnRCWXh1SzNvQkFCenJTRUh2dHhsV2p0cTZ5d053cFJ1SThPQzR4bW5SOFprWENRaFVrME1HRVQ4MHNZOFVuMUllX3lJdkVCMzBfQlE?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "718a5964b872",
+   "date": "2026-11-13T14:47Z",
+   "title": "Netherlands Backs Pisas in Resolving Curaçao's Outstanding Debt Dispute With Venezuela",
+   "source": "Curaçao Chronicle",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN3EtYzVZTjlVeHE2V2txd2xYaF9nTk1ndUpxM1VUbUVPZWNtUmZaaGJncE1UY1pJRTVfZmpnMkN5OE01Rks2UFZGR3JfalNEVFA2WkdzOGQyMGFxVWpBUXBoNGstQ0VsVUVIR0Vnc2tEV2ZQZTVFMG80THZzdDhUTjM1a0FFUW9Jbldzc1RrcERYSTFsNHpEbEVIOVpURnZWZU1TUEtmSDYxMmVWWnpBLXhpQi1yMkV4ZFpKbGladUVOZTRkbHcwcQ?oc=5",
+   "category": "Debt",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "32ae19f6099d",
    "date": "2026-11-13T13:47Z",
    "title": "Pdvsa y Shell suscriben 5 acuerdos",
@@ -1807,6 +1857,16 @@
    "source": "EnergyNow.com",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NBRlNzMTlGVzhjOF81RjZHS0p4d1RvSUxOMEVkREJxblVJaGlvRlpqZ3U3TEZ6NWNNbVRRZGM4dnNOaWVCWFQ1ck9XZXB5ekpJNFhMTFpGRjNXUmc5ODBOdjhjOE5VaEVJM3BLZW80bk1ITjlDVFFGaHpJd2Jwek14SmxBLTNHLVFqYkRlTWlsVFRqVG5V?oc=5",
    "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "41400d1bb3e5",
+   "date": "2026-11-11T20:21Z",
+   "title": "Hormuz Shuttles Keep Oil Flowing, But at a High Cost: Bousso",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnZBMjBEZzEwbkdna0JWc3JuUVZDQ2FzaFl5eDZkY3Z0ZDI2MVJTbmJwaU1OUGNTbFluU2JxWHdIUkdSTFZlNl9HSVdkYmdDNU5tcTZLZXp5WVIzV1ZGTWJRUmNiN3o1VW9GWE92d2pjdmNzN2pVa29odHRNUWcyZERodWJtWHY0SXViYkhkdVJUdGc?oc=5",
+   "category": "General",
    "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
@@ -7679,66 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "6b78f5e15e3e",
-   "date": "2026-11-04T16:57Z",
-   "title": "GeoPark readies Venezuela operations as it adds acreage in Argentina’s Vaca Muerta",
-   "source": "BNamericas",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVZFRkRpSGktSlF5TTlNWnNBaTFDa1oySktrc0Nzb3J3WV8tZ2ttQnp3YkJrTjBQYWVJcDJqZ2hIZFVmcFFhdVVRcEZPcTliMFEzRU93dVhvUXVOWndiekRaelhUcTcza1B6NFYxeDdWZ1VoV0tDZ0hfbEtSM21YQ0FyT0MyR1JGWnZTaGtySWloY05rS00xejhQdk45LVJvZkVFZmFmWWNSd2RUT0lpS1oxWXdXQmc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "b30c6ee299b1",
-   "date": "2026-11-04T16:45Z",
-   "title": "PDVSA fortalece capacidad industrial para el desarrollo nacional con bienestar social",
-   "source": "teleSUR",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9UdFU3THNMRi1mSnlKZnJRMkVBc0hvOGk2akxWM0RKUGdPOTZabDVnazlNeDY2QVJUb2hXSVk1RjF6Q1psUUMwcHBuQzdVSmlxRUY0SjZIbWRBT29rWE4ybDNjWlR1ZmZlLXQwSGh0NEtHZDlRbW1JWQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "9b676b47b6b0",
-   "date": "2026-11-04T16:40Z",
-   "title": "A Path to Partnership With Venezuela: How the United States Can Help Turn a Dictatorship Into a Democracy",
-   "source": "Council on Foreign Relations",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRFZJU0I0V2lIaDZETVJsVFNaRUJubU8zNFBRMlVtN2VMRC1yRUMzMFZyMGdqWWJ2RE5UeHU2RDhMejQweDIxZWpxRnE5NHNoc0Q2TWg2NXFqMUxuSXZ6amdKUHh2S0RHTWNuTEVkcWhHM0ZVOWNhczgzc3ZGemlBNlliNmJ3X0FEVUc2VEJVZFFEbGRCTGdsb0FjSjcwZ0xoX3hSNXo4djdOZG8tQnY2U2hYMHZEdTJmaUh3amppclU3VC1vLW9TY3E0bVlLUQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "ccf34a906de0",
-   "date": "2026-11-04T16:30Z",
-   "title": "ExxonMobil Delays Major Investment in Venezuela, Demands Stronger Legal and Financial Guarantees Before Returning",
-   "source": "Curaçao Chronicle",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUE5fN3dOdDc0R0V4Rm9wb3dZTUFuSXlDUDF4Vl82Nm9iRVBlWm0yeU1CM1V6ZTdycmpkX1hrVm5DMzRHYVk2UjlxYTlTalA5bm5wNnllWlBTUTFsLTg4MjRvT2drQmFqSVpaNzRfRW1zakl6THVjdmg3bW5mMHR4MUNIMTRNU2hWcEx6Q1lPbjZKMmlDcDEybWQzSHFRZHFqb3BzcHoyMkpLdjNxVUswRnFrazVBZXJSQWdtZ2hqZFhFcXE4NFY5TnNjSEJScDIzM0NFam9jaDdkWndtdHI4czZzanphSHJPS2tqcnl1QQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "0325cdad9060",
-   "date": "2026-11-04T16:13Z",
-   "title": "GeoPark Completes Venezuela Entry as Grupo Gilinski Takes Shareholder Control",
-   "source": "Shale24",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdnZSNUI2NHhrb3A1MUxlVlRhVFlkMkNWa3UzanZ6V1lOUkxaMVhQNy0xand3MG1tVDI4Nmg1QUlUOGNGWFFfaGhJWHpqQ3Rxbkl6ZEZxaFBrRWFhcWJ2cWo5aWZuR2duTGF1elVTOGtOOWtiM3ZWSGg0a211TVpaNEo0UFlJV2hCcUFtRk1lZWtrVGR2YzFuMmEtUVNDZGpKdzY1Z0U5ZGVaS2xBRi02RHpPRmFzSlFCalVsVVpsMNIBxAFBVV95cUxQUXV1UWd3VUxXZUI2TE5xT1RaWlpNVUZwWnNDRWtyaUttVUhQcGR4VjBHRjhMck1RMnd1VmZ5Vzd3LVdpSUZ0QXhGQ0lYSmdieU5PM2JLRFlDODU3Zk95YVY3NUlFTW1BLUltTUR2TEw3YlluUkV0T0V6LVVrR3d2cWNIZUl3SERZcGdKRHNaVWlJZm1KVE5uR0ZVeFROeWg2RVh0ZEFVa29uMEVyUnN1OGpzaFBWMDJaUHlrT1hsUzNaT1RV?oc=5",
-   "category": "General",
-   "via": "Google News: Orinoco Belt",
-   "origin": "rss"
-  },
-  {
-   "id": "2e28d7d8fc90",
-   "date": "2026-11-04T16:01Z",
-   "title": "US Energy Secretary Set to arrive in Venezuela with Herculean Task of Oil Recovery",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTk1kaVlzSjN5aWtIaXZFdjY3LUVoSnd1ZkYyVGFTUmMycDZGbW5yMi1xN2Y5a25mSmxkeHhXWnZqT0VOSG9fUm84ZmZIczlnSzhJNkoyNjVRVWo0aEwwVmZzTFREcXZtajFMQmNhTEVQMHVzOHo0ZmFyMzc0dFE0TkFlcFZveFdpa1JXSGQ1R1F4aXp4ZllLQmFnMm1LeERSZkxWQkxzTnMwR2Jyd3piTjdsYw?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-13T14:44:51Z",
+ "updated": "2026-11-13T15:38:18Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8105,12 +8105,12 @@
    "key_figure": null
   },
   {
-   "date": "2026-11-12T15:21Z",
-   "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "date": "2026-11-13T15:30Z",
+   "title": "Chevron stock: Venezuela plan targets USD 7 billion investment",
+   "source": "ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWlTak5QNTR6OURoOFV1MmNhZnlxcEZPNEwteXhmeE92N2VDa19IY2Y0cS0tcTU5R0JaQVVYZHRPeWRheXEwRlplal9ybXlfUC0xd0dQTU5VQ281Ylg2RVk3NDQ0d1NBZkdBRkVZcVhvOER3YzgtbU5qYkZhcjVDUkowNW4zcVlSaDJoZldoaDJWRVcxNlQ5YXNTaEp2RUg3aXY2ZG5DYWsyV2NEM3A3YURLYlFzbjcwazBEOGdDSkhjdw?oc=5",
+   "category": "Investment",
+   "angle": "Future barrels in the pipeline",
    "key_figure": null
   }
  ]
