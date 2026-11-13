@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:02:12Z",
+ "updated": "2026-11-13T07:17:43Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -8,8 +8,8 @@
    "name": "STI JERMYN",
    "length_m": 256,
    "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-13T06:02:12Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "last_seen": "2026-11-13T07:17:43Z",
    "destination": "VE BJV",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -23,7 +23,7 @@
    "length_m": 228,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Houston / Galveston / Texas City",
-   "last_seen": "2026-11-13T06:02:12Z",
+   "last_seen": "2026-11-13T07:17:43Z",
    "destination": "USPAS",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
