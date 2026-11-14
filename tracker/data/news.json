@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "8ee104481397",
+   "date": "2026-11-14T15:34Z",
+   "title": "Ecopetrol solicitará a PDVSA que le otorgue la operación del gasoducto \"Antonio Ricaurte\" del tramo colombiano",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNkN2WXJFSEktMEp5VHk4ZlpHZlZiQTJJYVo2VHBUOXFyREh4QmtHZ3A1OWtZeHVSRWFxb0c2NHdsN1R0NC1SXzFTakUzNEZkOUFHZ2ZfWjEtRG1NYmRMVXdRRnhidXhfeEJpYTlNMFp6N0RWNlhtdXR2MF9IZ2NyZ2tWU0VrdGhZWGh6OWwyaFgyREwtWGxGbWVrSXg5VjBDa0xLUWFRQ2YxVGcwWVNwaTRLMkdIc3ZiVHFNR2dLWUlZV1ZTMElkUnEtaUhxSGdtTlBIakczMW8?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "8d3079e71965",
+   "date": "2026-11-14T15:33Z",
+   "title": "Venezuela seeks ExxonMobil’s return with assurances on investment protections",
+   "source": "Ocean Energy Resources",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSV9CdlZhUFFhWmpkWVM1azlhY3VVRlV0MmxYTkhxOTU4b3ROMEV2WXRzYjRoVVRQbThxYi1QV3ZWanBYclRyMjR0bm9ScmxxbjBGZ01vZ3BXSVhsN0pxbVhINnI2eFdfUEtnYWN5ZTJ0VEExM2xaZHlaMnVDdGVteVpsTUgxQWpZM2lfRGpVYWJKYkU3MFAwTmx6WHVkRDBIWWktYzlUMUUzcU5Uc2U1OGxBT0J5V1RTbU5RR1IwTQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "8e202b8aaa80",
+   "date": "2026-11-14T15:07Z",
+   "title": "NABEP reactiva un horno clave en la faja del Orinoco y prevé sumar hasta 10.000 barriles diarios",
+   "source": "El Confidencial",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRGczUXVRSDVRVE11UDhJaGlqRWFpLXYySzFnX2psOVJLSWlaVG41Z2Etb0Etc0Q3bHNXbEJDX3laeURVYS1FUDVLS1hNd0o4ekgya1QyS09lTEJsVnNMR2s4aFV1clhzTjJVMGp5VW5IWmowTlNJajVkdDR1YnBoa0EwQ25KYlZVaFF3UXUzNHQ4R1dIZXZpYzhueHk3cUcyaW16Yg?oc=5",
+   "category": "Production",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "6f98f96d56b8",
    "date": "2026-11-14T14:49Z",
    "title": "Venezuelan oil tycoon Alejandro Betancourt's US-backed venture hits 223,000 barrels a day",
@@ -8,6 +38,16 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUUl4Y0lteldrTTRrTjhSRElIcGwyM3dHejJvZWd6SlVXOXJEeXVacUNfUnc5WjE0QlZYVWM0ZkNmTWZpZzJacWtBcFRYTXJPRW1PVmxKcVFYaGlaNzd5cElsMkdaWXl1REVpSnZTYS1aY2FJcUhrcE9HblVlY2lnYVRHT3l2MU5oWUdTaXB4RTZ5YVhLRm01OWdwTk52N1NtenRMUFRaQ0ZJdGhzRTJQYi1qd3NyV1dnN2dDUmNMMllyZC1ObV9iWlZ0R24?oc=5",
    "category": "Production",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "9aa759c68d73",
+   "date": "2026-11-14T14:17Z",
+   "title": "Venezuela negotiates reconstruction ahead of elections",
+   "source": "Tomorrow's Affairs",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnJnNlFlVFFHMjdkclI1TzFxYnpLc0pRNW44RFFpWjFUX3d5U2VPakNadmVYZ1VoOThKOXZZc1REc2xkNGkxN01Dc2M0OGhKUFp2Z3FzQTJIQTEteEdJQ2pKeXJweWo5UzFjNVBBUUc1UDRSZnNITHo5b09FQ1BjdUxvdmpweUtDeVBj?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela bonds restructuring",
    "origin": "rss"
   },
   {
@@ -838,6 +878,16 @@
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYjBTamJBYW1qSDRLdjlRcVN1TTQyMWJvSDNNU0x3WGZndWxYSHVPOF9KVVFiZi1lY2JTWWNnbGU4MV9EWmRxMmZvQUU3dlozYkRoak9qNkVjZnhwT19vQ0JfOWVTVzZXQTVSTm9MVXZCVGIyMEEydHNqaTRIaGxocm5hX0xvZEVKQU9UdXZxNXNZdHBRSHNBVFp3TXNacUhJODhoWm1xdDBGM1RwTjM1WHRGNWpSRjF5SkQ0?oc=5",
    "category": "Production",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "b9c5a9d4eb37",
+   "date": "2026-11-13T11:58Z",
+   "title": "FILE PHOTO: Middle East crude oil exports exceed pre-war levels but tanker attacks increase",
+   "source": "The Daily News | Texas' Oldest Newspaper",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNaUZ0akJDcWhQVGJ1Umc1WFhScDFubE9DZFlPZ1ltMUc4bnJRaXNRU2FuX1hiZzhaNGRuVXIteDNMRkZTeThkdWRoTGNrbFJPbExlZUNWNlZCdklCTXBRRDFSZjRhZzJPS3c4dllaOWJYdm1LVWF2ZHl2c0hiLS1jS0FOeWs2d1E1LVhsaTRFMTU3aTdnUWdzNnVtUklFR2xlcHY5b3VDdkpOU2xqSjR2dGlwX0w3V1V3akF5QlhDTTBoYmxSbWtMbkJsU2JnYkgzZU9Vc3dBWkxXeDBPdHE1S1Foc2JUSlRYODJkcS1WR005Ri1ZUy1ubklnbjZGc2VCelZhYXFORWE3SnFONl9XcmJqVQ?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7689,56 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "334156b42ab2",
-   "date": "2026-11-06T08:00Z",
-   "title": "Middle East war risks sustain tanker freight rates into 2027",
-   "source": "Kpler",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wZlN0ZlNhTnZVOGdLRWlqck5aQUtiSnNNV3V4RUt5ODJaTTJTZVUwaGNvbkdjVm9nZjZwcjNXSEVhV1Y5dVAwSmlUR084Q0JGS0xDYUVzVnZuc2Jkd2UtcWtCS0Y0WTdGZEJF?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "c61bc7444a7a",
-   "date": "2026-11-06T05:43Z",
-   "title": "Iran Oil Exports Near Zero But Peace Deal Not Likely, FGE Says",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkRGUE9vNzFkZTQ5ZWkzZlJtZk5OUlBXSW5ydGJZWXkzMzc1TE1ucTMwUWZrQmVpbUxScWloNGtPNTBsMmtBeTJVRXlPS09lMHN0UDlRYnpHSkZlTFZCRmd1MnNmdzVuTDBQVEVoZWk5WVVRd0RLM1dsRmNBRFJCXzRrR1R2eHJfNGZSYVJEQmRMQ3FFd1NtbEgwRlh1THptV0ExWXlNZURwa3ctQXByR2ZB?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "13eddca78e27",
-   "date": "2026-11-06T05:31Z",
-   "title": "India’s HPCL Says Booking Tankers for Hormuz Still Complicated",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYk9OWFc3Z1k4OG9UOExhUnprd0I3U2hvekdvdG9yRFNfWmx0Skc4ZXNsT1k0SkZhNmgwYVpzempqMTFsTlJGMEZPcFY1OFdjXzdLcXZWdTBkM19CQWhtSnZzbXd3TUM4c3hDNkRxZmowOWhYSVBkb1JzcUUxbGcxX3QzSHgxVVNqa2YzZDdTWXVhd0pGTDRXQWlOb0FzTDVZb09ZR21Ldm14OUphQ0dRVEozMDM1RWt5YldkME0wdDN1WmVicXdF?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "85edcc09f0b9",
-   "date": "2026-11-06T05:30Z",
-   "title": "El petróleo de Venezuela fluye a España a ritmo récord desde los acuerdos millonarios de Defensa con ZP y Bono en 2006",
-   "source": "Business Insider España",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORi04V3k1eElqckNYRDRGM2I2VnZIb1dETFZpVXBfRmhOWkRTeV9fcGpUVVlxYkRMV2FzRGN6UnhybENBWjlueHZmcTFnOUxPWVZaYVVOUzNza1FzOHQyQWVGanlrUWE0bDRZc3FKLXp6Ql9VcGs2TVJRc3pKMmhhVzE0czBVMnlKZzhUcUs0c3JkcDdGNDhXYm5LOWpzbDdKeDEtX0c0UGZybUFVSmlQYkRiZXotZG1GM3dvcXdQYU1mOUJmOGdLVEVXNnBRUmxDeUljbEM4Wmt6QUZraGxlUWxGSE9GUzN1TjVJ?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "0a53c52ad036",
-   "date": "2026-11-06T04:58Z",
-   "title": "Cambios en exportaciones petroleras de Venezuela impulsan demanda de Aframax y reducen uso de VLCC",
-   "source": "Mundo Marítimo",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTDJJODdiaGptTkRKSGdkQkdfR0RKUkxPcFRrUEY5c1p0MjJobXpNeS1mM1N4bXJLelJ5TkRMWTdxM0FqWjZWcWY0aElQMG5BQzJFVWlsQ05SY09HSEwwVkpqVmhCSnZOSTRVZGRLVkNsV250ZHkwLU91VkFaQkVhRlh5RndvNzZULXZsUS1tcVRSOG1SWnN0dlBlV25Pb3lEUWNYVlY5LVppcWV3STh6M0VXNmFPMFJZd3hTdDNwS2ZBTG9sTVVPQk45RlNTTzRDaWc?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T15:07:23Z",
+ "updated": "2026-11-14T16:06:05Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
