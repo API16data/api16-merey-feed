@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "e863900a64c4",
+   "date": "2026-11-14T09:00Z",
+   "title": "Foreign investors eye Venezuela’s oil sector",
+   "source": "IDNFinancials",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZUMxbWQyYVJ0OXFfR3kxcE10cTd0dmhyS3BFakNveXBqdV82dFlVU0hCcWdZbERZTV9TcC00ZDIwNlZMRUtUaFhnckNsVzF0cEV1RXBIRlZFdGhyRGNTY3RjOXpRWVVMWUtDTF9vQURYcUVUTkw1QTZ6S3pUUUphZkg4VXoyR0Rod3BzMQ?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "6b779bbe714e",
+   "date": "2026-11-14T08:30Z",
+   "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONXlnM3BjMUpwcTRWWVRmMmlnYkpfczB1bVFkRURBcnE4UXA3eGhtVXZWajk3N1NGbm95VWIyNlREN1hWLXo0Y3ZGeGxWcmtXN2drOTBVWGN2R1lZS3k1YkJfZWlOSHFZMXpWX2w1OHFMRGliOVJTR1dMRGRRV0hPbkF0OUFURENSWmRCX0ZfOFh3Z0s2alFjUlFyWXJ4R21Ib0h3UV9ia2xRbUxZM1h5WA?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "5d056c671476",
    "date": "2026-11-14T06:45Z",
    "title": "US Returns $12.26 Billion in Venezuelan Oil Revenue After Maduro’s Ouster",
@@ -128,6 +148,16 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmxuMXJmZkhWcU1mUXBMUWlHTDhFMFg1Y3M3Vkk5YVdQSXdka2xoVWVXWDRMem0wT1NNaFZxcHZWUDF2OEVRbTBkOXR0Wk84UW9uQjlHdU1xMVlSek1hQV9BWHVCRzlTdnN4azhUNGFvSWo0b1FJcXhLNks5X2FHZEx2SERfdjRYYVF3TUZaVnJfLVVhYm1rTDREUEVoV1Q5bzEtbTlwWQ?oc=5",
    "category": "General",
    "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "7e23c8d97ee7",
+   "date": "2026-11-13T20:39Z",
+   "title": "AFP: Nabep, respaldada por EEUU, exhibe pozos petroleros recuperados en Venezuela",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLVR1clB4cm9HaVJhQ1RjdGVURnl5VlNrcFRrNUF4RnZBQWZ2VW5pY2RUcjNFRDd0NmdTdEZ4REFKd05qQU9IdjZvbzBaNkRvRFBiVU5maEFtclI2VFBES05pcFpwUGE2U0JmSHVYZjJHaWZnXzVKUWRydXJoWHhyRjhVVElTMjRoWnM2emZXSWQ2ZVdUNW9nVkJFbjRGNHk1bzhJYWFVbnNtbHF0eVZZ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7709,36 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "f1457fe48de0",
-   "date": "2026-11-05T20:36Z",
-   "title": "\"Los demócratas van a usar su nueva mayoría para conocer cuáles son los términos del embargo a Cuba y del corte de envío de petróleo venezolano que está agravando la crisis humanitaria\"",
-   "source": "COPE",
-   "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxONGxXTzZpMEZQbmhkc1h6ZlNZTG9jcktmN2ZLOTNOVjFOU1VXVmVUV2RFd1FTMC1oSjdBdlFhQWdHdjdtQ0JoQlJ5VzBRbUZQTHVPeklaQTNIX1JLUzZ0VUUxV0FiaVc2SG92UWE4cDVyRS0xYVdOSXN1U2hGX1JBLWkxVFJMd0ltNmFqQzdjOU5qRHpMN2ptWjhhRHNLLWVIZmpPajI5NFRiVkJtbm0tMVZxTFZ2bHQyOGRFZXRjQmd2UjE5dTZ0QWlFbF9LSkxnSVNiM0t0bVI5dXZaa29PVXFxT05nNVVhZWEwbm5SUHFUZTM0WFVmRV9QRU9VaEtISGlxR2U4VXF5Ukk4VGlCOEM4UEdRRExpcEhRbG1jX0hwYWtPbldF0gGsAkFVX3lxTFBnbjlTMHRIY1h5Q1ZwNllROEVkX1pLNTJjNjZ1TUVtdlZZMHU3T2IwZnl6ckwxSFBpN3lkZ3ZuaDBwdFRLaFZCMkdQcWlnOTBsdDZoS09DMk1UVGwwazNzSGhYMFF0c19hTEhQTmI0NjRsMWh6N1ZBTHlyUWdsdDFTVXJlMlE4WkhPdVdKRUpJQXloaUZiY0x6MWdiSUtDSlJ2TnF0M1FJNHdMdVh1OW5JajZqZlh1emNOUEtNb0ZRanFjZXc5QmZiX3M4bzRlWUFBQVRtZHRJWXBrRDE0RG5FdmwxeUdIM3BHZi1aaUJVY1p1ZFVoVFhDcmliMVd5LWNUcnlYQU1zVjZRNGNCa3pOYTVEVXFyZUtjWHRyOWdDVHJ0UmVRbDZNMklmdQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "4265f9986396",
-   "date": "2026-11-05T20:30Z",
-   "title": "Exportaciones venezolanas de petróleo a EEUU cayeron 10% en la última semana de octubre",
-   "source": "Confirmado",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLS1aTGN0LWI4dnBCMWVuMnl6ODI1VlFRTG5GQ1RfaWxHSTgxTlVtQlFpWHRZR01RZW1FR2hUQ1BvZFBLYTRKa0FlVlNhY3pMcXJsc0hJc01ybXA5N0hUN01BU3QtNzFRQWpYdGJnRW1pWm44aHkxYW14N3lWeU1wQjBuTGVreWlTRS1BbG5xMzA0bEVsNERKNW1sdldrNnF5dW5qMTZjR0YwMHlqTEVfTlh6Zw?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "92c0577561f2",
-   "date": "2026-11-05T19:38Z",
-   "title": "As U.S. Companies Return to Venezuela’s Oilfields – One Canadian Driller Has a Head Start",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb0RpaFY0VFlvT1R6ekRPNXlVb25LMVdfZUgtWFRJNURPUGZBSjctNFExT1I0X0M0cW9TUk9vaFNTYUNEeWk0eEVINzZJTVVkUEg4bEdOb09SRGlqSWZTeFNpcDJUQ3V4WXE1R2lkWkhxX0h6NzJ2OTZzTk9vNVdWMjB2bGZtX2JQQ083NWhqTGRabU5mWW9vanNrbDdaSUk0TmhSSW1FS2xMY3RNalZiSl8ycnNNQQ?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T08:40:40Z",
+ "updated": "2026-11-14T09:36:20Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
