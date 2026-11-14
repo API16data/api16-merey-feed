@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "92375eddc1d6",
+   "date": "2026-11-14T17:58Z",
+   "title": "US appears to have pushed China and Russia out of Venezuelan oil deals but faces a billionaire's growing grip on prized African crude",
+   "source": "Business Insider Africa",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdEFZeXhUejVXQjltUVdleU8yNlBoV0Zoa0JCcllhbDMzZGpCeHhFYi1JNE95SXNGejdyamkyR2VDSl8tWUdfOWxfcnZ4NjNWVnBqZkwxVGVKdDVsdGEwOGVZZWpWS1RPZ05ubzNaZFh1ZGJ5SFhPR1c4bXBsbU1hUDN1ZW9kMmxxcWhCaXVQMkU0eUZHam5MRDJTOEs5MUZVNTZFSmFkQURjTV95NTkzRXdQajZJcnFxSVk5aXh4N01GVmRLOFF1V2JJWEhKWGxNY0ZEdmNB?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "8ee104481397",
    "date": "2026-11-14T15:34Z",
    "title": "Ecopetrol solicitará a PDVSA que le otorgue la operación del gasoducto \"Antonio Ricaurte\" del tramo colombiano",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "13dc4f787979",
-   "date": "2026-11-06T08:00Z",
-   "title": "Processed eucheuma seaweed Venezuela Prices & Trade Data | Market Overview 2026",
-   "source": "Tridge",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsc3NXSmIwRnVyaldqckJnTnJWaG5UeUxQeGRyT2ZGSjZYZy1EaUZaNVdvYi0zNnViYjhTb1QtdU5FTmp4WmI2dFQzYVB3ODB0LXUzWnRKaGFUWHQyZmFDSWVuVVR2S0JCY0ZpUWxjZmZNQ3VMTFFZ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T17:59:44Z",
+ "updated": "2026-11-14T18:40:00Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
