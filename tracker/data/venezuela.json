@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:47:05Z",
+ "updated": "2026-11-13T23:43:52Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
   {
@@ -8,8 +8,8 @@
    "name": "MARLIN AVENTURINE",
    "length_m": 183,
    "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Port Arthur / Beaumont / Sabine",
-   "last_seen": "2026-11-13T22:47:05Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "last_seen": "2026-11-13T23:43:52Z",
    "destination": "VE AMY",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -23,12 +23,26 @@
    "length_m": 249,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Freeport",
-   "last_seen": "2026-11-13T22:47:05Z",
+   "last_seen": "2026-11-13T23:43:52Z",
    "destination": "VE JOT >> US FPO",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 700
+  },
+  {
+   "mmsi": 538010650,
+   "imo": 9794850,
+   "name": "ADVANTAGE PORTOCERVO",
+   "length_m": 228,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Corpus Christi",
+   "last_seen": "2026-11-13T23:43:52Z",
+   "destination": "VEJOT>>USCRP",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 500
   },
   {
    "mmsi": 563343100,

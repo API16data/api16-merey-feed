@@ -1,7 +1,76 @@
 {
- "updated": "2026-11-13T22:47:05Z",
+ "updated": "2026-11-13T23:43:52Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
+  {
+   "id": "AIS-538005808-2026-11-13",
+   "mmsi": 538005808,
+   "imo": 9721918,
+   "name": "MARLIN AVENTURINE",
+   "length_m": 183,
+   "status": "arrived",
+   "stages_done": 3,
+   "stages_total": 5,
+   "est_cargo_kbbl": 263,
+   "est_cargo": {
+    "kbbl": 263,
+    "kbbl_low": 221,
+    "kbbl_high": 308,
+    "tonnes": 38700.0,
+    "draught_m": 10.9,
+    "loa_m": 183,
+    "beam_m": 32,
+    "beam_estimated": false
+   },
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VE AMY",
+   "destinations": [
+    {
+     "dest": "US BPT",
+     "first": "2026-11-11T10:01:36Z"
+    },
+    {
+     "dest": "VE AMY",
+     "first": "2026-11-13T18:56:00Z"
+    }
+   ],
+   "last_seen": "2026-11-13T23:43:52Z",
+   "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T18:56:00Z",
+     "detail": "declared destination VE AMY"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": null,
+     "detail": "draught 10.9 m vs ~9.5 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-13T23:43:52Z",
+     "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
   {
    "id": "AIS-538012206-2026-11-11",
    "mmsi": 538012206,
@@ -251,7 +320,7 @@
      "first": "2026-11-13T21:50:36Z"
     }
    ],
-   "last_seen": "2026-11-13T22:47:05Z",
+   "last_seen": "2026-11-13T23:43:52Z",
    "last_zone": "Freeport",
    "stages": [
     {
@@ -278,6 +347,62 @@
      "done": true,
      "time": "2026-11-13T21:50:36Z",
      "detail": "Freeport"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-538010650-2026-11-13",
+   "mmsi": 538010650,
+   "imo": 9794850,
+   "name": "ADVANTAGE PORTOCERVO",
+   "length_m": 228,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VEJOT>>USCRP",
+   "destinations": [
+    {
+     "dest": "VEJOT>>USCRP",
+     "first": "2026-11-13T23:43:52Z"
+    }
+   ],
+   "last_seen": "2026-11-13T23:43:52Z",
+   "last_zone": "Corpus Christi",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T23:43:52Z",
+     "detail": "declared destination VEJOT>>USCRP"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 8.8 m vs ~11.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-13T23:43:52Z",
+     "detail": "Corpus Christi"
     },
     {
      "stage": "Discharged",
@@ -644,66 +769,6 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538005808-2026-11-13",
-   "mmsi": 538005808,
-   "imo": 9721918,
-   "name": "MARLIN AVENTURINE",
-   "length_m": 183,
-   "status": "watching",
-   "stages_done": 1,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "VE AMY",
-   "destinations": [
-    {
-     "dest": "US BPT",
-     "first": "2026-11-11T10:01:36Z"
-    },
-    {
-     "dest": "VE AMY",
-     "first": "2026-11-13T18:56:00Z"
-    }
-   ],
-   "last_seen": "2026-11-13T22:47:05Z",
-   "last_zone": "Port Arthur / Beaumont / Sabine",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-13T18:56:00Z",
-     "detail": "declared destination VE AMY"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
