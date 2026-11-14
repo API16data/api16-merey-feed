@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "5d056c671476",
+   "date": "2026-11-14T06:45Z",
+   "title": "US Returns $12.26 Billion in Venezuelan Oil Revenue After Maduro’s Ouster",
+   "source": "Dainik Jagran MP CG",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaHJLNmxtaHVUb01GMTZDOWl2MldsRTI1XzdNNUdIeWtjWDktak1PRnlKNE42OUN0N1BBSEFvRFlVNmctOHVtZTU2Ri1yNjc5MTU5bmNBODhGNHhnakZyakw3aGFfV1VLVzJyQVRiWkZ5ZTg0ZXdjQlNheXUweHlPVEN0MnI?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "294e5a09403b",
+   "date": "2026-11-14T05:23Z",
+   "title": "Petróleo con gas y maíz con carne",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS205QUs5NTFOVGtQUmIwZmZHdVdHb1dad1o0NlBrWXpCS0h4UWYxVmV4dGNzOUljbnFCWkoyeGZtMGYzeWZSSEJtbzN3dmo4ZHVvTmlhRFNhWWVoa09oSzNGMTJfbm9JNFVHc2RzX1VSU0FjSlBwN0J4Rm92WEt5eTBkaXE?oc=5",
+   "category": "Gas",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "1dbfc23c7475",
    "date": "2026-11-14T05:04Z",
    "title": "IEA Says Global Oil Supply Back in Surplus for First Time Since Iran War",
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "885eed7d8a17",
-   "date": "2026-11-05T18:47Z",
-   "title": "Colombia seeks to revive Venezuela gas pipeline amid shortages",
-   "source": "upi",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2Y3M0JFRWhHVlR5eUhjY1Q2NnN4RnVrRW5RNEJMR3VFbGt5SlM0Wml5SzUwXzhNelNLRHhDTmhjdE02VU1oV3hsYmNXYUd4WDFIT0xxSkJMLTVxQzc4WDhzck5pZkhtbXhYbTJHWS0zTVU3Y0N0bmYtaThjdENwR2oyOHdVa2NMWkZWSUxTUzNjUGtkclVtV0VvNm5IeG1wMWk2ZHp0QzMycmtI0gGyAUFVX3lxTE5yUEEySmdMNGRERVduNVBHa2dLUnlJSlRpSmVGVVpMOUR5a2tXS21QR2FFajR5dUxXbmNFMXZ3YlFGREZQYkxXYVRTUGhfRWtOWDdmcThmZXJRZVFWVXllVmtzeXJaSXhRN1dWUEVSaVozNTVhVU12WnR3aVBHLWdheFV2U2Y2eXFraGt1TF9HNFZ1cU5kQlQ3UU1BNEFQOVlqLURqSWl3S2dZMkdtcXhSMlE?oc=5",
-   "category": "Gas",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "f2252b94fb00",
-   "date": "2026-11-05T18:45Z",
-   "title": "Russian oil tanker has arrived in Cuba, Interfax reports",
-   "source": "DD News",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQzhoWkdXTGlxY3hOcC1fSk1TWlVLZTFMdWpxSER0YUstcGZ5bmx2MEZIblkzSGNqeFBNa2lDUS1BWDUyRlViMUllSjltMTdjZkpLTWhicy1JbGhHY0p5RWJoZUFOQnNBRGp1OC1ZWmZSeTNEdG9WT21QQl9UeDJ1VmVPNzI1Mk0w?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T06:44:19Z",
+ "updated": "2026-11-14T07:51:43Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
