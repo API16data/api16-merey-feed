@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "1dbfc23c7475",
+   "date": "2026-11-14T05:04Z",
+   "title": "IEA Says Global Oil Supply Back in Surplus for First Time Since Iran War",
+   "source": "JournalArta",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1pMTDZIVlBKdzhycHpCWmVGdmpRTWZCMzg0XzJxOUJ1X1ZueWk0MDM3VGlJYlRjMVFSb2NGOW5sUVVveURXYWZoUEhjdklneEhaUGs2Rnp4Mm94RjVCRHE5TjZxMThMcG95dUxXdEQ3SkE2UzZGeFV0ampKX3NSbG1MYVV6b3l2SW05NmNtbWJtcWxKVEFOMTNLS0dXWGJCRGdMSWtNUGc?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "9e9bd0b005ca",
    "date": "2026-11-14T03:59Z",
    "title": "Venezuela Reports US $15.6 Billion in Fund Revenue; US Congress Presses as Oil Revenue Account Draws Scrutiny",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "a77c4410d79b",
-   "date": "2026-11-05T18:19Z",
-   "title": "Jets privados y arriendos de US$4.500: así es la fiebre petrolera que revivió a una ciudad fronteriza en Venezuela | El Colombiano",
-   "source": "El Colombiano",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM3hKXzJNcjA2dTNuSjN1OXRGbklHODlyWVdRbURDSEtrajhRaTVjQWhqbWl5S3lfYmpTR3Zkd0lhazAtNDN5MzZpcEJuU1hGc0VoRnAxMHZKSDdwNUlIeTFWQU1YbS03VnFTeERuVjRMOEVrM095R3FydXdCWjROc3ZoTW1ndENvYjA2ejZvU2JqWVYtM0toZGdGVXFlNDVqSWpKdC1WZTVQOTNhdy1ZWTg5bzl1T2xrUzhpMldJeTZQaXZP0gHEAUFVX3lxTE8zeEpfMk1yMDZ1M25KM3U5dEZuSUc4OXJZV1FtRENIS2tqOFFpNWNBaGptaXlLeV9ialNHdmR3SWFrMC00M3kzNmlwQm5TWEZzRWhGcDEwdkpIN3A1SUh5MVZBTVhtLTdWcVN4RG5WNEw4RWszT3lHcXJ1d0JaNE5zdmhNbWd0Q29iMDZ6Nm9TYmpZVi0zS2hkZ0ZVcWU0NWpJakp0LVZlNVA5M2F3LVlZODlvOXVPbGtTOGkyV0l5NlBpdk8?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T04:42:38Z",
+ "updated": "2026-11-14T05:40:54Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
