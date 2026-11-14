@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "6f98f96d56b8",
+   "date": "2026-11-14T14:49Z",
+   "title": "Venezuelan oil tycoon Alejandro Betancourt's US-backed venture hits 223,000 barrels a day",
+   "source": "Billionaires.Africa",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUUl4Y0lteldrTTRrTjhSRElIcGwyM3dHejJvZWd6SlVXOXJEeXVacUNfUnc5WjE0QlZYVWM0ZkNmTWZpZzJacWtBcFRYTXJPRW1PVmxKcVFYaGlaNzd5cElsMkdaWXl1REVpSnZTYS1aY2FJcUhrcE9HblVlY2lnYVRHT3l2MU5oWUdTaXB4RTZ5YVhLRm01OWdwTk52N1NtenRMUFRaQ0ZJdGhzRTJQYi1qd3NyV1dnN2dDUmNMMllyZC1ObV9iWlZ0R24?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "5bf234505788",
    "date": "2026-11-14T13:16Z",
    "title": "Gobierno celebra fortalecimiento de alianza entre PDVSA y Shell tras acuerdos en Monagas",
@@ -147,6 +157,16 @@
    "source": "Binance",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YcGM0REJuSkVvS1MwRUhPbEpjbEhYZ2lBTGtlOURHX25jZmx2MG14OExzWkhYcEVOMGUzNUZSZThncFBKMHJLdnRxVnVoVHZDSHFjTWs0MURFU1phenhsY2ttRTI?oc=5",
    "category": "Exports",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "88d141434fc6",
+   "date": "2026-11-14T02:07Z",
+   "title": "Fact: PDVSA and Shell signed five operational agreements to strengthen their technical and financial alliance",
+   "source": "Binance",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UVnZLVGxRTk5laEVyVlhjLUdabWlvZmZIMExPTlAyekU0OXlubF83WnpuaHNBQzZJYWctd2FZU1Vwa2NOaWxpTzUxT1NIc2dNVlJCaW1kbzc1NzFaZERzRWU1bFI?oc=5",
+   "category": "Investment",
    "via": "Google News: PDVSA",
    "origin": "rss"
   },
@@ -511,6 +531,16 @@
    "origin": "rss"
   },
   {
+   "id": "3cc9afc0f6c2",
+   "date": "2026-11-13T16:39Z",
+   "title": "Shell consolida su presencia en campos venezolano de petróleo y gas",
+   "source": "ANSA Latina",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQejF5Zk12ZmNjNXg3Ym9vYUFPeDVCVndRZHhQRDhfTm5VNG5xWXJCZ2lBOFhxNllEcmc0VF8xVDZDRV83Y1lreTU0MDg4dWc1Uk40TUJYbzdiNnU0QXZQR1RHOWFxS2hqTkhfMmdFZ3FNVjZfM0dwV09tcnpwRTZlZUJ1ak1qQzlMWDhkeWM1VDlnWldEWTR1OEtvQldZSkpoMm5hOHM4YVZKa0NKaS02NGJHa1dQZ2g5dWlXd0JwS0FENjlReTNRZk1xUkVpbWFvbEJrQ0hFZExtVG5LNGllMVRKMURDZ0dSSXBsZm9Oald6NzhseUk2QXlZREZRMkk4Q1FUWVRUaFhkTjJuZWxjN9IBlgJBVV95cUxOa2M2UG9TVXd2TU55b242Mzg1dTFYamhkaTBPOVV6aUYxajNIZE9yRzU0THo2b3Z3amhCNG5xSlppN1ZmcEtBcXE3WlJ6SC05bkNqZWNad05kVk9STlBXeWVXRkFYQVBzenRydWIwaVdQdzdMbEIxaGl2SXp5LVB2TmlCcFE3MHoxdE5pV1hpT3l5X1l1aFFYaEkxRkpRN2ZqSDhWR2N5X3VLcWxPMmRfeHJGeHZCazJXbVRZaTFaTHhlX3E0RjMzYnlKMXI5RkhjbHd1akFzYmJTeGhZMXNYbXhjN1dWYWtVQUdTWjc3STNnbnQ2RnRidEMtM3ZjX0hqRTVhZGJDX3BVZDVvR3pocGRJUEJvZw?oc=5",
+   "category": "Gas",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "3d00e9cd7dca",
    "date": "2026-11-13T16:35Z",
    "title": "Incremental gas output from Venezuela offshore project to be sent to Colombia, PDVSA says",
@@ -606,6 +636,16 @@
    "title": "Bombeo de crudo venezolano se enfría luego del avance de enero a agosto",
    "source": "Finanzas Digital",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRjdtYlktR2Fzd19KaS1INjhVSzBBNmg1NEFENVlOTWZqTWc0STYzRTdUd0hoYVBGVllXU1pseWJCYk81Sl9zalRDYXRqUnFBVUh0aTF4TnRCWXh1SzNvQkFCenJTRUh2dHhsV2p0cTZ5d053cFJ1SThPQzR4bW5SOFprWENRaFVrME1HRVQ4MHNZOFVuMUllX3lJdkVCMzBfQlE?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f90999f7841c",
+   "date": "2026-11-13T14:48Z",
+   "title": "El gobierno dice que gastó divisas petroleras en la nómina, pero el salario mínimo sigue por debajo de un dólar",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUFVsTVZqTUU2bjRKRlpaSUJkY1NEMW5NX0VFQ09uZ0ZicWVZMlp5MUhxemZxaEdsOThpQ2tfQ3gzNnVEUjc4WU1LTjhIVkhYX1ZnRDZHWndHNzVfb0JCMHNEUmRiR0l3aUZucUM2emowc3dWZVNDRm1JRVRXVFI2eU5HajI5RWc0VWxzeW1YdXdfaTB3c0Nqb3pSbmxvZEFQUGpTR215dHhycFFmZldMbDk4QXpCYkpUbmxSMU9rS1VobmJNMWZybFkwaFVON01JLWhueGplMTFBZzY5SUZN?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
@@ -7699,46 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "444fc26c3171",
-   "date": "2026-11-06T03:56Z",
-   "title": "Rubio says Venezuela elections could be held in 2027",
-   "source": "Anadolu Ajansı",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY2FmTDhEdW41U0ZsYUZXb2dMUExOQnZWUWVnR1NvZEFnSUFpUnhkZGZmSkI4M2hfOHdpbG1XdElxQlltRWNHaVRVTE5SbF82SHJMUWlZSUZmcE5IY25DUHpKYmdMNXhTelV3S1JsQm5oNml2R3ZRTDVJdUpEVTlONWdJU2Jvc0c0dWJneW9rN3ZKLXY5djU4RU5n?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela bonds restructuring",
-   "origin": "rss"
-  },
-  {
-   "id": "b9c5a9d4eb37",
-   "date": "2026-11-06T02:24Z",
-   "title": "FILE PHOTO: Middle East crude oil exports exceed pre-war levels but tanker attacks increase",
-   "source": "The Daily News | Texas' Oldest Newspaper",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNUktyX0M2MmRQUVhjQTFMWFF4R3FCNVZkUFB4UVBjbEFNbHhadmZldjlVUjJYWHFjSTU4UDI4ZVBKM2pPQjZNMVNiR3FtOHN6RGJLRXdvR21aajdvVGpsTmJjc19NV2ZFby12TU5mcjhQbWpFUWlNQ0lKbVpKdE9yT1VnbkI0VGI3dTJFdkJrMVpDbThRRmIweXhRd3VGNlZobG9fanRhSU5OV0ttRkNFWjAtWW95aVJKS1RZOTQ5bVUtR2s4dmdiMlVleTJQTHBQVGZ1SzFKV0VJajdTZTVUNUtNQTBfQ2lMRlNjWDRCeGx3eThmeTFoZVpVWHlEbnJxRWRtSThvaWV6MUpXeUR3YkdhQQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "b35642c90b99",
-   "date": "2026-11-06T02:15Z",
-   "title": "Venezuela Oil Deals Face Fresh Scrutiny as US Congress Flips",
-   "source": "Energy Intelligence",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tSWVvd2tjM0h6bkRGZEhmd2xsVWJkcE5rTV9ZbmRmT29zQnZKd0Vid2xoYm4yUkdxWmk2MHpGT0ZudWxuTGhpMk1kWjZnT1MwMTAtbmY3MWZCUkZXVnVGOEZCTV9ob3o0MmJtcUFxSmRZdw?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "a959823ecfd5",
-   "date": "2026-11-06T02:04Z",
-   "title": "As high oil prices curb demand, fresh signs of glut appear",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T14:13:41Z",
+ "updated": "2026-11-14T15:07:23Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8096,19 +8096,19 @@
    "featured": true
   },
   {
+   "date": "2026-11-14T14:49Z",
+   "title": "Venezuelan oil tycoon Alejandro Betancourt's US-backed venture hits 223,000 barrels a day",
+   "source": "Billionaires.Africa",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUUl4Y0lteldrTTRrTjhSRElIcGwyM3dHejJvZWd6SlVXOXJEeXVacUNfUnc5WjE0QlZYVWM0ZkNmTWZpZzJacWtBcFRYTXJPRW1PVmxKcVFYaGlaNzd5cElsMkdaWXl1REVpSnZTYS1aY2FJcUhrcE9HblVlY2lnYVRHT3l2MU5oWUdTaXB4RTZ5YVhLRm01OWdwTk52N1NtenRMUFRaQ0ZJdGhzRTJQYi1qd3NyV1dnN2dDUmNMMllyZC1ObV9iWlZ0R24?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": "223,000 barrels"
+  },
+  {
    "date": "2026-11-14T02:47Z",
    "title": "Venezuela to export 65 million cubic feet of gas per day to Colombia, PDVSA says",
    "source": "Binance",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YcGM0REJuSkVvS1MwRUhPbEpjbEhYZ2lBTGtlOURHX25jZmx2MG14OExzWkhYcEVOMGUzNUZSZThncFBKMHJLdnRxVnVoVHZDSHFjTWs0MURFU1phenhsY2ttRTI?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": null
-  },
-  {
-   "date": "2026-11-14T13:15Z",
-   "title": "U.S. Boosts Venezuelan Crude Oil Imports to Highest Level in Years",
-   "source": "Small Business Trends",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnJ5VEg3MVhOTjJlYW9Hek9zWW84SnBhUDBEa2ZyVTFvRExlWnV5YW5iaU1PU1cyLTk1UVZURXUwYXlaTGVqN2E1WXM0QkJ1ajQ5TjBaamZqd21xbXlHT19lZWdyTDB0Yk9XNklBNVprOFZ3cUdMSEluMHhrNnNiQXdma0h0bGh2eHZ0czN6TXoxa3FxcDJpTA?oc=5",
    "category": "Exports",
    "angle": "Cargo flow: the barrels API16 tracks and verifies",
    "key_figure": null
