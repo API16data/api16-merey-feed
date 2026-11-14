@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:43:52Z",
+ "updated": "2026-11-14T01:01:38Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -35,7 +35,7 @@
      "first": "2026-11-13T18:56:00Z"
     }
    ],
-   "last_seen": "2026-11-13T23:43:52Z",
+   "last_seen": "2026-11-14T01:01:38Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -301,6 +301,66 @@
    ]
   },
   {
+   "id": "AIS-563343100-2026-11-10",
+   "mmsi": 563343100,
+   "imo": 9830288,
+   "name": "HAFNIA HONG KONG",
+   "length_m": 228,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USPAS",
+   "destinations": [
+    {
+     "dest": "VEAMY>USHOU",
+     "first": "2026-11-10T02:58:02Z"
+    },
+    {
+     "dest": "USPAS",
+     "first": "2026-11-10T08:57:28Z"
+    }
+   ],
+   "last_seen": "2026-11-14T01:01:38Z",
+   "last_zone": "Houston / Galveston / Texas City",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-10T02:58:02Z",
+     "detail": "declared destination VEAMY>USHOU"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 8.2 m vs ~11.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-10T04:56:11Z",
+     "detail": "Houston / Galveston / Texas City"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-538012047-2026-11-13",
    "mmsi": 538012047,
    "imo": 1021594,
@@ -320,7 +380,7 @@
      "first": "2026-11-13T21:50:36Z"
     }
    ],
-   "last_seen": "2026-11-13T23:43:52Z",
+   "last_seen": "2026-11-14T01:01:38Z",
    "last_zone": "Freeport",
    "stages": [
     {
@@ -376,7 +436,7 @@
      "first": "2026-11-13T23:43:52Z"
     }
    ],
-   "last_seen": "2026-11-13T23:43:52Z",
+   "last_seen": "2026-11-14T01:01:38Z",
    "last_zone": "Corpus Christi",
    "stages": [
     {
@@ -413,10 +473,10 @@
    ]
   },
   {
-   "id": "AIS-563343100-2026-11-10",
-   "mmsi": 563343100,
-   "imo": 9830288,
-   "name": "HAFNIA HONG KONG",
+   "id": "AIS-563010700-2026-11-14",
+   "mmsi": 563010700,
+   "imo": 9766190,
+   "name": "HAFNIA KALLANG",
    "length_m": 228,
    "status": "arrived",
    "stages_done": 2,
@@ -425,32 +485,28 @@
    "est_cargo": null,
    "partial_load": false,
    "specs": null,
-   "destination_now": "USPAS",
+   "destination_now": "VEJOT>USCRP",
    "destinations": [
     {
-     "dest": "VEAMY>USHOU",
-     "first": "2026-11-10T02:58:02Z"
-    },
-    {
-     "dest": "USPAS",
-     "first": "2026-11-10T08:57:28Z"
+     "dest": "VEJOT>USCRP",
+     "first": "2026-11-14T01:01:38Z"
     }
    ],
-   "last_seen": "2026-11-13T17:54:01Z",
-   "last_zone": "Houston / Galveston / Texas City",
+   "last_seen": "2026-11-14T01:01:38Z",
+   "last_zone": "Corpus Christi",
    "stages": [
     {
      "stage": "Venezuelan origin",
      "done": true,
      "partial": false,
-     "time": "2026-11-10T02:58:02Z",
-     "detail": "declared destination VEAMY>USHOU"
+     "time": "2026-11-14T01:01:38Z",
+     "detail": "declared destination VEJOT>USCRP"
     },
     {
      "stage": "Departed loaded",
      "done": false,
      "time": null,
-     "detail": "draught 8.2 m vs ~11.9 m laden mark"
+     "detail": "draught 8.5 m vs ~11.9 m laden mark"
     },
     {
      "stage": "Crossed a Caribbean gate",
@@ -461,8 +517,8 @@
     {
      "stage": "Arrived at the U.S. Gulf",
      "done": true,
-     "time": "2026-11-10T04:56:11Z",
-     "detail": "Houston / Galveston / Texas City"
+     "time": "2026-11-14T01:01:38Z",
+     "detail": "Corpus Christi"
     },
     {
      "stage": "Discharged",
