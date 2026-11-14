@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "c42019ecd8b0",
+   "date": "2026-11-14T18:53Z",
+   "title": "PDVSA y Shell firman cinco acuerdos para ampliar la producción de petróleo en Venezuela",
+   "source": "Agencia Noticias Argentinas",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcUhJT0pXQ2FFMThKYjBDZ2xEOXRsUDZIbUpTTGk2MFlqbmttYXJaTGUzYldQX1JhYmtTVXVBdGR3cDZtOGg4OGt5U043UnhYaC1ldk8zdnN2OVJ3V2hxQ0wzN1lVek54MDR0YTA2UXMzTEoydWhKNVo1al9RQ19jTzBHY0JIdFlqQjVQWDNad2pWYjdjR2QwWTAySWtvYURENVdJaEtIdHY4VWNHbS1pd25SVXNOSDRYUWwxbzNwM0ZPaGVzT0Y5dnBFcjZrNE8wRlJjZmItdjA5dm1DRjFhRDdFblFwSFhwUkdwLVNiNWxDd9IBgAJBVV95cUxNSDNwakg4RUNrVHQzT0dQT1hCNXNuc3VCZjZYUTZjZDhwaDFONWJULTF5eS1DWnRLbXdaTWNaeFdhbGFXS29iLVpJZUpUaWtSN2dQREVIZENxajZ1RU44R2x3MGdGVjZEN2ZoTWFoRDFNcFpOdVFVRjBfeEVIVmVTOThZTGFGQkJjWUd2YjlWb21uRmczVmZHSExTQWQ2YXdZRlNNdXU0dXQ5RUpYRnBuMENuYW9fdGxWQngxMm1USmpnallDTkp6Y21PNm44ODN6ZTU2YlFkdU5ycEpCRGVNUHBLZFZXZEZyak5peW1hNXdLenEtLWpobmVyaU9Zeks1?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "e8b6ed8d6c93",
+   "date": "2026-11-14T18:30Z",
+   "title": "China and Russia lose their grip on Venezuelan oil as US takes control of $12 billion in revenues but faces a billionaire's growing grip on prized African crude",
+   "source": "Business Insider Africa",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPc1RNNWNER1l4NXE5RF9QamFLczFZZExoMHdtUWVVdVVrOVZJT3JUMDRzVTM1cXhtZkRjNm1RWEVQTk5Yc05FSkxxNTluejZjUVBOcW9RNnVBLVU3aGxpRXh5UW1lcjVNd29KLVVQNXJrR3A1LTVyd2gwQzVoMlVsVHE1c1BEdHhkanpXTFVUN3YzcGRsaE9QQmtON09kQjNVdnhnV2VlLW5tVDFFcERjYldJUHZGNm9odXNBYmNiTmJxR1R0c2xrdUtPSENzcVZWOVkzRElR?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "92375eddc1d6",
    "date": "2026-11-14T17:58Z",
    "title": "US appears to have pushed China and Russia out of Venezuelan oil deals but faces a billionaire's growing grip on prized African crude",
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "d245ab9c4808",
-   "date": "2026-11-06T08:31Z",
-   "title": "Trump touted a record Venezuela oil deal. Now reality is setting in",
-   "source": "Tacoma News Tribune",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxZ2tiTTJzbGdqdVhMV3g2azAwWlAzQ2otQkZGTnd0NlNkNlJ2Q1ZaTEhtWm42NHJ3RlRxSjlNQkprcU80a2hoOVRkU1FxdDFkbGZPcnZodDkyUGpNaXBEdU1ydXllZTBPQkxYXzZsa2VCWW5I?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "50152c834400",
-   "date": "2026-11-06T08:17Z",
-   "title": "Visund fire cuts 13.2 mcm/d of gas",
-   "source": "Oil & Gas Middle East",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nbkNCdGdSMFNUTkVFdDhrT0FwZHhBVXJkbEljS1pEYlFlYlRsczhhbHg3VHp2Snd1cFJ5azBvMGI4QklPVkpqSEFseHVoNHdGTUtvR3dyeVJubEFhNnJpTnlEUXdTU1VsLW1RLWRGVFgwRE1jb2FuWVln?oc=5",
-   "category": "Gas",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T18:40:00Z",
+ "updated": "2026-11-14T19:33:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
