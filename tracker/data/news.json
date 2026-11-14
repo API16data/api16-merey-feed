@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "9e9bd0b005ca",
+   "date": "2026-11-14T03:59Z",
+   "title": "Venezuela Reports US $15.6 Billion in Fund Revenue; US Congress Presses as Oil Revenue Account Draws Scrutiny",
+   "source": "Orinoco Tribune",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWWxIekFuR3JwTDdSbGlrOEtCSUFxS3dVZEdIbUpZcmtHUU5ob2VKU21HMFM4c1JBZWdZdjgwekJvY1k4SWx3Q2VBNFNaNXNRZGE2WFo0eEMtX1pTOHlTRmxhZzRGRy15OGJkRnd3UWY0SUdIcHUtd2w3REVQdDZDNDEzMnlyenhMQkpxcWFPNVQ3Q3Y0NzFwcWZKQkJxdTR6UXVpUmVkeFV5d0pyWVp3MkNTTEozUmZSUjBJMHczN3N3M05tR29MNmwtaExvc2Rx?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "2640a0e5ad19",
    "date": "2026-11-14T01:31Z",
    "title": "US-backed oil company flaunts Venezuelan facilities",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "a6729e15d677",
-   "date": "2026-11-05T18:17Z",
-   "title": "Oil Companies ‘Kick the Tires’ in Venezuela. Here’s What They Are Finding.",
-   "source": "Barron's",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91c1BYMVVoTVpidHFlT3I0YS0yTGxleS1kcUtZSWt4NS1yMk1IVTBHUnZlS0p4R1RVRDg5dEd1aFlveEN2RlVWdkRpWFB1YmNSOG1qOWdkZktIMWdsWFNESHpuM0s5QmVhSTYwOXU5WTliTTA?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T03:39:53Z",
+ "updated": "2026-11-14T04:42:38Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
