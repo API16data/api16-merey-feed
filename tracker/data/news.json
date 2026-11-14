@@ -51,6 +51,16 @@
    "origin": "rss"
   },
   {
+   "id": "d6c05ca1b3c0",
+   "date": "2026-11-14T13:33Z",
+   "title": "Traders Push for Discounts for Venezuelan Oil as Shipping Costs Soar",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWS1RMGJ6UW5Ob0NTTWgzNzNUYl9nRl94c21ZdmV0WmhUSXM5SEJPOGVPZmtDLXozZ1FGTURJM0NfYW94VllEMFRHa1gxc0hIbmFyODhUVE9CMFRjUEFfRWZjdXZ5anJPVXNpeVBUeWJ0YWZPNmwzTWVTQ3ZxWDhJUEgtN0I5cTcxNDhhakZBZ1pLTFdoenVrSk5yMDR3aGs?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "5bf234505788",
    "date": "2026-11-14T13:16Z",
    "title": "Gobierno celebra fortalecimiento de alianza entre PDVSA y Shell tras acuerdos en Monagas",
@@ -2178,6 +2188,16 @@
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaGpOY09hOWY1cS1uUVZTUnRUYTdqTExIQm9aM3ExWTAtRHJrbkplWWxuMENHSG1JUVVJM2Q4UG1wYjNCMlBTUVRpd19WeFJhM0lFUWZ2YXd0dldRTnNxSFFlTURqVGc5MnJDTl9PalEzOUJFQUFoTnlTcW53U3FXaE5CdE5USWt1ck1LSFBMRVUxeVhnX1VNNUR3cmVwcVBKMG5qRlNmOUtYNWtxT0M4Rk9SWFdKaGU2aERwZGhzaVNrMjdVZDZLWTFzTlI5alJvMENRVHVTeXp6NkFGQ1dzcTlWNEo2VGprVXlvRFpXR25nWkNQOG50Y2dLZWw?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "ef3cb5c4c31d",
+   "date": "2026-11-12T08:00Z",
+   "title": "Venezuela - Oil, Agriculture, Manufacturing",
+   "source": "Britannica",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqV3BpUVFEZnlkeEdBZm1adWs2WERmQzBvNHFtYVJTVEZfTVFJbEExLXA3RTFZY092cUlnUE16Wng2YndDNTA0Z1hobWh6LWJKQUdoVzQ4eU9PTlZuSV9N?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "142662a43074",
-   "date": "2026-11-06T08:00Z",
-   "title": "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings",
-   "source": "S&P Global",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObTlMbWtoZTRsRDd2bVJzVmpYMzB4YkZOcld3TzFQdFlROEV3SV9BUWNUQkU4ZER4TTdYSzhPaTdiUHhKVDB4bEQ2VEVZNkQ5b1BLWTJtLW44ZXE4ckpSTGdvOWZOQWczZnNrbGtqd1pTb01CeUctMF9CVDZjazU1bDFaTVNpZnRkbGJOUjFHLTh5d1cyZVB3VmtpUURZWUY2U21JeWxIc2pHbEVVX253bkNfWGotTU5SWHVwRUZodmtBWWIyajJoeWxfeDdzWWM0Rk1BWTc1Q0hzRWRINDgwcW9YSFJocU9UbXowM0FfaVJzOVBQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "8636f9513899",
-   "date": "2026-11-06T08:00Z",
-   "title": "Atlantic tanker rate slump reshapes West to East trade flows",
-   "source": "Kpler",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSm9ISGx1UGpGNkF3aVBlWWdSOGNsMWNOREV4UTBiSldQcXN0RlMwTmRfdmJ4UDNHeWtoTnZLTE1tSnpDc1NOaG92XzVFa1hHQl9HblQ4dW9zOW02Wi1kaFFIODVXVkxCcl94aXBIZURrX2M3MnpRRDNkRFVBSDVNSjFyOXIza09reHA3RWFSbUYwNDQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T16:06:05Z",
+ "updated": "2026-11-14T17:06:01Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
