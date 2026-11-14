@@ -11,6 +11,16 @@
    "origin": "rss"
   },
   {
+   "id": "cc916b0a19ac",
+   "date": "2026-11-14T01:09Z",
+   "title": "Comentarios noticiables | Del retorno de la ExxonMobil a Venezuela",
+   "source": "CiudadCCS",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEEzcnpxLXpmMjVSb2dqY053VnpPQUVqa2duc21QU3d4eldIcmgxUXEzVVg4OFRoV0NXS3hKYm5adjBuVmp3WTFvSmY3aHkyekdXLWRyS3QybWNvZzhuYllGdTlQbEIzbUhZOTZLNm5TcDNzQlVyMWFWSUJTbFgzVHRrQzhmVFNQQU83U3BzSDJUSnpIM1N3TUtrY0RIQ08yZXg5TXlST1padVF4Rnc?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "e420c70834d1",
    "date": "2026-11-13T23:27Z",
    "title": "“Por primera vez, nos explican en qué están utilizando el dinero del petróleo”; exdiputado venezolano",
@@ -138,6 +148,16 @@
    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQUwyRGpfYzlnMFFjdGtPUE9NUXUxRkFQbnNSaHhpb3JtS2hRTWNGMFZqYmxMUjVQWGxVZ1dqQ0ZMYUJNWlhHeXNycUtPQlVqZW9DN2NBdVpSZ0JmSU9CbGF6V2NOTzNJYUIzY19VRHJORjFQZ0d1dDVFWURvWHVwaEdYcnpZNjNPRGdacFNVQVdIVlZsTmd0cDlaRDJHd3A2N2FrelFuSGs2OGFLeVhPcm40VDNLWjdsVnVycjBxNUVlVnE1ZEFLeDBzdkN1amlfd2RTM0ZSandtWnhQa0dNNkdMR2t0STYwcHdrYWFEVzkwZw?oc=5",
    "category": "Exports",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "74c566d70e86",
+   "date": "2026-11-13T19:35Z",
+   "title": "Chevron Expands Position in Venezuela",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90eEh6dzBKS1JkTHNGa3U4d2ExSU9kQkNZNXV4N0VPa3FPenM4dmRtQjFFOUlyem5ibUhWLV83azEyR3d1eWpqeVZscFVxMlA4VGZFRjM4NHd1djNJd1habHRhUnFTQXR4bVh4Sm92NUNJTWpabjVz?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "08f5843d4871",
-   "date": "2026-11-05T18:05Z",
-   "title": "US sanctions network supporting Iranian oil shipments",
-   "source": "Oil & Gas Journal",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLUY1UklyZktnQk9RNEdub3pNZkZMQWFQNlROZWhJT2NPaE50YmRIV2V5Zl96RTNBT01ZMUJPOVIySmVTRS0wUmh0QlJaMDN1cXVYVkRQMjhYSWVkSDFCclhIWk1tZ0VaSjZNSTN3V21kbDYzVWhTVWVCMEFQWGUzeW1IcnhDeVNKdVoyLXVFd2xWUDd4NHVEMFhiVW5wXzdHU2M5ZUNSTU96M2xYQ1p1MnNmbURnSzFSb2tHWjhmUQ?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "e401c2d793b9",
-   "date": "2026-11-05T18:04Z",
-   "title": "Colombia Targets 2027 Reactivation of Antonio Ricasurdo Gas Pipeline to Reduce LNG Dependence",
-   "source": "PravdaReport",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUFhfdEFyeF9PTFgzbHlmeml1Qm1GMG5iLUFEZDB1bzIxbm5DY1NWTFk3LUpVbElIMDVuSGZSX2JlVnFVZzRYa08xU2t6TUlkdnZhMVpEREx0Yi01eENaTXkwOXVLSXhxRm9GY19aUWdKWFFMTkE2RlZfZ3p0a2xvYmZqOGg4UERtZFkzcnh3d2NQR0E?oc=5",
-   "category": "Gas",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T01:53:21Z",
+ "updated": "2026-11-14T02:40:35Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
