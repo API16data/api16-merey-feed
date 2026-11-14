@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "b2805b141257",
+   "date": "2026-11-14T10:10Z",
+   "title": "Trump pone a prueba el nacionalismo petrolero de Venezuela",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOTlBZFU1azhUNWJTSGE0T0NoLU5sek8zTmFDdGl2X00tRnNia29GRTEyUXcxSEcxNThNZTZORXRsQWFZN24xV1lzcTdYTlZTQi1KTHRidG9UUHpGVGdLdWh4TWpMU29SRlA5cHE3Ukg2d1FTdEhQc0lIN1dWcjlmSFJZODNwTmd4Zk1QS3NxQnV4UzVDTmNWaHlvdlNySEw5Vko1eGJn?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "ed7d016516ce",
+   "date": "2026-11-14T10:00Z",
+   "title": "Venezuelans Saw Oil as Their Birthright. Now Trump Is Claiming It.",
+   "source": "The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45T3U1RGpyMzNYbGczZTRycnZXYjBKcDdERms3WEtoT1JHYkN2R09HLTlpa0QyMlNONmNCcTU4U3drX084emNHakZlRXpfa1lESXBBeUZ1Y1BmUDNRYUl1MG10NzAtdGxjRFFfNzV0bUVKdFV1cWN0YTE1b3l1dDQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "e863900a64c4",
    "date": "2026-11-14T09:00Z",
    "title": "Foreign investors eye Venezuela’s oil sector",
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "9ec5f65fb446",
-   "date": "2026-11-05T21:04Z",
-   "title": "Nigeria Would Have Become Venezuela Without Tinubu – Emerhor",
-   "source": "LEADERSHIP Newspapers",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY2lTNUpUOWFYUWUzUW8wYnNlMDhOckRYanVPWmd6akV4NlBUM2xKQ29NeVRPN2pvOTM4M0o3eUVNZU41NWVzVTBweU9jLXgtMy1FMmUtVGQ1YUs3aDRnSFpaaktyQ3BUbi1IcGVDejB2LXI5UnFUYlNvOVdkaFJWdkIzSkpyVUoy?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "57fe7e383d24",
-   "date": "2026-11-05T20:54Z",
-   "title": "WTI plunges 8.3% as markets bet election losses could push Trump toward an Iran deal",
-   "source": "Latin Times",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdjdfMEx0ZGhjUm1WWm1wODUyLXc4RmRyQjRkOVl3STN1MmZjTXA4YTZsRldiTzE2MU91Si03SThCeEZMajI2X2kwYnpGZDhLZjl2UkNjYmNvWEJZZmt1aC1ZZEZzZGk5ZFo4d1oyT2djcFBYLWQ5QzBnaXF6c3otLTJvc2VzQ0U?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T09:36:20Z",
+ "updated": "2026-11-14T10:30:55Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
