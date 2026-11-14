@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T07:00:22Z",
+ "updated": "2026-11-14T08:04:25Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -301,6 +301,62 @@
    ]
   },
   {
+   "id": "AIS-538012047-2026-11-13",
+   "mmsi": 538012047,
+   "imo": 1021594,
+   "name": "SPA",
+   "length_m": 249,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VE JOT >> US FPO",
+   "destinations": [
+    {
+     "dest": "VE JOT >> US FPO",
+     "first": "2026-11-13T21:50:36Z"
+    }
+   ],
+   "last_seen": "2026-11-14T08:04:25Z",
+   "last_zone": "Freeport",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T21:50:36Z",
+     "detail": "declared destination VE JOT >> US FPO"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 12.5 m vs ~12.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-13T21:50:36Z",
+     "detail": "Freeport"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-563343100-2026-11-10",
    "mmsi": 563343100,
    "imo": 9830288,
@@ -351,62 +407,6 @@
      "done": true,
      "time": "2026-11-10T04:56:11Z",
      "detail": "Houston / Galveston / Texas City"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538012047-2026-11-13",
-   "mmsi": 538012047,
-   "imo": 1021594,
-   "name": "SPA",
-   "length_m": 249,
-   "status": "arrived",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "VE JOT >> US FPO",
-   "destinations": [
-    {
-     "dest": "VE JOT >> US FPO",
-     "first": "2026-11-13T21:50:36Z"
-    }
-   ],
-   "last_seen": "2026-11-14T07:00:22Z",
-   "last_zone": "Freeport",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-13T21:50:36Z",
-     "detail": "declared destination VE JOT >> US FPO"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "draught 12.5 m vs ~12.9 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-11-13T21:50:36Z",
-     "detail": "Freeport"
     },
     {
      "stage": "Discharged",
