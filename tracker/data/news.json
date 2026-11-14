@@ -3485,6 +3485,16 @@
    "origin": "rss"
   },
   {
+   "id": "7b50ac2eb2a2",
+   "date": "2026-11-11T02:19Z",
+   "title": "Chevron (NYSE:CVX) Stock Price",
+   "source": "Simply Wall St",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE50cUd4S3VsQzhUYTVLVllxSGgtcXdzTEt5eHhFTENKa2VUOE14MTFBQkNILTFGUDVDc2NBcGNBeWpYalU3SFpmZVNFX1M?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "a1967fc1ffbb",
    "date": "2026-11-11T02:14Z",
    "title": "U.S. Crude Oil Imports From Venezuela In July Highest Since 2017 – Analysis",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "8b557788f997",
-   "date": "2026-11-05T21:08Z",
-   "title": "Otro gigante de servicios petroleros prepara su regreso a Venezuela con un contrato plurianual",
-   "source": "Lmneuquen.com",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd25CNUJHUXZQd2Zabk9CZUNPTHMtWkpPekhqS1JjRFZGSm1kMXNWMDRsUnhLRVNEWEZpd1FUQVRMSUpqbzZhb1dodlhKUXNhbXNiVnk1TTBjVUw2UExWbUdSX1NpNHRmSmZJSFRjR0JrOVFZRGZXa2Z0dDVlWHk1aFhEN1lNLXNCUWdJS1lsMFB5Rmx2cjMza2NId29CYkFkbVUwWk9DN1gzYUUtNWY2NEF3RWpobWhtaEE5T0hjeWhfdkxadjJoNDZkWEJWTWxGMVV30gHYAUFVX3lxTE4zU2cwcUpqamQxSnFYazZNRUlqbjJtdGhCQ0lZdC00TVhDbVZmY0FQY2VsR0xKdXVDWWFLV1h0cDlJRWZIdGpRNW95LXZOT0NGa3ZhMUwxSFJkbk1pV0dlMnVzTXExNUE4S2JYR0dPbmVpeGJnVTliNE1LdmRCeW5famFKNFhabjVzcHVSU2FPZ1ZtckNhRkpna0dFV21uTENrZm04SVE0c1VhakdkdDhkVFlxS0RTazdYUnVMYmNGV0FobUJKVngwdW1RZVRMbEI3VW5kVDhYNg?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T10:30:55Z",
+ "updated": "2026-11-14T11:26:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
