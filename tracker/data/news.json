@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0411d92c724c",
+   "date": "2026-11-14T21:25Z",
+   "title": "PDVSA y Shell firmaron cinco acuerdos para ampliar la producción en Venezuela",
+   "source": "Radio 3 Cadena Patagonia",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRGFCbXBpeFFJUC02bUZ2aWJubWNoQkJLT1BkNEk0dzhHUUJyMnhxbldILV9Ea2JrZTRBOXgxanVZUmRHbTZhWTE4OVIzQWtQUVN6NEotN3dmdXVXREdyQXVsT0V2eFFDQk0ydFpVbFI4SkpCUjB2ZUdGT2pZb3p0TVVXOTFha1N1RWdsWlFCUDVPWnljclNxU0lMbXAwM1NzZWloMEQ2OVJ0ekkxclRmMVlTS0lBZw?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "3200546d1aad",
    "date": "2026-11-14T21:03Z",
    "title": "PDVSA: Este año se prevé cerrar con una distribución diaria de 140.000 barriles de combustible",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "32946609874f",
-   "date": "2026-11-06T13:21Z",
-   "title": "Chevron CEO says Venezuela investment funded by JV cash",
-   "source": "scanx.trade",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVTFDMjNxZTk1YzNtc25QU2g5R2pFN29sa1NXdlRKMXRiaWJWTXBveHBhWFpVTDVjMFZSUFN2dk9ydDB3RDh6azdYOGhXZWJMQVBQNTdFQ2M4NXFJTkYwZ3BkV2V1cXFwVTRoWFZfUUxrWlhNdVhLR3JXaGhpd1dTWlB0T1huSmFOUThoakRjOE96RnJzWGVCa0NHTERZUXkzaXBPZQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-14T21:08:22Z",
+ "updated": "2026-11-14T22:02:21Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
