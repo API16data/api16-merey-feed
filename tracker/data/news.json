@@ -81,6 +81,16 @@
    "origin": "rss"
   },
   {
+   "id": "d91f75dc8100",
+   "date": "2026-11-15T04:42Z",
+   "title": "Ecopetrol will ask PDVSA to grant it the right to operate the section of the \"Antonio Ricaurte\" gas pipeline",
+   "source": "Binance",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pVV9YY3dpb1RhcjZmSnRhYzR4SU5FMWxRV3VNRUNYRFhVa3RiZVdlUmNvUHR0UF9VdldWT0JFaW1PTXI5bEFHVkRmWkpJdHlaZDV5XzE0YjE3TjBUSzJST3RrWXQ?oc=5",
+   "category": "Gas",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
    "id": "79f42a944615",
    "date": "2026-11-15T04:30Z",
    "title": "Más allá del barril: la nueva industrialización de Venezuela, por Leopoldo Martínez N.",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "b525cb2dd5bf",
-   "date": "2026-11-06T19:11Z",
-   "title": "Trump reverses course on Cuban oil blockade, allows Russian tanker to pass",
-   "source": "DD News",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVBZ1ZkRkpYUFhYVHUwUGtvdGRFWkx2dUVMYUVNemRFbVFLYVUySjEwTVpCSVQ1VzdZTjBrRGlyN0VQSW9xV1BjMWdrSWlaTXhFY3pkT2NQTk02V0Q1b296MzNiamhRaTByUlNGNXBEZHM2ejQzczFBTWhHUmpic0FHTDJSamktZmpOTm0yWkRPOEhPQ1UxQmdqR3VpZkpu?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-15T13:26:01Z",
+ "updated": "2026-11-15T14:15:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
