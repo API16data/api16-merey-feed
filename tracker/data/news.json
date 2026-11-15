@@ -551,6 +551,20 @@
    "origin": "rss"
   },
   {
+   "id": "c-n32",
+   "date": "2026-11-14T15:00Z",
+   "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
+   "source": "Bloomberg via El Nacional",
+   "url": "https://www.elnacional.com/2026/11/bloomberg-empresa-energetica-de-catar-busca-asumir-operaciones-en-dos-importantes-campos-petroleros-venezolanos/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "key_figure": "2 fields",
+   "featured": true,
+   "until": "2026-12-15",
+   "angle": "Future barrels in the pipeline",
+   "origin": "curated"
+  },
+  {
    "id": "6f98f96d56b8",
    "date": "2026-11-14T14:49Z",
    "title": "Venezuelan oil tycoon Alejandro Betancourt's US-backed venture hits 223,000 barrels a day",
@@ -2109,6 +2123,20 @@
    "category": "General",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
+  },
+  {
+   "id": "c-n31",
+   "date": "2026-11-12T20:00Z",
+   "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
+   "source": "EFE via Diario Libre",
+   "url": "https://www.diariolibre.com/mundo/estados-unidos/2026/11/12/eeuu-entrego-a-venezuela-us-12000-millones-por-venta-recursos/3718821",
+   "category": "Sanctions",
+   "via": "API16 curated",
+   "key_figure": "US$12.11B",
+   "featured": true,
+   "until": "2026-11-30",
+   "angle": "Where the oil money goes: cargo, payment, use",
+   "origin": "curated"
   },
   {
    "id": "5820ed8bebcd",
@@ -7719,26 +7747,6 @@
    "origin": "rss"
   },
   {
-   "id": "481aedb69a47",
-   "date": "2026-11-06T22:14Z",
-   "title": "Venezuela’s Oil Exports Fell Slightly to 1.2 Million Bpd in June, Data Says",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEVSNzd1SEF4WlRGWGx1SlMxZ0FldE1jSjhtRnNKSWFvUjJ5VTJZanNNRTI2YmZ6QlNZNWV2RjNHVzA5SHFtQ1hERGl3blQ1NlIyZWNUOWpJNGRaVjhoWjZNMHppbnhkNVZueDBhVHhqcExUV1k1alJwTktnSGFfajVOeGJLQ1RkVmxCSXY1bWd5aUVUcXRUNjlhQXFDRDBhOWNTOUVMbw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "48550b90e44b",
-   "date": "2026-11-06T22:14Z",
-   "title": "COMMENTARY: TRUMP’S CLAIM – Can Venezuelan Oil Really Refill America’s Strategic Petroleum Reserve Anytime Soon?",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON2NwYlFBZkxZX0ozR1lhVGU5b29YNlF2dDVWYkREc3d2R1lpeUtCaEhfUTM1VWdtM2ZVTDFTSVUxTnNqQ1VkamxjV1pCZ1dTUk5fSGlpYXhqSUdwNjRnbXEtQTFjVk5MWEFKcmVDMmVTM0lqNkM1TzVRXzFUbE1Damd1NFdKdDczVGNWUmtDM3hhdTBBa3lCR1FiZmItM1lGV3BkX2FPdFN1dXBZQW5SZTNDZlVhMjR3elRLeEQxdmQxX1hDUGRsemtrdw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-15T18:41:10Z",
+ "updated": "2026-11-15T18:48:19Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8076,23 +8084,23 @@
    "alert": true
   },
   {
-   "date": "2026-11-11T18:00Z",
-   "title": "ExxonMobil is assessing seven areas in Venezuela under its non-binding MoU with PDVSA, focused on Orinoco Belt heavy oil, including a possible return to Petromonagas (former Cerro Negro); one-year exclusivity to negotiate terms",
-   "source": "Reuters via BOE Report",
-   "url": "https://boereport.com/2026/11/11/exxon-assessing-7-areas-in-venezuela-for-possible-energy-projects-sources-say/",
+   "date": "2026-11-14T15:00Z",
+   "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
+   "source": "Bloomberg via El Nacional",
+   "url": "https://www.elnacional.com/2026/11/bloomberg-empresa-energetica-de-catar-busca-asumir-operaciones-en-dos-importantes-campos-petroleros-venezolanos/",
    "category": "Investment",
    "angle": "Future barrels in the pipeline",
-   "key_figure": "7 areas",
+   "key_figure": "2 fields",
    "featured": true
   },
   {
-   "date": "2026-10-29T12:00Z",
-   "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
-   "source": "Energy Capital & Power / VEW",
-   "url": "https://energycapitalpower.com/venezuela-energy-week-moves-to-february-2027-as-global-investment-engagement-expands/",
-   "category": "Investment",
-   "angle": "Where the contracts behind the next barrels get signed",
-   "key_figure": "Feb 22–25, 2027",
+   "date": "2026-11-12T20:00Z",
+   "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
+   "source": "EFE via Diario Libre",
+   "url": "https://www.diariolibre.com/mundo/estados-unidos/2026/11/12/eeuu-entrego-a-venezuela-us-12000-millones-por-venta-recursos/3718821",
+   "category": "Sanctions",
+   "angle": "Where the oil money goes: cargo, payment, use",
+   "key_figure": "US$12.11B",
    "featured": true
   },
   {
