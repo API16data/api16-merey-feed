@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "67efdfcebc7e",
+   "date": "2026-11-15T05:16Z",
+   "title": "Más allá del barril: la petroquímica como oportunidad para la nueva Venezuela",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc1djckFPdWtpOEh0OTJzdGgwM1dfQThTQ05nYmF3bDhnRWZZXzVFNjNCWTd2QS1hUndJZ2FGMU14SFB3SEc2Y181cEZBU2dHNXZ6U0JrZ1l4c0JDVXZtbzZYak42RnlWNEtpTUlqMU9kSTRkd1lNYUZjbXprZWlSelMtd0w0YmNLT0w2MU5xaTJ0ektNRFJqY0lvX3pKTk5HVGQzYlJuZXZiTExYQ2NXbWtGeEptd2ZycDFsWG1n?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "782e13bfad97",
+   "date": "2026-11-15T04:48Z",
+   "title": "Venezuela Targets 1.3 Million Oil Barrels Per Day by End of 2026",
+   "source": "teleSUR English",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZXkyNEppV2VYZVBacGpCaUhqOUFZVUhIS1JHRk9ZN1hBbDkycjRULURSam5RcmYzbjkwcFR3d3JWekhPM3k2ZnpicmY0LWc2Tms4YnZsYk1DbDFPREoyMzJVRmFmV1Jic0VUTlpZZmFzNUt6SHJwYkVPeTAxbkN2dkt4aWNFQTZWcXlXMnQ1dXdBeEZTUmZGMmlZQk0?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "412ba7760ac1",
    "date": "2026-11-15T03:00Z",
    "title": "Venezuela cerrará 2026 alcanzando meta de 1.3 millones de barriles diarios de petróleo",
@@ -7719,26 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "84db614e3606",
-   "date": "2026-11-06T17:30Z",
-   "title": "ONGC Moves to Take Over Venezuelan Oilfields, Recover $500 Million",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeWpIckMtZ3NrUng1MTZLM3FyWDdwUGhDcmxFZ1hEV090MUFDb2tUTG0zZ2lfT3A5c1IweE9FT3pQZ3h1M3ZJcGpWZVF6dGwyTGhzODkyanpJZ1RvSi0wbUZBNWdVcDRPZDZxSXFkZzR2RVVyVnNsNWFobUNDcVRBeWo5a0JpcmM1UGFrbGgtcXFyWVZHMjFUV1UtaUxZYjZCUFJjcktCemRpT0ZidDI1TFhPcUNVSU5obzlDddIBwgFBVV95cUxNbGRuQTZsQ082cFVlcWhJWFZZYzduNnVFWElwSUNzVVRNN3V3eGxualpDWHNaWWdjVUZrN0NlWmRHQlpSWWh0WTBJTnQzcUVJTGc0a1JSWkJoU0thTHZKNW1nU2ttYmFTNm5mV1JkT0pleVBRZ1pidGZLSlh0RnA1ZUtrU29ibHlMa1l5RlM5amdhdlFPbGFUQnk3VGRvVVJqRi00TVM0d2d5RHE4WXg5a3A1RTAwak02VXNoNFNiYzIwQQ?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d3d4df413b68",
-   "date": "2026-11-06T17:20Z",
-   "title": "U.S. Sanctions on Cuban Oil: The Five Affected Vessels and Their Operators",
-   "source": "CiberCuba",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQamIwLUlZUy1TNnZVdmpYWjBkbm5YRXB0eTN3b3pyVDE1YkktbVlCNGI1ZlZ6VUlFS3lmcWlCY2hqNlBpQXZPb1E5X2dHa3lKamRoRUNldXBJX1VmQS1ESVpETHQ5aTl5dkVnbUNaWUxSR19HZFR5YldTOG54U2tVQUFwbmFLZEg4NVh3ak5NVWl4T2NlSUh6NFlxUUFlTEsycVpwYkZnSG9JaWkyc2JybWFMTFltUFdIeXpadWhhSQ?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-15T04:45:57Z",
+ "updated": "2026-11-15T05:43:44Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
