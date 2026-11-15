@@ -145,5 +145,12 @@
   "brent": 114.16,
   "merey_dato": "reportado",
   "merey_fuente": "https://www.bancaynegocios.com/venezuela-reporto-a-la-opep-produccion-petrolera-de-1206000-barriles-diarios-en-septiembre/"
+ },
+ {
+  "month": "2026-10",
+  "merey": 91.66,
+  "brent": 123.93,
+  "merey_dato": "reportado",
+  "merey_fuente": "https://finanzasdigital.com/produccion-petrolera-de-venezuela-repunta-en-octubre-opep-merey/"
  }
 ]
