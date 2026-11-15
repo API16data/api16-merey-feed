@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "d89e8f42df69",
+   "date": "2026-11-15T17:38Z",
+   "title": "Venezuela busca fortalecer sus refinerías: Pdvsa proyecta distribuir 140.000 barriles diarios de combustible",
+   "source": "Valora Analitik",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNThUd0ZrSFhfWXZEUW5Yd0JXVm11ckVTeE5zS2JvQXI3R1BfQmtmQVctSmF6a2d3eDlTSTE2YkdkeGYxVDdGenJUR0Z1a1VDRXJBaFdtclA2ck9iYTMyOVhlYUVoSU43RTVKZUVFdU5GNUlOS2FucWticEdZckFSTEpGaDBsQXBNMUdlZ0dGU1VweHFfeFpnWnlZUWxma3c1QkFNUy00aFFwZk9HRTlreDhEUDZLNXQwSzJSSllxWUEydmRuTDBtTzFlaVRvZ194MFRqWVB30gHbAUFVX3lxTE9YbUdZN200Rjk0cGxfLXpnT3VTeXQ1dEhFTEdDSVVjS3h4R29qTkU2OUVFZHdpNkxITlg5dmJjYjhhU0lrVDk0ZFY2SUI4QjczdnYwSnlvLXdLQ1lhbW5aVVNTZ3h3bmZCREVQMnFXT05xOFprYUVVdnBZWk1ta0pqWHZLaXNoanhweEpCYzBkak1GM1NfamFTR2NhakplaHJFOGFVaFlpa29KVnVod0RnSnJoUzVmUVRQVEZxLUY4cjdfNWk5czZ4Y0doRF9qdUZpVVRfYXROeTRkcw?oc=5",
+   "category": "Refining",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "a514584d6695",
    "date": "2026-11-15T17:01Z",
    "title": "¡Pilas! Ecopetrol se le volvió a medir a lo que estaba engavetado… y el vecino está metido en la vuelta",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "6b608a455384",
-   "date": "2026-11-06T21:30Z",
-   "title": "Los precios del petróleo se estabilizan tras una semana en caída",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXA1UUV3YXJQbXdpV1B4SEZRTnRPWFhRTkdYVW9UVl9tVmpEaGdDVkEyRHp1Y1pzbTNseEg0S2pFT3R4cUN5ZXRyVEVHeGFKTlNaMTlDb3VzM09ITS1yVlBpTTRnMVk3akZwdGFBYVlxYjJjVG9KRi04SzlFRGI3NzMzNG5iM0dkYmpZYTVyNE9id1UxNzJJMW1scjM?oc=5",
-   "category": "Pricing",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-15T17:07:51Z",
+ "updated": "2026-11-15T17:59:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
