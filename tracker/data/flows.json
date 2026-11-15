@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T16:35:25Z",
+ "updated": "2026-11-15T16:35:23Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
@@ -203,24 +203,76 @@
   },
   {
    "month": "2026-11",
-   "high_n": 9,
-   "high_kbbl": 5873,
-   "possible_n": 1,
-   "possible_kbbl": 300,
-   "high_kbd": 196,
-   "with_possible_kbd": 206,
+   "high_n": 10,
+   "high_kbbl": 6523,
+   "possible_n": 2,
+   "possible_kbbl": 750,
+   "high_kbd": 217,
+   "with_possible_kbd": 242,
    "eia_monthly_kbd": null,
    "eia_weekly_kbd": 603,
    "customs_kbd": null,
    "official_kbd": 603,
-   "coverage": 0.33,
-   "coverage_with_possible": 0.34,
+   "coverage": 0.36,
+   "coverage_with_possible": 0.4,
    "complete": false,
    "usd_per_bbl": null,
    "high_value_usd": null
   }
  ],
  "voyages": [
+  {
+   "vessel_id": "7d3cf13d9-91bd-a4a9-bd03-0c7dcba0c928",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    28.8341,
+    -95.1513
+   ],
+   "name": "SPA",
+   "mmsi": "538012047",
+   "imo": "1021594",
+   "length_m": 299.4410666666666,
+   "gt": 67526.55666666667,
+   "from_port": "VE JOT",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-11-04T18:35:44.000Z",
+   "to_port": "FREEPORT",
+   "arrived": "2026-11-11T20:46:38.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
+  {
+   "vessel_id": "021ad5bd4-4c04-5433-be48-f45f34f0011b",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
+   "name": "ADVANTAGE PORTOCERVO",
+   "mmsi": "538010650",
+   "imo": "9794850",
+   "length_m": 222.47627999999997,
+   "gt": 41674.64,
+   "from_port": "VE JOT",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-11-04T22:42:16.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "arrived": "2026-11-11T01:25:12.000Z",
+   "confidence": "possible",
+   "est_kbbl": 450,
+   "est_low": 360,
+   "est_high": 540,
+   "method": "typical full load for the ship size"
+  },
   {
    "vessel_id": "2b2bf7b90-0ab3-3475-a209-1ebcc78b60ac",
    "from_ll": [
@@ -988,7 +1040,7 @@
    "name": "LUZON SPIRIT",
    "mmsi": "311000467",
    "imo": "9572276",
-   "length_m": 243.93718000000007,
+   "length_m": 244.44221999999993,
    "gt": 60193,
    "from_port": "JOSE VENEZUELA",
    "terminal": "Jose / Puerto La Cruz",
