@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:49:50Z",
+ "updated": "2026-11-15T10:47:27Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -301,6 +301,66 @@
    ]
   },
   {
+   "id": "AIS-563010700-2026-11-14",
+   "mmsi": 563010700,
+   "imo": 9766190,
+   "name": "HAFNIA KALLANG",
+   "length_m": 228,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USCRP>PACTB",
+   "destinations": [
+    {
+     "dest": "VEJOT>USCRP",
+     "first": "2026-11-14T01:01:38Z"
+    },
+    {
+     "dest": "USCRP>PACTB",
+     "first": "2026-11-15T10:47:27Z"
+    }
+   ],
+   "last_seen": "2026-11-15T10:47:27Z",
+   "last_zone": "Corpus Christi",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-14T01:01:38Z",
+     "detail": "declared destination VEJOT>USCRP"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 8.5 m vs ~11.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-14T01:01:38Z",
+     "detail": "Corpus Christi"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-538012047-2026-11-13",
    "mmsi": 538012047,
    "imo": 1021594,
@@ -411,62 +471,6 @@
      "done": true,
      "time": "2026-11-10T04:56:11Z",
      "detail": "Houston / Galveston / Texas City"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-563010700-2026-11-14",
-   "mmsi": 563010700,
-   "imo": 9766190,
-   "name": "HAFNIA KALLANG",
-   "length_m": 228,
-   "status": "arrived",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "VEJOT>USCRP",
-   "destinations": [
-    {
-     "dest": "VEJOT>USCRP",
-     "first": "2026-11-14T01:01:38Z"
-    }
-   ],
-   "last_seen": "2026-11-14T02:55:14Z",
-   "last_zone": "Corpus Christi",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-14T01:01:38Z",
-     "detail": "declared destination VEJOT>USCRP"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "draught 8.5 m vs ~11.9 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-11-14T01:01:38Z",
-     "detail": "Corpus Christi"
     },
     {
      "stage": "Discharged",
