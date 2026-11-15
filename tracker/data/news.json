@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "c3ce7298301a",
+   "date": "2026-11-15T14:49Z",
+   "title": "Venezuela proyecta alcanzar una producción de tres millones de barriles diarios de crudo en un plazo de diez años",
+   "source": "Contrapunto.com",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNclZ6c1pXVWgyVkFYanhmRE5sbWMycS1XaThFeGJXdzNKYzlLaWlJal9ITHF5ZDM0cU5OVGJreGh3YmtTYVFwcmk3eWd6Y3RrSTVOMVVpcmYyR3ZTeTA3M1ZYOEhIQ0hRTUozTmU0NXJEVktSbExFNWJ5QnRzcEo4TVFoWS0zLWZLUTZhYUtlVnh4dWZsZWlGcFNGb2JFZzl3Z1dBbzI0akdQSWpsSE1wR1E1S3BUWk91Y0VRLUZ1eXFyeGVkS1RpemtNcVBhZEJDb2hubWROY1JGY1FqSElGMlVyMGpCQ01KSG5JUA?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "88b7f8b41587",
    "date": "2026-11-15T13:03Z",
    "title": "#TeExplicamosLaSemana | Domingo 15 de noviembre",
@@ -87,6 +97,16 @@
    "source": "Binance",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pVV9YY3dpb1RhcjZmSnRhYzR4SU5FMWxRV3VNRUNYRFhVa3RiZVdlUmNvUHR0UF9VdldWT0JFaW1PTXI5bEFHVkRmWkpJdHlaZDV5XzE0YjE3TjBUSzJST3RrWXQ?oc=5",
    "category": "Gas",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "890d89965cab",
+   "date": "2026-11-15T04:31Z",
+   "title": "PDVSA: Daily distribution of 140,000 barrels of fuel expected by year-end",
+   "source": "Binance",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhdXBJZ1hQUEp3YjhjeGtaM0JiU1V1WnptN0ppX1UzLWhXbVYtcHhjMDhWNU9hLVJUWHJfRmkwckd1ZTN5d0wyMW85WjAwWXVjdkdUeGpWR1ZjWUtoaWNfMWwza3A?oc=5",
+   "category": "General",
    "via": "Google News: PDVSA",
    "origin": "rss"
   },
@@ -618,6 +638,16 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWWxIekFuR3JwTDdSbGlrOEtCSUFxS3dVZEdIbUpZcmtHUU5ob2VKU21HMFM4c1JBZWdZdjgwekJvY1k4SWx3Q2VBNFNaNXNRZGE2WFo0eEMtX1pTOHlTRmxhZzRGRy15OGJkRnd3UWY0SUdIcHUtd2w3REVQdDZDNDEzMnlyenhMQkpxcWFPNVQ3Q3Y0NzFwcWZKQkJxdTR6UXVpUmVkeFV5d0pyWVp3MkNTTEozUmZSUjBJMHczN3N3M05tR29MNmwtaExvc2Rx?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "ee48f0836a4f",
+   "date": "2026-11-14T02:59Z",
+   "title": "TalCual. . Durante la COP31 en Antalya, Delcy Rodríguez defendió la expansión petrolera y presentó a Venezuela como un modelo de protección ambiental, asegurando que más del 64% del territorio está protegido por ley y destacando avances en reforest",
+   "source": "Facebook",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd0tLNmhFUGlIT3VWRVAtZnloOTYwV28tcGpOUWE5dEFuZmc0VXpjRzFyYmg5STZFeEdzVlF2WFZfWk5HS3o5TVVqemt5ZVgxSzVoZkNQOUFSOTRPczFQNkRNd29TdFZ3S0k4Q0NrU3NfVXFzQU15d2RTa2tkMXlkejZvZXV4Z1Y5Q0xiWFpCZXRJNTlla1dnblhFaVpSbUxIY3NHemtZbE0tS1poQVVZQ2FLUXhqeGJodUZJcTFtQnZWTWVoRDNPVkVRaWJxRzFsOG5EZkNlNnZGdWNlb3VYVlhCTDdTVW9Rb08zM3JkMGhJZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -7709,36 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "679f1666030d",
-   "date": "2026-11-06T19:29Z",
-   "title": "Gasoducto binacional Antonio Ricaurte operará a mediados de 2027",
-   "source": "Finanzas Digital",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQWRqdDNBeTBKSVRNT3o5ZFlwbFNJVllrd1NBV3hkZHBGYnlmX0lQVmM1blk0N3BQVmpCaGRpUVl6TWFWM2tNbW02VE9BbW5BSzNDcXY2TkVKZmU0cmcydnFiMDdDTjlKbWlWOEI5QXdTaDM4UjlSWE9QY3Jwalo2VDY1OWR4eno4dlBv?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "258bc08e8bf3",
-   "date": "2026-11-06T19:25Z",
-   "title": "GeoPark evalúa la logística en un yacimiento petrolífero venezolano de cara a su adquisición",
-   "source": "Bloomberg Línea",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTWZseUhwMDYtOFM1Z0VULUJvWXFBdHNja3ZocTNOT29OanlSWDEyOVA3UDFQX19tVmVvVzhGNzJFb0xiSllXNUFRaGZPQU51VVgtLWhnUlpyRk00R0F6LXI0NExCMk8zc0x4YTRhdFM2RHU5em4wWTVxcFlHNmdodmlZUVhpYU55VlE3QlhzNTRLdnFDTHBiUEl6bTNsUk5wRnc0NFRtWlZaWmZlRUJQOC1FOV9TcHkxYk5CU013YjAwcGtuc2ZZbmUxUDZIb2Y1WTlXNllEM00wYVhIRTdoVm1B0gH2AUFVX3lxTE5FcDBGRkJPQV9RZl8yblBkQ2ttTXBObk9zVmZtQzJyQ1pQblFHYnlHd3BkWUJ1T0tGT1VoRmpMZlF0NXFMOVVpTEYyZHBQVmdhejBlWTZxdkt2VTZJclNwYmV3YkJJdVJnNWdfSVIwRnNKSndaZzczbWdHYjYtTUVSWGJKWm90Q2VnYURweThOTjZGcjJuRDFWQW1BVWxHMWltR0I0cE01X09IZElyQl9YaEZSejhDZXcxUFVEcjludjYtdmRDZkdPZ05tQkNObm85NmNNaDlhYzZGVGN6ZXFoM1ZTYjhrOXdocmhkS05qSXVzY3dpZw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "dd6b9de74f1e",
-   "date": "2026-11-06T19:19Z",
-   "title": "Chevron Expands Venezuela Position, to Invest $7 Billion in Next Five Years",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1M3dHZrMW84MDZreGpKSGN2QlMybjBmeHMwNW40bjF2MWdjUE13dWVHSTZPaGJlaDZIZFlJMGVkZGh2MHZ5cGptbkpPNVZGdlVyUjVQbU5hVlRjQ0ZneFA1NkVUWEs0bzU3S1hGS00tY0xjRDQzX0VISmNLSE9ZblNnNVhQZ3d6UXI3Mkd0M1lfZzc2T3A5N2V5QVRXZmFmckNsYmxJdw?oc=5",
-   "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-15T14:15:58Z",
+ "updated": "2026-11-15T15:08:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
