@@ -31,6 +31,16 @@
    "origin": "rss"
   },
   {
+   "id": "57f6aaefadbc",
+   "date": "2026-11-15T02:29Z",
+   "title": "Which country has heavy oil reserves in the Orinoco Belt?",
+   "source": "Britannica",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWGR3ZS1uTDBTZnFNYkQwSUJlR1pzekplbGo3R1FJcm14eFZIdWR5Y1IyWXk0eHZFZlNDbjNhUXE4Z0kzZ2lFWWt3bGdNRE5IcE16Yk0xVWo3SUFlLWdwUjBZUkE3V0VLM2lsOEowU0Q5V2QyaHlrVEgtUWJyMUJuUnZ5elN0RFVFRDZIcnlxOTJrcEZ0blE?oc=5",
+   "category": "General",
+   "via": "Google News: Orinoco Belt",
+   "origin": "rss"
+  },
+  {
    "id": "ae5e6d7c5c1a",
    "date": "2026-11-15T02:07Z",
    "title": "PDVSA alcanza capacidad de refinación de 500.000 b/d",
@@ -7729,16 +7739,6 @@
    "origin": "rss"
   },
   {
-   "id": "9660e1540841",
-   "date": "2026-11-06T17:38Z",
-   "title": "US refiners cash in as soaring tanker rates squeeze Asian competitors",
-   "source": "Baird Maritime",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMlRGOXI4N19pb2VrZWE2SFZfZi0yR0dnR2lIUGhIS0U3amFNQV9zSzRhbFlMTzVwUG55TmJhV2lsalh6RzJ1RF8tRFFOQU1jb1lCNTlqR2ZzdmxIV09aUWR2bzRoNXRSQjV6WkEzSXpnZlRRV2FBNWtzc1czaWFqeVZyYjdNeXR1UUhOOUhkVTRFaWd4OGRFRDliRG9BMlZtZmlKYWMzdHZGOUpJbHREWG5kc2NaTnd3NFZpM25EdXVtRXliN1pn0gHUAUFVX3lxTFA0ZVJ3WV9lS2tGR3poeVdnTG1wZF9zaGdyVExJTlpaYzBQdTlLN3h0VEVSeTJ4VGNrNFJySzNhOG9CX28tc2FCM3U2ZXZKanVOWlU3YlFnTjZ3T1V5dllDdVlTUW5FNjdCQzdQNGRaMjlKV00xNkloajhPd1dtSHpfajgxaTVOT1g4bUttVERERExzQ2VJQjhzWFo3R0FIYnlsb1NUTXg4WmI2NTJsWGp1T3BBUi1xc3hZVnJaTURSZlc3VVV2bDZkdjNGd2pDRUJvZ3NY?oc=5",
-   "category": "Refining",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8041,7 +8041,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-15T10:34:50Z",
+ "updated": "2026-11-15T11:29:36Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
