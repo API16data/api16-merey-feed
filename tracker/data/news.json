@@ -1,6 +1,66 @@
 {
  "items": [
   {
+   "id": "6d3386809003",
+   "date": "2026-11-16T11:01Z",
+   "title": "Pdvsa espera producir tres millones de barriles diarios de petróleo en 10 años",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPek1RM1Vnb3NsVG5FVW1LZ2NkRzNxcDRsZ0ZoSjBVcU0wWDVsMDdJc01oYjltcnZicVFjb2tJLTZhUWFQZXV6bXhVNjRCZ05ybTlRS1YtQUlIbENkWVpqeFFNekpuZzc0SEtTR0hsVm1HUEE4cU1jc2p5Q1lGTjJxX1l5dllpeHozUU9MVnZTMllVeEdsV092T0JhMlpFOGpPbEFJcEszb3Z1MmJrd05OUjJDUzg?oc=5",
+   "category": "Production",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "350a9e7c7a55",
+   "date": "2026-11-16T10:31Z",
+   "title": "Los dÃ³lares del petrÃ³leo: Â¿a dÃ³nde van y quiÃ©n se beneficia?",
+   "source": "Aporrea",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1lV3MwZGNwc3NJUVFLcjNrTlk3TW5ZQ3hpMEtTTERkU0RxQ3kwTHFrRnJxcUZPQzR2bW1ueFJKazg5dE1VOXlJOEh4VzBHS29RM1FJNS1pMNIBXEFVX3lxTE9ka3kwRXRmNk9KcGlLdHQ1ZHlYaHFpSWRtY3RBdzJhX1EzbHMxRUVhX21ILXJ1bS1wLWpjNkZOSDJRTEc1TUpKdUtZaElKN0VjRzVPY2trQTMzbUYw?oc=5",
+   "category": "General",
+   "via": "Google News ES: crudo Merey",
+   "origin": "rss"
+  },
+  {
+   "id": "178d3e849b7c",
+   "date": "2026-11-16T10:29Z",
+   "title": "Can Chevron (NYSE:CVX) Record Production Keep Earnings Climbing?",
+   "source": "Kalkine Media",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNVphU1oxU012SWRITEQ4VzBKMXNQblBMZXhBRnN3M1ppWFNTWlpIYm84ZlUtYTc1QWRZZGpzRmE1R3h6Q2JNS0RXUURzRzVyNkx4Vk0yRXdnelRrZWkwM3pCYnkwSEhiTVlZeU5FekRubGNXOGVXdU9pa3BHZzROcmNzeUdnR29RTUROSm5JNUVQc0hoeHBkY2dJeVJMOVd4c2dnbW1n?oc=5",
+   "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "d3278aa082d9",
+   "date": "2026-11-16T10:25Z",
+   "title": "William Hernández: El peso real del municipio Guanipa al sur de Anzoátegui en la caja petrolera de Venezuela",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMGpMRTlRNUxzUnp6YllkY0ttSEl5UlVVN05tVjBaWnF4S052VzQ1S1B3S2FLeFVfRHZHZ0ZWalFKdHpRWHJJQUJwRFRHQ3djRXNaeXZtak9VZjVGaWpMTHpzU0docV8zUUdCVXVIdVBENTZYU1FDQmgyalZNcE5qR2hzSXdsQ1lGaVExWEt4Vm9XZGZuOGtTRkllZWEwSFU1Wk9YVW5OM2R3SC15bllxV1ZYZFNZbDZNdnFVUUh6M01QSFZpbkFTTDdmeU5wMXFhbHJKQ0d1dUs?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "fd4f1ab0da5d",
+   "date": "2026-11-16T10:20Z",
+   "title": "Maxim Ross:: El problema Venezuela…es su petróleo (V)",
+   "source": "Confirmado",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaTVWR1ptNFpXOGJZc0pxVXp4WDI3QlZ5QlMzZWpzelNid0xCSzl6VU5EX3hzdld1Y1BhU1VEZktRWW5WSC1Tbi02dFRvNHlxUk9nYzh5QXNMemxQb2tZY2JmYTBBNjF0alRZNkcxZEJQNGJ5clZzR1N2V29DaGwwdw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f6c28315647f",
+   "date": "2026-11-16T10:08Z",
+   "title": "Sulzer secures order to help build Venezuelan oil rig",
+   "source": "SWI swissinfo.ch",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR0IwN2JSNEUwUkxEc0J5d2JHeU9ZMG9ra1p4MEhTQ2NPaGppTnhaOHVEUWpjYUFZNGVCWlpxRm5zNGJidUQxbkJTajYxRW9EdDRobFZ6UFVkRHg5bE4tQ3Fvckg2UDBnX3JUODhMOVN5RV9GU0x6VVo1N21LWkhHem5uRUZVMGUxcm80UzhMYzhzZkVMMUU0NU5lUGs1azhWN2x5U2dHRWpNTERXa1M5c0tqbmZ0R2N0?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "7f626c425711",
    "date": "2026-11-16T09:19Z",
    "title": "Venezuela Plans Colombia Gas Exports from Perla Offshore Field",
@@ -891,6 +951,16 @@
    "origin": "rss"
   },
   {
+   "id": "9913507ee22f",
+   "date": "2026-11-14T16:05Z",
+   "title": "Panamanian Journalist's Home Set Ablaze Amid Investigation into Business Ties with Cuba: Wife Escapes Unharmed",
+   "source": "CubaHeadlines",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CWmQ1enJKaTRrM3N2U2hRZFU5dFBMcHBpXzd5VzFzbUtxRDdRSWE4Tm5KV0s2Qld0eEIzd1dRN3RreGhWY3czSU5POHhFakpnV0gzY0U3T3U?oc=5",
+   "category": "Investment",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "ec15fe0f4973",
    "date": "2026-11-14T16:00Z",
    "title": "Una compañía apoyada por EEUU exhibe pozos petroleros recuperados en Venezuela",
@@ -972,6 +1042,16 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnJnNlFlVFFHMjdkclI1TzFxYnpLc0pRNW44RFFpWjFUX3d5U2VPakNadmVYZ1VoOThKOXZZc1REc2xkNGkxN01Dc2M0OGhKUFp2Z3FzQTJIQTEteEdJQ2pKeXJweWo5UzFjNVBBUUc1UDRSZnNITHo5b09FQ1BjdUxvdmpweUtDeVBj?oc=5",
    "category": "General",
    "via": "Google News: Venezuela bonds restructuring",
+   "origin": "rss"
+  },
+  {
+   "id": "d51281aca519",
+   "date": "2026-11-14T14:16Z",
+   "title": "COMMENTARY: How Will Trump’s Venezuela Deal Affect Alberta? – Yogi Schulz",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ29NY29GaUNsVkFXTHJ1VUlPdFRIRjhmOHhINy1kSVl5LVVWNVA1bF9sWG5UOWE4SnJaajdyaEdJRVAxX3pjUVUyRzd4bnFkZ19RYVljdWZBOUpCTWQ3VUpCTzdsSHBKZ0xsZXVHc1QwODZLdUNpUW00Smx0RzV2WlEweFdOdlBYS094ZWN2NWJubUY4R1VkSkRqSndFNU0?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7667,86 +7747,6 @@
    "origin": "rss"
   },
   {
-   "id": "a82d3a12c1a5",
-   "date": "2026-11-08T20:09Z",
-   "title": "Young has questions about OFAC licences",
-   "source": "Trinidad Guardian",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN2RYc3otWWlTbjNlMXJaZzZuM2FZb3k4ZFJoQ0oxTUd4aExqd052Nng3OWZRYm8tdl9OaWN5Mkd3VjFTN3hvZzZmVi1PSWppNEp2U3B5NjRsSUdKQ3RuMUpQc1htU3VYS2s5WG5zb0lCbWZNOG5lcHZiQVFXZlNYRTNaZmNIeWlhSVA0V0pYLXZ0T0RlYXh3TS1TYWE5dw?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "16a7d91897f4",
-   "date": "2026-11-08T19:34Z",
-   "title": "Venezuela Oil Officials Set to Make Rare Appearance at Houston Area Energy Conference",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMWJ2NzgwUzJlVlBfemRaUTRRcEtwWXlXdmVrVktCVWpRQngzQVg0VG4xUmQxM0d0Uk9tcnpNQTF1c2U4QTBFaS1ZaTE3anFmRUFLM01PTVNGRVBKQlNTcWlsS3JMNU9abFpVa3FOOU1jaUZOa1UwZWQ4QXFPeUNGbE9WSHV2d1dReWdtdWFOVF85M19BQWh3ZWwycUVTa3BLa2lUMVNPcTRSX2pDRnRQcXdrT3lDZw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "695392dc53c7",
-   "date": "2026-11-08T19:30Z",
-   "title": "El empresario Alejandro Betancourt busca superar a Chevron con Nabep y revela que Venezuela cobra primero el petróleo",
-   "source": "Noticias Barquisimeto",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUXJEdS1VWTlNYUo4UFNkVEJERFVnNHloVkFMV0lTUDY3NUhMUGMyLUJYYTRaWjJwZENWdUtySFRwbnhFcVhxV0RYNFMwc0U4dmRscWZNOXhOZDNKcGY4SWNZLWFHQm16ZkxjYmJvVV9tWjN4aURuUkNWRzc0dk5BS1NNbUhPa05sLWYzNEE5Rng5c3N5YUFsVHpKeGNQZElfc0xjR3FUeTk5eHZScFNWY0tEY1NYQkJYUXZva04tcThuLXYwNm11RGNDWVgzakR0dUg0Rk9BdF9mTFlTNmxzZVpWdUJ1NU9OQ1U0?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "3ae32d7c3b50",
-   "date": "2026-11-08T19:26Z",
-   "title": "Iraq has reached understandings with US to allow oil exports through Hormuz, minister says",
-   "source": "Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "185a15b1266d",
-   "date": "2026-11-08T18:50Z",
-   "title": "Nabep apunta a superar la extracción de Chevron en Venezuela",
-   "source": "La Prensa de Monagas",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUY1a0d3WGhiNTBES0ppaFRSTkxJZkJVR3h0LWJnVGdZbVhXUVdrZDY4RW5iM1R0UUtkM3ItazE3MUU1cUpHOTZhN0NOaDM0VnktT05TcTJCbjF0cW9NUjlTT2duQlFBT3dBWG04RmZ0MHJEVTUxOVR6VTlBdEh6c3Z5Nm1McjFKSFhhYW9yaWhad2hrOXc?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "302d808ae66d",
-   "date": "2026-11-08T17:34Z",
-   "title": "The Washington Post recorrió los campos operados por Nabep en el Lago de Maracaibo y la Faja del Orinoco",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTjAwaFJ2OXhmdHpBZ0dzMW5ENHVPZm11RFJpcERYeFNYczdPUnE3T2NybE16X0VaSS1yTTN4eEw3QWtEaU0tNEhFa285WUFNMFlxLUMyMkJETWE2NVlpcXFIYTduUTRhMmlwYUZCOXQ5YWVlVTV1bzhMSUdaRHZqWGpPa1hRdV94a18tY256UmNacW1JSHRLOHFuX2o3Z0UweFItYjlVUFhLOE10bE41LVRUbmhKZmZVS0pVNjJPaTdMMllwcEs0UGpRNVhyT1hueVpXVmxPNA?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "b65367ddcb9c",
-   "date": "2026-11-08T17:32Z",
-   "title": "Nabep busca superar a Chevron y revela que Venezuela cobra primero el petróleo",
-   "source": "Globovisión",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOWJ3VXpMRDU2WnB2djBDMllyZGtITUV1OUxjZXM4MUE5ODZJS3psWUJMUS1JeS1TZE1qbkRnRDIwNTNnMGtQVHJiX2xQYzNSaVlxNVJReGw5NHV1VFk1Rk8zMGMwd0wzV2diNEZaeVNfWmdXWk5ZVDh5S2VaRU1YRlJPakRMb0g0NWtfMUpEQUlaVThoT3RtOTdNT2F4R0gwYzFNbnkwdG5LOXZtR043TUdzNU9sZjR4Vmx1TWhB?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "64324ebff7e0",
-   "date": "2026-11-08T17:28Z",
-   "title": "Nabep reinvertirá ingresos para elevar producción y superar a Chevron en Venezuela",
-   "source": "EL UNIVERSAL",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZy1pcnQ5QURtTlRBeXJqdUxxaVlteUsxZS1Xb2V2VEhTNkQ1a21NV1A0SEFRVjB0bW9Ca25YYlBPMXVFWmdENERoNmRsTDFFV2lfU1Q2NnBWSVp4aFAzUmEtRWNkZ0xHY3JyM25qTEVLTkdmY3ZvOUs1ZlJHa0dOU283cGFLUjBkc2NvZ1NvU1pwWEpZNWQ1Z1VBUjZOYnFrSHdmVXkzNldnNkx3OUgtU0p1YW1obVhPbFI5N2QzcUlDVWc?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n27",
    "date": "2026-10-29T12:00Z",
    "title": "Venezuela Energy Week 2027 (Caracas, Feb 22–25): deal room for upstream contracts, joint ventures, offshore gas, refining and local suppliers, framed by a US$76B oil and gas investment program",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-16T09:59:43Z",
+ "updated": "2026-11-16T11:21:53Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
