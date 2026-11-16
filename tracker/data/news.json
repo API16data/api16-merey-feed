@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "298b63581471",
+   "date": "2026-11-16T22:42Z",
+   "title": "Nabep se asocia con empresa suiza para modernizar planta en Anzoátegui",
+   "source": "El Carabobeño",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOXg2QUtBM1ZlSjlLNzZ5SWQwNjZKMzF5TUlLYmJGTDRDczkxUktxREVGenM4UGR3bTR6eWxVU3FFLVlLRzNSOHBoSlcwYkpQcG1OM2lXRW55NE11azNEUVpSSXFPNVRyM2hlT2ZYQndpMjlrd3NNYUJlMmFTMGJ2ZmVMSmVvNHpVTEdIaENOUC1tVEpCbHBtdUotYXdMaDRwd2JZ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "637d7f774fea",
    "date": "2026-11-16T20:52Z",
    "title": "Informe de Oxford: El petróleo venezolano cobra nuevo valor estratégico tras crisis en Medio Oriente",
@@ -7723,16 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "4be889fc055d",
-   "date": "2026-11-10T00:22Z",
-   "title": "ExxonMobil negocia con Pdvsa y plantea cuatro condiciones para invertir en Venezuela",
-   "source": "LaPatilla.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLThaM3BjaVFSV1YwNGdGQXJCMkd3NkY0ODExWXVaT3p4cTVHMFBPbi01Zml2QzZ4ZTlLU19CN292SVd3Yi1haFhOSjZ5end1NHJRbEZnOUdwRWxCbktFZWNsZWloWGNnc0pIWnpYNmpETDByYnNVOGNXX0Q3Z0kwaVRLT1poNHFLUGhnaG9ROUxEWjFVSWoyT2ZOaEp1X3lLRThYVHBUVlg2UEcwQXRZYkZjMWtvcllWaEE?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-16T22:15:11Z",
+ "updated": "2026-11-16T23:12:09Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,7 +8069,9 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News: Orinoco Belt: HTTPError",
+  "Google News: OFAC Venezuela: HTTPError",
+  "Google News: Venezuela oil exports tanker: HTTPError",
+  "Google News ES: PDVSA petróleo: HTTPError",
   "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
