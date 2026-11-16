@@ -211,6 +211,16 @@
    "origin": "rss"
   },
   {
+   "id": "5c1d7edd50fc",
+   "date": "2026-11-16T17:19Z",
+   "title": "Cliper Group pactó con Pdvsa para reactivar yacimiento venezolano cerca de Trinidad y Tobago",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU3J6TjlhUU5nWEduQjgzSDN3RzBFMHNLWlZfQUhaU2Z5TmlQNHNMY2YyWkdRSUR3VU5fWHEtVmgtY3l6aThnd3MwbVBBMXFzNV83dXRPU1pSTm83VTkyZjhhUE1qZjB6MTJGNG44a09Ccnh3a0JPbzdnNmNRNG14S1hpLVRQNG9EdEgtaGVWR2lxUGRlWHdIZ01hRUNiU1ZaNHo1Yl9UTEp6RjdWLXRHV0wyTVZHS3MxN3VIb2ltUUJNZ0Y4?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "a0f14253e13f",
    "date": "2026-11-16T17:02Z",
    "title": "Empresa trinitense pacta con PDVSA por 25 años reactivar yacimiento petrolífero venezolano",
@@ -477,6 +487,16 @@
    "source": "ProMarket",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTk1CbDItV2hBM3RSdjJsbEYxdGh2c2FfUnBvV1hFcHZ5aEdqSXZkWDlHSnVka2M0Zk1uTEJBT1I1QjRDRkh3bmJRSjFDdjhpLXMtMTVjdmpEZzBwWlo0N0tNOURNeWdETXFWUTVqUFZ3aEFxNWE2LW83eWZmQVU3VXNxVWRKbWRUMG12TTFJbnJLVGFrc1FrN0NjajBYd3B3aEE?oc=5",
    "category": "Sanctions",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "de29cd556d8b",
+   "date": "2026-11-16T11:00Z",
+   "title": "Venezuela’s Collaborator-in-Chief",
+   "source": "The New Yorker",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEw3SWtSV19jNXFucGhhVDZkSnFJeHktckR2cVpsZE05dkdrMkswMzE3Y3dBUkNPYTN0aXJ0MHNQTWNaNk5YdjlucllhaDVKUGNHdjA4RGt1cWdFU3NiVnZEbkJqWGtRS1V0R1NPZ3RuVFpKbmpvb0dFdGhHeEVKNDc2RDU?oc=5",
+   "category": "General",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -7713,26 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "5d6fab8ca5f6",
-   "date": "2026-11-10T00:19Z",
-   "title": "Exxon Mobil Explores Investment Opportunities in Venezuela's Oil Sector",
-   "source": "GuruFocus",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdG9wY09kakdmWnF2bVU5Y0o0bVF2XzFIc0RtOVZidWd4ZU5RZkRYWUN1b2Q2SG1RZ0ZmeDh4aEhXcldDMUhyclRKRkRtdEZPRDAzVC01OW9NQ1BZTTNoaXlDZWNkSVN1Q3JhelNWdHVoVk8wc1k3eVRDOXA4d1Z2ZjBqclZzNDhGVmxTdGx5Vjk0SmVXOWg0WHh4NUVVVkxRRmI1VFk0cThsS0t4dnc?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "21f793c948a4",
-   "date": "2026-11-10T00:01Z",
-   "title": "ExxonMobil Signs Deal in Step Toward Re-Entering Venezuela",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBxNnRQNzFQWDFsaFJIMTAxV184OV9FdFY0TmlETVFoT3FHZ3oxcmtVNXl5Zm92ZDVROFNzN09kME5nRGlXSzFJQzVQaTFBWXd1RFB1NDlubGM0alNnQklRdFdBXzhGLUkxOUJQcmhWTjRSOFFnNHRUTHRLWTd3eUpmVGpESERWZFlVWklVZXlzbmgwdlRuYmJCVWswZ21tZUstQV9qNmEzWFk5RlE?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-16T21:15:35Z",
+ "updated": "2026-11-16T22:15:11Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,9 +8069,8 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News: PDVSA: HTTPError",
-  "Google News: Chevron Venezuela: HTTPError",
-  "Google News ES: Faja del Orinoco: HTTPError",
+  "Google News: Orinoco Belt: HTTPError",
+  "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
