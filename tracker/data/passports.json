@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:57:41Z",
+ "updated": "2026-11-16T19:59:13Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -833,6 +833,66 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-352003298-2026-11-16",
+   "mmsi": 352003298,
+   "imo": 9971707,
+   "name": "NAVE COSMOS",
+   "length_m": 249,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VEBJV",
+   "destinations": [
+    {
+     "dest": "USBPT",
+     "first": "2026-11-07T16:43:13Z"
+    },
+    {
+     "dest": "VEBJV",
+     "first": "2026-11-16T19:59:13Z"
+    }
+   ],
+   "last_seen": "2026-11-16T19:59:13Z",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-16T19:59:13Z",
+     "detail": "declared destination VEBJV"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",

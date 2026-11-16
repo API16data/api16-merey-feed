@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-16T18:57:41Z",
+ "updated": "2026-11-16T19:59:13Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 352003298,
+   "imo": 9971707,
+   "name": "NAVE COSMOS",
+   "length_m": 249,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Port Arthur / Beaumont / Sabine",
+   "last_seen": "2026-11-16T19:59:13Z",
+   "destination": "VEBJV",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
   {
    "mmsi": 538010650,
    "imo": 9794850,
