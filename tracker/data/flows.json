@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:35:23Z",
+ "updated": "2026-11-16T17:21:47Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
@@ -198,8 +198,8 @@
    "coverage": 0.9,
    "coverage_with_possible": 1.12,
    "complete": true,
-   "usd_per_bbl": null,
-   "high_value_usd": null
+   "usd_per_bbl": 91.66,
+   "high_value_usd": 1442545080
   },
   {
    "month": "2026-11",
@@ -1040,7 +1040,7 @@
    "name": "LUZON SPIRIT",
    "mmsi": "311000467",
    "imo": "9572276",
-   "length_m": 244.44221999999993,
+   "length_m": 243.93718000000007,
    "gt": 60193,
    "from_port": "JOSE VENEZUELA",
    "terminal": "Jose / Puerto La Cruz",
