@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:59:13Z",
+ "updated": "2026-11-16T20:54:07Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -855,6 +855,74 @@
    ]
   },
   {
+   "id": "AIS-352001337-2026-10-27",
+   "mmsi": 352001337,
+   "imo": 9567764,
+   "name": "SAN MIGUEL",
+   "length_m": 122,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "GUYOIL GEORGETOWN",
+   "destinations": [
+    {
+     "dest": "TT PTP",
+     "first": "2026-11-01T22:39:35Z"
+    },
+    {
+     "dest": "GY GEO",
+     "first": "2026-11-03T16:58:41Z"
+    },
+    {
+     "dest": "TT PTP",
+     "first": "2026-11-09T18:57:56Z"
+    },
+    {
+     "dest": "GUYOIL GEORGETOWN",
+     "first": "2026-11-11T17:57:35Z"
+    }
+   ],
+   "last_seen": "2026-11-16T20:54:07Z",
+   "last_zone": "Trinidad & Tobago",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-27T09:47:00Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": "2026-10-27T09:47:00Z",
+     "detail": "draught 4.8 m vs ~6.3 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-352003298-2026-11-16",
    "mmsi": 352003298,
    "imo": 9971707,
@@ -878,7 +946,7 @@
      "first": "2026-11-16T19:59:13Z"
     }
    ],
-   "last_seen": "2026-11-16T19:59:13Z",
+   "last_seen": "2026-11-16T20:54:07Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
@@ -969,74 +1037,6 @@
      "done": true,
      "time": "2026-10-30T12:56:46Z",
      "detail": "Corpus Christi"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-352001337-2026-10-27",
-   "mmsi": 352001337,
-   "imo": 9567764,
-   "name": "SAN MIGUEL",
-   "length_m": 122,
-   "status": "watching",
-   "stages_done": 1,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "GUYOIL GEORGETOWN",
-   "destinations": [
-    {
-     "dest": "TT PTP",
-     "first": "2026-11-01T22:39:35Z"
-    },
-    {
-     "dest": "GY GEO",
-     "first": "2026-11-03T16:58:41Z"
-    },
-    {
-     "dest": "TT PTP",
-     "first": "2026-11-09T18:57:56Z"
-    },
-    {
-     "dest": "GUYOIL GEORGETOWN",
-     "first": "2026-11-11T17:57:35Z"
-    }
-   ],
-   "last_seen": "2026-11-11T18:58:34Z",
-   "last_zone": "Trinidad & Tobago",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-10-27T09:47:00Z",
-     "detail": "seen at Venezuelan waters (other)"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": "2026-10-27T09:47:00Z",
-     "detail": "draught 4.8 m vs ~6.3 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
     },
     {
      "stage": "Discharged",
