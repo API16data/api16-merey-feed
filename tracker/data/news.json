@@ -891,6 +891,16 @@
    "origin": "rss"
   },
   {
+   "id": "8edb803b2166",
+   "date": "2026-11-16T02:02Z",
+   "title": "Oil falls as recovering Middle East exports bolster surplus outlook",
+   "source": "The Edge Malaysia",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41eFpObjFqRUNuNVlWYlg4Ullwc0xKS29rSTliVzRURWV4dXdUeUxvWWJzMUwxUl9fbFFvenh3M2NNNVNiQ1ZfcWIzYmhoZ2gz?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
    "id": "4970ada47d02",
    "date": "2026-11-16T01:42Z",
    "title": "How the U.S. took control of $12.26 billion in Venezuelan oil and cut out China",
@@ -7523,6 +7533,16 @@
    "origin": "rss"
   },
   {
+   "id": "457f00fd5258",
+   "date": "2026-11-10T07:21Z",
+   "title": "ExxonMobil Opens Door to Venezuela Return With Preliminary PDVSA Agreement",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXlfSmo2SFktbE5mVkhxWGlRc05GM1NZdjZERmpBS1VrQms3QnpsQkt2eGRBRHM3OFhIdzFOY2JON3lpbGVUd0RFRnd4dTZOT0hpeTRuZHRWM2l5ZU0tU0MyX1BHRVRod0F3WUNOVUZMNU1QcjlzNzhDTll1ZUNZclgzdEZPRGFnbWs3a2NudXZ6VWwzMkRaenNHblF5WDBqcUVGc0M3WHY?oc=5",
+   "category": "Investment",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
    "id": "ba3dbd0b8c4c",
    "date": "2026-11-10T07:06Z",
    "title": "Qatar Brings LNG Tankers Into Hormuz Despite Shipping Slowdown",
@@ -7710,26 +7730,6 @@
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPel9IdmxPMUx2WXprQ1NjRzlkVXFHbW1nVlQ1VG12U2RCMHlkQWRiUWlGNUZwWWd1SlNhT01uZUV0cEZGY1gySHlrbElxRnN2elJYNEtZWVVNZ0tkNGxiUW93WlJoTEw1dk12Y0VTZEVXWXhGZVBSYVBIVURQamVmU3BVcVpJYzhLcU5NaEZJWDY3Z2lsajBDVFpodEtGajNzcUJtdkZSeFRXR21kZDloeVQtVmkzS1pTaG1ZWDY1VDExejBmT0lzMDJlZWQ5RnItQ1JYVTdmckZJX1l6RHhac1BJQTRrN0k?oc=5",
    "category": "Investment",
    "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "bea7385cf624",
-   "date": "2026-11-10T02:50Z",
-   "title": "Venezuela: From revolution to recolonisation",
-   "source": "Green Left",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX2w0UzlxSE1NOWdXQnAtN3FETjJHa3dmbUlWUUs3VllCYkYzSnJWUTZDd2x5S215RFE4MUlQQjJNTlBsLUlWbFZTZGtLN2ZhMWRBUXdkdE5TSEplRC1mT2hvY0d6LUx4ay1zOGNaTHo0aENVY0pPOUFoYUhSaTNPRmI4cUVxSGc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela bonds restructuring",
-   "origin": "rss"
-  },
-  {
-   "id": "1e90ef656af5",
-   "date": "2026-11-10T02:45Z",
-   "title": "Venezuela y ExxonMobil firman memorando de entendimiento para reactivar la producción petrolera",
-   "source": "Noticias24hrs.com.ve",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSFlKaWljbUY2ZmJWaE9fWm1EaW9USHJlYUlYUUNjSEQ3Z0NvUTlXVWtsMUZvVnpucnpxdTR0NUdzVzF2RUFxYW9pWHJpaVJRUjZPQktqeVNpTmdHRzR1VHI1bDdnNDRBSGtKbHh5c3JMY3VZbU5FSWw1ejd1eWdHS0l5UWhLQ0M5ZTZ3RHp3b1F2UllNUkNDLVFxT21fSjJpaUxnMUhHVWduOVRDSlYtZDVLbUo1XzdFTWEyczRtNlE1WTZXa0dOWg?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-17T04:49:14Z",
+ "updated": "2026-11-17T05:51:37Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,7 +8069,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News: Chevron Venezuela: HTTPError",
+  "Google News ES: PDVSA petróleo: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
