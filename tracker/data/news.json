@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "3fc1139e670c",
+   "date": "2026-11-17T00:45Z",
+   "title": "Venezuela Oil",
+   "source": "chronicleonline.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjN5MzBrWDlxWjlGVmFMSmRtSF8wZTNoYzVuMGdjZ1BZY2ZJVE1TNnFMbHJ0UFFiVUozZ2t5VUM1bXRnbmFHZ2d3VlFjTnFORk1Bd25ycldUV20wdWdKY0hHX0RDc1BLZEFqZk5oMUNuYTM0TDJMcGo3T3E2TVZWYTFoYm9Jd1pSR1d2Y0VWQjlEaEFYRVhBMS1vN0NBV1NuUTBpYVdmVQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "2debd96be44a",
    "date": "2026-11-16T23:34Z",
    "title": "Nabep se asocia con la firma suiza Sulzer para modernizar la planta mejoradora Petrocedeño en Anzoátegui",
@@ -1191,6 +1201,16 @@
    "origin": "rss"
   },
   {
+   "id": "68982c867a20",
+   "date": "2026-11-15T08:00Z",
+   "title": "Democratic sweep could slow Venezuela's long-term growth, but recovery continues",
+   "source": "Rystad Energy",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVTRZM1gtb0s5NXc0V1Vpa1pKTlJCb1BKYk9VNXJJSkpNcHRKdnNmcDczODY5NERfZ3lYaVRSODI3VEN6ejBVckFhenpiNVdoOHBjWUFVSlFSY1lidDRkdjBJbldSN2RnNF9kTnNlV0lUT0VsLV82S1hrOF9RYUlremZxaFhEZE1lcFFiM3JDVVFzMGhsUmViSThVVWd3OUM2Y1JnS1V0QnFwTFljcDBDUER5TGNpZHM?oc=5",
+   "category": "General",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "67efdfcebc7e",
    "date": "2026-11-15T05:16Z",
    "title": "Más allá del barril: la petroquímica como oportunidad para la nueva Venezuela",
@@ -1418,6 +1438,16 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcEVjalFnYzltSENra09BYllaWnpaWENVQ0xPM2x4WVFiUGJvWHo5bV9RelRFa085YlJVX2ZTcWdhVDBVMmtHMVpyeTlpSXJSVGZTVFUzaG9QY1NaeGhWa0VHVTVWSHlUTUFDNURRaWV6cU1KbW1HYmc3ZUZWbXpiNk43OURWVlJIcTh2aks0YW90UQ?oc=5",
    "category": "Production",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "28d5514a6589",
+   "date": "2026-11-14T22:00Z",
+   "title": "Aldo Torres: ‘For Every Barrel of Oil Extracted, a Venezuelan Household Is Left in the Dark’",
+   "source": "Venezuelanalysis",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWEZRTmo5cDR5RmdPT1FUR09oWExqaHBjUl9RbzlNcnd4Vi00NHR5TUhUOER1YnpYVEZ0dEpKNjBNNkJZWlZKUV9SVWdSc0laNTdDamdwWEhKaHlKSGFkRjdZNkNDbVVhS3hicmhVclFhV21RMnBRVFFHTVRGVVEwbmFqQmlwRzVYS1FDSGowalIzeU5WbWU0S3RSTzFfT1ZmeHNLVksyMHNvZ2RkMjFfbDNoTzl6V0lSQ2N0djg2eEdQV25WVTRXcQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -7703,36 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "e4fecc1cb748",
-   "date": "2026-11-10T01:18Z",
-   "title": "ExxonMobil formaliza acuerdo con Venezuela para explorar oportunidades en el sector petrolero",
-   "source": "Bloomberg Línea",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdGFwanZtV1hGUHhvRklLVWRQQ2dNTDhzZlduMVhFWEtPR21nOHpKQ2RBbGMyOXZLRWlmdDdiWnBoQi1mT2owQ0piaF9FT2JxOHNCYkg5MGM3VVBRNWxWTHZhY1VWQWZESnBLaEFkSjR1blg3bzFKdXlWb19oT1lMdnRkbndCTDdyX2NyUFdpekdRT1VocnRCSjBkWlNqbkRWOFM5WjJfY1BpZ2RPVHRKZFBfcFBzVFg5SU5VUHhhWmQyVXVtUElBMFFDU3VjX19qeElJZUFYcFBpS0tUZTdpSFFhcw?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "1e1369c168ad",
-   "date": "2026-11-10T01:17Z",
-   "title": "Chevron Corporation | CVX Stock Price & Real-time Quotes",
-   "source": "finance.biggo.com",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53Q1d0LXFFZ1Y2aEd1UGp1WklYM0NqNlNxRjI0MUU3Q2F2SzAySGNmcVFsMzhHMFZnTGttQmJUMjYtRTFlMkN1eXpISQ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "b31aecad9130",
-   "date": "2026-11-10T01:02Z",
-   "title": "Exxon signs MoU to explore oil opportunities in formerly 'uninvestable' Venezuela (XOM:NYSE)",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN19wR1hZeUxtSE9ETXFwWFdMd1A5bkpNbHoxWDY2VTJCc2lrU3FONEZUeVZvcHQyZlpobkZpRDJxQi1zclJLZzZIcUNuMzlaT0NLalFvaDg2OWtXN3FZRWRSNFU2NlUtajBzaXpvZHlTem1uR2RVb1dyUUJHcW05aE9ISFhTZUl3cWVEWGlyelFWc0dEMjFYSFFMaFMzdWJNSks2d1dLQXZCVi01QVQxY2hOTGFZMDJX?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-17T00:07:38Z",
+ "updated": "2026-11-17T01:46:14Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,8 +8069,11 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News: OFAC Venezuela: HTTPError",
+  "Google News: PDVSA: HTTPError",
+  "Google News: Chevron Venezuela: HTTPError",
   "Google News: Orinoco Belt: HTTPError",
+  "Google News ES: PDVSA petróleo: HTTPError",
+  "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
