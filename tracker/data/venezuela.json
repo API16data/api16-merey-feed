@@ -1,7 +1,35 @@
 {
- "updated": "2026-11-17T10:12:10Z",
+ "updated": "2026-11-17T11:54:16Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 636025070,
+   "imo": null,
+   "name": "HL EDWARD AUSTIN",
+   "length_m": null,
+   "why": "seen in Venezuelan / ABC waters",
+   "last_zone": "Trinidad & Tobago",
+   "last_seen": "2026-11-17T11:54:16Z",
+   "destination": "",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
+  {
+   "mmsi": 538012047,
+   "imo": 1021594,
+   "name": "SPA",
+   "length_m": 249,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Gulf of Mexico offshore (lightering)",
+   "last_seen": "2026-11-17T11:54:16Z",
+   "destination": "VE JOT >> US FPO",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
   {
    "mmsi": 352003298,
    "imo": 9971707,
@@ -57,20 +85,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 500
-  },
-  {
-   "mmsi": 538012047,
-   "imo": 1021594,
-   "name": "SPA",
-   "length_m": 249,
-   "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Freeport",
-   "last_seen": "2026-11-14T22:41:39Z",
-   "destination": "VE JOT >> US FPO",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
   },
   {
    "mmsi": 563343100,
@@ -309,20 +323,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 300
-  },
-  {
-   "mmsi": 636025070,
-   "imo": null,
-   "name": "HL EDWARD AUSTIN",
-   "length_m": null,
-   "why": "seen in Venezuelan / ABC waters",
-   "last_zone": "Venezuelan waters (other)",
-   "last_seen": "2026-10-27T12:50:55Z",
-   "destination": "",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
   }
  ]
 }

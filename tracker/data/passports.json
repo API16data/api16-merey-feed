@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T10:12:10Z",
+ "updated": "2026-11-17T11:54:16Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -370,6 +370,62 @@
    ]
   },
   {
+   "id": "AIS-538012047-2026-11-13",
+   "mmsi": 538012047,
+   "imo": 1021594,
+   "name": "SPA",
+   "length_m": 249,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VE JOT >> US FPO",
+   "destinations": [
+    {
+     "dest": "VE JOT >> US FPO",
+     "first": "2026-11-13T21:50:36Z"
+    }
+   ],
+   "last_seen": "2026-11-17T11:54:16Z",
+   "last_zone": "Gulf of Mexico offshore (lightering)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T21:50:36Z",
+     "detail": "declared destination VE JOT >> US FPO"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 12.5 m vs ~12.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-13T21:50:36Z",
+     "detail": "Freeport"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-538010650-2026-11-13",
    "mmsi": 538010650,
    "imo": 9794850,
@@ -476,62 +532,6 @@
      "done": true,
      "time": "2026-11-14T01:01:38Z",
      "detail": "Corpus Christi"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538012047-2026-11-13",
-   "mmsi": 538012047,
-   "imo": 1021594,
-   "name": "SPA",
-   "length_m": 249,
-   "status": "arrived",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "VE JOT >> US FPO",
-   "destinations": [
-    {
-     "dest": "VE JOT >> US FPO",
-     "first": "2026-11-13T21:50:36Z"
-    }
-   ],
-   "last_seen": "2026-11-14T22:41:39Z",
-   "last_zone": "Freeport",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-13T21:50:36Z",
-     "detail": "declared destination VE JOT >> US FPO"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "draught 12.5 m vs ~12.9 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-11-13T21:50:36Z",
-     "detail": "Freeport"
     },
     {
      "stage": "Discharged",
@@ -902,6 +902,57 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-636025070-2026-10-27",
+   "mmsi": 636025070,
+   "imo": null,
+   "name": "HL EDWARD AUSTIN",
+   "length_m": null,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "",
+   "destinations": [],
+   "last_seen": "2026-11-17T11:54:16Z",
+   "last_zone": "Trinidad & Tobago",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-27T12:50:55Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": "2026-10-27T12:50:55Z",
+     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
@@ -1402,57 +1453,6 @@
      "done": false,
      "time": "2026-10-27T12:50:55Z",
      "detail": "draught 8.2 m vs ~9.7 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-636025070-2026-10-27",
-   "mmsi": 636025070,
-   "imo": null,
-   "name": "HL EDWARD AUSTIN",
-   "length_m": null,
-   "status": "at origin",
-   "stages_done": 1,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "",
-   "destinations": [],
-   "last_seen": "2026-10-27T12:50:55Z",
-   "last_zone": "Venezuelan waters (other)",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-10-27T12:50:55Z",
-     "detail": "seen at Venezuelan waters (other)"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": "2026-10-27T12:50:55Z",
-     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
