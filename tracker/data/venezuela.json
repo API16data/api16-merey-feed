@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-17T17:08:10Z",
+ "updated": "2026-11-17T19:02:58Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 636025070,
+   "imo": 9972361,
+   "name": "HL EDWARD AUSTIN",
+   "length_m": 290,
+   "why": "seen in Venezuelan / ABC waters",
+   "last_zone": "Trinidad & Tobago",
+   "last_seen": "2026-11-17T19:02:58Z",
+   "destination": "TTPTF",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 1000
+  },
   {
    "mmsi": 538012047,
    "imo": 1021594,
@@ -11,20 +25,6 @@
    "last_zone": "Gulf of Mexico offshore (lightering)",
    "last_seen": "2026-11-17T15:58:57Z",
    "destination": "VE JOT >> US FPO",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
-  },
-  {
-   "mmsi": 636025070,
-   "imo": null,
-   "name": "HL EDWARD AUSTIN",
-   "length_m": null,
-   "why": "seen in Venezuelan / ABC waters",
-   "last_zone": "Trinidad & Tobago",
-   "last_seen": "2026-11-17T14:57:42Z",
-   "destination": "",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
