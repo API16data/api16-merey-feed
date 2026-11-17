@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "8cecc3f20de1",
+   "date": "2026-11-17T11:31Z",
+   "title": "Empresa trinitense Cliper Group rehabilitará 38 pozos petroleros en Delta Amacuro tras acuerdo con PDVSA",
+   "source": "Descifrado",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNkZCR2VjWENxMUQ1c01TMVZpNWdXeWo2b0QydlRfeE96czl1SkZ3QnF3UFY4ZURYSzA0Um16UGFPcW9Yem8yckswU1FFeVdjMFpKMllTcU9HQVpIRUxQdVpMTUozQ29yeGsxQ0pqZlBuTm50bVNvaGxnT1JIc05zVkNzeVNZbDJuYjY1SVpRazh3WGRtX0RPd2cxTU5pQ2dpd3FPMGRnaVE3R1AycTBfTWpOMWpVdEQtMFI3ck44eDhQZG5GeVRxZGRtblNfOHBnZUdpemlPQnBGSzA?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "f20d721a3ce9",
+   "date": "2026-11-17T10:18Z",
+   "title": "Lavrov acusa a EE. UU. de «desplazar» a Rusia y China de la actividad petrolera en Venezuela",
+   "source": "El Informador Venezuela",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQnBmTnBqS1VXb01fMlp3Yl9OSlhvVGJnY0RvWkhzclBrNWhReVpRbmVfSmZSNUpIRy04TDFVVnkzQ2poMkVCNjZGWndXdjNOaExzcHJJZ3FWb182T3pyMXlxSlZsc3hocDdVWUw3MXZteXdYTG1lMXRrM2xhZ014amM2X2IzZ2YxZ3RUczJjZ2FiOVAyTVY4OXBXRU1wS3g4NWZiSFRQeG1pSjJudmduMEdXbVZIREpJQjJnMWN3enc4ZFpPLU1YZ2U0Wks3VU1QTHQySA?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "879d5451ba78",
    "date": "2026-11-17T09:34Z",
    "title": "Oil prices caught between rising Mideast exports and tanker attacks",
@@ -7713,26 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "ba3dbd0b8c4c",
-   "date": "2026-11-10T07:06Z",
-   "title": "Qatar Brings LNG Tankers Into Hormuz Despite Shipping Slowdown",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSVFmSDFRemJEREhkQVBYZzN6VUhYeEh3QUUtY1A0VVQzcS12RVhDb2pXYnp1dVMwdnFOVEhiVUw4QUVIalhLc1pQeXl4em5RTTJ1NHlfbnFtQlByTUtPc0xra0gxbUhjd0MxRGxSS25KejdoN1R4Y3JsRm9FRnhqSGQ2Tnhyc3Nsc21YNFdiRC1SOUpXa2c0Ug?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "c52ab5c4745a",
-   "date": "2026-11-10T07:00Z",
-   "title": "Iran oil and gas exports nearly zero, Malaysia EOPL reserves dry up",
-   "source": "Seatrade Maritime News",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlQWXVQcUdUVjRiTjNuUjBxRzJuek1JMmRCbUhJa05hZkRhcGRhM0FVT0VTS0R4X0Rtd1BnVTJNOWxBdzYydlVWYm9ZbXdLc1E3aldZbTg3cVFTeWJscWQweVR2NU12aTlEYkQ5TmpvWno4MjB5RWF1MkNHQ1M1SVZPZHZoVWQ5RXJVQnlTVTB1MmNGQlpTdEowTWUyazRveEZjM193WUpGYjFH?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-17T10:32:23Z",
+ "updated": "2026-11-17T11:42:08Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
