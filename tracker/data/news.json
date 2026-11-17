@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "879d5451ba78",
+   "date": "2026-11-17T09:34Z",
+   "title": "Oil prices caught between rising Mideast exports and tanker attacks",
+   "source": "The Lufkin Daily News",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNNnRGWXpiLTFXWVl1Qnh4VHgzMnl0ZS1QZ0NCTXRsS0Zkakpyems3ckpVNnQydHY4SmhuWVlkNHFqY052dVVsQkNPY1ZMY3FTSjc5WlZiQlJnRWhfdEZjNkwwQ3lPbzVvWkdESGU4RlhyQzNEd1FSeXVWTnpMODcycDljX2xtM1ozRWVCSEppUUlqWkhKSi1vYXFSOS1BZ2ZwMzBTLW04M1BENUJld0VtQmhLLXJTVlA4dG16XzFVakc0LW9EUUNCT0RZWjNodjQ1R2NvLUFuUEhrcGowRHlxY1hUdVdoX1hBYXpOWHFFYWhseTB5RVNCTUYxUQ?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "8236e82d483f",
+   "date": "2026-11-17T09:30Z",
+   "title": "Venezuela destina a sostener su moneda los 12.000 millones de la venta tutelada de petróleo",
+   "source": "EL PAÍS",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSVVWVi1sYmVNdTVwMlh3aHFNM1ZiZUlkWWszZDVpY3lPOEJEMzhpcHhkM282NzNZQ3ZvUHBGdzVzSzBCSExPWGpTcW5VRnNNSVF0MlJQU1FoVkEtYXh3YXprQi1DZUktTFdjYzVkbmx4OGNocWdlanRnR0NZSG1Ec0ZCdmR6Q25TUUdqVmlWTEUwR3p6RVBFOTBGSzBrOGhhWEZDOVN3X1hTSzJacnZrWXhYR2pibVQwcWhLc1YyNVlvUkdaTnZfMmdTRHBYQdIB4gFBVV95cUxNRUlRMFRJbWhpQW5pMzlNSzFNSlAyV2k1akdxQ2g4Y1p4RmpMZXRYZElkbEIwRmFBZWxOYWtOejhaRjNJb0ZJY3pKMEtjTVNIUHhvbXJUU3lXRG5hclZHSlhtcFJpQ19jVEtRM3JaaUdHRzVyalhiUkRldTlYVGZva3J0dTc0emJyY1BtZmpPWTlpWkptWXliSTBWYVZhUG1MSjRKX1lQeUszeDhfdWZjUmNvcmhnYm1EWFpUV0p3WGFhNGpYeGREdmFic3FKbUNpcTh0ZEozM1RDSkpZY2tabkV3?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "e6e05ee441af",
    "date": "2026-11-17T09:07Z",
    "title": "Modernización petrolera: Nabep y Sulzer renuevan Petrocedeño",
@@ -67,6 +87,16 @@
    "source": "PravdaReport",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZkhoQTFaYzN2QnFtOGZEcm00SWhWZmhmVFpjTFZUenFCMl90OUc1c2xzc0g5d2dGb29Ua3Q5VTI0MEFQdFp1aF9ZTF9UdjNvTy1YaFg1VGZ3cXhtal9UTVFYM3NwWW96YUpnY0tkeUoyOE15dnF6SVJBTEtoODNfdlZ5OGZ6ZUU?oc=5",
    "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "5912f4038adc",
+   "date": "2026-11-17T04:26Z",
+   "title": "Nigeria’s Oil Sale to US Declines 91% Amid America’s Fresh Partnership with Venezuela",
+   "source": "THISDAYLIVE",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcy1tNUpxcnlEdUU1bFRBZEtFTjE5bWVoQkNtdnIxZ1F2dWVCMk9nbTg3MC1yeWRTbkdLdHA2UVJFTUc2SjFvOXJLUHE2SDBic19WSTRkb1hwS0VCbTJSNG5WQUlFa2NWNVV4Yk1ocHJtQ1UzemtLR2M0V1Q2ODVJTWtHOXBVZ2hWcktra09UaGNnLUU1ZnlFZTBRX0xKMXA4M0NpV1ZmU1J4Q1B4djFFNjNDa1NHNS1LUzNiU1lBVQ?oc=5",
+   "category": "General",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -328,6 +358,16 @@
    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOdGMxWWNwWlRYTjlBaG5idk1IM0pkbG1zanRSWEt5cThYd1VhZ3YxcU5vVkZOQ3I3Y2RyN1IyMXZwbnduTWJuSkpVbzhQTVhYb1lFVDQ2UXBscjA3T2hRaGlTaHZXY2R1RmMzTWxWckRnQXNJU3poS21tdmRzN2ZyTWxKU2MzeEhHZThlTjNod1BMWjZlYXZ6M0pQWGdsb0hadDZJeGVlbkZWOTl4cVdEN0NTMFlwU3JKU2lmbEp1aldoTjdoUHU1ZWhlTFZhejV1SVk5VmF6UjdrdmlRZHNRNFNTMnRJaTFUY01zTGd3bnZoQUlyelYyRWdqWjdpZUJxenc?oc=5",
    "category": "Investment",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "f468df96130d",
+   "date": "2026-11-16T19:17Z",
+   "title": "Chevron to Fund $7 Billion Venezuela Investment With Revenue From Existing Operations, CEO Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ1l2SXR3RE5wOFp0TkF3VHhfZHBEaVFhV2w4V2w1SWk0bkpJMDdWVFp5NFFkVjVWcGhiVi12UHlTTjl2azdiRmdfN1RZRzBCN1l3NHBpdE82My1XanZHbEdkeEw3dV91ampDSXpBbHdmMFR6aWxSUHBFWjBQVHZEMVhEU01ieDFDWlZCSG54eHBSWGdVZm84OHFfQ2s1eWFEbVBZdDRGYl9xN0ZESWNjbHZVbFJxa0J3V2dKa3o1elpFdw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Chevron Venezuela",
    "origin": "rss"
   },
   {
@@ -1318,6 +1358,16 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTTJKY0xwM2JPakVPLVY5bzZlQ0l4dWlLZHI3Y01SVl9tWnIwenJxRnVLanN1bXN2NDFsdEdyUGxyQTJ4T3Bmenk3TXdWZ0dWWmQ2VUNaNmdfUURIb1hqY3FaV2VaZ3F2YVd6R2wyZXRvbk9FZGRsTzd3VmFsTlZMYnRXTVZlcFpjdUZBb25kVG1Cc1NPYmJ6SElGNFB5MGtpcUY1UHJQNXJrNDQ?oc=5",
    "category": "Production",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "9df46c27d8c6",
+   "date": "2026-11-15T13:14Z",
+   "title": "Drone Strike in Egypt Sparks Security Concerns About Suez Oil Exports",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORXl4NE9CYThNR3hEN296SGFXVS0xRmItUjFHSGV0OGEtdG9PMXlMQVpzZGJYVzFUX05HWFZva2pSakNiUWdSbzVFUzJ0Qjc0U0I3THVBbGVrU1Z1TV91d2FVYXp6Z25KYzRmbTJtdTlyNUl3TU82TGRZdFhuWk11UXJLUzRLYjNzTGY0Mkl4ZXhndkdxVTJ5bjNWdUF0VVplZ1E?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7683,56 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "43fa9cf2469d",
-   "date": "2026-11-10T06:45Z",
-   "title": "LNG Traffic Through Hormuz Hits Highest Level Since Iran War Began",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMkE3R3V2VHNhdG5Ka3JsazNpT1kwaERYc19oNjZuV0ZFaW5ZWU95Q2x1anA5Uldnb1FFRlJwT0ppa2dERjMyX2pTRHZ5WDNVc25RTjU3TnZnLWpaMy1la1RMLU42ZndrVkhzTkU3dGFjdkkxOUdJSkQ2TS01QzFEYzBwSTh3Y2JtUUgxVkZFdnVLeERhbXpVaWdVbWZHNmoyTHBObV9hQ096TzRiVDFva1IyM3Itdk1zUHAxUFlnQdIBxAFBVV95cUxPX3l2dWJpMldjX2J4NkdxdTVHQlk1RkxwN0ZkeG84TEdwNmI0bG1xSFgyOEo3Y25uOTJ6bVRVVkRhanctU2FNN1BsX2NkSnFrVFBqYm5RMTc5SFNhYm1Gd0h0T1phLUpMdUNxbkdvUGF0TXA2SUhBNVFTcF9ZX0JjNnVJM0NRVW96WGgxcHpIOFFOcW16dkp5U2UwVng5S01tWXhuMnFOODlQSVFKWHZvR3BTYzVfLVhBd01xMGZVTk00U0dq?oc=5",
-   "category": "Gas",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "d96552fb4eb2",
-   "date": "2026-11-10T06:35Z",
-   "title": "Saudi Oil Tanker Firm Crossing Hormuz With US Coordination",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQVNZUmQwREVGTDdab2NHQlprcktlUUN4MV8xN1pMenlGVU5kT2pkOHlXc1B4R3BaOEJOT0Q2YXNzNllMdERKNXpvcnAxNXR4NjA0THFFS3p0RUp1R2tGQkFtcnlVY0x3N0ZHeUZrRDlSQ3FJZGlLT05NeTM4aWVNRGJwRUg5eVMxekI1RVpzcjFWM3ZfZG1LRFVuNWljbFFyMEc0R1l2RzB0TEExQlE?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "e91ebb544459",
-   "date": "2026-11-10T06:29Z",
-   "title": "PDVSA and ExxonMobil Sign Venezuela Oil Memorandum",
-   "source": "teleSUR English",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT0NmanZyMXRNMUZYQlJuTnJ6Mm0yYVlvUTZuNlN1N09vRUZ6OFdPUjhDd1Y3RVhMSmdPb3Zoc0VEYWhmNUNkcXBpR0p4UGgwM3VQY2xDSHFNZmlabW4zSlFFekxpc19hd1RIWHpCODg2RHFCcDlQNTVnQTdPQXU4TzUzSkhlMU8tOWc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "7ac8a6cf495e",
-   "date": "2026-11-10T06:25Z",
-   "title": "Exxon Takes First Step Toward Venezuela Return With Non-Binding PDVSA Memorandum",
-   "source": "BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxWDNpS2lFa2ZabWZscF9HTlJZTDJWZlhnUV9tWGl0OHp2ajZmUDdFR0d0dTBkVU8wTk9ERmxkck5ZOFQ3OF9EU1pxZ0JXYXNmUzE5dzFoMFJIYWdDemcyc1ZwVmlQXzduaUszOG8tbVpCVlYwZ2c?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "9aefc670c97f",
-   "date": "2026-11-10T06:18Z",
-   "title": "Best Oasis becomes second cash buyer to secure US sanctions clearance",
-   "source": "Splash247",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa3BGbS12ZVhCekJhZWpxMjM3bEZ3dW5kMlpqQUdRTmxTaXBzQlBBLUhBNmFRaTMzZHA2U1l6X0c3dFdrQ2JISWpiQ1lKY3NrbFNNRk0zVi1GNWxwckhkendqU3NlaFRiNF9PamZTMUQ1NzFCUjZpSGRJRWxfdGc4YnQxM1FzYXlmaUJZTmthZnBFdEZUcjhJ?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-17T09:29:31Z",
+ "updated": "2026-11-17T10:32:23Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
