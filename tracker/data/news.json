@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0cc3f2989823",
+   "date": "2026-11-18T08:22Z",
+   "title": "Venezuela-based oil company Nabep working to boost oil production following US deal",
+   "source": "Yahoo News Canada",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MZWsyOUJ1Y2UxZjg5WHA2UW12WUZWMF9ldXdtNUdibDRzUlZxNVkyWDBwQ3YtbUhTdW0yTmRxdXdsNW9OTFRIRm8zZ3dtLXNFT3VPTlJKaERSYjdWZC1ZZ0RMV01GdHFnQWJjZjg0dVEzQnJJT2ZMSjJya3FrVDA?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "954ef686b0f1",
    "date": "2026-11-18T07:15Z",
    "title": "Trump: PH to be a ‘very natural partner’ in new oil pipeline in Alaska",
@@ -7723,16 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "87a74f87a202",
-   "date": "2026-11-10T17:33Z",
-   "title": "Bloomberg Línea: Bonos de Venezuela afrontan riesgos de mayores pérdidas ante una reestructuración de deuda",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY2NpU2xkeEFYYzVTQVhaOEZDRjNmX2xWdzVLQnRkcVFvVlJncjRybzdCVkxFdERSdFQ3c0VpYVh0c1RmRmdGOFJsUEx4ejlqNUxnbFREcE1YZ1dReFVWdmZJQmVCVTd6dGo1eExuV25yZ3lJSXFmaVN4OWotWGM3ZU8zaHRjRG54bkZ5Y1cwNG8tRTJjTDF0RWFHNG95d3NINDF6V3oxSFhQR25KdUdiNmd3dFM3ZjdKZ1ZjbDZvNTVpdzRfMzFSNWplM2hlek1QRGx2Uw?oc=5",
-   "category": "Debt",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-18T08:11:06Z",
+ "updated": "2026-11-18T09:29:18Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
