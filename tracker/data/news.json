@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "2f3bada8f182",
+   "date": "2026-11-18T01:37Z",
+   "title": "Venezuelan oil flows north, but where does the money go?",
+   "source": "Trade Finance Global",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQalpWRk1kV0RYTU41QlFwTUxURzdGdGVPNi0ydEQ0Nk9kc2JvdzRWX3RJTkkwVXBtN3p0VFBQLVQ5VUxDZndQMWpwYlo4RXZ6cktTRjRRLW85QlR1d2hRQ1FpVnI0SThta3VlTEl3WXRsTHdWUmk0c1FlSkxDUlJWaTh3Y0JkcUdjeDlIVTVubkVNdw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "64d74763b128",
    "date": "2026-11-18T01:00Z",
    "title": "PDVSA pone fechas: gas a Colombia en marzo 2027; a Trinidad en 2028, y en petróleo 2 millones b/d en cinco años",
@@ -7723,16 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "b25cd020c272",
-   "date": "2026-11-10T16:15Z",
-   "title": "Venezuela Welcomes Back ExxonMobil",
-   "source": "Newser",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWlJ6WlF2VThZRERtbnEzUlZ3QVFoXzRyQVNEQkVHRDVwTzZNd0wxblFFWHpIbDQxTk1TX3dDb2JXMGN3X3JoNktxb2RCTEMtakc4aGVaWmtIU3pxT1N0MTFZaXA5dlVvVnhfellGQU54ckFoT3dONU5zSC1FMlFmMg?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-18T02:09:13Z",
+ "updated": "2026-11-18T03:19:31Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
