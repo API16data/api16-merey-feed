@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "954ef686b0f1",
+   "date": "2026-11-18T07:15Z",
+   "title": "Trump: PH to be a ‘very natural partner’ in new oil pipeline in Alaska",
+   "source": "ABS-CBN",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZUQtVU1WTUlxbWlOQjZqUEYtZzg4amszTDlEQ1VUMDg2R0t3THJ0SDBDQlhTZXY3TC1OR0FIRVQ0M1BieHI3VFpGbkoxSzNlc2FjMTNmM0lxLXFPTkxTODVLQzQtd0dnb1ZESVVQUlZWRzBWVjFQV1k1NWpZWlZralNuRXVxVkFmSHF3V3dnb3hjbWtLTmN1cUtlZVNVZGVFbTlaTWFBTWIzXy1CRlJQUVdtMms0UUpWZFZmYURKYw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "d996cc01ed72",
    "date": "2026-11-18T05:58Z",
    "title": "U.S. President Donald Trump called Venezuela the country's \"newest acquisition,\" as he flaunts the US as the world's leading producer of oil and natural gas. | via ANC 24/7",
@@ -58,6 +68,16 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaElWV05VVHNTR3NwUnNDbk9iVDBHYldhc3dIeC1JUjlPZGNxWnZhd21RclBNZmF6cmJSRVRudHJMU3FwSjVYUTJlVHNCeXg1VVRiOUthMm9UNzNkcUstNFpnbEdwNmZ0dDg0dmNUU00wYXA1VFlzcEp3Vm4wN1JnYmI2TWt5QVRhSmVxNnRqTXpWUXNQUnhfb0VfSTRfYnNwX2c?oc=5",
    "category": "General",
    "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "a5b0e16da3e1",
+   "date": "2026-11-18T03:42Z",
+   "title": "PDVSA sofoca incendio en Centro Operativo Bare de Petropiar",
+   "source": "Radio Nacional de Venezuela - RNV",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UM2NkN1JQVHIwV0c1T2ViV0Z2UmctMVZlUzZ1aVJoWVIxZTg3RnFkYVJVZkdlS2Q5UlJrY0R1eTdidzl1Y0VMOFBvOUtielZ2OEtfSzQtaktVc29YeW53VWxTVlMyWUhQdTZ5N2VocU13dllHTW9J?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7713,26 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "1c7ca7df675b",
-   "date": "2026-11-10T17:32Z",
-   "title": "ExxonMobil could return to Venezuela under a preliminary deal as U.S. investment faces congressional scrutiny",
-   "source": "Latin Times",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ3VYQVVmTzFsOVk4bGM3RWRXcXdlcjB1aVIzT1VwUnh2bzNrODk1UXhUVk1wRklwYVFOMXJQSVFGQ0RSelpfeVdJdm9UMmJFdWhFUGxuQkdyZE1wQUJBem01Wm9YbHdyTDdjcmVrYmw2RmRtQjdaZUpJdGNQc2l3SkxBaFV1QmpiZzRZ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d2136d11f313",
-   "date": "2026-11-10T17:31Z",
-   "title": "Informe detalla que EEUU recibió y distribuyó más de $12.000 millones en 9 meses del 2026, dice TNYT",
-   "source": "Contrapunto.com",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUUpWRVR3dDVKck9wQzJzRlM3NF84TEZ1X0w2QVhsR25FSGstdURoZEJFc2NFZ19sV3A4SmFGYVI4X0hVTGc1VFBWcEFmREtfbTBieEJ0SHBvcXlEaG4zVlVMRjVKZGtxRW9GcEFKMUdseHBKLUtBdGNyQ2pGbnp2VXY4X2JXLXpzVDl1eVVzbnFNQUlYY2NtN0tWU3FqOXhDVUZFQjNNQUhRWVpvOEZkWjVmQjczSE53ZU1paGdBM0J0Q3kwcXU2WXBuellVNFRRMkNDdmJWTHU?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-18T06:33:47Z",
+ "updated": "2026-11-18T08:11:06Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
