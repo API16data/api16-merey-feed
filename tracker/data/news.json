@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "d996cc01ed72",
+   "date": "2026-11-18T05:58Z",
+   "title": "U.S. President Donald Trump called Venezuela the country's \"newest acquisition,\" as he flaunts the US as the world's leading producer of oil and natural gas. | via ANC 24/7",
+   "source": "Facebook",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZlI2Sk9kbUwtWE9xZXk3WC1oWG1VNlBpTlA0aUFWZFNaM09uRS1halE4TTdDQ1Z1N3Fwa0ZrOHVFazU0d3RxbWRyQlV5Q0JWem5XdkVBYkNncWk5R3JLV3lQalViSDdyTEZBcjhJVzJ4cktNVXd6aDR6eTVXZUd4NVkzTGY1V3NfZ1NyODFTbnExNVREVzRDWEhnaVJzZkVTWlFCc2ZSWV9rTmJMZXliNEZiUkNha0FPWklZUElsNVdOaHkxV1ppS1dUWkRWM2pkQTZIZ1o5Zw?oc=5",
+   "category": "Gas",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "e01ddbb6b28f",
    "date": "2026-11-18T05:02Z",
    "title": "Trump llama a Venezuela su «nueva adquisición» y presume del petróleo bajo control estadounidense",
@@ -6773,6 +6783,16 @@
    "origin": "rss"
   },
   {
+   "id": "0c9ed80824a3",
+   "date": "2026-11-11T08:00Z",
+   "title": "Chevron (NYSE:CVX) Stock Forecast & Analyst Predictions",
+   "source": "Simply Wall St",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6TDlhSWRrdWVyekFhYVVQQVk5dktOYWRkUjk3UTF1ZGVwWWE4RjBMMzdUTXFhcllYTWxwRkNSaEtCRmszSEtGWVVhSWdBanhPTndaUkRrb1ZLNFVsRXRjanI3enk3cllmV3pBb1VXMA?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "7ca4da3c1103",
    "date": "2026-11-11T06:18Z",
    "title": "What’s the Status of International Oil Companies in Venezuela?",
@@ -7713,26 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "80ac125db801",
-   "date": "2026-11-10T17:30Z",
-   "title": "Trump and Venezuela’s Elusive Elections",
-   "source": "Time Magazine",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZNGFJWEJLUER6V3YtSVV1dWtRS0tFOHVkSnhjRDNSMlhpMHhaYjBmdU9UMWYwSnlFZE91cXh6Vlc3RFJyY1pVQzBkV2hrRXV1QTlrbjhIVTZoT0tHZ090WGl3R0xURDlHUFpzSEZuY1dyb0RoQXR0THFR?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "3f30c6174385",
-   "date": "2026-11-10T17:20Z",
-   "title": "Revelan cómo manejó EEUU los ingresos petroleros de Venezuela tras la caída de Maduro",
-   "source": "BAE Negocios",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2RiZk9MUnAyeGVKOVN5NUxMeG9Od29HbVBGdFpsUUdMZ3BMeHJRM1VDd2w3Q2I4RWR6aEticjN6X0ZJdzhNMWlpemVXcVM4dWpEYm1UeWJmN0ZQUDFTYjZWdF8xX2w1ZXJTWGVra2t5cU1Db3lzQ1k3MWg0UmVJeXRlZWg3U1Z0YnhnTVJOem44RWctNk9jN3R1b2ZzU3ZBR2g5M1B6UElzY0ZMZldhR2wwOU9jbEd0N3dtatIBugFBVV95cUxNZVZ2OUI3d3BGRS1WRXc1Q0dCelRVNEtsdWpyZzJGTmN3Tk92NHR5VV9kTElwM2FaQUcxODNLaG1GRFFVZVItT0d4c2VlV21LNE5CYlRMYnJ5d2pvSXFJQURGSTFjdXRxZmhvR0RZN2Y4SnY4cXBnWUVFN3Z1WTZSMEpwc2ZTVUxuaWZZdWRia0pXeHd2MjYwNHpwTFNSb1pPdUh6enlnclVOd1Z6ODJmN0hhb1Uyd1ZoaGc?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-18T05:29:56Z",
+ "updated": "2026-11-18T06:33:47Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
