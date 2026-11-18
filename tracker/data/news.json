@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "39b96a88ac13",
+   "date": "2026-11-18T10:00Z",
+   "title": "How Venezuela Has Changed With US Pulling the Strings",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmlsZHRvT2Z6WnlMbUJMNExnSFQ4NHpYbEhyUVNPS1hwM3lrT3ZCSlNNMkpFbTNsdk5LTGpsNHlmZEtjcklZNmo3TGd5NDEyNHMtUXpnTzItSTl3UHNzZHZFX0VlWXlLdXhSRTRuQ09JeUY2TngwY3hwempTRm9tWjhyb3kta0JDaHBHMG42V3lKOGlmYnI3aTJ3dw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "0cc3f2989823",
    "date": "2026-11-18T08:22Z",
    "title": "Venezuela-based oil company Nabep working to boost oil production following US deal",
@@ -7723,16 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "b8012debe75e",
-   "date": "2026-11-10T17:35Z",
-   "title": "New York Times: Informe confidencial revela que EE. UU. manejó $12.260 millones de ingresos petroleros venezolanos",
-   "source": "El Pitazo",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTl9yOFpERHo1UVZmbmhTeUpGbFV1WkFuOC1jYkUyeEhmTGJydjdKMEJNWkhDTml1XzVENXpXUW14RXJ2OHJXempxRFdrWEdGNXpRSDFuT0EzdVN4VE91OU5nRGlEZUpQTXRBOFB6OHJZRGZfSEpmWDBTdTBJVGpDSjNBOFQ5LUUteUZDbWtkOEUzdEMxeV9XZExGNlFURUo5OXdqSFRFazJ0dlpZaXExZmZLa01pZElhOUtrejhmMnlLRHBMenhOSzRpa3o1U0RjcGJCbmFpNHk?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-18T09:29:18Z",
+ "updated": "2026-11-18T10:30:15Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,6 +8069,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
+  "Google News: PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
