@@ -151,6 +151,16 @@
    "origin": "rss"
   },
   {
+   "id": "b4aa34d3542c",
+   "date": "2026-11-18T22:49Z",
+   "title": "Nabep produce 230.000 barriles diarios, pero los campos del acuerdo tardarán 24 meses en aportar",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YTThWZzFqdjhYdWVJVmU1Wi1UTFVaVVY2dGtvMlRCLXNzTWZTM2djZFZtM1pKeG5XNXNUNk1HVWxFd0s0Y1ZzUkVQWGpmb194NWtfTEJpZGxidUJfVDd2YXhBVEZ4eGhucWdSNFZwaC1vVWlXSEE?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "ddb64e97583c",
    "date": "2026-11-18T22:20Z",
    "title": "Pete Hegseth signs military deal with Venezuela on first visit to Caracas",
@@ -7709,16 +7719,6 @@
    "origin": "rss"
   },
   {
-   "id": "29bb531c539e",
-   "date": "2026-11-11T18:33Z",
-   "title": "Trump says Venezuelan oil revenues will reach 'hundreds of billions very soon'",
-   "source": "Anadolu Ajansı",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONFBKcWs2dGJIazJtNFV3elF4a3RXSVRhRHdhTVRwSk5va1FHQlNXTURGOWdfT3NyM25NWFljY3loelFSQ1BhWGNCcWpub0hNekJUWHhRc0c0Vmx1eVowN205TWdzNDlrakJFd2JvTk5qdV95d0U5MjdNbk0yR3pINXNsbjl6NUNjaEFsOGo3SFhqZnVkTEpPU3hQeVJIU1pZWVZvU29nR0QwXzI1eVQ2emE5YXlLcFhYa3c?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n28",
    "date": "2026-11-11T18:00Z",
    "title": "ExxonMobil is assessing seven areas in Venezuela under its non-binding MoU with PDVSA, focused on Orinoco Belt heavy oil, including a possible return to Petromonagas (former Cerro Negro); one-year exclusivity to negotiate terms",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-19T04:29:39Z",
+ "updated": "2026-11-19T05:33:34Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
