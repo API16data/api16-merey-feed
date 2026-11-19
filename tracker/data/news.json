@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "b83dc21d100b",
+   "date": "2026-11-19T07:52Z",
+   "title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
+   "source": "Al Jazeera",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzFuSFdVOHZFcUZ4bmNhTGJrUXVMZ3NJVTdTRmVqWFBzam1tYjZ2djZSd2p6bEhSbFJNOFdjbkVwZG5tdFNfMlBTeG9FSTNTTE9FcHdaRjNXWk1XbWlyc2VLMFhydlNGVHE1c2k1ZW16S01nV21tSU9vb1VJRjJKLTNKMlRaXy1CZkJIR0ZZaVVGazBjZmhzM3MtaFE1cnFMV1FmdnQzNXI0RnPSAbABQVVfeXFMT3hWSGRtNlMzRWpuMkRtUmExVktBdGdCUWZMLUZxWVpldERGOHVQcFNnLVJONGdPNlZxOEt4QU9rOVllTEZQMXRCbVhrOC1FeXpycUlGWDVScF9sSVFaOEdscVZlX3BTTF9HbV9JV3RWdGRmRzhMZHdPNlNTbXc4R2xqcVl0eVdaT24wbkJUTVBEV1pDWDJRcnhGMkxjcGVRRXJwT0o3a0w0R3ZLc2RGYmM?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "cd16f739de9d",
+   "date": "2026-11-19T07:45Z",
+   "title": "PDVSA Extinguishes Fire at Petropiar Macro-Pit, No Injuries or Operational Impact",
+   "source": "Orinoco Tribune",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd29INzN0bjZKMGdrbU1YZGlhTWJMV21IamdkVW0yUjQxRWtqUDlteFdDSHhUODN0OWtMLXN5cG5GTDVXZG5WQnVscXUxemZUdkpKazEwTWJFOGx0TjhNVzVTcnJxMUZvc1F2YlZpdlBtdEwwU09XRHE3SmJnLTBjUnB4cW9oWG40NWU5RWNzLUxWcmZ2clhKVWg4Vks5eHpEMEctc01mRktqd3g2?oc=5",
+   "category": "General",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "c7c0c7bb5342",
+   "date": "2026-11-19T07:03Z",
+   "title": "ExxonMobil (XOM) Advances Venezuela Oil Exploration Amid $100B U",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2UwUDl3d3RxZmtMOEJZZGw1SWc2NDVBcXpGTHB6NUMxQ1JoZjhCejdrelB5aDVnZUNDai03UmlJN3czYXg0S1l3Mi10WE91c284Z29fMUdfeVY2OVNVcmJQZWM1amFjV1dNVzlERXZ0RDFrMEFjV2ZsQjladllkSlFMN1hkWkRLME1nc0NpWFNGcUp1MmVhTmNuMldjX3NUVWl4Qi1YbFhsZ2tKYzVZX0dpdw?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "127c669ee051",
    "date": "2026-11-19T06:28Z",
    "title": "Venezuela's Machado questions Trump's $100B oil deal while committing to U.S. ties, Bloomberg reports",
@@ -2531,6 +2561,16 @@
    "origin": "rss"
   },
   {
+   "id": "60ea4cedcd79",
+   "date": "2026-11-16T20:52Z",
+   "title": "La petrolera NABEP se asocia con una empresa suiza para modernizar una planta en Venezuela",
+   "source": "El Periódico de la Energía",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN2Q2R3pOMGxtblFhc1NSUlFHc21weGI4ZTQwcUNLOUpYTC1VV3BCOHdQYTMyM1RBVl9LeElPOTc0REpTLThhUTA5WUZOSXBRY21hLVp3eTFwUVNaOXBjZVVpYjE5bEl2c2F2RDkyUXpwSFdob2lpdDcxdGZUV2F4NDJRdGktTVNhb0E1LWh0V1NTMkVqdFlTX2pnWFFrYmxCRGhUM2dsWXJlT3FoN2JfeEd3X19NMk9xbUpienhoTXZWRk9F?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "e718f2f9ffec",
    "date": "2026-11-16T20:48Z",
    "title": "Israeli Firm Newmed Energy Seeks Entry Into Venezuela’s Oil Sector",
@@ -2878,6 +2918,16 @@
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVkc0RUdPcGU3S0F0REFxSHd4U2hlWWJ5MmVMaVl1WjlmWHBFNzlSbFlLai04Uks2NjVrcm1yczVmcHRyS2JSbnZKZ3o4R21YcF9PeWdRUUJMcG02WmRuVVBSVmRSZnZmZ2hnVUtvT1prSWxsTEFkb3R2TWwzUlJBQm9rcnpBS2ZaWmpnTWJiaFc0LXBqLURIT2Q0SDBEVTZqdGJwZnFPMFl4U1pIXzJYR2ctbHduTUtMN3dJTHJOQlMyWEFEZzN5b1VIYWNqRHNxSE5v?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "3fe76a4a0c63",
+   "date": "2026-11-16T16:14Z",
+   "title": "US Issues License Authorizing Oil and Gas Exploration and Production in Venezuela, Treasury Says",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQb2l5eGRYS0tOWUZjZElpeklpVnlxM0E4OEM0UjJJRGh5V2FXX3hOUEwtMGJhY2xHb0F2eWVaMWtsWGVnWE80cjNKbUV0OXdpRWZPdmtpYnBBUWZLMVBoYWhzN3p6djl1ZWVPLW51cm93RVdwcjJsa2pJSEkzN0RxcUZqQ3RBc1NYYm1HM3Rod2hZNF91SWtpRHBnWURWQWpVVm1EVzUwVWkxdnFSMzVUeVR4dkJfVUktRTlnVDhweFlBcHd6?oc=5",
+   "category": "Production",
+   "via": "Google News: PDVSA",
    "origin": "rss"
   },
   {
@@ -5775,6 +5825,16 @@
    "origin": "rss"
   },
   {
+   "id": "36b021cb357c",
+   "date": "2026-11-13T04:49Z",
+   "title": "EE UU ha manejado 12.264 millones de dólares por ventas de petróleo y minerales venezolanos durante 2026",
+   "source": "Correo del Caroní",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUVlXbU1lUmdPYlU3UW04WjhlcGxfRV9uam1naWxWMkRBUEJnRzk2Y1hZZmRpbUZqOVk1S3B2eTNZU0hyVjR3WnZSblgyUkVRc2F5SFVKcThkb290cVBJNHFZWTN4QkNjd21jbFZOZ1FidzVBNnZYcWlhOVBMU0ItaEtXMzdodGJtMndsaW9ON2N4UTFDODhPZ0REeUNyYzY3SktqSl9LQ0NpNHJwaFJmM3ZSbnB5NWpPNmVoVmJtV3BqWDM5Rmw4UFRXajQtbE5iZGQ0em9Db1FrcnNSQ3FJYXUxUzU?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "f59fffc39a9f",
    "date": "2026-11-13T03:32Z",
    "title": "PDVSA y Shell firman cinco acuerdos operativos para consolidar desarrollo e inversiones",
@@ -7659,66 +7719,6 @@
    "origin": "rss"
   },
   {
-   "id": "d43499f7bb3f",
-   "date": "2026-11-11T19:30Z",
-   "title": "Venezuela reportó a la OPEP alza de la producción petrolera hasta 1.224.000 barriles diarios en octubre",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNTRPa1FBTWwweEJta1AwR3JjOGptRDh0Qy0tcUJad0E0cGExVkpfT0ZKNWVZRTFoc1NTbVRzUjk3SjRIMWMyQzZBTEM2UDJLMS1TZ3NfdDRVdzZvSU5md1F3M0otbHVIdE5wcXZkVFVCa3Zxc2JyaEhFOTE2M0Jyc3BBcUxEQTREajZPSGxVcUdJeTk1YXk2VHpueVRqd1NocTNvN0Q0OG9yUVg2TlJfbzNvNzRLWFM5UDV5SkhOdTFRZC1TMEoyczAyOHV6Wm5M?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "b63923d31689",
-   "date": "2026-11-11T19:18Z",
-   "title": "Reuters: vínculos de un comerciante de Vitol con JD Vance facilitaron contrato petrolero en Venezuela",
-   "source": "El Pitazo",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTkdFTC1YUjg5T3JkSW04VFd6UG5nYmpuMzdJR1pQbVU2OEMxRGVXa0tlYThoZmRfZ1ZYUTd2Q2hBckNBQlRfblBvRkY5OU1ENDlROEFsRGxUTTNQR0NLNk84OG9DenFrVnJHWno2Y3JNM2gtendjbnp6emhUZC02WlUxNW1heTNnNWNDSWNqcF95SWRybjNacDllVUE4V1ZkSHlpVDRtUUJjOERvYlFXLTd5U1ZEdWVDbFFzTWpTT25XZ2FBU2kwVTA0Yw?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "2054e4129420",
-   "date": "2026-11-11T19:12Z",
-   "title": "Trump destaca exportación petrolera de Venezuela",
-   "source": "El Periodiquito",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYXRNRm5QcG0wUmp0ckJRZDJVaWFTZ1B5aFM5SDFzc2gzZGFNcGxSOFpObEJnSTJuTFBKZVFFR3Y0UnpNOFB5RmM4N05mbVA4TEpKbkltQVRFeVVPSjNXYnhBaWNHZU9HWDgwU0l4QlN0UW9LTUZLSHRYWF9zYkM4cDJHV0prdVlSWTVUSlJB?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "a915954fcd5d",
-   "date": "2026-11-11T19:04Z",
-   "title": "Venezuela enviará equipos petroleros de Pdvsa a EE UU para su reparación por primera vez en más de una década",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZkN3akZaMDFqTHRORGt1ZFV1R0lJakNhRjZIZ2RMaWs5czVUQ2Ixc0FtOGNfMGJVdk9Nc2VrT25oMU5HQUFqSWZzVTUyMXJHcTB3S3g3OUVyWW5LU1I2a3J5M0lXUDFKU25JOXBQeFdyV2lzV1pXVC1lZkpjaDRlNHJoQXMyX1BsVEZRQXRaTmVnRFpDbElQWFQ4ZndYQlUyWWNTR0lVTG5ySXlpQVdJOU9id1E2LTFQUU1wYXBoY2xYSmRZX0NLUi02LTgzMjVyTXg3WnlxSjZzSkFmYXc?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "a79542442333",
-   "date": "2026-11-11T18:59Z",
-   "title": "Venezuela. ExxonMobil volverá a explotar petróleo con “condiciones muy favorables”",
-   "source": "Resumen Latinoamericano -",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLUNQcUZENGxvTE9vZGVlX3RpVHlWTHV0bUVfcDlDb05waHpxX3ZzbU0tWkpCNWI2aDFFd2lqcTJaTGEtNkh2Q2xGc0lEMlRqVnpvWkJRZl9SNDRyZVctbG00ZkJyV2MyQU1WNDdGZHBDVnowcTU0Szd1aGY2TG40OHJaaktTZHIwd0l2NlB6VHdqZlpzMlZnalBYM3J1UEZhcnhyZWNjREx3M0U0TlBPMmVxWjdwbmU2WlYzT1hSNC11Ri0tT2ctOXN3?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "3a89777309aa",
-   "date": "2026-11-11T18:59Z",
-   "title": "Cuatro generadores y seis compresores de Pdvsa serán restaurados en Estados Unidos",
-   "source": "Diario Versión Final",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQLTlMcWJUXzVvaDRVN1dMS2xOOVVIbWxyU01aWUN6ZGx0NFFZZ05lMFFjeld2QWd6RENvMWZMRHloM2Etc2ZydTFJeFo5ekNNX2otUmp0ZkF5VTRGSnlfSC11b2dqdTBNODdidm1rYmV0UDBrc2o4c01fZkNmZWUteWxNVnhmSkdQZkV6U2FNZlZSYWFWUWZWQkxyamYxYlhQZDEzRW8weWdlLU14OTU0dFdDc3R0Rko3WVlmOGVDVXRtWVg4Qi14RnlB?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n28",
    "date": "2026-11-11T18:00Z",
    "title": "ExxonMobil is assessing seven areas in Venezuela under its non-binding MoU with PDVSA, focused on Orinoco Belt heavy oil, including a possible return to Petromonagas (former Cerro Negro); one-year exclusivity to negotiate terms",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-19T06:58:08Z",
+ "updated": "2026-11-19T08:20:54Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8104,21 +8104,21 @@
    "featured": true
   },
   {
-   "date": "2026-11-17T07:53Z",
-   "title": "Nigeria’s Crude Oil Exports To US Plunge 91% As Venezuelan Shipments Surge",
-   "source": "Arise News",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTmRqRVMtRzYzMVV5QWFacVVxMmliUXRVSndyWEdkblpfTkNPMS13MGpuTzBUcUIyV0NxZGxDd25PZGFrREMycnNnY0hFM0ZFc2ptVUdpYUtrNTg5OEE2cHRrVEswRzIyazYzNldwYmEybGZBUHVqNlNFOG1UdzByZTc4QzRBX2IzNGxEVGZ0cXFvd2o1bmpZcXpR?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": "91%"
-  },
-  {
    "date": "2026-11-17T19:05Z",
    "title": "PDVSA signs 25-year deal to restart oilfield idle since 2019",
    "source": "BNamericas",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZzV6Mk41OGxITTNRXy1VR09ESWRqLU5IaV9KOF82dEg5c1I1c3NjQ19nVmlhWDJMRC1HOG9VSk9SS0VRS0ZvRnVsZ0JRRTVLNEMxWUw0VXhjcmRpVGc0SXNQRTlKeTBlTGNLYTExTXV1Q05WR25CTnFMQkNodXdlYzQxVzZCLThvcGx6aTltTFRzUFVGcmNoX0hXVQ?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
+   "key_figure": null
+  },
+  {
+   "date": "2026-11-19T00:06Z",
+   "title": "Sulzer stock: Company signs Venezuela upgrader deal with NABEP",
+   "source": "ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVndsNkhhcTQ4S1VhRnVEaWo1di1Dczl5Y0t1RE13LWMtTFlEejh4bE55Q0huUGMwSzhfRlhQZDFCbEczVDlOclBYekpFN0Z0bnU4Sm9zX3RrcVJabU1rMFVFSzg1WjJTT0JpV0VoV1V0bUZsMTNmWWFHUVNoUklnRmZEXzFHd19IbVZMS1llX2xiZndJYUowbVJRMDY3V2NvX19ycG5zOHhjbnA5dVhFck1OZHZlX2xGQm4zdQ?oc=5",
+   "category": "Investment",
+   "angle": "Future barrels in the pipeline",
    "key_figure": null
   }
  ]
