@@ -1,12 +1,62 @@
 {
  "items": [
   {
+   "id": "a2d28b310682",
+   "date": "2026-11-19T01:43Z",
+   "title": "US Secretary of War unexpectedly arrives in Venezuela to announce military cooperation",
+   "source": "Laodong.vn",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNenVwQklxUUxfMUF3UEx1eGRtV0pQZ1RKZmd6Mi1TWFNocXR0NmpqT1hsOGhrQ3plejY3SnhGME4tSm5DV3o4NThZX2REN2R0WjJsX3JnNUNkeTZ3c09FVmIzU2xNTDFRYm5sRm1yeVRrdVlqbFFQMDJ6N001UVA5VVlzR1Q0Mm9EemZhTzU2UDlOMS1pRDNZT29reTdUS25sZ1ZtaFlMV1hnaUFEY21QVjV4MklQRlIxMUE?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "c09e1097541b",
+   "date": "2026-11-19T01:39Z",
+   "title": "Hegseth destaca fin de envíos de petróleo venezolano a Cuba antes de viajar a Colombia",
+   "source": "Martí Noticias",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMXZHMjM1aVliejNwbTJxbmJhd0xfNDU2dkZQMlNDUjNIbkRnaVctSmdCeWM5NjBtQWMwQTItOGg5WGE5RHhWOTVTRGM1eTNGenBsOWtjN1ZmeWhlcU12UUZyNGZVQ0hiWkZtWVlnZkJBV1hEUzk4M2RjdjRFd0JiaUtxZURWanVLWGRIUGtEY09jaGlTWHlWd2pYbU1QeG9Wa2R1ay1pTHFxSjNWcG5hNExjbmFybklrQVltTEZUcW92dGJ0MU5sNWM1TkUxVEhKaGppRjhsa9IB2gFBVV95cUxNNlhZcXpueTFHWkJrRlEwc0taWFdiLWlhMHA5Z2V4Rl83M1BZalhWRjZEVDlPN1RWWXZzOGlVSlVkS3BWRElCS1RCbVVKeDJSTVNKR050d1NZT1JFSHZkWFIwbHROSXBZYVlRc3RvMUI4cVMtVHQwZllnZlFGOXdjNkdwcW02QnVtWVhXNTZOeHlCWTdYMWtKdDdlbUlJNWZiWlBWN005RlBmdTJSWVRBeEtDMFZiYWVsMDVPc25DTjNHM1FCOTFMejFUZHBXLWVSeTVRYjVvQTlXZw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "e710a9f9382d",
+   "date": "2026-11-19T01:34Z",
+   "title": "Hegseth Signs Military Partnership With Venezuela During Surprise Caracas Visit",
+   "source": "Eurasia Review",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTDdBbUlfblQ4dVVTVzdjNksxYlVVNjRfMEtmNkNqMTVjdFdEaWNKaTlOSWJWUGhKZzRKY0hVcW9pbXI4bVRpZm5vaU96MFhCaGJhbEZiYlB2dVA1ZFNvRFJaUDR1N2JCTTliTjFvT3FuMXNKd01tSWJCdHZVZzAyTl9wSkxuQ0sydF9sbmpSVjc1WGNCWEVsd2tYYnFjQUF6RUZQR01ZTUlYSWtsTWc2emladDFLckJ2OHlz?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "10d00e2645f6",
+   "date": "2026-11-19T01:13Z",
+   "title": "EE. UU controlará la venta del petróleo de Venezuela de manera indefinida, anuncia el secretario de Energía",
+   "source": "IFM Noticias",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOTJQSF9TNmpYUHRxZ19hMGU2bHA4bTRURUhYTWZDSmtVam03NFAtZWxpSnJCdmNoTkRMXzBfVmZmODQ3XzhMWC13VU9SLUpxTkpxeTRxVzltcG8tSnFaS0NrVHlEZkQwRFFEbHhIczdTZkEyUWNvdzl4LWVtOTRTcl9wU19wSDFPdlhaZjk5V0pLSE90QkprU2Q4NGVXQ0hGWm1PUlEwYVVrU21GMXlWTmhkdzBFODRhV2UzYnZya2hQTi04bTVnNTFwMjFmS1BRREE?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "e953902f2bcf",
    "date": "2026-11-19T00:15Z",
    "title": "Bloomberg: Venezuela exporta a EE.UU. 274.000 barriles diarios en noviembre, la cifra más baja de 2026",
    "source": "Banca y Negocios",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV19leGhlaWVvX0hkU2VYc0FSTFRYZExDTnBBMHlVUEdMUHBWUzNxeVViTDltT3l0Y0lvZzF2VlFIdHBoUkx4dnRSUGMxek94TWpqMEV5UENKVmFodEdqbl9xeW9wSVBQbDl2VFhSU21yOGQ1amhNbkRSN0NFUG4wSWVpbXpLdzE3MUkwVnRGM2J0clhxa2FWTXhYVmdVMGkybkhpRjlETnVoRkYwcWdXcWF3TXhiRUY5UVBOaVRwYkg0eXJLZ1VYMm5R?oc=5",
    "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "1f97ec60c662",
+   "date": "2026-11-19T00:12Z",
+   "title": "Del petróleo a las Fuerzas Armadas, Estados Unidos amplía su influencia en Venezuela",
+   "source": "El Soberano",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOTRpcHZyNk1id2VWSkdjdGpQNXBFZkh5MlFVTlZVOHAtbU9RaEVPeWdBUWtmVnFjbGs0X0hRczdSYjJXNGlaQllmeWdWT2lYcmltRDJJZklQZzdtN3JoTkF2UHo3WnJqcXFScVJWT2hhSDlvN3hydTBsSnNQamJrdXNNY0M2ak9Tb1pNUXR1aE9QUFRTa1V4bm5ibFN5cU9LalJEOFgtWk5BZ1hXT0xwTTU5TDdGeWVy?oc=5",
+   "category": "General",
    "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
@@ -601,6 +651,16 @@
    "origin": "rss"
   },
   {
+   "id": "a860810d98a8",
+   "date": "2026-11-18T16:42Z",
+   "title": "Economista Puente advierte que Venezuela puede desperdiciar otro auge petrolero",
+   "source": "TalCual",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWp5a3otOXZDd001NS1wMU1vbW80endmbnRNbUc4TnN1OW8xWjN6RFdwSGp6clNmenlxZW80Q0lmWDFFVC1MX21FVmRMazhPeWRNMmwwTklXM2x1a2J4NG91enh2c04zUnFMTEs3NkU2V1J1Uzc5NFczZTFtamdMS0pocFRHd054dEJXMDRsSmdoQlRIWElZcmpEZFNLVjRUaFRkWEIzcEZMT1NEMERTWVZldXB0WWc?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "2194b7928f0d",
    "date": "2026-11-18T16:27Z",
    "title": "Hegseth is in Venezuela to meet with interim authorities, latest Trump Cabinet member to visit",
@@ -898,6 +958,16 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wLUJ5MVh3d3FDSEhnWndEZm5QWlJ1TkFNbEhuMHFoUTJzZFBKQ1Z0NjExVmtXX3dNc0JBc1VYTkdqZUpUVGdjS2NTU1F4Z05EWGQyT09TY2JXRS1HM2sybFRVWThFY0NxX2hxYXY2c3FTUXhUeEFHN1pn?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "40337584e26d",
+   "date": "2026-11-18T12:57Z",
+   "title": "PDVSA reporta incendio en Centro Operativo Bare de la empresa mixta Petropiar",
+   "source": "Alnavío",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVHpJX2VfSVloVThPdUhtdEQ2MXQ3eklZWFN0U0pnNkNCcTlKVnNPSjI2WHdfZzNBempuRjR2MVlseW5YTEdfblpsZVVZWnVELTNpXzRrMlBDdWRoY1BESUtvT0NFQkQ0ejR0N1Q4TXJDaHFwaDZuSi1ZZHp5dGxlMlhpdkI3elA4aE43UnAyVTlKbjRNOWxwWC1va1VWdw?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
    "origin": "rss"
   },
   {
@@ -7663,76 +7733,6 @@
    "origin": "rss"
   },
   {
-   "id": "3514ccf6f332",
-   "date": "2026-11-11T17:33Z",
-   "title": "Cómo los vínculos de un ejecutivo de Vitol con JD Vance ayudaron a conseguir un valioso contrato petrolero con Venezuela",
-   "source": "Forbes México",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSC11Y0ctTkVLQWVPbGFRNm5kdmhXdjY4RnpzYUVkWjZRWWJhaXgwQ3hULUswQllvM2xwVWZOblVtWUtwckd0ZjdGeVZIbmxKSlh1TTdrazc2dDc2dmNDV3dVWEw1X2twZTRKSHNCcXI2bDZlSEJMakFkTktoWUZFa2w2WWtwaGdkNWw0WDc0d3lJUTBkS0dDSG44QkNxSW9VSTEzUzhQcnJIbkNZX3RLSzlobHNWZVVUNm9hRUMwUlJ4TTdQS0FMUFJCeGJvelMzLVREWkxGNHp4LW8?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "731f98ccbf76",
-   "date": "2026-11-11T17:26Z",
-   "title": "Investigation Says JD Vance Associate Helped Vitol Secure Venezuela Crude Trading Licenses: 5 outlets compared",
-   "source": "NewsCord",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSXRoNktBbkMwOFo0dFhYaFhWSl9BZFBYZU53U1lLdGtQOFRMdjMxcm5VU3JGOHBlV3FUQTdzWVlqcWc0bXdWTjRuT29ZemdyUFBicUFzWk5rZDdhTjY2ZDhFQVdaZzRZN3Q2RFdVSG5SclBLMVVDX2QxZ3M3SEpvS0VLVHNmNy04NVJyTDFkTnowVktHdF9pakxyeDhNU0tKSUtKYV9LYkNocm8xdUN0Q05UOThpUlR3MFRpUEJGLTRjUHVOdkZJWWc1WVNBbEhNR2FxdFpPQzBnclU3bjN1UU5JVFVILXBTdkE?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d71d4da5d2d6",
-   "date": "2026-11-11T17:19Z",
-   "title": "Venezuela bombea 8% más crudo que hace un año, aunque lejos de la meta",
-   "source": "Finanzas Digital",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaVdMbF9PTXRjdlJIZlVCTW9zRVJ2a2VZUkY1SldNZ2VybTN6Mk9LeGpEdU0xaF9CakpZRmdkMmY1M0VFQVluYmc3X0NoNXN3dmw3ZUJLend5Q3FZUXpEWlk0R3c2TzJZQkFoRmhra1lzUnpNaTYtUGo2Wl9IVldRVG5JaHJGY1U4Y0RIYUx1VzR2cEQyUk1rWmxCWl9rQQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "3b97458c0ffa",
-   "date": "2026-11-11T17:18Z",
-   "title": "Reuters: Delta Finance dice que campos petroleros operados por Pacific Coast en Venezuela siguen en disputa",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUWJCcmZwQ2VIc0xDaG5FbkhxdDgzNWhGUUFGVDg3cFh2RkNIYUkzaFRGRGV4MHlTMWpmcjhBcUNHbzAzaFR4ZzlienJJUnZqSjdOM3g4NGVuZkVQeU1SeDBwZW1kdjRKeFpkdE9NYnMtWVJyUm5ZM25WUFpNSFBCeDk0X3VVcWMzRy1xOGx5ZzVHeTRKeGVPcUs4cEFaUE9PajRhTmZqVDF4TTJHMGExWGkwYTdFdUZyM2NNdEtPZ3AwVXhVZXdIZDBDQ3VzNlVPcFdIbw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "1ef13784add3",
-   "date": "2026-11-11T17:16Z",
-   "title": "ONGC To Take Operatorship of Venezuela Oil Blocks; Gains Access to Largest Crude Reserves",
-   "source": "IndianMandarins",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUy1kTTFLRUtyMHQ2OGpDWU5DR2IwWnJzYzh0anBEWUZHQ3dEbDVMdk5HV3ZVNXVpTDh5QTRac19KWUFZRTdkSnREbzMzVW8xU0NwdUIya2Z4TDhlQmpWamRMb3BMNk9UTEpPM1pZZEw5YTBRV3k0Yjc5QTNONGZKUUlhZ0J2VjdQaGJPWUZFN2piSi1ESGJXUFQ1dDYtY0d4QWgyQUZqeVJ3ek9iQjlQc1BsbXJtY2VxR1I1NThBX1lrcmlaUXdSNUIwUQ?oc=5",
-   "category": "General",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "3903fd4131da",
-   "date": "2026-11-11T17:14Z",
-   "title": "OPEP reporta que bombeo venezolano alcanzó los 1,16 millones de barriles por día en octubre",
-   "source": "EL UNIVERSAL",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNb0FiXzB2SXNYQ0JfX2tfNzFjNUgxaUplUzlsbEpuYW9XRVZPUTZWSXJ3QlY1VzhOcDdlaEd4WmlMQzJRYl9KTlRzeVR0SGFlR0h4TUpaNm1CeV9BQzZmWF9Kb3BzZUQtS3NXZWNaQUNWZmk1MWxBeXlxUDFvWklpa0s4S0QzV2g0cU83RTltYV9OUFY4LWY5MVBSVGVUZXBPSEllSEhjUmlVUGU4Y0xkY1BQMUwtTld3QmN6bjhMWWFNTjdNRG1sVEpWb3N4Zw?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "fe537f0605b1",
-   "date": "2026-11-11T17:03Z",
-   "title": "Venezuela elevó en 10,5 % su producción de crudo en octubre, según la Opep",
-   "source": "El Aragueño",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTUsyV3FZOFNRelhXaVJqYXFqVHFHUlpXZVF1Q3RsUk96T3pvV0kzbjBVLU1YRFh3YmRIX3puOUM1dDBkMGVGcmVOdmtFREh4RHJTQ05zQml0ei1Pbmx0SFBYX0VCeFBXbnNLVi1EaG9CbGVzV2VmcFU1SFVfTTVZbjZjNkE0NmR5d0NNUWVJZUVaN0MwQjdDb252Smw5dw?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n30",
    "date": "2026-11-09T12:00Z",
    "title": "Pipeline rupture linked to Venezuela's Amuay refinery spills crude into the Golfete de Coro (Falcon); slick of at least 3.4 km², no official volume or impact on runs",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-19T00:52:45Z",
+ "updated": "2026-11-19T02:08:06Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
