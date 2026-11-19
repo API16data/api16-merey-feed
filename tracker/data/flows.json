@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:00:38Z",
+ "updated": "2026-11-19T16:55:16Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
@@ -203,24 +203,50 @@
   },
   {
    "month": "2026-11",
-   "high_n": 13,
-   "high_kbbl": 8068,
+   "high_n": 14,
+   "high_kbbl": 8435,
    "possible_n": 2,
    "possible_kbbl": 750,
-   "high_kbd": 269,
-   "with_possible_kbd": 294,
+   "high_kbd": 281,
+   "with_possible_kbd": 306,
    "eia_monthly_kbd": null,
-   "eia_weekly_kbd": 603,
+   "eia_weekly_kbd": 432,
    "customs_kbd": null,
-   "official_kbd": 603,
-   "coverage": 0.45,
-   "coverage_with_possible": 0.49,
+   "official_kbd": 432,
+   "coverage": 0.65,
+   "coverage_with_possible": 0.71,
    "complete": false,
    "usd_per_bbl": null,
    "high_value_usd": null
   }
  ],
  "voyages": [
+  {
+   "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    30.1023,
+    -88.525
+   ],
+   "name": "IONIC ANASSA",
+   "mmsi": "538006696",
+   "imo": "9779795",
+   "length_m": 238.11185333333336,
+   "gt": 63502,
+   "from_port": "PUERTO MIRANDA",
+   "terminal": "Lake Maracaibo",
+   "left": "2026-11-09T19:04:19.000Z",
+   "to_port": "PASCAGOULA",
+   "arrived": "2026-11-15T21:16:38.000Z",
+   "confidence": "high",
+   "est_kbbl": 367,
+   "est_low": 294,
+   "est_high": 440,
+   "method": "typical Lake Maracaibo load (~9.4 m)"
+  },
   {
    "vessel_id": "a264306af-f968-91f6-a618-163739707d5f",
    "from_ll": [
@@ -962,7 +988,7 @@
    "name": "NISSOS CHRISTIANA",
    "mmsi": "241359000",
    "imo": "9694658",
-   "length_m": 227.67910000000012,
+   "length_m": 291.75175333333334,
    "gt": 62832,
    "from_port": "BULLENBAY",
    "terminal": "Caribbean hub",
@@ -1118,7 +1144,7 @@
    "name": "LUZON SPIRIT",
    "mmsi": "311000467",
    "imo": "9572276",
-   "length_m": 243.93718000000007,
+   "length_m": 244.44221999999993,
    "gt": 60193,
    "from_port": "JOSE VENEZUELA",
    "terminal": "Jose / Puerto La Cruz",
