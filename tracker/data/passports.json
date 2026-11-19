@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:54:58Z",
+ "updated": "2026-11-19T22:53:17Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -393,7 +393,7 @@
      "first": "2026-11-19T19:02:02Z"
     }
    ],
-   "last_seen": "2026-11-19T21:54:58Z",
+   "last_seen": "2026-11-19T22:53:17Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -430,6 +430,66 @@
    ]
   },
   {
+   "id": "AIS-538010650-2026-11-13",
+   "mmsi": 538010650,
+   "imo": 9794850,
+   "name": "ADVANTAGE PORTOCERVO",
+   "length_m": 228,
+   "status": "arrived",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USCRP>>VEJOT",
+   "destinations": [
+    {
+     "dest": "VEJOT>>USCRP",
+     "first": "2026-11-13T23:43:52Z"
+    },
+    {
+     "dest": "USCRP>>VEJOT",
+     "first": "2026-11-19T22:53:17Z"
+    }
+   ],
+   "last_seen": "2026-11-19T22:53:17Z",
+   "last_zone": "Corpus Christi",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T23:43:52Z",
+     "detail": "declared destination VEJOT>>USCRP"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "draught 8.8 m vs ~11.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-13T23:43:52Z",
+     "detail": "Corpus Christi"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
    "id": "AIS-311001308-2026-11-19",
    "mmsi": 311001308,
    "imo": 9943061,
@@ -449,7 +509,7 @@
      "first": "2026-11-19T19:02:02Z"
     }
    ],
-   "last_seen": "2026-11-19T21:54:58Z",
+   "last_seen": "2026-11-19T22:53:17Z",
    "last_zone": "Corpus Christi",
    "stages": [
     {
@@ -601,62 +661,6 @@
      "done": true,
      "time": "2026-11-13T21:50:36Z",
      "detail": "Freeport"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538010650-2026-11-13",
-   "mmsi": 538010650,
-   "imo": 9794850,
-   "name": "ADVANTAGE PORTOCERVO",
-   "length_m": 228,
-   "status": "arrived",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "VEJOT>>USCRP",
-   "destinations": [
-    {
-     "dest": "VEJOT>>USCRP",
-     "first": "2026-11-13T23:43:52Z"
-    }
-   ],
-   "last_seen": "2026-11-16T09:43:50Z",
-   "last_zone": "Corpus Christi",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-13T23:43:52Z",
-     "detail": "declared destination VEJOT>>USCRP"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "draught 8.8 m vs ~11.9 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-11-13T23:43:52Z",
-     "detail": "Corpus Christi"
     },
     {
      "stage": "Discharged",
