@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "47a483af40f1",
+   "date": "2026-11-19T11:35Z",
+   "title": "Venezuela apuesta por la IA para producir petróleo con menos emisiones",
+   "source": "Finanzas Digital",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMEpXWmJCU2xNOGRGUjVnQXUyMEp1c1lrV2U2NWpEbFhaSm84VzVUM2ZBaDN0N1AyTk90SFVNc2RMM0FkR0dhREpOQmxPZDlrUzc0STQwejB3YVZGZlQzcnozZlNNVXhTQWh5d1U0Y1pmVXgzcG9VdGMtNWM5WFBTWU91WWlQUQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "c28c370ceb18",
+   "date": "2026-11-19T11:05Z",
+   "title": "Trump official floated ceding Guyanese territory to Venezuela, sources say",
+   "source": "The Straits Times",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONTUyWDNLOWVCclB4dXVOSVRqbnloY0FuamtaUUxoVGw0VDB3NC0wakRGVmlyNUVLNXp5SmZoVnhzNHdEOEJPWlFoUVRzSVBqX21MRjVkemdzNDZkYnNFc19zdV9ldkg2U2I0dkVRak41Y0xFemFOaWJKZG43cWU3UE9ZYlg2c2tsQTFYSU1sY3JJRktqYWF4M0tvSnZhOTZ3WU1HQVZBUUlTREkz?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "d905f5e22315",
+   "date": "2026-11-19T11:00Z",
+   "title": "Exportaciones de petróleo venezolano a EEUU cayeron 57% la semana pasada",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQejVPLTYtek9LYW4zV0hiUEZhMHk0UUtGUVJZWXc4UVRCeS1ZdHBlSHduZW55aUlxWWdZclNUVm5wOG40bUd3bW0yYkJQTzVkSlBlUVFmUXVma0pNOVJmU0VVTjk0M2F4VHQzQ2lvYTZFbTZEdF9IUXBoYmN6R3VZTWEyOVRfanVkaWxWQ00td1J4ZUY1cVY1OG1zNUtNTU9wX1Z1V2xQMjRlX3QxUFRWQ2pPNA?oc=5",
+   "category": "Exports",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "45d7399c490b",
+   "date": "2026-11-19T10:59Z",
+   "title": "Agencia Internacional de Energía: Venezuela está posicionada para surtir crudo ante crisis en Ormuz",
+   "source": "Mundo UR",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUE1ud3BYLW04S1J3dEJnUll6UHF6dzFtVnlDX0hYYWVncG0tTDBla1duWUswRmZMa2hKM0tFNl9NcUtCZk9tTm5LOEk5dXprYjFmMkh5ZjNZMUZSQjJoNWdrajNLM3RONEVjYXFRWVQ5Z2pUVzVTYW1zaVktQmVENk5aanlGSnlCWEdyVWYzS1psbzRJLWdUaURJOXI4bkUwSzN5VUk4N0R6NjljOTN0RWpMLTAweTNHVWxzMl9fMTgxLUo0U0kzVm1R?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "c99e08215e91",
+   "date": "2026-11-19T10:46Z",
+   "title": "En la COP31, Venezuela promueve la IA como vía hacia una producción petrolera más limpia",
+   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDNGdmJSdm9jd3BSbXR0bFVHY2Fsc2xEaDN3T1pUU1dmb3RxOUtwOHZFaVBnWDJNczRuTHBIc1J6OUVZd3BGWTRGM2VpMlFnQlA0cWRwemFJejE3NzB4T3N5a012ekRDdEpwV0ozbFRha3FqNEVSazFPSDBvZ2Jta1lBbUVMY3BfTVdoQi1SazAweVE?oc=5",
+   "category": "Production",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "5520ace5962d",
    "date": "2026-11-19T10:32Z",
    "title": "Petróleo y cooperación militar con Estados Unidos marcan la era post-Maduro en Venezuela",
@@ -3048,6 +3098,16 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeDZ3enFzY0xfbk9VMzJMS1hjdTVWcHFKWDlxQUhIZlQxMGJpQmpnaHlpMGpkbnN6YTZwMGl5V2tQcHdrd3FGbWRfZTZBdXhjN2dkVDU0VG1fRVliWEItcG1NaTFGMjhoRlByQlN0VU9qT3ZQbmhOY25WVDV4d1FWZERlUjBNVEV1QjJfeEdTbG1udVlDNVlsNVVXblAzMUlhRDh0WkFVeDQ?oc=5",
    "category": "General",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "add1656b2177",
+   "date": "2026-11-16T15:52Z",
+   "title": "Venezuela’s Oil Exports Rose to 1.25 Million bpd in May, Shipping Data Shows",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQclFscUd5d1JBMkI2anlHRFB0VXU3YWJqbVJGYW1oYnR2UXBJX0VWZXhJUW1nZHRRQ2RRbjVQMUJzSzZNZTh3N3FRZlk3U2k1Z1lURzFDaVE1S3B0MEJOZ1VNaDBTTDkzZGJnaDJybHNTTWcwQzljYmh3STJZVld5TG50QUpjcnFMUThBNWZBWWhBNzhzZmRNc1pPOVlaMjRjTERLTkcweXc?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7659,66 +7719,6 @@
    "origin": "rss"
   },
   {
-   "id": "04a15afa496d",
-   "date": "2026-11-11T20:35Z",
-   "title": "US Naval Blockade Squeezes Iran’s Oil Exports, Forces Crude Onto Floating Storage",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaFBtVTdSMVNGaGdrZnlsTVhBay1hb3pvc0U1MlhyYlN5Tk1EN3ppQTA1VXZFam1TNi1SOVh4czlFelh3OTZjZDdJZ2Zxd0NaczFvdXJyaUxQUDgyeDN2NjVaUDltS240RmUxLVl3XzdYSkJtdTNqdWE3N0h2NUFDcFRGUVE0SnFDQ1pVTFpmNWY4cmg5YmNDbGJxZjNyZksxMDgtLTBVOUhvZi1aNGtZ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "313f5bd5a04b",
-   "date": "2026-11-11T20:32Z",
-   "title": "Brazil, Venezuela Vow to Upgrade Ties With Oil Investment Talks",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFlIb29ycnNCZUxoSEVHSWk3dENoZ0VqOXlkZ0l5NDQyQ01mdzFWbU9SZlBxUzc2dFc1eW5NRkRVUURMRElabEZ2UTJkQ0hzSU5vY0Vnanhab09LWFJQVDVlR0Z0WFdnSElfVUdKMjN4MzQ3aHVhTkJFYU83OUl6X1pQcGdtaTJZQkxTUElfLVZRYVJRSEZET19PNktaY3JEZVB4TUltNEZEMWJZck40RTlzSQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "c5625e0b456b",
-   "date": "2026-11-11T20:32Z",
-   "title": "Gulf Oil Exports Jump in June on Record UAE Flows",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVkNHclVwTzJMVnp2Q1JNb3d6cVRfRzJKcE5SUC15blB1b1JBVDdMYkw0dHNRRFFDM216LWx6cEdwLWxXVzBnOEgyaTk2YThycmtRRENtam9SQm9PY05YZTFoR2xyTU05U0RVdWcyQlJQbXQ1TlhrcXFXSUUwaFdnMV92eUgzMEk?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "48ef1bae9e17",
-   "date": "2026-11-11T20:31Z",
-   "title": "La producción petrolera de Venezuela mantiene el crecimiento y sube un 1,49 % en octubre",
-   "source": "Infobae",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaEsyMlRZWWFybUU5bTYzQ2o5WG1ieWlfX3FtNGd6VVc3SHVSd2pTMnFfLWQtZkpKbTJyZjJERElLa2kyQ2hsdTZldVZDUHdhOVQ0OWhxallfOUhhakh0UUctcUIzcWp1d0Myb1ZBMzVNTk9Wd0lhRE5RR2F3OXAtZ3M3azdDTVpZMEpIYmNBV2lSbldZZ25kRHp1ejlGVkcxM2YyZEszOHItNXBENmlOTDZEaWFwUk9Ba2ZaUlZ4WE82S1Z3bEhqdkh2R1RmeW16VUFDV9IB7wFBVV95cUxOLVNaVnFSbUw3Y0lEVWdmbE9GZFN1QjR3dEhHbzk5Ry1mSWdwZHgwVHdsZFNacXhMUVdNcVRzTnhpWWlKWFJmeWNUekJTQWl2SE5YZUlxZEI0YjdjTXpybkg1SjJrQVdGRDV3TE1VcTM0cUhDRExiaERrRnJXR3hPbllGQ0NodVZPbTZvUDRYbzlqNE9IX2xBSEl1RzlTUVZCbk1TaHJKdkR4Y1NmUGYyNWlyMkhVT1B3WUF1bzdtZFlELV9OS0JVa1dZeHhob1hIYkNrMUQwVU5GdnJxOEZHUklrVjF6dngtNnpOQ1lxMA?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "9863ba4420af",
-   "date": "2026-11-11T20:23Z",
-   "title": "Iran Continues Crude Exports Despite US Blockade, Vortexa Says",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2NBRlNzMTlGVzhjOF81RjZHS0p4d1RvSUxOMEVkREJxblVJaGlvRlpqZ3U3TEZ6NWNNbVRRZGM4dnNOaWVCWFQ1ck9XZXB5ekpJNFhMTFpGRjNXUmc5ODBOdjhjOE5VaEVJM3BLZW80bk1ITjlDVFFGaHpJd2Jwek14SmxBLTNHLVFqYkRlTWlsVFRqVG5V?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "41400d1bb3e5",
-   "date": "2026-11-11T20:21Z",
-   "title": "Hormuz Shuttles Keep Oil Flowing, But at a High Cost: Bousso",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnZBMjBEZzEwbkdna0JWc3JuUVZDQ2FzaFl5eDZkY3Z0ZDI2MVJTbmJwaU1OUGNTbFluU2JxWHdIUkdSTFZlNl9HSVdkYmdDNU5tcTZLZXp5WVIzV1ZGTWJRUmNiN3o1VW9GWE92d2pjdmNzN2pVa29odHRNUWcyZERodWJtWHY0SXViYkhkdVJUdGc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n28",
    "date": "2026-11-11T18:00Z",
    "title": "ExxonMobil is assessing seven areas in Venezuela under its non-binding MoU with PDVSA, focused on Orinoco Belt heavy oil, including a possible return to Petromonagas (former Cerro Negro); one-year exclusivity to negotiate terms",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-19T10:52:56Z",
+ "updated": "2026-11-19T11:50:04Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
