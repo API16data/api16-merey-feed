@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T16:55:16Z",
+ "updated": "2026-11-20T16:48:54Z",
  "method": "Voyages from Venezuelan crude terminals to U.S. refining ports by large tankers (Global Fishing Watch port visits + API16 AIS). Volumes are estimates (+-20%) from draught or typical loads, checked each month against EIA and U.S. customs.",
  "attribution": "Port visits: Powered by Global Fishing Watch.",
  "months": [
@@ -203,24 +203,76 @@
   },
   {
    "month": "2026-11",
-   "high_n": 14,
-   "high_kbbl": 8435,
+   "high_n": 16,
+   "high_kbbl": 9476,
    "possible_n": 2,
    "possible_kbbl": 750,
-   "high_kbd": 281,
-   "with_possible_kbd": 306,
+   "high_kbd": 316,
+   "with_possible_kbd": 341,
    "eia_monthly_kbd": null,
    "eia_weekly_kbd": 432,
    "customs_kbd": null,
    "official_kbd": 432,
-   "coverage": 0.65,
-   "coverage_with_possible": 0.71,
+   "coverage": 0.73,
+   "coverage_with_possible": 0.79,
    "complete": false,
    "usd_per_bbl": null,
    "high_value_usd": null
   }
  ],
  "voyages": [
+  {
+   "vessel_id": "82a38fb14-46c9-cc1b-70d4-ad603e72eeb7",
+   "from_ll": [
+    10.7677,
+    -71.5818
+   ],
+   "to_ll": [
+    29.4602,
+    -89.6243
+   ],
+   "name": "CARINA VOYAGER",
+   "mmsi": "311000953",
+   "imo": "9897834",
+   "length_m": 245.73306666666667,
+   "gt": 73410.76134502924,
+   "from_port": "PUERTO MIRANDA",
+   "terminal": "Lake Maracaibo",
+   "left": "2026-11-11T19:37:18.000Z",
+   "to_port": "STEUTSPASS",
+   "arrived": "2026-11-17T18:27:45.000Z",
+   "confidence": "high",
+   "est_kbbl": 391,
+   "est_low": 313,
+   "est_high": 469,
+   "method": "typical Lake Maracaibo load (~9.4 m)"
+  },
+  {
+   "vessel_id": "105e5ab61-1ec2-c524-89e8-b69a0f298aaf",
+   "from_ll": [
+    10.1898,
+    -64.8322
+   ],
+   "to_ll": [
+    27.7697,
+    -96.854
+   ],
+   "name": "SEAROVER",
+   "mmsi": "249984000",
+   "imo": "9765017",
+   "length_m": 233.83776666666677,
+   "gt": 63758,
+   "from_port": "VE JOT",
+   "terminal": "Jose / Puerto La Cruz",
+   "left": "2026-11-10T01:28:50.000Z",
+   "to_port": "CORPUS CHRISTI",
+   "arrived": "2026-11-17T07:09:40.000Z",
+   "confidence": "high",
+   "est_kbbl": 650,
+   "est_low": 520,
+   "est_high": 780,
+   "method": "typical full load for the ship size"
+  },
   {
    "vessel_id": "381970732-20bd-18bf-e97a-c09ef450c2a4",
    "from_ll": [
@@ -988,7 +1040,7 @@
    "name": "NISSOS CHRISTIANA",
    "mmsi": "241359000",
    "imo": "9694658",
-   "length_m": 291.75175333333334,
+   "length_m": 227.67910000000012,
    "gt": 62832,
    "from_port": "BULLENBAY",
    "terminal": "Caribbean hub",
