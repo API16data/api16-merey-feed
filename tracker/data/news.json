@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "cc1cf8efa935",
+   "date": "2026-11-20T04:35Z",
+   "title": "Venezuela firmó 84 acuerdos en materia de petróleo y gas tras la reforma de la legislación de hidrocarburos",
+   "source": "Infobae",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcmI1MzFFRjNuSERaQWpmWm85ZG1ZU2tCYm5GeVhxYWhhakNhWkVRUjNYR2FvWS1STlhXc21fTHRibjU5VDlWS0t0eUg1Q01KY3cwOGN3cmE4S2RjQlkwSnVyT2hsNEI0ZFlFRS13RHNKcnI2MHNlZERlc1BVUUxhaGZNT1F6WWpJNFRGcUNCdm9GenNpU2ZzZzRNVnliaC1abVRMcFAtZV83TGNXc0p6V1Y3N2VSako2LW1MeTRVMlFGRktRbmd2VjZPYkgzem5lVVRQbzA4UlRMcW42THF0YVk1VzBqY2RY0gGDAkFVX3lxTE1YbmU2d05fSFotNTZIWmJNc0tBaHZZaGs2WlpfRWxHQ2ppYXJSNTdVbHc1cUVZeUd4SXJ5NERTby1qTXZ1Z1dqWmM0eGdGX3otbWx2VWFPZnpyd1Z6dkRWdDZQcS0xcGF3cDhNOWl4cWthYlRnVi1ZdC1Fa2JzWjNTRkI5WWVGX3ZsbDlHNkh6bXJtcEJxZnVwZXhORGxzNDIybmxrNVV1LW9nS2Vla0VBY3RkTUpxaDloa3NJOEhHYWU1YjJWQ0Y1dDBTWktaeVprb0NEYlUya3A5VnMtQnBuLXRpaVNzVzV4S0E1QUU0QlBlVEk1dnpWbGV3V2NlcXAzTVU?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "b03f810ac5cb",
    "date": "2026-11-20T03:04Z",
    "title": "Venezuela ha suscrito 84 acuerdos petroleros y gasíferos durante 2026",
@@ -7695,16 +7705,6 @@
    "origin": "rss"
   },
   {
-   "id": "520025509dfb",
-   "date": "2026-11-12T21:45Z",
-   "title": "EE.UU. revela cuánto dinero del petróleo venezolano ha devuelto tras la captura de Maduro",
-   "source": "CiberCuba",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbG1nR3NwQlQtaVZnd3RibDZxSWdJdGVjNTdtejBWQzlKWFRxeU5SeURITXpTbEkxUVRmYlNPTnhMODBjd09WdGNFdWh1UEVyYTlkSGxPOVpXaVNZVEcwa3lfeG9zZEwyYmxSeFJudC1TN19fRnc1aHdwSVppRTVLRFZGck83SzB6QWlGNmRrcU00NkU0a1FsYXczMFNYb2ZPMUFGbnptQmVtTDRsOHl5aVlBclNRRm1GOVBfTXZITdIBvwFBVV95cUxQbG1nR3NwQlQtaVZnd3RibDZxSWdJdGVjNTdtejBWQzlKWFRxeU5SeURITXpTbEkxUVRmYlNPTnhMODBjd09WdGNFdWh1UEVyYTlkSGxPOVpXaVNZVEcwa3lfeG9zZEwyYmxSeFJudC1TN19fRnc1aHdwSVppRTVLRFZGck83SzB6QWlGNmRrcU00NkU0a1FsYXczMFNYb2ZPMUFGbnptQmVtTDRsOHl5aVlBclNRRm1GOVBfTXZITQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n31",
    "date": "2026-11-12T20:00Z",
    "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-20T03:44:11Z",
+ "updated": "2026-11-20T04:51:10Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,6 +8069,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
+  "Google News ES: PDVSA petróleo: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
