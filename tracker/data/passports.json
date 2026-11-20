@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:55:48Z",
+ "updated": "2026-11-20T21:52:23Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -393,7 +393,7 @@
      "first": "2026-11-20T15:59:30Z"
     }
    ],
-   "last_seen": "2026-11-20T20:55:48Z",
+   "last_seen": "2026-11-20T21:52:23Z",
    "last_zone": "Houston / Galveston / Texas City",
    "stages": [
     {
@@ -449,7 +449,7 @@
      "first": "2026-11-19T19:02:02Z"
     }
    ],
-   "last_seen": "2026-11-20T20:55:48Z",
+   "last_seen": "2026-11-20T21:52:23Z",
    "last_zone": "Corpus Christi",
    "stages": [
     {
