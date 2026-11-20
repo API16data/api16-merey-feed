@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "id": "b10747edc449",
+   "date": "2026-11-20T10:10Z",
+   "title": "Venezuela Stabilizes Oil Production at 1.269 Million Barrels Per Day",
+   "source": "PravdaReport",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaTExSFhIcVV1YVpKWWNEYnkxSTB4UDlyRW9qRHBQMnEtYVBfbFVlYmgyckdRdjhMVTlkM3hIRFU4NG5VUWRTWTJHU1k0TW40TGl3X1lJb0R6aVhXMUxTN05ObHF3V2dBNWprcEZiUk96UThsdVdRZHFUOENINEdDUElnaGdUUFV4UGlKZFRtdEo1TEFveXc?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "32d54ca68118",
+   "date": "2026-11-20T10:10Z",
+   "title": "Apertura petrolera en Venezuela está marcada por opacidad y contratos secretos, según Francisco Monaldi",
+   "source": "Mundo UR",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa2F0aXg5T0lfVnByZnVNOFhWajRCbFVUeUluejVYamc5ZFNHdHVjYkh1dG9iNm1Ra29PbUZiazNlVlF0TmV2WlFSV1phTGRGWFE2SWlNSVNYaHBJc1NXTmdyVFpvN1pqMm1Rc2VBd3NENW00UDNFTTJ6eEdBV01wb0lka0pWdlNpa216LTRkbUtSNWpOT2xObktLNkJvU2hJU29sLTVELXFBd2xGb3RzSWFZb1BHUTdoTjhTZ3JidkptZHA2TmhlMmFzVWp2clk?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "fc9fb7c7dbfd",
+   "date": "2026-11-20T10:00Z",
+   "title": "Venezuela’s Machado Urges More Drastic Overhaul of Oil Sector",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3VlUmtXdkJETU9WcE4tTVZzNGtzMFFxZ05LcG5IX1pwWkdhWjczSmlqUGt2UVpfUWx0SFhsVDJ4Q3pWX3k1Qjk5czZGRUlleEZEbTFkQ1p4QnpMLTc3YkpDVkotUThwbGo0Q3U3dmJlYVJISzBqNmd4Vlo3eWtCTGlZZHNKaWZSendTWkJVcWdSTzcxQjRpNHlVV2haUjA4cFg1U1E5Z2hDdEFnWWVWd1p3?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "8a4495bc2add",
    "date": "2026-11-20T09:00Z",
    "title": "Iran Moves to Restart Oil Exports Despite U.S. Naval Blockade",
@@ -3318,6 +3348,16 @@
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KdHVEYjJ1ZW1kYWVWT04tTU14WVQ2QnNHeXV3SHQ0THpNOTU0eVA5TUhoQjhTUHczcmRFYTJSa010ektseWlMaVJXcW12MklxUzJz0gFYQVVfeXFMUFZpMTNhVGpDRHpkT0UyLTE0TjdCUmJITTJUMDZTWkZRRE1LNy1jTjNXNWxxVXVycjJsa1dwRjBhOGJuRG9zYU51c3oxLXBaMVdFQ0NDUTZMRg?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "77a5b503b26f",
+   "date": "2026-11-17T15:15Z",
+   "title": "Empresas Nabep y Sulzer modernizarán planta de Petrocedeño en Anzoátegui",
+   "source": "Universidad de Carabobo",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTmxiTU9yT194T094UFRaZHN1bnFVWXBhczU0eTRoZy0tbl9sRnQ4TDJtMVZFOU9YMlRuTW0zM3U5OVFRVGswaDRHazFqM3hEdnYwd1N2a1g2QkpwTmZOcTlFUXRfN3pFR25fQVQ5V2pZSFBUaVBpeVN0WGwtenZsQy1HVm8xOFpuOWJKX3R6ZV9YWnpjcVZFUFZPREI1OWdoaHJjbW0wbXh0UTA5?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
    "origin": "rss"
   },
   {
@@ -7665,46 +7705,6 @@
    "origin": "rss"
   },
   {
-   "id": "3acee0b62f43",
-   "date": "2026-11-13T00:37Z",
-   "title": "José Guerra cuestiona cifras del informe de KPMG sobre ingresos petroleros y denuncia opacidad fiscal",
-   "source": "Howl.Link",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBFWUlLT2I1S01XSVlVTWp0Rnd2OXZRV0Z3OGpZdVE1RFYzb3dqWUdFOE8wV3ByZGEwQU1j?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "3cfc8571bcc6",
-   "date": "2026-11-13T00:18Z",
-   "title": "Delcy Rodríguez: Ingresos petroleros y mineros financiaron al 99 % salarios y pensiones",
-   "source": "La Radio del Sur",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUXRDS3ZtZDFpalZWUXQtaFdoRFloZ3pNNm1sX19MS21Uck9oU1M1dE5teUYyTE1aRUVES0RIc3R2c1NPb050U1BwUDNlcXFwcVZjRk1xQWN6empZMGlQcDVNcmJNd0RIMzlOaVBRUks0Ty1ERnBoNFgyUFdfNnM0NVU4Rzhob2lpdHdJbWdSNjlhdjNDMjFwZmRreTlEYjhwem5EWnE4eFlJbHk3R3haQ054NXhQajFycUE?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "43073d8ab068",
-   "date": "2026-11-13T00:05Z",
-   "title": "United States Discloses Amount Returned from Venezuelan Oil Sales After Maduro's Capture",
-   "source": "CubaHeadlines",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWSDl3aUR0RkgwY3QzREpyQkRkYWluTEUzWUhJQmc5bmdVODN5QTNFV3JwUzUwT1VxbHpNbU9xd1RaY0hQMFBZREt6ODRFWDBXS3o3ekNMcmQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "497c6e83cb24",
-   "date": "2026-11-13T00:04Z",
-   "title": "Estados Unidos asegura que ha devuelto a Venezuela más de 12.000 millones de dólares por exportaciones tuteladas",
-   "source": "EL PAÍS",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMzlrVWZ3b0hFTHI0R3hGZDZfN0RqNDhKeTZVbnJRa29BT2pZU0dmNkRhY0pkM0ZybHI5d1NzSjYxYi1ZaWEwZ1piVFZ5c3dnNWdjdlF0dkpKQUN4OWtzbV90UEt1NGkxamtFSEF5YkZuTDNZaF8yd0RNOWRkanBpYWh5bnVMNVJKQmFvNlM1b0N1VjJETU1MdjVQSWpNMXlpQ013WUhXX2dRZU8yT0U1MV9XZWFybUZuOXJmQWI0bUhiM0xia0Vqbmx6eThjTjZzQmpCb3VGNENhZWR6eU50aWVtUdIB9wFBVV95cUxONW5zM0hhRHpvX3BrWHFBSXRqWEMtLW9GOVgyNFpSdm5WclUtQWZHN0hqOVdGZGNaLVlkWHlZdUFfTlZNYlV4ejZTdE5POFVUVWR1VW11bF9INnIzc09rc1I2Z0xuTHR4M3JXX0xidlY2TmlwM0VvOG1JOW1zVzdBUFJCaUw4WThSeXdodHczekQ1WXhyOHQ4VURWbXctd3RxZFVtZGtCWmt6Y0ZoeGJRckNNWEFMTjZRTHduZXpkNjNRVXI2YUFzc2VKRWd0LUpmeGcwa3lHcUdsdkpEUjRXNy1DSDdtYXpXZnUtZE55YlBTQllIdldv?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n31",
    "date": "2026-11-12T20:00Z",
    "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-20T09:29:04Z",
+ "updated": "2026-11-20T10:30:02Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8094,6 +8094,15 @@
    "featured": true
   },
   {
+   "date": "2026-11-20T10:10Z",
+   "title": "Venezuela Stabilizes Oil Production at 1.269 Million Barrels Per Day",
+   "source": "PravdaReport",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaTExSFhIcVV1YVpKWWNEYnkxSTB4UDlyRW9qRHBQMnEtYVBfbFVlYmgyckdRdjhMVTlkM3hIRFU4NG5VUWRTWTJHU1k0TW40TGl3X1lJb0R6aVhXMUxTN05ObHF3V2dBNWprcEZiUk96UThsdVdRZHFUOENINEdDUElnaGdUUFV4UGlKZFRtdEo1TEFveXc?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": "1.269 Million Barrels"
+  },
+  {
    "date": "2026-11-18T22:45Z",
    "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
    "source": "EnergyNow.com",
@@ -8107,15 +8116,6 @@
    "title": "Venezuelan Crude Moves North Faster Than Production Can Catch Up",
    "source": "IndraStra Global",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYYXFZNWtNLWg3QnhweXgzcDYzNnRUcE9tanMwcWpOUmRCR1BWejdiTjRmekJqVHNfVUl0SXFfTmRQTmxxd0RPejBmOUNEMDhqM1lEV1pfcndyZHFYLW5NTkRoaThteFZHM3BIY0Q2UlR1RzlhcnZoazJhVkZZMzQ?oc=5",
-   "category": "Production",
-   "angle": "More supply: more barrels heading to market",
-   "key_figure": null
-  },
-  {
-   "date": "2026-11-19T10:54Z",
-   "title": "Venezuela pitches AI to cut oil-sector emissions while expanding output",
-   "source": "Mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa1Q3aW1pc1RzLU9FRm1WcW01X0ZBZWNoY1hKVkNkaUt0ZkRTNlFINXhiNS11SzZHZjVqV3g3OUtabEQyUE9MRi1Jai1MZ1g2WnZBdmwyY1JqYm1oTzNGUWYzVkZpc182bE8zTE5IazRVaVd2WkhSV29GQjdBTjNhWmVFd25QQQ?oc=5",
    "category": "Production",
    "angle": "More supply: more barrels heading to market",
    "key_figure": null
