@@ -11,6 +11,16 @@
    "origin": "rss"
   },
   {
+   "id": "6a485df61788",
+   "date": "2026-11-21T19:07Z",
+   "title": "Venezuela recibió más de $12.000 millones por petróleo, pero persisten vacíos sobre su uso",
+   "source": "TalCual Digital",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS0ZEWXhnOE5nYV9yM1NabEgza1FNM3BoYTlCeUwwWXZ5eUpHaFdkYWY4alJLTGJNOU5YeTFBaXJEeHFlYWF2NDM3aFFzZEdRYlRsMWlFRjdMOXFNZnV1M1lUbVhYUXRHVkF3ZkJmOEVlamw0Qld2RXJyajF2czVWbWhaRUJueXlsY0VrY0pGTjVuMC14em0xci1ReE5zVDlhdm51cVZHRFgxdTl0UmFDNzZscmlWaDRvbGxSemFUQ3dacUk?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "f7964ae8ae51",
    "date": "2026-11-21T18:26Z",
    "title": "Democrats Plan Probe of Rubio's $100 Billion Venezuela Oil Deal",
@@ -7695,16 +7705,6 @@
    "origin": "rss"
   },
   {
-   "id": "9214937177e9",
-   "date": "2026-11-14T08:25Z",
-   "title": "COMMENTARY: Trump Plan Risks Derailing Venezuela Oil Recovery: Bousso",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR1hPQ3hKbHo2U2xhSjVpMHpER2V6MEwxSTFZMWlOZE1NZDVoU0w2eUItUEN5SENLdXViajRPVmdGNENLSmpKREo5ejUxbjRTTGhBV0tKVXkyM1F2R1ZIUi1vc3hvbDhFdHZXWW9pcE9DVW5oTTZfbmRQMnlhdllfUmlkbTNjaFdNV2JreW5xVVY1cUItTGpZSHpJTmFCSVU?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n31",
    "date": "2026-11-12T20:00Z",
    "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-21T19:39:25Z",
+ "updated": "2026-11-21T20:31:15Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,6 +8069,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
+  "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
