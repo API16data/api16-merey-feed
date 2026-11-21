@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-21T10:51:37Z",
+ "updated": "2026-11-21T11:48:54Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 538012047,
+   "imo": 1021594,
+   "name": "SPA",
+   "length_m": 249,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Houston / Galveston / Texas City",
+   "last_seen": "2026-11-21T11:48:54Z",
+   "destination": "GOLA>>USHOU",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
   {
    "mmsi": 311001308,
    "imo": 9943061,
@@ -9,7 +23,7 @@
    "length_m": 244,
    "why": "AIS destination is a Venezuelan port",
    "last_zone": "Corpus Christi",
-   "last_seen": "2026-11-21T10:51:37Z",
+   "last_seen": "2026-11-21T11:48:54Z",
    "destination": "VE BJV > US CRP",
    "arrived_us_gulf": false,
    "us_gulf_port": null,
@@ -29,20 +43,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 500
-  },
-  {
-   "mmsi": 538012047,
-   "imo": 1021594,
-   "name": "SPA",
-   "length_m": 249,
-   "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Houston / Galveston / Texas City",
-   "last_seen": "2026-11-20T21:52:23Z",
-   "destination": "GOLA>>USHOU",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
   },
   {
    "mmsi": 538010650,
