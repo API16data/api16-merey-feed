@@ -1621,6 +1621,16 @@
    "origin": "rss"
   },
   {
+   "id": "a620f775ba27",
+   "date": "2026-11-19T11:37Z",
+   "title": "Hegseth es el primer jefe del Pentágono que visita Venezuela en décadas. Link en los comentarios. 👇",
+   "source": "Facebook",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTHl2RERnU1A3Tkx4WEk1N1RZaW9SdGRYYU5tQkk1eDZxTXpWX2ptamhyMFhHWmZHc01nSnRqT0RRY1VrLXNxXzRpUGhNWHhwamZmaHlaZFZnN3lTNzZPekRPQU9pOUtmZ01NR1d2X3R4NVBUdWxEakJ4bmpzQTVnVVhIYm9NZzM5YjI5djJmQWpFaTJYRGswdDZrdmFUQlRjT0tGUFYyc2gyQ2VjVmM4NnJCMC1EY3RTVkhoeHA5R21Hb05CQUIwZTRheFBxb1JXdFp6LTBKWXNfanFXeUozNWFCTGtHZVk?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "47a483af40f1",
    "date": "2026-11-19T11:35Z",
    "title": "Venezuela apuesta por la IA para producir petróleo con menos emisiones",
@@ -7695,16 +7705,6 @@
    "origin": "rss"
   },
   {
-   "id": "d3d007e24944",
-   "date": "2026-11-13T20:05Z",
-   "title": "Primero Justicia cuestiona cifras del Gobierno sobre ingresos petroleros: «Exigimos rendición de cuentas»",
-   "source": "AlbertoNews",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVFpCblA4TWNvaGR0Y1E4dW12M2VKeERGUUx2VHc1NkNCWUlPRG1heXpfdFoteDBCWEFKcTIzaHpzU1RJcHBqUHR6ZEJPenhvTkU1R3l5TGZxY0d3WjNRbnFPS2h5UXVGbURPX1V2NWRDejNfR2YtWmg4d3FzZHZhQlJOVG83b1JSUnNqTUx2dks2M0V6OXJidXdiR0w4SjZ2Ty1BUDZoYldtdVBFb21lMjVyYlBacjljamxJVFY2V3Jxd3FSQllwSUhGUERobzUxM3c?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n31",
    "date": "2026-11-12T20:00Z",
    "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-21T06:22:08Z",
+ "updated": "2026-11-21T07:41:03Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8069,6 +8069,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
+  "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
