@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-21T07:12:00Z",
+ "updated": "2026-11-21T08:54:03Z",
  "note": "Probable links from public AIS, not confirmed cargoes.",
  "tankers": [
+  {
+   "mmsi": 311001308,
+   "imo": 9943061,
+   "name": "ANDROMEDA",
+   "length_m": 244,
+   "why": "AIS destination is a Venezuelan port",
+   "last_zone": "Corpus Christi",
+   "last_seen": "2026-11-21T08:54:03Z",
+   "destination": "VE BJV > US CRP",
+   "arrived_us_gulf": false,
+   "us_gulf_port": null,
+   "us_gulf_first_seen": null,
+   "est_cargo_kbbl": 700
+  },
   {
    "mmsi": 636026194,
    "imo": 9393096,
@@ -15,20 +29,6 @@
    "us_gulf_port": null,
    "us_gulf_first_seen": null,
    "est_cargo_kbbl": 500
-  },
-  {
-   "mmsi": 311001308,
-   "imo": 9943061,
-   "name": "ANDROMEDA",
-   "length_m": 244,
-   "why": "AIS destination is a Venezuelan port",
-   "last_zone": "Corpus Christi",
-   "last_seen": "2026-11-21T07:12:00Z",
-   "destination": "VE BJV > US CRP",
-   "arrived_us_gulf": false,
-   "us_gulf_port": null,
-   "us_gulf_first_seen": null,
-   "est_cargo_kbbl": 700
   },
   {
    "mmsi": 538012047,
