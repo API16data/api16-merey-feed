@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:52:31Z",
+ "updated": "2026-11-21T03:55:11Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -389,7 +389,7 @@
      "first": "2026-11-19T19:02:02Z"
     }
    ],
-   "last_seen": "2026-11-21T02:52:31Z",
+   "last_seen": "2026-11-21T03:55:11Z",
    "last_zone": "Corpus Christi",
    "stages": [
     {
@@ -1095,6 +1095,78 @@
      "done": true,
      "time": "2026-10-28T12:56:50Z",
      "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-636026194-2026-11-21",
+   "mmsi": 636026194,
+   "imo": 9393096,
+   "name": "MONTE TAMARO",
+   "length_m": 229,
+   "status": "watching",
+   "stages_done": 1,
+   "stages_total": 5,
+   "est_cargo_kbbl": null,
+   "est_cargo": null,
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "VEJOT",
+   "destinations": [
+    {
+     "dest": "USFPO",
+     "first": "2026-11-07T08:02:20Z"
+    },
+    {
+     "dest": "GOLA",
+     "first": "2026-11-09T02:53:44Z"
+    },
+    {
+     "dest": "GALVESTON PILOT",
+     "first": "2026-11-15T18:47:52Z"
+    },
+    {
+     "dest": "US HOU",
+     "first": "2026-11-18T01:17:27Z"
+    },
+    {
+     "dest": "VEJOT",
+     "first": "2026-11-21T03:55:11Z"
+    }
+   ],
+   "last_seen": "2026-11-21T03:55:11Z",
+   "last_zone": "Houston / Galveston / Texas City",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-21T03:55:11Z",
+     "detail": "declared destination VEJOT"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": false,
+     "time": null,
+     "detail": "no draught reported yet"
     },
     {
      "stage": "Crossed a Caribbean gate",
