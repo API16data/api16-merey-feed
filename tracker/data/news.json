@@ -2831,6 +2831,16 @@
    "origin": "rss"
   },
   {
+   "id": "7803588408dd",
+   "date": "2026-11-18T20:16Z",
+   "title": "Trump calls Venezuela an \"acquisition\" while boasting about the energy power of the U.S.",
+   "source": "CiberCuba",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOY1Y0SFZKN0xHSHNwTlZlVFpkYmVKNl8wWUpIak8zSjctWGxSUXl0YlU2cEQ5OElxbHhyYXNWRGxwQjQ3VHlaZmpCZGlTMV9NQ2VCdVVwSnFYZ0g1cU5lT1cwaTJPa05OZFNRR3FsOEpNdC1NcWFrM2k1UkNuMUd3UDFxODdFTU13c2NudG85aVVHazRtckN4OG5mQTgxMWNacGw2Q3REQW1zb2xmWElrbU81ZXYxZE9hU21xWkZ0ckE?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "e6c2cf8f306a",
    "date": "2026-11-18T20:06Z",
    "title": "Petropymi destaca interés de empresas de Catar, Trinidad y Tobago en producción petrolera venezolana",
@@ -7695,16 +7705,6 @@
    "origin": "rss"
   },
   {
-   "id": "48550b90e44b",
-   "date": "2026-11-14T07:10Z",
-   "title": "COMMENTARY: TRUMP’S CLAIM – Can Venezuelan Oil Really Refill America’s Strategic Petroleum Reserve Anytime Soon?",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON2NwYlFBZkxZX0ozR1lhVGU5b29YNlF2dDVWYkREc3d2R1lpeUtCaEhfUTM1VWdtM2ZVTDFTSVUxTnNqQ1VkamxjV1pCZ1dTUk5fSGlpYXhqSUdwNjRnbXEtQTFjVk5MWEFKcmVDMmVTM0lqNkM1TzVRXzFUbE1Damd1NFdKdDczVGNWUmtDM3hhdTBBa3lCR1FiZmItM1lGV3BkX2FPdFN1dXBZQW5SZTNDZlVhMjR3elRLeEQxdmQxX1hDUGRsemtrdw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n31",
    "date": "2026-11-12T20:00Z",
    "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-21T17:33:37Z",
+ "updated": "2026-11-21T18:32:44Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
