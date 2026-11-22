@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "95ce4144a5b2",
+   "date": "2026-11-22T04:37Z",
+   "title": "La precaria recuperación de la economía venezolana",
+   "source": "The Objective",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMk1wXzFfY0M2NUtnazNWX19GU3lDYkVoNlFGVFhjOWs5ckhLZHlBNGt2X2dTbXYxcDNiNTJUYXJUMmlGWUc4RDJLQkhKOXExMm5uR0p5a01BUzV4NEdfcG9ZZ1VGekN2T3hsc2JCVGFmSWZoanpRcWdjQUxLX0Jxc2l3R2xvb3lWMzRjVWdKWEhUYkRtSWdkY196ZVfSAZwBQVVfeXFMUDJNcF8xX2NDNjVLZ2szVl9fRlN5Q2JFaDZRRlRYYzlrOXJIS2R5QTRrdl9nU212MXAzYjUyVGFyVDJpRllHOEQyS0JISjlxMTJubkdKeWtNQVM1eDRHX3BvWWdVRnpDdk94bHNiQlRhZklmaGp6UXFnY0FMS19CcXNpd0dsb295VjM0Y1VnSlhIVGJEbUlnZGNfemVX?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "1be3a35f4dda",
    "date": "2026-11-22T02:28Z",
    "title": "Ensign plans to lift Venezuela drilling rig count to 15 in two years",
@@ -7681,16 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "c42019ecd8b0",
-   "date": "2026-11-14T18:53Z",
-   "title": "PDVSA y Shell firman cinco acuerdos para ampliar la producción de petróleo en Venezuela",
-   "source": "Agencia Noticias Argentinas",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcUhJT0pXQ2FFMThKYjBDZ2xEOXRsUDZIbUpTTGk2MFlqbmttYXJaTGUzYldQX1JhYmtTVXVBdGR3cDZtOGg4OGt5U043UnhYaC1ldk8zdnN2OVJ3V2hxQ0wzN1lVek54MDR0YTA2UXMzTEoydWhKNVo1al9RQ19jTzBHY0JIdFlqQjVQWDNad2pWYjdjR2QwWTAySWtvYURENVdJaEtIdHY4VWNHbS1pd25SVXNOSDRYUWwxbzNwM0ZPaGVzT0Y5dnBFcjZrNE8wRlJjZmItdjA5dm1DRjFhRDdFblFwSFhwUkdwLVNiNWxDd9IBgAJBVV95cUxNSDNwakg4RUNrVHQzT0dQT1hCNXNuc3VCZjZYUTZjZDhwaDFONWJULTF5eS1DWnRLbXdaTWNaeFdhbGFXS29iLVpJZUpUaWtSN2dQREVIZENxajZ1RU44R2x3MGdGVjZEN2ZoTWFoRDFNcFpOdVFVRjBfeEVIVmVTOThZTGFGQkJjWUd2YjlWb21uRmczVmZHSExTQWQ2YXdZRlNNdXU0dXQ5RUpYRnBuMENuYW9fdGxWQngxMm1USmpnallDTkp6Y21PNm44ODN6ZTU2YlFkdU5ycEpCRGVNUHBLZFZXZEZyak5peW1hNXdLenEtLWpobmVyaU9Zeks1?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-22T04:49:37Z",
+ "updated": "2026-11-22T05:48:56Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
