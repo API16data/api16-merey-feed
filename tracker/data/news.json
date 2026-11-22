@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "d197f24c1fcd",
+   "date": "2026-11-22T21:44Z",
+   "title": "La Faja Petrolífera del Orinoco impulsa el bombeo de crudo nacional",
+   "source": "Diario Primicia",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVU1YZTc4SEhWcGpLS3VaQ0hlTnExQVhFZkJVeExfNllJSnFDRDFyM3JQNFdReWg0ZEJkMmhSZVQySFVxRWRaYWx1cnRpRHBJZXBoaFlqUzB0V0w5bklxM0o3U2V2RjdkY3NzdEJ0bm53NmxMQWppanF5OC1iVFI4THMtaVlaZmxURkpGZlpQXzIxQ2NPQlNjei10enByV1JTYklr?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "8eea05061d59",
    "date": "2026-11-22T21:02Z",
    "title": "Delcy Rodríguez cuenta por qué no estaba la noche del secuestro de Cilia y Maduro",
@@ -7681,16 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "ed7d016516ce",
-   "date": "2026-11-15T08:00Z",
-   "title": "Venezuelans Saw Oil as Their Birthright. Now Trump Is Claiming It.",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45T3U1RGpyMzNYbGczZTRycnZXYjBKcDdERms3WEtoT1JHYkN2R09HLTlpa0QyMlNONmNCcTU4U3drX084emNHakZlRXpfa1lESXBBeUZ1Y1BmUDNRYUl1MG10NzAtdGxjRFFfNzV0bUVKdFV1cWN0YTE1b3l1dDQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-22T21:13:11Z",
+ "updated": "2026-11-22T22:09:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
