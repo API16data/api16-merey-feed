@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "1be3a35f4dda",
+   "date": "2026-11-22T02:28Z",
+   "title": "Ensign plans to lift Venezuela drilling rig count to 15 in two years",
+   "source": "Marine News Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWFoySUdSNWJHRXhnbnRiT0FvZXEyS3p1ejBEMU9lUWRCSF9FU2JyRjlXVjlSbFkycTlsS2VCZ0hZZFhzZTVuNlRXWkU1bEtRR2tzN3RXaElmR1pLazNWcWxjVGsxUUVDS1dEYlZBUC0yVjdNbFgxS2gzbW42RUZxbkpjOVNMb1BPbkxPYy1IdTNaaVhRRURYUndaTVdBZk8xSEdyUzg0YkhZQ2c?oc=5",
+   "category": "Production",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "5881302f21a7",
    "date": "2026-11-22T01:09Z",
    "title": "How Stronger Cash Flow At Chevron (CVX) Has Changed Its Investment Story",
@@ -7681,16 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "e8b6ed8d6c93",
-   "date": "2026-11-14T18:30Z",
-   "title": "China and Russia lose their grip on Venezuelan oil as US takes control of $12 billion in revenues but faces a billionaire's growing grip on prized African crude",
-   "source": "Business Insider Africa",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPc1RNNWNER1l4NXE5RF9QamFLczFZZExoMHdtUWVVdVVrOVZJT3JUMDRzVTM1cXhtZkRjNm1RWEVQTk5Yc05FSkxxNTluejZjUVBOcW9RNnVBLVU3aGxpRXh5UW1lcjVNd29KLVVQNXJrR3A1LTVyd2gwQzVoMlVsVHE1c1BEdHhkanpXTFVUN3YzcGRsaE9QQmtON09kQjNVdnhnV2VlLW5tVDFFcERjYldJUHZGNm9odXNBYmNiTmJxR1R0c2xrdUtPSENzcVZWOVkzRElR?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-22T03:45:06Z",
+ "updated": "2026-11-22T04:49:37Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8112,12 +8112,12 @@
    "key_figure": "1.269 Million Barrels"
   },
   {
-   "date": "2026-11-21T18:14Z",
-   "title": "Ensign plans important expansion to 15 rigs in Venezuela",
-   "source": "Inspenet",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HRXZab2U5TklfNVV3bUtsX1htNHdORnVoQVhiN2p3Z1lVQnhUUmtsY0wxNTYxMEVKV2pTWFNTQXJ4U0FZaHpfWTBpcFBGbkFZcmRGVVZXdVRzOW5oYUZJS0w4TVlZMzc5YW15N2QwUHJsTDA3?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "date": "2026-11-22T02:28Z",
+   "title": "Ensign plans to lift Venezuela drilling rig count to 15 in two years",
+   "source": "Marine News Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWFoySUdSNWJHRXhnbnRiT0FvZXEyS3p1ejBEMU9lUWRCSF9FU2JyRjlXVjlSbFkycTlsS2VCZ0hZZFhzZTVuNlRXWkU1bEtRR2tzN3RXaElmR1pLazNWcWxjVGsxUUVDS1dEYlZBUC0yVjdNbFgxS2gzbW42RUZxbkpjOVNMb1BPbkxPYy1IdTNaaVhRRURYUndaTVdBZk8xSEdyUzg0YkhZQ2c?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
    "key_figure": null
   }
  ]
