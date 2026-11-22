@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "0f07c5336e47",
+   "date": "2026-11-22T08:32Z",
+   "title": "Rafael Gallegos: Venezuela ¿La “nueva adquisición” de M. Trump?",
+   "source": "Emisora Costa del Sol 93.1 FM",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX2N0YjFxc3JiMTE3WmZPQmthTVZxbWJ0NkxHMk8wWWU5QnE0SW1GaUlZVFZvQTNqS2VRSTM3VHRiVUlCRmRVbzV0R1o5STNyRUsydmJWb1hibThkM243VFFrR1IwMnVFSjBadlhmb09zTmdTUjNwUGI1SkEtY1BrVzlhbXNVd1NZRU0yMjk4V3RLeG1jaXU0OGloVmk?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "95ce4144a5b2",
    "date": "2026-11-22T04:37Z",
    "title": "La precaria recuperación de la economía venezolana",
@@ -7681,16 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "cc916b0a19ac",
-   "date": "2026-11-14T20:17Z",
-   "title": "Comentarios noticiables | Del retorno de la ExxonMobil a Venezuela",
-   "source": "CiudadCCS",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEEzcnpxLXpmMjVSb2dqY053VnpPQUVqa2duc21QU3d4eldIcmgxUXEzVVg4OFRoV0NXS3hKYm5adjBuVmp3WTFvSmY3aHkyekdXLWRyS3QybWNvZzhuYllGdTlQbEIzbUhZOTZLNm5TcDNzQlVyMWFWSUJTbFgzVHRrQzhmVFNQQU83U3BzSDJUSnpIM1N3TUtrY0RIQ08yZXg5TXlST1padVF4Rnc?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-22T08:03:41Z",
+ "updated": "2026-11-22T09:12:39Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
