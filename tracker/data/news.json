@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "8eea05061d59",
+   "date": "2026-11-22T21:02Z",
+   "title": "Delcy Rodríguez cuenta por qué no estaba la noche del secuestro de Cilia y Maduro",
+   "source": "SinEmbargo MX",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOV9yazJ6TFNOSUdZV2JieWx4QWV0NVJVakF3eUZjNFpSY2RDb1NweTJnaVYwTVZ6YnVhUVRLRVIyUU1aNGtQMTBuekpEUm9wbU42SkFnX21WSU1LTWFEUlAzQ1llUVVWYkp6bTFtelNEeEVCOUNmamtDZVBhQ2lERHRUSUZ2cDU1d1JYWUlKNmc1cHhpZmltVjlGZE9YdjZzbjZ0emxIS2NFeTJhUnNSbGlKcm9JRlE?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "1227beb55562",
+   "date": "2026-11-22T19:42Z",
+   "title": "Expo Venezuela Energética 2026",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0U1VDbUtvSWQycHYzZkFHdDlWUHJMNEh4REx3OEt1eW5YZTZnREFrUEsxRDZBa19naEdGRVFDSTNaR3huWHJWNTBfY2JVbXJmdlVvckE0VEJIMl9kVjJQUERvaTU4cG14VnNBUDhPWEhrRjBX?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "675366c35cdb",
    "date": "2026-11-22T17:48Z",
    "title": "Faja Petrolífera del Orinoco concentra el 57,5% de la producción petrolera venezolana",
@@ -7671,26 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "b2805b141257",
-   "date": "2026-11-15T08:00Z",
-   "title": "Trump pone a prueba el nacionalismo petrolero de Venezuela",
-   "source": "The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOTlBZFU1azhUNWJTSGE0T0NoLU5sek8zTmFDdGl2X00tRnNia29GRTEyUXcxSEcxNThNZTZORXRsQWFZN24xV1lzcTdYTlZTQi1KTHRidG9UUHpGVGdLdWh4TWpMU29SRlA5cHE3Ukg2d1FTdEhQc0lIN1dWcjlmSFJZODNwTmd4Zk1QS3NxQnV4UzVDTmNWaHlvdlNySEw5Vko1eGJn?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "6b091ca64e65",
-   "date": "2026-11-15T07:16Z",
-   "title": "La nueva realidad petrolera venezolana obliga a ExxonMobil a mover ficha",
-   "source": "Tenemos Noticias",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTU1MTWZ4WTJXb0lmUUVnams5RzM2YXpmejdYVWZNb3BBUFhoV2dWLW11UW9NeTdOYWljdG9GVGhWZlZmT3JLaVppaDc3TTYtVk5ubGVNUGhSNFAyTVRUSTRZaHplTXY3QlZpVEFqbWxWTFlRU1RVRWwtdkxiWVJWYkRRaXp4LVozQXMxQ1Ewcm5YTlZZeEN1UW9JNmJXbXlqQktUc1VsWlJUVFBYT2NuRU9YeEJwMmNmSkFZdlpwRUtuVmU2VmZwYWNEekF6czhu?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-22T20:13:35Z",
+ "updated": "2026-11-22T21:13:11Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
