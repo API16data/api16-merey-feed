@@ -98,6 +98,7 @@
   ol.ev small { grid-column: 2; color: var(--muted); }
   .hash { font: 500 12px var(--mono); color: var(--muted); overflow-wrap: anywhere; background: color-mix(in srgb, var(--line) 40%, transparent); border-radius: 8px; padding: 8px 10px; }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
+  .sec-h, .how { display: none !important; }
   .sec-h { font: 800 22px/1.2 var(--display); margin: 14px 0 0; }
   .how { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 10px; }
   .how div { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14px; color: var(--muted); }
@@ -114,9 +115,8 @@
       <b>API16</b>
     </a>
     <nav aria-label="Main">
-      <a href="flow.html" class="hide-s" data-t="Crude flow">Crude flow</a>
       <a href="registry.html" aria-current="page" data-t="Registry">Registry</a>
-      <a href="ledger.html" data-t="Cargo Ledger">Cargo Ledger</a>
+      <a href="monitor.html" data-t="Market">Market</a>
       <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
     </nav>
   </div>
@@ -183,7 +183,7 @@
 <script>
 (() => {
   const ES = {
-    'Crude flow': 'Flujo de crudo', 'Registry': 'Registro', 'Cargo Ledger': 'Cargo Ledger',
+    'Registry': 'Registro', 'Market': 'Mercado',
     'Cargo Registry · Venezuela → U.S.': 'Registro de cargas · Venezuela → EE. UU.', 'Every cargo, one record.': 'Cada carga, un registro.',
     'intro': 'Cada viaje de crudo venezolano a una refinería de EE. UU., con su evidencia. Toca una carga para ver su pasaporte.',
     'cargoes in the registry': 'cargas en el registro', 'million barrels (estimated)': 'millones de barriles (estimados)', 'US$ million at Merey price': 'millones de US$ a precio Merey', 'different tankers': 'tanqueros distintos',
