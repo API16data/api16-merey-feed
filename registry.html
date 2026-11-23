@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>API16 · Cargo Registry</title>
+<meta name="description" content="Every Venezuelan crude cargo detected on its way to U.S. refineries, with a stable ID, estimated volume and value, public evidence and a SHA-256 fingerprint. Free to download.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0F1B2D; --amber: #C8892B; --amber2: #E2A548; --steel: #3B5B8C;
+    --bg: #F6F7F9; --panel: #FFFFFF; --fg: #0F1B2D; --muted: #5A6577; --line: #E1E5EB;
+    --ok: #1E7F4F; --part: #A86A12;
+    --display: "Montserrat", "Segoe UI", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0B1320; --panel: #111C2D; --fg: #E7ECF3; --muted: #9AA6B8; --line: #22324A; --ok: #4CC38A; --part: #E2A548; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+  a { color: inherit; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .bar { position: sticky; top: 0; z-index: 10; background: var(--ink); color: #fff; border-bottom: 1px solid #22324A; }
+  .bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand svg { width: 28px; height: 28px; }
+  .brand b { font: 800 21px/1 var(--display); }
+  .bar nav { display: flex; gap: 18px; font-size: 14px; align-items: center; }
+  .bar nav a { color: #C9D2DF; text-decoration: none; white-space: nowrap; }
+  .bar nav a:hover, .bar nav a[aria-current] { color: var(--amber2); }
+  @media (max-width: 520px) { .bar nav { gap: 12px; font-size: 13px; } .bar nav .hide-s { display: none; } }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+  .head { background: var(--ink); color: #fff; }
+  .head .wrap { padding-block: 32px 28px; }
+  .kick { font: 500 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: #9FB1C9; margin: 0 0 8px; }
+  h1 { font: 800 clamp(28px, 5vw, 44px)/1.1 var(--display); margin: 0 0 10px; }
+  .head p { margin: 0; color: #C9D2DF; max-width: 720px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 10px; margin-top: 22px; }
+  .kpis div { background: rgba(255,255,255,.06); border: 1px solid #22324A; border-radius: 12px; padding: 12px 14px; min-width: 0; }
+  .kpis b { display: block; font: 600 22px var(--mono); color: #fff; }
+  .kpis span { font-size: 12.5px; color: #9FB1C9; }
+  .fp { margin-top: 14px; font: 500 12px var(--mono); color: #9FB1C9; overflow-wrap: anywhere; }
+  .fp b { color: var(--amber2); font-weight: 600; }
+  main .wrap { padding-block: 22px 40px; display: grid; gap: 16px; }
+  .tools { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 8px; }
+  @media (max-width: 860px) { .tools { grid-template-columns: 1fr 1fr; } .tools .q { grid-column: 1 / -1; } }
+  .tools input, .tools select { width: 100%; font: 14px var(--body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 9px 10px; min-width: 0; }
+  .row-actions { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between; }
+  .count { font: 500 13px var(--mono); color: var(--muted); }
+  .dl { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn { font: 600 13px var(--mono); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; cursor: pointer; text-decoration: none; }
+  .btn:hover { border-color: var(--amber); color: var(--amber); }
+  .btn.pri { background: var(--amber2); color: #0F1B2D; border-color: var(--amber2); }
+  .list { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .rh, .r { display: grid; grid-template-columns: 150px 1.4fr 1fr 1fr 110px 110px 92px; gap: 10px; align-items: center; padding: 10px 14px; }
+  .rh { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); border-bottom: 1px solid var(--line); }
+  .r { border-bottom: 1px solid var(--line); cursor: pointer; font-size: 14px; }
+  .r:hover, .r:focus-visible { background: color-mix(in srgb, var(--amber2) 8%, transparent); outline: none; }
+  .r .id { font: 500 12px var(--mono); color: var(--muted); }
+  .r .ship b { display: block; font-weight: 600; }
+  .r .ship small, .r .rt small { display: block; color: var(--muted); font-size: 12.5px; }
+  .r .n { font: 500 14px var(--mono); text-align: right; }
+  .rh .n { text-align: right; }
+  .tag { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .04em; padding: 2px 8px; border-radius: 999px; justify-self: start; }
+  .t-high { background: color-mix(in srgb, var(--ok) 14%, transparent); color: var(--ok); }
+  .t-possible { background: color-mix(in srgb, var(--part) 16%, transparent); color: var(--part); }
+  .t-case { background: color-mix(in srgb, var(--steel) 16%, transparent); color: #8FB0E0; }
+  @media (max-width: 760px) {
+    .rh { display: none; }
+    .r { grid-template-columns: 1fr auto; gap: 2px 10px; }
+    .r .id { grid-column: 1 / -1; }
+    .r .rt, .r .dt { grid-column: 1; }
+    .r .n { text-align: left; grid-column: 1; }
+    .r .tag { grid-column: 2; grid-row: 2; justify-self: end; }
+  }
+  .more { display: block; width: 100%; padding: 12px; font: 600 13px var(--mono); background: transparent; color: var(--amber); border: 0; cursor: pointer; }
+  dialog { border: 1px solid var(--line); border-radius: 16px; padding: 0; width: min(680px, calc(100vw - 24px)); background: var(--panel); color: var(--fg); }
+  dialog::backdrop { background: rgba(11,19,32,.6); }
+  .dh { background: var(--ink); color: #fff; padding: 18px 20px; display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+  .dh h2 { font: 800 24px/1.15 var(--display); margin: 2px 0 0; }
+  .dh .id { font: 500 12px var(--mono); color: #9FB1C9; }
+  .x { background: transparent; border: 0; color: #fff; font-size: 26px; line-height: 1; cursor: pointer; padding: 0 4px; }
+  .db { padding: 16px 20px 20px; display: grid; gap: 14px; }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 8px; }
+  .facts div { border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; min-width: 0; }
+  .facts b { display: block; font: 600 15px var(--mono); overflow-wrap: anywhere; }
+  .facts span { font-size: 12px; color: var(--muted); }
+  ol.ev { list-style: none; margin: 0; padding: 0; }
+  ol.ev li { display: grid; grid-template-columns: 18px 1fr; gap: 2px 8px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  ol.ev li:last-child { border-bottom: 0; }
+  ol.ev i { width: 10px; height: 10px; border-radius: 50%; margin-top: 6px; background: var(--ok); }
+  ol.ev i.no { background: transparent; border: 2px dashed var(--muted); }
+  ol.ev small { grid-column: 2; color: var(--muted); }
+  .hash { font: 500 12px var(--mono); color: var(--muted); overflow-wrap: anywhere; background: color-mix(in srgb, var(--line) 40%, transparent); border-radius: 8px; padding: 8px 10px; }
+  .note { font-size: 13px; color: var(--muted); margin: 0; }
+  .sec-h { font: 800 22px/1.2 var(--display); margin: 14px 0 0; }
+  .how { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 10px; }
+  .how div { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; font-size: 14px; color: var(--muted); }
+  .how b { display: block; color: var(--fg); }
+  footer { border-top: 1px solid var(--line); padding-block: 26px 40px; font-size: 12px; color: var(--muted); }
+  footer .wrap { display: flex; gap: 12px 24px; flex-wrap: wrap; justify-content: space-between; }
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="API16 home">
+      <svg viewBox="0 0 240 240" aria-hidden="true"><defs><mask id="mk" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><polyline points="117,166 168.8,74.1" stroke="#000" stroke-width="29" fill="none"/><circle cx="168.8" cy="74.1" r="21" fill="#000"/></mask></defs><path d="M120,8 L54.05,97.28 A82,82 0 1 0 185.95,97.28 Z" fill="none" stroke="#fff" stroke-width="15" mask="url(#mk)"/><polyline points="56,186 94,134 117,166 168.8,74.1" fill="none" stroke="#C8892B" stroke-width="13"/><circle cx="168.8" cy="74.1" r="12" fill="#C8892B"/></svg>
+      <b>API16</b>
+    </a>
+    <nav aria-label="Main">
+      <a href="flow.html" class="hide-s" data-t="Crude flow">Crude flow</a>
+      <a href="registry.html" aria-current="page" data-t="Registry">Registry</a>
+      <a href="ledger.html" data-t="Cargo Ledger">Cargo Ledger</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
+    </nav>
+  </div>
+</header>
+
+<section class="head">
+  <div class="wrap">
+    <p class="kick" data-t="Cargo Registry · Venezuela → U.S.">Cargo Registry · Venezuela → U.S.</p>
+    <h1 data-t="Every cargo, one record.">Every cargo, one record.</h1>
+    <p data-t="intro">Each tanker voyage from a Venezuelan crude terminal to a U.S. refinery gets a permanent ID, an estimated volume and value, the public evidence behind it, and a digital fingerprint. Search it, cite it, download it.</p>
+    <div class="kpis">
+      <div><b id="k-n">—</b><span data-t="cargoes in the registry">cargoes in the registry</span></div>
+      <div><b id="k-b">—</b><span data-t="million barrels (estimated)">million barrels (estimated)</span></div>
+      <div><b id="k-v">—</b><span data-t="US$ million at Merey price">US$ million at Merey price</span></div>
+      <div><b id="k-s">—</b><span data-t="different tankers">different tankers</span></div>
+    </div>
+    <p class="fp"><span data-t="Registry fingerprint (SHA-256)">Registry fingerprint (SHA-256)</span>: <b id="k-h">…</b> · <span data-t="updated">updated</span> <span id="k-u">—</span></p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <div class="tools" role="search">
+      <input class="q" id="q" type="search" placeholder="Ship, IMO or ID" data-ph="Ship, IMO or ID" aria-label="Search">
+      <select id="f-m" aria-label="Month"></select>
+      <select id="f-t" aria-label="Terminal"></select>
+      <select id="f-p" aria-label="U.S. port"></select>
+      <select id="f-c" aria-label="Evidence"></select>
+    </div>
+    <div class="row-actions">
+      <span class="count" id="count">…</span>
+      <div class="dl">
+        <button class="btn pri" type="button" id="dl-csv" data-t="Download CSV">Download CSV</button>
+        <button class="btn" type="button" id="dl-json" data-t="Download JSON">Download JSON</button>
+      </div>
+    </div>
+    <div class="list" id="list" aria-live="polite">
+      <div class="rh"><span data-t="ID">ID</span><span data-t="Tanker">Tanker</span><span data-t="Route">Route</span><span data-t="Dates">Dates</span><span class="n" data-t="Barrels (est.)">Barrels (est.)</span><span class="n" data-t="Value (est.)">Value (est.)</span><span data-t="Evidence">Evidence</span></div>
+      <div id="rows"><p class="note" style="padding:14px" data-t="Loading the registry…">Loading the registry…</p></div>
+    </div>
+
+    <h2 class="sec-h" data-t="How each record is built">How each record is built</h2>
+    <div class="how">
+      <div><b data-t="1 · Detected">1 · Detected</b><span data-t="how1">A large tanker leaves a Venezuelan crude terminal (José, Lake Maracaibo) or a Caribbean hub and its next port call is a U.S. refining port. Port visits come from Global Fishing Watch and API16's own AIS.</span></div>
+      <div><b data-t="2 · Estimated">2 · Estimated</b><span data-t="how2">Volume comes from the ship's size and draught (±20%). Value uses the OPEC Merey price of the month it sailed. Each month is checked against EIA and U.S. customs totals.</span></div>
+      <div><b data-t="3 · Fingerprinted">3 · Fingerprinted</b><span data-t="how3">Each record gets a SHA-256 hash of its key fields, and the whole registry gets one too. If anyone changes a record, the fingerprint changes. This is the piece that will be written on-chain.</span></div>
+    </div>
+    <p class="note" data-t="disclaimer">Evidence, not proof: an estimate is not a bill of lading. "High" means the voyage pattern is clear; "possible" means it fits but has gaps. Cases checked against official records live in the Cargo Ledger. Not financial advice.</p>
+  </div>
+</main>
+
+<dialog id="dlg" aria-labelledby="d-name">
+  <div class="dh"><div><span class="id" id="d-id"></span><h2 id="d-name"></h2></div><button class="x" type="button" id="d-x" aria-label="Close">×</button></div>
+  <div class="db" id="d-body"></div>
+</dialog>
+
+<footer>
+  <div class="wrap">
+    <span data-t="footer">API16 · Open data on Venezuelan oil. Port visits: Powered by Global Fishing Watch (CC BY-NC 4.0). Not financial advice.</span>
+    <span><a href="./" data-t="Home">Home</a> · <a href="tracker/data/flows.json" data-t="Source data (JSON)">Source data (JSON)</a></span>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const ES = {
+    'Crude flow': 'Flujo de crudo', 'Registry': 'Registro', 'Cargo Ledger': 'Cargo Ledger',
+    'Cargo Registry · Venezuela → U.S.': 'Registro de cargas · Venezuela → EE. UU.', 'Every cargo, one record.': 'Cada carga, un registro.',
+    'intro': 'Cada viaje de un tanquero desde una terminal de crudo venezolana hasta una refinería de EE. UU. recibe un ID permanente, un volumen y un valor estimados, la evidencia pública que lo respalda y una huella digital. Búscalo, cítalo, descárgalo.',
+    'cargoes in the registry': 'cargas en el registro', 'million barrels (estimated)': 'millones de barriles (estimados)', 'US$ million at Merey price': 'millones de US$ a precio Merey', 'different tankers': 'tanqueros distintos',
+    'Registry fingerprint (SHA-256)': 'Huella del registro (SHA-256)', 'updated': 'actualizado',
+    'Ship, IMO or ID': 'Barco, IMO o ID', 'Download CSV': 'Descargar CSV', 'Download JSON': 'Descargar JSON',
+    'ID': 'ID', 'Tanker': 'Tanquero', 'Route': 'Ruta', 'Dates': 'Fechas', 'Barrels (est.)': 'Barriles (est.)', 'Value (est.)': 'Valor (est.)', 'Evidence': 'Evidencia',
+    'Loading the registry…': 'Cargando el registro…', 'How each record is built': 'Cómo se arma cada registro',
+    '1 · Detected': '1 · Se detecta', '2 · Estimated': '2 · Se estima', '3 · Fingerprinted': '3 · Se le pone huella',
+    'how1': 'Un tanquero grande sale de una terminal de crudo venezolana (José, Lago de Maracaibo) o de un hub del Caribe, y su siguiente escala es un puerto refinador de EE. UU. Las escalas vienen de Global Fishing Watch y del AIS propio de API16.',
+    'how2': 'El volumen sale del tamaño y el calado del barco (±20%). El valor usa el precio Merey de la OPEP del mes en que zarpó. Cada mes se coteja con los totales de la EIA y de la aduana de EE. UU.',
+    'how3': 'Cada registro recibe un hash SHA-256 de sus campos clave, y el registro completo recibe otro. Si alguien cambia un dato, la huella cambia. Esta es la pieza que se escribirá on-chain.',
+    'disclaimer': 'Evidencia, no prueba: una estimación no es un conocimiento de embarque. "Alta" significa que el patrón del viaje es claro; "posible", que encaja pero tiene huecos. Los casos cotejados con registros oficiales están en el Cargo Ledger. No es asesoría financiera.',
+    'footer': 'API16 · Datos abiertos sobre el petróleo venezolano. Escalas: Powered by Global Fishing Watch (CC BY-NC 4.0). No es asesoría financiera.',
+    'Home': 'Inicio', 'Source data (JSON)': 'Datos fuente (JSON)',
+    'All months': 'Todos los meses', 'All terminals': 'Todas las terminales', 'All U.S. ports': 'Todos los puertos de EE. UU.', 'All evidence': 'Toda la evidencia',
+    'high': 'alta', 'possible': 'posible', 'case': 'caso', 'High evidence': 'Evidencia alta', 'Possible': 'Posible',
+    'cargoes': 'cargas', 'shown': 'mostradas', 'Show more': 'Ver más',
+    'Left': 'Salió', 'Arrived': 'Llegó', 'Estimated cargo': 'Carga estimada', 'range': 'rango', 'Estimated value': 'Valor estimado',
+    'Merey': 'Merey', 'latest month available': 'último mes disponible', 'Ship size': 'Tamaño del barco', 'How volume was estimated': 'Cómo se estimó el volumen',
+    'Evidence chain': 'Cadena de evidencia', 'Left a Venezuelan terminal area': 'Salió de una zona de terminal venezolana',
+    'Arrived at a U.S. refining port': 'Llegó a un puerto refinador de EE. UU.', 'Volume estimated from ship size and draught': 'Volumen estimado por tamaño y calado',
+    'Checked against official records (customs, EIA)': 'Cotejado con registros oficiales (aduana, EIA)', 'monthly totals only, not this cargo': 'solo totales mensuales, no esta carga',
+    'See the Cargo Ledger case': 'Ver el caso en el Cargo Ledger', 'Record fingerprint (SHA-256)': 'Huella del registro (SHA-256)',
+    'Copy link': 'Copiar enlace', 'Link copied': 'Enlace copiado', 'Download record': 'Descargar ficha', 'Ship profile (VesselFinder)': 'Ficha del barco (VesselFinder)',
+    'Could not load the registry data.': 'No se pudieron cargar los datos del registro.', 'No cargo matches these filters.': 'Ninguna carga coincide con estos filtros.',
+    'Caribbean hub': 'Hub del Caribe', 'Lake Maracaibo': 'Lago de Maracaibo', 'Jose / Puerto La Cruz': 'José / Puerto La Cruz',
+    'Southwest Pass (Mississippi)': 'Southwest Pass (Misisipi)', 'Gulf offshore (lightering)': 'Golfo, mar adentro (alijo)', 'U.S. Gulf anchorage': 'Fondeadero del Golfo de EE. UU.',
+    'LOOP (Louisiana offshore)': 'LOOP (Luisiana, mar adentro)', 'm long': 'm de eslora', 'gross tonnage': 'arqueo bruto'
+  };
+  let LANG = (() => {
+    try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'es' || q === 'en') return q; const v = localStorage.getItem('api16-lang'); if (v === 'es' || v === 'en') return v; } catch (e) { /* storage blocked */ }
+    return (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+  })();
+  const tt = (x) => (LANG === 'es' && ES[x]) || x;
+  const nf = (d = 0) => new Intl.NumberFormat(LANG === 'es' ? 'es-VE' : 'en-US', { maximumFractionDigits: d, minimumFractionDigits: d });
+  const MES = () => LANG === 'es' ? ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'] : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const day = (iso) => iso ? (LANG === 'es' ? (+iso.slice(8, 10)) + ' ' + MES()[+iso.slice(5, 7) - 1] + ' ' + iso.slice(0, 4) : MES()[+iso.slice(5, 7) - 1] + ' ' + (+iso.slice(8, 10)) + ', ' + iso.slice(0, 4)) : '—';
+  const mlabel = (m) => MES()[+m.slice(5, 7) - 1] + ' ' + m.slice(0, 4);
+  const $ = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+
+  const PORT = { 'STEUTSPASS': 'Southwest Pass (Mississippi)', 'GOLA': 'Gulf offshore (lightering)', 'USA-1152': 'U.S. Gulf anchorage', 'LOOP': 'LOOP (Louisiana offshore)',
+    'VE JOT': 'José', 'JOSE VENEZUELA': 'José', 'JOSE VZLA': 'José', 'CUW-7': 'Curaçao', 'BULLENBAY': 'Bullen Bay (Curaçao)' };
+  const pretty = (p) => PORT[p] || String(p || '').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+
+  let ALL = [], VIEW = [], SHOWN = 60, META = {};
+
+  async function sha256(s) {
+    const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+    return [...new Uint8Array(b)].map((x) => x.toString(16).padStart(2, '0')).join('');
+  }
+
+  // keep English originals so toggling back works
+  document.querySelectorAll('[data-t]').forEach((e) => { e.dataset.en = e.textContent; });
+  const applyAll = () => {
+    document.documentElement.lang = LANG;
+    document.querySelectorAll('[data-t]').forEach((e) => { e.textContent = LANG === 'es' ? (ES[e.dataset.t] || e.dataset.en) : e.dataset.en; });
+    document.querySelectorAll('[data-ph]').forEach((e) => { e.placeholder = tt(e.dataset.ph); });
+    document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+    document.title = LANG === 'es' ? 'API16 · Registro de cargas' : 'API16 · Cargo Registry';
+  };
+
+  function fillSelect(id, allLabel, values, labelFn) {
+    const s = document.getElementById(id), cur = s.value;
+    s.textContent = '';
+    const o0 = $('option', null, tt(allLabel)); o0.value = ''; s.append(o0);
+    values.forEach((v) => { const o = $('option', null, labelFn(v)); o.value = v; s.append(o); });
+    s.value = values.includes(cur) ? cur : '';
+  }
+  function buildFilters() {
+    const uniq = (k) => [...new Set(ALL.map((r) => r[k]))];
+    fillSelect('f-m', 'All months', uniq('month').sort().reverse(), mlabel);
+    fillSelect('f-t', 'All terminals', uniq('terminal').sort(), (v) => tt(v));
+    fillSelect('f-p', 'All U.S. ports', uniq('to_port').sort((a, b) => pretty(a).localeCompare(pretty(b))), (v) => tt(pretty(v)));
+    fillSelect('f-c', 'All evidence', ['high', 'possible'], (v) => tt(v === 'high' ? 'High evidence' : 'Possible'));
+  }
+
+  function filter() {
+    const q = document.getElementById('q').value.trim().toLowerCase();
+    const m = document.getElementById('f-m').value, t = document.getElementById('f-t').value, p = document.getElementById('f-p').value, c = document.getElementById('f-c').value;
+    VIEW = ALL.filter((r) => (!m || r.month === m) && (!t || r.terminal === t) && (!p || r.to_port === p) && (!c || r.confidence === c) &&
+      (!q || r.id.toLowerCase().includes(q) || r.name.toLowerCase().includes(q) || String(r.imo).includes(q) || String(r.mmsi).includes(q)));
+    render();
+  }
+
+  function render() {
+    const box = document.getElementById('rows'); box.textContent = '';
+    const kb = VIEW.reduce((a, r) => a + r.est_kbbl, 0);
+    document.getElementById('count').textContent = nf().format(VIEW.length) + ' ' + tt('cargoes') + ' · ' + nf(1).format(kb / 1000) + ' M bbl';
+    if (!VIEW.length) { box.append($('p', 'note', tt('No cargo matches these filters.'))).style && (box.lastChild.style.padding = '14px'); return; }
+    VIEW.slice(0, SHOWN).forEach((r) => {
+      const row = $('div', 'r'); row.tabIndex = 0; row.setAttribute('role', 'button'); row.dataset.id = r.id;
+      row.append($('span', 'id', r.id));
+      const sh = $('span', 'ship'); sh.append($('b', null, r.name), $('small', null, 'IMO ' + r.imo)); row.append(sh);
+      const rt = $('span', 'rt'); rt.append(document.createTextNode(tt(r.terminal)), $('small', null, '→ ' + tt(pretty(r.to_port)))); row.append(rt);
+      const dt = $('span', 'rt dt'); dt.append(document.createTextNode(day(r.left)), $('small', null, '→ ' + day(r.arrived))); row.append(dt);
+      row.append($('span', 'n', nf().format(r.est_kbbl * 1000)));
+      row.append($('span', 'n', 'US$ ' + nf(1).format(r.value_usd / 1e6) + ' M'));
+      row.append($('span', 'tag ' + (r.case_id ? 't-case' : 't-' + r.confidence), tt(r.case_id ? 'case' : r.confidence)));
+      box.append(row);
+    });
+    if (VIEW.length > SHOWN) {
+      const b = $('button', 'more', tt('Show more') + ' (' + nf().format(VIEW.length - SHOWN) + ')'); b.type = 'button';
+      b.addEventListener('click', () => { SHOWN += 60; render(); }); box.append(b);
+    }
+  }
+
+  function fact(v, l) { const d = $('div'); d.append($('b', null, v), $('span', null, l)); return d; }
+  function open(id, push = true) {
+    const r = ALL.find((x) => x.id === id); if (!r) return;
+    document.getElementById('d-id').textContent = r.id;
+    document.getElementById('d-name').textContent = r.name;
+    const b = document.getElementById('d-body'); b.textContent = '';
+    const f = $('div', 'facts');
+    f.append(fact(day(r.left), tt('Left') + ' · ' + tt(pretty(r.from_port))));
+    f.append(fact(day(r.arrived), tt('Arrived') + ' · ' + tt(pretty(r.to_port))));
+    f.append(fact(nf().format(r.est_kbbl * 1000) + ' bbl', tt('Estimated cargo') + ' · ' + tt('range') + ' ' + nf().format(r.est_low) + '–' + nf().format(r.est_high) + ' mil'));
+    f.append(fact('US$ ' + nf(1).format(r.value_usd / 1e6) + ' M', tt('Estimated value') + ' · Merey US$ ' + nf(2).format(r.merey) + (r.merey_month !== r.month ? ' (' + tt('latest month available') + ')' : '')));
+    f.append(fact(nf().format(Math.round(r.length_m)) + ' m', tt('Ship size') + ' · ' + nf().format(Math.round(r.gt)) + ' ' + tt('gross tonnage')));
+    f.append(fact('IMO ' + r.imo, 'MMSI ' + r.mmsi));
+    b.append(f);
+    b.append($('b', null, tt('Evidence chain')));
+    const ol = $('ol', 'ev');
+    const step = (ok, t, s) => { const li = $('li'); li.append($('i', ok ? '' : 'no'), $('span', null, tt(t))); if (s) li.append($('small', null, s)); ol.append(li); };
+    step(true, 'Left a Venezuelan terminal area', tt(r.terminal) + ' · ' + new Date(r.left).toISOString().slice(0, 16).replace('T', ' ') + ' UTC · Global Fishing Watch');
+    step(true, 'Arrived at a U.S. refining port', tt(pretty(r.to_port)) + ' · ' + new Date(r.arrived).toISOString().slice(0, 16).replace('T', ' ') + ' UTC · Global Fishing Watch');
+    const meth = LANG === 'es' ? r.method.replace('typical full load for the ship size', 'carga completa típica para el tamaño del barco').replace('typical Lake Maracaibo load', 'carga típica del Lago de Maracaibo').replace('draught', 'calado') : r.method;
+    step(r.confidence === 'high', 'Volume estimated from ship size and draught', meth + ' · ±20%');
+    step(!!r.case_id, 'Checked against official records (customs, EIA)', r.case_id ? r.case_id : tt('monthly totals only, not this cargo'));
+    b.append(ol);
+    if (r.case_id) { const a = $('a', 'btn', tt('See the Cargo Ledger case') + ' →'); a.href = 'ledger.html#' + r.case_id; b.append(a); }
+    b.append($('b', null, tt('Record fingerprint (SHA-256)')));
+    b.append($('div', 'hash', r.hash));
+    const acts = $('div', 'dl');
+    const cp = $('button', 'btn', tt('Copy link')); cp.type = 'button';
+    cp.addEventListener('click', async () => { try { await navigator.clipboard.writeText(location.origin + location.pathname + '#' + r.id); cp.textContent = tt('Link copied'); } catch (e) { cp.textContent = location.pathname + '#' + r.id; } });
+    const dj = $('button', 'btn', tt('Download record')); dj.type = 'button'; dj.addEventListener('click', () => save(r.id + '.json', JSON.stringify(pub(r), null, 2), 'application/json'));
+    const vf = $('a', 'btn', tt('Ship profile (VesselFinder)')); vf.href = 'https://www.vesselfinder.com/vessels/details/' + encodeURIComponent(r.imo); vf.target = '_blank'; vf.rel = 'noopener';
+    acts.append(cp, dj, vf); b.append(acts);
+    b.append($('p', 'note', tt('disclaimer')));
+    const d = document.getElementById('dlg'); if (!d.open) d.showModal();
+    if (push) history.replaceState(null, '', '#' + r.id);
+  }
+
+  const FIELDS = ['id', 'name', 'imo', 'mmsi', 'terminal', 'from_port', 'left', 'to_port', 'arrived', 'est_kbbl', 'est_low', 'est_high', 'confidence', 'method', 'merey', 'merey_month', 'value_usd', 'case_id', 'hash'];
+  const pub = (r) => Object.fromEntries(FIELDS.map((k) => [k, r[k] ?? null]));
+  function save(name, text, type) {
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; document.body.append(a); a.click();
+    setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  }
+  const csvCell = (v) => { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+
+  async function load() {
+    try {
+      const [fl, mb, lg] = await Promise.all([
+        fetch('tracker/data/flows.json', { cache: 'no-store' }).then((r) => r.json()),
+        fetch('data/merey_brent_monthly.json', { cache: 'no-store' }).then((r) => r.json()),
+        fetch('data/ledger.json', { cache: 'no-store' }).then((r) => r.json()).catch(() => ({ cargoes: [] }))
+      ]);
+      const mer = {}; mb.forEach((x) => { if (x.merey) mer[x.month] = x.merey; });
+      const months = Object.keys(mer).sort(); const lastM = months[months.length - 1];
+      const cases = (lg.cargoes || []).filter((c) => c.mmsi && c.date);
+      ALL = fl.voyages.map((v) => {
+        const month = v.left.slice(0, 7);
+        const mm = mer[month] ? month : lastM;
+        const id = 'VE-' + v.left.slice(0, 10).replace(/-/g, '') + '-' + v.imo;
+        const cs = cases.find((c) => String(c.mmsi) === String(v.mmsi) && Math.abs(new Date(c.date) - new Date(v.left)) < 4 * 864e5);
+        return { ...v, id, month, merey: mer[mm], merey_month: mm, value_usd: Math.round(v.est_kbbl * 1000 * mer[mm]), case_id: cs ? cs.id : null };
+      });
+      // de-duplicate identical IDs (same ship, same day)
+      const seen = {}; ALL.forEach((r) => { if (seen[r.id]) { seen[r.id] += 1; r.id += '-' + seen[r.id]; } else seen[r.id] = 1; });
+      ALL.sort((a, b) => b.left.localeCompare(a.left));
+      for (const r of ALL) {
+        r.hash = await sha256([r.id, r.imo, r.mmsi, r.name, r.from_port, r.left, r.to_port, r.arrived, r.est_kbbl, r.est_low, r.est_high, r.confidence].join('|'));
+      }
+      const root = await sha256([...ALL].sort((a, b) => a.id.localeCompare(b.id)).map((r) => r.hash).join(''));
+      META = { updated: fl.updated, fingerprint: root, method: fl.method, attribution: fl.attribution };
+      const kb = ALL.reduce((a, r) => a + r.est_kbbl, 0), usd = ALL.reduce((a, r) => a + r.value_usd, 0);
+      document.getElementById('k-n').textContent = nf().format(ALL.length);
+      document.getElementById('k-b').textContent = nf(1).format(kb / 1000);
+      document.getElementById('k-v').textContent = nf().format(Math.round(usd / 1e6));
+      document.getElementById('k-s').textContent = nf().format(new Set(ALL.map((r) => r.imo)).size);
+      document.getElementById('k-h').textContent = root.slice(0, 16) + '…' + root.slice(-8);
+      document.getElementById('k-h').title = root;
+      document.getElementById('k-u').textContent = day(fl.updated);
+      buildFilters(); VIEW = ALL; render();
+      if (location.hash.length > 3) open(decodeURIComponent(location.hash.slice(1)), false);
+    } catch (e) {
+      document.getElementById('rows').textContent = tt('Could not load the registry data.');
+    }
+  }
+
+  document.getElementById('rows').addEventListener('click', (e) => { const r = e.target.closest('.r'); if (r) open(r.dataset.id); });
+  document.getElementById('rows').addEventListener('keydown', (e) => { const r = e.target.closest('.r'); if (r && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(r.dataset.id); } });
+  ['q', 'f-m', 'f-t', 'f-p', 'f-c'].forEach((id) => document.getElementById(id).addEventListener('input', () => { SHOWN = 60; filter(); }));
+  document.getElementById('d-x').addEventListener('click', () => document.getElementById('dlg').close());
+  document.getElementById('dlg').addEventListener('close', () => history.replaceState(null, '', location.pathname + location.search));
+  document.getElementById('dlg').addEventListener('click', (e) => { if (e.target.id === 'dlg') e.target.close(); });
+  document.getElementById('dl-csv').addEventListener('click', () => {
+    const lines = [FIELDS.join(',')].concat(VIEW.map((r) => FIELDS.map((k) => csvCell(r[k])).join(',')));
+    save('api16-cargo-registry.csv', '﻿' + lines.join('\n'), 'text/csv;charset=utf-8');
+  });
+  document.getElementById('dl-json').addEventListener('click', () => {
+    save('api16-cargo-registry.json', JSON.stringify({ ...META, count: VIEW.length, fields: FIELDS, records: VIEW.map(pub) }, null, 2), 'application/json');
+  });
+  document.getElementById('lang-btn').addEventListener('click', () => {
+    LANG = LANG === 'es' ? 'en' : 'es';
+    try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
+    applyAll(); if (ALL.length) { buildFilters(); filter(); document.getElementById('k-u').textContent = day(META.updated); }
+  });
+  applyAll(); load();
+})();
+</script>
+</body>
+</html>
