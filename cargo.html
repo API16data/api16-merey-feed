@@ -100,8 +100,8 @@
       <b>API16</b>
     </a>
     <nav aria-label="Main">
-      <a href="registry.html" aria-current="page" data-t="Registry">Registry</a>
-      <a href="monitor.html" data-t="Monitor">Monitor</a>
+      <a href="registry.html" data-t="Registry">Registry</a>
+      <a href="monitor.html" data-t="Market">Market</a>
       <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
     </nav>
   </div>
@@ -166,7 +166,7 @@
 <script>
 (() => {
   const ES = {
-    'Registry': 'Registro', 'Monitor': 'Monitor', '← All cargoes': '← Todas las cargas', 'CARGO PASSPORT': 'PASAPORTE DE CARGA',
+    'Registry': 'Registro', 'Market': 'Mercado', '← All cargoes': '← Todas las cargas', 'CARGO PASSPORT': 'PASAPORTE DE CARGA',
     'barrels (estimated)': 'barriles (estimados)', 'at Merey price': 'a precio Merey', 'days at sea': 'días de viaje',
     '▶ Replay voyage': '▶ Ver el viaje', 'Verifiable record': 'Registro verificable',
     'soon': 'Huella digital (SHA-256) de este registro. Siguiente paso: anclarla cada día en Base, para que cualquiera compruebe que nunca se cambió.',
@@ -276,7 +276,7 @@
         p: casec ? (LANG === 'es' ? r.case.verdict_es || r.case.verdict : r.case.verdict)
           : official ? T('API16 counted ', 'API16 contó ') + nf(0).format(m.high_kbd) + T('k b/d this month vs ', ' mil b/d ese mes vs. ') + nf(0).format(m.official_kbd) + T('k b/d in ', ' mil b/d en ') + official + T(' (', ' (') + nf(0).format((m.coverage || 0) * 100) + T('% coverage). Official data is by month, not by cargo.', '% de cobertura). El dato oficial es por mes, no por carga.')
           : T('U.S. customs publishes about five weeks after the month ends; EIA weekly numbers are preliminary.', 'La aduana de EE. UU. publica unas cinco semanas después del cierre del mes; las cifras semanales de la EIA son preliminares.'),
-        link: r.case ? ['ledger.html#' + r.case.id, T('See the case →', 'Ver el caso →')] : null },
+        link: null },
     ];
   }
 
