@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "94967e48b183",
+   "date": "2026-11-23T02:47Z",
+   "title": "India boosts Venezuelan oil imports, strengthens US energy ties",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRnlzblcyejJ6OFVmMXdtQ1M3V2loQVBVNWFva2x5c3hSdjZpVll1dXFRaG84REJWZFlXcTBic3lraTVfcXlLX2NUQlpHN21qdVpEZ3VmWnZBZm81Y0htb1J3WURTb3pQMWNiNGlDODdKVldvVW9qRlBtY0VIR0RpUjhzaVBISHVsSTRiQjBrTWtOMk1F?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
    "id": "67633daac40e",
    "date": "2026-11-23T02:40Z",
    "title": "US-India energy ties tighten as New Delhi snaps up Venezuelan oil",
@@ -1317,6 +1327,16 @@
    "source": "EnergyNow.com",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmM3d1phWkVLYm5BdHRDTVc1SmNmUkY0ckRCLThSTEI0dWYxU3dNa2lqaGJ1dGVWTk1KNkFjOU5FSFNuS2JXOHEydm5ZT0pUVmw4VFhFdUMwNllBT1BzT0g3eVJWRUZIakJQV2lLbjU4VjFPQ1l3SzdhMkF3NjJXcjBjYkVQLVNPTFU5QVVqbHlCSFEwOU14Wk4xWS0tVzZTVzFVckstV1o2c0dPWHA1QnRucXJYN2tlR2xyN20xRm5DNTZI?oc=5",
    "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "6e32736311c3",
+   "date": "2026-11-20T15:28Z",
+   "title": "Venezuela’s Oil Exports Surpassed 1 Million Bpd for the First in 6 months, Shipping Data Shows",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0hoOUNPLV9BSU5MdjZYMnk3bTNMbjhKQXBjNjRjenh3b0F4eWU4a1RBaWtBM1BUUzdVX2FBLXNlRkRsTVJxejg5VjJGMFpmVEdVQkE4czF5ckpSOU1qYWJqZk14UmxoWlhzNXJXU0xTa2htZjFzcFhlNC10M0lHU21DWk9tTjdlYW5LUEpnT0pWSjhobUdpQWVtdHllblExclctR2hNQllzbUpTX3dCQWs3Tm1kZnZfRXA1V1hSR0g?oc=5",
+   "category": "Exports",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -7671,26 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "6c8b89e9b08b",
-   "date": "2026-11-15T13:08Z",
-   "title": "ConocoPhillips Says Venezuela’s Bid to Woo Oil Firms Falls Short",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjdicDM2S05CMFpfRC1sU2NxdlJTLVFzbGN5czM1VmpobGpzY3VPb2NVMWZmQ0VfWUtYQVJBU1FmMFNuaVg3aWFLaUVISmtId2F5UjR5TW5WSEtJTDNUWjZrYTFfbTJTdWFDbTRvWjd1QUVLWnNvSlhsUmduRVdiRU10emFCSjFVdy1yRHkxNHpCSEUxdWQtVQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "bf848c17969b",
-   "date": "2026-11-15T13:06Z",
-   "title": "Trump Demands Lower Gas Prices From Oil Companies, Chides Chevron CEO",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFJ6YmgybVVRNmhHYmszYmhFVkw0T1JFQVFNUWk0SlRVMk12T3dZQzl5UmcxX1U0TGVqajI2WUJfRnhJOVhzdWt1XzBoQ3BXQXNuREhoZTg0eExLQjNLenYzd3pJeXZiZkExbG92UGFEbEU3Z2FmbWRTdGRYVURfVVl2NC1EYkIwaDl4V3JaQmRtb3ZHX05yYmRYZklwUEpy?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-23T02:48:24Z",
+ "updated": "2026-11-23T03:52:34Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8094,6 +8094,15 @@
    "featured": true
   },
   {
+   "date": "2026-11-23T02:47Z",
+   "title": "India boosts Venezuelan oil imports, strengthens US energy ties",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRnlzblcyejJ6OFVmMXdtQ1M3V2loQVBVNWFva2x5c3hSdjZpVll1dXFRaG84REJWZFlXcTBic3lraTVfcXlLX2NUQlpHN21qdVpEZ3VmWnZBZm81Y0htb1J3WURTb3pQMWNiNGlDODdKVldvVW9qRlBtY0VIR0RpUjhzaVBISHVsSTRiQjBrTWtOMk1F?oc=5",
+   "category": "Exports",
+   "angle": "Cargo flow: the barrels API16 tracks and verifies",
+   "key_figure": null
+  },
+  {
    "date": "2026-11-22T13:02Z",
    "title": "Ensign Energy Plans to Expand Venezuela Rig Fleet to 15 Over Two Years",
    "source": "Egypt Oil & Gas",
@@ -8103,22 +8112,13 @@
    "key_figure": null
   },
   {
-   "date": "2026-11-20T11:25Z",
-   "title": "Venezuela’s Oil Exports Fell Slightly to 1.2 Million Bpd in June, Data Says",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZEVSNzd1SEF4WlRGWGx1SlMxZ0FldE1jSjhtRnNKSWFvUjJ5VTJZanNNRTI2YmZ6QlNZNWV2RjNHVzA5SHFtQ1hERGl3blQ1NlIyZWNUOWpJNGRaVjhoWjZNMHppbnhkNVZueDBhVHhqcExUV1k1alJwTktnSGFfajVOeGJLQ1RkVmxCSXY1bWd5aUVUcXRUNjlhQXFDRDBhOWNTOUVMbw?oc=5",
+   "date": "2026-11-21T18:14Z",
+   "title": "Ensign plans important expansion to 15 rigs in Venezuela",
+   "source": "Inspenet",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HRXZab2U5TklfNVV3bUtsX1htNHdORnVoQVhiN2p3Z1lVQnhUUmtsY0wxNTYxMEVKV2pTWFNTQXJ4U0FZaHpfWTBpcFBGbkFZcmRGVVZXdVRzOW5oYUZJS0w4TVlZMzc5YW15N2QwUHJsTDA3?oc=5",
    "category": "Exports",
    "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": "1.2 Million Bpd"
-  },
-  {
-   "date": "2026-11-20T10:10Z",
-   "title": "Venezuela Stabilizes Oil Production at 1.269 Million Barrels Per Day",
-   "source": "PravdaReport",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaTExSFhIcVV1YVpKWWNEYnkxSTB4UDlyRW9qRHBQMnEtYVBfbFVlYmgyckdRdjhMVTlkM3hIRFU4NG5VUWRTWTJHU1k0TW40TGl3X1lJb0R6aVhXMUxTN05ObHF3V2dBNWprcEZiUk96UThsdVdRZHFUOENINEdDUElnaGdUUFV4UGlKZFRtdEo1TEFveXc?oc=5",
-   "category": "Production",
-   "angle": "More supply: more barrels heading to market",
-   "key_figure": "1.269 Million Barrels"
+   "key_figure": null
   }
  ]
 }
