@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "846e7004e81a",
+   "date": "2026-11-22T23:44Z",
+   "title": "Ecopetrol busca acelerar la compra de gas venezolano y espera por Pdvsa y EE UU",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTll1bzR5NHQ5MUVpRWRJZS0xbnJDdGh2eWlCekdLeF9GNEpRaFdMdkZIdUYyVXlCdzVLRUVrSnhhYkZkY3BEUlFmYkhFNUJrX1RZREp6cDFNY3l4TEVmQjZ5OTg1REdZSEtFVzJGN1FydVNEZTJZY1lrNndvQ3NaZzZqelhJZVNqQzQzV1RMeWRkenVCeXBCV3ZDMWphYzhscXhVRm5mV2U1WFh1eU9IT2V2MDNzZw?oc=5",
+   "category": "Gas",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "d197f24c1fcd",
    "date": "2026-11-22T21:44Z",
    "title": "La Faja Petrolífera del Orinoco impulsa el bombeo de crudo nacional",
@@ -758,6 +768,16 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFFEVzRnNFRtTTUyY1oxYVFWcTEyUmJuSk0yTXV2dE9hRzFQU2lDSDRiWElhU3hPcURaMndlZHJxT2hMdlhfV3F0TTc3cTNOTWJwR0hCX3pTUzNRMFViU2JuRGp5S3FCNzM4RzZCRXlTYW5uSGNSelJoRGVGdGRCcWI4VE04cW5jU1NF?oc=5",
    "category": "Production",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "55f8f421e26a",
+   "date": "2026-11-20T22:26Z",
+   "title": "An Ex-Trump Buddy’s Exit Offers Clues on Venezuela’s Next Phase",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPakhMWVlsMHVaTmlCQUZHLXFDcjlRcjdmNnJXZ2l0RkZGZkZiOFB6QjBRb2xjQ1JSM3YwblhvTThoa3pISHVyekluWExmNGxmT1VYSnkxYWpoQW9YMXJrTXR2Y05KYlp5by1aMmJzUjdSMjhXTmstLUVBVmNYY3ByaHk0Qm9IeWp0OEJ4MlNHdjQybHdYajk0?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -7671,26 +7691,6 @@
    "origin": "rss"
   },
   {
-   "id": "17e7a49b5521",
-   "date": "2026-11-15T11:22Z",
-   "title": "US Energy Secretary Says Venezuela Oil Output to More Than Double in Next Few Years",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRjJyc3dFd2JBMFlRSldjbC1oMGRMWDhEV0pxeTZORkJKcE1kSVNzaVI0c1JlQ0huQUI4VFdLTTJEeVBDa2NxQ3lKNmpxR1BtbTh1M0dOTUJoVWhuSHVmMjdoUlFrRU5JMjllZ085SFpEaFY0MDhIcnBKX0xBWUZqN2tBcHRPQXduMkg1eTRPRnhMSGFyX29jRDBvM1lUak9uRC1BRW9VZVpEMDlsVDIwOC12Yw?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "82672cd48170",
-   "date": "2026-11-15T10:42Z",
-   "title": "PDVSA: Prevé cerrar este año con una distribución diaria de 140.000 barriles de combustible",
-   "source": "Confirmado",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUk1iMVZfNW5BbFlycmo1WWZJU0wtck9DS3ljbmRBTlZfenRQY3QwSDFIaENpQ3dEeHdmek5KeUp1aTU5SmlubEpDRW1RczN5U3ZYVGRfNjFqZzRDVENuQ1Q3cGxNTm0xYUE5TVNWek14dk5SRXVvRS1fUGkyNDhRekRaUGd3OUFWQjVWeVBoaC1XUlpZdWZBZGxXdWZ3NnFNQk5oNmRjVmlXT3VfcUp1ZHlXRFV0X0Ux?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8049,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-22T23:10:22Z",
+ "updated": "2026-11-23T00:09:07Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
