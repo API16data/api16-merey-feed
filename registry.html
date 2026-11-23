@@ -126,7 +126,7 @@
   <div class="wrap">
     <p class="kick" data-t="Cargo Registry · Venezuela → U.S.">Cargo Registry · Venezuela → U.S.</p>
     <h1 data-t="Every cargo, one record.">Every cargo, one record.</h1>
-    <p data-t="intro">Each tanker voyage from a Venezuelan crude terminal to a U.S. refinery gets a permanent ID, an estimated volume and value, the public evidence behind it, and a digital fingerprint. Search it, cite it, download it.</p>
+    <p data-t="intro">Every Venezuelan crude voyage to a U.S. refinery, with its evidence. Tap a cargo to open its passport.</p>
     <div class="kpis">
       <div><b id="k-n">—</b><span data-t="cargoes in the registry">cargoes in the registry</span></div>
       <div><b id="k-b">—</b><span data-t="million barrels (estimated)">million barrels (estimated)</span></div>
@@ -185,7 +185,7 @@
   const ES = {
     'Crude flow': 'Flujo de crudo', 'Registry': 'Registro', 'Cargo Ledger': 'Cargo Ledger',
     'Cargo Registry · Venezuela → U.S.': 'Registro de cargas · Venezuela → EE. UU.', 'Every cargo, one record.': 'Cada carga, un registro.',
-    'intro': 'Cada viaje de un tanquero desde una terminal de crudo venezolana hasta una refinería de EE. UU. recibe un ID permanente, un volumen y un valor estimados, la evidencia pública que lo respalda y una huella digital. Búscalo, cítalo, descárgalo.',
+    'intro': 'Cada viaje de crudo venezolano a una refinería de EE. UU., con su evidencia. Toca una carga para ver su pasaporte.',
     'cargoes in the registry': 'cargas en el registro', 'million barrels (estimated)': 'millones de barriles (estimados)', 'US$ million at Merey price': 'millones de US$ a precio Merey', 'different tankers': 'tanqueros distintos',
     'Registry fingerprint (SHA-256)': 'Huella del registro (SHA-256)', 'updated': 'actualizado',
     'Ship, IMO or ID': 'Barco, IMO o ID', 'Download CSV': 'Descargar CSV', 'Download JSON': 'Descargar JSON',
@@ -369,14 +369,14 @@
       document.getElementById('k-h').title = root;
       document.getElementById('k-u').textContent = day(fl.updated);
       buildFilters(); VIEW = ALL; render();
-      if (location.hash.length > 3) open(decodeURIComponent(location.hash.slice(1)), false);
+      if (location.hash.length > 3) { location.replace('cargo.html' + location.hash); return; }
     } catch (e) {
       document.getElementById('rows').textContent = tt('Could not load the registry data.');
     }
   }
 
-  document.getElementById('rows').addEventListener('click', (e) => { const r = e.target.closest('.r'); if (r) open(r.dataset.id); });
-  document.getElementById('rows').addEventListener('keydown', (e) => { const r = e.target.closest('.r'); if (r && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(r.dataset.id); } });
+  document.getElementById('rows').addEventListener('click', (e) => { const r = e.target.closest('.r'); if (r) location.href = 'cargo.html#' + encodeURIComponent(r.dataset.id); });
+  document.getElementById('rows').addEventListener('keydown', (e) => { const r = e.target.closest('.r'); if (r && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); location.href = 'cargo.html#' + encodeURIComponent(r.dataset.id); } });
   ['q', 'f-m', 'f-t', 'f-p', 'f-c'].forEach((id) => document.getElementById(id).addEventListener('input', () => { SHOWN = 60; filter(); }));
   document.getElementById('d-x').addEventListener('click', () => document.getElementById('dlg').close());
   document.getElementById('dlg').addEventListener('close', () => history.replaceState(null, '', location.pathname + location.search));
