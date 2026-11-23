@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>API16 Monitor · Venezuelan Oil</title>
+<title>API16 · Market</title>
 <meta name="description" content="Open, verifiable data on Venezuelan oil: Merey vs Brent, tankers on AIS, U.S. imports by refinery, sanctions and news. Every number with its source.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,6 +98,12 @@
   .src { font-size: 12px; color: var(--muted); margin: 12px 0 0; padding-left: 18px; }
   .src li { margin: 2px 0; }
   .chart.tall { min-height: 300px; }
+  /* simplified view: price + news only */
+  .hero > p, #usimports, #tankers, #flows, #onchain, #verify, .lede, .note, .src, .kpis .kpi:nth-child(5) { display: none !important; }
+  .mainnav { display: flex; gap: 18px; align-items: center; font-size: 14px; }
+  .mainnav a { color: #C9D2DF; text-decoration: none; }
+  .mainnav a[aria-current] { color: #E2A548; }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
   @media (prefers-color-scheme: dark) { .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9); } }
 </style>
 </head>
@@ -108,15 +114,17 @@
       <svg viewBox="0 0 240 240" aria-hidden="true"><defs><mask id="mk" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><polyline points="117,166 168.8,74.1" stroke="#000" stroke-width="29" fill="none"/><circle cx="168.8" cy="74.1" r="21" fill="#000"/></mask></defs><path d="M120,8 L54.05,97.28 A82,82 0 1 0 185.95,97.28 Z" fill="none" stroke="#fff" stroke-width="15" mask="url(#mk)"/><polyline points="56,186 94,134 117,166 168.8,74.1" fill="none" stroke="#C8892B" stroke-width="13"/><circle cx="168.8" cy="74.1" r="12" fill="#C8892B"/></svg>
       <b>API16</b>
     </a>
-    <nav aria-label="Sections">
-      <a href="#usimports">US imports</a><a href="#tankers">Tankers</a><a href="#prices">Prices</a><a href="#flows">Flows</a><a href="#news">News</a><a href="#onchain">On-chain</a><a href="#verify">Verify</a>
+    <nav aria-label="Main" class="mainnav">
+      <a href="registry.html">Registry</a>
+      <a href="monitor.html" aria-current="page">Market</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
     </nav>
   </div>
 </header>
 
 <main class="wrap">
   <div class="hero">
-    <h1>Venezuelan oil, verified.</h1>
+    <h1>Market</h1>
     <p>Open data on the barrels behind Venezuela's recovery: Merey vs Brent, tankers on AIS, U.S. imports by refinery, sanctions and news. Every number links to its source. Data first; tokenized products come later, audited and legal.</p>
     <div class="stamp"><span class="live-dot" aria-hidden="true"></span><span id="stamp">Loading live data…</span></div>
   </div>
@@ -325,10 +333,10 @@
   }
 
   // ---------- news ----------
-  let NEWS = [], pick = 'All', shown = 40;
+  let NEWS = [], pick = 'All', shown = 10;
   function drawNews() {
     const cats = ['All', ...[...new Set(NEWS.map((n) => n.category))].sort()];
-    $('chips').replaceChildren(...cats.map((c) => { const b = el('button', c, 'chip'); b.type = 'button'; b.setAttribute('aria-pressed', String(c === pick)); b.onclick = () => { pick = c; shown = 40; drawNews(); }; return b; }));
+    $('chips').replaceChildren(...cats.map((c) => { const b = el('button', c, 'chip'); b.type = 'button'; b.setAttribute('aria-pressed', String(c === pick)); b.onclick = () => { pick = c; shown = 10; drawNews(); }; return b; }));
     const list = NEWS.filter((n) => pick === 'All' || n.category === pick);
     $('newslist').replaceChildren(...list.slice(0, shown).map((n) => {
       const li = el('li'); const t = el('time', n.date.slice(0, 10)); t.dateTime = n.date;
@@ -339,7 +347,7 @@
     }));
     $('more').hidden = list.length <= shown;
   }
-  $('more').onclick = () => { shown += 40; drawNews(); };
+  $('more').onclick = () => { shown += 10; drawNews(); };
 
   // ---------- load everything ----------
   let cache = {};
@@ -452,6 +460,28 @@
   load().catch((e) => { $('stamp').textContent = 'Could not load data.'; $('stamp').className = 'err'; });
   setInterval(() => load().catch(() => {}), 5 * 60 * 1000); // refresh every 5 minutes
   let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(drawCharts, 200); });
+})();
+</script>
+<script>
+(() => {
+  const ES = { 'Registry': 'Registro', 'Market': 'Mercado', 'Merey discount': 'Descuento del Merey', 'USD/bbl, OPEC monthly avg': 'US$/bbl, promedio mensual OPEP',
+    'USD/bbl, EIA daily spot': 'US$/bbl, spot diario EIA', 'Brent − Merey, same month': 'Brent − Merey, mismo mes', 'thousand b/d, EIA': 'mil b/d, EIA',
+    'Monthly average, USD/bbl': 'Promedio mensual, US$/bbl', 'Brent daily, last 120 trading days': 'Brent diario, últimas 120 sesiones',
+    'Venezuela oil intel': 'Noticias del petróleo venezolano', 'Show more': 'Ver más', 'Merey discount': 'Descuento del Merey' };
+  let LANG = 'en';
+  try { const q = new URLSearchParams(location.search).get('lang'); LANG = q === 'es' || q === 'en' ? q : (localStorage.getItem('api16-lang') || ((navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en')); } catch (e) { /* storage blocked */ }
+  const nodes = [];
+  const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT); let n;
+  while ((n = w.nextNode())) { const k = n.nodeValue.trim(); if (k && ES[k] && !n.parentElement.closest('script')) nodes.push([n, n.nodeValue, k]); }
+  const apply = () => {
+    document.documentElement.lang = LANG;
+    nodes.forEach(([node, raw, k]) => { node.nodeValue = LANG === 'es' ? raw.replace(k, ES[k]) : raw; });
+    const h = document.querySelector('.hero h1'); if (h) h.textContent = LANG === 'es' ? 'Mercado' : 'Market';
+    document.getElementById('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+    document.title = LANG === 'es' ? 'API16 · Mercado' : 'API16 · Market';
+  };
+  document.getElementById('lang-btn').addEventListener('click', () => { LANG = LANG === 'es' ? 'en' : 'es'; try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ } apply(); });
+  apply();
 })();
 </script>
 </body>
