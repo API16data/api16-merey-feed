@@ -106,6 +106,7 @@
   .stg5 div { border-top: 5px solid var(--line); padding-top: 4px; font-size: 11.5px; color: var(--muted); line-height: 1.3; }
   .stg5 div.done { border-color: var(--ok); color: var(--fg); }
   @media (max-width: 560px) { .stg5 div { font-size: 10.5px; } }
+  @media (max-width: 480px) { .bar nav { gap: 12px; font-size: 13px; } .bar nav a[href="flow.html"] { display: none; } }
   footer { border-top: 1px solid var(--line); padding-block: 26px 40px; font-size: 12px; color: var(--muted); }
   footer .wrap { display: flex; gap: 12px 24px; flex-wrap: wrap; justify-content: space-between; max-width: 1120px; }
 </style>
@@ -119,6 +120,7 @@
     </a>
     <nav aria-label="Main">
       <a href="flow.html">Crude flow</a>
+      <a href="registry.html">Registry</a>
       <a href="ledger.html" aria-current="page">Cargo Ledger</a>
       <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
     </nav>
@@ -157,7 +159,7 @@
 (() => {
   const $ = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
   const ES = {
-    'Crude flow': 'Flujo de crudo', 'Cargo Ledger · proof of cargo': 'Cargo Ledger · prueba de carga', 'Is this cargo real?': '¿Esta carga es real?',
+    'Crude flow': 'Flujo de crudo', 'Registry': 'Registro', 'Cargo Ledger · proof of cargo': 'Cargo Ledger · prueba de carga', 'Is this cargo real?': '¿Esta carga es real?',
     'Each case is one tanker. We check, step by step and with public evidence, whether it really carried Venezuelan crude to the U.S.':
       'Cada caso es un tanquero. Revisamos, paso a paso y con evidencia pública, si de verdad llevó crudo venezolano a EE. UU.',
     'It is announced or detected': 'Se anuncia o se detecta', 'A press release, the news, or API16’s own tracking sees the ship.': 'Un comunicado, la prensa o el propio rastreo de API16 ve el barco.',
