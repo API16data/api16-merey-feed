@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>API16 · Cargo Passport</title>
+<meta name="description" content="One Venezuelan crude cargo, from terminal to U.S. refinery: the route, the barrels, the value and the evidence, with a digital fingerprint.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --ink: #0F1B2D; --amber: #C8892B; --amber2: #E2A548; --steel: #7FA3D9;
+    --bg: #F6F7F9; --panel: #FFFFFF; --fg: #0F1B2D; --muted: #5A6577; --line: #E1E5EB;
+    --ok: #1E7F4F; --part: #A86A12; --pend: #8A94A6;
+    --display: "Montserrat", "Segoe UI", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0B1320; --panel: #111C2D; --fg: #E7ECF3; --muted: #9AA6B8; --line: #22324A; --ok: #4CC38A; --part: #E2A548; --pend: #6B7890; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .bar { position: sticky; top: 0; z-index: 1000; background: var(--ink); color: #fff; border-bottom: 1px solid #22324A; }
+  .bar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px; max-width: 1120px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand svg { width: 28px; height: 28px; }
+  .brand b { font: 800 21px/1 var(--display); }
+  .bar nav { display: flex; gap: 18px; font-size: 14px; align-items: center; }
+  .bar nav a { color: #C9D2DF; text-decoration: none; white-space: nowrap; }
+  .bar nav a:hover, .bar nav a[aria-current] { color: var(--amber2); }
+  .lang { font: 600 12px var(--mono); color: #0F1B2D; background: #E2A548; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; }
+  .head { background: var(--ink); color: #fff; }
+  .head .wrap { padding-block: 22px 26px; display: grid; gap: 14px; }
+  .back { font: 500 13px var(--mono); color: #9FB1C9; text-decoration: none; }
+  .back:hover { color: var(--amber2); }
+  .idline { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font: 500 13px var(--mono); color: #9FB1C9; }
+  .tag { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; padding: 3px 9px; border-radius: 999px; background: rgba(76,195,138,.16); color: #4CC38A; }
+  .tag.possible { background: rgba(226,165,72,.18); color: #E2A548; }
+  h1 { font: 800 clamp(30px, 6vw, 52px)/1.02 var(--display); margin: 0; letter-spacing: -.01em; }
+  .route { font: 600 clamp(16px, 2.4vw, 20px)/1.3 var(--body); color: #C9D2DF; margin: 0; }
+  .route b { color: var(--amber2); font-weight: 600; }
+  .nums { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .nums div { background: rgba(255,255,255,.06); border: 1px solid #22324A; border-radius: 14px; padding: 14px 16px; min-width: 0; }
+  .nums b { display: block; font: 600 clamp(22px, 4.4vw, 34px)/1.1 var(--mono); color: #fff; overflow-wrap: anywhere; }
+  .nums span { font-size: 12.5px; color: #9FB1C9; }
+  @media (max-width: 520px) { .nums { grid-template-columns: 1fr 1fr; } .nums div:last-child { grid-column: 1 / -1; } }
+  main .wrap { padding-block: 18px 40px; display: grid; gap: 18px; }
+  .mapbox { position: relative; }
+  #map { height: clamp(320px, 52vh, 520px); border-radius: 16px; border: 1px solid var(--line); background: #0B1320; }
+  .replay { position: absolute; z-index: 500; right: 12px; bottom: 30px; font: 600 13px var(--mono); background: var(--amber2); color: #0F1B2D; border: 0; border-radius: 10px; padding: 10px 14px; cursor: pointer; min-height: 44px; }
+  .mapnote { position: absolute; z-index: 500; left: 12px; top: 12px; font: 500 12px var(--mono); background: rgba(11,19,32,.82); color: #C9D2DF; border-radius: 8px; padding: 6px 10px; pointer-events: none; }
+  .steps { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; list-style: none; margin: 0; padding: 0; }
+  .steps button { width: 100%; text-align: left; background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-top: 6px solid var(--pend); border-radius: 12px; padding: 12px 12px 10px; cursor: pointer; min-height: 88px; display: grid; gap: 4px; align-content: start; font: inherit; }
+  .steps button.s-ok { border-top-color: var(--ok); }
+  .steps button.s-part { border-top-color: var(--part); }
+  .steps button[aria-pressed="true"] { border-color: var(--amber); box-shadow: 0 0 0 2px color-mix(in srgb, var(--amber) 35%, transparent); border-top-width: 6px; }
+  .steps .n { font: 600 11px var(--mono); color: var(--muted); letter-spacing: .06em; }
+  .steps .t { font: 700 15px/1.2 var(--body); }
+  .steps .v { font: 500 12.5px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+  @media (max-width: 760px) { .steps { grid-template-columns: 1fr 1fr; } .steps li:last-child { grid-column: 1 / -1; } }
+  .detail { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 6px; }
+  .detail .st { font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+  .detail .st.ok { color: var(--ok); } .detail .st.part { color: var(--part); } .detail .st.pend { color: var(--pend); }
+  .detail h2 { font: 700 19px/1.25 var(--body); margin: 0; }
+  .detail p { margin: 0; color: var(--muted); font-size: 14px; }
+  .detail a { color: var(--amber); font-weight: 600; font-size: 14px; }
+  .seal { display: grid; grid-template-columns: auto 1fr; gap: 14px 18px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 18px; }
+  .seal .ring { width: 84px; height: 84px; border-radius: 50%; border: 3px double var(--amber2); display: grid; place-items: center; text-align: center; font: 600 10.5px/1.2 var(--mono); color: var(--amber); letter-spacing: .06em; transform: rotate(-8deg); }
+  .seal h2 { font: 700 18px/1.2 var(--body); margin: 0 0 4px; }
+  .seal .hash { font: 500 12px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+  @media (max-width: 520px) { .seal { grid-template-columns: 1fr; } .seal .ring { width: 70px; height: 70px; } }
+  .seal .acts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn { font: 600 13px var(--mono); color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; cursor: pointer; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
+  .btn:hover { border-color: var(--amber); color: var(--amber); }
+  .btn.pri { background: var(--amber2); color: #0F1B2D; border-color: var(--amber2); }
+  .soon { font: 500 12px var(--mono); color: var(--muted); }
+  .others h2 { font: 700 16px var(--body); margin: 0 0 8px; }
+  .others div { display: flex; flex-wrap: wrap; gap: 8px; }
+  .others a { font: 500 12.5px var(--mono); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; background: var(--panel); }
+  .others a:hover { border-color: var(--amber); }
+  .note { font-size: 12.5px; color: var(--muted); margin: 0; }
+  .leaflet-container { font: 13px var(--body); }
+  .leaflet-tooltip.lbl { background: #0F1B2D; color: #fff; border: 1px solid #2A3E5C; font: 600 12px var(--mono); box-shadow: none; }
+  .leaflet-tooltip.lbl::before { border-top-color: #2A3E5C; }
+  footer { border-top: 1px solid var(--line); padding-block: 22px 36px; font-size: 12px; color: var(--muted); }
+  footer .wrap { display: flex; gap: 12px 24px; flex-wrap: wrap; justify-content: space-between; max-width: 1120px; }
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="API16 home">
+      <svg viewBox="0 0 240 240" aria-hidden="true"><defs><mask id="mk" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><polyline points="117,166 168.8,74.1" stroke="#000" stroke-width="29" fill="none"/><circle cx="168.8" cy="74.1" r="21" fill="#000"/></mask></defs><path d="M120,8 L54.05,97.28 A82,82 0 1 0 185.95,97.28 Z" fill="none" stroke="#fff" stroke-width="15" mask="url(#mk)"/><polyline points="56,186 94,134 117,166 168.8,74.1" fill="none" stroke="#C8892B" stroke-width="13"/><circle cx="168.8" cy="74.1" r="12" fill="#C8892B"/></svg>
+      <b>API16</b>
+    </a>
+    <nav aria-label="Main">
+      <a href="registry.html" aria-current="page" data-t="Registry">Registry</a>
+      <a href="monitor.html" data-t="Monitor">Monitor</a>
+      <button type="button" id="lang-btn" class="lang" aria-label="Español / English">ES</button>
+    </nav>
+  </div>
+</header>
+
+<section class="head">
+  <div class="wrap">
+    <a class="back" href="registry.html" data-t="← All cargoes">← All cargoes</a>
+    <div class="idline"><span data-t="CARGO PASSPORT">CARGO PASSPORT</span><span id="cid">—</span><span class="tag" id="conf" hidden></span></div>
+    <h1 id="ship">…</h1>
+    <p class="route" id="route">&nbsp;</p>
+    <div class="nums">
+      <div><b id="n-bbl">—</b><span data-t="barrels (estimated)">barrels (estimated)</span></div>
+      <div><b id="n-usd">—</b><span id="n-usd-l" data-t="at Merey price">at Merey price</span></div>
+      <div><b id="n-days">—</b><span data-t="days at sea">days at sea</span></div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <div class="mapbox">
+      <div id="map" role="img" aria-label="Map of this cargo's route"></div>
+      <span class="mapnote" id="mapnote"></span>
+      <button type="button" class="replay" id="replay" data-t="▶ Replay voyage">▶ Replay voyage</button>
+    </div>
+
+    <ol class="steps" id="steps" aria-label="Evidence, step by step"></ol>
+    <div class="detail" id="detail" aria-live="polite"></div>
+
+    <div class="seal">
+      <div class="ring" aria-hidden="true"><span id="ring-t">API16<br>VERIFIABLE</span></div>
+      <div>
+        <h2 data-t="Verifiable record">Verifiable record</h2>
+        <div class="hash" id="hash">—</div>
+        <p class="soon" data-t="soon">Digital fingerprint (SHA-256) of this record. Next: anchored every day on Base, so anyone can check it was never changed.</p>
+      </div>
+      <div class="acts">
+        <button type="button" class="btn pri" id="share" data-t="Share this cargo">Share this cargo</button>
+        <button type="button" class="btn" id="dl" data-t="Download record">Download record</button>
+        <a class="btn" id="vf" target="_blank" rel="noopener" data-t="Ship profile ↗">Ship profile ↗</a>
+      </div>
+    </div>
+
+    <section class="others" id="others" hidden>
+      <h2 data-t="Other voyages of this ship">Other voyages of this ship</h2>
+      <div id="others-list"></div>
+    </section>
+
+    <p class="note" data-t="disclaimer">Evidence, not proof: volume is estimated from the ship's size (±20%) and value at the OPEC Merey price of the month. Not a bill of lading. Not financial advice.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span data-t="footer">API16 · Open data on Venezuelan oil. Port calls: Powered by Global Fishing Watch (CC BY-NC 4.0).</span>
+    <span><a href="./" data-t="Home">Home</a> · <a href="registry.html" data-t="Registry">Registry</a></span>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(() => {
+  const ES = {
+    'Registry': 'Registro', 'Monitor': 'Monitor', '← All cargoes': '← Todas las cargas', 'CARGO PASSPORT': 'PASAPORTE DE CARGA',
+    'barrels (estimated)': 'barriles (estimados)', 'at Merey price': 'a precio Merey', 'days at sea': 'días de viaje',
+    '▶ Replay voyage': '▶ Ver el viaje', 'Verifiable record': 'Registro verificable',
+    'soon': 'Huella digital (SHA-256) de este registro. Siguiente paso: anclarla cada día en Base, para que cualquiera compruebe que nunca se cambió.',
+    'Share this cargo': 'Compartir esta carga', 'Download record': 'Descargar ficha', 'Ship profile ↗': 'Ficha del barco ↗',
+    'Other voyages of this ship': 'Otros viajes de este barco', 'Home': 'Inicio',
+    'disclaimer': 'Evidencia, no prueba: el volumen se estima por el tamaño del barco (±20%) y el valor con el precio Merey de la OPEP del mes. No es un conocimiento de embarque. No es asesoría financiera.',
+    'footer': 'API16 · Datos abiertos sobre el petróleo venezolano. Escalas: Powered by Global Fishing Watch (CC BY-NC 4.0).'
+  };
+  let LANG = (() => {
+    try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'es' || q === 'en') return q; const v = localStorage.getItem('api16-lang'); if (v === 'es' || v === 'en') return v; } catch (e) { /* storage blocked */ }
+    return (navigator.language || '').toLowerCase().startsWith('es') ? 'es' : 'en';
+  })();
+  const T = (en, es) => (LANG === 'es' ? es : en);
+  const nf = (d = 0) => new Intl.NumberFormat(LANG === 'es' ? 'es-VE' : 'en-US', { maximumFractionDigits: d, minimumFractionDigits: d });
+  const MES = () => LANG === 'es' ? ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'] : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const day = (iso) => { if (!iso) return '—'; const d = new Date(iso); return LANG === 'es' ? d.getUTCDate() + ' ' + MES()[d.getUTCMonth()] + ' ' + d.getUTCFullYear() : MES()[d.getUTCMonth()] + ' ' + d.getUTCDate() + ', ' + d.getUTCFullYear(); };
+  const $ = (id) => document.getElementById(id);
+  const mk = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+  document.querySelectorAll('[data-t]').forEach((e) => { e.dataset.en = e.textContent; });
+  function applyStatic() {
+    document.documentElement.lang = LANG;
+    document.querySelectorAll('[data-t]').forEach((e) => { e.textContent = LANG === 'es' ? (ES[e.dataset.t] || e.dataset.en) : e.dataset.en; });
+    $('lang-btn').textContent = LANG === 'es' ? 'EN' : 'ES';
+  }
+
+  // ---------- geography (same sea routes as the home map) ----------
+  const ORIGIN = {
+    lake: [[10.72, -71.6], [11.0, -71.6], [11.85, -71.25], [12.65, -71.25], [14.3, -73.6], [16.6, -77.6]],
+    jose: [[10.15, -64.78], [10.85, -64.95], [12.1, -66.6], [14.0, -70.8], [16.6, -77.2]],
+    curacao: [[12.18, -69.05], [12.9, -69.6], [14.3, -72.6], [16.6, -77.4]],
+    aruba: [[12.43, -69.92], [13.1, -70.4], [14.4, -73.0], [16.6, -77.5]],
+    bonaire: [[12.2, -68.42], [12.9, -69.0], [14.3, -72.4], [16.6, -77.3]],
+  };
+  const GULF_WAY = [[19.2, -82.6], [21.45, -85.7], [23.9, -87.1]];
+  const PORTS = [
+    [/PORT NECHES|NEDERLAND/, 'Port Neches'], [/PORT ARTHUR|SABINE/, 'Port Arthur'], [/BEAUMONT/, 'Beaumont'], [/LAKE CHARLES|CALCASIEU/, 'Lake Charles'],
+    [/HOUSTON/, 'Houston'], [/FREEPORT/, 'Freeport'], [/CORPUS CHRISTI|INGLESIDE/, 'Corpus Christi'], [/GOLA/, 'Galveston lightering'], [/LOOP/, 'LOOP (Louisiana)'],
+    [/STEUTSPASS|SOUTH ?WEST PASS/, 'Southwest Pass (Mississippi)'], [/NEW ORLEANS/, 'New Orleans'], [/PASCAGOULA/, 'Pascagoula'], [/MOBILE/, 'Mobile'],
+    [/MARCUS HOOK/, 'Marcus Hook (Delaware)'], [/USA-1152/, 'U.S. Gulf anchorage'],
+  ];
+  const portName = (p) => { const u = String(p || '').toUpperCase(); const f = PORTS.find(([re]) => re.test(u)); return f ? f[1] : String(p || '').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()); };
+  const PORT_ES = { 'Southwest Pass (Mississippi)': 'Southwest Pass (Misisipi)', 'Galveston lightering': 'Galveston, alijo mar adentro', 'U.S. Gulf anchorage': 'Fondeadero del Golfo', 'LOOP (Louisiana)': 'LOOP (Luisiana)' };
+  const pn = (p) => { const n = portName(p); return LANG === 'es' ? (PORT_ES[n] || n) : n; };
+  const TERM = { 'Lake Maracaibo': ['Lake Maracaibo', 'Lago de Maracaibo'], 'Jose / Puerto La Cruz': ['José', 'José'], 'Caribbean hub': ['Caribbean hub', 'Hub del Caribe'] };
+  const tn = (t) => (TERM[t] ? TERM[t][LANG === 'es' ? 1 : 0] : t);
+  const originOf = (v) => { const s = String(v.from_port || '').toUpperCase(), t = v.terminal || ''; if (/Lake/.test(t)) return 'lake'; if (/Jose/.test(t)) return 'jose'; if (/ARUBA/.test(s)) return 'aruba'; if (/BONAIRE|KRALENDIJK/.test(s)) return 'bonaire'; return 'curacao'; };
+  const okLL = (ll) => Array.isArray(ll) && typeof ll[0] === 'number' && typeof ll[1] === 'number';
+  function catmull(pts, seg) {
+    const out = [];
+    for (let i = 0; i < pts.length - 1; i++) {
+      const p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
+      for (let j = 0; j < seg; j++) { const t = j / seg, t2 = t * t, t3 = t2 * t; out.push([0, 1].map((k) => 0.5 * ((2 * p1[k]) + (-p0[k] + p2[k]) * t + (2 * p0[k] - 5 * p1[k] + 4 * p2[k] - p3[k]) * t2 + (-p0[k] + 3 * p1[k] - 3 * p2[k] + p3[k]) * t3))); }
+    }
+    out.push(pts[pts.length - 1]); return out;
+  }
+  function routeFor(v, track) {
+    const dest = okLL(v.to_ll) ? v.to_ll : [28.7, -93.6];
+    const o = ORIGIN[originOf(v)].slice(); if (okLL(v.from_ll)) o[0] = v.from_ll;
+    const tp = (track || []).map(([d, la, lo]) => [la, lo]).filter(okLL);
+    if (tp.length >= 2) return { pts: catmull([o[0]].concat(tp, [dest]), 6), real: true };
+    let pts;
+    if (dest[1] > -82) pts = [o[0], o[1], [13.6, -67.4], [17.4, -67.9], [18.6, -67.9], [21.5, -69.5], [28.5, -74.5], [35.6, -74.9], [38.6, -74.6], dest];
+    else pts = o.concat(GULF_WAY, [[Math.min(dest[0] - 0.9, 28.2), dest[1] + (dest[1] < -96 ? 0.6 : 0)], dest]);
+    return { pts: catmull(pts, 10), real: false };
+  }
+
+  async function sha256(s) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); return [...new Uint8Array(b)].map((x) => x.toString(16).padStart(2, '0')).join(''); }
+  const getJ = (u) => fetch(u, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+
+  let ALL = [], R = null, MONTHS = {}, TRK = {}, map = null, routeLine = null, ship = null, anim = 0, stepSel = 0, CASES = [];
+
+  function build(fl, mb, lg) {
+    const mer = {}; (mb || []).forEach((x) => { if (x.merey) mer[x.month] = x.merey; });
+    const ms = Object.keys(mer).sort(), lastM = ms[ms.length - 1];
+    (fl.months || []).forEach((m) => { MONTHS[m.month] = m; });
+    CASES = ((lg && lg.cargoes) || []).filter((c) => c.mmsi && c.date);
+    const out = fl.voyages.map((v) => {
+      const month = v.left.slice(0, 7), mm = mer[month] ? month : lastM;
+      const id = 'VE-' + v.left.slice(0, 10).replace(/-/g, '') + '-' + v.imo;
+      const cs = CASES.find((c) => String(c.mmsi) === String(v.mmsi) && Math.abs(new Date(c.date) - new Date(v.left)) < 4 * 864e5);
+      return { ...v, id, month, merey: mer[mm], merey_month: mm, value_usd: Math.round(v.est_kbbl * 1000 * mer[mm]), case: cs || null };
+    });
+    const seen = {}; out.forEach((r) => { if (seen[r.id]) { seen[r.id] += 1; r.id += '-' + seen[r.id]; } else seen[r.id] = 1; });
+    return out;
+  }
+
+  function steps(r) {
+    const days = (new Date(r.arrived) - new Date(r.left)) / 864e5;
+    const m = MONTHS[r.arrived.slice(0, 7)] || MONTHS[r.month] || {};
+    const official = m.eia_monthly_kbd ? 'EIA' : m.customs_kbd ? T('U.S. customs', 'aduana de EE. UU.') : null;
+    const casec = r.case && r.case.verdict_status === 'confirmed';
+    return [
+      { k: 'dep', st: 'ok', t: T('Left', 'Zarpó'), v: tn(r.terminal) + ' · ' + day(r.left),
+        h: T('Left a Venezuelan crude terminal', 'Salió de una terminal de crudo venezolana'),
+        p: T('Port visit recorded by satellite and coastal AIS at ', 'Escala registrada por AIS satelital y costero en ') + pn(r.from_port) + ', ' + new Date(r.left).toISOString().slice(11, 16) + ' UTC. ' + T('Source', 'Fuente') + ': Global Fishing Watch.' },
+      { k: 'sea', st: 'part', t: T('At sea', 'En el mar'), v: nf(0).format(days) + T(' days', ' días'),
+        h: r.route.real ? T('Route followed by satellite', 'Ruta seguida por satélite') : T('Route estimated from the usual sea lane', 'Ruta estimada por la vía marítima habitual'),
+        p: r.route.real ? T('Daily positions from satellite AIS.', 'Posiciones diarias de AIS satelital.') : T('Satellite daily positions are paused at the provider; the line shows the usual route between both ports, not the exact track.', 'Las posiciones satelitales diarias están pausadas en el proveedor; la línea muestra la ruta habitual entre ambos puertos, no el trazado exacto.') },
+      { k: 'arr', st: 'ok', t: T('Arrived', 'Llegó'), v: pn(r.to_port) + ' · ' + day(r.arrived),
+        h: T('Arrived at a U.S. refining port', 'Llegó a un puerto refinador de EE. UU.'),
+        p: T('Port visit recorded at ', 'Escala registrada en ') + pn(r.to_port) + ', ' + new Date(r.arrived).toISOString().slice(11, 16) + ' UTC. ' + T('It was the next port after Venezuela.', 'Fue el siguiente puerto después de Venezuela.') },
+      { k: 'vol', st: casec ? 'ok' : 'part', t: T('Cargo', 'Carga'), v: nf(0).format(r.est_kbbl * 1000) + ' bbl',
+        h: T('Volume estimated from the ship', 'Volumen estimado por el barco'),
+        p: T('Range ', 'Rango ') + nf(0).format(r.est_low * 1000) + '–' + nf(0).format(r.est_high * 1000) + ' bbl (±20%). ' + T('Method: ', 'Método: ') + (LANG === 'es' ? r.method.replace('typical full load for the ship size', 'carga completa típica para el tamaño del barco').replace('typical Lake Maracaibo load', 'carga típica del Lago de Maracaibo').replace('draught', 'calado') : r.method) + '.' },
+      { k: 'off', st: casec ? 'ok' : official ? 'part' : 'pend', t: T('Official record', 'Registro oficial'), v: casec ? T('Case confirmed', 'Caso confirmado') : official ? T('Month matched', 'Mes cotejado') : T('Pending', 'Pendiente'),
+        h: casec ? T('Confirmed in the Cargo Ledger', 'Confirmado en el Cargo Ledger') : official ? T('The month matches official U.S. data', 'El mes cuadra con los datos oficiales de EE. UU.') : T('Waiting for official U.S. data', 'Esperando los datos oficiales de EE. UU.'),
+        p: casec ? (LANG === 'es' ? r.case.verdict_es || r.case.verdict : r.case.verdict)
+          : official ? T('API16 counted ', 'API16 contó ') + nf(0).format(m.high_kbd) + T('k b/d this month vs ', ' mil b/d ese mes vs. ') + nf(0).format(m.official_kbd) + T('k b/d in ', ' mil b/d en ') + official + T(' (', ' (') + nf(0).format((m.coverage || 0) * 100) + T('% coverage). Official data is by month, not by cargo.', '% de cobertura). El dato oficial es por mes, no por carga.')
+          : T('U.S. customs publishes about five weeks after the month ends; EIA weekly numbers are preliminary.', 'La aduana de EE. UU. publica unas cinco semanas después del cierre del mes; las cifras semanales de la EIA son preliminares.'),
+        link: r.case ? ['ledger.html#' + r.case.id, T('See the case →', 'Ver el caso →')] : null },
+    ];
+  }
+
+  function renderSteps() {
+    const S = steps(R); const ol = $('steps'); ol.textContent = '';
+    S.forEach((s, i) => {
+      const li = mk('li'); const b = mk('button', 's-' + s.st); b.type = 'button'; b.setAttribute('aria-pressed', String(i === stepSel));
+      b.append(mk('span', 'n', String(i + 1).padStart(2, '0')), mk('span', 't', s.t), mk('span', 'v', s.v));
+      b.addEventListener('click', () => { stepSel = i; renderSteps(); focusStep(s.k); });
+      li.append(b); ol.append(li);
+    });
+    const s = S[stepSel], d = $('detail'); d.textContent = '';
+    const stTxt = { ok: T('Shown', 'Demostrado'), part: T('Estimated / partial', 'Estimado / parcial'), pend: T('Pending', 'Pendiente') }[s.st];
+    d.append(mk('span', 'st ' + (s.st === 'ok' ? 'ok' : s.st === 'part' ? 'part' : 'pend'), stTxt), mk('h2', null, s.h), mk('p', null, s.p));
+    if (s.link) { const a = mk('a', null, s.link[1]); a.href = s.link[0]; d.append(a); }
+  }
+
+  function focusStep(k) {
+    if (!map) return;
+    const pts = R.route.pts;
+    if (k === 'dep') map.flyTo(pts[0], 7, { duration: 0.8 });
+    else if (k === 'arr' || k === 'off') map.flyTo(pts[pts.length - 1], 7, { duration: 0.8 });
+    else map.flyToBounds(routeLine.getBounds(), { padding: [30, 30], duration: 0.8 });
+  }
+
+  function drawMap() {
+    if (!window.L) return;
+    const pts = R.route.pts, color = /Lake/.test(R.terminal) ? '#7FA3D9' : '#E2A548';
+    if (!map) {
+      map = L.map('map', { scrollWheelZoom: false, zoomControl: false, attributionControl: true });
+      L.control.zoom({ position: 'topright' }).addTo(map);
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles &copy; Esri · Port calls: Powered by Global Fishing Watch', maxZoom: 12 }).addTo(map);
+    }
+    if (routeLine) routeLine.remove();
+    map.eachLayer((l) => { if (l instanceof L.CircleMarker || l instanceof L.Marker || l instanceof L.Polyline) l.remove(); });
+    L.polyline(pts, { color: '#3A4B66', weight: 3, opacity: .9, dashArray: R.route.real ? null : '6 8' }).addTo(map);
+    routeLine = L.polyline([pts[0]], { color, weight: 4, opacity: 1 }).addTo(map);
+    const dot = (ll, txt) => L.circleMarker(ll, { radius: 7, color: '#fff', weight: 2, fillColor: color, fillOpacity: 1 }).addTo(map).bindTooltip(txt, { permanent: true, direction: 'top', offset: [0, -8], className: 'lbl' });
+    dot(pts[0], tn(R.terminal));
+    dot(pts[pts.length - 1], pn(R.to_port));
+    ship = L.circleMarker(pts[0], { radius: 6, color, weight: 3, fillColor: '#fff', fillOpacity: 1 }).addTo(map);
+    map.fitBounds(L.latLngBounds(pts), { padding: [60, 70] });
+    $('mapnote').textContent = R.route.real ? T('Satellite route', 'Ruta satelital') : T('Usual route (estimated)', 'Ruta habitual (estimada)');
+    play();
+  }
+
+  function play() {
+    cancelAnimationFrame(anim);
+    const pts = R.route.pts, reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches, dur = reduce ? 1 : 4200; let t0 = 0;
+    const step = (ts) => {
+      if (!t0) t0 = ts; const f = Math.min(1, (ts - t0) / dur), e = f < .5 ? 2 * f * f : 1 - Math.pow(-2 * f + 2, 2) / 2;
+      const n = Math.max(1, Math.round(e * (pts.length - 1)));
+      routeLine.setLatLngs(pts.slice(0, n + 1)); ship.setLatLng(pts[n]);
+      if (f < 1) anim = requestAnimationFrame(step);
+    };
+    anim = requestAnimationFrame(step);
+  }
+
+  function renderHead() {
+    document.title = (LANG === 'es' ? 'API16 · Pasaporte · ' : 'API16 · Passport · ') + R.name;
+    $('cid').textContent = R.id;
+    const c = $('conf'); c.hidden = false; c.className = 'tag' + (R.confidence === 'high' ? '' : ' possible'); c.textContent = R.confidence === 'high' ? T('high evidence', 'evidencia alta') : T('possible', 'posible');
+    $('ship').textContent = R.name;
+    const rt = $('route'); rt.textContent = '';
+    rt.append(mk('b', null, tn(R.terminal)), document.createTextNode(' → ' + pn(R.to_port) + ' · ' + day(R.left) + ' – ' + day(R.arrived)));
+    $('n-bbl').textContent = nf(0).format(R.est_kbbl * 1000);
+    $('n-usd').textContent = 'US$ ' + nf(1).format(R.value_usd / 1e6) + ' M';
+    $('n-usd-l').textContent = T('at Merey price', 'a precio Merey') + ' (US$' + nf(2).format(R.merey) + (R.merey_month !== R.month ? T(', latest month', ', último mes') : '') + ')';
+    $('n-days').textContent = nf(0).format((new Date(R.arrived) - new Date(R.left)) / 864e5);
+    $('hash').textContent = 'SHA-256 · ' + R.hash;
+    $('vf').href = 'https://www.vesselfinder.com/vessels/details/' + encodeURIComponent(R.imo);
+    const ot = ALL.filter((x) => x.imo === R.imo && x.id !== R.id).slice(0, 8);
+    $('others').hidden = !ot.length; const ol = $('others-list'); ol.textContent = '';
+    ot.forEach((x) => { const a = mk('a', null, day(x.left) + ' · ' + tn(x.terminal) + ' → ' + pn(x.to_port)); a.href = '#' + x.id; ol.append(a); });
+  }
+
+  async function show(id) {
+    R = ALL.find((x) => x.id === id) || ALL.find((x) => x.id.startsWith(id)) || ALL[0];
+    if (!R) return;
+    R.route = routeFor(R, TRK[R.mmsi + '|' + R.arrived.slice(0, 10)]);
+    R.hash = await sha256([R.id, R.imo, R.mmsi, R.name, R.from_port, R.left, R.to_port, R.arrived, R.est_kbbl, R.est_low, R.est_high, R.confidence].join('|'));
+    stepSel = 0;
+    renderHead(); renderSteps(); drawMap();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function current() { const q = new URLSearchParams(location.search).get('id'); return decodeURIComponent(location.hash.slice(1)) || q || ''; }
+
+  async function load() {
+    const [fl, mb, lg, tr] = await Promise.all([getJ('tracker/data/flows.json'), getJ('data/merey_brent_monthly.json'), getJ('data/ledger.json'), getJ('tracker/data/tracks.json')]);
+    if (!fl) { $('ship').textContent = T('Could not load the data.', 'No se pudieron cargar los datos.'); return; }
+    TRK = (tr && tr.tracks) || {};
+    ALL = build(fl, mb, lg).sort((a, b) => b.arrived.localeCompare(a.arrived));
+    show(current());
+  }
+
+  $('replay').addEventListener('click', () => { if (map && R) { map.fitBounds(L.latLngBounds(R.route.pts), { padding: [40, 40] }); play(); } });
+  window.addEventListener('hashchange', () => show(current()));
+  $('share').addEventListener('click', async () => {
+    const url = location.origin + location.pathname + '#' + R.id;
+    const text = R.name + ': ' + nf(0).format(R.est_kbbl * 1000) + ' bbl · ' + tn(R.terminal) + ' → ' + pn(R.to_port);
+    try { if (navigator.share) { await navigator.share({ title: 'API16', text, url }); return; } await navigator.clipboard.writeText(url); $('share').textContent = T('Link copied', 'Enlace copiado'); }
+    catch (e) { /* share cancelled */ }
+  });
+  $('dl').addEventListener('click', () => {
+    const keys = ['id', 'name', 'imo', 'mmsi', 'terminal', 'from_port', 'left', 'to_port', 'arrived', 'est_kbbl', 'est_low', 'est_high', 'confidence', 'method', 'merey', 'merey_month', 'value_usd', 'hash'];
+    const o = Object.fromEntries(keys.map((k) => [k, R[k] ?? null]));
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(o, null, 2)], { type: 'application/json' })); a.download = R.id + '.json'; document.body.append(a); a.click();
+    setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  });
+  $('lang-btn').addEventListener('click', () => {
+    LANG = LANG === 'es' ? 'en' : 'es';
+    try { localStorage.setItem('api16-lang', LANG); } catch (e) { /* storage blocked */ }
+    applyStatic(); if (R) { renderHead(); renderSteps(); drawMap(); }
+  });
+  applyStatic(); load();
+})();
+</script>
+</body>
+</html>
