@@ -98,7 +98,9 @@
 
   // ---------- data ----------
   let V = [], EV = [], PRICE = {}, t0 = 0, t1 = 0, now = 0;
-  const DAYS = 75;
+  const DAYS = 30;
+  const COL = (v) => (/Lake/.test(v.terminal || '') ? [127, 163, 217] : /Jose/.test(v.terminal || '') ? [226, 165, 72] : [184, 196, 214]);
+  const rgba = (c, a) => 'rgba(' + c.join(',') + ',' + a + ')';
   const getJ = (u) => fetch(u + '?t=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
   Promise.all([getJ('tracker/data/flows.json'), getJ('tracker/data/tracks.json')]).then(([F, TR]) => {
     if (!F) return;
@@ -117,7 +119,7 @@
     if (!V.length) return;
     // possible ship-to-ship transfers and AIS gaps during these voyages
     const names = {}; V.forEach((v) => { if (v.vessel_id) names[v.vessel_id] = v.name; });
-    EV = ((TR && TR.events) || []).filter((e) => (e.type === 'encounter' || e.type === 'gap') && typeof e.lat === 'number' && typeof e.lon === 'number')
+    EV = [].filter((e) => (e.type === 'encounter' || e.type === 'gap') && typeof e.lat === 'number' && typeof e.lon === 'number')
       .map((e) => Object.assign({}, e, { t: Date.parse(e.start), ship: names[e.vessel_id] || e.name }));
     t1 = Math.min(end, Math.max(...V.map((v) => v.arr)) + 2 * DAY);
     t0 = t1 - DAYS * DAY;
@@ -162,14 +164,14 @@
       ctx.beginPath(); const from = Math.max(0, q.i - 14);
       for (let i = from; i <= q.i; i++) { const a = px(v.route.pts[i]); if (i === from) ctx.moveTo(a.x, a.y); else ctx.lineTo(a.x, a.y); }
       ctx.lineTo(p.x, p.y);
-      const safe = v.confidence === 'high';
-      ctx.strokeStyle = safe ? 'rgba(226,165,72,' + (v.route.real ? '.7' : '.4') + ')' : 'rgba(159,177,201,.35)'; ctx.lineWidth = v.route.real ? 2 : 1.4;
+      const safe = v.confidence === 'high', cc = COL(v);
+      ctx.strokeStyle = rgba(cc, safe ? (v.route.real ? .8 : .55) : .3); ctx.lineWidth = v.route.real ? 2.2 : 1.8;
       ctx.setLineDash(v.route.real ? [] : [4, 4]); ctx.stroke(); ctx.setLineDash([]);
       // the ship: an elongated hull pointing along the heading, sized by cargo
       const s = 5 + Math.min(5, (v.est_kbbl || 400) / 220), on = v === sel || v === hover;
       ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(-q.hd);
       ctx.beginPath(); ctx.moveTo(s * 1.5, 0); ctx.lineTo(s * 0.6, -s * 0.45); ctx.lineTo(-s * 1.1, -s * 0.45); ctx.lineTo(-s * 1.1, s * 0.45); ctx.lineTo(s * 0.6, s * 0.45); ctx.closePath();
-      ctx.fillStyle = safe ? '#E2A548' : '#B8C4D6'; ctx.shadowColor = safe ? 'rgba(226,165,72,.9)' : 'rgba(159,177,201,.6)'; ctx.shadowBlur = on ? 16 : 8; ctx.fill();
+      ctx.fillStyle = rgba(cc, safe ? 1 : .6); ctx.shadowColor = rgba(cc, .9); ctx.shadowBlur = on ? 16 : 8; ctx.fill();
       if (on) { ctx.lineWidth = 1.5; ctx.strokeStyle = '#fff'; ctx.stroke(); }
       ctx.restore();
       if (on) { ctx.font = '600 12px "IBM Plex Mono", monospace'; ctx.fillStyle = '#fff'; ctx.fillText(v.name || '', p.x + 12, p.y - 10); }
@@ -241,18 +243,14 @@
     const kv = document.createElement('div'); kv.className = 'kv';
     const row = (k, val) => { const a = document.createElement('span'); a.textContent = k; const b = document.createElement('b'); b.textContent = val; kv.append(a, b); };
     const term = { 'Lake Maracaibo': T('Lake Maracaibo', 'Lago de Maracaibo'), 'Jose / Puerto La Cruz': 'José', 'Caribbean hub': T('Caribbean hub', 'Hub del Caribe') }[v.terminal] || v.terminal;
-    row(T('From', 'Desde'), term + (v.dep ? ' · ' + dstr(v.dep) : ''));
-    row(T('To', 'Hasta'), v.port.name + ' · ' + dstr(v.arr));
+    row(T('Route', 'Ruta'), term + ' → ' + v.port.name);
+    row(T('Dates', 'Fechas'), dstr(v.dep) + ' → ' + dstr(v.arr));
     row(T('Cargo (est.)', 'Carga (est.)'), nf(0).format(v.est_kbbl * 1000) + ' bbl');
-    row(T('Range', 'Rango'), nf(0).format(v.est_low) + '–' + nf(0).format(v.est_high) + (lang() === 'es' ? ' mil' : 'k'));
-    if (v.usd) row(T('Value at Merey', 'Valor a precio Merey'), '≈ US$' + nf(0).format(v.usd / 1e6) + T(' million', ' millones'));
-    row(T('Route', 'Ruta'), v.route.real ? T('Satellite AIS, daily (GFW)', 'AIS satelital, diaria (GFW)') : T('Estimated (typical route)', 'Estimada (ruta típica)'));
-    row(T('Confidence', 'Confianza'), v.confidence === 'high' ? T('Safe crude cargo', 'Carga de crudo segura') : T('Possible crude cargo', 'Carga de crudo posible'));
+    if (v.usd) row(T('Value', 'Valor'), '≈ US$' + nf(1).format(v.usd / 1e6) + ' M');
     d.append(kv);
-    const f = document.createElement('p'); f.className = 'foot';
-    f.textContent = T('Port calls: Global Fishing Watch. Cargo estimated from ship size; checked monthly against EIA.', 'Escalas: Global Fishing Watch. Carga estimada por el tamaño del buque; cotejada cada mes con la EIA.');
-    d.append(f);
-    const a = document.createElement('a'); a.href = 'flow.html'; a.textContent = T('All voyages on Crude flow →', 'Todos los viajes en Flujo de crudo →'); a.className = 'go'; d.append(a);
+    const a = document.createElement('a'); a.className = 'go';
+    a.href = 'cargo.html#VE-' + String(v.left || '').slice(0, 10).replace(/-/g, '') + '-' + v.imo;
+    a.textContent = T('Open its passport →', 'Ver su pasaporte →'); d.append(a);
     return d;
   }
 
@@ -288,8 +286,7 @@
     ui.root.querySelector('.l2').textContent = T('delivered to U.S. ports', 'entregados en puertos de EE. UU.');
     ui.root.querySelector('.l3').textContent = T('at Merey prices', 'a precios Merey');
     const lg = ui.root.querySelector('.vy-leg'); lg.replaceChildren();
-    [['<b style="color:#E2A548">━</b>', T('satellite route', 'ruta satelital')], ['<b style="color:#E2A548">┅</b>', T('estimated route', 'ruta estimada')],
-     ['<b style="color:#E8684A">◆</b>', T('ship-to-ship', 'barco a barco')], ['<b style="color:#C9D2DF">◌</b>', T('AIS off', 'AIS apagado')]].forEach(([i, t]) => {
+    [].forEach(([i, t]) => {
       const sp = document.createElement('span'); sp.innerHTML = i + ' '; sp.append(document.createTextNode(t)); lg.append(sp); });
     ui.to.textContent = T('latest', 'último dato');
     setPlay();
