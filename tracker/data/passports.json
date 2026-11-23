@@ -1,7 +1,80 @@
 {
- "updated": "2026-11-22T23:46:18Z",
+ "updated": "2026-11-23T01:14:23Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
+  {
+   "id": "AIS-538012047-2026-11-13",
+   "mmsi": 538012047,
+   "imo": 1021594,
+   "name": "SPA",
+   "length_m": 249,
+   "status": "arrived",
+   "stages_done": 3,
+   "stages_total": 5,
+   "est_cargo_kbbl": 651,
+   "est_cargo": {
+    "kbbl": 651,
+    "kbbl_low": 548,
+    "kbbl_high": 761,
+    "tonnes": 95700.0,
+    "draught_m": 13.6,
+    "loa_m": 249,
+    "beam_m": 44,
+    "beam_estimated": false
+   },
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "USHOU>>BSFPO",
+   "destinations": [
+    {
+     "dest": "VE JOT >> US FPO",
+     "first": "2026-11-13T21:50:36Z"
+    },
+    {
+     "dest": "GOLA>>USHOU",
+     "first": "2026-11-20T15:59:30Z"
+    },
+    {
+     "dest": "USHOU>>BSFPO",
+     "first": "2026-11-22T20:49:09Z"
+    }
+   ],
+   "last_seen": "2026-11-23T01:14:23Z",
+   "last_zone": "Gulf of Mexico offshore (lightering)",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-11-13T21:50:36Z",
+     "detail": "declared destination VE JOT >> US FPO"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": null,
+     "detail": "draught 13.6 m vs ~12.9 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": true,
+     "time": "2026-11-13T21:50:36Z",
+     "detail": "Freeport"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
   {
    "id": "AIS-352003298-2026-11-16",
    "mmsi": 352003298,
@@ -360,70 +433,6 @@
      "done": true,
      "time": "2026-10-30T04:50:27Z",
      "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538012047-2026-11-13",
-   "mmsi": 538012047,
-   "imo": 1021594,
-   "name": "SPA",
-   "length_m": 249,
-   "status": "arrived",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": null,
-   "est_cargo": null,
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "USHOU>>BSFPO",
-   "destinations": [
-    {
-     "dest": "VE JOT >> US FPO",
-     "first": "2026-11-13T21:50:36Z"
-    },
-    {
-     "dest": "GOLA>>USHOU",
-     "first": "2026-11-20T15:59:30Z"
-    },
-    {
-     "dest": "USHOU>>BSFPO",
-     "first": "2026-11-22T20:49:09Z"
-    }
-   ],
-   "last_seen": "2026-11-22T23:46:18Z",
-   "last_zone": "Houston / Galveston / Texas City",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-11-13T21:50:36Z",
-     "detail": "declared destination VE JOT >> US FPO"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": false,
-     "time": null,
-     "detail": "draught 12.5 m vs ~12.9 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": true,
-     "time": "2026-11-13T21:50:36Z",
-     "detail": "Freeport"
     },
     {
      "stage": "Discharged",
