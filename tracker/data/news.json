@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "id": "37612c99e0ba",
+   "date": "2026-11-23T11:21Z",
+   "title": "The Week in Charts: Tanker rates rising again as Hormuz flow falters, says Frontline | Non-Iranian ships continue to embrace Tehran’s Hormuz passage system",
+   "source": "Lloyd's List",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQN3FBaUFlcUFkeTBOVEJnWWh2aEVtbFo4WjRBbzc0eTJBWXRVQVNLQ1dnc1hMN1liZ1hkXzJNNjMtQTFXcUI2UGtoazNhTWd0bEFlT0FiRW8wMkhjZEdWRUxkTDdfNG5DZ2xSLXNjVkdmaUxSZnlHYlphMTZMejRNT1lsMTFIS05wMUR5VHBxT0FjMFJreHBBMmxUUG5WcVUzejFRdVNnTU1oeGNVNjNqZDV6MFdoWXJSQUVTWmhkdEZ1YlBGN2tFbm5mMVRJaWc4bElVaWUyal93b1pRT3lCVFUxYVV1Y0UzMFZuYmpfMWs5dFl5QjFRMGFVMHl1Y3FicmNyRlVXUzZ4WUZZMkJRdWRlUkQ3Zw?oc=5",
+   "category": "Exports",
+   "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "86b9ece35de2",
+   "date": "2026-11-23T10:55Z",
+   "title": "La Guardia Civil revisa nuevos mensajes entre Aldama y Delcy Rodríguez relacionados con petróleo de PDVSA en la causa secreta del PSOE",
+   "source": "Teleceuta",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQVhjSjFxSlhickppc2VQSzVyMHEyTjh2ZU5VMWNnQS1Nbk93Y1pfS2szZW81WF9vRDFsNzN5elhnaHcxU2UwakhNcVB5eF9Ea2ZjcnpBNjRSZ3BmdW10SHFkT0h4cGJ4bHFjTTA2MlZkSTRmdHFHRUd1S1FkUkFpdEhoUzVjTGJoSTlfd3ExalhTVVlxeW9sMzRZc2x0bk4yZk12QTJWaFFMalVBdUJ2eTFpUGVfQWZSc0ZuWDZSb2tHUWZPUTg0aUJaNTR6X3luV0xIaDBuQ3hsdUdFR2FXZTBkR2xJeTF0ZXEzdWRn?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
    "id": "6e9b9a14eb8d",
    "date": "2026-11-23T07:30Z",
    "title": "9 Countries That Went Bankrupt: Sovereign Defaults Explained",
@@ -4711,6 +4731,20 @@
    "origin": "rss"
   },
   {
+   "id": "c-n35",
+   "date": "2026-11-18T12:00Z",
+   "title": "Nearly 200 mostly Venezuelan contractors want to turn unpaid PDVSA invoices into audited 'mirror claims' with traceable ownership, to use them as collateral for credit before any debt restructuring (Bloomberg Línea)",
+   "source": "Bloomberg Línea via Aporrea",
+   "url": "https://www.aporrea.org/energia/n426348.html",
+   "category": "Investment",
+   "via": "API16 curated",
+   "key_figure": "~200 firms",
+   "featured": true,
+   "until": "2026-12-15",
+   "angle": "Real-world assets need a source of truth",
+   "origin": "curated"
+  },
+  {
    "id": "4004e376e651",
    "date": "2026-11-18T12:00Z",
    "title": "PDVSA controla incendio en la Faja Petrolífera del Orinoco",
@@ -7051,6 +7085,20 @@
    "origin": "rss"
   },
   {
+   "id": "c-n34",
+   "date": "2026-11-16T12:00Z",
+   "title": "NABEP picks Sulzer to build a new crude tower at the Petrocedeño upgrader in José, damaged in a 2025 incident, and revamp its preflash and vacuum towers; NABEP expects the upgrader back in about 24 months",
+   "source": "Hydrocarbon Processing",
+   "url": "https://hydrocarbonprocessing.com/news/2026/11/sulzer-to-deliver-separation-equipment-for-new-crude-tower-at-petrocedeno-upgrader-in-venezuela/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "key_figure": "24 months",
+   "featured": true,
+   "until": "2026-12-31",
+   "angle": "Upgrading changes what crude leaves José",
+   "origin": "curated"
+  },
+  {
    "id": "82e2c8717040",
    "date": "2026-11-16T11:50Z",
    "title": "Chevron, Shell Closing in on First Big Oil Production Deals in Venezuela Since US Captured Maduro, Sources Say",
@@ -7179,6 +7227,20 @@
    "category": "Production",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
+  },
+  {
+   "id": "c-n33",
+   "date": "2026-11-16T10:00Z",
+   "title": "Trinidad's Cliper Group signs a 25-year deal with PDVSA to reactivate 38 wells at the Pedernales field (Delta Amacuro, Gulf of Paria), idle since 2019; estimated 104 million barrels recoverable",
+   "source": "EFE via LaPatilla",
+   "url": "https://lapatilla.com/2026/11/16/cliper-group-pacto-con-pdvsa-para-reactivar-yacimiento-venezolano-cerca-de-trinidad-y-tobago/",
+   "category": "Investment",
+   "via": "API16 curated",
+   "key_figure": "38 wells",
+   "featured": true,
+   "until": "2026-12-15",
+   "angle": "Future barrels in the pipeline",
+   "origin": "curated"
   },
   {
    "id": "875eddb700e4",
@@ -7641,56 +7703,6 @@
    "origin": "rss"
   },
   {
-   "id": "8dc5a6de6581",
-   "date": "2026-11-15T17:31Z",
-   "title": "¿Cuántos barriles diarios de combustible proyecta distribuir PDVSA al cierre de 2026?",
-   "source": "Descifrado",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV1d4ZGRTUVp2aDE1QVdiR09acEdXWHpQNVJubmoxN3pBdEg3OGdDdGl1YUs2aWJYdFZLTXVIeUo1Ty15NnlieGFnUUNKOTlILVQtV215MDMwYzVRUWpuYVc0cXhqdkdqS0g1bFo2WVB2UWdwMV9lYzk2SFFwNDdZLXVkWWV5WmpPZ192eEpmRldfVFB3NHNra01HLUNaN3g2M09ybnRETV9Cd21OVlk2dm8yVmNRQTNSdUJ6N0MzYw?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "1736cc7de905",
-   "date": "2026-11-15T17:24Z",
-   "title": "Venezuelan Crude Exports Surge as Nigeria and Canada Lose Ground",
-   "source": "Discovery Alert",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOekdHUWhQbTBRU0xwajFhUEpXaDJWNWNXNFVNQnhQUi1RbGNYbllXZ19Nd0U0OEZuUWZoS1dmNXhUT29oQm1BZVowVXU2VnVva0t0dEt2dWZ2TEFaNEQwdzl4ZWVvNGFqV3k2UmNoYXpsZGpwcFJDZHRMTVVDdExRWG1JZ3hfa0hlZ1NyeHRHUm9QWlNVbWhfNQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "63acfedb588f",
-   "date": "2026-11-15T17:22Z",
-   "title": "China Won’t Have Claim to Venezuela Oil Revenue, Wright Says",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSFdSdllvS2UwLXM1VUg0UFltZzJ5eFFYRkxNbW0tckV4WlZDZGJSbEZfVkx3WGJmYXZxM21RUi1GTjN2aW9oOTk4ZGlDME9tSmxlZFY0ZUwzRzA4SGllTWhOLTRicmpMOWljTjg1T2VXd3ZwWkhad3hzVUdOeUM3THoyUUVUbWpueWJNWG5QUDl0UQ?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "a514584d6695",
-   "date": "2026-11-15T17:01Z",
-   "title": "¡Pilas! Ecopetrol se le volvió a medir a lo que estaba engavetado… y el vecino está metido en la vuelta",
-   "source": "Colombia.com",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGxMUGdERTNzQUJqOGVTcjFzSUtoMHJuZEZReHdwaXQ0YzhjMWsxTi1nMC1odF9FYkg0SVhnLUh6WU94bEltb3QtTS1yUWZEYlVlQkQ0SGxVcDFacUxGajZHUE9wZUk2YnAwV004NUJLM0lqb0t3NUtoeUhweEdCNnpEV0xpSHRvYTM4?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "2630484d5514",
-   "date": "2026-11-15T16:42Z",
-   "title": "Saudi Arabia and Nigeria see oil sales to the world's largest economy plunge as Venezuela becomes a new US oil frontier, putting even Canada under pressure",
-   "source": "Business Insider Africa",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQTh1eHNoYVo2SWJjRndibGtPRENIdHlLd2NQMG9FZnJCdThFaHpXVm5CbXJRdWFZS3NhZEJSR3VVc0hYdDdwTllKM05zTVg4QmJVRlh0T1JXSFFPTjZPM0w4bXdVcEk0dC15bnBkN3FSWTg1dFN1ZFJGeld5aGR1MGhlemlsX0lKci15bWxId2ZORDdBX202bndLZGRRa2JXU0R6dFZWVVFabFZvZnlOV19TampuV2kyU25Va2xLdTA3WFI1ZWhHWFJOeTRWbFBp?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8049,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-23T10:56:18Z",
+ "updated": "2026-11-23T11:47:59Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8074,23 +8086,23 @@
  ],
  "highlights": [
   {
-   "date": "2026-11-14T15:00Z",
-   "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
-   "source": "Bloomberg via El Nacional",
-   "url": "https://www.elnacional.com/2026/11/bloomberg-empresa-energetica-de-catar-busca-asumir-operaciones-en-dos-importantes-campos-petroleros-venezolanos/",
+   "date": "2026-11-18T12:00Z",
+   "title": "Nearly 200 mostly Venezuelan contractors want to turn unpaid PDVSA invoices into audited 'mirror claims' with traceable ownership, to use them as collateral for credit before any debt restructuring (Bloomberg Línea)",
+   "source": "Bloomberg Línea via Aporrea",
+   "url": "https://www.aporrea.org/energia/n426348.html",
    "category": "Investment",
-   "angle": "Future barrels in the pipeline",
-   "key_figure": "2 fields",
+   "angle": "Real-world assets need a source of truth",
+   "key_figure": "~200 firms",
    "featured": true
   },
   {
-   "date": "2026-11-12T20:00Z",
-   "title": "U.S. State Department report to Congress: Washington has disbursed US$12.11 billion to Venezuela, 98.7% of revenue collected through September from crude, gold, minerals and fertilizer exports; 35.75% went to food and consumer goods, 23% to administrative services",
-   "source": "EFE via Diario Libre",
-   "url": "https://www.diariolibre.com/mundo/estados-unidos/2026/11/12/eeuu-entrego-a-venezuela-us-12000-millones-por-venta-recursos/3718821",
-   "category": "Sanctions",
-   "angle": "Where the oil money goes: cargo, payment, use",
-   "key_figure": "US$12.11B",
+   "date": "2026-11-16T12:00Z",
+   "title": "NABEP picks Sulzer to build a new crude tower at the Petrocedeño upgrader in José, damaged in a 2025 incident, and revamp its preflash and vacuum towers; NABEP expects the upgrader back in about 24 months",
+   "source": "Hydrocarbon Processing",
+   "url": "https://hydrocarbonprocessing.com/news/2026/11/sulzer-to-deliver-separation-equipment-for-new-crude-tower-at-petrocedeno-upgrader-in-venezuela/",
+   "category": "Investment",
+   "angle": "Upgrading changes what crude leaves José",
+   "key_figure": "24 months",
    "featured": true
   },
   {
