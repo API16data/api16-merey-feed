@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "id": "4f874f48b705",
+   "date": "2026-11-23T14:25Z",
+   "title": "Guyana Says 'No Bilateral Talks With Venezuela Over Essequibo' as the Icj Ruling Could Come in Early 2027",
+   "source": "Latin Times",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcWd0VFVfdTlTZFcwLXRpNGtOV1NaRVFXYUNuOWhjZDZiWDkxd1ZKYWJYODVYbF9VTmtwdWlFb1lFdzZPYUZxUjJMWEwxT3RVVUg3QXlFS2lXbmxvZ0d6NXRyMVJwTHFuUWRtSlJoSzRXbmUzMzhXYXVJRlkwYlFmdlFXTUl4bGFUUEE?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "1cf76b56aca3",
    "date": "2026-11-23T14:02Z",
    "title": "Expo Venezuela Energética Oriente 2026 cierra con 120 ruedas de negocios",
@@ -48,6 +58,16 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZW1nTS0tay1fZ3BieUxjRENhTElmVmVYRjBzUENuVVJUcmk5TWNBZWNRd1lBNkJLekszSnp4ZTdJTXNTOE9yU2JaTGtvSE5vM2RzRWdIX2ZrM3U2OHZYZUdibXZudHlUOEZOSzRYMWlERUxaUHhiUnB2bzkzZjVZYnBKUWlpMElsSHlYbzJkZ3lTUWRGaVk5c2lQM3ZQSk1SME9qUnAzUm0tc3RZNWZ6bHFudFZvRURPdU1rMW9QTkg1anNWUWlpTWkzdnVSU0h3?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "d56b8edd261f",
+   "date": "2026-11-23T13:05Z",
+   "title": "Trump Announces Sweeping US Grab for Control of Venezuela’s Vast Oil Reserves - What This Could Mean For Canadian Crude",
+   "source": "EnergyNow",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYzkzVjNXTFNkVG1scG15eWtRWVlSMkgtdjZ1TGZQSm1tRkdUZ28zcDJyek5NVjJQU3FGT1QyWjl2WnJWanBQT1FHMmhicGRvejNBcWlkb3MtSllGSkNseFhzWGIxQWRhUEdWZlZsay1WRzBqcmZCWjNtRHktaFhwMEFfeWFZQTZ1M3hzSE55TGVramZOMm9jNUprdm9IRGxubnY3S3dib1JCUE5XZnFWTzJIdjJBX0l3cWlyYQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -7683,26 +7703,6 @@
    "origin": "rss"
   },
   {
-   "id": "41296bf5993e",
-   "date": "2026-11-15T20:24Z",
-   "title": "PDVSA proyecta cerrar 2026 con 1,3 millones de barriles diarios y convertir a Venezuela en exportador de gas",
-   "source": "Extra News Mundo",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CVHBQVUl2dWJCd3hEcWlQRmt5WHQzRTFadVIxaE1xdFlYeEk1QVpLU0VTWHFqN2dCUmE5UXRTQTRaVlozeTkxbllSTVNWWVBleGFnVWRVRjBCWndHMzhpTGNNc21XYnBBWDM5eXNIRlNrVE4zLUV3SkRDdkd1WTA?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "8eb1dc57fd08",
-   "date": "2026-11-15T20:17Z",
-   "title": "As the Middle East’s largest oil producer and Iraq jump in to capture Iran’s Chinese oil market, Nigeria and Saudi Arabia suffer a U.S. blow as Venezuelan oil surges",
-   "source": "Business Insider Africa",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNVM1allESDE2T25Bd2NRak9EbzdIVmtTVnQtUlhEbVYtaUItYmJiZnpmUnhEOTllemM1aEx3MXFlVVotWUZrdjZVU01PR0dSd1VheG9GcHpSSnNWbDFMYTVRVS1HMXBQTmpoQ2hKV2NYZjhGZzRxc3p0RWhsRjNodnZucWhucTkyVEMtd1JyTUJ2NndULXBIWGxzZ0NkUVdBdUlhUmlIaW5TZXpUU2swTU9pLWZhdmVWbTVySTQyVlprYmxha0QwWGpmbUVFU2ItalFydV9CVzc?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-23T14:22:39Z",
+ "updated": "2026-11-23T15:34:07Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
