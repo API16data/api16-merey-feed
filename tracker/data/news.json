@@ -2131,6 +2131,16 @@
    "origin": "rss"
   },
   {
+   "id": "eb873b94f015",
+   "date": "2026-11-20T00:23Z",
+   "title": "Venezuela reune a 200 empresas en Expo Energetica 2026",
+   "source": "HOY Tamaulipas",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSmdtWlVLZTVSZm1pUmZMZURiZGROVFVjSjVfZ1p0bkhRa1ZTWkFJTU45T202d0xYR0w4WlVGT3oxa1RCT21vR1lkbjJPVFZXVTFLQ0dYbEZiNUJBZjE2Z1psSlR3Z3V3TUtuaUtnNmFCNFFPb2pfTjUwc3VjVlh3SXdrSnBqOVpnd3VZdU9GQy1mRjNLQW9MSUlBbDdRTDJUM0NRdQ?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "bcda3879fc04",
    "date": "2026-11-20T00:22Z",
    "title": "Gobierno nacional ha suscrito 84 acuerdos en materia de petróleo y gas en lo que va de año",
@@ -6205,6 +6215,16 @@
    "origin": "rss"
   },
   {
+   "id": "1b25ee88be49",
+   "date": "2026-11-17T08:00Z",
+   "title": "VEN ETF Profile: Dividends, Returns (AMEX:VEN)",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SNzBudUdwYWRPaWg5bHl0MHRGemNmNld2SEdaVElzRFVBcklGZWQzRTBfTkFxd2RQb214bV93MzBma2tCTXdTOW5ZX0VwSlFKSy1XX3hVREdNRWtoR24yd1diOA?oc=5",
+   "category": "General",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "e92dc97a323b",
    "date": "2026-11-17T07:53Z",
    "title": "Nigeria’s Crude Oil Exports To US Plunge 91% As Venezuelan Shipments Surge",
@@ -7683,26 +7703,6 @@
    "origin": "rss"
   },
   {
-   "id": "060baff6d4b3",
-   "date": "2026-11-16T00:04Z",
-   "title": "Pdvsa prevé reactivar el Antonio Ricaurte en 2027",
-   "source": "ultimasnoticias.com.ve",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONkI1cW9hcHVVZTVSbEVLWTQ3dVhYWWtyRTMtZi1xS054U0k2eGNOMXgySnNFb1Jxb2pubFotaHZac1VFcTA4SGNacnN0TEpmcElyeE93OGhXZEJzZ0Q1a0txV0poQ0VnbzB1N0QzWmoyTmVkUGJrNHVzbkZucXpMSFhDSWlIX0k3S0xCTWhTS05aWU1WNnFneDJSRURpMWo0?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "949f56db89e7",
-   "date": "2026-11-16T00:00Z",
-   "title": "PDVSA proyecta cerrar el año con 140.000 barriles diarios",
-   "source": "El Periódico de Monagas",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHFEVzdyZFpXZmZISXVhX180eHZabVhBdlFRRENJcGhTUXVpMGwtMmtNbVdsUkc0b3FYX1dWNGY5akxwUTVQY1UxTi1uTFJsQ0dhUWFGRUZEZ25ZcXdOMUZUSkNEZDdTb1ZkT1JQdjZkU244eXpYZmZJMmVubGdCYkVkWklLcHFzQktHSWFSd2F2U0MxbG4zLWIwalY4LTlZcFNBdU5B?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n32",
    "date": "2026-11-14T15:00Z",
    "title": "Qatar's UCC Oil and Gas Holding is negotiating to take over operations at the El Furrial and Jusepín fields in northern Monagas (Bloomberg); PDVSA's president confirms a partnership with UCC at El Furrial with significant infrastructure investment",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-23T16:52:19Z",
+ "updated": "2026-11-23T17:51:10Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
