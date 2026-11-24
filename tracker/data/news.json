@@ -1,6 +1,46 @@
 {
  "items": [
   {
+   "id": "a27002e81d6f",
+   "date": "2026-11-24T00:32Z",
+   "title": "La Faja Petrolífera del Orinoco aporta el 57,5 % del bombeø de crudo nacional",
+   "source": "Noticias24hrs.com.ve",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNktMNDludnQwSWx2cXhJcFg0YWdMUTFCdFlaT3dOS2dKdmNVdWcxT3B3a0R1Qjk4ZnpoMHR5Q1J4VUlSNjh2OGZqRHNrWlJoR1pQQ1ptSjVsSU5PdWhzZWYxYlJTTHhrUFN4LVAxSkhqSVZ6YUFxSVhzTWhTM185b3pzbDBZN1R5WlRMd0VxMndXSEFEdHFjRVRmOVNOQjFuc2x3bVVmYW5GNzVa?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
+   "id": "90c0b21f752b",
+   "date": "2026-11-24T00:11Z",
+   "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFBkNlZLb1RoNjhsRkRpNDZSSk13MnRLRDh1OXFSazBiWWpaZDIzTWdlZDhaZ056NElpUTFIdGkxd244ZDdXbEJXTzE0WVYyczJmeHlJRUNxWE84UXF4UkxsQmVxXzlHUjVwTFBPdEQxV1hmZmlFeThBeWd4c0Vmd0tNR2JxSGRkVk1PbUZsWm5OTW5jVzF0djhjRUk1OGRQak51RjUzVGFqbGJuakhQSG13?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "adbf59e2aaf0",
+   "date": "2026-11-24T00:05Z",
+   "title": "Senado de EE. UU. investiga a JD Vance por contrato petrolero en Venezuela",
+   "source": "UnoTV",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkFVWFVtSXFDUXBocE9scHZUTUY2SDZZZFk4UDZEYmVhdnlZZDVsWGgwcUkwLU5faFVrVkNPQzJpU2JEei1TX3dkTWlMQlRQRi1CX1prSkF1ZjNBTExyLVRaM3RiMkdVRlgyZWR5MmJiazAyQXNKeGxYWmdaam9BRFl4aUVrNDQ4M2pHQXlJNnEzUjY4YVRSNE5R?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "369516db34df",
+   "date": "2026-11-23T23:46Z",
+   "title": "Reuters: Senado de EE.UU. investiga vínculos de JD Vance con contrato petrolero de Vitol en Venezuela",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUk4xS1hhc3lpWnFoaGVhcmZhNWxaM2h6N2VBZXR3eHlGSmd0TzllbGJITTNRU1BaaTFmVUVCUGlwT0x0VTV2Y1VCUGw5Zm1NVHpYMXBXSURCSFBjWk5CSmRTS1gyU240cDFUTmlMdzkydXVyUFBGZ2oxRHpCaEdod3BzdS16ci1pMF9WR3RfZEJUbldTOFMwZFJHSVRLNk9nR0tuMlVJd2FmVjE1U0wxQVRueHVYUmxqMGVxcEZOc1BlaHhvUHl4dTFERQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "54ec823dce59",
    "date": "2026-11-23T23:32Z",
    "title": "Faja del Orinoco aporta 57,5% de la producción petrolera nacional",
@@ -4421,6 +4461,16 @@
    "origin": "rss"
   },
   {
+   "id": "d1c2ca151e9e",
+   "date": "2026-11-18T19:19Z",
+   "title": "Hegseth Visits Venezuela and Says He Looks Forward to Deepening a Military Partnership",
+   "source": "The Wyoming Truth",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGJCem1hLTQ5MmFjMHQwSjRMVTZwel90UTVxQVN4ZWpnempueFdaMnlOMnlmbWpiNFhkdEJPZ05tRGdabDZvZGMzWWcweTFJb3dWdnRGc0xjX2NHZWs4TkNVb2ZEZll5Mm1McGVFbjRUc0VtWjNPaDFoUS10ZWVrTko5RmxnZmJyRG9qc3c3WkFzRWdGRnowRzFZZmVFbldPSXhXbE5jWFJHQVByeV8wdTZn?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "e6153bcacf5d",
    "date": "2026-11-18T19:12Z",
    "title": "Halliburton abre oferta de empleo en Venezuela para ingeni",
@@ -7639,56 +7689,6 @@
    "origin": "curated"
   },
   {
-   "id": "82e2c8717040",
-   "date": "2026-11-16T11:50Z",
-   "title": "Chevron, Shell Closing in on First Big Oil Production Deals in Venezuela Since US Captured Maduro, Sources Say",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODIzOTVyVjZTQWNYVE9PZkUwZFRJMHVrTnVaWFlPLWR1NGNmQ19MWl8zWnZwZ3JKQWhNVFhFTXhEb1UxU3NzM0JXSmtabFNDeHFrQ2NNeERZbUpYNmV1LWo2TkN1RmVLS2d1NWozX0xmTVdvRFlVLUtfN1c2RkhLRWxRaVFmSzRXckxydlVjY09LNTdhbUhNS3RtME95clYwSlRSRVFGd2ZZaG1xTjRuNkZ3MS1QRGFHZVRGejFlQzdkOThIZU9weGtNaE50UFRGRjdQZQ?oc=5",
-   "category": "Production",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "d5a86c33966d",
-   "date": "2026-11-16T11:50Z",
-   "title": "Greg Abel's Berkshire Hathaway Still Holds About $18.6 Billion of Chevron Stock After Selling More Than a Third of It",
-   "source": "AOL.com",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTjU2cWdabGlIRGdzb3BBcjRSNDFrUGZQajNuQU1DN2FRYlJJbkV2a0VHQzA0WDZubTlFV05xRG9qaTJZdVV6aXo0RThzMWJ3MTltbndvaVFNYktXclBNWmJDaGRQTzhsOWNhc0hBdmx5N3pKcEF0Mzl4Z2lucDZMTXA3RlFJQQ?oc=5",
-   "category": "General",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "952f50263e38",
-   "date": "2026-11-16T11:27Z",
-   "title": "Venezuela eyes bigger slice of India’s oil imports from Russia",
-   "source": "The Financial Express",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSVRjUWZQTzlldDhvWk5YTmlVTDNqbjU1WjlaV3Q0QWhGWlRYNkRhdFhZNHhieC1HeEdjSU1oUUJNek1WektzeWZGdlhjSW04MHBXZmxseDdpcDhnTlZUNTB4blJEXy0yUm9sMDZGRFVHaUNSeDg1cUROTURIampWejZ1SFRGN0tlRjhpTUVia3FuMGJPOXNWbHB3TFZnclFzTDJmVGdxakl6bHJsOFkxLVh6LTQtcG5jOHfSAcABQVVfeXFMUFlrWTM1OWY0akJ3MEp2RDVpeVJ0U3VNU1ZsYkZMcmdZUjFjdVZLalN2VjBwSU1zX05KSmNDLVRiWmQzZWtacG1KTGNvN0FIN0JlM3lCUFBHWHhUNGU5ZU1JamZYUVBlLVprc3g2WXU1SGZSOTNrMXZLUTRVaXI0WHJlaUViMjBtZnRielgzRnZkV240Ymh0eTBXUlp2MlJTak9BYUtJclZLN0JhU092TDRxNk8yU3dQemZXT2lkWlZF?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "9db4439050a1",
-   "date": "2026-11-16T11:11Z",
-   "title": "NABEP encarga a la suiza Sulzer una nueva torre para el mejorador de Petrocedeño, destruida en un incidente en 2025",
-   "source": "Servimedia",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYTdsdU9hQ0hqd3NPaElFTmYwMld5ZERCZzNtdS1FU3pQNXhRSXAxYmtpZlMyQlpiRzFNNTl3ZHpSdzkxem1PM3JQOXphZW1IWS1WMGlwQ0NGSjVxWmJuNV85Rnl6a2JaeGZyVGVySGVZNnQ1dmdUQUE2UjNpSDd6Rm16OEg1SXdaNGh1R2xyazBzazFQSzBISXRDWGxqclJ4dHd1N3BUY3ptLXhrTXVpR0ppRnNtd3FPOGFwT0tIeTZycE94WnBxWGJxN1RnNmNkV2xwNDFzZw?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "6d3386809003",
-   "date": "2026-11-16T11:01Z",
-   "title": "Pdvsa espera producir tres millones de barriles diarios de petróleo en 10 años",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPek1RM1Vnb3NsVG5FVW1LZ2NkRzNxcDRsZ0ZoSjBVcU0wWDVsMDdJc01oYjltcnZicVFjb2tJLTZhUWFQZXV6bXhVNjRCZ05ybTlRS1YtQUlIbENkWVpqeFFNekpuZzc0SEtTR0hsVm1HUEE4cU1jc2p5Q1lGTjJxX1l5dllpeHozUU9MVnZTMllVeEdsV092T0JhMlpFOGpPbEFJcEszb3Z1MmJrd05OUjJDUzg?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
    "id": "c-n33",
    "date": "2026-11-16T10:00Z",
    "title": "Trinidad's Cliper Group signs a 25-year deal with PDVSA to reactivate 38 wells at the Pedernales field (Delta Amacuro, Gulf of Paria), idle since 2019; estimated 104 million barrels recoverable",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-23T23:41:32Z",
+ "updated": "2026-11-24T00:48:54Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8081,7 +8081,6 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News: Orinoco Belt: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
