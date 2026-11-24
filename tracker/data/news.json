@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-24T11:49:15Z",
+ "updated": "2026-11-24T13:00:06Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8081,6 +8081,19 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
+  "Google News: Venezuela oil: HTTPError",
+  "Google News: PDVSA: HTTPError",
+  "Google News: Venezuelan crude: HTTPError",
+  "Google News: Chevron Venezuela: HTTPError",
+  "Google News: OFAC Venezuela: HTTPError",
+  "Google News: Orinoco Belt: HTTPError",
+  "Google News: Venezuela oil exports tanker: HTTPError",
+  "Google News: Venezuela bonds restructuring: HTTPError",
+  "Google News ES: PDVSA petróleo: HTTPError",
+  "Google News ES: petróleo venezolano: HTTPError",
+  "Google News ES: crudo Merey: HTTPError",
+  "Google News ES: Faja del Orinoco: HTTPError",
+  "Google News ES: empresas mixtas PDVSA: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
