@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:06:03Z",
+ "updated": "2026-11-24T16:20:41Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -35,7 +35,7 @@
     "manager": "Ionic Tankers Mgt Inc (Greece)",
     "class": "ABS"
    },
-   "destination_now": "USBPT<VEBJV",
+   "destination_now": "VEBJV>USPOA",
    "destinations": [
     {
      "dest": "VEBJV<USBPT",
@@ -44,9 +44,13 @@
     {
      "dest": "USBPT<VEBJV",
      "first": "2026-11-03T17:53:13Z"
+    },
+    {
+     "dest": "VEBJV>USPOA",
+     "first": "2026-11-24T16:20:41Z"
     }
    ],
-   "last_seen": "2026-11-24T07:21:39Z",
+   "last_seen": "2026-11-24T16:20:41Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -475,7 +479,7 @@
      "first": "2026-11-06T02:54:27Z"
     }
    ],
-   "last_seen": "2026-11-24T15:06:03Z",
+   "last_seen": "2026-11-24T16:20:41Z",
    "last_zone": "Aruba / Curacao / Bonaire",
    "stages": [
     {
@@ -488,7 +492,7 @@
     {
      "stage": "Departed loaded",
      "done": true,
-     "time": "2026-11-24T15:06:03Z",
+     "time": "2026-11-24T16:20:41Z",
      "detail": "draught 12.7 m vs ~11.9 m laden mark"
     },
     {

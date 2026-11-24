@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:06:03Z",
+ "updated": "2026-11-24T16:20:41Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -2714,14 +2714,14 @@
     "manager": "Ionic Tankers Mgt Inc (Greece)",
     "class": "ABS"
    },
-   "seen_this_run": false,
-   "last_seen": "2026-11-24T07:21:39Z",
+   "seen_this_run": true,
+   "last_seen": "2026-11-24T16:20:41Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": null,
-   "lon": null,
-   "status": null,
-   "draught_m": 9.8,
-   "destination": "USBPT<VEBJV",
+   "lat": 29.3932,
+   "lon": -93.6416,
+   "status": "at anchor",
+   "draught_m": 9,
+   "destination": "VEBJV>USPOA",
    "visits": [
     {
      "zone": "Open sea / other",
@@ -2751,8 +2751,8 @@
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
      "group": "USG",
      "first": "2026-11-03T23:42:47Z",
-     "last": "2026-11-24T07:21:39Z",
-     "draught_m": 9.8,
+     "last": "2026-11-24T16:20:41Z",
+     "draught_m": 9,
      "draught_first": 9.8
     }
    ],
@@ -3755,6 +3755,16 @@
      "status": "under way",
      "draught_m": 9.8,
      "dest": "USBPT<VEBJV",
+     "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "t": "2026-11-24T16:53:23Z",
+     "lat": 29.3932,
+     "lon": -93.6416,
+     "kn": 0.1,
+     "status": "at anchor",
+     "draught_m": 9,
+     "dest": "VEBJV>USPOA",
      "zone": "Sabine Pass anchorage (Port Arthur / Beaumont)"
     }
    ]
