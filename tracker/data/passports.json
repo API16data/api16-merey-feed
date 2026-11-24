@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:57:29Z",
+ "updated": "2026-11-24T21:03:53Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -50,7 +50,7 @@
      "first": "2026-11-24T16:20:41Z"
     }
    ],
-   "last_seen": "2026-11-24T17:57:29Z",
+   "last_seen": "2026-11-24T21:03:53Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
    "stages": [
     {
@@ -479,20 +479,20 @@
      "first": "2026-11-06T02:54:27Z"
     }
    ],
-   "last_seen": "2026-11-24T17:57:29Z",
-   "last_zone": "Aruba / Curacao / Bonaire",
+   "last_seen": "2026-11-24T21:03:53Z",
+   "last_zone": "Venezuelan waters (other)",
    "stages": [
     {
      "stage": "Venezuelan origin",
      "done": true,
      "partial": false,
      "time": "2026-11-24T15:06:03Z",
-     "detail": "seen at Aruba / Curacao / Bonaire; declared destination VEJOT"
+     "detail": "seen at Aruba / Curacao / Bonaire, Venezuelan waters (other); declared destination VEJOT"
     },
     {
      "stage": "Departed loaded",
      "done": true,
-     "time": "2026-11-24T17:57:29Z",
+     "time": "2026-11-24T21:03:53Z",
      "detail": "draught 12.7 m vs ~11.9 m laden mark"
     },
     {
