@@ -6325,6 +6325,16 @@
    "origin": "rss"
   },
   {
+   "id": "9db4439050a1",
+   "date": "2026-11-17T15:49Z",
+   "title": "NABEP encarga a la suiza Sulzer una nueva torre para el mejorador de Petrocedeño, destruida en un incidente en 2025",
+   "source": "El Periódico",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLUF2VXRGVjZraE1sUkpIRUlZMzVveXpzN05Id0pibEV2ZEhUb0F5QXBwQldCNzBLYkxUMFFib0ZCWVpCZld6VUhSQnYxa2pYOVZpNGhfd25YOTFraVVjM05WM2ZwbVBaN0Q2T3BycG9JYU1zV3BuX3RzSlJXa3ZMN1UzQWdiMmVaRk93d0wtY2x3MVUxQ0VCQ2ltNm1WOTFjc29FS0pEY3llM3BZdXlVdTdLZThhTUhTa0ZJU1dn0gG-AUFVX3lxTE9JTm5kRHVfLWZFSHlNNlZvLUhEbFNHMUd0TG12T001d2s2T3d5dkR4NUNOYTZOTVI3QWp2ZWxOZnB5aGVOU1FHNlh5WGRoNjE2US04MlNiVlN5d2k2STBSXzFfV1RBTEpFc1lHNDRfUlBCYlBKbW5nTlZVMDZoNF9BbmJBNkV0Z0RMdnpUNTJ0cFl0elgwbmxhR0Z4Y2FtdzZvZ3g3T1VuN2E5azBta3p3RkRoSVFIUjV2OGxQdGc?oc=5",
+   "category": "General",
+   "via": "Google News ES: Faja del Orinoco",
+   "origin": "rss"
+  },
+  {
    "id": "520de55eccf9",
    "date": "2026-11-17T15:36Z",
    "title": "Morning Edition: 17th November 2026",
@@ -7665,16 +7675,6 @@
    "origin": "rss"
   },
   {
-   "id": "430577ac8cb0",
-   "date": "2026-11-16T14:46Z",
-   "title": "Nabep sella alianza con la suiza Sulzer para reconstruir torre petrolera de Petrocedeño, destruida en un incidente en 2025",
-   "source": "AlbertoNews",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMnVxaXdPWkoxTmRLcGoyRWVoUW0xQm1aRVNUeXF5bmhIRm5PWWNmRnQ1WVd5WUllR3JRb0xMNUhaVEdORG1XNGxfZEdrLWJsUGYtSHBxd01hS2Jra0c0dUdXVmlOVDNOUlI4b3RyNlg5ci1IcThSWDJib3A1SzNfcFJ2SXZUVE5mZzBiaDBtallJOVUwYUpLem5SMW5QcHlWYlphRVNGMVUyUFlOZkFZbS1ERTgwRk92emZBby0tWXRDUVQtci10R0k5R0lTMnVLZVQtWnlVcUh5SDdTTmlFSDI4dmVSY3h3V1NnTXU3STV3dktF?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n34",
    "date": "2026-11-16T12:00Z",
    "title": "NABEP picks Sulzer to build a new crude tower at the Petrocedeño upgrader in José, damaged in a 2025 incident, and revamp its preflash and vacuum towers; NABEP expects the upgrader back in about 24 months",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-24T03:20:34Z",
+ "updated": "2026-11-24T04:31:13Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
