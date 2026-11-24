@@ -1,6 +1,66 @@
 {
  "items": [
   {
+   "id": "1e2a00dec2fc",
+   "date": "2026-11-24T19:46Z",
+   "title": "PDVSA concentra el 46,88% de la deuda pública de Venezuela",
+   "source": "PETROGUIA",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNckNjblp1bU1IeERQYzRxWmktTmxFY1NNamdLbXhfNDF3VmpzRHNGTm9qd1NJeThmUFQwN0FVRnBHWEFsdFpIQ3ZFek16WVZPU2JzQ1k4OG9OY1l6UUktYlVabVNrTnRZYVZmdmc5dUtIZEJLRWFjQ2dkNUN1dzRQQTB6WTFQbGUzQUE5RUd3M0ZDZEliT1lwQ0VLbTk2bExybHVHdVVkc3VwWTNsaVJnbUVXUm9Yb09DeTB0SEFMS3RMZXBRWDBRRDE4LUNsZzA5Mm9nMl83VUd5ZXRiejFWU2FR?oc=5",
+   "category": "Debt",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "355e0647298d",
+   "date": "2026-11-24T19:46Z",
+   "title": "Investigan a Vance por contrato petrolero en Venezuela",
+   "source": "Reforma",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNXNENlRQX3N0QlNpdXZWbDc2RmRoYWRBay1ob1hxXzhCN2szY3JuaWMzNEJOS3ZRdEVwYXdVTEsxMS1YRVQ2MkVPTE90NVdjSEx6WEt5REltS3hoZ2IydExkdWRFMS1qY2pua3NUTFVtVld5bVJhQnliWmFnbnBrUnh3RVZ2S1lmeWhnYjdIbTJ1QQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "6166bed46fb0",
+   "date": "2026-11-24T19:28Z",
+   "title": "Plan Venezuela Renace proyecta autogeneración eléctrica en los campos petroleros",
+   "source": "La iguana TV",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBId1FxVWw1MExRNlVVZ1pORzlFb1k3cjZGcUhfWkZkRmdLdVJqMEFoMERMLWNmYzI5eEsyVHNLVWJzSURTbFpUaldSOEpTZC1VLW9JUEhObFJFNldRc2xJYXhhdENvQ2F1LV9KNXJ1X2szajVFZVRKNGpJTGs?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "25ad1482aaaa",
+   "date": "2026-11-24T19:26Z",
+   "title": "Oil Prices Jump As Senator Hassan Probes Venezuela Deal",
+   "source": "Finimize",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeXpoMGJTVzB6cTFJbnJVSXp3THhFUm5DTW5QREE2a0hQVVNMaU5LYUUyX0lLenNtQkJRVGUwVndMZzlMY1Vyc3Q5YnJYM2VuQzlteUdPYnZ3LUNSMDNnNXpOUWRQNUZ3MkVfNGZIN09FTmZ3dzRlSjNwTElIWWU3ZjNxX0ZQTmRBWjJRNw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "b50fa546f25e",
+   "date": "2026-11-24T19:13Z",
+   "title": "Un comité del Senado de EE.UU. investiga a J.D. Vance por presuntamente ayudar a un donante de campaña a obtener licencias para comercializar petróleo venezolano",
+   "source": "Democracy Now!",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTm9ReElMbHd2Yjl2b3B6RXU3T25fLXo4QTlIU2pnRVlPenBpN0JXSWNYalFmSEJCck4zcnNSVThfb1hlTmlIVk5fY251OFlER1JXM0s3X09LNmItRlZrUzREeTRoOXBaRTJrMWExdEl3aHBHczd1akl5WEFtY1J5WjJTRVpLQ2N1X3EzbjB6czNwbHF5ZXc5dDlSMGtla2dhRmo1ajlGaUxCbWJKckRPdk9xSXVDLVpOWVZYOTFpMXAwY3Vucnh3eng5dkJQb0J4d0NsNFZiU29FVkx1cFNJZmtPV3RvZw?oc=5",
+   "category": "Sanctions",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "42e26a83909b",
+   "date": "2026-11-24T18:21Z",
+   "title": "RÃ©cord de consumo elÃ©ctrico desnuda una contradicciÃ³n: piden ahorro a los hogares mientras la extracciÃ³n petrolera de transnacionales absorbe miles de megavatios",
+   "source": "Aporrea",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93SzVyTklzS3RjZS0wOWVJMVg4QmhhMzZ5UjNiY3FJck40blc5VFlHaHF5dUZSU2JkSWFyVjRzbTc5OWtKUzRBczlPMmVndVpYUlVV0gFYQVVfeXFMTUdyY3JZQ2FDLUdZaVpDTHE1M1NaeTNWRjFmN2NyeEx1X2V6QjhkM0NYYzhvenpnQzA2LWNBZ1VZOVdqRGU0UlY5VkNnQVFiYThUQm5tVUFNdg?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "c6721e8fdc44",
    "date": "2026-11-24T18:05Z",
    "title": "Senadora de Estados Unidos investiga a JD Vance por posible favoritismo en la venta de petróleo venezolano",
@@ -17,6 +77,16 @@
    "source": "BNamericas",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPclMyYVZxQzlOZ1ctRFVHMzUxaE1vRllsdG5HY3JVOVpHQmZBLXpXNE9pTkVvdHF3S2kyaW4wNnJqLWx2T3V5M0lGVHMyaHZDNnRfYVhjbk1yMjVZVGVYTTdmeUlBQWRVQzlBQ2l5Vkg3cTBqenZfbEVWVzRYaVFOMGRWT0pWOGZvZlNmNXlueGEzSW1ncEMtcUhyUlBrQkhmdldXWmhRcHFxZmcy?oc=5",
    "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "84e37a20088e",
+   "date": "2026-11-24T17:58Z",
+   "title": "Venezuela unveils economic plan as debt restructuring looms",
+   "source": "Business Day",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdzM5N1JocVZNX1hOZ19sWmE0QWR6X2w5b3JkZVpLbUdYTTBFVmNLNHV1SEJ2UGw4Qmo5Tkg3elZXQnlsMXhCd2dVNDJ1ckRkOVV2UFkyTkNwZjRKZmg1ZnhXYUtFWHc0STFObFFVY2FxamJ6MUNNR1BCWXp1a0MwaVJtUnBUaWJ0YUJJTGo1WmExMXhhREJ4SXpOYjh3S0k2NDl5VVhXLUk3eDI5MndILXZSdnVFcDg?oc=5",
+   "category": "Debt",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -7605,76 +7675,6 @@
    "origin": "rss"
   },
   {
-   "id": "8fa51636ab2c",
-   "date": "2026-11-17T11:33Z",
-   "title": "Oil Prices Stabilize After Monday’s Sharp Selloff as Global Supply Surplus Offsets Middle East Tanker Risks",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOakJrby1fQURoQkdGUXNmbTQtZHhsWWxBUXdvQUVxWmp3YTM2TXQ3WEZZVTJBWndvMTlPa0JUT0tQanE0YmpKeWN2ZzFiekY2T05jU1Y4ZDB5dmRZV2lFRXVUMVV5YVlPRTBKMkZHekpoYkZwRGo0R0pFVEVUWThDQ2k2VmlvX1ZWUUpoeXRIcWNtTWQtSGpYSmg5czg3OEpfUl9TS1A2Wm42dXI1Y0Y5LVdiSGV4WkhUZ2dfRUoxanFmWGs5UFZfRkpTSmhrMUlrVV9z?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "8cecc3f20de1",
-   "date": "2026-11-17T11:31Z",
-   "title": "Empresa trinitense Cliper Group rehabilitará 38 pozos petroleros en Delta Amacuro tras acuerdo con PDVSA",
-   "source": "Descifrado",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNkZCR2VjWENxMUQ1c01TMVZpNWdXeWo2b0QydlRfeE96czl1SkZ3QnF3UFY4ZURYSzA0Um16UGFPcW9Yem8yckswU1FFeVdjMFpKMllTcU9HQVpIRUxQdVpMTUozQ29yeGsxQ0pqZlBuTm50bVNvaGxnT1JIc05zVkNzeVNZbDJuYjY1SVpRazh3WGRtX0RPd2cxTU5pQ2dpd3FPMGRnaVE3R1AycTBfTWpOMWpVdEQtMFI3ck44eDhQZG5GeVRxZGRtblNfOHBnZUdpemlPQnBGSzA?oc=5",
-   "category": "Investment",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "c6312980f6be",
-   "date": "2026-11-17T11:21Z",
-   "title": "Chevron Reportedly Nears $5 Billion Deal to Acquire Majority Stake in Beacon Offshore Energy",
-   "source": "Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckJSSHNtZ0V2SlNkOV9oRmdXVXNKNG1yeWNyN0tIQTgzVi1jR3VkSGVJc2lPSHVoVEdZa3UxTXJFYVJpZk1NUnl6a2NKLW1fQndRVHJ3X2ZnMk4xcDBQaDN2b0hzRlpjYXRwNHpDOXhiN25PVi1UcGNtNnE0aDJNbUh0S3hWRnctODVGUUNlZlludXoyZnc?oc=5",
-   "category": "Investment",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "711f11feda49",
-   "date": "2026-11-17T10:55Z",
-   "title": "Is Chevron Stock Overpriced Versus Its Oil Rivals?",
-   "source": "Trefis",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTmZocS03UlNoaHRURlRSeGpzLXBuS2ozQmY2eHo3eVZiNXlJNGtibEd5QzNpZUNrNUNveG1KR0xtQzJQMnMxQ1lZYzFDLTM5TDZqREp2RkJHZmxLUGxqaW9jMFZGQlBfQjRxLXNBX05TdEFsUVMyNkJLNGpTV21kX3Y5Vi1ESjdrWlkwNG9ORVFPd0gtcjZCcC1IRjQxV3NHV0RqZWxuOWhqSnFkdHc?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "f20d721a3ce9",
-   "date": "2026-11-17T10:18Z",
-   "title": "Lavrov acusa a EE. UU. de «desplazar» a Rusia y China de la actividad petrolera en Venezuela",
-   "source": "El Informador Venezuela",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQnBmTnBqS1VXb01fMlp3Yl9OSlhvVGJnY0RvWkhzclBrNWhReVpRbmVfSmZSNUpIRy04TDFVVnkzQ2poMkVCNjZGWndXdjNOaExzcHJJZ3FWb182T3pyMXlxSlZsc3hocDdVWUw3MXZteXdYTG1lMXRrM2xhZ014amM2X2IzZ2YxZ3RUczJjZ2FiOVAyTVY4OXBXRU1wS3g4NWZiSFRQeG1pSjJudmduMEdXbVZIREpJQjJnMWN3enc4ZFpPLU1YZ2U0Wks3VU1QTHQySA?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "9b40fa42493a",
-   "date": "2026-11-17T10:18Z",
-   "title": "T&T company signs energy deal with Venezuela’s PDVSA",
-   "source": "Trinidad Guardian",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYzdTT2xHcVJBMk1OZEtCWkd1R3N5NjNnV0UxWGg4WWFsZ2pEVzdHdHBhYkF4TkEyMlg2TzdUN203VlNNZXpZTDRQZUM3RHRRcUdwNHJtWVIwcnhZaUZrYXFHaWxHTHg3MUlWNTY2TjdnSWlRVHZGZ0FfclhmU0Y1NU83MFVWWWJnb0toLUxzWkUzYi1BMy1vcUtxQVY3aWJmMWNCal9vRQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "879d5451ba78",
-   "date": "2026-11-17T09:34Z",
-   "title": "Oil prices caught between rising Mideast exports and tanker attacks",
-   "source": "The Lufkin Daily News",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNNnRGWXpiLTFXWVl1Qnh4VHgzMnl0ZS1QZ0NCTXRsS0Zkakpyems3ckpVNnQydHY4SmhuWVlkNHFqY052dVVsQkNPY1ZMY3FTSjc5WlZiQlJnRWhfdEZjNkwwQ3lPbzVvWkdESGU4RlhyQzNEd1FSeXVWTnpMODcycDljX2xtM1ozRWVCSEppUUlqWkhKSi1vYXFSOS1BZ2ZwMzBTLW04M1BENUJld0VtQmhLLXJTVlA4dG16XzFVakc0LW9EUUNCT0RZWjNodjQ1R2NvLUFuUEhrcGowRHlxY1hUdVdoX1hBYXpOWHFFYWhseTB5RVNCTUYxUQ?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n34",
    "date": "2026-11-16T12:00Z",
    "title": "NABEP picks Sulzer to build a new crude tower at the Petrocedeño upgrader in José, damaged in a 2025 incident, and revamp its preflash and vacuum towers; NABEP expects the upgrader back in about 24 months",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-24T18:47:31Z",
+ "updated": "2026-11-24T19:54:58Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
