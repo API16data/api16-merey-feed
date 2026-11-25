@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:32:44Z",
+ "updated": "2026-11-25T15:11:31Z",
  "vessels": [
   {
    "mmsi": 538012456,
@@ -2714,12 +2714,12 @@
     "manager": "Ionic Tankers Mgt Inc (Greece)",
     "class": "ABS"
    },
-   "seen_this_run": true,
+   "seen_this_run": false,
    "last_seen": "2026-11-25T13:32:44Z",
    "last_zone": "Sabine Pass anchorage (Port Arthur / Beaumont)",
-   "lat": 29.3922,
-   "lon": -93.6385,
-   "status": "at anchor",
+   "lat": null,
+   "lon": null,
+   "status": null,
    "draught_m": 9,
    "destination": "VEBJV>USPOA",
    "visits": [
