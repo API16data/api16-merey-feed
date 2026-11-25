@@ -1,6 +1,46 @@
 {
  "items": [
   {
+   "id": "075396d4dc2e",
+   "date": "2026-11-25T11:03Z",
+   "title": "ExxonMobil Guyana espera fin de disputa con Venezuela para explorar nuevos yacimientos",
+   "source": "El Nacional",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWNPdzVUWEphWUpSNkpYaXkyQ29EZ25uNXYxb1RRSVF1dmRtaXozUTFpSjRwMVRQaHJQY0Y1OUpPQlpRNDVFVmVSUzRYU3dTckUzNFZsUEs5RUlXdVkwRzFvdmI3MnhzN2RkZ0NkUmpqU0ViWkx5REVRLWtqcDdBTGQ5MWFkemdrT3BRUFVuamxwOGFEbFRsMGU5UXJnVTJMLTFnNmpqN2Fva2Q5TkNGRG5XRnl1eDY5ODdpeUtJMA?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "9e938ccf30a2",
+   "date": "2026-11-25T10:46Z",
+   "title": "Sen. Hassan asks Vance for records on alleged meeting with Vitol trader tied to Venezuelan oil license; Vance's office denies the meeting",
+   "source": "Plataforma Media",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2ZHbWFzczFCWFZTYWFZTG8tdDVhY042bHdkYUx0NFlZZncwYllsWU9DZFc0dzhYcTdmLVJEVnNjM0E4TDJpSmY3M2FoOTFWZk5sWnZrdkdWc0VMVzNhNXlzUDBDbzFKOEctUTRDTzRoclB1TjhqVU5hWjhSTU5EUVJaZTVRQU1aUWJvNlBjNWpzeFAtcVBKczlkTmRwZ0l2QVpPckpMMXdobzdlVS1OR1hFQXFiV0dNVm5ndTJ4SjBqTGdfckRERXVkMS0zSEtrQ1g0WWFn?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "4a1bbda2afa4",
+   "date": "2026-11-25T10:42Z",
+   "title": "Senadora de EE.UU. solicita información a Vance por acuerdos petroleros en Venezuela",
+   "source": "La Prensa.mx",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hRG9ZakhkUUtpZXZKYVczajZqS2dlejB4eXZvSUNFcWl3MUxfcUpTRTlRa2M0ME5mcXNjT1Y5ZlVHMW1yekRzS0M3M2FBYzdmOUVKcWlR?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "0372cac1fae1",
+   "date": "2026-11-25T09:55Z",
+   "title": "Fox Business presenta a Alejandro Betancourt como el hombre detrás de la alianza petrolera de Trump en Venezuela",
+   "source": "Crónica Vasca",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd3UwV0Ewd2tvQ3pDeVd1dGFiTl9VNGhmYkstN0xMRmp1bjBpRkEyOGZNTlc1Ukw0U1pkdnhvX25yVl9lN0FqNGRuU2RkNlBFV3dPWFlESjByOERyaU5PT0xKa2xLR21ibGtkU3JwTmhXN1ZDdXppT0MtNGI3Q3hBYUxCcktqbnR0NjU4UzZOV09JUTBBcl9FUHlFX28yY1JNRWtEaUxmdTJwWTVPNFdEZE9WTm1yTmMxdkk1WjE5TWJNYzgyVVE0bjZhMF9qQdIB0wFBVV95cUxPd0RpdUFxa3ZqNUpzNmdMaXdnWU8yU20wSVBXMjVLbnZqQnpYbXFOWVNwRGRrZjBOWmtiT2YyYlc4azR6dmlDRE11dTRVeG9MZnhTOE1RZjdGbEV6NFp4bGk5dlFOeDdIX29JQUk4RmxISjdqMTlDOFktOEF2RDNRc0hCd0ZVS0U1N2NSMF9zSHhXT3lBRUE2alRqZVhxdXR4SldFMnVPRVp1aTJidkVlNlVab3lmN1U3UlhjV202YnYxSTlzcDB3NmtxS1UwSU1rZHgw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "80e65a6ec795",
    "date": "2026-11-25T09:30Z",
    "title": "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify",
@@ -8,6 +48,16 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObXVCeG5tc1dtTi1CRVJxVEZ1dktYdHJ5cEN1LVhPUVoxTHJIWUhwYk5PbnQ4XzRhRHF3R0I5Wll4VlpmQlgwZGo0dDRXVkhJLWcxcFdrdmlEVjJaWDlRX1lYcU10VXZELUdiLTc2WnpyLW5kMzcyYjJlX1J3R2VvVTAzWnFxcVlMMl9DN0hKN3hoTG9NbjJhTE9EQVFzRU52NTlwaXNRSXpobkhwY3ZzN0lCeWJZV2o1WDBNNtIBwgFBVV95cUxNbnBHRGdlSTRjQnZhbk9RUEc4eXFpRTNYN1YwN2hleWwyVW02bVhJbjkyTWZPUUdsR2NEVFlZMmtjRzJEdlNnOGYzVEZvV1NPVi1hY3d2UGZoWENvTnNOcnRkZmFiMktaQ2ZNWDM2ZFk2LXotdWxsVEstVkQxNkZRRWgyNnlUR19aVm9JOE9jWmhzY1QtaEM1cXMzMk1PV3VmbkZkd1Y0ZkJvVUhhVlpwRk9XVVNpblJfY3RNck1hVTZEZw?oc=5",
    "category": "Exports",
    "via": "Google News: Venezuela oil exports tanker",
+   "origin": "rss"
+  },
+  {
+   "id": "7c9246ca0d12",
+   "date": "2026-11-25T09:08Z",
+   "title": "Los demócratas del Senado de EEUU investigan al vicepresidente Vance por presuntos favores a una petrolera en Venezuela",
+   "source": "Energías Renovables, el periodismo de las energías limpias.",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdEhHVkVISVNnZnB3UzNmT2JzNTBCMnF4ZHVBUEdEUnhXOEVIS0ZRZ3I4dEc1ZE50d2xoSE44cTViUEhNYlpQNlM2Slpkd2ZxUkNmZzByRWpKeHZXT3dzaVdXOVFDMHA4NnltdG9Tdm82MkdGai05NWU2TER6REJTa3ZPMy12MHY5ak5pRm8yUHA?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
   {
@@ -358,6 +408,16 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHlOaDhJNWd4cmFuXzFlekp1LWMwRVBQNHF5UlJES0lPektvVGxkaEVhYlpEWk8yeThNMlVBLTBtYjRkUW9kTDR0Q3RHNzRTOGMyQXJGQ1NlOG1vU1dMSU5DUDY0NUxTX3NLNWpmYUZYTll5c0dlMDJoaHF5WDM1TFV2VkRoVXBhS3FBMWIyQm1HbUVMTTRvcERUQUgxRDNIemZScFVHZm4wLUNsMjlyV3U2U1l1QQ?oc=5",
    "category": "Debt",
    "via": "Google News: Venezuela bonds restructuring",
+   "origin": "rss"
+  },
+  {
+   "id": "40674ff4d152",
+   "date": "2026-11-24T23:32Z",
+   "title": "Grecia, Argentina y Líbano: así se compara la reestructuración de deuda que plantea el régimen de Delcy",
+   "source": "LaPatilla.com",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd1hodjNhMUk2ak5kRXdtVDBrMV9JaERJUUljRy1PTmFnT1dEMktIeFZMN1p0SmpyR2szcjVsYnVsbVJQRExwbF9mWVFwcTl6MG1OVDBIZ2FyYTE3akVjaFh1SExxcEhTd1FXV3FIVS1Vd0kyalc5OEw5MlNWR2pfSW82bDNNLVVWbTRlVVYyNGRpbUdidGtMVnlNaUNNSXFucG5iYzlmSXhDTHh2THRPVExScENfTElIb3ZLWFdYczZweDBSMnFDaHNreUdpQkxD?oc=5",
+   "category": "Debt",
+   "via": "Google News ES: empresas mixtas PDVSA",
    "origin": "rss"
   },
   {
@@ -7615,66 +7675,6 @@
    "origin": "rss"
   },
   {
-   "id": "ae8057579bf5",
-   "date": "2026-11-18T04:13Z",
-   "title": "Controlado incendio en la macrofosa de Petropiar en la Faja Petrolífera del Orinoco",
-   "source": "Últimas Noticias",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa0RGeVdyb1RMLVRvTkpkQmFmOHdEX25KSVJpUl9XX2x1VDRBMTliUTdhYVYxZ0VlRVFGejFkaUMwSUNPdTdpODhfZ0xHUzcxSi03UDFpNmRCVGZLdGRBdWxzMzExWjRJWHZRbXM2RmxqaUg3RC1aaWt0Z1dxWjRjelVYUFcxWFd1SXQ4bnJjT0Eza2RTbXB1UjBxOVc3MjFTNFhQc3pkQm1ZcjgyMzMybW9QOGhZYXRLYm1XTUpBbjVYbWNk?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "156095d8caa1",
-   "date": "2026-11-18T04:10Z",
-   "title": "Venezuela: A Roadmap to Recovery",
-   "source": "Center for Global Development",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xV1ZVSkR2Q0Q2WDJjVnRaSlNWYm5nVnZJdVY4S0libDBIQUtoeE9jeTRRQlpYMVVuY0JYZHpRVjl4MWRWblBxNEwyOEo1UVNuc3RJS0xQbXZpeTkwLTBfa0JhdDNMQTZxZDdhXw?oc=5",
-   "category": "General",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "3e26c478ce85",
-   "date": "2026-11-18T03:55Z",
-   "title": "Pdvsa reporta incendio en centro operativo de Petropiar",
-   "source": "Contrapunto.com",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUHNseF8tblRrM3dkRW9kZGloalV4MzhWM2xwVVoxTnpZX2pHb2xsR2N3TEVvRWFQVmE1RlZuR2JHbTJVR0x5WGJheGVLbnludk9DZVp0RnZxN1VhN054ek9LWWFPbEhaQllTRUtvazc4X2R5d0Z1d1QzLUJrU0kyNHcwOEdKOThmMGswczVaQmRadG8?oc=5",
-   "category": "General",
-   "via": "Google News ES: empresas mixtas PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "c3b699a1b45e",
-   "date": "2026-11-18T03:48Z",
-   "title": "COMUNICADO | PDVSA sofoca incendio en macrofosa de Petropiar sin heridos ni afectación operativa",
-   "source": "La iguana TV",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWURuMjc0a0V6OEVrT0xPNUFBUXNIR0tFSFliaTJwdjhqNVBzSHNISHhtSVJPX0FXOVViVURiNjR0VVNkRUl6eVpJc2lJLVlob2xEVFZ6YkhVRGJ5THRVNU5RakxYSjV0SnlQX2NUV1NJck52OWk2NWl0NUl4aWlTNG02NGRxZy03Rl94cXotc3UwbEQ5WjRyOFA5ZFFnT3YySl9vTFFKd1F3UTljZ0hxZXp6Y3ZPUmhwNWFQbzRrZUlxRU9Rakw5OEhyMVJYRmRGYktn?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "7ee68e25e78a",
-   "date": "2026-11-18T03:45Z",
-   "title": "Pdvsa reporta incendio en centro logístico de Petropiar en Anzoátegui",
-   "source": "El Carabobeño",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaElWV05VVHNTR3NwUnNDbk9iVDBHYldhc3dIeC1JUjlPZGNxWnZhd21RclBNZmF6cmJSRVRudHJMU3FwSjVYUTJlVHNCeXg1VVRiOUthMm9UNzNkcUstNFpnbEdwNmZ0dDg0dmNUU00wYXA1VFlzcEp3Vm4wN1JnYmI2TWt5QVRhSmVxNnRqTXpWUXNQUnhfb0VfSTRfYnNwX2c?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "a5b0e16da3e1",
-   "date": "2026-11-18T03:42Z",
-   "title": "PDVSA sofoca incendio en Centro Operativo Bare de Petropiar",
-   "source": "Radio Nacional de Venezuela - RNV",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UM2NkN1JQVHIwV0c1T2ViV0Z2UmctMVZlUzZ1aVJoWVIxZTg3RnFkYVJVZkdlS2Q5UlJrY0R1eTdidzl1Y0VMOFBvOUtielZ2OEtfSzQtaktVc29YeW53VWxTVlMyWUhQdTZ5N2VocU13dllHTW9J?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
    "id": "c-n34",
    "date": "2026-11-16T12:00Z",
    "title": "NABEP picks Sulzer to build a new crude tower at the Petrocedeño upgrader in José, damaged in a 2025 incident, and revamp its preflash and vacuum towers; NABEP expects the upgrader back in about 24 months",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-25T10:00:26Z",
+ "updated": "2026-11-25T11:25:16Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8081,7 +8081,7 @@
   "OFAC recent actions"
  ],
  "failed_feeds": [
-  "Google News ES: Faja del Orinoco: HTTPError",
+  "Google News: Venezuela oil: HTTPError",
   "Banca y Negocios: RemoteDisconnected",
   "OFAC recent actions: HTTPError"
  ],
