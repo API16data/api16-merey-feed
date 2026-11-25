@@ -1,6 +1,66 @@
 {
  "items": [
   {
+   "id": "bfa3ab694771",
+   "date": "2026-11-25T16:47Z",
+   "title": "Eni y Repsol se comprometen a invertir conjuntamente US$ 2.000 millones en sus empresas mixtas con PDVSA",
+   "source": "Banca y Negocios",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQmpsbkxJZzZBTGt5R3g2c1Y0RFJEcFE1dE9IcmlYQXQ0OGdRME1wYXozR1VfU3Q0Wm9KQWNGbHkxcm5ZcGVWLWpGMXh2WTBXdFhvMGxJRUdBWTVrWFBVeUlxeUZNcjd5WGtLQnNPNFlNYWl3dVZOWGNnQkxlLVNTTjNnRDdkSldHRDl6QkxLenV2TmNiM1A2WjMzUENuYmxnWDFyNk9CZGxnZHo2Rl81SDI1SDVsYV8tQ1RreVJkX1JKbmh4VzdUZHlRYTZLYlE?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "545043b4a8d4",
+   "date": "2026-11-25T16:30Z",
+   "title": "Eni, Repsol To Invest $2B In PDVSA Joint Venture",
+   "source": "Marine News Magazine",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHNWRXB0aFlwV3BpX2lOOWw5VzNMelRFenRqX29wSkluUTQ5eHZKM2I1Uk1nalNIaURTcDA5cS1JeWdnbWdpb21YaDhWTzREbGdzcVBlODlDSGhiRGlINWRSYkxWQ3dXYzNMekU3dmxBNnBKVk1JdE5ZVHFQQ2tSbXdlU3U?oc=5",
+   "category": "Investment",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "0f061f56b52c",
+   "date": "2026-11-25T16:17Z",
+   "title": "Repsol and Eni plan $2 bn investment to expand Venezuela oil and gas output",
+   "source": "Beinsure",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLS05R2g4ZFJ3U1FqTFNNSWV1MGhUYUZadGtmRXlka1Z1YUdDMmkzUVppUGtoZkxtRHZndm9fTnh0bjBQdmVUZWg5SGpvVEt4U242MlNoU3FLZ1JFVWhUVGJKS1VNeEFEbUdQMnp2Z3g5RDZEUTl3SFZrd0N6TFE4eDRya1RibDV2OUlLUg?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "6cc0fe33993e",
+   "date": "2026-11-25T16:13Z",
+   "title": "Repsol y Eni comprometen USD $2.000 millones para proyectos con PDVSA en Venezuela",
+   "source": "DiarioBitcoin",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZko3TWVTbmg1eUltdU85T185YWVMaTJLZVpxVl9SOEIwVmFfdUctbVBJSVhVQl9neFpNN0ZLeEJra29KX0RONDBqX012cVlSS0hlNHVKdzlOemNNMkgzZUxjQ1Z1U1g5Q2JzcmtTTkk2WmhUZFhrSG1ramVHcmZ4TEJqVFFOTHdwQU1qNHM0RDZQMTFzUDl3QU5DUEJYQlhkMmt0OXJ2bzhWSlNwYTI5Y0Zn?oc=5",
+   "category": "General",
+   "via": "Google News ES: PDVSA petróleo",
+   "origin": "rss"
+  },
+  {
+   "id": "9ef1880ad8b4",
+   "date": "2026-11-25T16:00Z",
+   "title": "Analysis-Venezuela data deluge cheers investors, but $237 billion debt test lies ahead",
+   "source": "WKZO",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRmJuV3pyT0hyTzBvc3R6N0dFUnpRaGJtNUtBSHNUay1zQWJHNC15U0VUTWpXRll5WkVzX0U2aDdUSXBCODJ0OFVnYmxtSjRyX1NlSDlKSmJUV04xRUlhN3g2M3VvbjRqRVBYa3lpUFpqSDVDOFcwTEl6emJ4b3F2cjRkamF6S0dfbUU2T0lPZG9ScHh6RzZKM0t5ZzdsejZKc3RYdEJRa0tSV0NDRzRma1ljNA?oc=5",
+   "category": "Debt",
+   "via": "Google News: Venezuela bonds restructuring",
+   "origin": "rss"
+  },
+  {
+   "id": "db6121c3f2ec",
+   "date": "2026-11-25T15:59Z",
+   "title": "Economistas exigen auditar deuda de Venezuela antes de avanzar con su reestructuración",
+   "source": "Infobae",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaHZobVhadkJwMWxZenpfLU4ya05rbjRLcFZ3bTNBRlpyajNLZ3BaZTZiSFFxcV9yNnNMcG5odE5odGk3N2dYdF9ITjZMT2owNGZCYUpqaHhhS3BNN0hGTlJ6bzFvUlFERG1HLUEzM0ltSUI2QU5SaVpIVF9YWkZhbzNxUGlCS192UTBZSmVtOUR4R2xUNmpFX180ZHU4dVRLUHk2M0E4TlJ0NDhPMjIzcl96X0hwR0tBdHRDS1NTYkxkNFI1Q3NFX0RldWnSAecBQVVfeXFMTW5hZGczT2V5cDlpLU9LbTR2VHNuaHRCV05oR1pyVUNCVUZkY2JpMWdhVlgyamowcEZYR1h6VDRkbUxaeldJT2h3VTdIVGYtdFdhcXF3aEo3MHV4eE9nNi1PdFVSWV82SldiYllScldRb2FQTDRBTzFmQS1kU0tqM1lQSVZDalo2d0ZLM0otZE5JYUEtakdIdzFNRVJqTVpYU29IVF94SzIxYXJ3cFpKcERwRnJmdEhQbV9sa01lcUpBSmJhdEhzTEd4YXk3eXpieGYtNFYtOGdrMkFHdnl0RXFOeFNwVjhF?oc=5",
+   "category": "Debt",
+   "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
    "id": "b959707be560",
    "date": "2026-11-25T15:41Z",
    "title": "PDVSA y Shell firman órdenes por $400 millones en Monagas",
@@ -7601,36 +7661,6 @@
    "origin": "rss"
   },
   {
-   "id": "dc26d61fb155",
-   "date": "2026-11-18T12:11Z",
-   "title": "Sofocan incendio en instalación de Petropiar, empresa mixta de Pdvsa y Chevron",
-   "source": "El Nacional",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUjdXWThlaDI3SkpQVVRLYVdoUVR4eHV5UTc3S3dJSVhuZ004WDVBX0JBZUZpMVVNbEFDUTd2NXIwdnc2RS1mTXc0T1lfRmg0QXVJNERURDRUaUpsVTd4UERyR0FRalQ2amx0MEwwc25aSVVXRXhlVWd2cmpkS1loMnluWUd3NkNiSzBTWGNpS0t3SWZWRGtyTzJRTUlJWjVWdHZqbmZjaHBtaHAzOElRWE93SQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "0572edca1f65",
-   "date": "2026-11-18T12:10Z",
-   "title": "Pdvsa: incendio reportado en Petropiar fue sofocado sin heridos ni pérdidas operativas",
-   "source": "El Informador Venezuela",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMG5MaVlMVHpoRGFXQ2FyVEVyZlA0V0xoRWRiTXc2UlUtUlNSV2F0dWxqckg2NVRZUk5aT25wYVJmd1pZMUxIRjlBNnZrR3QzdjlsMW94LWNTM1dkVm9CTnFzUTlhT0RLaktWYmlqRWYxNTBDVzlnWXZ3MVg0ZG9ibmVKUENBcG9ERUJrYzcyMXJMbTF4WW05ckkyb3VtbHM5eG9aSkhsT096TnhYcWV1YVJ6aUFRcWZYUEY0QS12WHZLaVFFaVlMSExvTEJYbmZ5?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "3b648595ab5f",
-   "date": "2026-11-18T12:07Z",
-   "title": "Betancourt recupera su legado y se hace socio de Washington",
-   "source": "Diario de Burgos",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSk9XVkt5MnZqcjFnZkZ3c3BOTHBmQTFpSE1MazllTHd5YlB6MEJpOWJmQ3VrMXhxV0RWRnl6Zk01TExDRUljeGpKRms0RUVQWUR0Rm9TamhEYlREUUt0SWVCajk2RWQ0MjNIUUsyTDBkSWYwdWZZenctUUg4Q3MyVmh6am1vOHdmeFpwMTdTWDFiTDY5QTdQbmJIblpxMm5QU1dPRzhqNVZ4SEJyU0pwRnpVY29yc1B2RDItUlF2Q1FtRjYzQjk1SEhaZFhucXdFa2dVY3JqQWQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
    "id": "c-n35",
    "date": "2026-11-18T12:00Z",
    "title": "Nearly 200 mostly Venezuelan contractors want to turn unpaid PDVSA invoices into audited 'mirror claims' with traceable ownership, to use them as collateral for credit before any debt restructuring (Bloomberg Línea)",
@@ -7643,36 +7673,6 @@
    "until": "2026-12-15",
    "angle": "Real-world assets need a source of truth",
    "origin": "curated"
-  },
-  {
-   "id": "4004e376e651",
-   "date": "2026-11-18T12:00Z",
-   "title": "PDVSA controla incendio en la Faja Petrolífera del Orinoco",
-   "source": "La Otra Versión",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSUF0emlBZHY5UV9Ka2hpcEdzT3BVZ3hDRk1RWXA5R3VRWHZVZ2xlSFYwd2RNbFlCTkV6VXUzTmZXMDlqNEJHUWxBQnoyM29hQWhZMnpsaF8zenFIbnExWDMxOFAtMUt3Yl91NTYxbGlBY1l5QnFsTXN2Z0FlVVY2VUJRbm54ai1ScjJqbVd3?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "71cb07291d86",
-   "date": "2026-11-18T11:55Z",
-   "title": "Presidente de Pdvsa: actividad petrolera incrementa demanda de suministros en zonas productoras",
-   "source": "Últimas Noticias",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZGE1LUZwWkNlT3UyQTVCUnVKZTZVZ2otcWlpSFdHY3NMcFF3RWJHZjl2Ri1jMVVEUjZNbEI5S2hqR2FSZjhLbXB0OG5OSkRxSTEtWXpEUmlGYW53VmlyaWJFNUY5VlJRdEotblNtVnJvZFE5eHM2ZXotRjVsWmJNUGgxaW90VjZvNEg0ZmZjSEhtRUx1cWpVMjhMbzRlTDBDcEJPSVFzRmFua3laV2UxN09fbzZWYnVSZEY1eWEtRk40R0xVUkxNZ200WGN2QVhfdmtOZHlzVzVxajJB?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "a6facea14bfe",
-   "date": "2026-11-18T11:54Z",
-   "title": "Pdvsa reporta incendio en Petropiar, ya sofocado y sin heridos",
-   "source": "Finanzas Digital",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcG05QmFWaFVZdnJNdGNXQnBmdzFaaEhrWHo3REg1cGJHZVZJYWE4QXhWNERPdDE0MFlFcTk1RWctNEhPeURYVFNyN1UyOEFDV0VrbHk5YlhsYVBFbThnNHVIQ2FqenRGUVBlT1NxNWNfYWVNQWJCMUF3Q3JyTUk5QUY1cjJEeVBJNmtvRGZHLUVIZV8t?oc=5",
-   "category": "General",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
   },
   {
    "id": "c-n34",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-25T15:55:18Z",
+ "updated": "2026-11-25T16:57:08Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8115,6 +8115,15 @@
    "key_figure": "2.9 million b/d"
   },
   {
+   "date": "2026-11-25T16:17Z",
+   "title": "Repsol and Eni plan $2 bn investment to expand Venezuela oil and gas output",
+   "source": "Beinsure",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLS05R2g4ZFJ3U1FqTFNNSWV1MGhUYUZadGtmRXlka1Z1YUdDMmkzUVppUGtoZkxtRHZndm9fTnh0bjBQdmVUZWg5SGpvVEt4U242MlNoU3FLZ1JFVWhUVGJKS1VNeEFEbUdQMnp2Z3g5RDZEUTl3SFZrd0N6TFE4eDRya1RibDV2OUlLUg?oc=5",
+   "category": "Production",
+   "angle": "More supply: more barrels heading to market",
+   "key_figure": "$2 bn"
+  },
+  {
    "date": "2026-11-25T15:24Z",
    "title": "Eni, Repsol pledge to invest $2 billion in Venezuela JVs",
    "source": "Reuters",
@@ -8122,15 +8131,6 @@
    "category": "Investment",
    "angle": "Future barrels in the pipeline",
    "key_figure": "$2 b"
-  },
-  {
-   "date": "2026-11-24T21:53Z",
-   "title": "Norm Coleman's Firm Hogan Lovells Signs Venezuela and PDVSA in Deals Up to $7.7 Million | The Daily Letter",
-   "source": "Howl.Link",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9QWGRXN05qQ3poOGZCYVR4SXkwRHFxbnlRb244a183N2JabVlGMWFoOG13ejhQdUpUY2JB?oc=5",
-   "category": "Investment",
-   "angle": "Future barrels in the pipeline",
-   "key_figure": "$7.7 Million"
   }
  ]
 }
