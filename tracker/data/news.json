@@ -221,6 +221,16 @@
    "origin": "rss"
   },
   {
+   "id": "4caf0267d874",
+   "date": "2026-11-25T00:01Z",
+   "title": "Investigan a JD Vance por presunto contrato petrolero en Venezuela y surgen dudas en Washington",
+   "source": "Debate",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLUJwaVowazlqNjZYM3U4UHlWUzIxUU44SVFDcUNwZXU0clhxYjV4T0l4Y1g4cjZlRDVBWDI5cWVmSzh4SW1hZ2xNUURvbTllTUNoNm9Na1N1SzZjUEZqVVhEZ0lBNlV0dzFvdjlOei02VTNONjVjdU0tUVI2VFhpZGhKN1ZXRW9RcmVxeFhTQU05OGtnSlI1c3RwX0JFU3dRRmRLTUxUS1NWM0pQWWt4M2ZfcndhQjNCY3REMERZZEE4NWExcERPNzdYSktmcUtSR3BSMWFlSmJOUFpnUXk0?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
    "id": "766937406623",
    "date": "2026-11-25T00:00Z",
    "title": "Senate Investigates Vance's Alleged Role in Venezuela Oil Deal",
@@ -1898,6 +1908,16 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMHdlMms1N1hQbmNQS29BUUhMdWk2VDVIbTZRMnpVWUIyb0M2ZVY3XzJrVjIzZFRtN2NlVVZ1YS1GOUV6Nm85aE16OUFPZzFUS1hTV1BOU2tMU2o5WkxFQXlJc0V5N2xnaVRKdWplcEt2ZkMtd2JiQXdmMEVMc2hPeGw3emtOWU42NnloVERTa3pqRFFBZUJTSU9vc0p0VGZt?oc=5",
    "category": "Production",
    "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "d36caf96ed48",
+   "date": "2026-11-23T15:01Z",
+   "title": "SUPPLY REALITY: Americas Have Glut of Heavy Oil Due to Freight Squeeze; Asia, Europe Scramble for Barrels",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbmZNamtwdlY4UG90SU9na2tYLTNGVE1XbmZPYlJJVGpMNF85eXR3NUdJTjZuNUFIMml6aktNajBVemZPLWt2dkxfdE5jUHMxOVpMS3BvUXJLNFBGUmZUdGRtMFFFa3NQZk5xa28yMmNtS09Xd09HM2NFbGJXY0NMQksyRFNNaGIzTFJEZ2RKSmdyRGtZeWZmNWZaQmFEMU95UTR5SXdsUU1Wc0kwRUdRS05JTUx6TmlTY2c?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
    "origin": "rss"
   },
   {
@@ -7655,26 +7675,6 @@
    "origin": "rss"
   },
   {
-   "id": "2d059725e6bc",
-   "date": "2026-11-17T22:29Z",
-   "title": "Trump Energy Chief Says US Aims to ‘Set Free’ Venezuelan Economy",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLUZ1REg4S1pEX3Y5cVlCTy03b2QxclRuZlQ5bmU0a3ZGbDdEcWhtYndHNWRaa0kzSk9xaDRsdGxYNGZISFRrdnRUT0lOSm5Uc05fVE1UeF9qWldXYkhRSVFuel8yS0trYzl6OXdGdUFIR0pvb1dlNzVKTnFlWVlsVldsaUhhQTVaNVJjZFBzcXhGbVVBTEFQNA?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "b3911a518883",
-   "date": "2026-11-17T22:27Z",
-   "title": "Adnoc Keeps Loading LNG on Tankers Despite Hormuz Disruption",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDN1dG5rTzdCM2JxazN6eEtHc1pRR1VJVmF4MXF2TXVfcGNmSzVsTVRQQXhXeWE4bC1HTTJhb3Awc0kzWnQ3blVwLW5Ub0VDSFpLMDkwSVp5bF9SRlliOFlUenpyMHRaNWFQT2x5eVlQZmE2aTBLOS00a2pVVk9WOGY5Z1NiUkwwOWZsQUpHc2NMN0hfeFE?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n34",
    "date": "2026-11-16T12:00Z",
    "title": "NABEP picks Sulzer to build a new crude tower at the Petrocedeño upgrader in José, damaged in a 2025 incident, and revamp its preflash and vacuum towers; NABEP expects the upgrader back in about 24 months",
@@ -8061,7 +8061,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-25T04:39:45Z",
+ "updated": "2026-11-25T05:52:41Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
