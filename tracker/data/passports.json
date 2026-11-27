@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:04:16Z",
+ "updated": "2026-11-27T21:09:59Z",
  "method": "Built only from public AIS. Each stage is evidence, not proof: free AIS misses ships near Venezuela, and draught is entered by the crew. Official checks (customs, EIA) are added in the Cargo Ledger.",
  "passports": [
   {
@@ -50,7 +50,7 @@
      "first": "2026-11-24T16:20:41Z"
     }
    ],
-   "last_seen": "2026-11-27T02:48:09Z",
+   "last_seen": "2026-11-27T21:09:59Z",
    "last_zone": "Port Arthur / Beaumont / Sabine",
    "stages": [
     {
@@ -437,6 +437,71 @@
      "done": true,
      "time": "2026-10-30T04:50:27Z",
      "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
+    },
+    {
+     "stage": "Discharged",
+     "done": false,
+     "time": null,
+     "detail": "no draught drop seen yet"
+    }
+   ]
+  },
+  {
+   "id": "AIS-538003828-2026-10-28",
+   "mmsi": 538003828,
+   "imo": 9449443,
+   "name": "PORTOLA",
+   "length_m": 120,
+   "status": "in transit",
+   "stages_done": 2,
+   "stages_total": 5,
+   "est_cargo_kbbl": 55,
+   "est_cargo": {
+    "kbbl": 55,
+    "kbbl_low": 46,
+    "kbbl_high": 65,
+    "tonnes": 8100.0,
+    "draught_m": 6.8,
+    "loa_m": 120,
+    "beam_m": 20,
+    "beam_estimated": false
+   },
+   "partial_load": false,
+   "specs": null,
+   "destination_now": "SR PBM TO TT POS",
+   "destinations": [
+    {
+     "dest": "SR PBM TO TT POS",
+     "first": "2026-11-27T21:09:59Z"
+    }
+   ],
+   "last_seen": "2026-11-27T21:09:59Z",
+   "last_zone": "Trinidad & Tobago",
+   "stages": [
+    {
+     "stage": "Venezuelan origin",
+     "done": true,
+     "partial": false,
+     "time": "2026-10-28T08:00:17Z",
+     "detail": "seen at Venezuelan waters (other)"
+    },
+    {
+     "stage": "Departed loaded",
+     "done": true,
+     "time": "2026-10-28T12:56:50Z",
+     "detail": "draught 6.8 m vs ~6.2 m laden mark"
+    },
+    {
+     "stage": "Crossed a Caribbean gate",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
+    },
+    {
+     "stage": "Arrived at the U.S. Gulf",
+     "done": false,
+     "time": null,
+     "detail": "not seen yet"
     },
     {
      "stage": "Discharged",
@@ -1197,66 +1262,6 @@
      "done": true,
      "time": "2026-10-31T00:58:54Z",
      "detail": "Sabine Pass anchorage (Port Arthur / Beaumont)"
-    },
-    {
-     "stage": "Discharged",
-     "done": false,
-     "time": null,
-     "detail": "no draught drop seen yet"
-    }
-   ]
-  },
-  {
-   "id": "AIS-538003828-2026-10-28",
-   "mmsi": 538003828,
-   "imo": 9449443,
-   "name": "PORTOLA",
-   "length_m": 120,
-   "status": "at origin",
-   "stages_done": 2,
-   "stages_total": 5,
-   "est_cargo_kbbl": 58,
-   "est_cargo": {
-    "kbbl": 58,
-    "kbbl_low": 49,
-    "kbbl_high": 68,
-    "tonnes": 8600.0,
-    "draught_m": 6.8,
-    "loa_m": 120,
-    "beam_m": 21.1,
-    "beam_estimated": true
-   },
-   "partial_load": false,
-   "specs": null,
-   "destination_now": "SX PHI TO GD STG",
-   "destinations": [],
-   "last_seen": "2026-10-28T12:56:50Z",
-   "last_zone": "Venezuelan waters (other)",
-   "stages": [
-    {
-     "stage": "Venezuelan origin",
-     "done": true,
-     "partial": false,
-     "time": "2026-10-28T08:00:17Z",
-     "detail": "seen at Venezuelan waters (other)"
-    },
-    {
-     "stage": "Departed loaded",
-     "done": true,
-     "time": "2026-10-28T12:56:50Z",
-     "detail": "draught 6.8 m vs ~6.2 m laden mark"
-    },
-    {
-     "stage": "Crossed a Caribbean gate",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
-    },
-    {
-     "stage": "Arrived at the U.S. Gulf",
-     "done": false,
-     "time": null,
-     "detail": "not seen yet"
     },
     {
      "stage": "Discharged",
