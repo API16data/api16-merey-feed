@@ -1,6 +1,226 @@
 {
  "items": [
   {
+   "id": "5895f85fdc4a",
+   "date": "2026-11-27T10:29Z",
+   "title": "Alejandro Betancourt defiende su acuerdo petrolero con Trump y acepta que se revise el contrato",
+   "source": "América Económica",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2Z0Y0pweVU1X1p2X0wtOUlQend1VC1CTEN2RllKZENuTVFSZEN5U3lldEpncTVRYi1haGZHYTNDTllfNVN3VUZmQ21seG5lZjFSZDJRRnpWb2l1ZEx3NXFsbm9EaDZyMnhyQVQ5QjdJSmoyNzg2R3NDSWJ0R0dWUWZNRzAxbXZJdkFEX0MzZmVGTDdJcnFDUndpaDVSRnBnbzY5QkFvTTBFbmlpTTdqUVZsNnNtLVhwSGRxOWN3dk53NkkwblJQNUgyVVM1YlJaaVl2N0phVDI4MTRDQTlEONIB5gFBVV95cUxORlpDM3hNZUc0YXhXSXlUMUU5N3pHcWppZ3ZrNU9FaDM5eE01Y1BJQ0hVM3Nzb0Zwd08xSWIydzJzdFJ6XzNnSmhTcl8yTkhCQ3R6Z00tSHVFZlZUbjE2MWxsY0g2MlZ5dmp1N1ZSb014SkFFd1AwYmtHQlRmaTJrY1NGZ3ozUENTZHdWN1NrbUsybVpGUUhubmlLOTl6NTNSeWRuMVMxdHBfS2FNUVVCUl9yQVRCZldwYjFnZDBUZlkxQnF6VVJZWmFYQUhEZ3J1QlF2TVI1ZkxOMmR0dnNKem84cUV1UQ?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "749ea8795025",
+   "date": "2026-11-27T10:27Z",
+   "title": "Financial Times | El magnate petrolero venezolano defiende el polémico acuerdo con Trump",
+   "source": "AlbertoNews",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSmdsNHh6YmVlTlZfVnUtRGhUVXE2QlZvRDVUT3FQaUZ5dXRCaVdzUWF6WEpaMGZ4YXJyQWxIdWFlelRweDMyMUg0Tk51TzZ3a3BuVDd2Z2thbFJqb3RKZ3lkbFRnd0Q3TU9Gajg3b3luTDYtX0tReXZENERzaU1KVWVUSUJ0ekNpZ0YwdlBCWER1andtLTl5LU1mcXZwVE5UVG93VjdpNWQ1NFlldDNSTDJQSUtJNjJCX0c3WmR1clA?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "1e2c5ba94ef4",
+   "date": "2026-11-27T10:23Z",
+   "title": "SM Energy and FourPoint lead multi-billion dollar consolidation in Uinta Basin oil sector",
+   "source": "PravdaReport",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZmZqa3VNSEI1dlZWSGQydUUxbVZMS1YwZktiMGV4d0xDT09CMU5NMkxhVGhBZlFpWnl6aHpQMGRZdElGT1k0bUluWmhpUlRBVkwyTFBSMzMtVlhFak9feDdLREVSYTZRREM5UDcxclNyekRuN29CdVVBZk9rRERNTjl4RFJjVGFtVUhoUllDbw?oc=5",
+   "category": "General",
+   "via": "Google News: Orinoco Belt",
+   "origin": "rss"
+  },
+  {
+   "id": "fe14d287ace9",
+   "date": "2026-11-27T10:12Z",
+   "title": "¿Se va el subsidio a la gasolina y el gas? Lo que dice el plan Venezuela Renace",
+   "source": "El Estímulo",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWl9OSU5wRVp5b0hJTjVLNzJiakRqd1BCc2dJRjkxSTI1M3NlQTNyUDhYdmpvSjVKSWJwbTNzRDFHSlMyQkpuRzUtakdabkRXS0RhN3RYa2NsVnJ4VmUwTDBlZmU1ZmhxUWRkRVM0aDhSTUxhQjN3Uk5sblcxb3NBQVkxelhab0dtUGtqRE15ME5abVgyWTZSaGJmSEFUc0xMUWQtN2pkemhPMmJhdHBsVjdIdng5MjlkSVg4RUpQaFozQkZxclExV1BwR3FIVUE?oc=5",
+   "category": "Gas",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "4319cd93dce5",
+   "date": "2026-11-27T09:27Z",
+   "title": "Eni stock: $2 billion Venezuela investment commitment",
+   "source": "ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSGpESVQ2UV9jQmc4X1BEWG9JTUdrVjFwVGE0MmlvZXVsRC1MWWhEQmJTLW9GQ3FJUmxscFI0SjNPLVdBempmbmdoNEdobHE2RWV4M2t2akk0X2lhdnBnMHY5SWxnZmxFdXlZVUhWTkFpcllqd2FaMEY5M2tGN2JPaXlobjl6MW1LUDV2S3EtM1B4TWpfZU1nOEk0NkRHZzJKbmtYbnZ1ZUpTSXlRclhYU3llZ1M?oc=5",
+   "category": "Investment",
+   "via": "Google News: PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "a43268625bc1",
+   "date": "2026-11-27T09:12Z",
+   "title": "Chevron (CVX) Rises On Oil Supply Fears, Is It Still Cheap?",
+   "source": "Simply Wall St",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSmFneDktdkxtV0RPUk9jZVVqQk5SUzl3SjZRWF9zbWhibzRNbjdaY0syTlVReG1nWkxFalJGSjhHMGpHSDNMSGhRRlhQMXdpdFdLQW1WUTVDaF81dk1XeHZacDBzdnhnMmU5UnEwampSN2ZDM3VNMVJlOXlZQTQ1clVQdWtSLXk5R3ZMemFhREczUVFDUmxIVW5xRGlMNGhjWkFVVU9nZThfTEdyVHlVWV9HYUtOdlnSAbwBQVVfeXFMTk5kZUNmRHR4RjZPR0E1U1E5aXFDa19GT015V1RLcDF4LXZJQkN4aGpHR0lfMVFaYWhOTlZ3cEkxZlJBRWRnVmFBaGt2ZFJDOGZVQ0hvVVRXaEI4S2pzbUVpY0hKMzZPNHI5VU5ZdGVZSjRmUWZDOXhrU3BGZ0ZWUjlXMEZEdUhSbHdZV2FzRUV0TzZfZ3ZYbFVqWThfQ0VaRmZlcUs5Nndmc25TbF9qQUI2X1ExRUtmLVlNZkU?oc=5",
+   "category": "General",
+   "via": "Google News: Chevron Venezuela",
+   "origin": "rss"
+  },
+  {
+   "id": "45de8af34b18",
+   "date": "2026-11-27T08:45Z",
+   "title": "OPEC exit floated by US to 2 members",
+   "source": "Oil & Gas Middle East",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVzU1bEtfUzJyN0p3cW5iRk9TdWtGMVJhN2IwMG1lVDBDMkcwVktLTV82RXVLX1VaNDhYRV8xOVJYWEh1eXB5c3lRR1RQZkJLckpFVlJRTkUtdjV5c3pscHBxUTJJUmxfQjJTU3JtUFdqeHpQcGxITGc2QnctRi1tQ2o4SQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "f14e00552df5",
+   "date": "2026-11-27T08:42Z",
+   "title": "Venezuela aims to triple oil output in 10 years",
+   "source": "Enerdata",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORFRoMEsteFlIVlZLdDNfWmdSLTM3dTltbllWa1E2QU81eXdCZFlJdkdpMGF6NkM3QUV0LUQ1a1dmbElRdmJYRFVpMFVpcnE2QzR6bFFPMzhfZVpTSUExQ21SMnIwd21wcVQyaGp2TXVRdDlGU2piUGQwT0xzZGUxelhpNW5ITFh5STRxMV9lQjMtNjRsWUhSMEw3NzNWbC02LWJIYw?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "db3cf07e2832",
+   "date": "2026-11-27T08:19Z",
+   "title": "Trump Administration Urged Venezuela and Iraq to Exit OPEC - Chevron (NYSE:CVX)",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUXVVLUxNSm1ldWF4VXBuckEyUUY2R2V2bXpZcU5zN0huRXZIM2VkLUdKclF6THp6aHA2a293eVdvRTFWSXRUVHJYUXNyeHdpU2dTTjRvUzRpWHJPUVpuUEtqWFl5WlVCYWo1cTZ5aEZZNU1JNGlhM25MZVBSNV8zRGVTSnpoNDBVZlVGUVNjM1VzNDFLYWp4clRKTHF6RG1SUzhNb1dhT3FlcGRMeTBfRkJVTldkZ3BLcjZrMEpqYzJMSVk?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "bfe93ab081f7",
+   "date": "2026-11-27T08:14Z",
+   "title": "Estados Unidos alentó a Venezuela e Irak a considerar su salida de la OPEP",
+   "source": "Azərtac",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNFJ1OFRGZGJoMmgyYVVVQzQyRTAtMDdvSW84Rnl6aVVPM2pmSWo1cDVyNVlIajY1UlBtNC00TEhuekJlS0lwUjZQckY2MVhsOC1YalNJeDMtNHBrbUprWWtqcWdBOVFtZnFkTHk0NEtNanloRVNRZ2ctT0s4ZjdmR3pXSHNMTkI4WEl3UXNIby1PLS1EMVpUVTl6LTRqR2RRaFdyRHFxWG00Tkt3MHpN?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "819c2406e263",
+   "date": "2026-11-27T07:49Z",
+   "title": "Crude Oil Prices, 27 Nov 2026: OPEC Under US Pressure — CMB News",
+   "source": "CMB News",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUlSaUp2U0JyVnM3UGV2M2lTQ3N3dmFGbE5QWVhCbFBlTS1QTm9XMEFUQ3dWYm9qaU81TWs1NXdRVWxqb3dyX2VzR1BPOFRCVXFqRkhkUUFZSGtGb0NiSjEwSGlrMkUyOGVpWVNicXBCMXJoMHcwWkgyNTVzejJ0d3FVUkxiU1Q3T2JjX1cwTmR4U1REbHc?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "996761364270",
+   "date": "2026-11-27T07:45Z",
+   "title": "Trump instó a Venezuela e Irak a abandonar la OPEP y bloqueó sus cuotas",
+   "source": "Investing.com España",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVTZvdDhZTWxPaWZ5NDZ4bWxCTV9fclZ6OXJKS0FSRlctUUdiX2JQVi1xMmd4WTlRVzBhT05HTkpiWlVJOHdMR04wc2VWT2RrQmpoay0tMGFWaWlfZUNhZkdILXVSMTRGejA0YlkzWDdvMXFDR1hSSEZidDIybW1kLWpTdlRsZ3E3Z3hSV09CUWZFYk9oLUJLbXVLbVlPRU8xVEN1OXZVWUNrWjNjUkhBZ2Y3cVlVcGRpMGkxMlYtcUZiamF1alB0MFFLQ0c?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "b3d072f12319",
+   "date": "2026-11-27T07:30Z",
+   "title": "EE. UU. presiona a Venezuela e Irak para que abandonen la OPEP, aumentando el riesgo de una ruptura en la organización petrolera",
+   "source": "Informat.ro",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMVhvektPXzM4SnJmWWUxSmkwXzljTlR2dl9TRkhpUG5OWDZsLXczM2xpTER3Q1NJbkQ5UUxZaTNVZlpzRWhGU0xXMktDd3Q4WFI1WHVhcDc1MEtVUXk5ZzFYVWRnbHFsWS1IQUFkQWdYRTNzSElraXFzZkdIZlp3RkJXZ3ZTdWh3UEFtb2p3OWRQWlQtc0ZQa3RnUS1MLUU1VWVkalRhaw?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "5d506a422e12",
+   "date": "2026-11-27T07:20Z",
+   "title": "US reportedly urged Venezuela, Iraq to consider quitting OPEC earlier this year",
+   "source": "investingLive",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTAtaGVFaG9pd21semZXX1dXal9MSWxRaFJvdTVBaEU0bnpZWXJwSzlLOC1lTVVGd2pmZWMzaEk5WVZJNE56dFpKRklJS3ltUWFZTm4yMDZVQTZjNUt6bU4wT3ZhTVF0bUtPQ2pnckRtb0tzLTdWY0dQbkpSbXZLYUxxR2ZtY2hXLXB0QU5meWlOaWZzOFNjbVF2TTVOYXAybXhuZHJCVE9WU2RuaVZB?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "1c2f9a933172",
+   "date": "2026-11-27T07:14Z",
+   "title": "EEUU presionó a Venezuela e Irak para que se plantearan abandonar la OPEP, según fuentes",
+   "source": "El Nuevo Herald",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYVpodi1wTWxaU1NpbVlpY3pGenluS1V1WVNLYnlPTng5QzltM2VtQldrdjhtTnR1VEtPYUFVZlIwNVF5T3hKQ1R4MXgxdkM2OVhQcTBQNndnVDU4MTFuYzlMZEg4SnNGSDNlV0Z0QUNpblB4d0hWTk5hdTMyaS10Tg?oc=5",
+   "category": "General",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "894a6e289232",
+   "date": "2026-11-27T06:22Z",
+   "title": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say By Reuters",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeUU2WHF1S0RLYTR3REw2S0M0cHpBem1kSTVZS094LUh4Y0NKVG1CRDR5bnZ4ZnItY0tObFZpaXA3cEhSMzRBMmxTR2luRGlNZXhIYTVaQU45bFIyaVFPTjZtNnhsd3hyTXlxcTMxSnVHTWtfenNCaUdNMzI4UERIMW1KLVpoczVicjZueTM4ZTk1R1E5TVJueXNyaVRGQXh3SjhheFhNaHEwOE1WRHE5X3RaS09KM2lGWjFWRVZkRkl4Q0Zr?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "d32ec791109b",
+   "date": "2026-11-27T06:15Z",
+   "title": "Is Trump Trying to Break OPEC? US Pressured Venezuela and Iraq to Consider Leaving Oil Group",
+   "source": "Modern Diplomacy",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR1c4Uzk4STQweVU5YmY3YUtTMmJpcGNibDFobDFwNDFBR1FVVGh3ZjBseXFOVlBZUFdLXzZwNmJEVExLQVo2dl9JakNJNzNEaDJhVE9ETmpLT3BHT3NYU3pXM1hmM1BTZmRyd1lLWFhyNjN5YWlISkJEdnJBdzFwdk0yaXpQdjQwSlhpUVhEcENtSlh3X3pnX2g4N2xRaWF6SVVaN1JlZWVna3JPOW11UDNOSXF4Q2VaQUdBcUFzWXBOb09ubWF4dU5B?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "440ed017e829",
+   "date": "2026-11-27T06:07Z",
+   "title": "US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+   "source": "The Straits Times",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPREZCcmw5UWJ0ai1uU08xT3dWWGVvZml1QkxYTXZmenZIUnNPdm0zT3pLWGZoNm55ZVk5QzFsQmdrSEpSeHA5OGY0NDZxQnh3OWxXR1ZGaXpqY2Q5OUo1anJBVzQwSnJMZWRrcU1ITW1lcnNzaThfY1NyWE5zVlBBOTY2VW5zZEtVSThoYU9LdFAyUnpVdEd6bUU1WU5ZdDJUeEdGZ2tpS1FYZ0dsUVJr?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "94a39ebb0b5f",
+   "date": "2026-11-27T06:02Z",
+   "title": "EXCLUSIVE: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVZ6VDRqcUU2ZDJ1UWdyUmYwNXRPMHAzR0pjRk8zLTJqYlF6YTVFV1Q5V3ZKV1IzZ0NDN2tKdkNxVmUtSmxpNnBNVmkzRWp5NkZ4SFdkaXZ6Zy1hUlhIUkdOY3ozaWVCLVI3M1FaRE9CQVZacHZ0c0tGM3AtUlFWaVR1Tnp4T084eVFjWDIxbVJQa1F0Z1RQRUdkU0YzdnZWMWJWNHRMT0JiQ1NHeDJF?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "ebc6ec5fbade",
+   "date": "2026-11-27T05:12Z",
+   "title": "Edmundo González Urrutia says he will return to Venezuela after 26 months in exile",
+   "source": "Latin Times",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFJvNGZISlNJTXNNc0lUVUFUMEdpSmd1UzJKMGhvZHFPVjFTb3pURmNKdV8tQ2lLVEh0NjJCYWpVNEZ5RFJFV1Q0TUNTTXZkRlhTRlZ0MzZSd3RZWHNlaUJhcGgwMmIwMl9fZlVyb19NVVNHUDhZMnkyZzc2TGpqMFZ6cXpjeV96MFNkTFBaMTNzM2x1MXlCSGV6anRTX3JyYk5SMzdwRHFNcWZqSnh4a1VQSQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "c45af6b31a8e",
+   "date": "2026-11-27T05:01Z",
+   "title": "Venezuelan oil magnate defends contentious deal with Trump",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaU94LVQyMjVKbTlkQzR0Z1pBeG9tcXVMdEFJUFpMRG04TTEtSDN3MW5EZ2t2ZXJkb2R0Y0wtcVNkbDREM0N0TFVmR1pDTTZUXzNYZHpDS3RYQ3B6OTEtYlkwbndzTHFTMWkzXzlITHdiQ3VVdENBX1NhU0xnQTl6bW9PMU0?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "ea146032365c",
+   "date": "2026-11-27T02:20Z",
+   "title": "Trump Says US Doesn't Need Oil, Sees Iran Victory - United States Brent Oil Fund, LP ETV (ARCA:BNO)",
+   "source": "Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOXJjdmFqMzJpazZPN2JhWGEwTTRtdzU0R1VzRDdMZDgycExlZGdydnY2ZnlUejRhT1ViRGxlZVd1MjZ6Y3JyaUpKT1JRc1d2Si1VT1BoRGRnT3N5blJnWEwzQTZla3BBX2FtREU1RU5xZWJCOHBPa0NMbmx0LWFRSlpON0FsR1FNZF9qOS0zSU1KUWxOd19wSUxodWFuU0V3dlI3WHlyRzZLNnh4LWNpRm5IWWhsNFltM3dwZ29jeldsc2JmNHd1aFZneEM1N3ZEa1Nn?oc=5",
+   "category": "Pricing",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "edf72356b7aa",
    "date": "2026-11-27T00:20Z",
    "title": "Venezuela Calls $237.5 Billion Debt Burden Unsustainable",
@@ -28,6 +248,16 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnB4MUZDQ0pGMjJPWERzTXg0LU83YlJ6N3pUNHN6UTNHV1NjS2FGWThZNDVYVTBIOGtjWlVINW14US15NkluNWw1UXRYQl9sYmhQWktUaGNENVlLa25aaW43LUhaUFlOd0xIVm5pZUZnaDlKSUtXUkNvWW9HOTNCWlgwSDdvQUdndHEyaVI2OGw3ZXYzWUFQNFR3?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "56a4a7fd121e",
+   "date": "2026-11-26T23:01Z",
+   "title": "Fire hits PDVSA's Amuay refinery, Venezuela's largest",
+   "source": "energynews.pro",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY2tQVVp5RnFGWmpxSzN2MTg2am1LczhpNDhjTXM0ZU1TWUE1ZHMyX0FnNlRLNU1ZZkVZSmU1SV9WTW1DUTFRWXIxNWNibjkwOEE1U0hELThLNTJGOVBmMWNsM0ZQNTFhZ2lWajBlTGRiN3luNWlneURKSHU1Ymh5T0NR?oc=5",
+   "category": "Refining",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -221,6 +451,16 @@
    "origin": "rss"
   },
   {
+   "id": "96bf8ea31735",
+   "date": "2026-11-26T17:23Z",
+   "title": "Siemens Energy Signs Major Deal to Revive Venezuela's Power Grid",
+   "source": "Crude Oil Prices Today | OilPrice.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcktyV2pMM0VJb21DWGl2OVZNQWxfdmRuSlNyRnFCUkF6Z3JNNUVjVjZ6cFI1N0ZiMlVZWWdqR2lib1loc0NlaXFIUFdwVTZSSE84UWRCb1Q1Z3I1RXF3Zm5Sc3FzYk9uWTRsaVJBWkw2MjM4YmNjRTdpaE12amFIRlBrRElCZ0lWMkhVa0w1amk0N050UUN4c243WWRKUVlkb3ZEU9IBqgFBVV95cUxPQWFVbS13dFZUWFU4ZjlhX2czVkpqWVp0czVsWXg2SXlMYzlMTEY0c29DVHJkNFZLcml3elZ2ZkxQM2owQnhaSXhZeTNOVC0xWlROT0F5ellkOTFqQjFzUlFkdU53dHZGMV9pcE5nNVE2WTlFeEl3NDIwOHVqQThNcUJIaFlFTFliWlY1R3JwZG1nR2laa2phb3NMcmRmcXpPMENyTnM0OUxOdw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "c6a0b4e2267e",
    "date": "2026-11-26T17:14Z",
    "title": "Impulso al crudo y gas consolida la recuperación económica de Venezuela",
@@ -261,6 +501,16 @@
    "origin": "rss"
   },
   {
+   "id": "66e88698e324",
+   "date": "2026-11-26T16:50Z",
+   "title": "Refiners Elbow Traders to Take a Larger Slice of Venezuela’s Oil",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTHRUbkFrUVRGamxCSWJsTWlQckRVOTYyd0RURTR2X2lJSkotWWRobXFIT1Z1Yy1qdnVsbUxUZUE2bVRocU5wQUx4U0d3WUZGeHQ3Y1Z2Nktrb1loSkt0Q2tGa3lZdUVKa1Nic1NBY00wMXFKTkR1dVhCYXFnOURzT0RfQ08tcnhkTGNONVRIdHVYNVQ0LWk1N0Rn?oc=5",
+   "category": "Refining",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
    "id": "e640c06ea0a2",
    "date": "2026-11-26T16:45Z",
    "title": "Iranian Oil Flows Through Strait of Hormuz Even as Gulf Neighbors’ Exports Shut",
@@ -276,6 +526,16 @@
    "title": "Venezuela Dragging Out on New Oil Contract Models as Energy Investors Wait",
    "source": "EnergyNow.com",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQakNmZVJ6Y3BKTEtiU0p0ZHVITWlabGdCTnBSQmhPVVhiUFMwc0JzbkJPdXVKSGNLSkNiT3Q0MnFWd09TUkNULU5XdVgwb2RVcXdxc3l0RzgtbDBBZldza2xzQVFsN2hNdVRTVHlzTXFZWDVuVXBFNE9WLW1Lekh5bnU2NUk4bk4wSEhBam56XzVjZ2F0OGRpcWZ4MzlSdV9CSm5JRENOVW0?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "9d72fd5c7cd4",
+   "date": "2026-11-26T16:36Z",
+   "title": "Trump’s Venezuela Oil Deal Hinges on Decrepit and Distant Fields",
+   "source": "EnergyNow.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlNJQ2dtZWJZUjdIWGRsYmhrRGdaS3dHMWxrQnBYVXR0bkRjYWtmVkh3dVJvckJUZGVVX0ozSzFnLUVMb1I3Z191eEFGNGt0bW1QajVtdUZDaHRmLUxtQmlZdEhPVlVvc1RiaDFVaVFOdXpoSkU0NzMxUjBNMV9IYmU1WFBwR0F1OHlrTjlZRGlOVUttZ1l0VXpn?oc=5",
    "category": "Investment",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
@@ -328,6 +588,16 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOckRiX0pYMkhrLVhualFDMEpQWjA0ZEdyRk1rX0paUzR6dTJjc2pyVzZRRjJrT2pad21seUhHZEdUaC15STNHMGNrcEVCNHFvUlJocnVQV3BXNFBmUGdWRndFOWg4RWE5ekUwQ0hJVGY3OHdFdWRzc3BlTENJbUU0RzlqQlp6NDA5a0tWNmU1QVlITzBuQmtyV0EwOVFPdGhWME0wY3F2OGRKcmlFNXRMaWdvclJQWGRkc0JHUWt6WQ?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "f78d9a2cd2b1",
+   "date": "2026-11-26T16:02Z",
+   "title": "Venezuela signs two deals with Siemens Energy to restore grid, oilfield power",
+   "source": "BNamericas",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSmM1QWpzR2k0VHh6b2lCM0RIdUJvN0lOTW90ZjNrbEZEcHZkYnAzSlpQN2g3RElKcjRQNWJGNjROZVBmWDNxN1Y2bzVFWTFtclJIVGpsdmYwVWNRM2tPd0lIM01pX2RWRkNtdUVlYUJZc2JzMU0yQ1ZJeEVEa3E4M2xROE5QcV9GT3dRVDJuNUx6SkJ0cFlvOGJ0dVJrbnJzNS01clhkRk9JRGI1eHBhLQ?oc=5",
+   "category": "Production",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -407,6 +677,16 @@
    "source": "Inspenet",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkaFRQUndVYXp0YWJjLU53Q0tVTkgxMjVhc2xXLVlNbFRnNmc0bEhDc2xGRWJfeGlPQ1Jjc2JaMTJ5VDlUMXBRcXNVMklULTFEczZKUUhBektxdzc1MGVObGRlVi1VNkdaVGU5QkQ5b3Z6SVJqUmt6V0FEYw?oc=5",
    "category": "Investment",
+   "via": "Google News: Venezuela oil",
+   "origin": "rss"
+  },
+  {
+   "id": "84deac669817",
+   "date": "2026-11-26T15:00Z",
+   "title": "Venezuela: Acting Rodríguez Gov’t Unveils $237.5bn Debt Estimate, Ambitious Economic Targets",
+   "source": "Venezuelanalysis",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdnlvWk9mYUNrN1lxR1ZQVlFYSkRfaTAyUHd4Q3NXR285b2tnV2MtRTFTZGRub19wbXhVNDVQSXJYcFRlR051dUtNVm5tenRoclQzckNhX0hSZnR0Um80bU1tU1V2MU03SGtNTDZ5ajB0NWd1TjJMckNLdWZYYXhSbHM0R0V4MVVkQkpwUEFvV0FXYmdWcm1qTGJJTi1fT21ZNEdKNXR3NXdwRl80UlFnanNnaHBsTW9WekVvNmFsZG0?oc=5",
+   "category": "Debt",
    "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
@@ -528,6 +808,16 @@
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZ3VUS2FOUFdtWDh5aFlpSHQ0el9kLURONEp0QUJYNllrelRtQTczMExKMDJwcVdReWlmZnFVbTl5Z25GMkN3ZllDeWNVM3VsSkVGY3FKMXZxYzMza1Z3MDlZRnhaM3poX05rUzZsWnpwSHR6MXktdElLdlJPQ2o5UHhiWnNuY3NjMktqSGRoaXRxdHE4bXRSR09UcWxYaHFNX0FZMWlFZE03YWJFeDl2R2dBN3BxLThuYjVIUTV1YnByX2d0ZlFGeHJBOGRmM0Q3UXc?oc=5",
    "category": "General",
    "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "349a1145fb60",
+   "date": "2026-11-26T09:18Z",
+   "title": "Venezuela says Eni and Repsol will invest in their joint ventures with PDVSA",
+   "source": "energynews.pro",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTmh0TmFMaDUxWVpael9fNVRvbXk5elozeWVkZFVES19mWTdwaHhVdnhscFlKVFpwNVVRSmV1di1uUzJKS21mUU5JTjUwNkJ6b2VnTjE4dGhXM3BldDJRSWJUbEpJNE9OSHZWZmhWWHhrZGUwQmlrVzdON1BuRnU4QmFEaEhiOEVyRkRWa1l2X2Q1Z3hnaW83d1k3VnpuQXpOMTUxZw?oc=5",
+   "category": "Investment",
+   "via": "Google News: Venezuela oil",
    "origin": "rss"
   },
   {
@@ -1071,6 +1361,16 @@
    "origin": "rss"
   },
   {
+   "id": "ed8fad005102",
+   "date": "2026-11-25T20:29Z",
+   "title": "Eni y Repsol anuncian inversión conjunta con PDVSA",
+   "source": "La Otra Versión",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdDd6SUFZNTdFQjkyUjM5WFQ5elFKelY1clhfcUhHVVdncmxHZ3BDVDJ6QVE0Njdhb1hHWTRmZ0FTcXFUNF9MazMxNGowNVVheEhYUTNHMlAzc3JPWHJ2NHlPdDFPU2xTMUV3a183dWRpZFdBVEF2WjZIX0JEaUhET2I3dw?oc=5",
+   "category": "Investment",
+   "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
    "id": "8bc43f82e2b4",
    "date": "2026-11-25T20:26Z",
    "title": "Repsol y Eni invertirán $ 2.000 millones en empresa mixta con PDVSA",
@@ -1332,6 +1632,16 @@
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeldOcDBfMTJodFV2MWh4RU5TbGJremZKRUVPQW1sV3VPVDlVdjU5bXk4RzRaWngtTFJndjNQM2xDWjNLWUQzLVlOWHNyQ09CTkVwVE5UU21Xb3NyTnQ5VVc0bXhyTGpIcWFPbnl6b0hFN1I3TEhfLWZSdWNfSlJpMGRJMVdWQ1NDLVBEcnlGTnl4YXVGRC1hOGtHbUoxUDVrRGRiaTJHeW5LdV8yaXNJNzcwRGxTV1ZtamUwRDUwVGIxYTRvdjNHVUJOa0FWbXA1N1E?oc=5",
    "category": "General",
    "via": "Google News ES: empresas mixtas PDVSA",
+   "origin": "rss"
+  },
+  {
+   "id": "f5f07e5e2f3a",
+   "date": "2026-11-25T17:05Z",
+   "title": "Venezuela Puts $237.5 Billion Debt Burden on Table Ahead of Major Restructuring",
+   "source": "Sada Elbalad English",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUGZwR2tFY2hTblNIUXRhSm14Yl95VDBTU3U0a1hEX0k0UEp4QlpOWWtFUmk3MDdEaDBYWExEMnA0TGRyb0FZUDBubld5MzR2WUlrWXlvRWFhRHp5SVp0a0VTd1U4M2QxaTQ2RlZmR2luc0VaOGJJWmNlMHVuY2JadEdPVG9qYm51S1R1eEdtcTV3bEc4NWJSZElR?oc=5",
+   "category": "Debt",
+   "via": "Google News: Venezuela bonds restructuring",
    "origin": "rss"
   },
   {
@@ -1905,6 +2215,16 @@
    "source": "teleSUR",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeUNySUJrYllDUDM1ZG1ZcHFDS082SWZkZ19FMWtTeG0xYVVucFF5WF9JWHRULTRXa25zdkhka3FVcURNTm9rN0VxblFBb2ZFcWUyU1ItQ1FaLXdHWnc0THJxeXJYTExVVVVlemF6alN4WWhleGlBOVNiVGhQSXI2cHRnODFhWHRTRWRJVldsdW1tSWJKckQwUG94RmY?oc=5",
    "category": "Debt",
+   "via": "Google News ES: petróleo venezolano",
+   "origin": "rss"
+  },
+  {
+   "id": "7126f99016fe",
+   "date": "2026-11-25T08:00Z",
+   "title": "Caracas será sede de la Semana de la Energía en Venezuela en febrero de 2027",
+   "source": "Noticiascol.com",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ25QSGJUZGk5UERCMWJIZkt1X0t5RlR5UGM2VU84SHN6WkNYM0RDZHNoWTdsUVREMV84X3Q0TWlkWXpjNHRKQWRFWnkxaDZZZ0p4cHAwbG82ckpQZTNUZFFEMXZ1dHpSM2dhYnpfMG85dFFyUGh4bnhZOXJOMERVdXluNHVRM0tTS0dGbmY4bXZsMWlUbmtsUUtIUjVpaWczQ2l0ZE5IbGF4ZEZ6QXFpRHBrWGxqdWc?oc=5",
+   "category": "General",
    "via": "Google News ES: petróleo venezolano",
    "origin": "rss"
   },
@@ -4033,6 +4353,16 @@
    "origin": "rss"
   },
   {
+   "id": "39a61bb3166a",
+   "date": "2026-11-23T18:25Z",
+   "title": "U.S. Treasury maintains broad OFAC sanctions framework across multiple jurisdictions",
+   "source": "Traders Union",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHlBSVl4S21zTUVHcnRpUllTZ2pZdjVicS1WNFd0VEpLY3dZQk1vM1liQUtYanNXRkhqSW5qQnpvMlJkMEZudkdoOVFCeFA3cktwTUFWblZGcE15cVFoZ0NSY0licWlXRTJURjNVc0VXQWhMTDFHeTVwWVV5N2RqRnVLY0xWLWJNR3hFbExkcUZuenFmZm03aGY0RmNsMms?oc=5",
+   "category": "Sanctions",
+   "via": "Google News: OFAC Venezuela",
+   "origin": "rss"
+  },
+  {
    "id": "9ced23045312",
    "date": "2026-11-23T18:24Z",
    "title": "OFAC updates Venezuela sanctions for oil and gas transactions",
@@ -5310,6 +5640,16 @@
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSVdHYTlOa3duWWJoN1ZRUXk0NVBoZFI2SldVVjNhSndFTU9JeEowSjJNb092cWZJeTZpZTNmTkI5XzdaSFVOTHpual9oc3VSaVd3ZEMtbzlVRU1JeDdxdlZoMkx3XzVJc0o1cFoyNEVGMDhwWldrZlhkaWpJZHNiR1ZUZl90UmQtdzlVc2pabG1mZ0JxdjM0bnhBZWNxcVBEbVJYTHlpQlFGeS01Z3VjZXNWOHVRcE4wTWtkUGVRZUpJZmFCUjdBd09Yamo3OUk?oc=5",
    "category": "General",
    "via": "Google News: Venezuelan crude",
+   "origin": "rss"
+  },
+  {
+   "id": "b38daaedf25c",
+   "date": "2026-11-21T05:02Z",
+   "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRGJLeFNBLUxKMHJ5aGMyd1c3NzN5UHdpcnc0M0xkNWVtTHNlNV9ENW5SN1FmanBubUlhcU5XS29JNzNiWFVGY09BT2h3OW5pM3RvcG5RLVFLbU0tMGhZZzdocWJfQk04TElreFFQVXRFVjRJWGVvWjdvUl9Tc3NMcW5iWHQ?oc=5",
+   "category": "General",
+   "via": "Google News: Venezuela oil exports tanker",
    "origin": "rss"
   },
   {
@@ -7333,346 +7673,6 @@
    "origin": "rss"
   },
   {
-   "id": "12600f42a4ae",
-   "date": "2026-11-19T14:53Z",
-   "title": "The Sanctions Puzzle: 10 Key Areas to Watch in 2027 and Beyond",
-   "source": "Skadden, Arps, Slate, Meagher & Flom",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOUpacWpCR09rX0dkZ2dlck1QSmh0aU9KZ3RqRWVfWUxoUjJxRUhHMlEwYWZSZ1BhcE9zZGQ2a1lYdVZHaHg2MGk2YjV4SkhKS1lqbFJ1OEpGOUxqRVljMVc2WHk2Q2FZN1JOM01wTlltWGNaOEpZYWpSZlRYZVpmWlNrdlVZc05fZExlLWhfR09zUkZfM2dmeGtYRkFxYml0Y3ZlWU91WDQxdUl6ejhIZkxsd0xaUQ?oc=5",
-   "category": "Sanctions",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "a1a64dda33ab",
-   "date": "2026-11-19T14:33Z",
-   "title": "A ROBERTS BANK “REVIEW” - Proposed Roberts Bank Oil Terminal Would Build on Expanded West Coast Marine Safety System",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcHBnM205RFBvZFN2dFFoVzBBZ1ZaZmJqTC1jcV94eGY1WlJSVmhiQWJwclAtR3R2bTdmUlNhRVdJN0d1akNicFgzVTBWTGktSElTX08zU1QzYjQ5V3ptZlc5TXlDbEdyY1M2RzMxUHBJV211bV9ReVBISGxoVTI0OTg5cTVjMFhRYUxKMElrMHF2VFdhU2NQRUFYdTNEQVk2RzNJdXhaNWNMNkE3Ylp6Z0dHNkpzZk5HU3pZWA?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "9b6e3045a1bc",
-   "date": "2026-11-19T14:29Z",
-   "title": "Venezuela apuesta por la IA para reducir las emisiones del sector petrolero mientras aumenta la producción",
-   "source": "Mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZmtmNm81WHJ0MFNfQVRXQThCYjR4OUFDNC01MFZDRkFqanViRFhOYTBOdmVHZ1Nmd1BmZUF6bnZxd2RXXzRjTk14bi1WS1NEd1VtcmwxVXlrUTFoNEtQd244NmRveWJabGtwdXQwZVJaa19tQS1hdGNLTFRIdEZ5N0lFODFybTU0TFl3aHVjTnkzQXNY?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "cddb636ec995",
-   "date": "2026-11-19T14:27Z",
-   "title": "Venezuela apuesta por la inteligencia artificial para reducir emisiones en la industria petrolera",
-   "source": "Primera Edición Col",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlBWckQ4VUM4bUQ2UHh6a1Rld0hxaF9wQ2lTT3NvM291YmFwS25USGtlY1FhT0ROOUhNbUlaNWNqMDBYNTJoSExQMjNFQ2RVOEEyVkQwdjRPUXFlZWRTVUhpTTdLemRxQUVaRTdFLUZ6aTA3YkJmUVNXV2J1TmlHNHVnS0Q1Sm5zc2FlVS1PaWlKZHJkaTlSdFVMeXh5cVZyZU9QUHBvVVpWdDY0WnUzUW9ReHZ2czVnejdPYlBPbDhENHBCUl9r?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "1ad2e0a1457e",
-   "date": "2026-11-19T14:25Z",
-   "title": "EXCLUSIVA | ¿Cómo afectaron las sanciones la extracción de petróleo crudo en la Faja Petrolífera del Orinoco?",
-   "source": "La iguana TV",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1M002Y2dNdS1GRkJRVlpkR1FzSUVtVVROTzllMmlNM3puNEhKdmZNWFlpNnNQQWZTbEhpUzFSMjMxN3VIUlNyS1pvQ2dDdkNDb1JVVTRteU4wRTJSYWljV21DWVpZeVpsQXBLQ1RvT3JuMlBrZ0pR?oc=5",
-   "category": "Sanctions",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "93195f4aa897",
-   "date": "2026-11-19T14:18Z",
-   "title": "Alejandro Betancurt, antes acusado de hechos corrupción y ahora lugar teniente de los negocios petroleros de Venezuela con Estados Unidos a través de NABEP, tiene su primera declaración a la prensa y lo hace para señalar los avances en esta materia e",
-   "source": "Instagram",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XUmxWOHdHWmVCSTktWkNGOHpqeUExdmpWS01qMk0xanB5Qk1kQVRBYXNsRC12azRXakcyekYxcUxPd2sxUUFFVUhSc1JCRmRKMGxOMzB3?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "e4c2226e7c5e",
-   "date": "2026-11-19T14:11Z",
-   "title": "SegÃºn Bloomberg: \"Casi 200 empresas buscan convertir deudas de Pdvsa en financiamiento\"",
-   "source": "Aporrea",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6Z1FmRHJid3J5bXFMdHBPVC1fQnJ1V0ttWlBaSGRPc3hUMTJwN1VnbUkwUzZJZGJacXN1eDdwcnpSWkhJVnJRQ3FCOEdZbU5iOXB5ZmdBbTdTMktW0gFcQVVfeXFMUHpnUWZEcmJ3cnltcUx0cE9ULV9CcnVXS21aUFpIZE9zeFQxMnA3VWdtSTBTNklkYlpxc3V4N3ByelJaSElWclFDcUI4R1ltTmI5cHlmZ0FtN1MyS1Y?oc=5",
-   "category": "Debt",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "5790c9543fd1",
-   "date": "2026-11-19T14:09Z",
-   "title": "Fusion Fuel Green Evaluates Venezuela Energy Investments",
-   "source": "kalkine.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTJ1NlBkTThHdUlqcVh0c29abnVXVDBxbF9odzYzaWNmOUVPejlrVFNOYnJ6MnJzbDZKX1JkVEEycVlHSjgwLUo5SVA2dnl6b1hLeXEtRGVVbHJlN2huQ1QwT0xMUWxtcHF4S0ZrUUh5SUxyMUxSSnFLRXhoc2JkYVF4U3VYVlNuN01uZDl3VW5sM01xUXdOTG5nTQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "f4836f0c9f87",
-   "date": "2026-11-19T14:06Z",
-   "title": "Verónica Díaz Hung analizó qué es la Faja Petrolífera y cuál es su importancia",
-   "source": "La iguana TV",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PUDB6MGRWQ281eXkxN0ZJaGtGRzR6aG1xeEpqOG0yX1MzVDJ0SjFhX2NObkdMVUp2b3pCa2JVTFJ2dXNPTTdNR0Vvcll4U2kwdFpBUVIzcURsaU5QY0Nuc0ZFd1ozT25PaFFUTEFCd0hMQXNBSEd2QkVwdlVxZw?oc=5",
-   "category": "Exports",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "dff42fec6d3c",
-   "date": "2026-11-19T14:00Z",
-   "title": "Llega equipamiento petrolero tras convenio bilateral",
-   "source": "El Periodiquito",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNE9EVEZ2RENLeHZyQW5TT3Q5cUlBTXdWUG1IT2Zra0RSaG5yUmtsTWUwd3FmR3huVWJUaGFreUpoOFpFb3VqUXhCa2FOdjUxZ3JmSGJFZE5VcEcxdEtxZS1RWlRNeGRqWDFUSGRKM2IxMXdjTXZHTHNOMUtDUW5seURCdTNCLUs2dHJ6WmptbUlLZ0IyVkVLdQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: Faja del Orinoco",
-   "origin": "rss"
-  },
-  {
-   "id": "c66085859612",
-   "date": "2026-11-19T13:28Z",
-   "title": "QUICK SPARK: Venezuela’s Comeback Trade? Teucrium Launches ETF to Bet on Economic Revival",
-   "source": "Benzinga",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVW9XZTYxS0RaemhtM0tQX1JxWlRIMmd5Q1IxeDhBUzFobmh4ZUU5STVLaDQ0LVl6R0pGSklZc2JSTTMtTUdHVG5yTzJybW1MQWR2VG9oeU9KT2dmM25IaTVjWmh4aTJsQ2tuVHNIWnVpM2stbV9QXzdnem9WbHFuX2Y1bjNSd1dJQ1piVHBOcG5VQldtaTFzaWdBTGFpeDRmQVFFTTdCM0VoZnZGLWw5QksybUNPd2xBZUExWU5PczRKb0h4amx3NjJOd2JiS2Zqdk9VX0dMcw?oc=5",
-   "category": "General",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "1263a9cf663b",
-   "date": "2026-11-19T13:28Z",
-   "title": "Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0xLbmVSbGZvbm5GVkFJaGNGUzFDLXc3Rkh6b0RwR1BWVHRvV0taRVJIV2Z2NWROX3djNTl0LUdGXzliWm96bXA1VFRfT2ZMNUNPRElqRXp5eF9ObHZZeVFvOVROY3NwSlNBUV8xUzM2U091bnY5d1J0LUlSUmZlMjhTU05fTzFjQmg1eVg2SjBIV0tkQzRVSGVjX3BrSVJlYXJVMlZFTXkyZUFHQWZKa3NPQUM?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "8c3139412072",
-   "date": "2026-11-19T13:28Z",
-   "title": "VEN ETF Price and Chart — AMEX:VEN",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zRG9wUXhuZnFYdERhVFI0Vy1fM3BZbmVGUU1LaXR4ZlhLdHJOMk0zRVFGWndFQ1J3dWFJTjJCSnNBU2dZQng5VUZyOVlzOExydngwQlRkZGQ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: OFAC Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "a3569609b7e4",
-   "date": "2026-11-19T13:12Z",
-   "title": "Venezuelan Crude Moves North Faster Than Production Can Catch Up",
-   "source": "IndraStra Global",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYYXFZNWtNLWg3QnhweXgzcDYzNnRUcE9tanMwcWpOUmRCR1BWejdiTjRmekJqVHNfVUl0SXFfTmRQTmxxd0RPejBmOUNEMDhqM1lEV1pfcndyZHFYLW5NTkRoaThteFZHM3BIY0Q2UlR1RzlhcnZoazJhVkZZMzQ?oc=5",
-   "category": "Production",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "22b71e29f6b3",
-   "date": "2026-11-19T13:09Z",
-   "title": "Venezuela en su encrucijada",
-   "source": "EL UNIVERSAL",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03NmNzYlQ4dTRENmRWbUhiUnBpNnRSZEliWGdfci0zaE5JaHM5eFdGc3BqX0NWWWdKNUpoTHBYX1RPLVdOcWVfR3hrQ2dEeW12NEloRXJ6RE42S05HT2pxUGd6TmNEMjNIQ3o0VW9wTW9tbGN5bXBENUdPUXhMbkE?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "6884f637c136",
-   "date": "2026-11-19T13:08Z",
-   "title": "Venezuela’s Cardon refinery halted after fire, no injuries reported",
-   "source": "DD News",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSzdFaG95eUUzYmowRUVPQzduczY5a081VXJTcHR2dUlXZlFQUTAtQTZjM0N6TDhMdFFTTmROemVra2RBUVNwOVdyc290bzhrQmxjNmRpc0M0bXdQMkl6Qk1WS1lyeHh2MklyTzFyaXJueE1Md1dlUW9iRWVYOEhPZ2ZiTWM5S05SS3d2VmNjVnBGR0JSTVE?oc=5",
-   "category": "Refining",
-   "via": "Google News: PDVSA",
-   "origin": "rss"
-  },
-  {
-   "id": "6d5ee592ef15",
-   "date": "2026-11-19T13:02Z",
-   "title": "El crudo venezolano a EEUU cae a su mÃ­nimo del aÃ±o por el flete",
-   "source": "Aporrea",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8ya0tvdjhKSGlVbGpJSkM4Z1FDNFdhMDVxMWRrOFQ2SHlaVnZoazVDNU1jdXdQMHpvSW5XTTU5Qzh3SG9GcnE4YXhRZlozQTN3a3RUbE1ONNIBXEFVX3lxTE10dnNFcXVJY1RlanNQUlVzOVlydFBIU1dnUy1QcUM0RS1IRFZ3LXpQWWRHMlBxRllTOTlkVDducV9QMk1BcHRkYUhWd3dseDBwSlJIRnNJaFlqcjNJ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "bfde42266236",
-   "date": "2026-11-19T13:00Z",
-   "title": "PDVSA proyecta producción de 3 millones de barriles diarios de crudo en una década",
-   "source": "televen.com",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUNvVGM3WmNydzgyaTdDR1lDYmhzWWZiaERodFNQUmgzTEN6eUJBOE5rT05yal9faUxtSW1kTFFLeTdKeVpFaDdxdE05YU96SUlVS0h5eW5pck5wOWNSOTZNU2o2MGxfckZJbExtRW9La2lKUjZtYUMydWxTRkhWcGtrUGRreTBRZlFudkozQWFiQTFZM1RZd2JzcVA2WDMwLWFwbVBPUnZkYkxvcnBjSTRuaTNkbzRtb2NEdzFua25qb3kxS2c?oc=5",
-   "category": "Production",
-   "via": "Google News ES: PDVSA petróleo",
-   "origin": "rss"
-  },
-  {
-   "id": "7a0356671188",
-   "date": "2026-11-19T12:59Z",
-   "title": "En la COP31, Venezuela promueve la IA como vía hacia una producción de petróleo más limpia",
-   "source": "AlbertoNews",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWHpYZHI1Q0wtYzJBcTh0eTFzYXdscmIxdEpZdUUwTExjTUtxNUlqcWxucUZsSjJfcENaRURiN2I4NkJHd0h2azdXaUlQN1NUT0ZuVHZYUXNLSEZ6SkYxX1JweEoyeWY3dnFPX1hOSnlwZVJyd0pWRzY4TmFxTV85UFhCZDBnRVJMelNEYms2RGRpOXJMYzF3Wkw5d1QyR2I4ZUNpZzJqRnNOSHJLaEppWnY0dzJCWjV5QWlnZnhudTE?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "ebfa37d0aa4a",
-   "date": "2026-11-19T12:51Z",
-   "title": "Valero Energy vs. Phillips 66: Which is the Stronger Refining Player?",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX0FlYzlURjBSNmlGM0pqWjFpQ2ZYQWRpYURfUjZEUjRVMldmVTB5T2p0VHF4d3hFMno4NmNYRFNlU1NuX2xLZUQ3VlFDbmpfYm1icm04YWgzelN4cHBsLTFXTW5mM1VabmFyelpSWDhQU2VXVHlYMmNxYVFsWHVKd2ItQkE4UlNtaVVwQzBGcVM1VkJwUGNDbU1HN19MRlRnWlloYVM4bGp0NU5US3B1cVdPaUlCc3ExQWtKamlHcw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuelan crude",
-   "origin": "rss"
-  },
-  {
-   "id": "b5746e9d48ba",
-   "date": "2026-11-19T12:50Z",
-   "title": "Fusion Fuel Green Evaluates Potential Energy and Natural Resources Investments in Venezuela",
-   "source": "Quiver Quantitative",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdlNrcWh6Y3NvdFpmZWdCUlZLQmh3Ry1hZnN0M25IR2JJMklOSjYwZllzMkVvanhoN3EtZ2RxZG10eFVxWEJ3eU1EV3RPNmlxa1RyVmF6bFhYTnV6S213eFQ3dGxyOXdaLWZXaW9Sb2F2S2xLbmlyVnNxM29xVVdWdXdPVGpHcjExS3VMaHNiVklUajE0RDRVQlc4emtHdkZlRnEzRUxudWxHTExVR3gyWWRCQlM4THRsclI1NU9wS1RTUQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "36d6485ee6a0",
-   "date": "2026-11-19T12:47Z",
-   "title": "Oil tanker loads Iranian crude in Gulf, TankerTrackers.com says",
-   "source": "marketscreener.com",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHBkV3BOWnR4d1IzR0RaaEZOSkZvYlpkbGRyUmJCcDJHWlc4VFRMbTJjTjIxSm04MFpUNzdtUG1hRkhQbGh0RzdvMzZWVDg0dW5DelRETXdBaV8wWGxvM3BRNGZQM0xabFlmcGtIcXFqbWhpMVd0amFhM2RnX05rVGcxZTBnRVRHZUctMnNMZjluYV9RUkpmYlhiZHVTNzhDLTA4OWs3TlNRenB5a1pzU2xCQ1oyZw?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "06693ce54d7d",
-   "date": "2026-11-19T12:45Z",
-   "title": "Fusion Fuel to Evaluate Investment Opportunities in Venezuela’s Energy and Natural Resources Sectors",
-   "source": "GlobeNewswire",
-   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQM1RmT0tUbDZMal9McXNpM01VSFlEU1plTUx6UHVPXy1hVVdYREE3Mk5Lei1hZjgwcUVfVWktc2k4cmN5Y2lGZTh1T0NoTWFTSE1JZjh0VE4ydEY0WWZ4X1BPWkp4U2hGNE1nNFNXZVpaNTFkQ1VWZjBEVDRHeTBhNE5QbXRON1kwNk9iZHRlcVRvVWwzWmZlTnkyblluVkIyZVVpeW5laHg4V3ZLUUlEdDU4SUpLVmRVSHpmM0VNZWxyMTRaNkt5NVNZOEdWbEo4UzdkdUFQNW1lSVE1N2Jra3NPMmJJU19VTkZlYXJFWlFNb0w2THFUMnFZWWRpNDBFRWc?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "e2e7e947e5b7",
-   "date": "2026-11-19T12:38Z",
-   "title": "Venezuela promueve el uso de la IA: Busca reducir los residuos y las emisiones sin dejar de producir energía",
-   "source": "Banca y Negocios",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQjNGYmpoZXBGbWVDNTZfeUJzbUh2TVZRbndtdnZtbVpZY0NlbDFBVkgxUGRrSmtPQ2pnNDBIRWNBaHBBOEZxZWFHbERnSFR0SE1aUzB6Nlo4c0pzQzdwSlY4dlY5U1hVY0ZreEV1eFVOaDJTNlhnTGpZRlNOWS13eng3T0JBVjllb3BEQmY1SUZEYUdfSWkwSFR3cl9OTi1SZlpIN0pLUkc2amhHMmQyd3NPeFNuRno1eEVhTTZ0WFhIQWRHcEUwQUFuc3JHMmh1VnI4MUl3?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "a8b98eeff1cb",
-   "date": "2026-11-19T12:22Z",
-   "title": "¿Qué papel juega el petróleo venezolano en la pugna geopolítica? Periodista Verónica Díaz Hung en exclusiva",
-   "source": "La iguana TV",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORUNBSE9Ca2R3VFhGdEFaWVBZdVY2a2UxSURiR3NlZFFkaTBJMHRGVHNva2gwaGRpZXNfR0gzNi1IUDJkZkU2TjNjRHhqNzFFbWU1ZFdBRDR2X0VWZzlDVUhaWmdUNVVIcUVVQ2N5TlVfNHdGbkdkNHRZT19zejk0NGpvWFdOaVda?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "bc8831aa77f0",
-   "date": "2026-11-19T12:12Z",
-   "title": "Kazakhstan’s Oil Output Plummets After Drone Attacks Forced Exporting Terminal Closure, Sources Say",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUEN3X1RsX3VzbUFYalIxUExOdi1DaVBsNnVkTV9LS0F4dm9XS2xxc0p5UmxzWWVzblYzZzlRMnBHMVNqX1pQeFhmcnFxX0ROQmo2TWRWYUlFZC1xdlcyUzJfT0VOMWhoaUxOZWx3OVc2M2JYQzkxeHZuakxVc2NjZ25GaGNzQjF4aThHR1lydWdXZ2NJM0ZpWERqdTN3VUxNbW01UnVwV3BPd25IZDV4d002U0RyZ0djZFVPSGdUUEZiTDIzaWp3?oc=5",
-   "category": "Exports",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
-   "id": "e17a4e3b89dd",
-   "date": "2026-11-19T12:09Z",
-   "title": "Trump Says U.S. Will Soon Refill Strategic Oil Reserves at No Cost — Could Venezuela Be the Answer and What Does That Mean Canadian Producers?",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaGpOY09hOWY1cS1uUVZTUnRUYTdqTExIQm9aM3ExWTAtRHJrbkplWWxuMENHSG1JUVVJM2Q4UG1wYjNCMlBTUVRpd19WeFJhM0lFUWZ2YXd0dldRTnNxSFFlTURqVGc5MnJDTl9PalEzOUJFQUFoTnlTcW53U3FXaE5CdE5USWt1ck1LSFBMRVUxeVhnX1VNNUR3cmVwcVBKMG5qRlNmOUtYNWtxT0M4Rk9SWFdKaGU2aERwZGhzaVNrMjdVZDZLWTFzTlI5alJvMENRVHVTeXp6NkFGQ1dzcTlWNEo2VGprVXlvRFpXR25nWkNQOG50Y2dLZWw?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "52c06f2b1e0f",
-   "date": "2026-11-19T12:07Z",
-   "title": "Reuters: Venezuela plantea usar IA para reducir emisiones sin frenar la producción petrolera",
-   "source": "El Cooperante",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRml2S3dGZmh6cWJLUWdEa254ejI3b2VhTFNuUTRnazJ1ZEVpZjc3a3ltMkQ3aEVOVUpWRWsyMHNoZ3BoRGNYelZpY2w5blN6VVdSR19MZFN0ZTVNUnkyOVlmNXoxZTJ2eVJxOHcyaWhJaFU0b1FtMjliUHQzVWtmdzcwbXFKUGtFMlBSRmlqRjhwUEl5amhXWVF2anJUcVZUVTVKc0ZKellNSHY4aWUzQmF2RF9OVG5K?oc=5",
-   "category": "Production",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "968bf484c741",
-   "date": "2026-11-19T12:07Z",
-   "title": "Trump Announces Sweeping US Grab for Control of Venezuela’s Vast Oil Reserves",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdWp5cm9nWmpEZGZzaHU2amh5MHVQR1paWHUxVE9CaHM2VzRPeGJ1UDBlSjNVRWhmZEUtRjdhUUZHejVTNXFHenFqUUxDeFVWa09sVjFZaVczZ1NBaWNmb09WeVpYTllXcVNseUZ2NVJTVUhlME1vNV9tN0hmOUt1Wk9DQlk5V25jTWxLRnNGT242X1pfa0tyWE1IdHBma0IxSndtWm8yNVZBSW5GT25yUFRSMkxwNHlSLVRpS0tR?oc=5",
-   "category": "General",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "aa9f620d4a02",
-   "date": "2026-11-19T12:03Z",
-   "title": "Venezuela’s Promised Elections Face Long Delays – Trump Oil-Related Deals the Priority",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdm5CSWRwdnQwa2VSNUFNU2V1VHZ1VEFsLUhTSFBTQ3FFUnFvNzN3RkR6Qjg0TXpwVVBwOVpjNm1XN3U1QVYxbVNGU05nTnM0QjVjV3dBYWpPbWhzd3p3V0NNWFhzdmlvS0o4WGE1Q2hfUEhwdVF6MldjTUp1ekpKbDRRVm0tWmczX3VleExNQkJpVlNPVDV6SzBWM1BYUkhwMXNCbXdOMC02RGktTmVMMHY4SQ?oc=5",
-   "category": "Investment",
-   "via": "Google News: Venezuela oil",
-   "origin": "rss"
-  },
-  {
-   "id": "d7a839e7e281",
-   "date": "2026-11-19T11:44Z",
-   "title": "CVX (NYSE:CVX) Record Refinery Throughput Nearly Triples Chevron Profit as Cash Flow Rises",
-   "source": "Kalkine Media",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZZTjRMTHJPbEh1Zmx0X2h5blg3SVRrdHVrYVpUN3pMa0w4RC1FeERyWV9qc2ZPVktlV190VHFXWTJob1hQNXgtU3JYa21jQW5iMGJnQ2JQZ2NneXg2NjNyQzJvSzNlcjBYNnZZSE9LOUZtZTlOY3N4bHlQOGxwNHVWYTIxZmhWaUNuMFEtdzBxSEp5X25TWVZXcWRwTVZwSVJCaThsQmxIcTNQRUZLOFRLbE9ORjRzTVlnWHpBMlo3MGVqMmZ4VVpn?oc=5",
-   "category": "Refining",
-   "via": "Google News: Chevron Venezuela",
-   "origin": "rss"
-  },
-  {
-   "id": "a620f775ba27",
-   "date": "2026-11-19T11:37Z",
-   "title": "Hegseth es el primer jefe del Pentágono que visita Venezuela en décadas. Link en los comentarios. 👇",
-   "source": "Facebook",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTHl2RERnU1A3Tkx4WEk1N1RZaW9SdGRYYU5tQkk1eDZxTXpWX2ptamhyMFhHWmZHc01nSnRqT0RRY1VrLXNxXzRpUGhNWHhwamZmaHlaZFZnN3lTNzZPekRPQU9pOUtmZ01NR1d2X3R4NVBUdWxEakJ4bmpzQTVnVVhIYm9NZzM5YjI5djJmQWpFaTJYRGswdDZrdmFUQlRjT0tGUFYyc2gyQ2VjVmM4NnJCMC1EY3RTVkhoeHA5R21Hb05CQUIwZTRheFBxb1JXdFp6LTBKWXNfanFXeUozNWFCTGtHZVk?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "47a483af40f1",
-   "date": "2026-11-19T11:35Z",
-   "title": "Venezuela apuesta por la IA para producir petróleo con menos emisiones",
-   "source": "Finanzas Digital",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMEpXWmJCU2xNOGRGUjVnQXUyMEp1c1lrV2U2NWpEbFhaSm84VzVUM2ZBaDN0N1AyTk90SFVNc2RMM0FkR0dhREpOQmxPZDlrUzc0STQwejB3YVZGZlQzcnozZlNNVXhTQWh5d1U0Y1pmVXgzcG9VdGMtNWM5WFBTWU91WWlQUQ?oc=5",
-   "category": "General",
-   "via": "Google News ES: petróleo venezolano",
-   "origin": "rss"
-  },
-  {
-   "id": "640b4df9f3d1",
-   "date": "2026-11-19T11:30Z",
-   "title": "Oil Prices Edge Higher as Middle East Shipping Attacks Counter Growing Global Supply Surplus",
-   "source": "EnergyNow",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZkdhcnlHT3A4dmhZbnJxSFQ4b2RENTBTdUdXQjhVR1p0bUpsUmFKTTlBTWhOT3Z6TnRTbDhMOVo5YzhrV3M5UEg1VkNiQ01ETGpmVkNLRUdJZ3pUTURwamJIaTE3Sm9HVUhneTA2dHFBaXI4ay1Hc1NZYVd1WDU3UXNKZS1PUk84Ync2YlB6VzdEWmJ1MktjT1VSSTlMNTZyVVF5dWV3cTlBalUtUzdvT2otWVlGTlNVSGpBRlVwUQ?oc=5",
-   "category": "Pricing",
-   "via": "Google News: Venezuela oil exports tanker",
-   "origin": "rss"
-  },
-  {
    "id": "c-n35",
    "date": "2026-11-18T12:00Z",
    "title": "Nearly 200 mostly Venezuelan contractors want to turn unpaid PDVSA invoices into audited 'mirror claims' with traceable ownership, to use them as collateral for credit before any debt restructuring (Bloomberg Línea)",
@@ -8073,7 +8073,7 @@
    "origin": "curated"
   }
  ],
- "updated": "2026-11-27T02:00:52Z",
+ "updated": "2026-11-27T11:10:00Z",
  "feeds": [
   "Google News: Venezuela oil",
   "Google News: PDVSA",
@@ -8136,13 +8136,13 @@
    "key_figure": "$2 B"
   },
   {
-   "date": "2026-11-26T17:03Z",
-   "title": "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -Document",
-   "source": "EnergyNow.com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVzB4NHBWMHJWd3JkeGtncFFvUnNQUUlydENIOVRwNUF1QjFicWRXbnBmUUw3czBDRWRVQlJFR0VUMXVqUlRvSnBlLXpLX1NaeC1VOFB3WWQ3T3RlMzAtc2tJMGxYcnE5OGVETVNRRWNhLUdYcDdxOFItY2s3UjZWZmNITzhjbnhnZk1xMUhQNHRQTEZPZmY1b1hZVEs1V1Q2S2lvMm5wX3ptTDQ?oc=5",
-   "category": "Exports",
-   "angle": "Cargo flow: the barrels API16 tracks and verifies",
-   "key_figure": null
+   "date": "2026-11-27T09:27Z",
+   "title": "Eni stock: $2 billion Venezuela investment commitment",
+   "source": "ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSGpESVQ2UV9jQmc4X1BEWG9JTUdrVjFwVGE0MmlvZXVsRC1MWWhEQmJTLW9GQ3FJUmxscFI0SjNPLVdBempmbmdoNEdobHE2RWV4M2t2akk0X2lhdnBnMHY5SWxnZmxFdXlZVUhWTkFpcllqd2FaMEY5M2tGN2JPaXlobjl6MW1LUDV2S3EtM1B4TWpfZU1nOEk0NkRHZzJKbmtYbnZ1ZUpTSXlRclhYU3llZ1M?oc=5",
+   "category": "Investment",
+   "angle": "Future barrels in the pipeline",
+   "key_figure": "$2 b"
   }
  ]
 }
